@@ -1,0 +1,4551 @@
+{
+    "_meta": {
+		"sources": [
+            {
+				"json": "PT:G&G",
+				"abbreviation": "PT:G&G",
+				"full": "Guns & Gears Playtest",
+				"url": "https://downloads.paizo.com/PZO2109_GGCharacterPlaytest.pdf",
+				"authors": [
+					"Paizo"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.1"
+            },
+            {
+				"json": "PT:SoM",
+				"abbreviation": "PT:SoM",
+				"full": "Secrets of Magic Playtest",
+				"url": "https://downloads.paizo.com/SecretsofMagic_Playtest.pdf",
+				"authors": [
+					"Paizo"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.1"
+			},
+			{
+				"json": "PT:APG",
+				"abbreviation": "PT:APG",
+				"full": "Advanced Player's Guide Playtest",
+				"url": "https://paizo-images.s3-us-west-2.amazonaws.com/image/download/PZO2105+Character+Playtest.pdf",
+				"authors": [
+					"Paizo"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.1"
+			}
+		],
+		"dateAdded": 1613283714,
+		"dateLastModified": 1613283717
+    },
+	"class": [
+		{
+			"name": "Gunslinger",
+			"source": "PT:G&G",
+			"page": 3,
+			"HP": 8,
+			"keyAbility": "Dexterity",
+			"rarity": "Uncommon",
+			"initialProficiencies": {
+				"perception": "E",
+				"fort": "E",
+				"ref": "E",
+				"will": "T",
+				"skills": {
+					"t": [
+						"Crafting",
+						"one or more skills determined by your way."
+					],
+					"add": 3
+				},
+				"attacks": {
+					"e": [
+						"simple firearms and crossbows",
+						"martial firearms and crossbows"
+					],
+					"t": [
+						"advanced firearms and crossbows",
+						"simple weapons",
+						"martial weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"t": [
+						"light armor",
+						"unarmored defense"
+					]
+				},
+				"classDc": {
+					"prof": "T",
+					"entry": "Trained in gunslinger class DC"
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					1,
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Gunslinger|PT:G&G|1",
+				"Initial Proficiencies|Gunslinger|PT:G&G|1",
+				"Gunslinger Feats|Gunslinger|PT:G&G|1",
+				{
+					"classFeature": "Gunslinger's Way|Gunslinger|PT:G&G|1",
+					"gainSubclassFeature": true
+				},
+				"Skill Feats|Gunslinger|PT:G&G|2",
+				"General Feats|Gunslinger|PT:G&G|3",
+				"Skill Increases|Gunslinger|PT:G&G|3",
+				"Stubborn|Gunslinger|PT:G&G|3",
+				"Ability Boosts|Gunslinger|PT:G&G|5",
+				"Ancestry Feats|Gunslinger|PT:G&G|5",
+				"Gunslinger Weapon Mastery|Gunslinger|PT:G&G|5",
+				"Vigilant Senses|Gunslinger|PT:G&G|7",
+				"Weapon Specialization|Gunslinger|PT:G&G|7",
+				"Advanced Deed|Gunslinger|PT:G&G|9",
+				"Gunslinger Expertise|Gunslinger|PT:G&G|9",
+				"Evasion|Gunslinger|PT:G&G|11",
+				"Gunslinging Legend|Gunslinger|PT:G&G|13",
+				"Light Armor Expertise|Gunslinger|PT:G&G|13",
+				"Greater Deed|Gunslinger|PT:G&G|15",
+				"Greater Weapon Specialization|Gunslinger|PT:G&G|15",
+				"Juggernaut|Gunslinger|PT:G&G|17",
+				"Shootist's Edge|Gunslinger|PT:G&G|17",
+				"Incredible Senses|Gunslinger|PT:G&G|19",
+				"Light Armor Mastery|Gunslinger|PT:G&G|19"
+			],
+			"subclasses": [
+				{
+					"name": "Way of the Drifter",
+					"type": "Gunslinger's Way",
+					"shortName": "Drifter",
+					"source": "PT:G&G",
+					"page": 6,
+					"subclassFeatures": [
+						"Gunslinger's Way|Gunslinger|PT:G&G|Drifter|PT:G&G|1"
+					]
+				},
+				{
+					"name": "Way of the Pistolero",
+					"type": "Gunslinger's Way",
+					"shortName": "Pistolero",
+					"source": "PT:G&G",
+					"page": 6,
+					"subclassFeatures": [
+						"Gunslinger's Way|Gunslinger|PT:G&G|Pistolero|PT:G&G|1"
+					]
+				},
+				{
+					"name": "Way of the Sniper",
+					"type": "Gunslinger's Way",
+					"shortName": "Sniper",
+					"source": "PT:G&G",
+					"page": 7,
+					"subclassFeatures": [
+						"Gunslinger's Way|Gunslinger|PT:G&G|Sniper|PT:G&G|1"
+					]
+				}
+			],
+			"flavor": [
+				"A searing flash, the cloying stench of black smoke, and the wild kick of a roaring firearm— these sensations propel you forward. Wielding an unusual and deadly weapon, you’re prepared to wade into any fray, trusting your sharpened reflexes to help you evade any threats that make it inside your range of fire. Always alert, you stay on the lookout for the next threat or opportunity, keeping your gun within reach and at the ready."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"You strike from range with your firearms, seeking to defeat your opponents before they get close enough to pose a true threat. Depending on your choice of weapon, you might prefer to strike your opponent from a hidden position before they ever realize you’re there, to dash through a frenzied melee with pistols blazing, or to glide effortlessly across the battlefield while waiting for the perfect moment to end the conflict with a single, well-placed shot."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "During social encounters...",
+					"entries": [
+						"You have a keen eye and can see things coming from farther away than most. You might not be the life of the party, but your companions know to pay attention when your subtle nod or concerned grunt indicates that something is amiss."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "While exploring...",
+					"entries": [
+						"You scout around the group’s position for incoming threats and help search for secret doors and hidden passages, keeping a sharp eye out for unexpected threats."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "In downtime...",
+					"entries": [
+						"You might craft ammunition or keep your complex weapons clean and maintained. You might also look for jobs that match your unique talents, such as working as a blacksmith, engineer, or part of the local watch. You might even wander from town to town, or stay put for a spell to enjoy the silence that falls between the reports of gunshots."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Seek out areas of great conflict where your unique choice of weaponry can help you build your reputation.",
+								"Explore new horizons, trusting your deadly weapon to keep you safe.",
+								"Demonstrate extensive knowledge about various types of guns and ammunition, along with a boundless curiosity about the latest in gun technology."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Assume that since you know how your gun works, you must also understand other mechanical challenges.",
+								"Underestimate you at first glance as just someone who fights with a gun.",
+								"Respect your constant vigilance, unyielding grit, and excellent aim."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inventor",
+			"source": "PT:G&G",
+			"page": 15,
+			"HP": 8,
+			"keyAbility": "Intelligence",
+			"rarity": "Uncommon",
+			"initialProficiencies": {
+				"perception": "T",
+				"fort": "E",
+				"ref": "T",
+				"will": "E",
+				"skills": {
+					"t": [
+						"Crafting"
+					],
+					"add": 3
+				},
+				"attacks": {
+					"t": [
+						"simple weapons",
+						"martial weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"t": [
+						"light armor",
+						"medium armor",
+						"unarmored defense"
+					]
+				},
+				"classDc": {
+					"prof": "T",
+					"entry": "Trained in inventor class DC"
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					1,
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Inventor|PT:G&G|1",
+				"Initial Proficiencies|Inventor|PT:G&G|1",
+				"Explode|Inventor|PT:G&G|1",
+				{
+					"classFeature": "Innovation|Inventor|PT:G&G|1",
+					"gainSubclassFeature": true
+				},
+				"Inventor Feats|Inventor|PT:G&G|1",
+				"Overdrive|Inventor|PT:G&G|1",
+				"Peerless Inventor|Inventor|PT:G&G|1",
+				"Skill Feats|Inventor|PT:G&G|2",
+				"General Feats|Inventor|PT:G&G|3",
+				"Reconfigure|Inventor|PT:G&G|3",
+				"Skill Increases|Inventor|PT:G&G|3",
+				"Ability Boosts|Inventor|PT:G&G|5",
+				"Ancestry Feats|Inventor|PT:G&G|5",
+				"Weapon Innovator|Inventor|PT:G&G|5",
+				"Lightning Reflexes|Inventor|PT:G&G|7",
+				"Offensive Boost|Inventor|PT:G&G|7",
+				"Weapon Specialization|Inventor|PT:G&G|7",
+				{
+					"classFeature": "Breakthrough Innovation|Inventor|PT:G&G|9",
+					"gainSubclassFeature": true
+				},
+				"Inventive Expertise|Inventor|PT:G&G|9",
+				"Medium Armor Expertise|Inventor|PT:G&G|11",
+				"Resolve|Inventor|PT:G&G|11",
+				"Alertness|Inventor|PT:G&G|13",
+				"Weapon Mastery|Inventor|PT:G&G|13",
+				"Complete Reconfiguration|Inventor|PT:G&G|15",
+				"Greater Weapon Specialization|Inventor|PT:G&G|15",
+				"Juggernaut|Inventor|PT:G&G|15",
+				"Inventive Mastery|Inventor|PT:G&G|17",
+				{
+					"classFeature": "Revolutionary Innovation|Inventor|PT:G&G|17",
+					"gainSubclassFeature": true
+				},
+				"Infinite Invention|Inventor|PT:G&G|19",
+				"Medium Armor Mastery|Inventor|PT:G&G|19"
+			],
+			"subclasses": [
+				{
+					"name": "Armor",
+					"type": "Innovation",
+					"shortName": "Armor",
+					"source": "PT:G&G",
+					"page": 17,
+					"subclassFeatures": [
+						"Innovation|Inventor|PT:G&G|Armor|PT:G&G|1",
+						"Breakthrough Innovation|Inventor|PT:G&G|Armor|PT:G&G|9",
+						"Revolutionary Innovation|Inventor|PT:G&G|Armor|PT:G&G|17"
+					]
+				},
+				{
+					"name": "Construct",
+					"type": "Innovation",
+					"shortName": "Construct",
+					"source": "PT:G&G",
+					"page": 17,
+					"subclassFeatures": [
+						"Innovation|Inventor|PT:G&G|Construct|PT:G&G|1",
+						"Breakthrough Innovation|Inventor|PT:G&G|Construct|PT:G&G|9",
+						"Revolutionary Innovation|Inventor|PT:G&G|Construct|PT:G&G|17"
+					]
+				},
+				{
+					"name": "Weapon",
+					"type": "Innovation",
+					"shortName": "Weapon",
+					"source": "PT:G&G",
+					"page": 17,
+					"subclassFeatures": [
+						"Innovation|Inventor|PT:G&G|Weapon|PT:G&G|1",
+						"Breakthrough Innovation|Inventor|PT:G&G|Weapon|PT:G&G|9",
+						"Revolutionary Innovation|Inventor|PT:G&G|Weapon|PT:G&G|17"
+					]
+				}
+			],
+			"flavor": [
+				"Any tinkerer can follow directions to construct a device, but you invent the impossible! Every contraption you dream up challenges the definition of possibility, even if it only works for you. Driven by innovation, you’re always on the verge of the next great breakthrough."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 15,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"You use your inventions as much as possible, trying them out under a variety of conditions. You’re not after something as banal as simply winning a fight, you’re collecting valuable data to improve your creations!"
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 15,
+					"name": "During social encounters...",
+					"entries": [
+						"You provide useful context in a variety of academic topics, particularly those related to crafting and invention. You might look for opportunities to acquire patronage to fund some of your more expensive or unorthodox experiments."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 15,
+					"name": "While exploring...",
+					"entries": [
+						"You ardently study the construction of your surroundings, taking note of any clever traps, ingenious mechanisms, or especially keen architecture you come across."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 15,
+					"name": "In downtime...",
+					"entries": [
+						"You conceptualize new ideas, bring them to fruition through careful crafting, and revise previous inventions according to data you’ve received in the field. You might work as a local smith or tinkerer where your skills are needed, or you might keep a workshop at the edge of town, where the clanks and clatters of your experiments attract less attention."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 15,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Enjoy creating new things the world has never seen before.",
+								"Be willing to take a chance on a theory and test it to see if it works. And if it doesn’t, stay determined to discover what you need to adjust for next time.",
+								"Wear clothing covered in oil stains and grime, or have a tendency to dive into excited and technical tangents."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 15,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Marvel at your inventions and the wondrous effects they can manifest.",
+								"Believe that you’re a genius whose work goes beyond understanding.",
+								"Worry that your inventions might backfire or explode."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Ancestry and Background",
+			"source": "PT:G&G",
+			"page": 16,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"In addition to the abilities provided by your class at 1st level, you have the benefits of your selected ancestry and background, as described in Chapter 2."
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "PT:G&G",
+			"page": 16,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+			]
+		},
+		{
+			"name": "Inventor Feats",
+			"source": "PT:G&G",
+			"page": 16,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"At 1st level and every even-numbered level, you gain an {@filter inventor class feat|feats|source=PT:G&G|type=class|classes=inventor|level=[1;1]}."
+			]
+		},
+		{
+			"name": "Explode",
+			"source": "PT:G&G",
+			"page": 16,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"Your innovation is a unique creation barely held together by your own creativity and engineering; it’s always on the edge of completely falling apart, though you can coax it to perform far beyond its design specifications using {@trait unstable|PT:G&G} actions.",
+				"While inventors can learn various unstable actions over their career, all at least know how to make their innovation {@action Explode|PT:G&G}.",
+				{
+					"activity": {
+						"number": 2,
+						"unit": "action",
+						"entry": "{@as 2}"
+					},
+					"traits": [
+						"Fire",
+						"Inventor",
+						"Manipulate",
+						"Unstable"
+					],
+					"entries": [
+						"You cause your innovation to blow up, damaging nearby creatures without damaging the innovation... hopefully. The explosion deals {@dice 2d6} fire damage in a 5-foot emanation around you (if you’re wearing or holding the innovation) or your innovation (if your innovation is a {@trait minion}) with a basic Reflex save.",
+						"As your inventor level increases, so does the power of your explosions. At 5th level, and every two levels thereafter, your explosion deals an additional {@dice 1d6} damage. If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area; if you also have the revolutionary innovation class feature, you can additionally choose a 5-foot, 10-foot, or 15-foot emanation."
+					],
+					"type": "ability",
+					"name": "Explode"
+				}
+			]
+		},
+		{
+			"name": "Innovation",
+			"source": "PT:G&G",
+			"page": 17,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"While you always create various minor inventions, there’s one in particular that represents your preeminent work, the one that you hope eventually—with iterative experimentation and refinement—might change the world. Choose one of the innovations from the list below. Your innovation’s level is equal to your level. An innovation only works due to your constant maintenance and tinkering and, therefore, has no market Price. If your innovation is destroyed, you can spend 1 day of downtime and attempt a Crafting check with a high DC for your level; on a success, you rebuild it."
+			]
+		},
+		{
+			"name": "Overdrive",
+			"source": "PT:G&G",
+			"page": 18,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"You have a bevy of smaller devices affixed to your body and gear, from muscle stimulators to concussive pistons. When necessary, you can throw them into overdrive to assist you in combat.",
+				{
+					"activity": {
+						"number": 1,
+						"unit": "action",
+						"entry": "{@as 1}"
+					},
+					"traits": [
+						"Inventor",
+						"Manipulate"
+					],
+					"entries": [
+						"You add greater power to your attacks by throwing an array of small gadgets and gizmos into overdrive. Attempt a {@skill Crafting} check with a standard DC for your level.",
+						{
+							"type": "success_degree",
+							"entries": {
+								"Critical Success": "You gadgets whir with overwhelming power. Your {@action Strike|CRB|Strikes} deal additional damage equal to your Intelligence modifier for 1 minute. You can’t use {@action Overdrive|PT:G&G} again until 1 minute after the effect expires.",
+								"Success": "You successfully throw your gadgets into overdrive. As critical success, except the additional damage is equal to half your Intelligence modifier.",
+								"Failure": "You make a miscalculation and fail to power up your devices, but you can try again.",
+								"Critical Failure": "Whoops! Something explodes. You take fire damage equal to your level. You can’t use {@action Overdrive|PT:G&G} again for 1 minute."
+							}
+						}
+					],
+					"type": "ability",
+					"special": "If you have a construct innovation, its {@action Strike|CRB|Strikes} also gain the additional damage, and if you critically fail your {@skill Crafting} check, it also takes the fire damage.",
+					"name": "Overdrive"
+				}
+			]
+		},
+		{
+			"name": "Peerless Inventor",
+			"source": "PT:G&G",
+			"page": 18,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"You constantly invent new technologies, rendering your skill at crafting unimpeachable. You gain the {@feat Inventor|CRB} skill feat even if you don’t meet its prerequisites."
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "PT:G&G",
+			"page": 18,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 2,
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a {@filter skill feat|feats|type=skill}. You must be trained or better in the corresponding skill to select a skill feat."
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "PT:G&G",
+			"page": 18,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 3,
+			"entries": [
+				"At 3rd level and every 4 levels thereafter, you gain a {@filter general feat|feats|type=general}."
+			]
+		},
+		{
+			"name": "Reconfigure",
+			"source": "PT:G&G",
+			"page": 18,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 3,
+			"entries": [
+				"You’ve become an expert in all crafts and always adjust your inventions to achieve the perfect configurations. You can attempt to change the modifications on your innovation by spending 1 day of downtime tinkering with it and attempting a {@skill Crafting} check with a high DC for your level. On a success, you can change one modification you’ve chosen for your innovation to a different modification of the same kind (initial, breakthrough, or revolutionary).",
+				"If you have any {@trait modification|PT:G&G} feats, on a successful check, you can choose to instead {@action retraining|CRB} a {@trait modification|PT:G&G} feat to a different {@trait modification|PT:G&G} feat. The new feat has to meet the standard restrictions for {@action retraining|CRB}."
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "PT:G&G",
+			"page": 18,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 3,
+			"entries": [
+				"Like most classes, a gunslinger’s ability to use skills increases as they gain levels. At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you’re untrained in, or become an expert in one skill in which you’re already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you’re already an expert, and at 15th level, you can use them to become legendary in a skill in which you’re already a master."
+			]
+		},
+		{
+			"name": "Ability Boosts",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 5,
+			"entries": [
+				"At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it’s already 18 or above or by 2 if it starts out below 18."
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 5,
+			"entries": [
+				"In addition to the ancestry feat you started with, you gain an {@filter ancestry feat|feats|type=ancestry} at 5th level and every 4 levels thereafter."
+			]
+		},
+		{
+			"name": "Weapon Innovator",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 5,
+			"entries": [
+				"You develop tricks for using your weapons more effectively. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to expert.",
+				"If you have a weapon innovation, you gain access to the critical specialization effect with your innovation."
+			]
+		},
+		{
+			"name": "Lightning Reflexes",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 7,
+			"entries": [
+				"Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 7,
+			"entries": [
+				"You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you’re an expert. This damage increases to 3 if you’re a master, and 4 if you’re legendary."
+			]
+		},
+		{
+			"name": "Offensive Boost",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 7,
+			"entries": [
+				"You’ve made additions to your innovation to upgrade your offensive capabilities. {@action Strike|CRB|Strikes} that rely on your innovation deal an additional {@dice 1d6} damage with a type determined by the boost you choose. If your innovation is armor, the boost applies to your melee unarmed {@action Strike|CRB|Strikes} and to your melee {@action Strike|CRB|Strikes} with one weapon you choose during daily preparations; if your innovation is a construct, the boost applies to your construct companion’s Strikes; and if your innovation is a weapon, the boost applies to your {@action Strike|CRB|Strikes} with your innovation. You can spend downtime to switch to a different boost in the same way as switching your modification with Reconfigure.",
+				{
+					"type": "pf2-options",
+					"style": "pf2-p",
+					"skipSort": true,
+					"items": [
+						{
+							"type": "item",
+							"name": "Chill (cold)",
+							"entries": [
+								"Your innovation rapidly absorbs heat, creating an intense chill."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Ignition (fire)",
+							"entries": [
+								"Your innovation shoots out jets of flame."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Jolt (electricity)",
+							"entries": [
+								"Your innovation jolts foes with electricity."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Momentum (bludgeoning)",
+							"entries": [
+								"Your innovation slams into foes with added momentum."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Saw (slashing)",
+							"entries": [
+								"Your innovation (or its ammunition) employs spinning sawblades during your attacks."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Spike (piercing)",
+							"entries": [
+								"Your innovation (or its ammunition) employs wicked spikes during your attacks."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Vitriol (acid)",
+							"entries": [
+								"Your innovation releases spurts of caustic acid."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Breakthrough Innovation",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				"You’ve made a breakthrough in your field of study and discovered a powerful new way to enhance your innovation. Choose a breakthrough modification for the appropriate type of innovation to apply. You can choose an initial modification for the same innovation type instead if you prefer."
+			]
+		},
+		{
+			"name": "Inventive Expertise",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				"Through innovation and experimentation, you’ve made your inventions more effective and reliable. Your proficiency rank for your inventor class DC increases to expert."
+			]
+		},
+		{
+			"name": "Medium Armor Expertise",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 11,
+			"entries": [
+				"You’ve learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
+			]
+		},
+		{
+			"name": "Resolve",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 11,
+			"entries": [
+				"You’ve steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Alertness",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 13,
+			"entries": [
+				"You remain alert to threats around you. Your proficiency rank for {@skill Perception} increases to expert."
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 13,
+			"entries": [
+				"You fully understand your weapons. Your proficiency ranks for simple and martial weapons and unarmed attacks increase to master."
+			]
+		},
+		{
+			"name": "Complete Reconfiguration",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+				"When it comes to crafting and tinkering, you’ve become incredibly adept at changing modifications. When you spend downtime to reconfigure your innovation and succeed at your Crafting check, you can swap any number of modifications, swap your offensive boost, or retrain any number of modification feats. You must swap a modification only with one of the same type (initial, breakthrough, or revolutionary)."
+			]
+		},
+		{
+			"name": "Greater Weapon Specialization",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+				"Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary."
+			]
+		},
+		{
+			"name": "Juggernaut",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+				"Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Inventive Mastery",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				"Your inventions are incredibly effective. Your proficiency rank for your inventor class DC increases to master."
+			]
+		},
+		{
+			"name": "Revolutionary Innovation",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				"You’re an unparalleled genius and have discovered a technique that will revolutionize your chosen field— or, for the time being, your innovation! Choose a revolutionary modification for the appropriate type of innovation to apply. You can choose an initial or breakthrough modification for the same innovation type instead if you prefer."
+			]
+		},
+		{
+			"name": "Infinite Invention",
+			"source": "PT:G&G",
+			"page": 22,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 19,
+			"entries": [
+				"Your ability to adjust your innovation has reached impossible heights. During your daily preparations, you automatically fix your innovation if it’s {@condition destroyed} or {@condition broken}, and you can change to a different innovation (armor, construct, weapon, or other type you have access to) and change your modifications and offensive boost.",
+				"If you have any feats that had your previous innovation as a prerequisite, you can’t use them until you retrain the feats as normal. However, it takes only 1 day of downtime to retrain such a feat into a feat that has your new innovation as a prerequisite, instead of 1 week."
+			]
+		},
+		{
+			"name": "Medium Armor Mastery",
+			"source": "PT:G&G",
+			"page": 22,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"level": 19,
+			"entries": [
+				"Your skill with armor improves, helping you avoid more blows. Your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master."
+			]
+		},
+		{
+			"name": "Ancestry and Background",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"In addition to the abilities provided by your class at 1st level, you have the benefits of your selected ancestry and background, as described in Chapter 2."
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+			]
+		},
+		{
+			"name": "Gunslinger Feats",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"At 1st level and every even-numbered level, you gain a gunslinger class feat."
+			]
+		},
+		{
+			"name": "Gunslinger's Way",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				"All gunslingers have a particular way they follow, a combination of philosophy and combat style that defines both how they fight and the weapons they excel with. Your way grants you proficiency with a particular skill and unique actions, such as an initial deed gained at 1st level (as described on pages 5–7).",
+				"The following gunslinger ways are presented in this playtest.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Way of the Drifter:",
+							"entries": [
+								"You wander across the battlefield, equally at home in and out of the fray."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Way of the Pistolero:",
+							"entries": [
+								"You carefully maintain your distance at a duelist’s ten paces with pistol in hand."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Way of the Sniper:",
+							"entries": [
+								"You practice a methodical style of shooting, striking from far cover."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 2,
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a {@filter skill feat|feats|type=skill}. You must be trained or better in the corresponding skill to select a skill feat."
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 3,
+			"entries": [
+				"At 3rd level and every 4 levels thereafter, you gain a {@filter general feat|feats|type=general}."
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "PT:G&G",
+			"page": 4,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 3,
+			"entries": [
+				"Like most classes, a gunslinger’s ability to use skills increases as they gain levels. At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you’re untrained in, or become an expert in one skill in which you’re already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you’re already an expert, and at 15th level, you can use them to become legendary in a skill in which you’re already a master."
+			]
+		},
+		{
+			"name": "Stubborn",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 3,
+			"entries": [
+				"You don’t like being told what to do, and you don’t give up easily. Your proficiency rank for Will saves increases to expert. Whenever you fail, but not critically fail, a Will save against an effect that would give you the controlled condition, you can attempt a new save against the effect at the start of your next turn. On a successful save, the controlled condition ends, though any other effects remain."
+			]
+		},
+		{
+			"name": "Ability Boosts",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 5,
+			"entries": [
+				"At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it’s already 18 or above or by 2 if it starts out below 18."
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 5,
+			"entries": [
+				"In addition to the ancestry feat you started with, you gain an {@filter ancestry feat|feats|type=ancestry} at 5th level and every 4 levels thereafter."
+			]
+		},
+		{
+			"name": "Gunslinger Weapon Mastery",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 5,
+			"entries": [
+				"You fully understand the best way to utilize your unique weapons. Your proficiency rank increases to master with simple and martial firearms and crossbows. Your proficiency rank for advanced firearms and crossbows, simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for firearms."
+			]
+		},
+		{
+			"name": "Vigilant Senses",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 7,
+			"entries": [
+				"Through your adventures, you’ve developed keen awareness and attention to detail. Your proficiency rank in {@skill Perception} increases to master."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 7,
+			"entries": [
+				"You’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master and 4 if you’re legendary."
+			]
+		},
+		{
+			"name": "Advanced Deed",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				"You’ve learned a powerful new technique of your chosen way. You gain the advanced deed ability of the way you chose at 1st level."
+			]
+		},
+		{
+			"name": "Gunslinger Expertise",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				"Your special shots are harder for opponents to predict or resist. Your proficiency rank for your gunslinger class DC increases to expert."
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 11,
+			"entries": [
+				"You’ve learned to move quickly to avoid explosions, dragon breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Gunslinging Legend",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 13,
+			"entries": [
+				"You’ve learned unique techniques for wielding firearms that give you unmatched skill in their use. Your proficiency rank increases to legendary with simple and martial firearms and crossbows and to master with advanced firearms and crossbows. In addition, choose one additional weapon group, such as bombs or swords. Your proficiency with simple and martial weapons from this group increases to master."
+			]
+		},
+		{
+			"name": "Light Armor Expertise",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 13,
+			"entries": [
+				"You’ve learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert."
+			]
+		},
+		{
+			"name": "Greater Deed",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+				"You’ve mastered the pinnacle technique of your chosen way. Your gain the greater deed ability of the way you chose at 1st level."
+			]
+		},
+		{
+			"name": "Greater Weapon Specialization",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+				"Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you’re an expert, 6 if you’re a master, and 8 if you’re legendary."
+			]
+		},
+		{
+			"name": "Juggernaut",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				"Your body has become accustomed to physical hazards and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Shootist's Edge",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				"You can make shots that others would consider impossible. Your proficiency rank for your gunslinger class DC increases to master. When using a ranged weapon in which you have master or greater proficiency, you can ignore the penalty for attacking within the weapon’s second and third range increments."
+			]
+		},
+		{
+			"name": "Incredible Senses",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 19,
+			"entries": [
+				"You notice things most ordinary people can’t detect. Your proficiency rank for {@skill Perception} increases to legendary."
+			]
+		},
+		{
+			"name": "Light Armor Mastery",
+			"source": "PT:G&G",
+			"page": 5,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"level": 19,
+			"entries": [
+				"Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Gunslinger's Way",
+			"source": "PT:G&G",
+			"page": 6,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Drifter",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 6,
+					"name": "Way of the Drifter",
+					"entries": [
+						"You’re a wanderer traveling from land to land with your gun and a melee weapon as company. Whether you learned to fight with a cutlass and pistol as a Shackles pirate, mastered the hand cannon and katana in Minkai, or practiced with a clan dagger and dueling pistol in Dongun Hold, movement and flexible use of your weapons help you win battles.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Way Skill",
+									"entries": [
+										"Acrobatics"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Deeds",
+									"entries": [
+										"{@i Initial} Into the Fray; {@i Advanced} Rebounding Assault; {@i Greater} Drifter’s Wake"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gunslinger's Way",
+			"source": "PT:G&G",
+			"page": 6,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Pistolero",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 6,
+					"name": "Way of the Pistolero",
+					"entries": [
+						"Whether you’re a professional duelist or a pistol-twirling entertainer, you have quick feet and quicker hands that never seem to let you down. You might leave a hand free, fight with twin pistols, or duel at any range like a musketeer with pistol and blade.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Way Skill",
+									"entries": [
+										"Deception or Intimidation"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Deeds",
+									"entries": [
+										"{@i Initial} Ten Paces; {@i Advanced} Pistolero's Retort; {@i Greater} Finish the Job"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gunslinger's Way",
+			"source": "PT:G&G",
+			"page": 7,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Sniper",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 7,
+					"name": "Way of the Sniper",
+					"entries": [
+						"You practice a style of shooting that seeks to ensure that your first shot is perfectly placed. You keep hidden or at a distance, staying out of the fray and bringing unseen death to your foes.",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Way Skill",
+									"entries": [
+										"Stealth"
+									]
+								},
+								{
+									"type": "item",
+									"name": "Deeds",
+									"entries": [
+										"{@i Initial} One Shot; {@i Advanced} Vital Shot; {@i Greater} Ghost Shot"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Innovation",
+			"source": "PT:G&G",
+			"page": 17,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Armor",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 17,
+					"name": "Armor",
+					"entries": [
+						"Your innovation is a cutting-edge suit of medium armor with a variety of attached gizmos and devices. Your innovation armor has the following statistics: {@b AC Bonus} +4; {@b Dex Cap} +1; {@b Check Penalty} –2; {@b Speed Penalty} –5 feet; {@b Strength} 16; {@b Bulk} 2; {@b Group} composite; {@b Armor Traits} —. Your innovation armor can have fundamental and property runes added to it in the same way as ordinary armor. Because of the unique features of your innovation, everyone except you is untrained in it, even if they’re normally trained (or better) in medium armor.",
+                        "Choose one initial armor modification to apply to your innovation, either from the following or from other initial armor modifications to which you have access. The initial modification grants you resistance equal to 2 + half your level to a number of damage types while you wear the armor. The damage types are listed in parentheses after the modification’s name.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Harmonic Oscillator (force, sonic)",
+									"entries": [
+										"You designed your armor to inaudibly thrum at just the right frequency to create interference against force and sound waves."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Metallic Reactance (acid, electricity)",
+									"entries": [
+										"The metals in your armor are carefully alloyed to ground out electricity and protect from acidic chemical reactions."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Otherworldly Protection (see text)",
+									"entries": [
+										"Using science instead of magic, you build your armor with carefully chosen materials and gadgets to protect yourself against otherworldly attacks. One of your types of resistance is to negative damage, or to positive damage if you have negative healing (such as if you’re a dhampir). Your resistance also applies to any types of alignment damage (good, evil, chaotic, lawful) that can damage you (note that creatures are immune to a given type of alignment damage unless they’re of the opposing alignment; for instance, you can take evil damage only if you’re of good alignment)."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Thermal Insulation (cold, fire)",
+									"entries": [
+										"A layer of insulation within your armor protects you from rapid temperature fluctuations."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Innovation",
+			"source": "PT:G&G",
+			"page": 17,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Construct",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 17,
+					"name": "Construct",
+					"entries": [
+						"Your innovation is a clockwork construct of cogs and gears. This innovation is a prototype construct companion (page 26), and you can adjust most of its base statistics by taking feats at higher levels, such as Advanced Companion. If you have the Overdrive action (page 18) and use it after you’ve already Commanded your construct during the same turn, your construct also gains the same Overdrive benefits you do.",
+                        "Choose one initial construct modification to apply to your innovation, either from the following or from other initial construct modifications to which you have access. These modifications alter the construct’s abilities or form.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Amphibious Construction",
+									"entries": [
+										"Increased buoyancy, rudders, and a means of propulsion—like an articulated tail with flukes or a powerful propeller—allow your construct to travel in water. Your innovation gains a swim Speed of 25 feet."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Sensory Array",
+									"entries": [
+										"Additional sensory devices grant your innovation low-light vision and darkvision as well as imprecise tremorsense out to a range of 30 feet."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Accelerated Mobility",
+									"entries": [
+										"Actuated legs, efficient gears in the wheels or treads, or add-on boosters make your construct move faster. Your innovation’s Speed increases to 40 feet."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Projectile Launcher",
+									"entries": [
+										"Your construct has a mounted dart launcher, embedded cannon, or similar armament. Your innovation gains a ranged unarmed attack that deals {@dice 1d4} bludgeoning or piercing damage (you choose when you pick this modification). It has the {@trait propulsive} trait and a range increment of 30 feet."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Upgraded Cortex",
+									"entries": [
+										"You map specialized skills into your construct’s crude intelligence. Your innovation becomes trained in Intimidation, Stealth, and Survival."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Innovation",
+			"source": "PT:G&G",
+			"page": 17,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Weapon",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 17,
+					"name": "Weapon",
+					"entries": [
+						"Your innovation is an impossible-looking weapon augmented by numerous unusual gadgets. It begins with the same statistics as a level-0 common simple or martial weapon of your choice or another level-0 simple or martial weapon to which you have access. An innovation weapon can have fundamental and property runes added to it in the same way as ordinary weapons. Because of the unique features of your innovation, everyone except you is untrained in it, even if they’re normally trained (or better) in simple or martial weapons.",
+                        "Choose one initial weapon modification to apply to your innovation, either from the following or from other initial weapon modifications to which you have access. These modifications grant additional weapon traits, sometimes with extra abilities.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Complex Simplicity (simple weapon only)",
+									"entries": [
+										"Increase your innovation’s weapon damage die by one step ({@dice d4} to {@dice d6}, {@dice d6} to {@dice d8}, {@dice d8} to {@dice d10}, {@dice d10} to {@dice d12}). In addition, it gains one of the following traits of your choice: {@trait versatile} B, {@trait versatile} P, or {@trait versatile} S."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Entangling Form (melee only)",
+									"entries": [
+										"You’ve altered your weapon to including tangling wires or straps or to have a flexible construction. Your innovation gains the {@trait grapple} and {@trait trip} traits."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Hefty Composition (melee only)",
+									"entries": [
+										"Blunt surfaces and sturdy construction make your weapon hefty and mace-like. Your innovation gains the {@trait shove} and {@trait versatile} B traits."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Modular Head",
+									"entries": [
+										"You’ve constructed a multi-purpose, adjustable striking surface for your weapon, or you’ve made special ammunition you can swiftly alter. Your innovation gains the {@trait modular|PT:G&G} trait for bludgeoning, piercing, and slashing. When you {@action Interact} to use the {@trait modular|PT:G&G} trait, you can also choose to give the weapon the {@trait nonlethal} trait if it doesn’t currently have it or to remove that trait if the weapon is currently {@trait nonlethal}."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Pacification Tools (melee only)",
+									"entries": [
+										"Softer materials make your weapon suited to render foes unconscious instead of kill, and special protrusions let you catch weapons and disarm your foes. Your innovation gains the {@trait disarm} and {@trait nonlethal} traits."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Razor Prongs (melee only)",
+									"entries": [
+										"Adding sharp, curved blades to your weapon allows you to knock down and slash foes. Your innovation gains the {@trait trip} and {@trait versatile} S traits."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Segmented Frame",
+									"entries": [
+										"Hinges, clamps, and telescoping parts make your innovation collapsible and adjustable. It gains the {@trait modular|PT:G&G} trait for bludgeoning, piercing, and slashing. You can {@action Interact} to collapse the item down to light Bulk or to return it to its normal form. When it’s collapsed to light Bulk, it has the concealable trait, which grants you a +2 circumstance bonus to {@skill Stealth} checks and DCs to hide or conceal the weapon."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Breakthrough Innovation",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Armor",
+			"subclassSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 19,
+					"name": "Breakthrough Armor Modifications",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Dense Plating",
+									"entries": [
+										"You’ve encased your armor with incredible plating. While wearing your armor, you gain resistance to slashing damage equal to 2 + half your level."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Enhanced Resistance",
+									"entries": [
+										"You’ve improved upon your initial modification’s ability to resist damage. The resistance from your initial armor modification increases to 2 + your level. If you have more than one initial modification, choose one to apply this modification to."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Heavy Construction",
+									"entries": [
+										"You’ve expanded your innovation into a heavy bulwark while taking none of the drawbacks for doing so. Your innovation becomes heavy armor, and your proficiency in your innovation armor (but no other heavy armor) advances to equal to your proficiency in medium armor. If your Strength score is at least 16, you remove the Speed penalty entirely instead of reducing it to –5 feet. The armor’s statistics are: {@b AC Bonus} +5; {@b Dex Cap} +1; {@b Check Penalty} –2 {@b Speed Penalty} –10 feet; {@b Strength} 16; {@b Bulk} 3; {@b Group} composite; {@b Armor Traits} bulwark."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Layered Mesh",
+									"entries": [
+										"You’ve woven an incredibly powerful network of interlocking mesh around your armor, catching piercing attacks and diffusing them. While wearing your armor, you gain resistance to piercing damage equal to 2 + half your level."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Tensile Absorption",
+									"entries": [
+										"You’ve enhanced the tensile capabilities of your armor, allowing it to bend with bludgeoning attacks. While wearing your armor, you gain resistance to bludgeoning damage equal to 2 + half your level."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Breakthrough Innovation",
+			"source": "PT:G&G",
+			"page": 19,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Construct",
+			"subclassSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 19,
+					"name": "Breakthrough Construct Modifications",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Advanced Weaponry",
+									"entries": [
+										"You’ve upgraded your construct’s weaponry. Choose one of your construct’s unarmed attacks to gain your choice of one initial weapon modification, chosen from the list on page 17 or from other initial weapon modifications to which you have access. The unarmed attack must meet any requirements for the chosen traits (such as being a melee attack for entangling form)."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Climbing Limbs",
+									"entries": [
+										"With appendages that can claw or create suction, your construct becomes a capable climber. Your innovation gains a climb Speed equal to half its land Speed."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Durable Construction",
+									"entries": [
+										"Your innovation is solidly built and can take more punishment before being destroyed. Increase its maximum Hit Points by your level."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Refined Cortex",
+									"entries": [
+										"Your innovation gains expert proficiency in Intimidation, Stealth, and Survival. For any of these skills in which it was already an expert (because of being an advanced construct companion, for example), it gains master proficiency instead. If you have the revolutionary innovation class feature, these proficiencies improve to master, or legendary if your innovation was already an expert. You must have the upgraded cortex modification to select this modification."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Breakthrough Innovation",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Weapon",
+			"subclassSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 20,
+					"name": "Breakthrough Weapon Modifications",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Inconspicuous Appearance (melee only)",
+									"entries": [
+										"Your innovation is built for easy concealment and surprise attacks. It gains the backstabber and versatile P traits. If the weapon has light Bulk, it also gains the concealable trait."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Advanced Rangefinder (ranged only)",
+									"entries": [
+										"A carefully tuned scope or targeting device makes your innovation especially good at hitting weak points. Your innovation gains the {@trait sniper} trait and increases its range increment by 10 feet."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Aerodynamic Construction (melee only)",
+									"entries": [
+										"You carefully engineer the shape of your weapon to maintain its momentum in attacks against successive targets. Your innovation gains the {@trait sweep} trait and the {@trait versatile} S trait."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Integrated Gauntlet (one-handed weapon only; can’t have the two-hand trait)",
+									"entries": [
+										"Combining your weapon with a gauntlet, you make it so that you can quickly switch between attacking with your weapon and tinkering using your hands. Your innovation gains the {@trait free-hand} trait."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Manifold Alloy",
+									"entries": [
+										"You’ve devised several alloys containing the best properties of various metals, replacing parts of your weapon or its ammunition with pieces from these alloys. Your weapon innovation is cold iron and silver, allowing you to deal more damage to some supernatural creatures, such as demons, devils, and fey."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Tangle Line (thrown only)",
+									"entries": [
+										"Your weapon has an extendable line that can be used to knock your enemies over and allow you to quickly recall the weapon. Your innovation gains the {@trait ranged trip|PT:G&G} trait and the {@trait tethered|PT:G&G} trait."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Revolutionary Innovation",
+			"source": "PT:G&G",
+			"page": 20,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Armor",
+			"subclassSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 20,
+					"name": "Revolutionary Armor Modifications",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Energy Barrier",
+									"entries": [
+										"Your armor’s defenses ablate any kind of energy coming your way. While wearing your armor, you gain resistance to all energy damage (acid, cold, electricity, fire, force, negative, positive, and sonic damage) equal to 2 + half your level. You must have the harmonic oscillator, metallic reactance, or thermal insulation modification to select this modification."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Incredible Resistance",
+									"entries": [
+										"You’ve improved upon your breakthrough modification’s ability to resist damage. Choose one of the following breakthrough modifications your innovation has: dense plating, layered mesh, or tensile absorption. The resistance you gain from that modification increases to 2 + your level."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Physical Protections",
+									"entries": [
+										"Your armor has so many adjustments and precautions that it can guard against all physical damage. While wearing your armor, you gain resistance to all physical damage (bludgeoning, piercing, and slashing damage as well as bleed damage) equal to 2 + half your level. You must have the dense plating, layered mesh, or tensile absorption breakthrough modification to select this modification."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Rune Capacity",
+									"entries": [
+										"Whether you’ve dabbled in orichalcum or found another engineering solution, you’ve built your innovation in such a way that it can hold an additional property rune. Your innovation can have one more property rune than a normal item of its kind (to a maximum of four property runes with a +3 potency armor)."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Revolutionary Innovation",
+			"source": "PT:G&G",
+			"page": 21,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Construct",
+			"subclassSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 21,
+					"name": "Revolutionary Construct Modifications",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Flight Chassis",
+									"entries": [
+										"You fit your construct with a means of flight, such as adding rotors or rebuilding it with wings and a lightweight construction. Your innovation gains a fly Speed of 25 feet."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Runic Keystone",
+									"entries": [
+										"By incorporating a runestone-like device into your innovation, you allow it to hold a property rune even though it isn’t a weapon or suit of armor. An armor property rune affects your innovation as if it would affect the wearer of the armor. A weapon property rune grants whatever properties it would normally grant to a weapon to your innovation’s unarmed attacks, following all the requirements as normal (for instance, a {@item vorpal|CRB} rune only applies to slashing melee unarmed attacks); if the rune affects only ranged attacks, it has no effect unless your innovation has a built-in ranged attack (from the projectile launcher initial modification, for example). If the rune would affect the physical shape or appearance of the weapon or armor, like {@item glamered|CRB}, the rune has no effect when etched into your construct."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Resistant Coating",
+									"entries": [
+										"Your innovation is resilient to damage by any means. It gains resistance 5 to all damage (except adamantine)."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Wall Configuration",
+									"entries": [
+										"Your innovation can transform from a mobile construct to a stationary battlefield emplacement. As a 2-action activity that has the {@trait manipulate} trait, your construct unfolds from its usual form into a thin, straight wall of metal and gears up to 10 feet tall and up to 30 feet long. The wall must extend through your innovation’s original space. While your construct is a wall, it can’t take any actions except to use the same activity to transform back, and it can’t defend itself easily, which makes it {@condition flat-footed} and gives it an additional –2 status penalty to its AC. The wall blocks line of sight and effect unless your innovation has half its maximum Hit Points or fewer, at which point holes in the wall allow creatures to see through and attack with standard cover and Tiny creatures to slip past."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+        {
+			"name": "Revolutionary Innovation",
+			"source": "PT:G&G",
+			"page": 21,
+			"className": "Inventor",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Weapon",
+			"subclassSource": "PT:G&G",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 21,
+					"name": "Revolutionary Weapon Modifications",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Attack Refiner",
+									"entries": [
+										"Your weapon makes minute recalibrations after every missed attack to ensure the next lands true. Your innovation gains the {@trait backswing} and {@trait shove} traits."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Deadly Strike",
+									"entries": [
+										"Through precise calculation, you’ve found the perfect shape for your weapon to deal extreme damage on a well-placed strike. Your innovation gains the {@trait deadly} d8 trait. If your innovation already had the {@trait deadly} trait, it increases its deadly die to d12 instead of gaining {@trait deadly} d8."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Enhanced Damage",
+									"entries": [
+										"Your innovation is more powerful than other weapons of its kind. Increase your innovation’s weapon damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12). As normal, you can’t increase your die by more than one size, so this modification isn’t cumulative with complex simplicity."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Momentum Retainer (melee only)",
+									"entries": [
+										"A special, weighted device lets your weapon retain more of its momentum when you attack. Your innovation gains the {@trait forceful} trait."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Extensible Weapon (melee only)",
+									"entries": [
+										"Somehow, you’ve found a way to construct your weapon so that it can extend while leaving its balance unchanged. Your innovation gains the {@trait reach} trait. If the weapon already had the reach trait, it increases your reach by an additional 10 feet, instead of the usual additional 5 feet."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Impossible Alloy",
+									"entries": [
+										"Other inventors claim it’s not even technically possible, but you’ve managed to create several metal alloys that seem to work for only you, allowing you to damage opponents vulnerable to every one of the seven skymetals. Your innovation is treated as all seven skymetals (abysium, adamantine, djezet, inubrix, noqual, orichalcum, and siccatite). This allows you to deal more damage to a variety of creatures, though you don’t apply any of the other special effects for weapons made of those skymetals."
+									]
+								},
+                                {
+									"type": "item",
+									"name": "Rune Capacity",
+									"entries": [
+										"Whether you’ve dabbled in orichalcum or found another engineering solution, you’ve built your innovation in such a way that it can hold an additional property rune. Your innovation can have one more property rune than a normal item of its kind (to a maximum of four property runes with a +3 potency weapon)."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+        {
+            "source": "PT:G&G",
+            "name": "Cover Fire",
+            "level": 1,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm or crossbow, and a foe you can see within the weapon’s maximum range has cover.",
+            "cost": null,
+            "entries": [
+                "You lay down suppressive fire to protect your allies and pin down your opponents. You make a firearm or crossbow {@action Strike|CRB} targeting the foe, who must decide whether to duck behind cover (no action required) or not before you roll your attack roll. If the target ducks, it Takes Cover against your attack, gaining a +4 circumstance bonus to AC from greater cover, but also takes a –2 circumstance penalty to ranged attacks until the end of its next turn. This greater cover applies only against your {@action Strike|CRB}, not to future attacks. If the target chooses not to duck, the {@action Strike|CRB} functions normally."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 7
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Firearm Ace",
+            "level": 1,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You have a practiced understanding of firearms’ workings, their mechanisms, and the best way to utilize them. When you’re wielding a firearm and {@action Interact|CRB} to reload it, you gain a +2 circumstance bonus to the damage roll on your next {@action Strike|CRB} with that firearm. If the firearm is a simple firearm, increase the damage die size for that attack by one step. You must make the attack before the end of your turn or these benefits are lost."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 7
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Hit The Dirt!",
+            "level": 1,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "A creature you can see attempts a ranged Strike against you.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You fling yourself out of {@spell harm|CRB}’s way, perhaps through quick thinking or pure instinct. You {@action Leap|CRB} to avoid {@spell harm|CRB}, gaining a +2 circumstance bonus to AC against the triggering attack.",
+                "Regardless of whether or not the triggering attack hits, you land {@condition prone} after completing your {@action Leap|CRB}."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 7
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Sword And Pistol",
+            "level": 1,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’re experienced in combining melee attacks with shots from a firearm or crossbow, quickly adapting your range and style to the current situation. When you make a successful ranged {@action Strike|CRB} against an opponent within your melee reach using a firearm or crossbow, that opponent becomes {@condition flat-footed} against your next melee attack. When you successfully {@action Strike|CRB} an opponent with a melee weapon, the next ranged {@action Strike|CRB} you make against that opponent doesn’t trigger reactions that would trigger only on a ranged attack but not a melee attack, such as {@action Attack of Opportunity|CRB}.",
+                "The benefit on your next {@action Strike|CRB} from either use of Sword and Pistol is lost if not used by the end of your next turn."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 7
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Assisting Shot",
+            "level": 2,
+            "traits": [
+                "Gunslinger",
+                "Press"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "With a quick shot, you interfere with a foe during combat.",
+                "Make a {@action Strike|CRB} with a firearm or crossbow. If the {@action Strike|CRB} hits, the next creature other than you to attack the same target before the start of your next turn gains a +1 circumstance bonus to their roll, or a +2 circumstance bonus if your {@action Strike|CRB} was a critical hit."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Blast Lock",
+            "level": 2,
+            "traits": [
+                "Attack",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm.",
+            "cost": null,
+            "entries": [
+                "Sometimes taking the shortest distance between two points involves removing an obstacle or two. You shoot the required firearm at a lock within 10 feet. Make your attack roll against the DC required to {@action Pick a Lock|CRB|Pick the Lock}.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Critical Success": "You open the lock, or you achieve two successes toward opening a complex lock.",
+                        "Success": "You open the lock, or you achieve one success toward opening a complex lock.",
+                        "Failure": "You fail to open the lock, and your shot makes it harder to open. Future attempts to {@action Pick a Lock|CRB|Pick the Lock} take a –2 circumstance penalty.",
+                        "Critical Failure": "You fail to open the lock, and your shot makes it much harder to open. Future attempts to {@action Pick a Lock|CRB|Pick the Lock} take a –4 circumstance penalty."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Pistol Twirl",
+            "level": 2,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "trained in Deception",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded, one-handed ranged weapon.",
+            "cost": null,
+            "entries": [
+                "Your quick gestures and performative flair distract an opponent, leaving them vulnerable to your attack. You {@action Feint|CRB} against an opponent within the required weapon’s first range increment, rather than an opponent within melee reach. On a success or critical success, the foe is {@condition flat-footed} against your melee and ranged attacks, rather than only your melee attacks. On a critical failure, you’re {@condition flat-footed} against both the target’s melee and ranged attacks, rather than only its melee attacks."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Quick Draw",
+            "level": 2,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You draw your weapon and attack with the same motion. You {@action Interact|CRB} to draw a weapon, then {@action Strike|CRB} with that weapon."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Risky Reload",
+            "level": 2,
+            "traits": [
+                "Flourish",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a firearm.",
+            "cost": null,
+            "entries": [
+                "You’ve practiced a technique for rapidly reloading your firearm, but it’s a dangerous gamble with your firearm’s functionality.",
+                "{@action Interact|CRB} to reload a firearm, then make a {@action Strike|CRB} with that firearm. If the {@action Strike|CRB} fails, the firearm misfires."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Warning Shot",
+            "level": 2,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "trained in Intimidation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm.",
+            "cost": null,
+            "entries": [
+                "Who needs words when the roar of a gun is so much more succinct? You attempt to {@action Demoralize|CRB} a foe by firing your weapon into the air, using the firearm’s maximum range rather than the usual range of 30 feet. This check doesn’t take the –4 circumstance penalty if the target doesn’t share a language with you."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Alchemical Shot",
+            "level": 4,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You have an alchemical bomb worn or in one hand, and are wielding a loaded firearm.",
+            "cost": null,
+            "entries": [
+                "You’ve practiced a technique for mixing alchemical bombs with your loaded shot. You {@action Interact|CRB} to retrieve the bomb (if it’s not already in your hand) and pour it onto your ammunition, consuming the bomb. Then {@action Strike|CRB} with your weapon. The {@action Strike|CRB} deals damage of the same type as the bomb (for instance, fire damage for {@class alchemist|CRB}’s fire), and it deals an additional {@dice 1d6} {@condition Persistent Damage|CRB|persistent damage} of the same type as the bomb. If the {@action Strike|CRB} fails, you take {@dice 1d6} damage of the same type as the bomb you used, and the firearm misfires.",
+                "The {@condition Persistent Damage|CRB|persistent damage} increases to {@dice 2d6} if the bomb is level 11 or higher, or {@dice 3d6} if it’s level 17 or higher."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Black Powder Boost",
+            "level": 4,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "You Leap.",
+            "requirements": "You’re wielding a loaded firearm.",
+            "cost": null,
+            "entries": [
+                "While dashing into position, you fire your weapon behind you to speed yourself along. You fire your weapon beneath or behind you, adding 10 feet to either the horizontal or vertical distance you travel. If your {@action Leap|CRB} required a roll (such as a {@action High Jump|CRB} or {@action Long Jump|CRB}), you can use this reaction after determining the result."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Running Reload",
+            "level": 4,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You can reload your weapon on the move. You {@action Stride|CRB}, {@action Step|CRB}, or {@action Sneak|CRB}, then {@action Interact|CRB} to reload."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Cauterize",
+            "level": 6,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a firearm that you’ve fired this turn, and you or an adjacent ally are taking persistent bleed damage.",
+            "cost": null,
+            "entries": [
+                "You press your gun’s heated barrel to your wounds or those of an ally, instantly granting a flat check to end the bleed with a lower DC for particularly effective assistance (Pathfinder Core Rulebook 621)"
+                
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 8
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Pistolero’s Challenge",
+            "level": 6,
+            "traits": [
+                "Flourish",
+                "Gunslinger",
+                "Linguistic"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "way of the pistolero",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "With a stern callout, a carefully chosen barb, or some other challenging declaration, you demand your foe’s attention in a duel. Choose an opponent within 30 feet who you can perceive and can hear you, and make your choice of a {@skill Deception} or {@skill Intimidation} check. No matter the result of the check, the foe is temporarily immune to your Pistolero’s Challenge until noon the next day. You can have only one challenge in effect at a time; challenging a new opponent ends this effect on any current target. Otherwise, the effect lasts until one of you is defeated or flees or the encounter ends.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Success": "Both you and the opponent gain a +2 status bonus to damage rolls with {@action Strike|CRB|Strikes} made against each other. If you’re a master in the skill you used for the check, the status bonus to damage rolls increases to +3, and if you’re legendary, it increases to +4.",
+                        "Critical Failure": "You become {@condition frightened} 1 and can’t use this ability again for 1 minute."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Reloading Strike",
+            "level": 6,
+            "traits": [
+                "Flourish",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "way of the drifter",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a firearm or crossbow and your other hand either wields a one-handed melee weapon or is empty.",
+            "cost": null,
+            "entries": [
+                "You attack and then reload your gun in one fluid movement.",
+                "{@action Strike|CRB} an opponent within reach with your melee weapon or an unarmed attack, and then {@action Interact|CRB} to reload. You don’t need a free hand to reload in this way."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Scatter Blast",
+            "level": 6,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm that has the scatter trait.",
+            "cost": null,
+            "entries": [
+                "You pack your weapon with additional shot and powder, creating a risky but devastating arc of destruction. Make a ranged {@action Strike|CRB} with the required weapon. The range of your weapon increases from 15 feet to 30 feet, or 30 feet to 60 feet.",
+                "If the weapon’s range is already 60 feet or greater, this ability has no effect. The {@action Strike|CRB} gains the following failure conditions.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Failure": "The firearm misfires.",
+                        "Critical Failure": "The firearm explodes, becoming {@condition broken}, and deals its normal weapon damage (including fundamental and property runes) to all creatures in a 20-foot burst with a basic Reflex save against your class DC."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Shattering Shot",
+            "level": 6,
+            "traits": [
+                "Flourish",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "way of the sniper",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm or crossbow and have a worn or wielded bomb that has the splash trait.",
+            "cost": null,
+            "entries": [
+                "You fling a bomb into the air and then shoot it, causing a damaging rain over a wide area. If necessary, you {@action Interact|CRB} to draw the bomb and re-grip your weapon. You throw your bomb to the corner of a square within your firearm’s first range increment and shoot it with your firearm. All creatures in a 15-foot burst of the bomb take splash damage equal to the amount of precision damage One Shot, One Kill deals. The damage type is the same as the bomb would deal."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Grit And Tenacity",
+            "level": 8,
+            "traits": [
+                "Gunslinger",
+                "Fortune"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": "once per hour",
+            "trigger": "You fail a Fortitude or Will save.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You call upon deep reserves of toughness and mental fortitude to power through an otherwise debilitating effect. Reroll the triggering save with a +2 circumstance bonus."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Paired Shots",
+            "level": 8,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding two loaded one-handed crossbows or firearms.",
+            "cost": null,
+            "entries": [
+                "Your shots strike their target almost simultaneously. Make two Strikes, one with each of your two ranged weapons and each using your current multiple attack penalty. Both {@action Strike|CRB|Strikes} must have the same target.",
+                "If both attacks hit, combine their damage and then add any applicable effects from both weapons. You add any precision damage only once to the attack of your choice.",
+                "Combine the damage from both {@action Strike|CRB|Strikes} and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Return Fire",
+            "level": 8,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Hit the Dirt!",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’re quick enough to line up a shot even while diving to the ground. When you use your Hit the Dirt! reaction, at any point during your {@action Leap|CRB}, you can also make a ranged {@action Strike|CRB} with a loaded firearm or crossbow against the creature whose attack triggered the reaction."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Shooter’s Aim",
+            "level": 8,
+            "traits": [
+                "Concentrate",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You take an extra moment to carefully align your aim and breathing. Make a ranged weapon {@action Strike|CRB}. You gain a +2 circumstance bonus to this {@action Strike|CRB}’s attack roll and ignore the target’s concealment. If you’re using a firearm with the unsteady trait, you don’t take the normal circumstance penalty for firing without using a tripod or {@action Interact|CRB} action to aim on this {@action Strike|CRB}."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Smoke Curtain",
+            "level": 8,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm.",
+            "cost": null,
+            "entries": [
+                "You load an extra dose of black powder into your shot, causing it to belch out a roiling cloud of smoke. Make a {@action Strike|CRB} with your firearm to create a cloud of smoke in a 20-foot burst centered on your location. Creatures are {@condition concealed} while within the smoke, and creatures outside the area are {@condition concealed} to creatures within the smoke. The smoke dissipates in 1 round. The {@action Strike|CRB} gains the following critical failure effect.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Critical Failure": "The firearm misfires (see sidebar on page 4)."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 9
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Called Shot",
+            "level": 10,
+            "traits": [
+                "Flourish",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You target a specific part of your foe’s body, damaging the chosen limb or body part in a way that hinders your foe’s ability to move, fight, or think. Declare a portion of your foe’s anatomy to target and make a ranged weapon {@action Strike|CRB}. If you hit and deal damage, apply one of the following effects to the target until the end of your next turn, based on the body part you targeted.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@bold Arms} (or another limb used for attacks, such as a tentacle) The target is {@condition enfeebled} 2. On a critical hit, it’s also {@condition enfeebled} 1 for 1 minute.",
+                        "{@bold Head} The target is {@condition stupefied} 2. On a critical hit, it’s also {@condition stupefied} 1 for 1 minute.",
+                        "{@bold Legs} (or tail on a legless creature) The target takes a –10-foot status penalty to its Speeds. On a critical hit, it also takes –5-foot penalty to its Speeds for 1 minute.",
+                        "{@bold Wings} If the target is flying using its wings, it immediately falls 20 feet, or 40 feet on a critical hit. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall."
+                    ]
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Deflecting Shot",
+            "level": 10,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "An ally within the first range increment of your firearm or crossbow is hit by an attack, and you can see the attacker.",
+            "requirements": "You’re wielding a loaded firearm or crossbow.",
+            "cost": null,
+            "entries": [
+                "When your weapon is loaded, you’re always ready to fire it to deflect an attack against your ally. The ally gains a +2 circumstance bonus to their AC against the triggering attack.",
+                "You use this reaction after the result of the attack roll is revealed, so you know whether the +2 will make a sufficient difference (for example, whether it will turn a success into a failure or a critical success into a success)."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Redirecting Shot",
+            "level": 10,
+            "traits": [
+                "Fortune",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "An ally misses with a ranged attack that uses a thrown weapon or ammunition.",
+            "requirements": "You’re wielding a loaded firearm or crossbow.",
+            "cost": null,
+            "entries": [
+                "Seeing your ally’s attack about to go astray, you fire your weapon to right its course. Make an attack roll with your firearm or crossbow against the target of the triggering attack, ignoring any bonus the target would gain against you from lesser or standard cover. Your ally’s attack uses your attack roll instead of their attack roll."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Trick Shot",
+            "level": 10,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm.",
+            "cost": null,
+            "entries": [
+                "You shoot not at your foe, but at an object nearby. Make a {@action Strike|CRB} with your firearm against an AC of 25, or a different AC at the GM’s discretion. Instead of hitting your foe, your attack hits an object behind or to the side of your target, creating one of the following effects. The GM might determine a particular effect isn’t a valid option, such as using explosive barrel when there’s no such object on the battlefield. The GM determines such cases and should inform you before you spend the actions for a Trick Shot.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@bold Dislodge Object} Your attack knocks an unattended object of no more than 2 Bulk out of position, moving it up to 10 feet in a direction of your choice. For example, the weapon could {@spell knock|CRB} a {@class wizard|CRB}’s crystal ball off a table.",
+                        "{@bold Explosive Barrel} Your attack strikes a barrel of expensive rum, a vial of volatile alchemical fluids, an erupting demonic pustule, or some other explosive object. The object explodes in a 20-foot burst and all creatures in the area take {@dice 6d6} damage with a basic Reflex save against your class DC. The damage type is chosen by the GM based on the exploding object. Increase the damage by {@dice 1d6} for every 2 levels you have above 10th"
+                    ]
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Glancing Shot",
+            "level": 12,
+            "traits": [
+                "Gunslinger",
+                "Press"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Even when your shots don’t land cleanly, they still land close enough to inflict some damage. Make a ranged {@action Strike|CRB}. It gains the following failure effect.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Failure": "Your attack deals any damage it would have dealt on a hit, excluding all damage dice (this removes damage dice from weapons, runes, spells, and special abilities, in addition to weapon damage dice)."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Incredible Ricochet",
+            "level": 12,
+            "traits": [
+                "Concentrate",
+                "Gunslinger",
+                "Press"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "After your first shot singles out your opponent’s position, you direct another shot that ricochets around obstacles and strikes unerringly. Make a ranged weapon {@action Strike|CRB} against a creature you previously attacked this turn. You ignore the target’s {@condition concealed} condition and all cover."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Penetrating Fire",
+            "level": 12,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm or crossbow.",
+            "cost": null,
+            "entries": [
+                "You blast a bullet through one foe and into another. Choose two targets, one of which would give the other lesser cover against your ranged attacks. Make a single ranged {@action Strike|CRB} with the required weapon against both targets. This attack ignores any lesser cover the nearer target provides the other.",
+                "Roll damage only once, and apply it to each creature you hit. Penetrating Fire counts as two attacks for your multiple attack penalty."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 10
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Shooter’s Camouflage",
+            "level": 12,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You specialize in blending into a particular type of environment, allowing you to disappear from sight after taking your shot. Choose either natural or urban terrain. In the chosen terrain, you can {@action Hide|CRB} and {@action Sneak|CRB} even without cover or being {@condition concealed}."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "True Grit",
+            "level": 12,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Grit and Tenacity",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Hardened by conflict, you possess an intractable stubbornness.",
+                "If the reroll granted by your Grit and Tenacity reaction is a success, you get a critical success instead; if it’s a critical failure, you get a failure instead."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Dance Of Thunder",
+            "level": 14,
+            "traits": [
+                "Concentrate",
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": "once per minute",
+            "trigger": null,
+            "requirements": "You’re wielding a loaded firearm or crossbow and not fatigued.",
+            "cost": null,
+            "entries": [
+                "Your steps echo with the thunderous retort of exploding black powder as you dance a dance of death. Use any of the following actions you choose in any order: {@action Step|CRB}, {@action Strike|CRB} against a target within your firearm’s first range increment, and {@action Interact|CRB} to reload. If you attempted a {@action Strike|CRB} and it succeeds, you can repeat these three actions again in any order. If you attempted a {@action Strike|CRB} in the second set and succeed, you can repeat the actions one last time. After using Dance of Thunder, you become {@condition fatigued} for 1 minute."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "triple",
+                "entry": "{@as 3}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Showstopper",
+            "level": 14,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Pistol Twirl, expert in Deception",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your twirling weapons create a distracting dance that your enemies find difficult to look away from. When using Pistol Twirl to {@action Feint|CRB}, you can target all enemies within your weapon’s first range increment who you can perceive and who can see you. You roll one {@skill Deception} check and compare it against each target’s {@skill Perception} DC."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Two-weapon Flurry",
+            "level": 14,
+            "traits": [
+                "Flourish",
+                "Gunslinger",
+                "Press"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wielding two weapons, each in a different hand.",
+            "cost": null,
+            "entries": [
+                "You attack with both your weapons in a furious barrage. {@action Strike|CRB} twice, once with each weapon."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Fatal Bullet",
+            "level": 16,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’re especially talented at striking your enemies’ most vulnerable areas. When you critically hit with a firearm that has the fatal trait, you deal an additional die of the appropriate size and damage type for that trait after doubling the weapon’s damage. For example, after a critical hit with a fatal d12 weapon, you add an additional {@dice 1d12} damage to the attack after doubling its damage."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Hair Trigger",
+            "level": 16,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Prerequisite initial deed that allows you to {@action Interact|CRB} to draw a weapon Whether a duel to the death or getting the {@spell jump|CRB} on your foe, no one can react faster than you can pull your trigger.",
+                "When using your initial deed, instead of Interacting to draw a weapon, you can {@action Strike|CRB} with a firearm or crossbow you’re already wielding. If this {@action Strike|CRB} hits, the target is also {@condition flat-footed} until the end of your first turn of the encounter."
+            ],
+            "activity": null,
+            "special": "If your initial deed allows you to Interact to draw a weapon more than once, this feat allows you to replace one of these Interact actions and use the other one to draw a weapon. You can’t replace both Interact actions with Strikes, but you can draw a loaded firearm or crossbow and immediately shoot it.",
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Instant Return",
+            "level": 16,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "An enemy misses you with a ranged attack using a type of ammunition appropriate to your weapon (for instance, a bullet if you’re wielding a firearm).",
+            "requirements": "You’re wielding an unloaded firearm or crossbow.",
+            "cost": null,
+            "entries": [
+                "With a single fluid gesture, you catch a projectile out of the air, load it in your weapon, and fire it back at the attacker.",
+                "{@action Interact|CRB} to load the projectile into your weapon and then make a {@action Strike|CRB} with the required weapon against the triggering opponent. Since you’re using the foe’s ammunition, this {@action Strike|CRB} applies any special effects that ammunition would have (for instance, if it was explosive ammunition, it would explode in a burst of fire)"
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Piercing Critical",
+            "level": 18,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your attacks with your preferred weapons deal especially devastating wounds. When you {@action Strike|CRB} with a firearm or crossbow for which you have legendary proficiency, you critically succeed if you roll a 19 on the die as long as that result is a success. This has no effect on a 19 if the result would be a failure."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Unerring Shot",
+            "level": 18,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your senses are finely tuned to the slightest variations in the air, allowing you to place your shot exactly where you intend from any range. When attacking with a ranged weapon in which you have master or greater proficiency, ignore the penalty from its range increment (its maximum range is unchanged). Additionally, if your target has cover against your attack with such a weapon, it doesn’t gain the bonus to AC if it has lesser cover, gets only the benefits of lesser cover if it has standard cover, or gains only the benefits of standard cover if it has greater cover."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 11
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Perfect Readiness",
+            "level": 20,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You prepare to fire with an instinctive speed that surpasses thought. You’re permanently {@condition quickened}. You can use your extra action only to {@action Step|CRB} or {@action Interact|CRB} to reload."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 12
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Slinger’s Reflexes",
+            "level": 20,
+            "traits": [
+                "Gunslinger"
+            ],
+            "fclass": "Gunslinger",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your have a preternaturally sharp ability to react to unexpected circumstances. At the start of each enemy’s turn, you gain an additional reaction you can use on only that turn to take a gunslinger reaction."
+            ],
+            "activity": null,
+            "success_degree": null,
+            "page": 12
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Built-in Tools",
+            "level": 1,
+            "traits": [
+                "Inventor",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve built tools into your innovation, allowing you to use them easily. When you take this feat, choose a set of tools you own of 1 Bulk or less, which become part of your innovation without increasing its Bulk. As long as you are wielding, wearing, or adjacent to your innovation, you have the same quick access to these tools as the tools you’re wearing, and they don’t count against the usual limit of tools you can wear."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Explosive Leap",
+            "level": 1,
+            "traits": [
+                "Fire",
+                "Inventor",
+                "Move",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You aim an explosion downward and directly beneath your feet in order to launch yourself into the air. You {@spell jump|CRB} 30 feet in any direction without touching the ground. You must land on a space of solid ground within 30 feet of you, or else you fall after using your next action."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": "If your innovation is a minion, it can take this action rather than you.",
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Prototype Companion",
+            "level": 1,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve created a construct companion, and while it might not be an innovation, it serves as a trustworthy minion. You gain a prototype construct companion (page 26)."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Tamper",
+            "level": 1,
+            "traits": [
+                "Inventor",
+                "Manipulate"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You tamper with a foe’s weapon or armor. Choose either a weapon held by an enemy in your reach or a suit of armor worn by an enemy in your reach. Attempt a {@skill Crafting} check against the enemy’s Reflex DC.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Critical Success": "Your tampering is incredibly effective. If you tampered with a weapon, the enemy takes a –2 circumstance penalty to attack rolls and damage rolls with that weapon. If you tampered with armor, the armor hampers the enemy’s movement, causing them to be flatfooted and take a –10-foot penalty to their Speeds. Either effect lasts until the enemy Interacts to remove the effect.",
+                        "Success": "Your tampering is temporarily effective. As critical success, but the effect ends after 1 round even if the enemy hasn’t Interacted to end it.",
+                        "Critical Failure": "Your tampering backfires dramatically, causing a small explosion from your own tools or gear. You take fire damage equal to your level."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Unstable Repair",
+            "level": 1,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You quickly fix your innovation, at the cost of its stability. You {@action Repair|CRB} your innovation. {@action Repair|CRB} has the unstable trait when used this way. You don’t have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it) as well as have a repair kit as normal."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Kickback Strike",
+            "level": 2,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "weapon innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You activate devices on your innovation, causing your weapon to strike with extreme recoil that helps you disengage. {@action Strike|CRB} a foe and then {@action Stride|CRB} twice. You must end each {@action Strike|CRB} further from the foe than you began."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "No! No! I Created You!",
+            "level": 2,
+            "traits": [
+                "Auditory",
+                "Concentrate",
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "construct companion",
+            "frequency": "once per minute",
+            "trigger": "Your construct companion would become confused or controlled.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You appeal to your construct companion’s bond with its creator to have it break free of a controlling effect. Attempt to counteract the effect that {@condition confused} or {@condition controlled} your construct companion using your {@skill Crafting} modifier for the counteract check and half your level rounded up for the counteract level."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Searing Restoration",
+            "level": 2,
+            "traits": [
+                "Fire",
+                "Healing",
+                "Inventor",
+                "Manipulate",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "They told you there was no way that explosions could {@spell heal|CRB} people, but they were fools—fools who didn’t understand your brilliance! You create a minor explosion using your innovation that cauterizes wounds and vaporizes medicinal herbs, restoring {@dice 1d4} Hit Points for each level you have to you or an adjacent living creature."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": "If your innovation is a minion, it can take this action rather than you. Because it’s not a living creature, it can’t use the ability on itself.",
+            "success_degree": null,
+            "page": 22
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Transform Armor",
+            "level": 2,
+            "traits": [
+                "Inventor",
+                "Manipulate",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wearing your armor innovation or holding it in both hands in its compact form (see text).",
+            "cost": null,
+            "entries": [
+                "You’ve modified your armor to collapse into a much smaller, compact form. In compact form, your armor innovation is easier to carry, with a Bulk 1 lower than the Bulk listed for it, to a minimum of light Bulk (carried armor normally has a Bulk 1 higher than listed in the armor entry)",
+                "You can Transform your Armor into or out of its compact form to put it on or take it off in an instant. If you’re wearing your armor innovation when you Transform it, you remove it instantly, and it collapses into its compact form, which is held in both of your hands (if you don’t have both hands available, it falls to the ground in an adjacent space). If you’re holding your armor in compact form when you Transform it, it unfolds back into its armor form onto your body."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Transform Construct",
+            "level": 2,
+            "traits": [
+                "Inventor",
+                "Manipulate",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "construct innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve modified your construct companion and built it out of light materials, allowing you to collapse it into a carrying case or another compact and innocuous form. In compact form, your construct is easily carried with a Bulk of 2 if it’s Small, 4 if it’s Medium, or 8 if it’s Large. The compact form has wheels, allowing you to easily drag it behind you at half Speed (rather than the usual slower Speed for dragging)",
+                "Either your construct or you (if adjacent to it) can Transform your Construct."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Advanced Construct Companion",
+            "level": 4,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "construct companion",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve upgraded your construct companion’s power and decision-making ability. Your construct companion becomes an advanced construct companion (page 27). During an encounter, even if you don’t use the Command a Minion action, your construct companion can still use 1 action on your turn that round to {@action Stride|CRB} or {@action Strike|CRB}."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Diving Armor",
+            "level": 4,
+            "traits": [
+                "Inventor",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve modified your armor with features like fins, rotors, and other gadgets to make it easy for you to move through the water, plus mechanical gills that can help you extract breathable air from water. While wearing your armor innovation, you can breathe underwater and gain a swim Speed equal to your land Speed."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Dual-form Weapon",
+            "level": 4,
+            "traits": [
+                "Inventor",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "weapon innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve built your innovation with replaceable interlocking pieces, allowing you to transform it into another type of weapon entirely. When you select this feat, choose a level-0 simple or martial weapon: a common weapon or another to which you have access. This weapon becomes your innovation’s second configuration.",
+                "Select a new set of weapon modifications for this new configuration. You can spend two {@action Interact|CRB} actions to switch your weapon innovation between the two configurations.",
+                "These actions don’t need to be taken consecutively, but if you’ve provided the first and not the second the weapon is non-functional. Your weapon’s Bulk is always the greater Bulk of the two configurations, regardless of which configuration it’s in—if one weapon is smaller than the other, you still need to keep any weapon parts on hand."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Megaton Strike",
+            "level": 4,
+            "traits": [
+                "Inventor",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You activate gears, explosives, and other {@condition hidden} gadgets in your innovation to make a powerful attack. If you’re wearing your innovation, make a melee unarmed {@action Strike|CRB} or a melee {@action Strike|CRB} with one weapon you chose during daily preparations; if you have a minion innovation, it makes a {@action Strike|CRB}; and if you have a weapon innovation, make a {@action Strike|CRB} with your innovation.",
+                "If the {@action Strike|CRB} hits, it deals double the usual number of weapon damage dice (two for a weapon without a striking rune, four for a striking weapon, six for a greater striking weapon, and eight for a major striking weapon)."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": "If your innovation is a minion, it can take this action rather than you.",
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Clockwork Celerity",
+            "level": 6,
+            "traits": [
+                "Inventor",
+                "Manipulate",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor, construct, or weapon innovation",
+            "frequency": null,
+            "trigger": "Your turn begins.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Unstable clockwork devices in your innovation allow you to push your innovation to act more quickly. You’re {@condition quickened} for this turn. How you can use the extra action depends on your innovation.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@bold Armor} You can use the extra action to {@action Step|CRB}, {@action Stride|CRB}, or use another movement action granted by your innovation (such as {@action Swim|CRB} if you have the Diving Armor feat).",
+                        "{@bold Construct} You can use the extra action to Command your minion.",
+                        "{@bold Weapon} You can use the extra action to {@action Strike|CRB} with your innovation"
+                    ]
+                }
+                
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "free",
+                "entry": "{@as F}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 23
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Megavolt",
+            "level": 6,
+            "traits": [
+                "Electricity",
+                "Inventor",
+                "Manipulate",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You cause your innovation to shoot out a bolt of electricity, damaging creatures in a line. Creatures in a 60-foot line from you take {@dice 3d12} electricity damage with a basic Reflex save against your class DC.",
+                "The electricity damage increases by {@dice 1d12} at 8th level and every 2 levels thereafter. You can choose to increase the line to 90 feet long if you have the breakthrough innovation class feature and to 90 or 120 feet long if you have the revolutionary innovation class feature."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "double",
+                "entry": "{@as 2}"
+            },
+            "special": "If your innovation is a minion, it can use this action rather than you.",
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Visual Fidelity",
+            "level": 6,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve found a way to use a hodgepodge combination of devices to enhance your visual abilities in every situation.",
+                "You gain {@spell darkvision|CRB} and low-light vision, and you can see {@condition invisible} creatures and objects as translucent shapes, though these shapes appear indistinct enough to be {@condition concealed} to you. If an effect would give you the {@condition blinded} condition, the effect must attempt a counteract check against you. On a failed counteract check, you aren’t {@condition blinded}, as your various devices are able to compensate."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Gigaton Strike",
+            "level": 8,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Megaton Strike",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "When you make a Megaton {@action Strike|CRB}, you can {@spell knock|CRB} your foe back, {@spell sending|CRB} them reeling away from the explosive force of your blow. On a successful Megaton {@action Strike|CRB}, your target must attempt a Fortitude save against your class DC.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Critical Success": "The target is unaffected.",
+                        "Success": "The target is pushed back 5 feet.",
+                        "Failure": "The target is pushed back 10 feet.",
+                        "Critical Failure": "The target is pushed back 20 feet."
+                    }
+                }
+            ],
+            "activity": null,
+            "special": "If your innovation is a minion, this benefit applies on its Megaton Strikes.",
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Incredible Construct Companion",
+            "level": 8,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Advanced Construct Companion",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Thanks to your continual tinkering, your construct companion has advanced to an incredible, new stage of engineering. Your construct companion becomes an incredible construct companion (page 27)."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Overdrive Ally",
+            "level": 8,
+            "traits": [
+                "Inventor",
+                "Manipulate"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "overdrive",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re currently under the effects of Overdrive.",
+            "cost": null,
+            "entries": [
+                "You quickly fling some of your powered-up gadgets to an ally, sharing your benefits briefly with them. Choose an ally within 30 feet. Until the end of their next turn, that ally gains the same amount of additional damage to their {@action Strike|CRB|Strikes} as you currently gain from Overdrive."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Electrify Armor",
+            "level": 10,
+            "traits": [
+                "Inventor",
+                "Manipulate",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": "You’re wearing your armor innovation.",
+            "cost": null,
+            "entries": [
+                "You create an unstable chain reaction, causing countless sparks to dance across your armor. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes {@dice 1d12} electricity damage.",
+                "If you have the revolutionary innovation class feature, the damage increases to {@dice 2d12}."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Manifold Modifications",
+            "level": 10,
+            "traits": [
+                "Inventor",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "initial modification",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve modified your innovation using several clever workarounds and unique adjustments, allowing you to include another initial modification. Your innovation gains an additional initial modification from the list of innovations for its type."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Tinker’s Meddling",
+            "level": 10,
+            "traits": [
+                "Inventor",
+                "Manipulate"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "offensive boost",
+            "frequency": "once per 10 minutes",
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You don’t just tinker with your own innovation, you meddle with your allies’ weapons as well. Choose an ally in your reach and one of their weapons. Attempt a {@skill Crafting} check against a high DC for your level.",
+                {
+                    "type": "success_degree",
+                    "entries": {
+                        "Success": "For 1 minute, the chosen ally’s {@action Strike|CRB|Strikes} with the chosen weapon gains the same offensive boost your innovation has.",
+                        "Critical Failure": "Your ally takes damage of the type and amount that your offensive boost normally deals on a successful {@action Strike|CRB}."
+                    }
+                }
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "single",
+                "entry": "{@as 1}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Boost Modulation",
+            "level": 12,
+            "traits": [
+                "Inventor",
+                "Manipulate"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "offensive boost",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You aren’t satisfied with keeping to just one kind of boost from your constant tinkering. Choose two additional offensive boosts (page 17). You can use an {@action Interact|CRB} action to change the offensive boost currently affecting your weapon, choosing between the one you chose for the class feature and the two you chose for this modification. If your weapon has the modular trait, when you use an {@action Interact|CRB} action to change the physical damage type, you can swap the offensive boost as well."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 24
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Gigavolt",
+            "level": 12,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Megavolt",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "When you unleash electricity from your innovation, you can cause it to bounce off obstacles, creating a field of electric death. When you use Megavolt, if your line of electricity hits a solid barrier, such as a wall, it bounces off at an angle of your choice and continues until you have reached the full length of the line. Even if a creature is in the area of multiple bounces, it takes the damage only once."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Shared Overdrive",
+            "level": 12,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Overdrive Ally",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve experimented enough on your teammates to allow you to transfer a substantial amount of powered-up gadgets to them, allowing one of your allies to benefit from the full effects of your Overdrive (page 18). The first time you use Overdrive Ally during an Overdrive, the effect lasts for the remainder of the duration of your Overdrive, instead of just until the end of the target’s next turn. Any further uses of Overdrive Ally during the same Overdrive have their normal duration."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Eternal Meddler",
+            "level": 14,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Tinker’s Meddling",
+            "frequency": "once per day",
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You meddle with your allies’ equipment so often, the modifications you’ve implemented grant them benefits throughout the day.",
+                "During your daily preparations, you can choose one ally and one of their weapons. Attempt a {@skill Crafting} check against a very high DC for your level. On a success, your ally’s {@action Strike|CRB|Strikes} with the chosen weapon gain the same offensive boost you chose for your innovation. This lasts until your next daily preparations. On a critical failure, your ally takes damage of the type and amount that your offensive boost normally deals on a successful {@action Strike|CRB}."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Paragon Companion",
+            "level": 14,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Incredible Companion",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your construct companion has reached the pinnacle of form and function. Your construct companion becomes a paragon construct companion (page 27)."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Unstable Redundancies",
+            "level": 14,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "You would attempt the flat check to determine whether your innovation is destroyed due to an unstable action, but you haven’t rolled yet.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You’ve built in triple redundancies into your innovation and added all sorts of buffers to protect it from being harmed by your unstable experiments, at least through the first activation. You automatically succeed at the triggering flat check. You can’t rely on your Unstable Redundancies again until you’ve readjusted your innovation to be safe for using unstable actions again."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "free",
+                "entry": "{@as F}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Soaring Armor",
+            "level": 16,
+            "traits": [
+                "Inventor",
+                "Modification"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Whether through releasing jets of flame, propeller blades, magnetic fields, or some combination of the above, you’ve managed to free your innovation from the bonds of gravity! While wearing your innovation, you gain a fly Speed equal to your land Speed."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "You Failed To Account For... This!",
+            "level": 16,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": null,
+            "frequency": null,
+            "trigger": "A creature you can perceive targets you with an attack against your AC.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "When your foes try to attack you, you always seem to have some outlandish gadget you can pull out at the last second to protect you. Describe a device you attempt to use to protect yourself from the foe’s attack—for instance, when attacked by a shocker lizard’s shock {@action Strike|CRB}, you might pull out a specially grounded lightning rod from that time you tried to power an invention by harnessing a thunderstorm! Using an invention to defend in this way means that the attack roll for the triggering attack targets your {@skill Crafting} DC instead of your AC.",
+                "Since you use your {@skill Crafting} DC instead of your AC, any penalties to your AC don’t apply, but this feat doesn’t remove any conditions or other effects causing such penalties. For instance, if you were {@condition flat-footed} and used an invention to defend against a sneak attack, the -2 penalty to AC from being {@condition flat-footed} wouldn’t apply to your {@skill Crafting} DC. However, you’re still {@condition flat-footed}, so if the attack hits, you’d still take the extra damage."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Devastating Weaponry",
+            "level": 18,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "weapon innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You release a volley of projectiles from your weapon or power it to fly about and strike multiple creatures. Make a {@action Strike|CRB} with your weapon innovation against each creature within 30 feet of you. Don’t increase your multiple attack penalty until after making all the attacks. If your innovation is a melee weapon and any of the attacks are outside your reach, you {@action Release|CRB} the weapon before the Strikes, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "triple",
+                "entry": "{@as 3}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Engine Of Destruction",
+            "level": 18,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "construct innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your construct unleashes a broad swath of devastation by separating its limbs, deploying {@condition hidden} armaments, or something similar. You Command your innovation, except that instead of its normal actions, it Strides once, then makes a {@action Strike|CRB} against each creature within 30 feet of it. The multiple attack penalty doesn’t increase until after the construct makes all the attacks."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "triple",
+                "entry": "{@as 3}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 25
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Multifarious Meddler",
+            "level": 18,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Eternal Meddler",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "While others wonder how you can possibly find the time to make so many modifications, you can’t help but meddle with all your allies’ equipment. After all, how else are they going to learn? During your daily preparations, you can choose up to six allies and six of their weapons for Eternal Meddler, instead of just one. You no longer need to attempt a {@skill Crafting} check— you automatically apply the boost to all of them."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 26
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Negate Damage",
+            "level": 18,
+            "traits": [
+                "Inventor",
+                "Unstable"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor innovation",
+            "frequency": null,
+            "trigger": "You would take damage.",
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "Your innovation activates various devices you prepared ahead of time, forming an unstable chain reaction to all but negate incoming damage. Reduce the damage you would take by 50."
+            ],
+            "activity": {
+                "number": 1,
+                "unit": "reaction",
+                "entry": "{@as R}"
+            },
+            "special": null,
+            "success_degree": null,
+            "page": 26
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Full Automation",
+            "level": 20,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "armor, construct, or weapon innovation",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You become so entwined with your innovations that you can use them without a second thought. You’re permanently {@condition quickened}. How you can use the extra action depends on your innovation.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@bold Armor} You can use the extra action to {@action Stride|CRB}, {@action Step|CRB}, or use a form of movement provided by your innovation (such as {@action Fly|CRB} or {@action Swim|CRB}), for the armor responds to the most subtle stimulus as long as you wear it.",
+                        "{@bold Construct} You can use the extra action to Command your innovation, as your ability to command your construct becomes instinctive.",
+                        "{@bold Weapon} You can use the extra action to {@action Strike|CRB} with your innovation, as the weapon speeds toward its target effortlessly as long as you hold it."
+                    ]
+                }
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 26
+        },
+        {
+            "source": "PT:G&G",
+            "name": "Ubiquitous Overdrive",
+            "level": 20,
+            "traits": [
+                "Inventor"
+            ],
+            "fclass": "Inventor",
+            "fgeneral": false,
+            "fancestry": false,
+            "fskill": false,
+            "farchetype": false,
+            "prerequisites": "Shared Overdrive",
+            "frequency": null,
+            "trigger": null,
+            "requirements": null,
+            "cost": null,
+            "entries": [
+                "You keep gadgets on every ally, ready to power them up all at once. During your daily preparations, select up to six willing allies.",
+                "Whenever you use Overdrive (page 18), you grant the benefits to any of these allies you choose who are within 30 feet of you."
+            ],
+            "activity": null,
+            "special": null,
+            "success_degree": null,
+            "page": 26
+        }
+    ],
+    "trait": [
+		{
+			"name": "Concealable",
+			"source": "PT:G&G",
+			"entries": [
+				"This weapon is designed to be inconspicuous or easily concealed. You gain a +2 circumstance bonus to {@skill Stealth} checks and DCs to hide or conceal a weapon with this trait."
+			],
+			"page": 12
+		},
+        {
+			"name": "Modular",
+			"source": "PT:G&G",
+			"entries": [
+				"The weapon has multiple configurations that you can switch between using an Interact action. Typically, switching between configurations of a modular weapon allows it to deal different types of damage (listed in the trait, such as “modular B, P, or S”), though it’s possible for a modular weapon’s description to list more complicated configurations."
+			],
+			"page": 12
+		},
+        {
+			"name": "Scatter",
+			"source": "PT:G&G",
+			"entries": [
+				"This weapon fires a spray of small bullets in a cone that has a size equal to the weapon’s listed range (for example, a scatter weapon with a range of 15 feet fires in a 15-foot cone). When attacking with a scatter weapon, choose one target within the cone to be the primary target; this creature is targeted and damaged based on the results of your attack roll as normal. In addition, all creatures within the cone, including the primary target, take splash damage equal to the number of weapon damage dice. This damage is of the same type dealt by the attack."
+			],
+			"page": 12
+		},
+        {
+			"name": "Sniper",
+			"source": "PT:G&G",
+			"entries": [
+				"When you hit a {@condition flat-footed} creature, this weapon deals 1 precision damage in addition to its normal damage. The precision damage increases to 2 if the weapon is a +3 weapon."
+			],
+			"page": 12
+		},
+        {
+			"name": "Unsteady",
+			"source": "PT:G&G",
+			"entries": [
+				"This weapon is difficult to aim without taking measures to stabilize it. Firing this weapon has a –2 circumstance penalty unless the weapon is attached to a deployed tripod or the wielder takes an {@action Interact} action to aim before firing. A tripod is uncommon adventuring gear with a Price of 4 sp and 1 Bulk. It can be set up with an {@action Interact} action using two hands."
+			],
+			"page": 12
+		},
+        {
+			"name": "Modification",
+			"source": "PT:G&G",
+			"entries": [
+				"A feat with this trait alters the construction of your innovation. If you have the {@classFeature reconfigure|Inventor|PT:G&G|3} class feature, you can retrain these feats more easily."
+			],
+			"page": 16
+		},
+        {
+			"name": "Unstable",
+			"source": "PT:G&G",
+			"entries": [
+				"Unstable actions rely on experimental functions of your innovation that even you can’t fully predict. After an unstable action is used on an innovation, using another one is dangerous. If you attempt to use another unstable action on it, you must attempt a DC 17 flat check. On a failure, the innovation malfunctions in a spectacular fashion, such as an explosion or shower of sparks, wasting the actions and making the innovation incapable of handling further unstable actions. An innovation’s creator can spend 10 minutes retuning their innovation and making adjustments to return it to functionality, making it safe to use an unstable ability on that innovation again.",
+                "To use an unstable action, you must be using your innovation (for example, wearing an armor innovation or wielding a weapon innovation). If you have a minion innovation, some unstable actions are taken by the minion instead of you. In these cases, only the minion can take that action—you can’t—and the minion needs to have been Commanded that turn to take the action."
+			],
+			"page": 16
+		},
+        {
+			"name": "Ranged Trip",
+			"source": "PT:G&G",
+			"entries": [
+				"The weapon can be used to {@action Trip} with the {@skill Athletics} skill at a distance up to the weapon’s first range increment. The skill check takes a –2 circumstance penalty. You can add the weapon’s item bonus to attack rolls as a bonus to the check. As with using a melee weapon to {@action Trip}, a ranged trip weapon doesn’t deal any damage when used to {@action Trip}. This trait usually appears only on a {@trait thrown} weapon."
+			],
+			"page": 16
+		},
+        {
+			"name": "Tethered",
+			"source": "PT:G&G",
+			"entries": [
+				"If you have a free hand while wielding this weapon, you can use an {@action Interact} action to pull the weapon back into your grasp after you’ve thrown it as a ranged attack or after it has been disarmed (unless it’s being held by another creature)."
+			],
+			"page": 16
+		}
+    ],
+    "table": [
+        {
+            "name": "Uncommon Ranged Weapons",
+            "id": "1-2",
+            "source": "PT:G&G",
+            "page": 12,
+            "colSizes": [
+                8,
+                1,
+                3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                4
+            ],
+            "colStyles": [
+                "text-left",
+                "text-center",
+                "text-center",
+                "text-center",
+                "text-center",
+                "text-center",
+                "text-center",
+                "text-center",
+                "text-left"
+            ],
+            "labelRowIdx": [
+                0,
+                4
+            ],
+            "rows": [
+                [
+                    "Uncommon Simple Weapons",
+                    "Price",
+                    "Damage",
+                    "Range",
+                    "Reload",
+                    "Bulk",
+                    "Hands",
+                    "Group",
+                    "Weapon Traits"
+                ],
+                {
+                    "type": "multiRow",
+                    "rows": [
+                        [
+                            "Flintlock musket",
+                            "7 gp",
+                            "{@damage 1d6} P",
+                            "40 ft.",
+                            "1",
+                            "1",
+                            "2",
+                            "Firearm",
+                            "{@trait Fatal} d10, {@trait versatile} B"
+                        ],
+                        [
+                            "10 rounds",
+                            "1 sp",
+                            "",
+                            "",
+                            "",
+                            "L",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "type": "multiRow",
+                    "rows": [
+                        [
+                            "Flintlock pistol",
+                            "6 gp",
+                            "{@damage 1d4} P",
+                            "20 ft.",
+                            "1",
+                            "1",
+                            "1",
+                            "Firearm",
+                            "{@trait Fatal} d8, {@trait versatile} B"
+                        ],
+                        [
+                            "10 rounds",
+                            "1 sp",
+                            "",
+                            "",
+                            "",
+                            "L",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "type": "multiRow",
+                    "rows": [
+                        [
+                            "Hand cannon",
+                            "5 gp",
+                            "{@damage 1d4} modular",
+                            "10 ft.",
+                            "1",
+                            "1",
+                            "1",
+                            "Firearm",
+                            "{@trait Fatal} d8, {@trait modular|PT:G&G} B, P, or S"
+                        ],
+                        [
+                            "10 rounds",
+                            "1 sp",
+                            "",
+                            "",
+                            "",
+                            "L",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                },
+                [
+                    "Uncommon Martial Weapons",
+                    "Price",
+                    "Damage",
+                    "Range",
+                    "Reload",
+                    "Bulk",
+                    "Hands",
+                    "Group",
+                    "Weapon Traits"
+                ],
+                {
+                    "type": "multiRow",
+                    "rows": [
+                        [
+                            "Arquebus (1st level)",
+                            "10 gp",
+                            "{@damage 1d8} P",
+                            "80 ft.",
+                            "1",
+                            "2",
+                            "2",
+                            "Firearm",
+                            "{@trait Fatal} d12, {@trait sniper|PT:G&G}, {@trait unsteady|PT:G&G}, {@trait versatile} B"
+                        ],
+                        [
+                            "10 rounds",
+                            "1 sp",
+                            "",
+                            "",
+                            "",
+                            "L",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "type": "multiRow",
+                    "rows": [
+                        [
+                            "Blunderbuss",
+                            "8 gp",
+                            "{@damage 1d8} P",
+                            "15 ft.",
+                            "1",
+                            "2",
+                            "2",
+                            "Firearm",
+                            "{@trait Scatter|PT:G&G}, {@trait versatile} B"
+                        ],
+                        [
+                            "10 rounds",
+                            "1 sp",
+                            "",
+                            "",
+                            "",
+                            "L",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                },
+                {
+                    "type": "multiRow",
+                    "rows": [
+                        [
+                            "Dueling pistol (1st level)",
+                            "12 gp",
+                            "{@damage 1d6} P",
+                            "30 ft.",
+                            "1",
+                            "L",
+                            "1",
+                            "Firearm",
+                            "{@trait Concealable|PT:G&G}, {@trait fatal} d10, {@trait versatile} B"
+                        ],
+                        [
+                            "10 rounds",
+                            "1 sp",
+                            "",
+                            "",
+                            "",
+                            "L",
+                            "",
+                            "",
+                            ""
+                        ]
+                    ]
+                }
+            ],
+            "type": "table"
+        }
+    ],
+    "item": [
+    ]
+}
