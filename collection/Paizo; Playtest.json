@@ -5282,7 +5282,7 @@
                 "Summoner",
                 "Teleportation"
             ],
-            "fclass": false,
+            "fclass": "Summoner",
             "fgeneral": false,
             "fancestry": false,
             "fskill": false,
@@ -5581,7 +5581,7 @@
                 "Summoner",
                 "Transmutation"
             ],
-            "fclass": false,
+            "fclass": "Summoner",
             "fgeneral": false,
             "fancestry": false,
             "fskill": false,
