@@ -42,7 +42,7 @@
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1616174823
+		"dateLastModified": 1618267437
     },
 	"class": [
 		{
@@ -161,12 +161,18 @@
 				"Gunslinger Weapon Mastery|Gunslinger|PT:G&G|5",
 				"Vigilant Senses|Gunslinger|PT:G&G|7",
 				"Weapon Specialization|Gunslinger|PT:G&G|7",
-				"Advanced Deed|Gunslinger|PT:G&G|9",
+                {
+					"classFeature": "Advanced Deed|Gunslinger|PT:G&G|9",
+					"gainSubclassFeature": true
+				},
 				"Gunslinger Expertise|Gunslinger|PT:G&G|9",
 				"Evasion|Gunslinger|PT:G&G|11",
 				"Gunslinging Legend|Gunslinger|PT:G&G|13",
 				"Light Armor Expertise|Gunslinger|PT:G&G|13",
-				"Greater Deed|Gunslinger|PT:G&G|15",
+				{
+					"classFeature": "Greater Deed|Gunslinger|PT:G&G|15",
+					"gainSubclassFeature": true
+				},
 				"Greater Weapon Specialization|Gunslinger|PT:G&G|15",
 				"Juggernaut|Gunslinger|PT:G&G|17",
 				"Shootist's Edge|Gunslinger|PT:G&G|17",
@@ -181,7 +187,9 @@
 					"source": "PT:G&G",
 					"page": 6,
 					"subclassFeatures": [
-						"Gunslinger's Way|Gunslinger|PT:G&G|Drifter|PT:G&G|1"
+						"Gunslinger's Way|Gunslinger|PT:G&G|Drifter|PT:G&G|1",
+                        "Advanced Deed|Gunslinger|PT:G&G|Drifter|PT:G&G|9",
+                        "Greater Deed|Gunslinger|PT:G&G|Drifter|PT:G&G|15"
 					]
 				},
 				{
@@ -191,7 +199,9 @@
 					"source": "PT:G&G",
 					"page": 6,
 					"subclassFeatures": [
-						"Gunslinger's Way|Gunslinger|PT:G&G|Pistolero|PT:G&G|1"
+						"Gunslinger's Way|Gunslinger|PT:G&G|Pistolero|PT:G&G|1",
+                        "Advanced Deed|Gunslinger|PT:G&G|Pistolero|PT:G&G|9",
+                        "Greater Deed|Gunslinger|PT:G&G|Pistolero|PT:G&G|15"
 					]
 				},
 				{
@@ -201,7 +211,9 @@
 					"source": "PT:G&G",
 					"page": 7,
 					"subclassFeatures": [
-						"Gunslinger's Way|Gunslinger|PT:G&G|Sniper|PT:G&G|1"
+						"Gunslinger's Way|Gunslinger|PT:G&G|Sniper|PT:G&G|1",
+                        "Advanced Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|9",
+                        "Greater Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|15"
 					]
 				}
 			],
@@ -679,7 +691,7 @@
 					"page": 3,
 					"name": "During Combat Encounters...",
 					"entries": [
-						"You place spells into your weapon or body to hit enemies with a powerful Strike and spell combination. Because your spells per day are limited, you rely on trusty, carefully chosen cantrips. Even without spells, you can hold your own in battle."
+						"You place spells into your weapon or body to hit enemies with a powerful {@action Strike} and spell combination. Because your spells per day are limited, you rely on trusty, carefully chosen cantrips. Even without spells, you can hold your own in battle."
 					]
 				},
 				{
@@ -1299,7 +1311,7 @@
             "className": "Magus",
             "classSource": "PT:SoM",
             "entries": [
-                "You learn the magus potency battle spell (page 11). Battle spells are magus-specific spells created for combat. They’re a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to study your spellbook.",
+                "You learn the {@spell magus potency|PT:SoM} battle spell. Battle spells are magus-specific spells created for combat. They’re a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to study your spellbook.",
                 "Focus spells are automatically heightened to half your level rounded up. Focus spells don’t require spell slots, nor can you cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 points. The full rules are on page 300 of the Core Rulebook."
             ]
         },
@@ -1311,7 +1323,7 @@
             "className": "Magus",
             "classSource": "PT:SoM",
             "entries": [
-                "You’ve learned the fundamental magus technique that lets you combine magic and martial attacks together. You gain the Striking Spell metamagic action. From start to finish, using the effects of Striking Spell is a three-step process. First, you use the Striking Spell free action. Second, you Cast a Spell into your body or weapon, using Striking Spell’s metamagical properties. And third, you Strike with that weapon or your unarmed attack and discharge the spell at your target.",
+                "You’ve learned the fundamental magus technique that lets you combine magic and martial attacks together. You gain the Striking Spell metamagic action. From start to finish, using the effects of Striking Spell is a three-step process. First, you use the Striking Spell free action. Second, you Cast a Spell into your body or weapon, using Striking Spell’s metamagical properties. And third, you {@action Strike} with that weapon or your unarmed attack and discharge the spell at your target.",
                 {
 					"activity": {
 						"number": 1,
@@ -1325,8 +1337,8 @@
 					],
 					"entries": [
 						"You drastically alter a spell to combine it with a martial attack. If the next action you use is to Cast a Spell that can target one creature or object, instead of casting it as normal, you place its magic into one melee weapon you’re wielding or into your body to use with an unarmed attack.",
-                        "If you hit with a melee Strike using the receptacle for the spell, the spell is discharged, affecting only the target you hit. The spell still requires its normal spell attack roll or saving throw, but you don’t increase your multiple attack penalty until after attempting both the discharging Strike and the spell attack roll. If your discharging Strike was a critical success, the degree of success is one better than you rolled for a spell attack roll or one worse than the target rolls for a saving throw.",
-                        "If you don’t expend the stored spell with a Strike before the end of your next turn, it is lost and dissipates harmlessly. The same thing happens if you take the Striking Spell action again or if the weapon is used for a non-melee Strike (such as a thrown weapon Strike). A spell stored with Striking Spell can’t be discharged by anyone but the caster."
+                        "If you hit with a melee {@action Strike} using the receptacle for the spell, the spell is discharged, affecting only the target you hit. The spell still requires its normal spell attack roll or saving throw, but you don’t increase your multiple attack penalty until after attempting both the discharging {@action Strike} and the spell attack roll. If your discharging {@action Strike} was a critical success, the degree of success is one better than you rolled for a spell attack roll or one worse than the target rolls for a saving throw.",
+                        "If you don’t expend the stored spell with a {@action Strike} before the end of your next turn, it is lost and dissipates harmlessly. The same thing happens if you take the Striking Spell action again or if the weapon is used for a non-melee {@action Strike} (such as a thrown weapon Strike). A spell stored with Striking Spell can’t be discharged by anyone but the caster."
 					],
 					"type": "ability",
 					"name": "Striking Spell",
@@ -1541,7 +1553,7 @@
             "className": "Magus",
             "classSource": "PT:SoM",
             "entries": [
-                "You can extend the magic of spells you store with Striking Spell. The first time you discharge a spell with Striking Spell, you retain an echo of the spell, keeping it stored in your body or weapon. You get the full effects of discharging it, but the spell remains stored in the weapon to be used one more time. If you hit a second time while the spell is still stored, you can discharge the spell again, fully expending it this time. This second effect is somewhat weaker than the original. You use a degree of success one worse than you rolled for a spell attack roll, or the target uses a degree of success one better than the result of their saving throw. If this Strike is a critical hit, the spell has its normal effects based on the result of the spell attack roll or saving throw, rather than an increased effect."
+                "You can extend the magic of spells you store with Striking Spell. The first time you discharge a spell with Striking Spell, you retain an echo of the spell, keeping it stored in your body or weapon. You get the full effects of discharging it, but the spell remains stored in the weapon to be used one more time. If you hit a second time while the spell is still stored, you can discharge the spell again, fully expending it this time. This second effect is somewhat weaker than the original. You use a degree of success one worse than you rolled for a spell attack roll, or the target uses a degree of success one better than the result of their saving throw. If this {@action Strike} is a critical hit, the spell has its normal effects based on the result of the spell attack roll or saving throw, rather than an increased effect."
             ]
         },
         {
@@ -1910,14 +1922,14 @@
             "entries": [
                 "Your connection to your eidolon allows you to cast conduit spells, special spells that usually involve your eidolon. Conduit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to specifically connect with your eidolon, such as by having a heart-to-heart conversation, playing together, or meditating together on the nature of your bond.",
                 "Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don’t require spell slots, and you can’t cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300 of the Core Rulebook.",
-                "You learn the evolution surge conduit spell (page 24), which grants your eidolon one of several useful benefits in combat.",
+                "You learn the {@spell evolution surge|PT:SoM} conduit spell, which grants your eidolon one of several useful benefits in combat.",
                 {
 					"type": "pf2-h4",
 					"page": 16,
 					"name": "Conduit Cantrips",
 					"entries": [
                         "Conduit cantrips are special conduit spells that don’t cost Focus Points, so you can cast them as often as you like. Conduit cantrips are in addition to the cantrips you choose from your tradition’s spell list. Generally, only feats can give you more conduit cantrips. Unlike other cantrips, you can’t swap out conduit cantrips gained from summoner feats at a later level, unless you swap out the specific feat via retraining (Core Rulebook 481).",
-                        "You learn the boost eidolon conduit cantrip (page 24), which briefly boosts your eidolon’s capabilities."
+                        "You learn the {@spell boost eidolon|PT:SoM} conduit cantrip, which briefly boosts your eidolon’s capabilities."
                     ]
 				}
             ]
@@ -3021,7 +3033,7 @@
 					"name": "Shooting Star",
 					"entries": [
                         "A typical magus must retain a physical connection to their weapon to discharge a Striking Spell, but you can extend your magic further to use ranged weapons.",
-                        "You can place a spell in a ranged or thrown weapon when using Striking Spell and discharge the spell if you hit with a ranged Strike. If the weapon uses ammunition, the magic is delivered through that ammunition. The spell has its effect on a hit only if the target is in range of the stored spell. For instance, if you hit with a ranged attack at 30 feet, you could trigger the stored spell if it had a range of 30 feet, but not if it had a range of 15 feet or touch."
+                        "You can place a spell in a ranged or thrown weapon when using Striking Spell and discharge the spell if you hit with a ranged {@action Strike}. If the weapon uses ammunition, the magic is delivered through that ammunition. The spell has its effect on a hit only if the target is in range of the stored spell. For instance, if you hit with a ranged attack at 30 feet, you could trigger the stored spell if it had a range of 30 feet, but not if it had a range of 15 feet or touch."
                     ]
                 }
             ]
@@ -3050,19 +3062,108 @@
 									"type": "item",
 									"name": "Way Skill",
 									"entries": [
-										"Acrobatics"
+										"{@skill Acrobatics}"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Deeds",
 									"entries": [
-										"{@i Initial} Into the Fray; {@i Advanced} Rebounding Assault; {@i Greater} Drifter’s Wake"
+										"{@i Initial} {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Drifter|PT:G&G|1||Into the Fray}; {@i Advanced} {@subclassFeature Advanced Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|9||Rebounding Assault}; {@i Greater} {@subclassFeature Greater Deed|Gunslinger|PT:G&G|Drifter|PT:G&G|15||Drifter’s Wake}"
 									]
 								}
 							]
 						}
 					]
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Initial Deed|Gunslinger|PT:G&G|Drifter|PT:G&G|1"
+				}
+			]
+		},
+        {
+			"name": "Initial Deed",
+			"source": "PT:G&G",
+			"page": 6,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Drifter",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "free",
+						"entry": "{@as f}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"You know trouble can lurk around every corner and your hands never stray far from your holsters. You can {@action Interact} to draw a ranged weapon and can then {@action Interact} to draw a one-handed melee weapon. As your first action on your next turn, you can Stride toward an enemy you can perceive as a free action. If you can’t perceive any enemies or can’t end your movement closer to one, you can’t Stride in this way."
+                    ],
+					"type": "ability",
+					"name": "Into the Fray",
+					"trigger": "You roll initiative."
+				}
+			]
+		},
+        {
+			"name": "Advanced Deed",
+			"source": "PT:G&G",
+			"page": 6,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Drifter",
+			"subclassSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "double",
+						"entry": "{@as 2}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"You hurl your melee weapon at an opponent then fire a projectile into the weapon, causing it to deal additional damage and bounce back to your grasp. Make a thrown ranged {@action Strike} with the melee weapon, then a ranged {@action Strike} with your firearm. Both {@action Strike|CRB|Strikes} use the same multiple attack penalty. If the melee weapon doesn’t have the thrown trait, it gains the thrown 10 feet trait during a Rebounding Assault.",
+                        "If both attacks are successful, the bullet hits the thrown melee weapon instead of your target, adding its force into a single attack. Combine the damage from both {@action Strike|CRB|Strikes}, using the thrown weapon’s damage type, and add an additional 1d6 precision damage. The rebound also causes the melee weapon to return to your hand.",
+                        "In any circumstance other than both attacks hitting, carry out the individual {@action Strike|CRB|Strikes} normally. The thrown weapon doesn’t rebound and remains in the target’s space as normal for thrown weapons."
+                    ],
+					"type": "ability",
+					"name": "Rebounding Assault",
+                    "requirements": "You’re wielding both a loaded firearm or crossbow and a one-handed melee weapon."
+				}
+			]
+		},
+        {
+			"name": "Greater Deed",
+			"source": "PT:G&G",
+			"page": 7,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Drifter",
+			"subclassSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "triple",
+						"entry": "{@as 3}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"You drift across the battlefield, striking down foes as you go. You Stride; this movement doesn’t trigger reactions. You can {@action Strike} up to three times at any points during your movement. Each attack must target a different enemy, and must be made with a firearm, crossbow, one-handed melee weapon, or unarmed attack. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn’t increase until you have made all your attacks."
+                    ],
+					"type": "ability",
+					"name": "Drifter's Wake"
 				}
 			]
 		},
@@ -3090,19 +3191,107 @@
 									"type": "item",
 									"name": "Way Skill",
 									"entries": [
-										"Deception or Intimidation"
+										"{@skill Deception} or {@skill Intimidation}"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Deeds",
 									"entries": [
-										"{@i Initial} Ten Paces; {@i Advanced} Pistolero's Retort; {@i Greater} Finish the Job"
+                                        "{@i Initial} {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Pistolero|PT:G&G|1||Ten Paces}; {@i Advanced} {@subclassFeature Advanced Deed|Gunslinger|PT:G&G|Pistolero|PT:G&G|9||Pistolero's Retort}; {@i Greater} {@subclassFeature Greater Deed|Gunslinger|PT:G&G|Pistolero|PT:G&G|15||Finish the Job}"
 									]
 								}
 							]
 						}
 					]
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Initial Deed|Gunslinger|PT:G&G|Pistolero|PT:G&G|1"
+				}
+			]
+		},
+        {
+			"name": "Initial Deed",
+			"source": "PT:G&G",
+			"page": 6,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Pistolero",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "free",
+						"entry": "{@as f}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"You react to trouble with lightning speed, positioning yourself just right. You gain a +2 circumstance bonus to your initiative roll, and you can {@action Interact} to draw a crossbow, firearm, or one-handed melee weapon. As your first action on your next turn, you can Step up to 10 feet as a free action."
+                    ],
+					"type": "ability",
+					"name": "Ten Paces",
+					"trigger": "You roll initiative."
+				}
+			]
+		},
+        {
+			"name": "Advanced Deed",
+			"source": "PT:G&G",
+			"page": 6,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Pistolero",
+			"subclassSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "reaction",
+						"entry": "{@as r}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"You punish your foe’s failure. Make a {@action Strike} against the triggering foe with a firearm, crossbow, one-handed melee weapon, or unarmed attack; if you make a ranged {@action Strike}, the foe must be within that weapon’s first range increment."
+                    ],
+					"type": "ability",
+					"name": "Pistolero's Retort",
+                    "trigger": "A foe within either your reach or your weapon’s first range increment critically fails an attack roll against you."
+				}
+			]
+		},
+        {
+			"name": "Greater Deed",
+			"source": "PT:G&G",
+			"page": 7,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Pistolero",
+			"subclassSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "single",
+						"entry": "{@as 1}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"Though your last attack failed, it set you up for another. Make a {@action Strike} with your other hand, using a second loaded firearm or crossbow, a one-handed melee weapon, or an unarmed attack. Your multiple attack penalty doesn’t apply to this {@action Strike}. You can’t make this {@action Strike} if you’re holding something in your second hand other than one of the listed options."
+                    ],
+					"type": "ability",
+					"name": "Finish The Job",
+                    "requirements": "Your last action was a failed {@action Strike} with a firearm or crossbow held in one hand."
 				}
 			]
 		},
@@ -3130,19 +3319,107 @@
 									"type": "item",
 									"name": "Way Skill",
 									"entries": [
-										"Stealth"
+										"{@skill Stealth}"
 									]
 								},
 								{
 									"type": "item",
 									"name": "Deeds",
 									"entries": [
-										"{@i Initial} One Shot; {@i Advanced} Vital Shot; {@i Greater} Ghost Shot"
+                                        "{@i Initial} {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|1||One Shot}; {@i Advanced} {@subclassFeature Advanced Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|9||Vital Shot}; {@i Greater} {@subclassFeature Greater Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|15||Ghost Shot}"
 									]
 								}
 							]
 						}
 					]
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Initial Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|1"
+				}
+			]
+		},
+        {
+			"name": "Initial Deed",
+			"source": "PT:G&G",
+			"page": 7,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Sniper",
+			"subclassSource": "PT:G&G",
+			"level": 1,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "free",
+						"entry": "{@as f}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"Your first shot is the deadliest. You {@action Interact} to draw a firearm or crossbow. On your first turn of this encounter, the first {@action Strike} you make with that weapon that hits deals an additional {@dice 1d6} precision damage.",
+                        "This bonus damage increases to {@dice 2d6} at 9th level and {@dice 3d6} at 15th level."
+                    ],
+					"type": "ability",
+					"name": "One Shot, One Kill",
+					"trigger": "You roll {@skill Stealth} for initiative."
+				}
+			]
+		},
+        {
+			"name": "Advanced Deed",
+			"source": "PT:G&G",
+			"page": 7,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Sniper",
+			"subclassSource": "PT:G&G",
+			"level": 9,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "double",
+						"entry": "{@as 2}"
+					},
+					"traits": [
+						"Gunslinger"
+					],
+					"entries": [
+						"Your careful shot against an unsuspecting opponent pierces a vital organ. Make a ranged {@action Strike}. If the target is {@condition flat-footed}, the {@action Strike} deals an extra die of weapon damage, and the foe takes {@condition persistent damage|CRB|persistent bleed damage} equal to the amount of bonus damage listed for {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|1||One Shot, One Kill}."
+                    ],
+					"type": "ability",
+					"name": "Vital Shot"
+				}
+			]
+		},
+        {
+			"name": "Greater Deed",
+			"source": "PT:G&G",
+			"page": 7,
+			"className": "Gunslinger",
+			"classSource": "PT:G&G",
+			"subclassShortName": "Sniper",
+			"subclassSource": "PT:G&G",
+			"level": 15,
+			"entries": [
+                {
+					"activity": {
+						"number": 1,
+						"unit": "single",
+						"entry": "{@as 1}"
+					},
+					"traits": [
+                        "Flourish",
+						"Gunslinger"
+					],
+					"entries": [
+						"Make a firearm or crossbow {@action Strike}. If you’re hidden, undetected, or unobserved by the target, the {@action Strike} deals additional precision damage equal to the precision damage from {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|1||One Shot, One Kill}. After the {@action Strike}, you don’t automatically become {@condition observed}."
+                    ],
+					"type": "ability",
+					"name": "Ghost Shot"
 				}
 			]
 		},
@@ -4043,7 +4320,7 @@
             "requirements": "Your most recent action was to {@action Cast a Spell} with the acid, cold, electricity, fire, or sonic trait.",
             "cost": null,
             "entries": [
-                "You energize one weapon you’re wielding with a spell. For 1 minute, your Strikes with that weapon deal 1 additional damage per weapon damage die. The damage type matches the spell’s trait. If the spell had more than one of the eligible traits, you choose the type when you Energize your Strikes.", 
+                "You energize one weapon you’re wielding with a spell. For 1 minute, your {@action Strike|CRB|Strikes} with that weapon deal 1 additional damage per weapon damage die. The damage type matches the spell’s trait. If the spell had more than one of the eligible traits, you choose the type when you Energize your {@action Strike|CRB|Strikes}.", 
                 "You can instead put the spell energy into your body, conferring this additional damage on your unarmed attacks."
             ],
             "activity": {
@@ -4264,7 +4541,7 @@
             "farchetype": false,
             "prerequisites": "shooting star magus synthesis",
             "frequency": null,
-            "trigger": "You hit with a ranged Strike and discharge a stored spell that you had cast from a spell slot.",
+            "trigger": "You hit with a ranged {@action Strike} and discharge a stored spell that you had cast from a spell slot.",
             "requirements": null,
             "cost": null,
             "entries": [
@@ -4392,7 +4669,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "When you use Bespell Strikes, the weapon or unarmed attacks also deal {@dice 1d6} {@condition Persistent Damage|CRB|persistent damage}. This {@condition Persistent Damage|CRB|persistent damage} is of the same type Bespell Strikes deals, except in the case of physical damage, which causes {@condition Persistent Damage|CRB|persistent bleed damage}."
+                "When you use {@feat Bespell Strikes|PT:G&G|Bespell Strike}, the weapon or unarmed attacks also deal {@dice 1d6} {@condition Persistent Damage|CRB|persistent damage}. This {@condition Persistent Damage|CRB|persistent damage} is of the same type Bespell {@action Strike|CRB|Strikes} deals, except in the case of physical damage, which causes {@condition Persistent Damage|CRB|persistent bleed damage}."
             ],
             "activity": null,
             "special": null,
@@ -4538,7 +4815,7 @@
             "farchetype": false,
             "prerequisites": "Spell Parry",
             "frequency": null,
-            "trigger": "You’re targeted by a Strike or a spell attack roll, or you’re about to roll a saving throw against a spell effect.",
+            "trigger": "You’re targeted by a {@action Strike} or a spell attack roll, or you’re about to roll a saving throw against a spell effect.",
             "requirements": "You’re wielding only a single one-handed melee weapon and have your other hand or hands free.",
             "cost": null,
             "entries": [
@@ -4811,7 +5088,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "You’ve learned magic that lets you temporarily allow your eidolon to travel far from your side. You learn the unfetter eidolon conduit spell (page 25). Increase the number of Focus Points in your focus pool by 1."
+                "You’ve learned magic that lets you temporarily allow your eidolon to travel far from your side. You learn the {@spell unfetter eidolon|PT:SoM} conduit spell. Increase the number of Focus Points in your focus pool by 1."
             ],
             "activity": null,
             "special": null,
@@ -4836,7 +5113,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "You can increase your eidolon’s defenses instead of their offense. You gain the reinforce eidolon conduit cantrip (page 25)."
+                "You can increase your eidolon’s defenses instead of their offense. You gain the {@spell reinforce eidolon|PT:SoM} conduit cantrip."
             ],
             "activity": null,
             "special": null,
@@ -4864,7 +5141,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "You summon a creature exactly in the right spot to distract your foe from your eidolon, providing a perfect opportunity for your eidolon to attack. If the next action you take is to {@action Cast a Spell|CRB} to cast a 3-action summoning spell, when the spell is complete, your eidolon Strikes a foe within reach of both the summoned creature and the eidolon as a free action. The foe is {@condition flat-footed} to the eidolon’s {@action Strike|CRB}."
+                "You summon a creature exactly in the right spot to distract your foe from your eidolon, providing a perfect opportunity for your eidolon to attack. If the next action you take is to {@action Cast a Spell|CRB} to cast a 3-action summoning spell, when the spell is complete, your eidolon {@action Strike|CRB|Strikes} a foe within reach of both the summoned creature and the eidolon as a free action. The foe is {@condition flat-footed} to the eidolon’s {@action Strike|CRB}."
             ],
             "activity": {
                 "number": 1,
@@ -4946,7 +5223,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "Your eidolon adapts to life both on land and underwater. Your eidolon gains the amphibious trait, allowing them to breathe in water and in air and to avoid the normal –2 penalty for making bludgeoning and slashing unarmed Strikes underwater. They gain a swim Speed equal to their land Speed or 25 feet, whichever is less. Alternatively, if your eidolon is normally aquatic, they gain a land Speed equal to their swim Speed or 25 feet, whichever is less."
+                "Your eidolon adapts to life both on land and underwater. Your eidolon gains the amphibious trait, allowing them to breathe in water and in air and to avoid the normal –2 penalty for making bludgeoning and slashing unarmed {@action Strike|CRB|Strikes} underwater. They gain a swim Speed equal to their land Speed or 25 feet, whichever is less. Alternatively, if your eidolon is normally aquatic, they gain a land Speed equal to their swim Speed or 25 feet, whichever is less."
             ],
             "activity": null,
             "special": null,
@@ -5148,7 +5425,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "Your eidolon has gained the ability to make their ectoplasmic form briefly less substantial to avoid attacks while scouting ahead. Your eidolon can switch from their normal form to a less substantial flickering form or quasi-tangible ectoplasm. While in their flickering form, they gain resistance to all damage (except force and negative) equal to half your level. However, they can’t use any of their Strikes or actions requiring a fully physical form like {@action Grapple|CRB}, {@action Shove|CRB}, or {@action Trip|CRB}. Snapping back to their normal form is easier than diffusing themself into a flickering form. Your eidolon can switch back to their normal form as a single action, which also has the concentrate trait."
+                "Your eidolon has gained the ability to make their ectoplasmic form briefly less substantial to avoid attacks while scouting ahead. Your eidolon can switch from their normal form to a less substantial flickering form or quasi-tangible ectoplasm. While in their flickering form, they gain resistance to all damage (except force and negative) equal to half your level. However, they can’t use any of their {@action Strike|CRB|Strikes} or actions requiring a fully physical form like {@action Grapple|CRB}, {@action Shove|CRB}, or {@action Trip|CRB}. Snapping back to their normal form is easier than diffusing themself into a flickering form. Your eidolon can switch back to their normal form as a single action, which also has the concentrate trait."
             ],
             "activity": {
                 "number": 1,
@@ -5719,7 +5996,7 @@
             "farchetype": false,
             "prerequisites": null,
             "frequency": null,
-            "trigger": "A creature you can see attempts a ranged Strike against you.",
+            "trigger": "A creature you can see attempts a ranged {@action Strike} against you.",
             "requirements": null,
             "cost": null,
             "entries": [
@@ -6251,7 +6528,7 @@
             "requirements": "You’re wielding two loaded one-handed crossbows or firearms.",
             "cost": null,
             "entries": [
-                "Your shots strike their target almost simultaneously. Make two Strikes, one with each of your two ranged weapons and each using your current multiple attack penalty. Both {@action Strike|CRB|Strikes} must have the same target.",
+                "Your shots strike their target almost simultaneously. Make two {@action Strike|CRB|Strikes}, one with each of your two ranged weapons and each using your current multiple attack penalty. Both {@action Strike|CRB|Strikes} must have the same target.",
                 "If both attacks hit, combine their damage and then add any applicable effects from both weapons. You add any precision damage only once to the attack of your choice.",
                 "Combine the damage from both {@action Strike|CRB|Strikes} and apply resistances and weaknesses only once. This counts as two attacks when calculating your multiple attack penalty."
             ],
@@ -6770,7 +7047,7 @@
                 "When using your initial deed, instead of Interacting to draw a weapon, you can {@action Strike|CRB} with a firearm or crossbow you’re already wielding. If this {@action Strike|CRB} hits, the target is also {@condition flat-footed} until the end of your first turn of the encounter."
             ],
             "activity": null,
-            "special": "If your initial deed allows you to Interact to draw a weapon more than once, this feat allows you to replace one of these Interact actions and use the other one to draw a weapon. You can’t replace both Interact actions with Strikes, but you can draw a loaded firearm or crossbow and immediately shoot it.",
+            "special": "If your initial deed allows you to {@action Interact} to draw a weapon more than once, this feat allows you to replace one of these {@action Interact} actions and use the other one to draw a weapon. You can’t replace both {@action Interact} actions with {@action Strike|CRB|Strikes}, but you can draw a loaded firearm or crossbow and immediately shoot it.",
             "success_degree": null,
             "page": 11
         },
@@ -7449,7 +7726,7 @@
                 }
             ],
             "activity": null,
-            "special": "If your innovation is a minion, this benefit applies on its Megaton Strikes.",
+            "special": "If your innovation is a minion, this benefit applies on its Megaton {@action Strike|CRB|Strikes}.",
             "success_degree": null,
             "page": 24
         },
@@ -7833,7 +8110,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "You release a volley of projectiles from your weapon or power it to fly about and strike multiple creatures. Make a {@action Strike|CRB} with your weapon innovation against each creature within 30 feet of you. Don’t increase your multiple attack penalty until after making all the attacks. If your innovation is a melee weapon and any of the attacks are outside your reach, you {@action Release|CRB} the weapon before the Strikes, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space."
+                "You release a volley of projectiles from your weapon or power it to fly about and strike multiple creatures. Make a {@action Strike|CRB} with your weapon innovation against each creature within 30 feet of you. Don’t increase your multiple attack penalty until after making all the attacks. If your innovation is a melee weapon and any of the attacks are outside your reach, you {@action Release|CRB} the weapon before the {@action Strike|CRB|Strikes}, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space."
             ],
             "activity": {
                 "number": 1,
@@ -8001,7 +8278,7 @@
 			"name": "Modular",
 			"source": "PT:G&G",
 			"entries": [
-				"The weapon has multiple configurations that you can switch between using an Interact action. Typically, switching between configurations of a modular weapon allows it to deal different types of damage (listed in the trait, such as “modular B, P, or S”), though it’s possible for a modular weapon’s description to list more complicated configurations."
+				"The weapon has multiple configurations that you can switch between using an {@action Interact} action. Typically, switching between configurations of a modular weapon allows it to deal different types of damage (listed in the trait, such as “modular B, P, or S”), though it’s possible for a modular weapon’s description to list more complicated configurations."
 			],
 			"page": 12
 		},
@@ -8454,7 +8731,7 @@
                 "Summoner"
             ],
             "entries": [
-                "You focus deeply on the link between you and your eidolon and boost the power of your eidolon’s attacks. Your eidolon gains a +2 status bonus to damage rolls with their unarmed attacks. If your eidolon’s Strikes deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice."
+                "You focus deeply on the link between you and your eidolon and boost the power of your eidolon’s attacks. Your eidolon gains a +2 status bonus to damage rolls with their unarmed attacks. If your eidolon’s {@action Strike|CRB|Strikes} deal more than one weapon damage die, the status bonus increases to 2 per weapon damage die, to a maximum of +8 with four weapon damage dice."
             ],
             "cast": {
                 "number": 1,
@@ -8649,15 +8926,15 @@
                 "x": [
                     {
                         "level": 3,
-                        "entry": "The unarmed attacks or weapons are {@item striking|CRB|+1 striking}."
+                        "entries": "The unarmed attacks or weapons are {@item striking|CRB|+1 striking}."
                     },
                     {
                         "level": 4,
-                        "entry": "The unarmed attacks or weapons are {@item greater striking|CRB|+2 striking}."
+                        "entries": "The unarmed attacks or weapons are {@item greater striking|CRB|+2 striking}."
                     },
                     {
                         "level": 7,
-                        "entry": "The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
+                        "entries": "The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
                     }
                 ],
                 "no_x": null
@@ -8688,7 +8965,7 @@
                 "x": [
                     {
                         "level": 7,
-                        "entry": "Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
+                        "entries": "Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
                     }
                 ],
                 "no_x": null
@@ -8751,7 +9028,7 @@
                 "heightened": true,
                 "plus_x": {
                     "level": 1,
-                    "entry": "Increase the resistance by 2."
+                    "entries": "Increase the resistance by 2."
                 },
                 "x": null,
                 "no_x": null
