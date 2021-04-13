@@ -49,7 +49,7 @@
 			"name": "Gunslinger",
 			"source": "PT:G&G",
 			"page": 3,
-			"HP": 8,
+			"hp": 8,
 			"keyAbility": "Dexterity",
 			"rarity": "Uncommon",
 			"initialProficiencies": {
@@ -289,7 +289,7 @@
 			"name": "Inventor",
 			"source": "PT:G&G",
 			"page": 15,
-			"HP": 8,
+			"hp": 8,
 			"keyAbility": "Intelligence",
 			"rarity": "Uncommon",
 			"initialProficiencies": {
@@ -530,7 +530,7 @@
 			"name": "Magus",
 			"source": "PT:SoM",
 			"page": 3,
-			"HP": 8,
+			"hp": 8,
 			"keyAbility": "Strength or Dexterity",
 			"initialProficiencies": {
 				"perception": "T",
@@ -754,7 +754,7 @@
 			"name": "Summoner",
 			"source": "PT:SoM",
 			"page": 13,
-			"HP": 10,
+			"hp": 10,
 			"keyAbility": "Charisma",
 			"initialProficiencies": {
 				"perception": "T",
