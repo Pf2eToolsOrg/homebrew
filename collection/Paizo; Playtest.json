@@ -8886,6 +8886,9 @@
 			"category": "Ammunition",
 			"consumable": true,
 			"generic": false,
+            "traits": [
+                
+            ],
 			"price": {
 				"coin": "sp",
 				"amount": 1,
