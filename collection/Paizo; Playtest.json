@@ -42,7 +42,7 @@
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1618267437
+		"dateLastModified": 1621030625
     },
 	"class": [
 		{
@@ -50,6 +50,14 @@
 			"source": "PT:G&G",
 			"page": 3,
 			"hp": 8,
+            "summary": {
+				"text": "The gunslinger is a class for players who love pulling off cool tricks with a unique signature weapon. Skilled in firearms and crossbows, gunslingers can perform powerful trick shots, precision sniping, or wade into melee with a sword in one hand and a pistol in the other.",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/f68010b7-5697-402c-8ccc-b840849b0b0d/012221_PZO2109_Gunslinger01.jpg"
+				],
+				"keyAbility": "Dexterity",
+				"rarity": "Uncommon"
+			},
 			"keyAbility": "Dexterity",
 			"rarity": "Uncommon",
 			"initialProficiencies": {
@@ -59,7 +67,7 @@
 				"will": "T",
 				"skills": {
 					"t": [
-						"Crafting",
+						"{@skill Crafting}",
 						"one or more skills determined by your way."
 					],
 					"add": 3
@@ -290,6 +298,14 @@
 			"source": "PT:G&G",
 			"page": 15,
 			"hp": 8,
+            "summary": {
+				"text": "The inventor is for players who want to combine their wits with unusual technological gimmicks. Each inventor has a special innovation that represents the culmination of their crafting skills: a powerful suit of armor, an unusual weapon, or even a clockwork companion to accompany them on their adventures!",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/416ab8c5-fddc-4d79-9d17-efe8b55fc86d/012221_PZO2109_Inventor01.jpg"
+				],
+				"keyAbility": "Intelligence",
+				"rarity": "Uncommon"
+			},
 			"keyAbility": "Intelligence",
 			"rarity": "Uncommon",
 			"initialProficiencies": {
@@ -299,7 +315,7 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"Crafting"
+						"{@skill Crafting}"
 					],
 					"add": 3
 				},
@@ -531,6 +547,14 @@
 			"source": "PT:SoM",
 			"page": 3,
 			"hp": 8,
+            "summary": {
+				"text": "The magus combines spells with attacks. The classic concept of the warrior-mage hybrid lives here. The test will show whether this class outshines martial characters or spellcasters, or whether it balances its two sides in a satisfying way that feels special. The magus gets fewer spell slots, though the slots’ spell levels get as high as a wizard’s!",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/62062b85-70c0-4b89-ab98-249115261487/090420_MagusSketch.jpg"
+				],
+				"keyAbility": "Strength or Dexterity",
+				"rarity": "Uncommon"
+			},
 			"keyAbility": "Strength or Dexterity",
 			"initialProficiencies": {
 				"perception": "T",
@@ -539,7 +563,7 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"Arcana"
+						"{@skill Arcana}"
 					],
 					"add": 2
 				},
@@ -755,6 +779,14 @@
 			"source": "PT:SoM",
 			"page": 13,
 			"hp": 10,
+            "summary": {
+				"text": "The summoner is for the player who wants to adventure alongside a cool sidekick! A powerful entity called an eidolon holds a supernatural connection with the summoner, sharing health and working in tandem. This class also casts spells but has fewer per day than other spellcasting classes.",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/24ce1f33-6acd-4785-bd9d-b146e4e6ab50/090420_SummonerSketch.jpg"
+				],
+				"keyAbility": "Charisma",
+				"rarity": "Uncommon"
+			},
 			"keyAbility": "Charisma",
 			"initialProficiencies": {
 				"perception": "T",
@@ -2300,7 +2332,7 @@
 						"Unstable"
 					],
 					"entries": [
-						"You cause your innovation to blow up, damaging nearby creatures without damaging the innovation... hopefully. The explosion deals {@dice 2d6} fire damage in a 5-foot emanation around you (if you’re wearing or holding the innovation) or your innovation (if your innovation is a {@trait minion}) with a basic Reflex save.",
+						"You cause your innovation to blow up, damaging nearby creatures without damaging the innovation... hopefully. The explosion deals {@damage 2d6} fire damage in a 5-foot emanation around you (if you’re wearing or holding the innovation) or your innovation (if your innovation is a {@trait minion}) with a basic Reflex save.",
 						"As your inventor level increases, so does the power of your explosions. At 5th level, and every two levels thereafter, your explosion deals an additional {@dice 1d6} damage. If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area; if you also have the revolutionary innovation class feature, you can additionally choose a 5-foot, 10-foot, or 15-foot emanation."
 					],
 					"type": "ability",
@@ -3522,7 +3554,7 @@
 									"type": "item",
 									"name": "Projectile Launcher",
 									"entries": [
-										"Your construct has a mounted dart launcher, embedded cannon, or similar armament. Your innovation gains a ranged unarmed attack that deals {@dice 1d4} bludgeoning or piercing damage (you choose when you pick this modification). It has the {@trait propulsive} trait and a range increment of 30 feet."
+										"Your construct has a mounted dart launcher, embedded cannon, or similar armament. Your innovation gains a ranged unarmed attack that deals {@damage 1d4} bludgeoning or piercing damage (you choose when you pick this modification). It has the {@trait propulsive} trait and a range increment of 30 feet."
 									]
 								},
                                 {
@@ -5361,7 +5393,7 @@
             "cost": null,
             "entries": [
                 "When you summon creatures or manifest your eidolon, there always seems to be an explosion. If the next action you take is to Manifest your Eidolon or to {@action Cast a Spell|CRB} to cast a 3-action summoning spell, the summoned eidolon or creature appears in an explosion of energy or other visually impressive display.",
-                "This deals {@dice 1d4} fire damage per spell level (or {@dice 1d4} damage per 2 levels you have when Manifesting your Eidolon) to all creatures except you within a 10-foot emanation around the eidolon or summoned creature.",
+                "This deals {@damage 1d4} fire damage per spell level (or {@damage 1d4} damage per 2 levels you have when Manifesting your Eidolon) to all creatures except you within a 10-foot emanation around the eidolon or summoned creature.",
                 "If the eidolon or summoned creature has the acid, cold, electricity, sonic, or water trait, the damage is that type instead (or cold damage in the case of the water trait)."
             ],
             "activity": {
@@ -5484,7 +5516,7 @@
             "requirements": null,
             "cost": null,
             "entries": [
-                "Your eidolon has developed a ranged attack. Your eidolon gains a ranged unarmed attack with a range increment of 30 feet that deals {@dice 1d6} damage and has the magical trait. When you select this feat, choose a damage type from acid, bludgeoning, cold, electricity, fire, negative, piercing, positive, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can instead choose a damage type in their alignment (for example, you could choose good or lawful if your lawful good angel eidolon gained this attack)."
+                "Your eidolon has developed a ranged attack. Your eidolon gains a ranged unarmed attack with a range increment of 30 feet that deals {@damage 1d6} damage and has the magical trait. When you select this feat, choose a damage type from acid, bludgeoning, cold, electricity, fire, negative, piercing, positive, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can instead choose a damage type in their alignment (for example, you could choose good or lawful if your lawful good angel eidolon gained this attack)."
             ],
             "activity": null,
             "special": null,
@@ -8265,8 +8297,34 @@
             "page": 26
         }
     ],
+    "group": [
+		{
+			"name": "Firearm",
+			"type": "Weapon",
+			"source": "PT:G&G",
+			"page": 13,
+			"specialization": [
+				"The target must succeed at a Fortitude save against your class DC or be {@condition stunned} 1."
+			]
+		}
+    ],
     "trait": [
 		{
+			"name": "Incarnate",
+			"source": "PT:SoM",
+			"entries": [
+                {
+                    "type": "quote",
+                    "entries": [
+                        "A spell with the incarnate trait operates as follows, rather than conjuring a minion with the {@trait summoned} trait and allowing you to direct its actions. When summoned, the incarnate creature takes its Arrive action. At the end of your next turn, the summoned creature can either {@action Step}, {@action Stride}, or take the action for another movement type it has (such as {@action Climb} or {@action Burrow}), and then takes its Depart action. Then the spell ends.",
+                        "An incarnate spell directs its effects away from you and your allies as much as possible. The incarnate spell’s effect is not quite a creature. It can’t take any other actions, nor can it be targeted or harmed by {@action Strike|CRB|Strikes}, spells, or other effects unless they would be able to target or end a spell effect (such as {@spell dispel magic}). It has a size for the purposes of determining its placement for effects, but does not block movement. If applicable, its effects use your spell DCs and spell attack roll modifier."                 
+                    ],
+                    "by": "Mark Seifter",
+                    "from": "{@link Secrets of Magic Playtest Aftermath|https://paizo.com/community/blog/v5748dyo6shfv}"
+                }
+            ]
+		},
+        {
 			"name": "Concealable",
 			"source": "PT:G&G",
 			"entries": [
@@ -8601,7 +8659,244 @@
             "type": "table"
         }
     ],
+    "baseitem": [
+        {
+			"source": "PT:G&G",
+			"name": "Arquebus",
+			"type": "Equipment",
+			"equipment": true,
+			"category": "Weapon",
+			"ranged": true,
+            "rarity": "Uncommon",
+			"subCategory": "Martial",
+			"traits": [
+                "Fatal d12",
+                "Sniper|PT:G&G",
+                "Unsteady|PT:G&G",
+                "Versatile B"
+			],
+			"consumable": false,
+			"generic": false,
+			"price": {
+				"amount": 10,
+				"coin": "gp",
+				"note": null
+			},
+			"ammunition": "Rounds|PT:G&G",
+			"onset": null,
+			"hands": 2,
+			"damage": "1d8",
+			"damageType": "P",
+			"bulk": 2,
+			"reload": 1,
+			"range": 80,
+			"group": "Firearm",
+			"entries": [
+				"This long rifle offers more range than the average firearm, though the long barrel makes the weapon particularly unsteady unless a tripod or other stand is used to stabilize it."
+			],
+			"craftReq": null,
+			"page": 12
+		},
+        {
+			"source": "PT:G&G",
+			"name": "Blunderbuss",
+			"type": "Equipment",
+			"equipment": true,
+			"category": "Weapon",
+			"ranged": true,
+            "rarity": "Uncommon",
+			"subCategory": "Martial",
+			"traits": [
+                "Scatter|PT:G&G",
+                "Versatile B"
+			],
+			"consumable": false,
+			"generic": false,
+			"price": {
+				"amount": 8,
+				"coin": "gp",
+				"note": null
+			},
+			"ammunition": "Rounds|PT:G&G",
+			"onset": null,
+			"hands": 2,
+			"damage": "1d8",
+			"damageType": "P",
+			"bulk": 2,
+			"reload": 1,
+			"range": 15,
+			"group": "Firearm",
+			"entries": [
+				"This weapon fires pellets from a trumpet shaped barrel, making it an excellent choice for hunting brush fowl or dealing damage in a short but broad area."
+			],
+			"craftReq": null,
+			"page": 12
+		},
+        {
+			"source": "PT:G&G",
+			"name": "Dueling Pistol",
+			"type": "Equipment",
+			"equipment": true,
+			"category": "Weapon",
+			"ranged": true,
+            "level": 1,
+            "rarity": "Uncommon",
+			"subCategory": "Martial",
+			"traits": [
+                "Concealable|PT:G&G",
+                "Fatal d10",
+                "Versatile B"
+			],
+			"consumable": false,
+			"generic": false,
+			"price": {
+				"amount": 12,
+				"coin": "gp",
+				"note": null
+			},
+			"ammunition": "Rounds|PT:G&G",
+			"onset": null,
+			"hands": 1,
+			"damage": "1d6",
+			"damageType": "P",
+			"bulk": "L",
+			"reload": 1,
+			"range": 30,
+			"group": "Firearm",
+			"entries": [
+				"Made for the settling disputes when diplomacy fails, dueling pistols fit easily into a holster or pocket."
+			],
+			"craftReq": null,
+			"page": 12
+		},
+        {
+			"source": "PT:G&G",
+			"name": "Flintlock Musket",
+			"type": "Equipment",
+			"equipment": true,
+			"category": "Weapon",
+			"ranged": true,
+            "level": 1,
+            "rarity": "Uncommon",
+			"subCategory": "Simple",
+			"traits": [
+                "Fatal d10",
+                "Versatile B"
+			],
+			"consumable": false,
+			"generic": false,
+			"price": {
+				"amount": 7,
+				"coin": "gp",
+				"note": null
+			},
+			"ammunition": "Rounds|PT:G&G",
+			"onset": null,
+			"hands": 2,
+			"damage": "1d6",
+			"damageType": "P",
+			"bulk": 1,
+			"reload": 1,
+			"range": 40,
+			"group": "Firearm",
+			"entries": [
+				"The gold standard of firearms in Alkenstar, the flintlock musket includes an external firing mechanism while boasting an efficient and relatively compact frame."
+			],
+			"craftReq": null,
+			"page": 12
+		},
+        {
+			"source": "PT:G&G",
+			"name": "Flintlock Pistol",
+			"type": "Equipment",
+			"equipment": true,
+			"category": "Weapon",
+			"ranged": true,
+            "level": 1,
+            "rarity": "Uncommon",
+			"subCategory": "Simple",
+			"traits": [
+                "Fatal d8",
+                "Versatile B"
+			],
+			"consumable": false,
+			"generic": false,
+			"price": {
+				"amount": 6,
+				"coin": "gp",
+				"note": null
+			},
+			"ammunition": "Rounds|PT:G&G",
+			"onset": null,
+			"hands": 1,
+			"damage": "1d4",
+			"damageType": "P",
+			"bulk": 1,
+			"reload": 1,
+			"range": 20,
+			"group": "Firearm",
+			"entries": [
+				"Though less accurate and powerful than a flintlock musket, the flintlock pistol is the preferred weapon of privateers thanks to its more compact size."
+			],
+			"craftReq": null,
+			"page": 12
+		},
+        {
+			"source": "PT:G&G",
+			"name": "Hand Cannon",
+			"type": "Equipment",
+			"equipment": true,
+			"category": "Weapon",
+			"ranged": true,
+            "level": 1,
+            "rarity": "Uncommon",
+			"subCategory": "Simple",
+			"traits": [
+                "Fatal d8",
+                "Modular B, P, or S"
+			],
+			"consumable": false,
+			"generic": false,
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"ammunition": "Rounds|PT:G&G",
+			"onset": null,
+			"hands": 1,
+			"damage": "1d4",
+			"damageType": "modular",
+			"bulk": 1,
+			"reload": 1,
+			"range": 10,
+			"group": "Firearm",
+			"entries": [
+				"Little more than a hardened tube with a handle and external ignition attached, a hand cannon can be used to fire almost anything that can be packed into its barrel."
+			],
+			"craftReq": null,
+			"page": 12
+		}
+    ],
     "item": [
+        {
+			"source": "PT:G&G",
+			"name": "Rounds",
+			"type": "Item",
+			"category": "Ammunition",
+			"consumable": true,
+			"generic": false,
+			"price": {
+				"coin": "sp",
+				"amount": 1,
+				"note": "(price for 10)"
+			},
+			"bulk": "L",
+			"entries": [
+				"Firearms require ammunition consisting of projectiles and black powder. Though a round of ammo can vary in its composition, it is typically either a prepackaged paper cartridge including wadding, bullet, and black powder or loose shot that has been packed into a cartridge manually. Some weapons, like {@item hand cannon|PT:G&G|hand cannons} and {@item blunderbuss|PT:G&G|blunderbusses}, can fire other material, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the {@feat Alchemical Crafting} skill feat to make them. Firearm rounds are a valid type for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items."
+			],
+			"page": 12
+		}
     ],
     "spell": [
         {
@@ -9134,6 +9429,87 @@
             "dismiss": false,
             "sustain": true,
             "page": 11
+        },
+        {
+            "source": "PT:SoM",
+            "name": "Summon Vengeful Dead",
+            "level": 7,
+            "traditions": null,
+            "domain": null,
+            "school": "N",
+            "type": "SPELL",
+            "components": {
+                "F": false,
+                "M": true,
+                "S": true,
+                "V": true
+            },
+            "traits": [
+                "Incarnate|PT:SoM",
+                "Necromancy"
+            ],
+            "heightened": {
+                "heightened": false,
+                "plus_x": null,
+                "x": null,
+                "no_x": null
+            },
+            "entries": [
+                "You channel the forces of undeath to briefly call forth an amalgam of the vengeful dead slain by your enemies and allies alike. This amalgam manifests as a large tornado of insubstantial, howling faces. It occupies the space of a Huge creature and has a Speed of 60 feet.",
+                {
+                    "type": "pf2-h3",
+                    "entries": [
+                        "{@b Arrive} ({@trait negative}) All enemy creatures within a 60-foot emanation must attempt Fortitude saves.",
+                        {
+                            "type": "successDegree",
+                            "entries": {
+                                "Critical Success": "The creature is unaffected.",
+                                "Success": "The creature is {@condition drained} 1.",
+                                "Failure": "The creature is {@condition drained} 2.",
+                                "Critical Failure": "The creature is {@condition drained} 3."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "pf2-h3",
+                    "entries": [
+                        "{@b Depart} ({@trait emotion}, {@trait fear}, {@trait mental}) The vengeful dead lets out an anguished scream. All your enemies within a 100-foot emanation must attempt Will saves.",
+                        {
+                            "type": "successDegree",
+                            "entries": {
+                                "Critical Success": "The creature is unaffected.",
+                                "Success": "The creature is {@condition frightened} 1.",
+                                "Failure": "The creature is {@condition frightened} 2.",
+                                "Critical Failure": "The creature is {@condition frightened} 3. It’s also {@condition fleeing} for 1 round or until it is no longer {@condition frightened}, whichever comes first."
+                            }
+                        }
+                    ]
+                }
+            ],
+            "cast": {
+                "number": 1,
+                "unit": "triple",
+                "entry": "{@as 3}"
+            },
+            "range": {
+                "type": "point",
+                "entry": "100 feet",
+                "distance": {
+                    "type": "feet",
+                    "amount": 100
+                }
+            },
+            "duration": {
+                "type": "timed",
+                "entry": "until the end of your next turn",
+                "duration": {
+                    "number": 1,
+                    "unit": "round"
+                }
+            },
+            "dismiss": false,
+            "sustain": true
         }
     ]
 }
