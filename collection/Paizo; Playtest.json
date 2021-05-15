@@ -8776,7 +8776,6 @@
 			"equipment": true,
 			"category": "Weapon",
 			"ranged": true,
-            "level": 1,
             "rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
@@ -8812,7 +8811,6 @@
 			"equipment": true,
 			"category": "Weapon",
 			"ranged": true,
-            "level": 1,
             "rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
@@ -8848,7 +8846,6 @@
 			"equipment": true,
 			"category": "Weapon",
 			"ranged": true,
-            "level": 1,
             "rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
