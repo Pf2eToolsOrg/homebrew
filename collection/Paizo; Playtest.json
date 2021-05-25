@@ -3743,7 +3743,7 @@
 					"page": 17,
 					"name": "Armor",
 					"entries": [
-						"Your innovation is a cutting-edge suit of medium armor with a variety of attached gizmos and devices. Your innovation armor has the following statistics: {@b AC Bonus} +4; {@b Dex Cap} +1; {@b Check Penalty} \u20132; {@b Speed Penalty}\u20135 feet; {@b Strength} 16; {@b Bulk} 2; {@b Group} composite; {@b Armor Traits}\u2014. Your innovation armor can have fundamental and property runes added to it in the same way as ordinary armor. Because of the unique features of your innovation, everyone except you is untrained in it, even if they're normally trained (or better) in medium armor.",
+						"Your innovation is a cutting-edge suit of medium armor with a variety of attached gizmos and devices. Your innovation armor has the following statistics: {@b AC Bonus} +4; {@b Dex Cap} +1; {@b Check Penalty} \u20132; {@b Speed Penalty} \u20135 feet; {@b Strength} 16; {@b Bulk} 2; {@b Group} composite; {@b Armor Traits}\u2014. Your innovation armor can have fundamental and property runes added to it in the same way as ordinary armor. Because of the unique features of your innovation, everyone except you is untrained in it, even if they're normally trained (or better) in medium armor.",
 						"Choose one initial armor modification to apply to your innovation, either from the following or from other initial armor modifications to which you have access. The initial modification grants you resistance equal to 2 + half your level to a number of damage types while you wear the armor. The damage types are listed in parentheses after the modification's name.",
 						{
 							"type": "list",
