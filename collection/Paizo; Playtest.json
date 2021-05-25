@@ -42,7 +42,7 @@
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1621030625
+		"dateLastModified": 1621894352
 	},
 	"class": [
 		{
@@ -974,6 +974,280 @@
 			]
 		}
 	],
+	"action": [
+		{
+			"activity": {
+				"number": 1,
+				"unit": "single",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"Though your last attack failed, it set you up for another. Make a {@action Strike} with your other hand, using a second loaded firearm or crossbow, a one-handed melee weapon, or an unarmed attack. Your multiple attack penalty doesn't apply to this {@action Strike}. You can't make this {@action Strike} if you're holding something in your second hand other than one of the listed options."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Pistolero"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Finish The Job",
+			"requirements": "Your last action was a failed {@action Strike} with a firearm or crossbow held in one hand."
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "single",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Flourish",
+				"Gunslinger"
+			],
+			"entries": [
+				"Make a firearm or crossbow {@action Strike}. If you're hidden, undetected, or unobserved by the target, the {@action Strike} deals additional precision damage equal to the precision damage from {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|1||One Shot, One Kill}. After the {@action Strike}, you don't automatically become {@condition observed}."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Sniper"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Ghost Shot"
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "triple",
+				"entry": "{@as 3}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"You drift across the battlefield, striking down foes as you go. You Stride; this movement doesn't trigger reactions. You can {@action Strike} up to three times at any points during your movement. Each attack must target a different enemy, and must be made with a firearm, crossbow, one-handed melee weapon, or unarmed attack. Each attack counts toward your multiple attack penalty, but your multiple attack penalty doesn't increase until you have made all your attacks."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Drifter"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Drifter's Wake"
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "double",
+				"entry": "{@as 2}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"Your careful shot against an unsuspecting opponent pierces a vital organ. Make a ranged {@action Strike}. If the target is {@condition flat-footed}, the {@action Strike} deals an extra die of weapon damage, and the foe takes {@condition persistent damage|CRB|persistent bleed damage} equal to the amount of bonus damage listed for {@subclassFeature Initial Deed|Gunslinger|PT:G&G|Sniper|PT:G&G|1||One Shot, One Kill}."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Sniper"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Vital Shot"
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "reaction",
+				"entry": "{@as r}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"You punish your foe's failure. Make a {@action Strike} against the triggering foe with a firearm, crossbow, one-handed melee weapon, or unarmed attack; if you make a ranged {@action Strike}, the foe must be within that weapon's first range increment."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Pistolero"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Pistolero's Retort",
+			"trigger": "A foe within either your reach or your weapon's first range increment critically fails an attack roll against you."
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "double",
+				"entry": "{@as 2}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"You hurl your melee weapon at an opponent then fire a projectile into the weapon, causing it to deal additional damage and bounce back to your grasp. Make a thrown ranged {@action Strike} with the melee weapon, then a ranged {@action Strike} with your firearm. Both {@action Strike|CRB|Strikes} use the same multiple attack penalty. If the melee weapon doesn't have the thrown trait, it gains the thrown 10 feet trait during a Rebounding Assault.",
+				"If both attacks are successful, the bullet hits the thrown melee weapon instead of your target, adding its force into a single attack. Combine the damage from both {@action Strike|CRB|Strikes}, using the thrown weapon's damage type, and add an additional 1d6 precision damage. The rebound also causes the melee weapon to return to your hand.",
+				"In any circumstance other than both attacks hitting, carry out the individual {@action Strike|CRB|Strikes} normally. The thrown weapon doesn't rebound and remains in the target's space as normal for thrown weapons."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Drifter"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Rebounding Assault",
+			"requirements": "You're wielding both a loaded firearm or crossbow and a one-handed melee weapon."
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "free",
+				"entry": "{@as f}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"Your first shot is the deadliest. You {@action Interact} to draw a firearm or crossbow. On your first turn of this encounter, the first {@action Strike} you make with that weapon that hits deals an additional {@dice 1d6} precision damage.",
+				"This bonus damage increases to {@dice 2d6} at 9th level and {@dice 3d6} at 15th level."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Sniper"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "One Shot, One Kill",
+			"trigger": "You roll {@skill Stealth} for initiative."
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "free",
+				"entry": "{@as f}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"You react to trouble with lightning speed, positioning yourself just right. You gain a +2 circumstance bonus to your initiative roll, and you can {@action Interact} to draw a crossbow, firearm, or one-handed melee weapon. As your first action on your next turn, you can Step up to 10 feet as a free action."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Pistolero"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Ten Paces",
+			"trigger": "You roll initiative."
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "free",
+				"entry": "{@as f}"
+			},
+			"traits": [
+				"Gunslinger"
+			],
+			"entries": [
+				"You know trouble can lurk around every corner and your hands never stray far from your holsters. You can {@action Interact} to draw a ranged weapon and can then {@action Interact} to draw a one-handed melee weapon. As your first action on your next turn, you can Stride toward an enemy you can perceive as a free action. If you can't perceive any enemies or can't end your movement closer to one, you can't Stride in this way."
+			],
+			"actionType": {
+				"class": [
+					"Gunslinger|PT:g&g"
+				],
+				"subclass": [
+					"Way of the Drifter"
+				]
+			},
+			"source": "PT:G&G",
+			"name": "Into the Fray",
+			"trigger": "You roll initiative."
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"actionType": {
+				"class": [
+					"Inventor|PT:g&g"
+				]
+			},
+			"traits": [
+				"Inventor",
+				"Manipulate"
+			],
+			"entries": [
+				"You add greater power to your attacks by throwing an array of small gadgets and gizmos into overdrive. Attempt a {@skill Crafting} check with a standard DC for your level.",
+				{
+					"type": "success_degree",
+					"entries": {
+						"Critical Success": "You gadgets whir with overwhelming power. Your {@action Strike|CRB|Strikes} deal additional damage equal to your Intelligence modifier for 1 minute. You can't use {@action Overdrive|PT:G&G} again until 1 minute after the effect expires.",
+						"Success": "You successfully throw your gadgets into overdrive. As critical success, except the additional damage is equal to half your Intelligence modifier.",
+						"Failure": "You make a miscalculation and fail to power up your devices, but you can try again.",
+						"Critical Failure": "Whoops! Something explodes. You take fire damage equal to your level. You can't use {@action Overdrive|PT:G&G} again for 1 minute."
+					}
+				}
+			],
+			"source": "PT:G&G",
+			"special": "If you have a construct innovation, its {@action Strike|CRB|Strikes} also gain the additional damage, and if you critically fail your {@skill Crafting} check, it also takes the fire damage.",
+			"name": "Overdrive"
+		},
+		{
+			"activity": {
+				"number": 1,
+				"unit": "double",
+				"entry": "{@as 2}"
+			},
+			"actionType": {
+				"class": [
+					"Inventor|PT:g&g"
+				]
+			},
+			"traits": [
+				"Fire",
+				"Inventor",
+				"Manipulate",
+				"Unstable|PT:G&G"
+			],
+			"entries": [
+				"You cause your innovation to blow up, damaging nearby creatures without damaging the innovation... hopefully. The explosion deals {@damage 2d6} fire damage in a 5-foot emanation around you (if you're wearing or holding the innovation) or your innovation (if your innovation is a {@trait minion}) with a basic Reflex save.",
+				"As your inventor level increases, so does the power of your explosions. At 5th level, and every two levels thereafter, your explosion deals an additional {@dice 1d6} damage. If you have the breakthrough innovation class feature, you can choose either a 5-foot or 10-foot emanation for the area; if you also have the revolutionary innovation class feature, you can additionally choose a 5-foot, 10-foot, or 15-foot emanation."
+			],
+			"source": "PT:G&G",
+			"name": "Explode"
+		}
+	],
 	"classFeature": [
 		{
 			"name": "Arcane Spellcasting",
@@ -985,7 +1259,7 @@
 			"entries": [
 				"You study spells so you can combine them with your attacks or solve problems that martial might alone can't handle. You can cast arcane spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells.",
 				"At 1st level, you can prepare one 1st-level spell and five cantrips each morning from the spells in your spellbook (page 5). Prepared spells remain available to you until you cast them or until you prepare your spells again. The number of spells you can prepare is called your spell slots.",
-				"As you increase in level as a magus, your number of spell slots and the highest level of spells you can cast from spell slots increase, shown in Table 1\u20132: Magus Spells per Day.",
+				"As you increase in level as a magus, your number of spell slots and the highest level of spells you can cast from spell slots increase, shown in Table 1 \u20132: Magus Spells per Day.",
 				"Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack rolls and spell DCs use your Intelligence modifier. Details on calculating these statistics appear on page 447 of the Core Rulebook.",
 				{
 					"type": "pf2-h4",
@@ -1606,7 +1880,7 @@
 			"entries": [
 				"Your connection to your eidolon grants you limited magic, which is connected to your eidolon's nature. You can cast spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells.",
 				"Each day, you can cast one 1st-level spell and five cantrips. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.",
-				"As you increase in level as a summoner, the magical link with your eidolon grants you additional, more powerful spell slots. Your total number of spell slots and the highest level of spells you can cast are shown on Table 2\u20132: Summoner Spells per Day. Because you draw magic from your connection to your eidolon, you have no more than two spell slots of your highest level and, if you can cast 2nd-level spells or higher, two spell slots of 1 level lower than your highest spell level.",
+				"As you increase in level as a summoner, the magical link with your eidolon grants you additional, more powerful spell slots. Your total number of spell slots and the highest level of spells you can cast are shown on Table 2 \u20132: Summoner Spells per Day. Because you draw magic from your connection to your eidolon, you have no more than two spell slots of your highest level and, if you can cast 2nd-level spells or higher, two spell slots of 1 level lower than your highest spell level.",
 				"Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier. Details on calculating these statistics appear on page 447 of the Core Rulebook.",
 				{
 					"type": "pf2-h4",
@@ -2328,7 +2602,7 @@
 						"Fire",
 						"Inventor",
 						"Manipulate",
-						"Unstable"
+						"unstable|PT:g&g"
 					],
 					"entries": [
 						"You cause your innovation to blow up, damaging nearby creatures without damaging the innovation... hopefully. The explosion deals {@damage 2d6} fire damage in a 5-foot emanation around you (if you're wearing or holding the innovation) or your innovation (if your innovation is a {@trait minion}) with a basic Reflex save.",
@@ -3469,7 +3743,7 @@
 					"page": 17,
 					"name": "Armor",
 					"entries": [
-						"Your innovation is a cutting-edge suit of medium armor with a variety of attached gizmos and devices. Your innovation armor has the following statistics: {@b AC Bonus} +4; {@b Dex Cap} +1; {@b Check Penalty}\u20132; {@b Speed Penalty}\u20135 feet; {@b Strength} 16; {@b Bulk} 2; {@b Group} composite; {@b Armor Traits}\u2014. Your innovation armor can have fundamental and property runes added to it in the same way as ordinary armor. Because of the unique features of your innovation, everyone except you is untrained in it, even if they're normally trained (or better) in medium armor.",
+						"Your innovation is a cutting-edge suit of medium armor with a variety of attached gizmos and devices. Your innovation armor has the following statistics: {@b AC Bonus} +4; {@b Dex Cap} +1; {@b Check Penalty} \u20132; {@b Speed Penalty}\u20135 feet; {@b Strength} 16; {@b Bulk} 2; {@b Group} composite; {@b Armor Traits}\u2014. Your innovation armor can have fundamental and property runes added to it in the same way as ordinary armor. Because of the unique features of your innovation, everyone except you is untrained in it, even if they're normally trained (or better) in medium armor.",
 						"Choose one initial armor modification to apply to your innovation, either from the following or from other initial armor modifications to which you have access. The initial modification grants you resistance equal to 2 + half your level to a number of damage types while you wear the armor. The damage types are listed in parentheses after the modification's name.",
 						{
 							"type": "list",
@@ -3523,7 +3797,7 @@
 					"page": 17,
 					"name": "Construct",
 					"entries": [
-						"Your innovation is a clockwork construct of cogs and gears. This innovation is a prototype construct companion (page 26), and you can adjust most of its base statistics by taking feats at higher levels, such as Advanced Companion. If you have the Overdrive action (page 18) and use it after you've already Commanded your construct during the same turn, your construct also gains the same Overdrive benefits you do.",
+						"Your innovation is a clockwork construct of cogs and gears. This innovation is a prototype construct companion (page 26), and you can adjust most of its base statistics by taking feats at higher levels, such as {@feat Advanced Construct Companion|PT:g&g|Advanced Companion}. If you have the {@action Overdrive|PT:G&G} action and use it after you've already Commanded your construct during the same turn, your construct also gains the same Overdrive benefits you do.",
 						"Choose one initial construct modification to apply to your innovation, either from the following or from other initial construct modifications to which you have access. These modifications alter the construct's abilities or form.",
 						{
 							"type": "list",
@@ -3680,7 +3954,7 @@
 									"type": "item",
 									"name": "Heavy Construction",
 									"entries": [
-										"You've expanded your innovation into a heavy bulwark while taking none of the drawbacks for doing so. Your innovation becomes heavy armor, and your proficiency in your innovation armor (but no other heavy armor) advances to equal to your proficiency in medium armor. If your Strength score is at least 16, you remove the Speed penalty entirely instead of reducing it to \u20135 feet. The armor's statistics are: {@b AC Bonus} +5; {@b Dex Cap} +1; {@b Check Penalty}\u20132 {@b Speed Penalty}\u201310 feet; {@b Strength} 16; {@b Bulk} 3; {@b Group} composite; {@b Armor Traits} bulwark."
+										"You've expanded your innovation into a heavy bulwark while taking none of the drawbacks for doing so. Your innovation becomes heavy armor, and your proficiency in your innovation armor (but no other heavy armor) advances to equal to your proficiency in medium armor. If your Strength score is at least 16, you remove the Speed penalty entirely instead of reducing it to\u20135 feet. The armor's statistics are: {@b AC Bonus} +5; {@b Dex Cap} +1; {@b Check Penalty} \u20132 {@b Speed Penalty}\u201310 feet; {@b Strength} 16; {@b Bulk} 3; {@b Group} composite; {@b Armor Traits} bulwark."
 									]
 								},
 								{
@@ -4007,11 +4281,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4033,11 +4305,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4062,11 +4332,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4087,11 +4355,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4112,11 +4378,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4142,11 +4406,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4167,11 +4429,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "a familiar",
 			"frequency": null,
 			"trigger": null,
@@ -4195,11 +4455,9 @@
 				"Extradimensional",
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4221,11 +4479,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": "once per turn",
 			"trigger": null,
@@ -4260,11 +4516,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4289,11 +4543,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4314,11 +4566,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4340,11 +4590,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4370,11 +4618,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "ability to cast 3rd-level magus spells",
 			"frequency": null,
 			"trigger": null,
@@ -4396,11 +4642,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "focus pool",
 			"frequency": null,
 			"trigger": null,
@@ -4421,11 +4665,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "Spell Parry",
 			"frequency": null,
 			"trigger": "You succeed at your save against a foe's harmful spell targeting you, or a foe fails a spell attack roll against you from a harmful spell.",
@@ -4451,11 +4693,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4477,11 +4717,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "focus pool",
 			"frequency": null,
 			"trigger": null,
@@ -4502,11 +4740,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4533,11 +4769,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "You discharge a stored spell that deals acid, cold, electricity, fire, force, negative, positive, or sonic damage.",
@@ -4565,11 +4799,9 @@
 				"Evocation",
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "shooting star magus synthesis",
 			"frequency": null,
 			"trigger": "You hit with a ranged {@action Strike} and discharge a stored spell that you had cast from a spell slot.",
@@ -4598,11 +4830,9 @@
 				"Necromancy",
 				"Positive"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "sustaining steel magus synthesis",
 			"frequency": null,
 			"trigger": "You gain temporary Hit Points from Casting a Spell altered by Striking Spell using a spell slot.",
@@ -4630,11 +4860,9 @@
 				"Magus",
 				"Teleportation"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "slide casting magus synthesis",
 			"frequency": null,
 			"trigger": "You begin Casting a Spell altered by Striking Spell from a spell slot.",
@@ -4660,11 +4888,9 @@
 				"Concentrate",
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": "once per day",
 			"trigger": null,
@@ -4689,11 +4915,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "Bespell Strikes",
 			"frequency": null,
 			"trigger": null,
@@ -4717,11 +4941,9 @@
 				"Divination",
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4742,11 +4964,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4771,11 +4991,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": "once per turn",
 			"trigger": null,
@@ -4813,11 +5031,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "focus pool",
 			"frequency": null,
 			"trigger": null,
@@ -4839,11 +5055,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": "Spell Parry",
 			"frequency": null,
 			"trigger": "You're targeted by a {@action Strike} or a spell attack roll, or you're about to roll a saving throw against a spell effect.",
@@ -4868,11 +5082,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4897,11 +5109,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "Your turn begins.",
@@ -4927,11 +5137,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4952,11 +5160,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -4977,11 +5183,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5002,11 +5206,9 @@
 			"traits": [
 				"Magus"
 			],
-			"fclass": "Magus",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Magus"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5031,11 +5233,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5057,11 +5257,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5082,11 +5280,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5108,11 +5304,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5133,11 +5327,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5161,11 +5353,9 @@
 				"Metamagic",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5191,18 +5381,16 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your eidolon evolves to cast their own spells. Your eidolon gains the {@action Cast a Spell|CRB} activity and learns two cantrips of their ©2020 Paizo Inc. 21 Secrets of Magic tradition, which they cast as innate spells. Your eidolon uses your spell DC and spell attack modifier for these spells."
+				"Your eidolon evolves to cast their own spells. Your eidolon gains the {@action Cast a Spell|CRB} activity and learns two cantrips of their tradition, which they cast as innate spells. Your eidolon uses your spell DC and spell attack modifier for these spells."
 			],
 			"activity": null,
 			"special": null,
@@ -5217,11 +5405,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5243,11 +5429,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5269,11 +5453,9 @@
 				"Summoner",
 				"Tandem"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5299,11 +5481,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5325,11 +5505,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5351,11 +5529,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5380,11 +5556,9 @@
 				"Metamagic",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5413,11 +5587,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5445,11 +5617,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": "your eidolon is a phantom",
 			"frequency": null,
 			"trigger": null,
@@ -5476,11 +5646,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": "Magical Evolution",
 			"frequency": null,
 			"trigger": null,
@@ -5504,11 +5672,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5529,11 +5695,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5556,11 +5720,9 @@
 				"Magical",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "You and your eidolon are both in the area of a damaging effect.",
@@ -5590,11 +5752,9 @@
 				"Summoner",
 				"Teleportation"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5619,11 +5779,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": "conduit spells",
 			"frequency": null,
 			"trigger": null,
@@ -5648,11 +5806,9 @@
 				"Summoner",
 				"Teleportation"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "You or your eidolon takes damage.",
@@ -5677,11 +5833,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5689,6 +5843,9 @@
 			"cost": null,
 			"entries": [
 				"You've learned how to transmogrify your eidolon in various ways to suit the circumstances of the day. Each day during your daily preparations, choose one evolution feat of 6th level or lower. Your eidolon gains that feat until your next daily preparations."
+			],
+			"leadsTo": [
+				"True Transmogrification|PT:SoM"
 			],
 			"activity": null,
 			"special": null,
@@ -5703,11 +5860,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5729,11 +5884,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5755,11 +5908,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": "Hulking Evolution",
 			"frequency": null,
 			"trigger": null,
@@ -5780,11 +5931,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "Your turn begins.",
@@ -5811,11 +5960,9 @@
 				"Evolution",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5836,11 +5983,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": "Conduit Focus",
 			"frequency": null,
 			"trigger": null,
@@ -5861,12 +6006,10 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
-			"prerequisites": "Transmogrify",
+			"featType": {
+				"class": "Summoner"
+			},
+			"prerequisites": "{@feat Transmogrify|PT:SoM}",
 			"frequency": null,
 			"trigger": null,
 			"requirements": null,
@@ -5889,11 +6032,9 @@
 				"Summoner",
 				"Transmutation"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5915,11 +6056,9 @@
 				"Uncommon",
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": "eidolon from a plane other than the Material Plane",
 			"frequency": null,
 			"trigger": null,
@@ -5941,11 +6080,9 @@
 			"traits": [
 				"Summoner"
 			],
-			"fclass": "Summoner",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Summoner"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5966,11 +6103,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5995,11 +6130,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6020,11 +6153,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "A creature you can see attempts a ranged {@action Strike} against you.",
@@ -6050,11 +6181,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6077,11 +6206,9 @@
 				"Gunslinger",
 				"Press"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6108,11 +6235,9 @@
 				"Attack",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6126,7 +6251,7 @@
 						"Critical Success": "You open the lock, or you achieve two successes toward opening a complex lock.",
 						"Success": "You open the lock, or you achieve one success toward opening a complex lock.",
 						"Failure": "You fail to open the lock, and your shot makes it harder to open. Future attempts to {@action Pick a Lock|CRB|Pick the Lock} take a \u20132 circumstance penalty.",
-						"Critical Failure": "You fail to open the lock, and your shot makes it much harder to open. Future attempts to {@action Pick a Lock|CRB|Pick the Lock} take a \u20134 circumstance penalty."
+						"Critical Failure": "You fail to open the lock, and your shot makes it much harder to open. Future attempts to {@action Pick a Lock|CRB|Pick the Lock} take a\u20134 circumstance penalty."
 					}
 				}
 			],
@@ -6146,11 +6271,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "trained in Deception",
 			"frequency": null,
 			"trigger": null,
@@ -6175,11 +6298,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6205,11 +6326,9 @@
 				"Flourish",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6235,18 +6354,16 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "trained in Intimidation",
 			"frequency": null,
 			"trigger": null,
 			"requirements": "You're wielding a loaded firearm.",
 			"cost": null,
 			"entries": [
-				"Who needs words when the roar of a gun is so much more succinct? You attempt to {@action Demoralize|CRB} a foe by firing your weapon into the air, using the firearm's maximum range rather than the usual range of 30 feet. This check doesn't take the \u20134 circumstance penalty if the target doesn't share a language with you."
+				"Who needs words when the roar of a gun is so much more succinct? You attempt to {@action Demoralize|CRB} a foe by firing your weapon into the air, using the firearm's maximum range rather than the usual range of 30 feet. This check doesn't take the\u20134 circumstance penalty if the target doesn't share a language with you."
 			],
 			"activity": {
 				"number": 1,
@@ -6264,11 +6381,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6294,11 +6409,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "You Leap.",
@@ -6323,11 +6436,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6352,11 +6463,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6383,11 +6492,9 @@
 				"Gunslinger",
 				"Linguistic"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "way of the pistolero",
 			"frequency": null,
 			"trigger": null,
@@ -6420,11 +6527,9 @@
 				"Flourish",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "way of the drifter",
 			"frequency": null,
 			"trigger": null,
@@ -6450,11 +6555,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6488,11 +6591,9 @@
 				"Flourish",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "way of the sniper",
 			"frequency": null,
 			"trigger": null,
@@ -6518,11 +6619,9 @@
 				"Gunslinger",
 				"Fortune"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": "once per hour",
 			"trigger": "You fail a Fortitude or Will save.",
@@ -6547,11 +6646,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6578,11 +6675,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "Hit the Dirt!",
 			"frequency": null,
 			"trigger": null,
@@ -6604,18 +6699,16 @@
 				"Concentrate",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You take an extra moment to carefully align your aim and breathing. Make a ranged weapon {@action Strike|CRB}. You gain a +2 circumstance bonus to this {@action Strike|CRB}'s attack roll and ignore the target's concealment. If you're using a firearm with the unsteady trait, you don't take the normal circumstance penalty for firing without using a tripod or {@action Interact|CRB} action to aim on this {@action Strike|CRB}."
+				"You take an extra moment to carefully align your aim and breathing. Make a ranged weapon {@action Strike|CRB}. You gain a +2 circumstance bonus to this {@action Strike|CRB}'s attack roll and ignore the target's concealment. If you're using a firearm with the {@trait unsteady|PT:G&G} trait, you don't take the normal circumstance penalty for firing without using a {@item tripod|PT:G&G} or {@action Interact|CRB} action to aim on this {@action Strike|CRB}."
 			],
 			"activity": {
 				"number": 1,
@@ -6633,11 +6726,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6669,11 +6760,9 @@
 				"Flourish",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6686,7 +6775,7 @@
 					"items": [
 						"{@bold Arms} (or another limb used for attacks, such as a tentacle) The target is {@condition enfeebled} 2. On a critical hit, it's also {@condition enfeebled} 1 for 1 minute.",
 						"{@bold Head} The target is {@condition stupefied} 2. On a critical hit, it's also {@condition stupefied} 1 for 1 minute.",
-						"{@bold Legs} (or tail on a legless creature) The target takes a \u201310-foot status penalty to its Speeds. On a critical hit, it also takes \u20135-foot penalty to its Speeds for 1 minute.",
+						"{@bold Legs} (or tail on a legless creature) The target takes a\u201310-foot status penalty to its Speeds. On a critical hit, it also takes\u20135-foot penalty to its Speeds for 1 minute.",
 						"{@bold Wings} If the target is flying using its wings, it immediately falls 20 feet, or 40 feet on a critical hit. The fall is gradual enough that if it causes the target to hit the ground, the target takes no damage from the fall."
 					]
 				}
@@ -6707,11 +6796,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "An ally within the first range increment of your firearm or crossbow is hit by an attack, and you can see the attacker.",
@@ -6738,11 +6825,9 @@
 				"Fortune",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "An ally misses with a ranged attack that uses a thrown weapon or ammunition.",
@@ -6767,11 +6852,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6804,11 +6887,9 @@
 				"Gunslinger",
 				"Press"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6841,11 +6922,9 @@
 				"Gunslinger",
 				"Press"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6870,11 +6949,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6900,11 +6977,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -6925,11 +7000,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "Grit and Tenacity",
 			"frequency": null,
 			"trigger": null,
@@ -6952,11 +7025,9 @@
 				"Concentrate",
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": "once per minute",
 			"trigger": null,
@@ -6981,11 +7052,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": "Pistol Twirl, expert in Deception",
 			"frequency": null,
 			"trigger": null,
@@ -7008,11 +7077,9 @@
 				"Gunslinger",
 				"Press"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7037,11 +7104,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7062,11 +7127,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7088,11 +7151,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "An enemy misses you with a ranged attack using a type of ammunition appropriate to your weapon (for instance, a bullet if you're wielding a firearm).",
@@ -7118,11 +7179,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7143,11 +7202,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7168,11 +7225,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7193,11 +7248,9 @@
 			"traits": [
 				"Gunslinger"
 			],
-			"fclass": "Gunslinger",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Gunslinger"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7218,11 +7271,9 @@
 				"Inventor",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7244,13 +7295,11 @@
 				"Fire",
 				"Inventor",
 				"Move",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7275,11 +7324,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7301,11 +7348,9 @@
 				"Inventor",
 				"Manipulate"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7316,7 +7361,7 @@
 				{
 					"type": "success_degree",
 					"entries": {
-						"Critical Success": "Your tampering is incredibly effective. If you tampered with a weapon, the enemy takes a \u20132 circumstance penalty to attack rolls and damage rolls with that weapon. If you tampered with armor, the armor hampers the enemy's movement, causing them to be flatfooted and take a \u201310-foot penalty to their Speeds. Either effect lasts until the enemy Interacts to remove the effect.",
+						"Critical Success": "Your tampering is incredibly effective. If you tampered with a weapon, the enemy takes a \u20132 circumstance penalty to attack rolls and damage rolls with that weapon. If you tampered with armor, the armor hampers the enemy's movement, causing them to be flatfooted and take a\u201310-foot penalty to their Speeds. Either effect lasts until the enemy Interacts to remove the effect.",
 						"Success": "Your tampering is temporarily effective. As critical success, but the effect ends after 1 round even if the enemy hasn't Interacted to end it.",
 						"Critical Failure": "Your tampering backfires dramatically, causing a small explosion from your own tools or gear. You take fire damage equal to your level."
 					}
@@ -7338,11 +7383,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7367,11 +7410,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "weapon innovation",
 			"frequency": null,
 			"trigger": null,
@@ -7398,11 +7439,9 @@
 				"Concentrate",
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "construct companion",
 			"frequency": "once per minute",
 			"trigger": "Your construct companion would become confused or controlled.",
@@ -7429,13 +7468,11 @@
 				"Healing",
 				"Inventor",
 				"Manipulate",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7462,11 +7499,9 @@
 				"Manipulate",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor innovation",
 			"frequency": null,
 			"trigger": null,
@@ -7494,11 +7529,9 @@
 				"Manipulate",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "construct innovation",
 			"frequency": null,
 			"trigger": null,
@@ -7524,18 +7557,16 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "construct companion",
 			"frequency": null,
 			"trigger": null,
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You've upgraded your construct companion's power and decision-making ability. Your construct companion becomes an advanced construct companion (page 27). During an encounter, even if you don't use the Command a Minion action, your construct companion can still use 1 action on your turn that round to {@action Stride|CRB} or {@action Strike|CRB}."
+				"You've upgraded your construct companion's power and decision-making ability. Your construct companion becomes an advanced construct companion (page 27). During an encounter, even if you don't use the {@trait Minion|CRB|Command a Minion} action, your construct companion can still use 1 action on your turn that round to {@action Stride|CRB} or {@action Strike|CRB}."
 			],
 			"activity": null,
 			"special": null,
@@ -7550,11 +7581,9 @@
 				"Inventor",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor innovation",
 			"frequency": null,
 			"trigger": null,
@@ -7576,11 +7605,9 @@
 				"Inventor",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "weapon innovation",
 			"frequency": null,
 			"trigger": null,
@@ -7602,13 +7629,11 @@
 			"level": 4,
 			"traits": [
 				"Inventor",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7634,13 +7659,11 @@
 			"traits": [
 				"Inventor",
 				"Manipulate",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor, construct, or weapon innovation",
 			"frequency": null,
 			"trigger": "Your turn begins.",
@@ -7674,13 +7697,11 @@
 				"Electricity",
 				"Inventor",
 				"Manipulate",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7706,11 +7727,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -7732,11 +7751,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Megaton Strike",
 			"frequency": null,
 			"trigger": null,
@@ -7766,11 +7783,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Advanced Construct Companion",
 			"frequency": null,
 			"trigger": null,
@@ -7792,11 +7807,9 @@
 				"Inventor",
 				"Manipulate"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "overdrive",
 			"frequency": null,
 			"trigger": null,
@@ -7821,13 +7834,11 @@
 			"traits": [
 				"Inventor",
 				"Manipulate",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor innovation",
 			"frequency": null,
 			"trigger": null,
@@ -7854,11 +7865,9 @@
 				"Inventor",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "initial modification",
 			"frequency": null,
 			"trigger": null,
@@ -7880,11 +7889,9 @@
 				"Inventor",
 				"Manipulate"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "offensive boost",
 			"frequency": "once per 10 minutes",
 			"trigger": null,
@@ -7917,11 +7924,9 @@
 				"Inventor",
 				"Manipulate"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "offensive boost",
 			"frequency": null,
 			"trigger": null,
@@ -7942,11 +7947,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Megavolt",
 			"frequency": null,
 			"trigger": null,
@@ -7967,11 +7970,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Overdrive Ally",
 			"frequency": null,
 			"trigger": null,
@@ -7992,11 +7993,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Tinker's Meddling",
 			"frequency": "once per day",
 			"trigger": null,
@@ -8018,11 +8017,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Incredible Companion",
 			"frequency": null,
 			"trigger": null,
@@ -8043,11 +8040,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "You would attempt the flat check to determine whether your innovation is destroyed due to an unstable action, but you haven't rolled yet.",
@@ -8073,11 +8068,9 @@
 				"Inventor",
 				"Modification"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor innovation",
 			"frequency": null,
 			"trigger": null,
@@ -8098,11 +8091,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": "A creature you can perceive targets you with an attack against your AC.",
@@ -8128,11 +8119,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "weapon innovation",
 			"frequency": null,
 			"trigger": null,
@@ -8157,11 +8146,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "construct innovation",
 			"frequency": null,
 			"trigger": null,
@@ -8186,11 +8173,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Eternal Meddler",
 			"frequency": null,
 			"trigger": null,
@@ -8210,13 +8195,11 @@
 			"level": 18,
 			"traits": [
 				"Inventor",
-				"Unstable"
+				"unstable|PT:g&g"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor innovation",
 			"frequency": null,
 			"trigger": "You would take damage.",
@@ -8241,11 +8224,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "armor, construct, or weapon innovation",
 			"frequency": null,
 			"trigger": null,
@@ -8274,11 +8255,9 @@
 			"traits": [
 				"Inventor"
 			],
-			"fclass": "Inventor",
-			"fgeneral": false,
-			"fancestry": false,
-			"fskill": false,
-			"farchetype": false,
+			"featType": {
+				"class": "Inventor"
+			},
 			"prerequisites": "Shared Overdrive",
 			"frequency": null,
 			"trigger": null,
@@ -8307,6 +8286,38 @@
 	],
 	"trait": [
 		{
+			"name": "Gunslinger",
+			"source": "PT:G&G",
+			"categories": [
+				"Class"
+			],
+			"entries": []
+		},
+		{
+			"name": "Summoner",
+			"source": "PT:SoM",
+			"categories": [
+				"Class"
+			],
+			"entries": []
+		},
+		{
+			"name": "Inventor",
+			"source": "PT:G&G",
+			"categories": [
+				"Class"
+			],
+			"entries": []
+		},
+		{
+			"name": "Magus",
+			"source": "PT:G&G",
+			"categories": [
+				"Class"
+			],
+			"entries": []
+		},
+		{
 			"name": "Incarnate",
 			"source": "PT:SoM",
 			"entries": [
@@ -8324,14 +8335,20 @@
 		{
 			"name": "Concealable",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
-				"This weapon is designed to be inconspicuous or easily concealed. You gain a +2 circumstance bonus to {@skill Stealth} checks and DCs to hide or conceal a weapon with this trait."
+				"This weapon is designed to be inconspicuous or easily concealed. You gain a +2 circumstance bonus to {@skill Stealth} checks and DCs to hide or {@action Conceal an Object|CRB|conceal} a weapon with this trait."
 			],
 			"page": 12
 		},
 		{
 			"name": "Modular",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
 				"The weapon has multiple configurations that you can switch between using an {@action Interact} action. Typically, switching between configurations of a modular weapon allows it to deal different types of damage (listed in the trait, such as \"modular B, P, or S\"), though it's possible for a modular weapon's description to list more complicated configurations."
 			],
@@ -8340,6 +8357,9 @@
 		{
 			"name": "Scatter",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
 				"This weapon fires a spray of small bullets in a cone that has a size equal to the weapon's listed range (for example, a scatter weapon with a range of 15 feet fires in a 15-foot cone). When attacking with a scatter weapon, choose one target within the cone to be the primary target; this creature is targeted and damaged based on the results of your attack roll as normal. In addition, all creatures within the cone, including the primary target, take splash damage equal to the number of weapon damage dice. This damage is of the same type dealt by the attack."
 			],
@@ -8348,6 +8368,9 @@
 		{
 			"name": "Sniper",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
 				"When you hit a {@condition flat-footed} creature, this weapon deals 1 precision damage in addition to its normal damage. The precision damage increases to 2 if the weapon is a +3 weapon."
 			],
@@ -8356,8 +8379,11 @@
 		{
 			"name": "Unsteady",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
-				"This weapon is difficult to aim without taking measures to stabilize it. Firing this weapon has a \u20132 circumstance penalty unless the weapon is attached to a deployed tripod or the wielder takes an {@action Interact} action to aim before firing. A tripod is uncommon adventuring gear with a Price of 4 sp and 1 Bulk. It can be set up with an {@action Interact} action using two hands."
+				"This weapon is difficult to aim without taking measures to stabilize it. Firing this weapon has a \u20132 circumstance penalty unless the weapon is attached to a deployed {@item tripod|PT:G&G} or the wielder takes an {@action Interact} action to aim before firing. A {@item tripod|PT:G&G} is uncommon adventuring gear with a Price of 4 sp and 1 Bulk. It can be set up with an {@action Interact} action using two hands."
 			],
 			"page": 12
 		},
@@ -8381,6 +8407,9 @@
 		{
 			"name": "Ranged Trip",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
 				"The weapon can be used to {@action Trip} with the {@skill Athletics} skill at a distance up to the weapon's first range increment. The skill check takes a \u20132 circumstance penalty. You can add the weapon's item bonus to attack rolls as a bonus to the check. As with using a melee weapon to {@action Trip}, a ranged trip weapon doesn't deal any damage when used to {@action Trip}. This trait usually appears only on a {@trait thrown} weapon."
 			],
@@ -8389,6 +8418,9 @@
 		{
 			"name": "Tethered",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
 				"If you have a free hand while wielding this weapon, you can use an {@action Interact} action to pull the weapon back into your grasp after you've thrown it as a ranged attack or after it has been disarmed (unless it's being held by another creature)."
 			],
@@ -8397,6 +8429,9 @@
 		{
 			"name": "Misfire",
 			"source": "PT:G&G",
+			"categories": [
+				"Armor & Weapon"
+			],
 			"entries": [
 				"Firearms that have been improperly cared for or subjected to unusual strain can misfire. If you attempt to fire a firearm that was used the previous day and that hasn't been cleaned and maintained since then, attempt a DC 5 flat check before making your attack roll. If you fail this misfire check, the weapon misfires and jams. The attack also becomes a critical failure, and you must use an {@action Interact} action to clear the jam before you can reload and fire the weapon again. Once you've spent at least an hour cleaning and maintaining a weapon, you don't need to roll for a misfire until the next day unless an effect says otherwise. A weapon can also misfire as a result of using a specific ability."
 			],
@@ -8689,7 +8724,7 @@
 			"range": 80,
 			"group": "Firearm|PT:G&G",
 			"entries": [
-				"This long rifle offers more range than the average firearm, though the long barrel makes the weapon particularly unsteady unless a tripod or other stand is used to stabilize it."
+				"This long rifle offers more range than the average firearm, though the long barrel makes the weapon particularly unsteady unless a {@item tripod|PT:G&G} or other stand is used to stabilize it."
 			],
 			"craftReq": null,
 			"page": 12
@@ -8890,6 +8925,32 @@
 			"group": "Firearm|PT:G&G",
 			"entries": [
 				"Firearms require ammunition consisting of projectiles and black powder. Though a round of ammo can vary in its composition, it is typically either a prepackaged paper cartridge including wadding, bullet, and black powder or loose shot that has been packed into a cartridge manually. Some weapons, like {@item hand cannon|PT:G&G|hand cannons} and {@item blunderbuss|PT:G&G|blunderbusses}, can fire other material, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the {@feat Alchemical Crafting} skill feat to make them. Firearm rounds are a valid type for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:G&G",
+			"name": "Tripod",
+			"type": "Item",
+			"category": "Adventuring Gear",
+			"rarity": "Uncommon",
+			"equipment": true,
+			"generic": false,
+			"traits": [],
+			"price": {
+				"coin": "sp",
+				"amount": 4,
+				"note": ""
+			},
+			"bulk": 1,
+			"entries": [
+				{
+					"type": "quote",
+					"entries": [
+						"A tripod is uncommon adventuring gear with a Price of 4 sp and 1 Bulk. It can be set up with an {@action Interact} action using two hands."
+					],
+					"by": "the {@trait Unsteady|PT:G&G} trait"
+				}
 			],
 			"page": 12
 		}
