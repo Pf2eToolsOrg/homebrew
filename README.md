@@ -1,2 +1,2 @@
 # homebrew
-Homebrew JSONs compatible with PF2e.Tools
+Homebrew JSONs compatible with Pf2eTools
