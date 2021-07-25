@@ -1,0 +1,89 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "CoLegerdemains",
+				"abbreviation": "CoL",
+				"full": "Collection of Legerdemains",
+				"url": "",
+				"authors": [
+					"MrVauxs"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.1",
+				"color": "8d4995"
+			}
+		],
+		"dateAdded": 1627223339,
+		"dateLastModified": 1627223336
+	},
+	"spell": [
+		{
+			"source": "CoLegerdemains",
+			"name": "Summon Sharknado",
+			"level": 3,
+			"traditions": null,
+			"domain": null,
+			"school": "C",
+			"type": "SPELL",
+			"components": {
+				"F": false,
+				"M": true,
+				"S": true,
+				"V": true
+			},
+			"traits": [
+				"Incarnate|SoM",
+				"Conjuration",
+				"Water"
+			],
+			"heightened": {
+				"heightened": true,
+				"plus_x": {
+					"level": 1,
+					"entry": "Increase the Arrival damage by {@damage 1d6} and Departure damage by {@damage 1d4}."
+				},
+				"x": null,
+				"no_x": null
+			},
+			"entries": [
+				"You call upon the power of mighty water elementals, summoning the Sharknado. The Sharknado manifests as a {@trait Large} turqoise whirlwind made out of water. It has a speed of 30 feet.",
+				{
+					"type": "entries",
+					"entries": [
+						"{@b Arrive} The Sharknado arrives in a splash of freezing water, dealing {@damage 3d6} cold damage. All enemy creatures within a 25-foot emanation must attempt basic Fortitude saves."
+					]
+				},
+				{
+					"type": "entries",
+					"entries": [
+						"{@b Depart} ({@trait attack}) The Sharknado releases a torrent of conjured sharks upon your foes. Make one ranged spell attack roll against each enemy within a 25-foot emanation. These attacks deal cold damage equal to {@damage 3d4} plus your spellcasting ability modifier. Roll the damage only once for all targets.",
+						"Each attack counts toward your multiple attack penalty, but do not increase your penalty until you have made all your attacks."
+					]
+				}
+			],
+			"cast": {
+				"number": 3,
+				"unit": "action"
+			},
+			"range": {
+				"type": "point",
+				"entry": "100 feet",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"duration": {
+				"type": "timed",
+				"entry": "until the end of your next turn",
+				"duration": {
+					"number": 1,
+					"unit": "round"
+				}
+			}
+		}
+	]
+}

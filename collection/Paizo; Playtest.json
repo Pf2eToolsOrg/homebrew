@@ -1985,7 +1985,7 @@
 				"Choose what type of eidolon you have from the options beginning on page 18. In this playtest, the options available (and the spellcasting tradition each option grants you) are angel (divine), beast (primal), devotion phantom (occult), and dragon (arcane). When you choose your eidolon, you also determine their appearance and general form within the parameters for that particular type of eidolon. Once you establish your eidolon’s type and general appearance, these features can’t later be changed.",
 				"The link between you and your eidolon takes the form of a magic glowing sigil on each of your bodies. This symbol can’t be obscured either magically or via mundane means, as it either shines through the magic or appears over top of whatever you use to cover it. This sigil, combined with the way that the two of you clearly act in tandem, makes it readily apparent to an intelligent observer that the two of you have some connection with each other, even if that onlooker doesn’t know what a summoner or an eidolon is.",
 				"Your eidolon is no mere minion; the two of you share the same life force and work together as equals. You and your eidolon share your actions, your Hit Points, and your multiple attack penalty. Each round, you can use any of your actions and reaction for yourself or your eidolon. Damage taken by either you or the eidolon reduces your Hit Points, while healing either of you restores your Hit Points. If you or your eidolon is affected by anything that would change a creature’s actions, it affects your shared actions. In any case, if you are both subject to the same effect, you take the effects only once (applying the worse effect, if applicable).",
-				"For instance, if you and your eidolon are caught in an area effect that would heal or damage you both, only the greater amount of healing or damage applies. Similarly, if you or your eidolon is {@condition slowed}, you would start your turn with fewer actions, but even if you were both {@condition slowed}, it wouldn’t increase the effect. However, if you were {@condition slowed 1} and your eidolon {@condition slowed 2}, you’d have 2 fewer actions because that’s the more severe effect.",
+				"For instance, if you and your eidolon are caught in an area effect that would heal or damage you both, only the greater amount of healing or damage applies. Similarly, if you or your eidolon is {@condition slowed}, you would start your turn with fewer actions, but even if you were both {@condition slowed}, it wouldn’t increase the effect. However, if you were {@condition slowed|crb|slowed 1} and your eidolon {@condition slowed|crb|slowed 2}, you’d have 2 fewer actions because that’s the more severe effect.",
 				"This life link doubles as a conduit that allows you to manifest your eidolon in this world. You gain the {@action Manifest Eidolon|PT:SoM} activity, allowing you to make your eidolon appear at your side.",
 				{
 					"activity": {
@@ -9162,7 +9162,7 @@
 				"x": [
 					{
 						"level": 3,
-						"entries": [
+						"entry": [
 							"Add the following options to the list of effects you can choose:",
 							{
 								"type": "list",
@@ -9175,7 +9175,7 @@
 					},
 					{
 						"level": 5,
-						"entries": [
+						"entry": [
 							"Add the options from the 3rd-level version and the following options to the list of effects you can choose:",
 							{
 								"type": "list",
@@ -9208,9 +9208,8 @@
 				}
 			],
 			"cast": {
-				"number": 1,
-				"unit": "double",
-				"entry": "{@as 2}"
+				"number": 2,
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9271,8 +9270,7 @@
 			],
 			"cast": {
 				"number": 1,
-				"unit": "single",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9327,8 +9325,7 @@
 			],
 			"cast": {
 				"number": 1,
-				"unit": "single",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9394,8 +9391,7 @@
 			],
 			"cast": {
 				"number": 1,
-				"unit": "single",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9443,8 +9439,7 @@
 			],
 			"cast": {
 				"number": 1,
-				"unit": "single",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9462,15 +9457,15 @@
 				"x": [
 					{
 						"level": 3,
-						"entries": "The unarmed attacks or weapons are {@item striking|CRB|+1 striking}."
+						"entry": "The unarmed attacks or weapons are {@item striking|CRB|+1 striking}."
 					},
 					{
 						"level": 4,
-						"entries": "The unarmed attacks or weapons are {@item greater striking|CRB|+2 striking}."
+						"entry": "The unarmed attacks or weapons are {@item greater striking|CRB|+2 striking}."
 					},
 					{
 						"level": 7,
-						"entries": "The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
+						"entry": "The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
 					}
 				],
 				"no_x": null
@@ -9501,7 +9496,7 @@
 				"x": [
 					{
 						"level": 7,
-						"entries": "Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
+						"entry": "Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
 					}
 				],
 				"no_x": null
@@ -9536,8 +9531,7 @@
 			],
 			"cast": {
 				"number": 1,
-				"unit": "single",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9564,7 +9558,7 @@
 				"heightened": true,
 				"plus_x": {
 					"level": 1,
-					"entries": "Increase the resistance by 2."
+					"entry": "Increase the resistance by 2."
 				},
 				"x": null,
 				"no_x": null
@@ -9594,8 +9588,7 @@
 			],
 			"cast": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"requirements": null,
 			"trigger": "You are targeted by a spell or in the area of a spell.",
@@ -9648,9 +9641,8 @@
 				"You loosen the link between yourself and your eidolon, allowing them to travel farther from you for a short period of time. While the spell is active, your eidolon can travel an unlimited distance away from you. When the spell ends, if your eidolon is more than 100 feet away from you, they unmanifest."
 			],
 			"cast": {
-				"number": 1,
-				"unit": "double",
-				"entry": "{@as 2}"
+				"number": 2,
+				"unit": "action"
 			},
 			"requirements": null,
 			"trigger": null,
@@ -9695,9 +9687,9 @@
 				"no_x": null
 			},
 			"entries": [
-				"You channel the forces of undeath to briefly call forth an amalgam of the vengeful dead slain by your enemies and allies alike. This amalgam manifests as a large tornado of insubstantial, howling faces. It occupies the space of a Huge creature and has a Speed of 60 feet.",
+				"You channel the forces of undeath to briefly call forth an amalgam of the vengeful dead slain by your enemies and allies alike. This amalgam manifests as a large tornado of insubstantial, howling faces. It occupies the space of a {@trait Huge} creature and has a Speed of 60 feet.",
 				{
-					"type": "pf2-h3",
+					"type": "entries",
 					"entries": [
 						"{@b Arrive} ({@trait negative}) All enemy creatures within a 60-foot emanation must attempt Fortitude saves.",
 						{
@@ -9712,7 +9704,7 @@
 					]
 				},
 				{
-					"type": "pf2-h3",
+					"type": "entries",
 					"entries": [
 						"{@b Depart} ({@trait emotion}, {@trait fear}, {@trait mental}) The vengeful dead lets out an anguished scream. All your enemies within a 100-foot emanation must attempt Will saves.",
 						{
@@ -9728,9 +9720,8 @@
 				}
 			],
 			"cast": {
-				"number": 1,
-				"unit": "triple",
-				"entry": "{@as 3}"
+				"number": 3,
+				"unit": "action"
 			},
 			"range": {
 				"type": "point",
