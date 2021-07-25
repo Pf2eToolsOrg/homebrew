@@ -35,8 +35,7 @@
 				"authors": [
 					"Paizo"
 				],
-				"convertedBy": [
-				],
+				"convertedBy": [],
 				"version": "0.0.1"
 			}
 		],
@@ -1024,7 +1023,7 @@
 				"Summoner|PT:SoM"
 			],
 			"entries": [
-				"You project your senses into your eidolon. When you do, you lose all sensory information from your own body but can sense through your eidolon’s body for up to 1 minute. You can {@action Dismiss} this effect."
+				"You project your senses into your eidolon. When you do, you lose all sensory information from your own body but can sense through your eidolon's body for up to 1 minute. You can {@action Dismiss} this effect."
 			],
 			"special": "Your eidolon can also use this action to project their senses into your body.",
 			"actionType": {
@@ -1048,7 +1047,7 @@
 			"entries": [
 				"You and your eidolon each perform a single action. You choose which order the actions are taken, and you and your eidolon can each take a different action."
 			],
-			"special": "This action has the trait matching your eidolon’s tradition ({@trait arcane}, {@trait divine}, {@trait occult}, or {@trait primal}).",
+			"special": "This action has the trait matching your eidolon's tradition ({@trait arcane}, {@trait divine}, {@trait occult}, or {@trait primal}).",
 			"actionType": {
 				"class": [
 					"Summoner|PT:SoM"
@@ -1971,11 +1970,11 @@
 			"className": "Summoner",
 			"classSource": "PT:SoM",
 			"entries": [
-				"You have a connection with a powerful and otherworldly entity called an eidolon, and you can use your life force as a conduit to manifest the eidolon into the mortal world. An eidolon is a being formed of ephemeral essences— typically mind, life, or spirit—that needs your body and connection to this world to manifest.",
-				"Choose what type of eidolon you have from the options beginning on page 18. In this playtest, the options available (and the spellcasting tradition each option grants you) are angel (divine), beast (primal), devotion phantom (occult), and dragon (arcane). When you choose your eidolon, you also determine their appearance and general form within the parameters for that particular type of eidolon. Once you establish your eidolon’s type and general appearance, these features can’t later be changed.",
-				"The link between you and your eidolon takes the form of a magic glowing sigil on each of your bodies. This symbol can’t be obscured either magically or via mundane means, as it either shines through the magic or appears over top of whatever you use to cover it. This sigil, combined with the way that the two of you clearly act in tandem, makes it readily apparent to an intelligent observer that the two of you have some connection with each other, even if that onlooker doesn’t know what a summoner or an eidolon is.",
-				"Your eidolon is no mere minion; the two of you share the same life force and work together as equals. You and your eidolon share your actions, your Hit Points, and your multiple attack penalty. Each round, you can use any of your actions and reaction for yourself or your eidolon. Damage taken by either you or the eidolon reduces your Hit Points, while healing either of you restores your Hit Points. If you or your eidolon is affected by anything that would change a creature’s actions, it affects your shared actions. In any case, if you are both subject to the same effect, you take the effects only once (applying the worse effect, if applicable).",
-				"For instance, if you and your eidolon are caught in an area effect that would heal or damage you both, only the greater amount of healing or damage applies. Similarly, if you or your eidolon is {@condition slowed}, you would start your turn with fewer actions, but even if you were both {@condition slowed}, it wouldn’t increase the effect. However, if you were {@condition slowed|crb|slowed 1} and your eidolon {@condition slowed|crb|slowed 2}, you’d have 2 fewer actions because that’s the more severe effect.",
+				"You have a connection with a powerful and otherworldly entity called an eidolon, and you can use your life force as a conduit to manifest the eidolon into the mortal world. An eidolon is a being formed of ephemeral essences\u2014 typically mind, life, or spirit\u2014that needs your body and connection to this world to manifest.",
+				"Choose what type of eidolon you have from the options beginning on page 18. In this playtest, the options available (and the spellcasting tradition each option grants you) are angel (divine), beast (primal), devotion phantom (occult), and dragon (arcane). When you choose your eidolon, you also determine their appearance and general form within the parameters for that particular type of eidolon. Once you establish your eidolon's type and general appearance, these features can't later be changed.",
+				"The link between you and your eidolon takes the form of a magic glowing sigil on each of your bodies. This symbol can't be obscured either magically or via mundane means, as it either shines through the magic or appears over top of whatever you use to cover it. This sigil, combined with the way that the two of you clearly act in tandem, makes it readily apparent to an intelligent observer that the two of you have some connection with each other, even if that onlooker doesn't know what a summoner or an eidolon is.",
+				"Your eidolon is no mere minion; the two of you share the same life force and work together as equals. You and your eidolon share your actions, your Hit Points, and your multiple attack penalty. Each round, you can use any of your actions and reaction for yourself or your eidolon. Damage taken by either you or the eidolon reduces your Hit Points, while healing either of you restores your Hit Points. If you or your eidolon is affected by anything that would change a creature's actions, it affects your shared actions. In any case, if you are both subject to the same effect, you take the effects only once (applying the worse effect, if applicable).",
+				"For instance, if you and your eidolon are caught in an area effect that would heal or damage you both, only the greater amount of healing or damage applies. Similarly, if you or your eidolon is {@condition slowed}, you would start your turn with fewer actions, but even if you were both {@condition slowed}, it wouldn't increase the effect. However, if you were {@condition slowed|crb|slowed 1} and your eidolon {@condition slowed|crb|slowed 2}, you'd have 2 fewer actions because that's the more severe effect.",
 				"This life link doubles as a conduit that allows you to manifest your eidolon in this world. You gain the {@action Manifest Eidolon|PT:SoM} activity, allowing you to make your eidolon appear at your side.",
 				{
 					"activity": {
@@ -1993,14 +1992,14 @@
 					"entries": [
 						"Your eidolon appears in an adjacent open space. If your eidolon was already manifested, choose whether to unmanifest them or teleport them to an adjacent open space."
 					],
-					"special": "This action has the trait matching your eidolon’s tradition ({@trait arcane}, {@trait divine}, {@trait occult}, or {@trait primal}).",
+					"special": "This action has the trait matching your eidolon's tradition ({@trait arcane}, {@trait divine}, {@trait occult}, or {@trait primal}).",
 					"source": "PT:SoM",
 					"name": "Manifest Eidolon",
 					"type": "ability",
 					"style": "full"
 				},
-				"Your eidolon doesn’t have the summoned or minion trait, but the conduit that allows them to manifest is also a tether between you. They must remain within 100 feet of you at all times and can’t willingly go beyond that limit. If forced beyond this distance, or if you’re reduced to 0 Hit Points, your eidolon’s physical form dissolves, and you need to use {@action Manifest Eidolon|PT:SoM} to manifest them again.",
-				"Your connection also allows you to communicate with your eidolon telepathically at all times, even when they aren’t manifested. This ability lets you coordinate your actions with your eidolon to accomplish more than either of you could alone. You gain the {@action Act Together|PT:SoM} and {@action Share Senses|PT:SoM} actions.",
+				"Your eidolon doesn't have the summoned or minion trait, but the conduit that allows them to manifest is also a tether between you. They must remain within 100 feet of you at all times and can't willingly go beyond that limit. If forced beyond this distance, or if you're reduced to 0 Hit Points, your eidolon's physical form dissolves, and you need to use {@action Manifest Eidolon|PT:SoM} to manifest them again.",
+				"Your connection also allows you to communicate with your eidolon telepathically at all times, even when they aren't manifested. This ability lets you coordinate your actions with your eidolon to accomplish more than either of you could alone. You gain the {@action Act Together|PT:SoM} and {@action Share Senses|PT:SoM} actions.",
 				{
 					"activity": {
 						"number": 1,
@@ -2033,7 +2032,7 @@
 						"Summoner|PT:SoM"
 					],
 					"entries": [
-						"You project your senses into your eidolon. When you do, you lose all sensory information from your own body but can sense through your eidolon’s body for up to 1 minute. You can {@action Dismiss} this effect."
+						"You project your senses into your eidolon. When you do, you lose all sensory information from your own body but can sense through your eidolon's body for up to 1 minute. You can {@action Dismiss} this effect."
 					],
 					"special": "Your eidolon can also use this action to project their senses into your body.",
 					"requirements": "Your eidolon is manifested.",
@@ -2042,7 +2041,7 @@
 					"type": "ability",
 					"style": "full"
 				},
-				"While your eidolon can’t wear or use magic items except for companion items that specifically mention that they work for eidolons, their connection to you means they benefit from certain items once you invest in those items. Your eidolon gains item bonuses to {@skill Perception} and skills from any magical items you’ve invested, as well as the benefits of the {@item armor potency (generic)|crb|potency} and {@item resilient} runes on your armor or the item bonuses of any bracers of armor you’ve invested. Your eidolon benefits from the {@item weapon potency (generic)|crb|potency}, {@item striking}, and property runes on your {@item handwraps of mighty blows}, and you can {@action Invest an Item|CRB|Invest} a single magic weapon to share the benefits of those runes from the weapon as well, even though you normally can’t {@action Invest an Item|CRB|Invest} a magic weapon."
+				"While your eidolon can't wear or use magic items except for companion items that specifically mention that they work for eidolons, their connection to you means they benefit from certain items once you invest in those items. Your eidolon gains item bonuses to {@skill Perception} and skills from any magical items you've invested, as well as the benefits of the {@item armor potency (generic)|crb|potency} and {@item resilient} runes on your armor or the item bonuses of any bracers of armor you've invested. Your eidolon benefits from the {@item weapon potency (generic)|crb|potency}, {@item striking}, and property runes on your {@item handwraps of mighty blows}, and you can {@action Invest an Item|CRB|Invest} a single magic weapon to share the benefits of those runes from the weapon as well, even though you normally can't {@action Invest an Item|CRB|Invest} a magic weapon."
 			]
 		},
 		{
@@ -2890,8 +2889,8 @@
 			"classSource": "PT:G&G",
 			"level": 3,
 			"entries": [
-				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you’re untrained in or become an expert in one skill in which you’re already trained.",
-				"At 7th level, you can use skill increases to become a master in a skill in which you’re already an expert, and at 15th level, you can use them to become legendary in a skill in which you’re already a master."
+				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you're untrained in or become an expert in one skill in which you're already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you're already an expert, and at 15th level, you can use them to become legendary in a skill in which you're already a master."
 			]
 		},
 		{
