@@ -5426,7 +5426,7 @@
 			"name": "Sensory Evolution",
 			"level": 1,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5461,8 +5461,8 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You can manifest your eidolon using your own body as a vessel, taking on their form. When you Manifest your Eidolon in this way, you become your eidolon, rather than them manifesting as a separate creature. While manifested in this way, you use your eidolon's statistics. Your eidolon can act, but you can't except to use Manifest an Eidolon to unmanifest your eidolon. When you do, you remain behind in one square your eidolon occupied when you unmanifested it.",
-				"Since you can't act, you can't Cast Spells, activate or benefit from magic items that normally benefit you and not your eidolon, perform actions that have the tandem trait, or use other abilities that require you, and not the eidolon, to act. Your eidolon isn't limited by their distance to you, and you can't be separately targeted. When you reach 0 Hit Points, your eidolon unmanifests from your body, leaving your {@condition unconscious} body behind."
+				"You can manifest your eidolon using your own body as a vessel, taking on their form. When you {@action Manifest Eidolon|PT:SoM|Manifest your Eidolon} in this way, you become your eidolon, rather than them manifesting as a separate creature. While manifested in this way, you use your eidolon's statistics. Your eidolon can act, but you can't except to use {@action Manifest Eidolon|PT:SoM|Manifest an Eidolon} to unmanifest your eidolon. When you do, you remain behind in one square your eidolon occupied when you unmanifested it.",
+				"Since you can't act, you can't {@action Cast a Spell||Cast Spells}, activate or benefit from magic items that normally benefit you and not your eidolon, perform actions that have the tandem trait, or use other abilities that require you, and not the eidolon, to act. Your eidolon isn't limited by their distance to you, and you can't be separately targeted. When you reach 0 Hit Points, your eidolon unmanifests from your body, leaving your {@condition unconscious} body behind."
 			],
 			"activity": null,
 			"special": null,
@@ -5550,7 +5550,7 @@
 			"name": "Magical Evolution",
 			"level": 2,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5564,6 +5564,9 @@
 			"entries": [
 				"Your eidolon evolves to cast their own spells. Your eidolon gains the {@action Cast a Spell|CRB} activity and learns two cantrips of their tradition, which they cast as innate spells. Your eidolon uses your spell DC and spell attack modifier for these spells."
 			],
+			"leadsTo": [
+				"Greater Magical Evolution|PT:SoM"
+			],
 			"activity": null,
 			"special": null,
 			"successDegree": null,
@@ -5574,7 +5577,7 @@
 			"name": "Alacritous Evolution",
 			"level": 4,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5598,7 +5601,7 @@
 			"name": "Amphibious Evolution",
 			"level": 4,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5634,7 +5637,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You and your eidolon move together with ease. You and your eidolon each use a single action to {@action Stride|CRB}. Either of you that has the corresponding movement type can {@action Burrow|CRB}, {@action Climb|CRB}, {@action Fly|CRB}, or {@action Swim|CRB} instead of Striding."
+				"You and your eidolon move together with ease. You and your eidolon each use a single action to {@action Stride|CRB}. Either of you that has the corresponding movement type can {@action Burrow|CRB}, {@action Climb|CRB}, {@action Fly|CRB}, or {@action Swim|CRB} instead of {@action Stride||Striding}."
 			],
 			"activity": {
 				"number": 1,
@@ -5649,7 +5652,7 @@
 			"name": "Unarmed Evolution",
 			"level": 4,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5661,7 +5664,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your eidolon's unarmed attack evolves and gains a special trait. Choose one of your eidolon's starting melee unarmed attacks. The attack gains one of the following traits, which you choose when you gain this feat: disarm, nonlethal, shove, trip, or versatile. If you choose versatile, also choose whether it's B, P, or S."
+				"Your eidolon's unarmed attack evolves and gains a special trait. Choose one of your eidolon's starting melee unarmed attacks. The attack gains one of the following traits, which you choose when you gain this feat: {@trait disarm}, {@trait nonlethal}, {@trait shove}, {@trait trip}, or {@trait versatile}. If you choose {@trait versatile}, also choose whether it's B, P, or S."
 			],
 			"activity": null,
 			"special": null,
@@ -5673,7 +5676,7 @@
 			"name": "Climbing Evolution",
 			"level": 6,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5697,12 +5700,15 @@
 			"name": "Hulking Evolution",
 			"level": 6,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
 				"class": "Summoner"
 			},
+			"leadsTo": [
+				"Towering Evolution|PT:SoM"
+			],
 			"prerequisites": null,
 			"frequency": null,
 			"trigger": null,
@@ -5710,7 +5716,14 @@
 			"cost": null,
 			"entries": [
 				"Your eidolon evolves, growing substantially in size. Your eidolon becomes Large, instead of their previous size. This doesn't change any other statistics for your eidolon.",
-				"Because of the special link you share, you can ride your eidolon without getting in each other's way (see the Riding Independent Creatures sidebar)."
+				"Because of the special link you share, you can ride your eidolon without getting in each other's way.",
+				{
+					"type": "pf2-brown-box",
+					"name": "Riding Independent Creatures",
+					"entries": [
+						"If a creature tries to ride your eidolon, both you and the riding creature each regain only 2 actions at the start of your turns each round, as both the eidolon and the riding creature interfere with one another’s actions. If you have the {@feat Hulking Evolution|PT:SoM} feat, you’re able to ride on your eidolon without this drawback."
+					]
+				}
 			],
 			"activity": null,
 			"special": null,
@@ -5737,8 +5750,8 @@
 			"cost": null,
 			"entries": [
 				"When you summon creatures or manifest your eidolon, there always seems to be an explosion. If the next action you take is to Manifest your Eidolon or to {@action Cast a Spell|CRB} to cast a 3-action summoning spell, the summoned eidolon or creature appears in an explosion of energy or other visually impressive display.",
-				"This deals {@damage 1d4} fire damage per spell level (or {@damage 1d4} damage per 2 levels you have when Manifesting your Eidolon) to all creatures except you within a 10-foot emanation around the eidolon or summoned creature.",
-				"If the eidolon or summoned creature has the acid, cold, electricity, sonic, or water trait, the damage is that type instead (or cold damage in the case of the water trait)."
+				"This deals {@scaledice 1d4|1-9|1d4} fire damage per spell level (or {@damage 1d4} damage per 2 levels you have when {@action Manifest Eidolon|PT:SoM|Manifesting your Eidolon}) to all creatures except you within a 10-foot emanation around the eidolon or summoned creature.",
+				"If the eidolon or summoned creature has the {@trait acid}, {@trait cold}, {@trait electricity}, {@trait sonic}, or {@trait water} trait, the damage is that type instead (or {@trait cold} damage in the case of the {@trait water} trait)."
 			],
 			"activity": {
 				"number": 1,
@@ -5755,7 +5768,7 @@
 			"level": 6,
 			"traits": [
 				"Eidolon",
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5767,7 +5780,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your eidolon uses their manifested form to protect you when you're nearby. After your eidolon uses this action, you gain a +2 circumstance bonus to AC until the beginning of your next turn. This bonus applies only as long as you're in your eidolon's reach (in most cases, this means your eidolon is adjacent to you or in your space). This has no effect if you're not separately present, such as when using Synthesis."
+				"Your eidolon uses their manifested form to protect you when you're nearby. After your eidolon uses this action, you gain a +2 circumstance bonus to AC until the beginning of your next turn. This bonus applies only as long as you're in your eidolon's reach (in most cases, this means your eidolon is adjacent to you or in your space). This has no effect if you're not separately present, such as when using {@feat Synthesis|PT:SoM}."
 			],
 			"activity": {
 				"number": 1,
@@ -5784,7 +5797,7 @@
 			"traits": [
 				"Concentrate",
 				"Eidolon",
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5796,7 +5809,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your eidolon has gained the ability to make their ectoplasmic form briefly less substantial to avoid attacks while scouting ahead. Your eidolon can switch from their normal form to a less substantial flickering form or quasi-tangible ectoplasm. While in their flickering form, they gain resistance to all damage (except force and negative) equal to half your level. However, they can't use any of their {@action Strike|CRB|Strikes} or actions requiring a fully physical form like {@action Grapple|CRB}, {@action Shove|CRB}, or {@action Trip|CRB}. Snapping back to their normal form is easier than diffusing themself into a flickering form. Your eidolon can switch back to their normal form as a single action, which also has the concentrate trait."
+				"Your eidolon has gained the ability to make their ectoplasmic form briefly less substantial to avoid attacks while scouting ahead. Your eidolon can switch from their normal form to a less substantial flickering form or quasi-tangible ectoplasm. While in their flickering form, they gain resistance to all damage (except force and negative) equal to half your level. However, they can't use any of their {@action Strike|CRB|Strikes} or actions requiring a fully physical form like {@action Grapple|CRB}, {@action Shove|CRB}, or {@action Trip|CRB}. Snapping back to their normal form is easier than diffusing themself into a flickering form. Your eidolon can switch back to their normal form as a single action, which also has the {@trait concentrate} trait."
 			],
 			"activity": {
 				"number": 3,
@@ -5812,21 +5825,20 @@
 			"level": 8,
 			"traits": [
 				"Concentrate",
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": "Magical Evolution",
+			"prerequisites": "{@feat Magical Evolution|PT:SoM}",
 			"frequency": null,
 			"trigger": null,
 			"requirements": null,
 			"cost": null,
 			"entries": [
 				"Your eidolon further evolves to gain more powerful magic.",
-				"Choose one 2nd-level spell and one 1st-level spell of your eidolon's tradition. Your eidolon can cast them each once per day as innate spells. At every even level after you take this RIDING INDEPENDENT CREATURES If a creature tries to ride your eidolon, both you and the riding creature each regain only 2 actions at the start of your turns each round, as both the eidolon and the riding creature interfere with one another's actions. If you have the Hulking Evolution feat, you're able to ride on your eidolon without this drawback.",
-				"feat, your eidolon can swap one of these innate spells for a new innate spell 2 or more levels lower than your highest-level spell slot."
+				"Choose one 2nd-level spell and one 1st-level spell of your eidolon's tradition. Your eidolon can cast them each once per day as innate spells. At every even level after you take this feat, your eidolon can swap one of these innate spells for a new innate spell 2 or more levels lower than your highest-level spell slot."
 			],
 			"activity": null,
 			"special": null,
@@ -5838,7 +5850,7 @@
 			"name": "Ranged Evolution",
 			"level": 8,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -5850,7 +5862,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your eidolon has developed a ranged attack. Your eidolon gains a ranged unarmed attack with a range increment of 30 feet that deals {@damage 1d6} damage and has the magical trait. When you select this feat, choose a damage type from acid, bludgeoning, cold, electricity, fire, negative, piercing, positive, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can instead choose a damage type in their alignment (for example, you could choose good or lawful if your lawful good angel eidolon gained this attack)."
+				"Your eidolon has developed a ranged attack. Your eidolon gains a ranged unarmed attack with a range increment of 30 feet that deals {@damage 1d6} damage and has the {@trait magical} trait. When you select this feat, choose a damage type from {@trait acid}, bludgeoning, {@trait cold}, {@trait electricity}, {@trait fire}, {@trait negative}, piercing, {@trait positive}, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can instead choose a damage type in their alignment (for example, you could choose {@trait good} or {@trait lawful} if your lawful good angel eidolon gained this attack)."
 			],
 			"activity": null,
 			"special": null,
@@ -5873,7 +5885,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your ability to augment your eidolon extends to also benefit creatures you summon. When you cast boost eidolon, in addition to targeting your eidolon, it also targets any of your summoned creatures within 60 feet, granting them the same effects."
+				"Your ability to augment your eidolon extends to also benefit creatures you summon. When you cast {@spell boost eidolon|PT:SoM}, in addition to targeting your eidolon, it also targets any of your summoned creatures within 60 feet, granting them the same effects."
 			],
 			"activity": null,
 			"special": null,
@@ -6010,7 +6022,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You've learned how to transmogrify your eidolon in various ways to suit the circumstances of the day. Each day during your daily preparations, choose one evolution feat of 6th level or lower. Your eidolon gains that feat until your next daily preparations."
+				"You've learned how to transmogrify your eidolon in various ways to suit the circumstances of the day. Each day during your daily preparations, choose one {@filter evolution feat|feats||classes=Summoner|level=[0;6]} of 6th level or lower. Your eidolon gains that feat until your next daily preparations."
 			],
 			"leadsTo": [
 				"True Transmogrification|PT:SoM"
@@ -6025,7 +6037,7 @@
 			"name": "Resilient Evolution",
 			"level": 14,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -6049,7 +6061,7 @@
 			"name": "Spellguard Evolution",
 			"level": 14,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -6073,13 +6085,13 @@
 			"name": "Towering Evolution",
 			"level": 14,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": "Hulking Evolution",
+			"prerequisites": "{@feat Hulking Evolution|PT:SoM}",
 			"frequency": null,
 			"trigger": null,
 			"requirements": null,
@@ -6125,7 +6137,7 @@
 			"name": "Winged Evolution",
 			"level": 16,
 			"traits": [
-				"Evolution",
+				"Evolution|PT:SoM",
 				"Summoner|PT:SoM"
 			],
 			"featType": {
@@ -6183,7 +6195,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You can make incredibly expansive adjustments to your eidolon to prepare for virtually any situation you might find yourself in. Each day during your daily preparations, when you apply your evolution feat from Transmogrify, you can also swap out any number of other evolution feats you have, each for a different evolution feat of the same level or lower. These swaps last until your next daily preparations."
+				"You can make incredibly expansive adjustments to your eidolon to prepare for virtually any situation you might find yourself in. Each day during your daily preparations, when you apply your evolution feat from {@feat Transmogrify|PT:SoM}, you can also swap out any number of other evolution feats you have, each for a different evolution feat of the same level or lower. These swaps last until your next daily preparations."
 			],
 			"activity": null,
 			"special": null,
@@ -6209,7 +6221,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You can transform yourself to match your eidolon. When you Manifest your Eidolon, in addition to their normal manifestation, you can call upon their powers to transform yourself into an exact duplicate of your eidolon until the eidolon becomes unmanifested. You can't use this if you Manifest your Eidolon in an unusual way, such as with the Synthesis feat. While a duplicate of your eidolon, you use your eidolon's statistics other than your mental ability modifiers, including their evolutions. You can't cast spells (unless they're spells your eidolon could cast), activate or benefit from magic items that normally benefit you and not your eidolon, or use other actions your eidolon can't normally perform. Any spells you cast with a limited number of uses count against your eidolon's uses. You can Manifest your Eidolon again to end this effect and return to your normal form."
+				"You can transform yourself to match your eidolon. When you Manifest your Eidolon, in addition to their normal manifestation, you can call upon their powers to transform yourself into an exact duplicate of your eidolon until the eidolon becomes unmanifested. You can't use this if you Manifest your Eidolon in an unusual way, such as with the {@feat Synthesis|PT:SoM} feat. While a duplicate of your eidolon, you use your eidolon's statistics other than your mental ability modifiers, including their evolutions. You can't cast spells (unless they're spells your eidolon could cast), activate or benefit from magic items that normally benefit you and not your eidolon, or use other actions your eidolon can't normally perform. Any spells you cast with a limited number of uses count against your eidolon's uses. You can Manifest your Eidolon again to end this effect and return to your normal form."
 			],
 			"activity": null,
 			"special": null,
@@ -6233,7 +6245,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your complete connection to your eidolon and your eidolon's growth alongside you into a being of great power grant you special privileges within another plane. Once per day, you can cast {@spell plane shift|CRB} as an innate spell of your eidolon's tradition, but only to travel to the plane of origin of your eidolon. When you cast it this way, its casting time is 1 minute, your link to your eidolon is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you're on your eidolon's home plane due to this spell, you can return to the point you left when you cast it by spending a single action, which has the concentrate trait and the trait matching your eidolon's tradition.",
+				"Your complete connection to your eidolon and your eidolon's growth alongside you into a being of great power grant you special privileges within another plane. Once per day, you can cast {@spell plane shift|CRB} as an innate spell of your eidolon's tradition, but only to travel to the plane of origin of your eidolon. When you cast it this way, its casting time is 1 minute, your link to your eidolon is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you're on your eidolon's home plane due to this spell, you can return to the point you left when you cast it by spending a single action, which has the {@trait concentrate} trait and the trait matching your eidolon's tradition.",
 				"If you conduct the commune ritual to contact entities from your eidolon's plane that are {@condition friendly} to your eidolon, you don't have to pay any cost and you automatically get a critical success."
 			],
 			"activity": null,
@@ -6257,7 +6269,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your link with your eidolon is so intense that you can always boost your eidolon. You're permanently {@condition quickened}; you can use your extra action only to cast boost eidolon or reinforce eidolon. While in exploration mode, you can declare that you're also continually casting boost eidolon or reinforce eidolon even while using a different exploration activity. If you do, even before your first turn in a combat encounter, that cantrip is active as if you had cast it on your previous turn."
+				"Your link with your eidolon is so intense that you can always boost your eidolon. You're permanently {@condition quickened}; you can use your extra action only to cast {@spell boost eidolon|PT:SoM} or {@spell reinforce eidolon|PT:SoM}. While in exploration mode, you can declare that you're also continually casting {@spell boost eidolon|PT:SoM} or {@spell reinforce eidolon|PT:SoM} even while using a different {@trait exploration} activity. If you do, even before your first turn in a combat encounter, that cantrip is active as if you had cast it on your previous turn."
 			],
 			"activity": null,
 			"special": null,
@@ -8573,7 +8585,7 @@
 			"name": "Tandem",
 			"source": "PT:SoM",
 			"entries": [
-				"Actions with the tandem trait allow you and your eidolon to act together. You can't use a tandem action if you haven't Manifested your Eidolon, if either you or your eidolon can't act, or if your eidolon is manifesting through your body with the Synthesis feat."
+				"Actions with the tandem trait allow you and your eidolon to act together. You can't use a tandem action if you haven't {@action Manifest Eidolon|PT:SoM|Manifested your Eidolon}, if either you or your eidolon can't act, or if your eidolon is manifesting through your body with the {@feat Synthesis|PT:SoM} feat."
 			],
 			"page": 17
 		},
