@@ -1,0 +1,560 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DragonkinVH",
+				"abbreviation": "DVH",
+				"full": "Dragonkin Versatile Heritage",
+				"url": "https://www.luisloza.com/post/dragonkin-versatile-heritage",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "940101",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1629955064,
+		"dateLastModified": 1629955403,
+		"unlisted": true
+	},
+	"trait": [
+		{
+			"name": "Dragonkin",
+			"source": "DragonkinVH",
+			"categories": [
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"{@note No entry available.}"
+			]
+		}
+	],
+	"action": [
+		{
+			"source": "DragonkinVH",
+			"name": "Dragon's Breath",
+			"traits": [
+				"Arcane",
+				"Dragonkin|DragonkinVH",
+				"Evocation"
+			],
+			"actionType": {
+				"versatileHeritage": "Dragonkin|DragonkinVH"
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action",
+				"entry": "{@as 2}"
+			},
+			"entries": [
+				"You can unleash a powerful blast of energy as a draconic breath weapon. Choose either a 30-foot line or a 15-foot cone. Your breath weapon manifests in the chosen shape and once chosen, you can't change the breath's shape. Your breath weapon deals {@damage 1d4} damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can't use this ability again for {@dice 1d4} rounds.",
+				"At 3rd level and every 2 levels thereafter, the damage increases by {@damage 1d4 + floor(((#$prompt_number:min=3,title=Character Level,default=3$#)-1)/2)d4|1d4}. The damage of your breath attack is determined by your draconic progenitor. If your draconic progenitor has a breath weapon, your breath weapon deals the same type of damage as your progenitor's. If your draconic progenitor doesn't have a breath weapon, but does have a trait related to an energy type ({@trait acid}, {@trait cold}, {@trait electricity}, {@trait fire}, or {@trait sonic}), your breath weapon's damage is that type. If your draconic progenitor doesn't have a breath weapon or associated energy type, your breath is a blast of powerful air that buffets foes and deals bludgeoning damage. Your breath weapon requires a Reflex saving throw, unless it deals poison damage. In that case, it requires a Fortitude saving throw instead."
+			]
+		}
+	],
+	"versatileHeritage": [
+		{
+			"name": "Dragonkin",
+			"source": "DragonkinVH",
+			"versatile": true,
+			"rarity": "rare",
+			"entries": [
+				"The blood of mighty dragons flows through veins, granting you a small portion of their ferocity and power. Your draconic lineage stems from a specific type of dragon. Choose a type of dragon ranging from chromatic dragons, metallic dragons, drakes, or any other creature with the dragon type. This type of dragon is your draconic progenitor. You gain the {@trait dragon} and {@trait dragonkin|DragonkinVH} traits, in addition to the traits from your ancestry. You gain the {@action Dragon's Breath|DragonkinVH} ability. You can choose from {@filter dragonkin feats|feats||type=ancestry|ancestries=dragonkin|source=DragonkinVH} and feats from your ancestry whenever you gain an ancestry feat. Additionally, you gain access to the {@feat Dragon Disciple Dedication|APG} feat. Your GM might determine that you gain access to other draconic archetypes, feats, spells, or options as well.",
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Dragon's Breath",
+					"traits": [
+						"Arcane",
+						"Dragonkin|DragonkinVH",
+						"Evocation"
+					],
+					"activity": {
+						"number": 2,
+						"unit": "action",
+						"entry": "{@as 2}"
+					},
+					"entries": [
+						"You can unleash a powerful blast of energy as a draconic breath weapon. Choose either a 30-foot line or a 15-foot cone. Your breath weapon manifests in the chosen shape and once chosen, you can't change the breath's shape. Your breath weapon deals {@damage 1d4} damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can't use this ability again for {@dice 1d4} rounds.",
+						"At 3rd level and every 2 levels thereafter, the damage increases by {@damage 1d4 + floor(((#$prompt_number:min=3,title=Character Level,default=3$#)-1)/2)d4|d4}. The damage of your breath attack is determined by your draconic progenitor. If your draconic progenitor has a breath weapon, your breath weapon deals the same type of damage as your progenitor's. If your draconic progenitor doesn't have a breath weapon, but does have a trait related to an energy type (acid, cold, electricity, fire, or sonic), your breath weapon's damage is that type. If your draconic progenitor doesn't have a breath weapon or associated energy type, your breath is a blast of powerful air that buffets foes and deals bludgeoning damage. Your breath weapon requires a Reflex saving throw, unless it deals poison damage. In that case, it requires a Fortitude saving throw instead."
+					]
+				}
+			],
+			"info": [
+				{
+					"type": "pf2-h1",
+					"name": "Dragonkin",
+					"entries": [
+						{
+							"type": "pf2-h1-flavor",
+							"entries": [
+								"{@i Dragonkin trace their lineage back to mighty dragons. This draconic connection allows a dragonkin to tap into the great power and potential of dragons, for good or for ill.}"
+							]
+						},
+						"The might of a dragon can manifest in many ways in the world. Sometimes it's the destructive power of a dragon's breath or magic. Other times it can take the form of knowledge and experience of a long-lived dragon. In rare cases, a dragon's influence can affect a bloodline, bringing about a dragonkin.",
+						"Dragonkin, more so than individuals that draw upon a draconic influence such as barbarians and sorcerers, are the scions of dragons. They are direct descendants of dragons, some only a few generations removed, and this connection allows a dragonkin to draw on some of the might of their dragon forebearers.",
+						"A dragonkin can come about it in a number of ways. The most common way is for a dragon to have a child with a living creature. Many dragons are capable of transformation and changing their shape and it's during these transformations that meetings with other ancestries can lead to the birth of a dragonkin. While such pairings shouldn't produce offspring of any kind, many scholars believe that the innately magical nature of dragons allows for a partial compatibility and thus, dragonkin.",
+						"If a dragonkin has a child with another member of their same ancestry, it can result in another dragonkin. Though dragonkin offspring are never entirely a surprise in such pairings, a dragonkin child seems to result less often than a typical child of the ancestry. In cases where two dragonkin join to have a child, a dragonkin is all but guaranteed, with the only uncertain factor being which dragon will be the one to influence the child.",
+						"Finally, in extremely exceptional cases, a deity could grant a specific individual the form of a dragonkin. This is usually the case for champions and clerics of draconic deities, but any servant of a deity might receive this gift. Legends speak of ancient heroes who received the touch of the dragon as a gift to aid in fights against evil.",
+						"If you want a character that has direct ties to dragons and can manifest the powerful abilities of a dragon, you should play a dragonkin.",
+						{
+							"type": "pf2-h3",
+							"name": "You Might...",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"Find it hard to relate to others, requiring you to keep a close-knit group of friends.",
+										"Feel a strong connection to magic, even if you're not capable of mastering magic yourself. ",
+										"Struggle with the compulsions that come from your draconic influence."
+									]
+								}
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"name": "Others Probably...",
+							"entries": [
+								{
+									"type": "list",
+									"items": [
+										"Believe you hoard wealth and curios.",
+										"Fear your appearance or your abilities.",
+										"Assume you have direct contact with a dragon and can call upon them at any time."
+									]
+								}
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"name": "Physical Description",
+							"entries": [
+								"Dragonkin resemble their base ancestry, growing to the typical heights common among the ancestry. Most dragonkin are naturally muscular, leading to many brawny builds among dragonkin. Regardless of a dragonkin's base ancestry, they always sport some kind of draconic features such as claws, fangs, patches of scales, horns, a tail, or peculiar eye shapes and colors. A dragonkin can take efforts to hide such features, but some dragonkin have such a large number of draconic features that hiding them is difficult. In some cases, a dragonkin has a full, draconic appearance, appearing like bipedal reptiles with an array of other draconic features. Such dragonkin resemble {@ancestry lizardfolk|LOCG} to outsiders, leading to some confusion upon first impressions.",
+								"A dragonkin's features draw upon their dragon progenitor. Not all dragons have horns and the like and dragonkin tied to such dragons likewise lack such features. Dragonkin scales match the coloration, shape, and pattern of a dragon progenitor, and other dragonkin features continue the trend of matching the progenitor's features. People versed in the physical features of dragons can use this knowledge to determine a dragonkin's draconic progenitor."
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"name": "Society",
+							"entries": [
+								"Reactions to dragonkin run the gamut of emotions. Many look upon dragonkin with awe, amazed by the potential that runs through the person's veins. Others instead fear dragonkin, worried that the draconic influence could lead to violent outbursts or magical manifestations. Scholars and spell casters sometimes look at dragonkin as things to be studied, draconic power made manifest, but also safer. In many cases, dragonkin can expect the same treatment that locals would give to an actual dragon.",
+								"Dragonkin communities are rare. The few that exist tend to have dragonkin of the same draconic progenitor, such as nomadic, desert communities of dragonkin descended from blue dragons. Much like dragons can vary in alignments and mindsets, these communities run a wide range of attitudes. Most dragonkin live in existing communities or on the fringes of such societies. Dragonkin rarely live on their own as an innate compulsion pulls dragonkin to remain somewhat close to settlements, even if not directly. While dragonkin don't have a proper explanation for this feeling, many describe it as a need to remain close to settlements to keep tabs on the populace."
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"name": "Alignment and Religion",
+							"entries": [
+								"While dragonkin typically match the alignment trends of their base ancestry, a fair amount of dragonkin feel a draconic compulsion that results from their progenitors. This compulsion seems to draw dragonkin toward the alignment of their progenitors. Dragonkin descended from brass dragons have desires to do good while remaining independent, for example. Dragonkin that feel such compulsions report that the feeling is usually simple to ignore or work around, but some dragonkin lean into these desires. Dragonkin who wish to emulate their forebearers are particularly likely to give in to these compulsions.",
+								"Much like with alignments, dragonkin tend to follow the faiths of their base ancestry. Some dragonkin look to other gods to supplement their core beliefs, however, and it's not uncommon for a dragonkin to utter prayers to draconic or elementally-focused deities in addition to those of their primary faith. The power of a dragon brings about feelings of independence or self-assuredness in many dragonkin, leading to a large number of atheist or areligious dragonkin."
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Draconic Armaments",
+			"source": "DragonkinVH",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"Your body has grown a draconic feature that you wield with might in combat. Choose either a claw, jaws, or tail Strike. Once chosen, you can't change your feature. Your claw unarmed attack deals {@damage 1d4} piercing damage, has the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits. Your jaws unarmed attack deals {@damage 1d6} piercing damage and has the {@trait versatile} S trait. Your tail unarmed attack deals {@damage 1d6} bludgeoning damage and has the {@trait backswing} trait."
+			],
+			"special": "You can take this feat multiple times. Each time you do, select a new attack from the options above.",
+			"leadsTo": [
+				"Deadly Armaments|DragonkinVH",
+				"Draconic Grasp|DragonkinVH"
+			]
+		},
+		{
+			"name": "Draconic Lore",
+			"source": "DragonkinVH",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"Your knowledge of draconic magic and cunning has proven useful. You gain the trained proficiency rank in {@skill Arcana} and {@skill Deception}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a {@skill Lore} related to your draconic progenitor, such as {@skill Lore||Red Dragon Lore}."
+			]
+		},
+		{
+			"name": "Draconic Senses",
+			"source": "DragonkinVH",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"You can start sensing creatures as well as a dragon can. You gain one of the following senses: {@ability darkvision}, {@ability low-light vision}, or {@ability scent} (imprecise) 30 feet. You must have {@ability low-light vision} before you can gain {@ability darkvision} with this feat."
+			],
+			"special": "You can select this feat multiple times, choosing a different sense each time."
+		},
+		{
+			"name": "Draconic Wings",
+			"source": "DragonkinVH",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"A pair of small, draconic wings grow from your back. While these wings aren't strong enough to help you fly just yet, they allow you to travel longer distances when jumping. When {@action Leap||Leaping} horizontally, you move an additional 5 feet. You don't automatically fail your checks to {@action High Jump} or {@action Long Jump} if you don't {@action Stride} at least 10 feet first. In addition, when you make a {@action Long Jump}, you can jump a distance up to 10 feet further than your {@skill Athletics} check result, though still with the normal maximum of your Speed."
+			],
+			"leadsTo": [
+				"Basic Flight|DragonkinVH",
+				"Advanced Flight|DragonkinVH"
+			]
+		},
+		{
+			"name": "Fearful Presence",
+			"source": "DragonkinVH",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"Your foes are aware of your draconic nature and you use that to instill fear in them. You are trained in {@skill Intimidation} (or another skill of your choice, if you were already trained in {@skill Intimidation}) and gain the {@feat Intimidating Glare} skill feat as a bonus feat."
+			]
+		},
+		{
+			"name": "Basic Flight",
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"source": "DragonkinVH",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Draconic Wings|DragonkinVH}",
+			"frequency": "once per round",
+			"entries": [
+				"Your wings grow stronger and capable of brief flight. You can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
+			]
+		},
+		{
+			"name": "Deadly Armaments",
+			"source": "DragonkinVH",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Draconic Armaments|DragonkinVH}",
+			"frequency": "once per round",
+			"entries": [
+				"Your natural weapons are especially dangerous. The unarmed attacks you gain from {@feat Draconic Armaments|DragonkinVH} deal {@damage 1d4} persistent bleed damage on a critical hit."
+			]
+		},
+		{
+			"name": "Draconic Defenses",
+			"source": "DragonkinVH",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"You become hardy like a dragon. You gain a +2 circumstance bonus to saves against {@condition paralyzed||paralysis} and {@trait sleep}. If you roll a success against these effects, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Draconic Magic",
+			"source": "DragonkinVH",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"Magical potential flows through your veins. Choose a magical tradition tied to your draconic progenitor, such as {@trait arcane} for blue dragons or {@trait primal} for cloud dragons. If your draconic progenitor doesn't have an associated tradition, you choose {@trait arcane}. Select a {@filter common 1st-level spell|spells||rarity=Common|level=1} from your chosen tradition. Once you make this choice, you can't change it. You can cast that spell once per day as an innate spell of your chosen tradition."
+			]
+		},
+		{
+			"name": "Draconic Resistance",
+			"source": "DragonkinVH",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"leadsTo": [
+				"Greater Resistances|DragonkinVH"
+			],
+			"entries": [
+				"Your draconic blood grants you the ability to shrug off an energy type. Choose an energy damage type that your draconic progenitor's breath attack deals, such as fire for red dragons or acid for brine dragons. You gain resistance 5 against that energy. If your draconic progenitor doesn't have a breath weapon that deals energy damage, you instead gain resistance 5 to either bludgeoning, piercing, or slashing damage."
+			]
+		},
+		{
+			"name": "Skillful Tail",
+			"source": "DragonkinVH",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Draconic Armaments|DragonkinVH}",
+			"entries": [
+				"You've grown a tail or learned to have better control of your existing tail. You can perform simple {@action Interact} actions with your tail, such as opening an unlocked door. Your tail can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items."
+			]
+		},
+		{
+			"name": "Advanced Flight",
+			"source": "DragonkinVH",
+			"activity": {
+				"entry": "{@as 2}",
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Draconic Wings|DragonkinVH}",
+			"frequency": "once per day",
+			"leadsTo": [
+				"Boundless Flight|DragonkinVH"
+			],
+			"entries": [
+				"You unfold your wings for travel and can keep them unfolded for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have {@feat Basic Flight|DragonkinVH}, you gain a +10-foot status bonus to your fly Speed with Advanced Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one."
+			]
+		},
+		{
+			"name": "Draconic Grasp",
+			"source": "DragonkinVH",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Draconic Armaments|DragonkinVH}",
+			"entries": [
+				"Your draconic attacks can latch on to your foes. The unarmed attacks you gain from {@feat Draconic Armaments|DragonkinVH} gain the {@trait grapple} trait. On a critical hit with one of these unarmed attacks, you can attempt to {@action Grapple} the target as a free action."
+			]
+		},
+		{
+			"name": "Draconic Secrets",
+			"source": "DragonkinVH",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"Greater magical potential flows through your veins. Choose a magical tradition tied to your draconic progenitor, such as {@trait arcane} for blue dragons or {@trait primal} for cloud dragons. If your draconic progenitor doesn't have an associated tradition, you choose {@trait arcane}. Select two {@filter common 2nd-level spell|spells||rarity=Common|level=2} from your chosen tradition. Once you make this choice, you can't change it. You can cast these spells once per day each as an innate spell of your chosen tradition."
+			]
+		},
+		{
+			"name": "Powerful Breath",
+			"source": "DragonkinVH",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "Dragon's Breath",
+			"entries": [
+				"You can temporarily tap into greater draconic power to intensify your breath. When you use {@action Dragon's Breath|DragonkinVH}, you can increase the damage dice to {@damage 1d8 + floor(((#$prompt_number:min=9,title=Character Level,default=9$#)-1)/2)d8|d8s} and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can't use {@action Dragon's Breath|DragonkinVH} again for 1 hour instead of {@dice 1d4} rounds."
+			]
+		},
+		{
+			"name": "Boundless Flight",
+			"source": "DragonkinVH",
+			"level": 13,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Advanced Flight|DragonkinVH}",
+			"entries": [
+				"You gain the effects of {@feat Advanced Flight|DragonkinVH} at all times, rather than just once per day for 10 minutes. This includes the status bonus to your Speed if you have Basic Flight."
+			]
+		},
+		{
+			"name": "Draconic Reflexes",
+			"source": "DragonkinVH",
+			"level": 13,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"entries": [
+				"Your instincts help you take advantage of a foe's opening. You gain the {@action Attack of Opportunity} reaction, except you can only make fist {@action Strike||Strikes} or {@action Strike||Strikes} with unarmed attacks you gained from an ancestry feat when using the reaction. If you already had the {@action Attack of Opportunity} reaction, you gain a +4 circumstance bonus to damage when you make an unarmed attack {@action Strike} as part of the reaction."
+			]
+		},
+		{
+			"name": "Greater Resistances",
+			"source": "DragonkinVH",
+			"level": 13,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "{@feat Draconic Resistance|DragonkinVH}",
+			"entries": [
+				"Your protections grow more powerful. Your resistance from Draconic Resistance becomes equal to half your level."
+			]
+		},
+		{
+			"name": "Mighty Breath",
+			"source": "DragonkinVH",
+			"level": 17,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "Dragon's Breath",
+			"entries": [
+				"Your breath becomes even more powerful. The damage dice of your breath weapon increases to {@damage 1d8 + floor(((#$prompt_number:min=17,title=Character Level,default=17$#)-1)/2)d8|d8s} and you increase the breath's area to 60 feet for a line breath weapon or 30 feet for a cone. If you have the {@feat Powerful Breath|DragonkinVH} feat, your breath's damage dice increases to {@damage 1d10 + floor(((#$prompt_number:min=17,title=Character Level,default=17$#)-1)/2)d10|d10s} and the area increases to 90 feet for a line breath weapon or 45 feet for a cone when intensifying your breath. You still can't use your breath weapon again for 1 hour if you do."
+			]
+		},
+		{
+			"name": "Form of the Dragon",
+			"source": "DragonkinVH",
+			"level": 17,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dragonkin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dragonkin|DragonkinVH"
+			],
+			"prerequisites": "Dragon's Breath",
+			"entries": [
+				"You can unleash the full potential of your heritage, allowing you to become a dragon, if only for a moment. You can cast 6th-level {@spell dragon form} as an innate spell once per day. The spell's tradition matches one tied to your draconic progenitor. If your draconic progenitor doesn't have an associated tradition, it is an {@trait arcane} innate spell. You must choose a battle form that matches your draconic progenitor. If your draconic progenitor is not listed in the spell, choose the battle form that most closely matches your draconic progenitor. You can use your base form's AC if it's higher than what the battle form grants. Your GM might allow you to create a new battle form using the statistics of the existing battle forms as a starting point. At 20th level, you cast 8th-level {@spell dragon form} instead."
+			]
+		}
+	]
+}

@@ -5721,7 +5721,7 @@
 					"type": "pf2-brown-box",
 					"name": "Riding Independent Creatures",
 					"entries": [
-						"If a creature tries to ride your eidolon, both you and the riding creature each regain only 2 actions at the start of your turns each round, as both the eidolon and the riding creature interfere with one another’s actions. If you have the {@feat Hulking Evolution|PT:SoM} feat, you’re able to ride on your eidolon without this drawback."
+						"If a creature tries to ride your eidolon, both you and the riding creature each regain only 2 actions at the start of your turns each round, as both the eidolon and the riding creature interfere with one another's actions. If you have the {@feat Hulking Evolution|PT:SoM} feat, you're able to ride on your eidolon without this drawback."
 					]
 				}
 			],
@@ -6213,7 +6213,7 @@
 				"Transmutation"
 			],
 			"featType": {
-				"class": "Summoner|PT:SoM"
+				"class": "Summoner"
 			},
 			"prerequisites": null,
 			"frequency": null,
