@@ -1,0 +1,35 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TrueKitsune",
+				"abbreviation": "TFK",
+				"full": "True Fox Kitsune",
+				"url": "https://www.reddit.com/r/Pathfinder2eCreations/comments/pblmqo/a_simple_kitsune_heritage_true_fox_kitsune/",
+				"authors": [
+					"Ryoungoragla"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "ba721a",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1630074257,
+		"dateLastModified": 1630074257
+	},
+	"heritage": [
+		{
+			"name": "True Fox Kitsune",
+			"shortName": "True Fox",
+			"source": "TrueKitsune",
+			"ancestryName": "Kitsune",
+			"ancestrySource": "LOAG",
+			"entries": [
+				"Your true form is not a bipedal fox like most kitsune, but instead your true form is that of a fox. While in your true fox form you are Small, you have imprecise {@ability scent} 30 feet and you have a jaws unarmed attack that deals {@damage 1d4} piercing damage. Your jaws are in the {@group brawling} group and have the {@trait finesse} and {@trait unarmed} traits. However, in your true fox shape you can't use weapons, shields, or other held items of any sort, and you are limited in what actions you can take that have the {@trait manipulate} trait. The only {@trait manipulate} actions you can take are to {@action Cast a Spell} with somatic components or simple {@action Interact} actions such as opening an unlocked door. Your paws can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish. The GM might determine other {@trait manipulate} actions are appropriate for your paws. Your alternate form is a common Medium humanoid ancestry prevalent where you grew up (typically human), called a tailless form.",
+				"If you take the {@feat Myriad Forms|LOAG} ancestry feat, you may choose the normal kitsune form, the bipedal fox, as the form chosen for the feat."
+			]
+		}
+	]
+}

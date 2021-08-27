@@ -12,13 +12,12 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "940101",
+				"color": "ad1111",
 				"version": "1.0"
 			}
 		],
 		"dateAdded": 1629955064,
-		"dateLastModified": 1629955403,
-		"unlisted": true
+		"dateLastModified": 1629955403
 	},
 	"trait": [
 		{
@@ -61,6 +60,11 @@
 			"source": "DragonkinVH",
 			"versatile": true,
 			"rarity": "rare",
+			"summary": {
+				"images": [
+					"https://static.wixstatic.com/media/aa0bb5_9126d815da4e431bb486bbf91400c07b~mv2.png/v1/fill/w_360,h_551,al_c,q_95/aa0bb5_9126d815da4e431bb486bbf91400c07b~mv2.webp"
+				]
+			},
 			"entries": [
 				"The blood of mighty dragons flows through veins, granting you a small portion of their ferocity and power. Your draconic lineage stems from a specific type of dragon. Choose a type of dragon ranging from chromatic dragons, metallic dragons, drakes, or any other creature with the dragon type. This type of dragon is your draconic progenitor. You gain the {@trait dragon} and {@trait dragonkin|DragonkinVH} traits, in addition to the traits from your ancestry. You gain the {@action Dragon's Breath|DragonkinVH} ability. You can choose from {@filter dragonkin feats|feats||type=ancestry|ancestries=dragonkin|source=DragonkinVH} and feats from your ancestry whenever you gain an ancestry feat. Additionally, you gain access to the {@feat Dragon Disciple Dedication|APG} feat. Your GM might determine that you gain access to other draconic archetypes, feats, spells, or options as well.",
 				{
