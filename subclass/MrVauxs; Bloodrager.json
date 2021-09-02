@@ -1,0 +1,129 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Bloodrager",
+				"abbreviation": "BI",
+				"full": "Bloodrager Instinct",
+				"authors": [
+					"MrVauxs"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "c42400",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1630593752,
+		"dateLastModified": 1630601141
+	},
+	"subclass": [
+		{
+			"name": "Bloodrager Instinct",
+			"shortName": "Bloodrager",
+			"type": "Instinct",
+			"source": "Bloodrager",
+			"subclassFeatures": [
+				"Instinct|Barbarian|CRB|Bloodrager|Bloodrager|1",
+				"Weapon Specialization|Barbarian|CRB|Bloodrager|Bloodrager|7",
+				"Raging Resistance|Barbarian|CRB|Bloodrager|Bloodrager|9"
+			],
+			"className": "Barbarian",
+			"classSource": "CRB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Instinct",
+			"source": "Bloodrager",
+			"className": "Barbarian",
+			"classSource": "CRB",
+			"subclassShortName": "Bloodrager",
+			"subclassSource": "Bloodrager",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"name": "Bloodrager Instinct",
+					"entries": [
+						"Much like other barbarians can tap into their reservoir of buried rage or other repressed emotions to gain strength beyond what they are usually capable of, you manifest your {@action Rage} in a burst of cathartic magic, granting you an ability to release pent up emotions as spells and supernatural phenomena. Bloodragers often are of sorcerous backgrounds, but they may have simply released the magic of emotions in times of high emotional distress and then further delved into learning the dangerous magic of emotions.",
+						"You gain the {@feat Cathartic Mage Dedication|SoM} feat as a bonus feat even though you don't meet its level prerequisite, though you must meet its other prerequisites."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"name": "Anathema",
+					"entries": [
+						"Hiding your emotions and emotional state is an anathema to your instinct."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"name": "Bloodrage (Instinct Ability)",
+					"entries": [
+						"While raging, you can increase the additional damage from {@action Rage} from 2 to 3 and apply the damage to melee spell attacks (such as {@spell Shocking Grasp}). Also, if you enter catharsis from the {@feat Cathartic Mage Dedication|SoM} feat while raging, it's emotional fervor lasts until the end of your rage. You suffer emotional fallout as normal.",
+						"If you have the {@feat Wounded Rage} feat and take it, you can take the Catharsis reaction as a free action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "Bloodrager",
+			"className": "Barbarian",
+			"classSource": "CRB",
+			"subclassShortName": "Bloodrager",
+			"subclassSource": "Bloodrager",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Specialization Ability",
+					"entries": [
+						"Increase the additional damage from {@action Rage} from 3 to 6. If you have greater weapon specialization, instead increase the damage when using Bloodrage to 12."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raging Resistance",
+			"source": "Bloodrager",
+			"className": "Barbarian",
+			"classSource": "CRB",
+			"subclassShortName": "Bloodrager",
+			"subclassSource": "Bloodrager",
+			"level": 9,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Raging Resistance",
+					"entries": [
+						"You resist piercing damage and damage from {@trait emotion} effects."
+					]
+				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Emotional Focus",
+			"source": "Bloodrager",
+			"level": 6,
+			"featType": {
+				"class": "Barbarian",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Barbarian"
+			],
+			"prerequisites": "{@class Barbarian|CRB|Bloodrager Instinct|Bloodrager|Bloodrager}",
+			"entries": [
+				"You can instinctively focus your rage to cast a spell relating to your emotional state. You can {@action Cast a Spell} while raging. You can only cast spells this way that are benefitted from your chosen Emotional State, such as those from your emotional fervor or the focus spell you gain if you select the {@feat Cathartic Focus Spell|SoM} feat."
+			]
+		}
+	]
+}
