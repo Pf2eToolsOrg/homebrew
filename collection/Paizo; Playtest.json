@@ -4037,7 +4037,7 @@
 					"page": 17,
 					"name": "Weapon",
 					"entries": [
-						"Your innovation is an impossible-looking weapon augmented by numerous unusual gadgets. It begins with the same statistics as a level-0 common simple or martial weapon of your choice or another level-0 simple or martial weapon to which you have access. An innovation weapon can have fundamental and property runes added to it in the same way as ordinary weapons. Because of the unique features of your innovation, everyone except you is untrained in it, even if they're normally trained (or better) in simple or martial weapons.",
+						"Your innovation is an impossible-looking weapon augmented by numerous unusual gadgets. It begins with the same statistics as a {@filter level-0 common simple or martial weapon|items||Rarity=Common|Weapon/Armor Category=Simple;Martial|Level=[0;0]} of your choice or another {@filter level-0 simple or martial weapon|items||Rarity=Uncommon|Weapon/Armor Category=Simple;Martial|Level=[0;0]} to which you have access. An innovation weapon can have fundamental and property runes added to it in the same way as ordinary weapons. Because of the unique features of your innovation, everyone except you is untrained in it, even if they're normally trained (or better) in simple or martial weapons.",
 						"Choose one initial weapon modification to apply to your innovation, either from the following or from other initial weapon modifications to which you have access. These modifications grant additional weapon traits, sometimes with extra abilities.",
 						{
 							"type": "list",
@@ -4237,7 +4237,7 @@
 									"type": "item",
 									"name": "Advanced Rangefinder (ranged only)",
 									"entries": [
-										"A carefully tuned scope or targeting device makes your innovation especially good at hitting weak points. Your innovation gains the {@trait sniper} trait and increases its range increment by 10 feet."
+										"A carefully tuned scope or targeting device makes your innovation especially good at hitting weak points. Your innovation gains the {@trait sniper|PT:G&G} trait and increases its range increment by 10 feet."
 									]
 								},
 								{
@@ -4542,7 +4542,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"You make a pact with creature that serves you and assists your spellcasting. You gain a familiar (Core Rulebook 217)."
+				"You make a pact with creature that serves you and assists your spellcasting. You gain a {@filter familiar|companionsfamiliars||Type=Familiar} (Core Rulebook 217)."
 			],
 			"activity": null,
 			"special": null,
@@ -9685,6 +9685,517 @@
 			},
 			"dismiss": false,
 			"sustain": true
+		}
+	],
+	"eidolon": [
+		{
+			"name": "Devotion Phantom Eidolon",
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"name": "Devotion Phantom Eidolon",
+					"entries": [
+						"Your eidolon is a lost soul, unable to escape the mortal world due to a strong sense of duty, an undying devotion, or a need to complete an important task. Most phantom eidolons are humanoid with a spectral or ectoplasmic appearance, though some take far stranger forms. Your link with your eidolon prevents them from succumbing to corruption and undeath, and together, you'll grow in strength and fulfill your phantom's devotion."
+					]
+				}
+			],
+			"type": "Eidolon",
+			"source": "PT:SoM",
+			"page": 20,
+			"tradition": "Occult",
+			"traits": [
+				"Eidolon",
+				"Ethereal",
+				"Phantom"
+			],
+			"home": "{@place Etheral Plane}",
+			"size": "{@trait Medium}",
+			"suggestedAttacks": [
+				"fist (bludgeoning), tendril (bludgeoning), unarmed attacks shaped like a weapon"
+			],
+			"stats": [
+				{
+					"abilityMods": {
+						"Str": 16,
+						"Dex": 16,
+						"Con": 16,
+						"Int": 10,
+						"Wis": 10,
+						"Cha": 10
+					}
+				}
+			],
+			"extraStats": [
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} primary, {@b Damage} {@damage 1d8}"
+					]
+				},
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} secondary ({@trait agile}), {@b Damage} {@damage 1d4}"
+					]
+				}
+			],
+			"skills": [
+				"Medicine",
+				"Occultism"
+			],
+			"senses": {
+				"precise": [],
+				"imprecise": [],
+				"vague": [],
+				"other": [
+					"darkvision"
+				]
+			},
+			"languages": [
+				"one common mortal language the eidolon spoke in life"
+			],
+			"speed": {
+				"abilities": null,
+				"walk": 25,
+				"burrow": null,
+				"climb": null
+			},
+			"abilities": [
+				{
+					"name": "Dutiful Strike",
+					"type": "initial",
+					"entries": [
+						"Your eidolon deeply respects your assistance, and they extend their loyalty to you, attacking those who dare to harm you. Your eidolon gains the Dutiful Strike reaction.",
+						{
+							"type": "ability",
+							"style": "full",
+							"traits": [
+								"Eidolon",
+								"Occult",
+								"Transmutation"
+							],
+							"name": "Dutiful Strike",
+							"entries": [
+								"Your eidolon instinctively flashes with ectoplasmic energy, allowing them to make a melee attack against a foe who dares to harm you. Your eidolon makes a {@action Strike} with a melee unarmed attack against the triggering foe, even if that foe isn't within your eidolon's reach."
+							],
+							"activity": {
+								"entry": "{@as R}",
+								"number": 1,
+								"unit": "reaction"
+							},
+							"trigger": "An enemy within 15 feet of you hits you with a {@action Strike} and deals damage to you.",
+							"requirements": "Your eidolon is adjacent to you."
+						}
+					]
+				},
+				{
+					"name": "Steadfast Devotion",
+					"type": "symbiosis",
+					"level": 7,
+					"entries": [
+						"Your eidolon's dedication makes it extremely challenging for your foes to bend their mind. Your eidolon gains a +2 circumstance bonus to all saving throws against mental effects, and if they roll a success against such an effect, they get a critical success instead. If you have the Shared Resolve class feature and your eidolon rolls a critical failure against a mental effect, they get a failure instead."
+					]
+				},
+				{
+					"name": "Devotion Aura",
+					"type": "transcendence",
+					"level": 17,
+					"entries": [
+						"After fighting together for so long, your eidolon has become as devoted to protecting you and your allies as they are to their original cause. They gain a 20-foot dedication aura, which has the abjuration, aura, and occult traits. Whenever one of your eidolon's allies within the aura takes damage, reduce the damage by up to your eidolon's Constitution modifier. You lose a number of Hit Points equal to half the amount by which the eidolon reduced the damage, rounded down."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon Eidolon",
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"name": "Dragon Eidolon",
+					"entries": [
+						"Because dragons have a strong connection to magic, their minds can often leave an echo floating in the Astral Plane, extremely powerful but unable to interact with the outside world on their own. Dragon eidolons manifest in the powerful, scaled forms they had in life; most take the form of true dragons (albeit smaller), but some manifest as drakes or other draconic beings. You've forged a connection with such a dragon eidolon, and together, you'll grow to the might of an ancient wyrm, the mightiest of dragons."
+					]
+				}
+			],
+			"type": "Eidolon",
+			"source": "PT:SoM",
+			"page": 20,
+			"tradition": "Arcane",
+			"traits": [
+				"Astral",
+				"Dragon",
+				"Eidolon"
+			],
+			"home": "{@place Astral Plane}",
+			"size": "{@trait Medium}",
+			"suggestedAttacks": [
+				"claw (slashing), jaws (piercing), horn (piercing), tail (bludgeoning), wing (bludgeoning)"
+			],
+			"stats": [
+				{
+					"abilityMods": {
+						"Str": 16,
+						"Dex": 16,
+						"Con": 16,
+						"Int": 10,
+						"Wis": 10,
+						"Cha": 10
+					}
+				}
+			],
+			"extraStats": [
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} primary, {@b Damage} {@damage 1d8}"
+					]
+				},
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} secondary ({@trait agile}), {@b Damage} {@damage 1d4}"
+					]
+				}
+			],
+			"skills": [
+				"Arcana",
+				"Intimidation"
+			],
+			"senses": {
+				"precise": [],
+				"imprecise": [],
+				"vague": [],
+				"other": [
+					"darkvision"
+				]
+			},
+			"languages": [
+				"{@language Draconic}"
+			],
+			"speed": {
+				"abilities": null,
+				"walk": 25,
+				"burrow": null,
+				"climb": null
+			},
+			"abilities": [
+				{
+					"name": "Breath Weapon",
+					"type": "initial",
+					"entries": [
+						"Your eidolon has a powerful breath weapon. When your eidolon gains this ability, choose a damage type from among acid, cold, electricity, fire, piercing, or poison, and choose whether the area is a 60-foot line or a 30-foot cone. Your eidolon gains the Breath Weapon activity. It has the trait matching the damage type. Your eidolon also gains that trait.",
+						{
+							"type": "ability",
+							"style": "full",
+							"traits": [
+								"Arcane",
+								"Eidolon",
+								"Evocation"
+							],
+							"name": "Breath Weapon",
+							"entries": [
+								"Your eidolon exhales a powerful blast of energy corresponding to their type. Your eidolon deals {@damage 1d6} damage in the area you chose when your eidolon gained Breath Weapon with a basic Reflex save against your spell DC. This damage has the type you chose when the eidolon gained this ability. Your eidolon can't use their Breath Weapon again for the next {@dice 1d4} rounds.",
+								"At 3rd level and every 2 levels thereafter, the damage increases by {@damage 1d6}."
+							],
+							"activity": {
+								"entry": "{@as 2}",
+								"number": 2,
+								"unit": "action"
+							}
+						}
+					]
+				},
+				{
+					"name": "Draconic Frenzy",
+					"type": "symbiosis",
+					"level": 7,
+					"entries": [
+						"Your eidolon can make a furious assault, potentially recovering the use of their Breath Weapon. Your eidolon gains the Draconic Frenzy activity.",
+						{
+							"type": "ability",
+							"style": "full",
+							"traits": [
+								"Eidolon"
+							],
+							"name": "Draconic Frenzy",
+							"entries": [
+								"Your eidolon makes one {@action Strike} with their primary unarmed attack and two {@action Strike||Strikes} with their secondary unarmed attacks (in any order). If any of these attacks is a critical hit against a foe, the eidolon instantly recovers the use of their Breath Weapon."
+							],
+							"activity": {
+								"entry": "{@as 2}",
+								"number": 2,
+								"unit": "action"
+							}
+						}
+					]
+				},
+				{
+					"name": "Wyrm's Breath",
+					"type": "transcendence",
+					"level": 17,
+					"entries": [
+						"Your eidolon can draw upon the power of wyrms to enhance their Breath Weapon. Your eidolon gains the Wyrm's Breath free action.",
+						{
+							"type": "ability",
+							"style": "full",
+							"traits": [
+								"Concentrate",
+								"Eidolon"
+							],
+							"name": "Wyrm's Breath",
+							"frequency": "once every 10 minutes",
+							"entries": [
+								"Your eidolon concentrates the power of the mightiest wyrms to make their Breath Weapon more spectacular. If your eidolon's next action is to use Breath Weapon, both the damage and area of the Breath Weapon are doubled."
+							],
+							"activity": {
+								"entry": "{@as F}",
+								"number": 1,
+								"unit": "free"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Beast Eidolon",
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"name": "Beast Eidolon",
+					"entries": [
+						"Your eidolon is a manifestation of the life force of nature in the form of a powerful magical beast that often has animal features, possibly from multiple species of animals. Whether you've learned the way to connect with the world's life force via a specific philosophy or practice, such as the Sarkorian god callers, or formed your own unique bond independent of any tradition, your link to your eidolon allows you both to grow in power and influence to keep your home safe from those who would despoil it."
+					]
+				}
+			],
+			"type": "Eidolon",
+			"source": "PT:SoM",
+			"page": 19,
+			"tradition": "Primal",
+			"traits": [
+				"Eidolon",
+				"Beast"
+			],
+			"home": "{@place Material Plane}",
+			"size": "{@trait Medium}",
+			"suggestedAttacks": [
+				"claw (slashing), jaws (piercing), fangs (piercing), horn (piercing)"
+			],
+			"stats": [
+				{
+					"abilityMods": {
+						"Str": 16,
+						"Dex": 16,
+						"Con": 16,
+						"Int": 8,
+						"Wis": 12,
+						"Cha": 10
+					}
+				}
+			],
+			"extraStats": [
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} primary, {@b Damage} {@damage 1d8}"
+					]
+				},
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} secondary ({@trait agile}), {@b Damage} {@damage 1d4}"
+					]
+				}
+			],
+			"skills": [
+				"Intimidation",
+				"Nature"
+			],
+			"senses": {
+				"precise": [],
+				"imprecise": [],
+				"vague": [],
+				"other": [
+					"low-light vision"
+				]
+			},
+			"languages": [
+				"Sylvan"
+			],
+			"speed": {
+				"abilities": null,
+				"walk": 25,
+				"burrow": null,
+				"climb": null
+			},
+			"abilities": [
+				{
+					"name": "Beast's Charge",
+					"type": "initial",
+					"entries": [
+						"Your eidolon can make a ferocious charge or pounce on your foes.",
+						{
+							"activity": {
+								"number": 2,
+								"unit": "action",
+								"entry": "{@as 2}"
+							},
+							"trait": [
+								"Eidolon"
+							],
+							"entries": [
+								"Your eidolon rushes forward, using their momentum to power their attack. Your eidolon {@action Stride||Strides} twice in a straight line and then {@action Strike||Strikes}, gaining a +1 circumstance bonus to the attack roll as long as they moved at least 20 feet."
+							],
+							"type": "ability",
+							"style": "full",
+							"name": "Beast's Charge"
+						}
+					]
+				},
+				{
+					"name": "Primal Roar",
+					"type": "symbiosis",
+					"level": 7,
+					"entries": [
+						"Your eidolon can bellow a terrifying roar, whistle a piercing shriek, or otherwise produce a loud, startling sound to frighten nearby foes.",
+						{
+							"activity": {
+								"number": 2,
+								"unit": "action",
+								"entry": "{@as 2}"
+							},
+							"trait": [
+								"Auditory",
+								"Eidolon"
+							],
+							"entries": [
+								"Your eidolon unleashes a primal roar, or another terrifying noise that fits your eidolon's form. Your eidolon attempts {@skill Intimidate} checks to {@action Demoralize} each foe that can hear the roar within 30 feet."
+							],
+							"type": "ability",
+							"style": "full",
+							"name": "Primal Roar"
+						}
+					]
+				},
+				{
+					"name": "Whirlwind Maul",
+					"type": "transcendence",
+					"level": 17,
+					"entries": [
+						"Your eidolon learns how to thrash violently, damaging many foes in their reach.",
+						{
+							"activity": {
+								"number": 2,
+								"unit": "action",
+								"entry": "{@as 2}"
+							},
+							"trait": [
+								"Eidolon"
+							],
+							"entries": [
+								"Your eidolon lashes out in all directions. Your eidolon makes a {@action Strike} with a melee unarmed attack against up to four enemies within reach. They can choose different unarmed attacks for each enemy. Each attack counts toward your multiple attack penalty, but don't increase your penalty until your eidolon has made all their attacks."
+							],
+							"type": "ability",
+							"style": "full",
+							"name": "Whirlwind Maul"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Angel Eidolon",
+			"type": "Eidolon",
+			"source": "PT:SoM",
+			"page": 18,
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"name": "Angel Eidolon",
+					"entries": [
+						"Your eidolon is a celestial messenger, a member of the angelic host with a unique link to you, allowing them to carry a special message to the mortal world at your side. Most angel eidolons are roughly humanoid in form, with feathered wings, glowing eyes, halos, or similar angelic features. However, some take the form of smaller angelic servitors like the winged helmet cassisian angel instead. The two of you are destined for an important role in the plans of the celestial realms. Though a true angel, your angel eidolon's link to you as a mortal prevents them from casting the {@ritual angelic messenger|bst} ritual, even if they somehow learn it."
+					]
+				}
+			],
+			"tradition": "divine",
+			"traits": [
+				"Angel",
+				"Celestial",
+				"Eidolon"
+			],
+			"alignment": "must be good, usually neutral good",
+			"home": "Nirvana (if {@trait NG}), {@place Elysium} (if {@trait CG}), or {@place Heaven} (if {@trait LG})",
+			"size": "{@trait Medium} or {@trait Small}",
+			"suggestedAttacks": [
+				"fist (bludgeoning), wing (bludgeoning), unarmed attacks shaped like a weapon"
+			],
+			"extraStats": [
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} primary, {@b Damage} {@damage 1d8}"
+					]
+				},
+				{
+					"name": "Melee",
+					"entries": [
+						"{@as 1} secondary ({@trait agile}), {@b Damage} {@damage 1d4}"
+					]
+				}
+			],
+			"stats": [
+				{
+					"abilityMods": {
+						"Str": 16,
+						"Dex": 16,
+						"Con": 16,
+						"Int": 8,
+						"Wis": 12,
+						"Cha": 10
+					}
+				}
+			],
+			"skills": [
+				"Diplomacy",
+				"Religion"
+			],
+			"senses": {
+				"other": [
+					"{@ability darkvision}"
+				]
+			},
+			"languages": [
+				"Celestial"
+			],
+			"speed": {
+				"walk": 25
+			},
+			"abilities": [
+				{
+					"name": "Hallowed Strikes",
+					"type": "initial",
+					"entries": [
+						"Your eidolon's attacks are hallowed by the celestial realms and imbued with mercy. All your eidolon's unarmed attacks deal an extra 1 good damage; as usual, this extra damage harms only evil creatures or those with a weakness to good damage. Additionally, your eidolon can make {@trait nonlethal} attacks with all their unarmed attacks without taking the usual \u20132 circumstance penalty."
+					]
+				},
+				{
+					"name": "Traveler's Aura",
+					"type": "symbiosis",
+					"level": 7,
+					"entries": [
+						"Your eidolon emanates a powerful aura that protects creatures as they travel, a reflection of an astral deva's aura of the same name (Pathfinder Bestiary 19). This aura has the abjuration, aura, and divine traits. Your eidolon and their allies within a 20-foot emanation are protected from severe heat and cold, and your eidolon is never flatfooted to creatures inside the aura that are of a lower level than the eidolon.",
+						"When you gain the eidolon transcendence class feature, this aura evolves to the full benefits of an astral deva's; your eidolon and their allies in the aura are protected from ambient environmental damage from any plane, including severe and extreme heat and cold as well as more otherworldly dangers."
+					]
+				},
+				{
+					"name": "Angelic Mercy",
+					"type": "transcendence",
+					"level": 17,
+					"entries": [
+						"Your eidolon's angelic power allows them to assuage a variety of ailments, just like most other powerful angels. Your eidolon can cast {@spell remove curse}, {@spell remove disease}, {@spell remove fear}, and {@spell remove paralysis} once per day each as 9th-level divine innate spells."
+					]
+				}
+			]
 		}
 	]
 }

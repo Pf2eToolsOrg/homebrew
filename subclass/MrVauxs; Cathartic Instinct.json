@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Bloodrager",
-				"abbreviation": "BI",
-				"full": "Bloodrager Instinct",
+				"json": "CInstinct",
+				"abbreviation": "CI",
+				"full": "Cathartic Instinct",
 				"authors": [
 					"MrVauxs"
 				],
@@ -12,22 +12,22 @@
 					"MrVauxs"
 				],
 				"color": "c42400",
-				"version": "1.0"
+				"version": "1.2"
 			}
 		],
 		"dateAdded": 1630593752,
-		"dateLastModified": 1630601141
+		"dateLastModified": 1631249565
 	},
 	"subclass": [
 		{
-			"name": "Bloodrager Instinct",
-			"shortName": "Bloodrager",
+			"name": "Cathartic Instinct",
+			"shortName": "Cathartic",
 			"type": "Instinct",
-			"source": "Bloodrager",
+			"source": "CInstinct",
 			"subclassFeatures": [
-				"Instinct|Barbarian|CRB|Bloodrager|Bloodrager|1",
-				"Weapon Specialization|Barbarian|CRB|Bloodrager|Bloodrager|7",
-				"Raging Resistance|Barbarian|CRB|Bloodrager|Bloodrager|9"
+				"Instinct|Barbarian|CRB|Cathartic|CInstinct|1",
+				"Weapon Specialization|Barbarian|CRB|Cathartic|CInstinct|7",
+				"Raging Resistance|Barbarian|CRB|Cathartic|CInstinct|9"
 			],
 			"className": "Barbarian",
 			"classSource": "CRB"
@@ -36,18 +36,18 @@
 	"subclassFeature": [
 		{
 			"name": "Instinct",
-			"source": "Bloodrager",
+			"source": "CInstinct",
 			"className": "Barbarian",
 			"classSource": "CRB",
-			"subclassShortName": "Bloodrager",
-			"subclassSource": "Bloodrager",
+			"subclassShortName": "Cathartic",
+			"subclassSource": "CInstinct",
 			"level": 1,
 			"entries": [
 				{
 					"type": "pf2-h3",
-					"name": "Bloodrager Instinct",
+					"name": "Cathartic Instinct",
 					"entries": [
-						"Much like other barbarians can tap into their reservoir of buried rage or other repressed emotions to gain strength beyond what they are usually capable of, you manifest your {@action Rage} in a burst of cathartic magic, granting you an ability to release pent up emotions as spells and supernatural phenomena. Bloodragers often are of sorcerous backgrounds, but they may have simply released the magic of emotions in times of high emotional distress and then further delved into learning the dangerous magic of emotions.",
+						"Much like other barbarians can tap into their reservoir of buried rage or other repressed emotions to gain strength beyond what they are usually capable of, you manifest your {@action Rage} in a burst of cathartic magic, granting you an ability to release pent up emotions as spells and supernatural phenomena. Cathartics often are of sorcerous backgrounds, but they may have simply released the magic of emotions in times of high emotional distress and then further delved into learning the dangerous magic of emotions.",
 						"You gain the {@feat Cathartic Mage Dedication|SoM} feat as a bonus feat even though you don't meet its level prerequisite, though you must meet its other prerequisites."
 					]
 				},
@@ -70,11 +70,11 @@
 		},
 		{
 			"name": "Weapon Specialization",
-			"source": "Bloodrager",
+			"source": "CInstinct",
 			"className": "Barbarian",
 			"classSource": "CRB",
-			"subclassShortName": "Bloodrager",
-			"subclassSource": "Bloodrager",
+			"subclassShortName": "Cathartic",
+			"subclassSource": "CInstinct",
 			"level": 7,
 			"entries": [
 				{
@@ -88,11 +88,11 @@
 		},
 		{
 			"name": "Raging Resistance",
-			"source": "Bloodrager",
+			"source": "CInstinct",
 			"className": "Barbarian",
 			"classSource": "CRB",
-			"subclassShortName": "Bloodrager",
-			"subclassSource": "Bloodrager",
+			"subclassShortName": "Cathartic",
+			"subclassSource": "CInstinct",
 			"level": 9,
 			"entries": [
 				{
@@ -108,7 +108,7 @@
 	"feat": [
 		{
 			"name": "Emotional Focus",
-			"source": "Bloodrager",
+			"source": "CInstinct",
 			"level": 6,
 			"featType": {
 				"class": "Barbarian",
@@ -120,7 +120,7 @@
 			"traits": [
 				"Barbarian"
 			],
-			"prerequisites": "{@class Barbarian|CRB|Bloodrager Instinct|Bloodrager|Bloodrager}",
+			"prerequisites": "{@class Barbarian|CRB|Cathartic Instinct|Cathartic|CInstinct}",
 			"entries": [
 				"You can instinctively focus your rage to cast a spell relating to your emotional state. You can {@action Cast a Spell} while raging. You can only cast spells this way that are benefitted from your chosen Emotional State, such as those from your emotional fervor or the focus spell you gain if you select the {@feat Cathartic Focus Spell|SoM} feat."
 			]
