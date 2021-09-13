@@ -1,0 +1,565 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LuisAncestryFeats-Sahkil",
+				"abbreviation": "TL-S",
+				"full": "Tiefling Lineage \u2014 Sahkil",
+				"url": "https://www.luisloza.com/post/tiefling-lineage-sahkil",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "d9a8d7",
+				"version": "1.0"
+			},
+			{
+				"json": "LuisAncestryFeats-Couatl",
+				"abbreviation": "TL-C",
+				"full": "Aasimar Lineage \u2014 Couatl",
+				"url": "https://www.luisloza.com/post/aasimar-lineage-couatl",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "a7ddef",
+				"version": "1.0"
+			},
+			{
+				"json": "LuisAncestryFeats-Exemplar",
+				"abbreviation": "TL-E",
+				"full": "Ancestry Exemplar Feats",
+				"url": "https://www.luisloza.com/blog/categories/exemplar-feats",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "ffdbac",
+				"version": "1.0"
+			},
+			{
+				"json": "Luis-ANTOAB",
+				"abbreviation": "ANTOAB",
+				"full": "A New Take On Ancestry Boosts",
+				"url": "https://www.luisloza.com/post/a-new-take-on-ancestry-boosts-2e",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "#0db3bc",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1629955064,
+		"dateLastModified": 1631522936
+	},
+	"trait": [
+		{
+			"name": "Exemplar",
+			"source": "LuisAncestryFeats-Exemplar",
+			"categories": [
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"An ancestry feat with the exemplar trait represents ancestral abilities that are particularly powerful. A feat with this trait can be selected with a class feat or an ancestry feat. When using a class feat to select a feat with the exemplar trait, you select the feat in place of the class feat. When using an ancestry feat to select a feat with the exemplar trait, you must be at least twice the level of the feat. For example, you must be at least 12th level to select 6th level feat with the exemplar trait as an ancestry feat."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Fearspawn",
+			"source": "LuisAncestryFeats-Sahkil",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Tiefling",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Tiefling",
+				"Lineage"
+			],
+			"entries": [
+				"Sahkils\u2014horrifying fiends that revel in the fear of mortals\u2014have some influence in your bloodline and you can tap into their manipulation of fear. You can use the Influence Fear reaction.",
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Influence Fear",
+					"source": "LuisAncestryFeats-Sahkil",
+					"activity": {
+						"number": 1,
+						"unit": "reaction",
+						"entry": "{@as R}"
+					},
+					"frequency": "once per minute",
+					"trigger": "A creature within 30 feet increases their {@condition frightened} condition.",
+					"entries": [
+						"You latch on to the fear and manipulate its magnitude. You increase or reduce the triggering creature's {@condition frightened} condition by 1. If you increase the condition, you gain a number of temporary Hit Points equal to the triggering creature's level. These temporary Hit Points remain until the end of your next turn."
+					]
+				}
+			],
+			"leadsTo": [
+				"Sahkil Magic|LuisAncestryFeats-Sahkil"
+			]
+		},
+		{
+			"name": "Sahkil Magic",
+			"source": "LuisAncestryFeats-Sahkil",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Tiefling",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Tiefling"
+			],
+			"prerequisites": "{@feat Fearspawn|LuisAncestryFeats-Sahkil}",
+			"entries": [
+				"You draw upon the terrifying power of sahkils to unleash upon your enemies. You can cast {@spell paranoia} and {@spell silence} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Featherbound",
+			"source": "LuisAncestryFeats-Couatl",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Aasimar",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Aasimar",
+				"Lineage"
+			],
+			"entries": [
+				"You can trace your lineage to couatls\u2014winged serpents that serve good deities and aid mortals to achieve their potential. This connection allows you to take the skies, if only for a moment, much like your forbearers. You can use the Couatl Leap action.",
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Influence Fear",
+					"source": "LuisAncestryFeats-Sahkil",
+					"activity": {
+						"number": 3,
+						"unit": "action",
+						"entry": "{@as 3}"
+					},
+					"frequency": "once per day",
+					"entries": [
+						"You make a mighty jump, pushing against the air like the wings of a couatl. You {@action High Jump} or {@action Long Jump}. If you {@action High Jump}, you automatically get a critical success. If you {@action Long Jump}, you can automatically {@action Leap} the maximum horizontal distance you could normally travel plus an additional 5 feet. You also gain the effects of {@spell feather fall} until the start of your next turn."
+					]
+				}
+			],
+			"leadsTo": [
+				"Couatl Magic|LuisAncestryFeats-Couatl"
+			]
+		},
+		{
+			"name": "Couatl Magic",
+			"source": "LuisAncestryFeats-Couatl",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Aasimar",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Aasimar"
+			],
+			"prerequisites": "{@feat Featherbound|LuisAncestryFeats-Couatl}",
+			"entries": [
+				"You can call forth the magic couatls use to combat evil. You can cast {@spell invisibility} and {@spell restoration} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Stone Feet",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 6,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dwarf",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Dwarf",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"entries": [
+				"You become as stiff as stone, making it difficult to move you. Your DCs are 2 higher against attempts to {@action Shove} or {@action Trip} you. You also gain the Clashing Stone reaction.",
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Clashing Stone",
+					"source": "LuisAncestryFeats-Exemplar",
+					"activity": {
+						"number": 1,
+						"unit": "reaction",
+						"entry": "{@as R}"
+					},
+					"trigger": "A creature succeeds at an {@skill Athletics} check to {@action Shove} or {@action Trip} you.",
+					"requirements": "You are not prone and standing on the ground.",
+					"entries": [
+						"You lash out as an opponent moves you. Make a melee {@action Strike} against the triggering creature before resolving the {@action Shove} or {@action Trip} attempt."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stonesing",
+			"source": "LuisAncestryFeats-Couatl",
+			"level": 18,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Dwarf",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Concentrate",
+				"Dwarf",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"entries": [
+				"Your connection to stone allows you to sense secrets from the earth. You gain imprecise {@ability tremorsense} out to a range of 60 feet until the end of your next turn."
+			]
+		},
+		{
+			"name": "Graceful Stride",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 6,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Elf",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action",
+				"entry": "{@as 2}"
+			},
+			"traits": [
+				"Elf",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"entries": [
+				"Using your elven grace, you move throughout the battlefield without fear of your enemies being able to touch you. You {@action Stride} without triggering reactions that are triggered by your movement (such as Attacks of Opportunity). You can use Graceful Stride while {@action Fly||Flying} or {@action Swim||Swimming} instead of {@action Stride||Striding} if you have the corresponding movement type."
+			]
+		},
+		{
+			"name": "Ancient Knowledge",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 18,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Elf",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action",
+				"entry": "{@as 2}"
+			},
+			"traits": [
+				"Elf",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"frequency": "once per day",
+			"entries": [
+				"You have learned and mastered many lifetimes worth of experience. You call upon this knowledge to gain a single class feat for 1 minute. If the class feat is for your class, it must be a feat no higher than your character level \u20132. Your class is the class you chose at 1st level and multiclass archetypes are not considered your class. If the class feat is for a different class, it must be a feat no higher than half your level.",
+				"You do not need to meet the prerequisites for any class feat you gain with Ancient Knowledge, but all other restrictions and requirements for the feat are still in place, including any limited uses of the feat. This must means you must still be able to {@action Cast a Spell} for feats that require it, such as if you take the wizard's {@feat Reach Spell (Wizard)||Reach Spell} feat. You must also have the appropriate required ability or class feature to make use of a feat, such as requiring the fighter's {@feat Knockdown} feat to make use of the {@feat Improved Knockdown} feat or the sneak attack feature if you take the rogue's {@feat Twist the Knife} feat.",
+				"You innately know whether or not you will be able to make use of a feat, as determined by the GM, so you run no risk of accidentally gaining a feat that you can't use."
+			]
+		},
+		{
+			"name": "Nature Step",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 6,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Gnome",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Gnome",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"entries": [
+				"You partially move through the natural plane to make yourself more difficult to hit. You {@action Stride} up to half your speed. You gain {@condition concealed||concealment} for the duration of the movement. You can't use this concealment to {@action Hide}."
+			]
+		},
+		{
+			"name": "Reflect Spell",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 18,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Gnome",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction",
+				"entry": "{@as R}"
+			},
+			"traits": [
+				"Gnome",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"frequency": "once per day",
+			"trigger": "You are targeted by a spell.",
+			"entries": [
+				"You redirect the flow of magic to return the spell at its caster. You gain the effects of {@spell spell turning} and immediately attempt to reflect the spell. If you are not trained in spell attacks and spell DCs, you use your choice of either {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion} to attempt the counteract check to reflect the spell."
+			]
+		},
+		{
+			"name": "Scream It Out!",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 6,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Goblin",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction",
+				"entry": "{@as R}"
+			},
+			"traits": [
+				"Goblin",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"trigger": "You gain the {@condition frightened} condition.",
+			"entries": [
+				"Ahhhhhh! You unleash a scream that makes you feel better about the scariness. Reduce your {@condition frightened} condition by 1 and attempt an {@skill Intimidation} check to {@action Demoralize} a creature within 30 feet. You don't take a penalty if the creature doesn't understand your language. If you critically succeed at your attempt, you did a real good job at getting the scary out and reduce your {@condition frightened} condition by 1 again."
+			]
+		},
+		{
+			"name": "Slippery Little Bugger",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 18,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Goblin",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Goblin",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"entries": [
+				"You writhe and squirm and can escape anything trying to hold you down. You have a constant {@spell freedom of movement} effect with a spell level equal to half your character level. You always move at your full Speed when {@action Squeeze||Squeezing}."
+			]
+		},
+		{
+			"name": "Halfling Snipe",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 6,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Halfling",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action",
+				"entry": "{@as 2}"
+			},
+			"traits": [
+				"Halfling",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"entries": [
+				"You are a dead shot with a rock. You grab a nearby rock and make ranged {@action Strike} against a creature within 30 feet using your highest proficiency with a ranged weapon. On a hit, you knock the target silly and they become {@condition stunned} 1. On a critical hit, the target becomes {@condition stunned} 2. If you hit the target, they become temporarily immune to Halfling Snipes for 1 minute."
+			]
+		},
+		{
+			"name": "Halfling Misfortune",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 18,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Halfling",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction",
+				"entry": "{@as R}"
+			},
+			"traits": [
+				"Halfling",
+				"Misfortune",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"frequency": "once per hour",
+			"trigger": "A creature within 30 feet attempts a skill check or saving throw.",
+			"entries": [
+				"You use your power of good fortune to draw it from others like a sponge. The creature must roll the triggering check twice and use the worse result. If you have the {@feat Halfling Luck} feat and also have the ability to use that feat on other types of checks, your trigger for Halfling Misfortune includes those types of checks as well. For example, if you take the {@feat Guiding Luck} feat, you can use Halfling Misfortune when an enemy attempts a {@skill Perception} check."
+			]
+		},
+		{
+			"name": "Quick Adaptation",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 6,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Human",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Human",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"frequency": "once per day",
+			"entries": [
+				"You use what you know already know to help you with something new. Select one skill. Your proficiency rank with that skill temporarily increases to the highest rank in a different skill that uses the same ability modifier. For example, if you selected {@skill Thievery}, your rank in the skill would match the proficiency rank in {@skill Acrobatics} or {@skill Stealth}. This increase in rank lasts for 1 minute."
+			]
+		},
+		{
+			"name": "Heroic Influence",
+			"source": "LuisAncestryFeats-Exemplar",
+			"level": 18,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Human",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action",
+				"entry": "{@as 2}"
+			},
+			"traits": [
+				"Human",
+				"Exemplar|LuisAncestryFeats-Exemplar"
+			],
+			"frequency": "once per day",
+			"entries": [
+				"You have control of your destiny and can help others to shape their futures as well. You grant the effects of 6th-level {@spell heroism} to yourself and up to 5 allies within 30 feet."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "General Ability Array",
+			"source": "Luis-ANTOAB",
+			"type": "Ability Score Variant",
+			"entries": [
+				{
+					"type": "pf2-h2",
+					"name": "General Ability Array",
+					"source": "Luis-ANTOAB",
+					"entries": [
+						"When creating your character, you receive the following boosts and flaws:",
+						{
+							"type": "list",
+							"style": "list-no-bullets",
+							"items": [
+								"One Physical Ability Score",
+								"One Mental Ability Score",
+								"One Free Boost",
+								"One Flaw"
+							]
+						},
+						"For the boosts, the physical ability score boost is applied to either Strength, Dexterity, or Constitution. The mental ability score boost is applied to either Intelligence, Wisdom, or Charisma. The free boost is applied to one score you did not select for your physical or mental boosts. Your flaw is applied to any score, including any that already received a boost.",
+						"That's it. Everyone gets the same system and determines how they express their ancestry through their heritage and ancestry feats."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancestral Ability Array",
+			"source": "Luis-ANTOAB",
+			"type": "Ability Score Variant",
+			"entries": [
+				{
+					"type": "pf2-h2",
+					"name": "Ancestral Ability Array",
+					"source": "Luis-ANTOAB",
+					"entries": [
+						"When creating your character, you receive the following boosts and flaws:",
+						{
+							"type": "list",
+							"style": "list-no-bullets",
+							"items": [
+								"Your key ancestry ability",
+								"One free boost"
+							]
+						},
+						"Every ancestry has one ability score tied to them that represents some of the physical characteristics mentioned above. If you take this array, it locks you into taking the boost as noted by your key ancestry ability, but also gets rid of the flaw and one of the extra boosts. If you don't want to lock yourself in to the key ancestry ability, you can choose to take the general ability array instead. If you're a {@ancestry human}, you're stuck with the general array, though. Sorry! Here are the key ancestry abilities for each ancestry.",
+						{
+							"type": "list",
+							"style": "list-no-bullets",
+							"items": [
+								"{@b {@ancestry Dwarf}:} Constitution",
+								"{@b {@ancestry Elf}:} Dexterity",
+								"{@b {@ancestry Gnome}:} Charisma",
+								"{@b {@ancestry Goblin}:} Dexterity",
+								"{@b {@ancestry Halfling}:} Dexterity",
+								"{@b {@ancestry Hobgoblin|LOCG}:} Constitution",
+								"{@b {@ancestry Leshy|LOCG}:} Wisdom",
+								"{@b {@ancestry Lizardfolk|LOCG}:} Strength",
+								"{@b {@ancestry Shoony|APLLS}:} Dexterity"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

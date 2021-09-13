@@ -1,0 +1,728 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Luis-Rabbitfolk",
+				"abbreviation": "Rabbitfolk",
+				"full": "Rabbitfolk",
+				"url": "https://www.luisloza.com/blog/categories/rabbitfolk",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "808080",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1629955064,
+		"dateLastModified": 1631527437
+	},
+	"trait": [
+		{
+			"name": "Rabbitfolk",
+			"source": "Luis-Rabbitfolk",
+			"categories": [
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"Rabbitfolk craft and use these weapons."
+			]
+		},
+		{
+			"name": "Dashing",
+			"source": "Luis-Rabbitfolk",
+			"categories": [
+				"Armor & Weapon"
+			],
+			"entries": [
+				"The weapon benefits from a lead-up run before thrown. If you moved at least 10 feet on the action before your attack, add a circumstance bonus to damage for that attack equal to the number of damage dice for the weapon. In addition, if you moved at least 10 feet on the action before your attack, you treat the weapon's range increment as 10 feet farther."
+			]
+		}
+	],
+	"ancestry": [
+		{
+			"name": "Rabbitfolk",
+			"source": "Luis-Rabbitfolk",
+			"hp": 8,
+			"size": "Medium",
+			"speed": {
+				"walk": 30
+			},
+			"boosts": [
+				"Dexterity",
+				"Intelligence",
+				"Free"
+			],
+			"flaw": [
+				"Wisdom"
+			],
+			"languages": [
+				"{@language Common}",
+				"{@language Rabbitfolk}",
+				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Dwarven}, {@language Elven}, {@language Gnomish}, {@language Halfling}, {@language Sylvan}, {@language Undercommon}, and any other langauges to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"features": [
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"You can see in dim light as though it were bright light, so you ignore the {@condition concealed} condition due to dim light."
+					]
+				}
+			],
+			"flavor": [
+				"Rabbitfolk are a clever people known for their ability to get out of danger using their wiles or their agility. They have an innate curiosity that can sometimes get them into trouble. They like to set out into the world to find new experiences to better understand the world and the people that inhabit it. Rabbitfolk believe that a pursuit of knowledge is helpful in their way of life and will often share the knowledge the learn with loved ones."
+			],
+			"info": [
+				"Rabbitfolk are curious and clever humanoids that are prone to fits of exploration and discovery. Their curiosity is supported by an almost lack of social inhibitions. They have no issue or shame with asking questions that others would consider foolish or rude.",
+				"Additionally, this curiosity instills a desire to seek out new experiences, a desire that can sometimes be detrimental. Most rabbitfolk have a tale of a friend or relative that ended up getting hurt or worse simply because they \"might be the first rabbit that ever did it.\"",
+				"This propensity for danger is mitigated by a rabbitfolk's speed and agility. This feature, combined with their ability to quickly recognize danger, allows many rabbitfolk to elude harm, even in situations that would be dire to most others. The rabbitfolk habit of escaping danger has earned them a reputation for being thrill seekers and trouble makers.",
+				"If you want to play a character who is always wanting to learn, outgoing, and quick of wit and foot, you should play a rabbitfolk.",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Have an almost insatiable desire to learn.",
+								"Allow your curiosity to lead you into dangerous situations.",
+								"Analyze situations to put you at the greatest advantage."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Consider you fickle and erratic.",
+								"Believe that you have multiple solutions to every problem and answer to every situation.",
+								"Assume you will provide unwanted facts and details, even when not prompted."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Rabbitfolk are tall, lithe beings with long ears, whiskers, and short tails. Their short fur typically runs shades of white, gray, brown, and black. Most rabbitfolk stand a little more than 5 feet tall from their feet to the top of their heads. Rabbitfolk ears add some extra height, with most ears spanning a few inches in length and some ears reaching as tall as one foot. Not all rabbitfolk ears stand tall, however, and some rabbitfolk instead have ears that flop down against their head.",
+						"Rabbitfolk age at a similar rate to humans, save that infant rabbitfolk can walk after only a few months. Most rabbitfolk can live to be up to 80 years of age. Thanks to their thinner frame, most rabbitfolk weigh the same as humans of similar, lean builds. Rabbitfolk clothing is typically form fitting and light to allow for the greatest range of movement, though older rabbitfolk tend toward looser clothing. Rabbitfolk forgo footwear, instead relying on their own bare feet through most terrain. These feet develop hard pads that can defend against the elements as well as any shoe."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Known to themselves as malivars, rabbitfolk are a generally sociable people. Community is central to rabbitfolk culture. Malivar settlements have fluid social dynamics where most rabbitfolk share in aspects of each other's lives. Rabbitfolk children visit and stay at other homes for extended periods of times, whether or not they have any relation. Homes will include two or three malivar families at once, each sharing in their resources. At any given time, a rabbitfolk home might have several outsiders including other rabbitfolk from the same settlement, traveling rabbitfolk, and outsiders of other ancestries. This constant intermingling reinforces cooperation among malivar communities.",
+						"The rabbitfolk desire pushes many rabbitfolk toward scholarly pursuits. Researchers, teachers, and chroniclers are common among rabbitfolk. Rabbitfolk tend to keep written and oral histories that are contain entire generations worth of knowledge. This practice is common among rabbitfolk of all kinds, regardless of vocation. Rabbitfolk farmers keep decades of weather patterns, cooks have hundreds of recipes, and warriors keep chronicles of great battles and specific tactics.",
+						"Other ancestries sometimes have trouble keeping up with malivars. A rabbitfolk's mind is constantly changing focus and keeping track of multiple lines of thought at once, which can make discussions with a rabbitfolk difficult. To a rabbitfolk, the multitude of ideas is easy enough to sort out in the moment, but to others it can feel like a chaotic mess of disparate thoughts with no obvious connections. This experience can lead many non-rabbitfolk to believe that rabbitfolk are people incapable of focusing on a single task. In reality, most rabbitfolk like to approach a given goal from multiple angles and consider several possibilities for success."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Rabbitfolk are inclined to help others and consider ways in supporting their close friends. As a result, many rabbitfolk are good. They have no particular leanings toward chaos or law, as their intermingling societies require an understanding of unwritten social rules, but these same social rules constantly bend and change as families grow and shrink. Even rabbitfolk with an affinity toward neutrality or evil have a close-knit group of allies. Rare is the rabbitfolk without friends.",
+						"Due to their curiosity, many rabbitfolk worship gods of knowledge or creativity. They also worship gods of travel or luck to aid them in their journeys of discovery. Rabbitfolk focused on cooperation also tend to follow gods of aid, community, and healing."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Newborn rabbitfolk don't receive individual names. Instead, an entire litter will receive a title such as \"Warren Swarm,\" \"Little Stars,\" or \"Seedlings.\" The members of the litter learn to respond as a group to the title until they grow to be old enough to travel unsupervised within their own settlement, usually at three or four years of age. At this point, the community provides possible names to the parents based on what the individual rabbitfolk inspires among their neighbors. Ultimately, the parent and child work together to choose two names, their \"life\" name and their \"warren\" name. The child chooses the life name that best fits their perception of themselves and is prone to change throughout a lifetime. The warren name is similar to a family name or surname and most parents choose the same warren name for all of their children, though a warren name might differ in cases where a rabbitfolk seems more at home with other families."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"name": "Sample Names",
+					"entries": [
+						"Alpo, Burrow-blade, Charrniss, Greensong, Hallind, Lightfoot, Mossfer, Nulaniss, Rontor, Snowcharm, Tallim, Youngmoon"
+					]
+				}
+			],
+			"heritageInfo": [
+				"The rabbitfolk desire to explore has led them to the far reaches of the world and allowed them to adapt to many environments. Choose one of the following rabbitfolk heritages at 1st level."
+			],
+			"heritage": [
+				{
+					"name": "Arctic Rabbit",
+					"shortName": "Arctic",
+					"source": "Luis-Rabbitfolk",
+					"entries": [
+						"You live among the frozen regions of the world and developed a resilience against frigid environments, granting you cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on)."
+					]
+				},
+				{
+					"name": "Deep Rabbit",
+					"shortName": "Deep",
+					"source": "Luis-Rabbitfolk",
+					"entries": [
+						"Your ancestors lived in warrens that tunneled deep into the ground, much further than those of other rabbitfolk, granting you the ability to see in the dark. You gain {@ability darkvision}."
+					]
+				},
+				{
+					"name": "Desert Rabbit",
+					"shortName": "Desert",
+					"source": "Luis-Rabbitfolk",
+					"entries": [
+						"You are a native to the arid regions of the world and can stand the harsh weather that comes with life in these hot environments. You gain fire resistance equal to half your level (minimum 1), and environmental heat effects are one step less extreme for you (incredible heat becomes extreme, extreme heat becomes severe, and so on)."
+					]
+				},
+				{
+					"name": "Warrenbound Rabbit",
+					"shortName": "Warrenbound",
+					"source": "Luis-Rabbitfolk",
+					"entries": [
+						"You spent a lot of your early years among warrens, allowing you to move between these tunnels with ease. You gain the {@feat Quick Squeeze} feat as a bonus feat, even if you aren't trained in {@skill Acrobatics}. Tight spaces not tight enough to require the {@action Squeeze} action aren't difficult terrain for you."
+					]
+				}
+			],
+			"summary": {
+				"images": [
+					"https://static.wixstatic.com/media/aa0bb5_3345043dc91f4b6bb780941d06b6b961~mv2.jpg"
+				]
+			}
+		}
+	],
+	"feat": [
+		{
+			"name": "Exceptional Ears",
+			"source": "Luis-Rabbitfolk",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"Your hearing is extremely accurate. As long as you can hear normally, you can use the {@action Seek} action to sense {@condition undetected} creatures in a 60-foot cone instead of a 30-foot cone. You also gain a +2 circumstance bonus to locate {@condition undetected} creatures that you could hear within 30 feet with a {@action Seek} action."
+			]
+		},
+		{
+			"name": "Fast Feet",
+			"source": "Luis-Rabbitfolk",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You have a spring in your step. Your Speed increases by 5 feet."
+			]
+		},
+		{
+			"name": "Instinctive Dodge",
+			"source": "Luis-Rabbitfolk",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"number": 1,
+				"unit": "free",
+				"entry": "{@as F}"
+			},
+			"leadsTo": [
+				"Honed Instincts|Luis-Rabbitfolk",
+				"Guiding Instincts|Luis-Rabbitfolk"
+			],
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"frequency": "once per day",
+			"trigger": "You fail a Reflex saving throw.",
+			"entries": [
+				"Your instincts kick in to try to move you out of the way of danger. You can reroll the triggering check and use the better result."
+			]
+		},
+		{
+			"name": "Rabbitfolk Lore",
+			"source": "Luis-Rabbitfolk",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"Your life among rabbitfolk has taught you how to navigate complex social structures and honed your instincts to avoid trouble at a moment's notice. You gain the trained proficiency rank in {@skill Acrobatics} and {@skill Society}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Rabbitfolk Lore}."
+			]
+		},
+		{
+			"name": "Rabbitfolk Weapon Familiarity",
+			"source": "Luis-Rabbitfolk",
+			"level": 1,
+			"leadsTo": [
+				"Rabbitfolk Weapon Precision|Luis-Rabbitfolk",
+				"Rabbitfolk Weapon Expertise|Luis-Rabbitfolk"
+			],
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You favor weapons that let you attack with quick strikes. You are trained with the {@item hatchet}, {@item light hammer}, {@item sickle}, {@item shortsword}, and {@item starknife}. In addition, you gain access to all {@filter uncommon rabbitfolk weapons|items|rarity=uncommon|ancestry & heritage=rabbitfolk}.",
+				"For you, martial rabbitfolk weapons are simple weapons and advanced rabbitfolk weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Strong Teeth",
+			"source": "Luis-Rabbitfolk",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You have a formidable bite. You gain a jaws unarmed strike that deals {@damage 1d6} piercing damage. Your jaws are in the {@group brawling} group and have the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits."
+			],
+			"leadsTo": [
+				"Deadly Bite|Luis-Rabbitfolk"
+			]
+		},
+		{
+			"name": "Anticipate Ambush",
+			"source": "Luis-Rabbitfolk",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"entry": "{@as F}",
+				"number": 1,
+				"unit": "free"
+			},
+			"trigger": "You roll initiative.",
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You've learned to be ready for anything and begin to jump out of, or into, the fray at the first sign of danger. You {@action Stride} up to half your Speed."
+			]
+		},
+		{
+			"name": "Deadly Bite",
+			"source": "Luis-Rabbitfolk",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "{@feat Strong Teeth|Luis-Rabbitfolk} or you have a jaws unarmed strike ",
+			"trigger": "You roll initiative.",
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"Your bite is especially dangerous. Your jaws {@action Strike} deals {@damage 1d4} persistent bleed damage on a critical hit."
+			]
+		},
+		{
+			"name": "Exceptional Leaps",
+			"source": "Luis-Rabbitfolk",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You can jump great distances. When you make a {@action Long Jump}, you can jump a distance up to 10 higher than your maximum Speed, though you still have to succeed at your {@skill Athletics} check to successfully jump that far."
+			]
+		},
+		{
+			"name": "Honed Instincts",
+			"source": "Luis-Rabbitfolk",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"prerequisites": "{@feat Instinctive Dodge|Luis-Rabbitfolk}",
+			"entries": [
+				"Your instincts help you out in all kinds of situations. You can trigger {@feat Instinctive Dodge|Luis-Rabbitfolk} when you fail or critically fail a Fortitude or Will saving throw in addition to Reflex saving throws. You still can use {@feat Instinctive Dodge|Luis-Rabbitfolk} only once per day."
+			]
+		},
+		{
+			"name": "Rabbitfolk Weapon Precision",
+			"source": "Luis-Rabbitfolk",
+			"level": 5,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"prerequisites": "{@feat Rabbitfolk Weapon Familiarity|Luis-Rabbitfolk}",
+			"entries": [
+				"You know how to make the most of your weapons and your attacks can be especially harmful. Whenever you critically hit using a {@item hatchet}, {@item light hammer}, {@item sickle}, {@item shortsword}, {@item starknife}, or a {@filter rabbitfolk weapons|items|ancestry & heritage=rabbitfolk}, you apply the weapon's critical specialization effect."
+			]
+		},
+		{
+			"name": "Bounding Step",
+			"source": "Luis-Rabbitfolk",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"activity": {
+				"entry": "{@as 1}",
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You make a few quick, guarded hops. You {@action Step} 5 feet twice."
+			]
+		},
+		{
+			"name": "Guiding Instincts",
+			"source": "Luis-Rabbitfolk",
+			"level": 9,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"prerequisites": "{@feat Instinctive Dodge|Luis-Rabbitfolk}",
+			"entries": [
+				"Your instincts help you spot danger and aim your attacks. You can use {@feat Instinctive Dodge|Luis-Rabbitfolk} twice per day: once in response to its normal trigger, and once when you fail a {@skill Perception} check or attack roll instead of the normal trigger."
+			]
+		},
+		{
+			"name": "Look Out!",
+			"source": "Luis-Rabbitfolk",
+			"level": 9,
+			"activity": {
+				"entry": "{@as R}",
+				"number": 1,
+				"unit": "reaction"
+			},
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"frequency": "once per day",
+			"trigger": "An adjacent ally is about to attempt a saving throw.",
+			"traits": [
+				"Fortune",
+				"Misfortune",
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You recognize incoming danger and try to move your ally away from trouble. The triggering ally {@action Steps} and can roll twice and take the better result on the triggering saving throw."
+			]
+		},
+		{
+			"name": "Great Leaper",
+			"source": "Luis-Rabbitfolk",
+			"level": 13,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"Your powerful legs allow you to jump great distances. You double the distance you travel when you {@action Leap} horizontally. When you make a {@action Long Jump}, you can jump a distance up to twice your Speed."
+			]
+		},
+		{
+			"name": "Rabbitfolk Weapon Expertise",
+			"source": "Luis-Rabbitfolk",
+			"level": 13,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"prerequisites": "{@feat Rabbitfolk Weapon Familiarity|Luis-Rabbitfolk}",
+			"entries": [
+				"Your powerful legs allow you to jump great distances. You double the distance you travel when you {@action Leap} horizontally. When you make a {@action Long Jump}, you can jump a distance up to twice your Speed."
+			]
+		},
+		{
+			"name": "Battle Reflexes",
+			"source": "Luis-Rabbitfolk",
+			"level": 17,
+			"featType": {
+				"class": false,
+				"general": false,
+				"ancestry": "Rabbitfolk",
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"Rabbitfolk|Luis-Rabbitfolk"
+			],
+			"entries": [
+				"You move with an unmatched speed as you first enter combat. You are {@condition quickened} for 1 round after rolling initiative. You can use this extra action to {@action Step}, {@action Stride}, or {@action Strike}."
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Warren Knife",
+			"source": "Luis-Rabbitfolk",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon",
+				"Agile",
+				"Dashing|Luis-Rabbitfolk",
+				"Finesse",
+				"Rabbitfolk|Luis-Rabbitfolk",
+				"Thrown 10 Ft.",
+				"Versatile (S)"
+			],
+			"price": {
+				"amount": 1,
+				"coin": "gp",
+				"note": null
+			},
+			"bulk": "L",
+			"onset": null,
+			"ammunition": null,
+			"damage": "1d4",
+			"damageType": "P",
+			"hands": 1,
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Knife",
+			"entries": [
+				"Warren knives are specialized blades shaped to fly moderate distances through the air. Rabbitfolk use their speed to give their warren knives an extra bit of power and distances when they throw them. It deals {@damage 1d4} piercing damage. A warren knige is a martial melee weapon in the {@group knife} weapon group."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Warren Spade",
+			"source": "Luis-Rabbitfolk",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon",
+				"Agile",
+				"Rabbitfolk|Luis-Rabbitfolk",
+				"Sweep",
+				"Versatile (B)"
+			],
+			"price": {
+				"amount": 1,
+				"coin": "gp",
+				"note": null
+			},
+			"bulk": "L",
+			"onset": null,
+			"ammunition": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 1,
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Axe",
+			"entries": [
+				"A warren spade is a specialized digging tool that rabbitfolk use to dig out their warrens and the tunnel networks that connect these homes. They resemble a large spade, though they are still smaller than a standard shovel. The smaller size allows a rabbitfolk to dig out a cramped tunnel without the need for a large range of movement. It deals {@damage 1d6} slashing damage. A warren spade is a martial one-handed melee weapon in the {@group axe} weapon group."
+			],
+			"craftReq": null,
+			"generic": false
+		}
+	],
+	"item": [
+		{
+			"name": "Bouncing",
+			"source": "Luis-Rabbitfolk",
+			"type": "Rune",
+			"level": "3+",
+			"traits": [
+				"Evocation",
+				"Magical"
+			],
+			"usage": "etched onto a weapon",
+			"category": "Rune",
+			"appliesTo": "Weapon",
+			"entries": [
+				"When you make a thrown {@action Strike} with this weapon, it immediately rebounds toward another enemy within 10 feet of the original target. Make an additional {@action Strike} against this second target at a \u20132 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn't increase until after you've made both attacks. If the weapon also has a returning rune or your thrown attacks have some other way of returning to your hand, the weapon makes its rebound {@action Strike} first before returning to you."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "bouncing",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 55,
+						"note": null
+					},
+					"entries": []
+				},
+				{
+					"type": "greater bouncing",
+					"level": 8,
+					"price": {
+						"coin": "gp",
+						"amount": 475,
+						"note": null
+					},
+					"entries": [
+						"The weapon rebounds toward an enemy within 20 feet of the original and you do not have a penalty when making a {@action Strike} against the second target."
+					]
+				}
+			]
+		},
+		{
+			"name": "Springing Boots",
+			"source": "Luis-Rabbitfolk",
+			"type": "Item",
+			"level": "2+",
+			"bulk": "L",
+			"traits": [
+				"Invested",
+				"Magical",
+				"Transmutation"
+			],
+			"usage": "worn shoes",
+			"category": "Worn",
+			"entries": [
+				"These light shoes are made from cloth and feature a thick cushion that helps with jumping. These boots give you a +1 item bonus to {@skill Athletics} checks to High Jump and Long Jump. In addition, you don't automatically fail your checks to {@action High Jump} or {@action Long Jump} if you don't {@action Stride} at least 10 feet first. Finally, you treat falls as 10 feet shorter."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "lesser springing boots",
+					"level": 2,
+					"price": {
+						"coin": "gp",
+						"amount": 35,
+						"note": null
+					},
+					"entries": []
+				},
+				{
+					"type": "springing boots",
+					"level": 7,
+					"price": {
+						"coin": "gp",
+						"amount": 340,
+						"note": null
+					},
+					"entries": [
+						"The bonus to {@action High Jump} and {@action Long Jump} is +2 and you treat falls as 25 feet shorter."
+					]
+				},
+				{
+					"type": "greater springing boots",
+					"level": 12,
+					"price": {
+						"coin": "gp",
+						"amount": 1850,
+						"note": null
+					},
+					"entries": [
+						"The bonus to {@action High Jump} and {@action Long Jump} is +3 and you treat falls as 50 feet shorter."
+					]
+				},
+				{
+					"type": "major springing boots",
+					"level": 17,
+					"price": {
+						"coin": "gp",
+						"amount": 14000,
+						"note": null
+					},
+					"entries": [
+						"The bonus to {@action High Jump} and {@action Long Jump} is +4 and you treat falls as 100 feet shorter."
+					]
+				}
+			]
+		}
+	]
+}

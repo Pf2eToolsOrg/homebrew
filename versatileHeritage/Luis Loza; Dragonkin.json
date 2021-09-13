@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "DragonkinVH",
+				"json": "Luis-DragonkinVH",
 				"abbreviation": "DVH",
 				"full": "Dragonkin Versatile Heritage",
 				"url": "https://www.luisloza.com/post/dragonkin-versatile-heritage",
@@ -22,7 +22,7 @@
 	"trait": [
 		{
 			"name": "Dragonkin",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"categories": [
 				"Ancestry & Heritage"
 			],
@@ -33,15 +33,15 @@
 	],
 	"action": [
 		{
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"name": "Dragon's Breath",
 			"traits": [
 				"Arcane",
-				"Dragonkin|DragonkinVH",
+				"Dragonkin|Luis-DragonkinVH",
 				"Evocation"
 			],
 			"actionType": {
-				"versatileHeritage": "Dragonkin|DragonkinVH"
+				"versatileHeritage": "Dragonkin|Luis-DragonkinVH"
 			},
 			"activity": {
 				"number": 2,
@@ -57,7 +57,7 @@
 	"versatileHeritage": [
 		{
 			"name": "Dragonkin",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"versatile": true,
 			"rarity": "rare",
 			"summary": {
@@ -66,14 +66,14 @@
 				]
 			},
 			"entries": [
-				"The blood of mighty dragons flows through veins, granting you a small portion of their ferocity and power. Your draconic lineage stems from a specific type of dragon. Choose a type of dragon ranging from chromatic dragons, metallic dragons, drakes, or any other creature with the dragon type. This type of dragon is your draconic progenitor. You gain the {@trait dragon} and {@trait dragonkin|DragonkinVH} traits, in addition to the traits from your ancestry. You gain the {@action Dragon's Breath|DragonkinVH} ability. You can choose from {@filter dragonkin feats|feats||type=ancestry|ancestries=dragonkin|source=DragonkinVH} and feats from your ancestry whenever you gain an ancestry feat. Additionally, you gain access to the {@feat Dragon Disciple Dedication|APG} feat. Your GM might determine that you gain access to other draconic archetypes, feats, spells, or options as well.",
+				"The blood of mighty dragons flows through veins, granting you a small portion of their ferocity and power. Your draconic lineage stems from a specific type of dragon. Choose a type of dragon ranging from chromatic dragons, metallic dragons, drakes, or any other creature with the dragon type. This type of dragon is your draconic progenitor. You gain the {@trait dragon} and {@trait dragonkin|Luis-DragonkinVH} traits, in addition to the traits from your ancestry. You gain the {@action Dragon's Breath|Luis-DragonkinVH} ability. You can choose from {@filter dragonkin feats|feats||type=ancestry|ancestries=dragonkin|source=Luis-DragonkinVH} and feats from your ancestry whenever you gain an ancestry feat. Additionally, you gain access to the {@feat Dragon Disciple Dedication|APG} feat. Your GM might determine that you gain access to other draconic archetypes, feats, spells, or options as well.",
 				{
 					"type": "ability",
 					"style": "full",
 					"name": "Dragon's Breath",
 					"traits": [
 						"Arcane",
-						"Dragonkin|DragonkinVH",
+						"Dragonkin|Luis-DragonkinVH",
 						"Evocation"
 					],
 					"activity": {
@@ -164,7 +164,7 @@
 	"feat": [
 		{
 			"name": "Draconic Armaments",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
 				"class": false,
@@ -174,20 +174,20 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Your body has grown a draconic feature that you wield with might in combat. Choose either a claw, jaws, or tail Strike. Once chosen, you can't change your feature. Your claw unarmed attack deals {@damage 1d4} piercing damage, has the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits. Your jaws unarmed attack deals {@damage 1d6} piercing damage and has the {@trait versatile} S trait. Your tail unarmed attack deals {@damage 1d6} bludgeoning damage and has the {@trait backswing} trait."
 			],
 			"special": "You can take this feat multiple times. Each time you do, select a new attack from the options above.",
 			"leadsTo": [
-				"Deadly Armaments|DragonkinVH",
-				"Draconic Grasp|DragonkinVH"
+				"Deadly Armaments|Luis-DragonkinVH",
+				"Draconic Grasp|Luis-DragonkinVH"
 			]
 		},
 		{
 			"name": "Draconic Lore",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
 				"class": false,
@@ -197,7 +197,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Your knowledge of draconic magic and cunning has proven useful. You gain the trained proficiency rank in {@skill Arcana} and {@skill Deception}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in a {@skill Lore} related to your draconic progenitor, such as {@skill Lore||Red Dragon Lore}."
@@ -205,7 +205,7 @@
 		},
 		{
 			"name": "Draconic Senses",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
 				"class": false,
@@ -215,7 +215,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"You can start sensing creatures as well as a dragon can. You gain one of the following senses: {@ability darkvision}, {@ability low-light vision}, or {@ability scent} (imprecise) 30 feet. You must have {@ability low-light vision} before you can gain {@ability darkvision} with this feat."
@@ -224,7 +224,7 @@
 		},
 		{
 			"name": "Draconic Wings",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
 				"class": false,
@@ -234,19 +234,19 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"A pair of small, draconic wings grow from your back. While these wings aren't strong enough to help you fly just yet, they allow you to travel longer distances when jumping. When {@action Leap||Leaping} horizontally, you move an additional 5 feet. You don't automatically fail your checks to {@action High Jump} or {@action Long Jump} if you don't {@action Stride} at least 10 feet first. In addition, when you make a {@action Long Jump}, you can jump a distance up to 10 feet further than your {@skill Athletics} check result, though still with the normal maximum of your Speed."
 			],
 			"leadsTo": [
-				"Basic Flight|DragonkinVH",
-				"Advanced Flight|DragonkinVH"
+				"Basic Flight|Luis-DragonkinVH",
+				"Advanced Flight|Luis-DragonkinVH"
 			]
 		},
 		{
 			"name": "Fearful Presence",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
 				"class": false,
@@ -256,7 +256,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Your foes are aware of your draconic nature and you use that to instill fear in them. You are trained in {@skill Intimidation} (or another skill of your choice, if you were already trained in {@skill Intimidation}) and gain the {@feat Intimidating Glare} skill feat as a bonus feat."
@@ -268,7 +268,7 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
 				"class": false,
@@ -278,9 +278,9 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Draconic Wings|DragonkinVH}",
+			"prerequisites": "{@feat Draconic Wings|Luis-DragonkinVH}",
 			"frequency": "once per round",
 			"entries": [
 				"Your wings grow stronger and capable of brief flight. You can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
@@ -288,7 +288,7 @@
 		},
 		{
 			"name": "Deadly Armaments",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
 				"class": false,
@@ -298,17 +298,17 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Draconic Armaments|DragonkinVH}",
+			"prerequisites": "{@feat Draconic Armaments|Luis-DragonkinVH}",
 			"frequency": "once per round",
 			"entries": [
-				"Your natural weapons are especially dangerous. The unarmed attacks you gain from {@feat Draconic Armaments|DragonkinVH} deal {@damage 1d4} persistent bleed damage on a critical hit."
+				"Your natural weapons are especially dangerous. The unarmed attacks you gain from {@feat Draconic Armaments|Luis-DragonkinVH} deal {@damage 1d4} persistent bleed damage on a critical hit."
 			]
 		},
 		{
 			"name": "Draconic Defenses",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
 				"class": false,
@@ -318,7 +318,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"You become hardy like a dragon. You gain a +2 circumstance bonus to saves against {@condition paralyzed||paralysis} and {@trait sleep}. If you roll a success against these effects, you get a critical success instead."
@@ -326,7 +326,7 @@
 		},
 		{
 			"name": "Draconic Magic",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
 				"class": false,
@@ -336,7 +336,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Magical potential flows through your veins. Choose a magical tradition tied to your draconic progenitor, such as {@trait arcane} for blue dragons or {@trait primal} for cloud dragons. If your draconic progenitor doesn't have an associated tradition, you choose {@trait arcane}. Select a {@filter common 1st-level spell|spells||rarity=Common|level=1} from your chosen tradition. Once you make this choice, you can't change it. You can cast that spell once per day as an innate spell of your chosen tradition."
@@ -344,7 +344,7 @@
 		},
 		{
 			"name": "Draconic Resistance",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
 				"class": false,
@@ -354,10 +354,10 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"leadsTo": [
-				"Greater Resistances|DragonkinVH"
+				"Greater Resistances|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Your draconic blood grants you the ability to shrug off an energy type. Choose an energy damage type that your draconic progenitor's breath attack deals, such as fire for red dragons or acid for brine dragons. You gain resistance 5 against that energy. If your draconic progenitor doesn't have a breath weapon that deals energy damage, you instead gain resistance 5 to either bludgeoning, piercing, or slashing damage."
@@ -365,7 +365,7 @@
 		},
 		{
 			"name": "Skillful Tail",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
 				"class": false,
@@ -375,16 +375,16 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Draconic Armaments|DragonkinVH}",
+			"prerequisites": "{@feat Draconic Armaments|Luis-DragonkinVH}",
 			"entries": [
 				"You've grown a tail or learned to have better control of your existing tail. You can perform simple {@action Interact} actions with your tail, such as opening an unlocked door. Your tail can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items."
 			]
 		},
 		{
 			"name": "Advanced Flight",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"activity": {
 				"entry": "{@as 2}",
 				"number": 2,
@@ -399,20 +399,20 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Draconic Wings|DragonkinVH}",
+			"prerequisites": "{@feat Draconic Wings|Luis-DragonkinVH}",
 			"frequency": "once per day",
 			"leadsTo": [
-				"Boundless Flight|DragonkinVH"
+				"Boundless Flight|Luis-DragonkinVH"
 			],
 			"entries": [
-				"You unfold your wings for travel and can keep them unfolded for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have {@feat Basic Flight|DragonkinVH}, you gain a +10-foot status bonus to your fly Speed with Advanced Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one."
+				"You unfold your wings for travel and can keep them unfolded for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have {@feat Basic Flight|Luis-DragonkinVH}, you gain a +10-foot status bonus to your fly Speed with Advanced Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one."
 			]
 		},
 		{
 			"name": "Draconic Grasp",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 9,
 			"featType": {
 				"class": false,
@@ -422,16 +422,16 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Draconic Armaments|DragonkinVH}",
+			"prerequisites": "{@feat Draconic Armaments|Luis-DragonkinVH}",
 			"entries": [
-				"Your draconic attacks can latch on to your foes. The unarmed attacks you gain from {@feat Draconic Armaments|DragonkinVH} gain the {@trait grapple} trait. On a critical hit with one of these unarmed attacks, you can attempt to {@action Grapple} the target as a free action."
+				"Your draconic attacks can latch on to your foes. The unarmed attacks you gain from {@feat Draconic Armaments|Luis-DragonkinVH} gain the {@trait grapple} trait. On a critical hit with one of these unarmed attacks, you can attempt to {@action Grapple} the target as a free action."
 			]
 		},
 		{
 			"name": "Draconic Secrets",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 9,
 			"featType": {
 				"class": false,
@@ -441,7 +441,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Greater magical potential flows through your veins. Choose a magical tradition tied to your draconic progenitor, such as {@trait arcane} for blue dragons or {@trait primal} for cloud dragons. If your draconic progenitor doesn't have an associated tradition, you choose {@trait arcane}. Select two {@filter common 2nd-level spell|spells||rarity=Common|level=2} from your chosen tradition. Once you make this choice, you can't change it. You can cast these spells once per day each as an innate spell of your chosen tradition."
@@ -449,7 +449,7 @@
 		},
 		{
 			"name": "Powerful Breath",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 9,
 			"featType": {
 				"class": false,
@@ -459,16 +459,16 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"prerequisites": "Dragon's Breath",
 			"entries": [
-				"You can temporarily tap into greater draconic power to intensify your breath. When you use {@action Dragon's Breath|DragonkinVH}, you can increase the damage dice to {@damage 1d8 + floor(((#$prompt_number:min=9,title=Character Level,default=9$#)-1)/2)d8|d8s} and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can't use {@action Dragon's Breath|DragonkinVH} again for 1 hour instead of {@dice 1d4} rounds."
+				"You can temporarily tap into greater draconic power to intensify your breath. When you use {@action Dragon's Breath|Luis-DragonkinVH}, you can increase the damage dice to {@damage 1d8 + floor(((#$prompt_number:min=9,title=Character Level,default=9$#)-1)/2)d8|d8s} and increase the area to 60 feet for a line breath weapon or 30 feet for a cone. If you do, you can't use {@action Dragon's Breath|Luis-DragonkinVH} again for 1 hour instead of {@dice 1d4} rounds."
 			]
 		},
 		{
 			"name": "Boundless Flight",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 13,
 			"featType": {
 				"class": false,
@@ -478,16 +478,16 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Advanced Flight|DragonkinVH}",
+			"prerequisites": "{@feat Advanced Flight|Luis-DragonkinVH}",
 			"entries": [
-				"You gain the effects of {@feat Advanced Flight|DragonkinVH} at all times, rather than just once per day for 10 minutes. This includes the status bonus to your Speed if you have Basic Flight."
+				"You gain the effects of {@feat Advanced Flight|Luis-DragonkinVH} at all times, rather than just once per day for 10 minutes. This includes the status bonus to your Speed if you have Basic Flight."
 			]
 		},
 		{
 			"name": "Draconic Reflexes",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 13,
 			"featType": {
 				"class": false,
@@ -497,7 +497,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"entries": [
 				"Your instincts help you take advantage of a foe's opening. You gain the {@action Attack of Opportunity} reaction, except you can only make fist {@action Strike||Strikes} or {@action Strike||Strikes} with unarmed attacks you gained from an ancestry feat when using the reaction. If you already had the {@action Attack of Opportunity} reaction, you gain a +4 circumstance bonus to damage when you make an unarmed attack {@action Strike} as part of the reaction."
@@ -505,7 +505,7 @@
 		},
 		{
 			"name": "Greater Resistances",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 13,
 			"featType": {
 				"class": false,
@@ -515,16 +515,16 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
-			"prerequisites": "{@feat Draconic Resistance|DragonkinVH}",
+			"prerequisites": "{@feat Draconic Resistance|Luis-DragonkinVH}",
 			"entries": [
 				"Your protections grow more powerful. Your resistance from Draconic Resistance becomes equal to half your level."
 			]
 		},
 		{
 			"name": "Mighty Breath",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 17,
 			"featType": {
 				"class": false,
@@ -534,16 +534,16 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"prerequisites": "Dragon's Breath",
 			"entries": [
-				"Your breath becomes even more powerful. The damage dice of your breath weapon increases to {@damage 1d8 + floor(((#$prompt_number:min=17,title=Character Level,default=17$#)-1)/2)d8|d8s} and you increase the breath's area to 60 feet for a line breath weapon or 30 feet for a cone. If you have the {@feat Powerful Breath|DragonkinVH} feat, your breath's damage dice increases to {@damage 1d10 + floor(((#$prompt_number:min=17,title=Character Level,default=17$#)-1)/2)d10|d10s} and the area increases to 90 feet for a line breath weapon or 45 feet for a cone when intensifying your breath. You still can't use your breath weapon again for 1 hour if you do."
+				"Your breath becomes even more powerful. The damage dice of your breath weapon increases to {@damage 1d8 + floor(((#$prompt_number:min=17,title=Character Level,default=17$#)-1)/2)d8|d8s} and you increase the breath's area to 60 feet for a line breath weapon or 30 feet for a cone. If you have the {@feat Powerful Breath|Luis-DragonkinVH} feat, your breath's damage dice increases to {@damage 1d10 + floor(((#$prompt_number:min=17,title=Character Level,default=17$#)-1)/2)d10|d10s} and the area increases to 90 feet for a line breath weapon or 45 feet for a cone when intensifying your breath. You still can't use your breath weapon again for 1 hour if you do."
 			]
 		},
 		{
 			"name": "Form of the Dragon",
-			"source": "DragonkinVH",
+			"source": "Luis-DragonkinVH",
 			"level": 17,
 			"featType": {
 				"class": false,
@@ -553,7 +553,7 @@
 				"archetype": false
 			},
 			"traits": [
-				"Dragonkin|DragonkinVH"
+				"Dragonkin|Luis-DragonkinVH"
 			],
 			"prerequisites": "Dragon's Breath",
 			"entries": [
