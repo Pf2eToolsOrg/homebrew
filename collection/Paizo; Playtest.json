@@ -2,6 +2,19 @@
 	"_meta": {
 		"sources": [
 			{
+				"json": "PT:DA",
+				"abbreviation": "PT:DA",
+				"full": "Dark Archive Playtest",
+				"url": "https://downloads.paizo.com/PZO2111+Dark+Archive+Class+Playtest.pdf",
+				"authors": [
+					"Paizo"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.1"
+			},
+			{
 				"json": "PT:G&G",
 				"abbreviation": "PT:G&G",
 				"full": "Guns & Gears Playtest",
@@ -40,9 +53,139 @@
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1625008975
+		"dateLastModified": 1632280710
 	},
 	"subclass": [
+		{
+			"name": "Weapon",
+			"type": "Implement",
+			"shortName": "Weapon",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Implement|Thaumaturge|PT:DA|Weapon|PT:DA|1",
+				"Implement Adept|Thaumaturge|PT:DA|Weapon|PT:DA|7",
+				"Implement Mastery|Thaumaturge|PT:DA|Weapon|PT:DA|17"
+			]
+		},
+		{
+			"name": "Wand",
+			"type": "Implement",
+			"shortName": "Wand",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Implement|Thaumaturge|PT:DA|Wand|PT:DA|1",
+				"Implement Adept|Thaumaturge|PT:DA|Wand|PT:DA|7",
+				"Implement Mastery|Thaumaturge|PT:DA|Wand|PT:DA|17"
+			]
+		},
+		{
+			"name": "Lantern",
+			"type": "Implement",
+			"shortName": "Lantern",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Implement|Thaumaturge|PT:DA|Lantern|PT:DA|1",
+				"Implement Adept|Thaumaturge|PT:DA|Lantern|PT:DA|7",
+				"Implement Mastery|Thaumaturge|PT:DA|Lantern|PT:DA|17"
+			]
+		},
+		{
+			"name": "Chalice",
+			"type": "Implement",
+			"shortName": "Chalice",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Implement|Thaumaturge|PT:DA|Chalice|PT:DA|1",
+				"Implement Adept|Thaumaturge|PT:DA|Chalice|PT:DA|7",
+				"Implement Mastery|Thaumaturge|PT:DA|Chalice|PT:DA|17"
+			]
+		},
+		{
+			"name": "Amulet",
+			"type": "Implement",
+			"shortName": "Amulet",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Implement|Thaumaturge|PT:DA|Amulet|PT:DA|1",
+				"Implement Adept|Thaumaturge|PT:DA|Amulet|PT:DA|7",
+				"Implement Mastery|Thaumaturge|PT:DA|Amulet|PT:DA|17"
+			]
+		},
+		{
+			"name": "Silent Whisper",
+			"type": "Conscious Mind",
+			"shortName": "Silent Whisper",
+			"source": "PT:DA",
+			"page": 7,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Conscious Mind|Psychic|PT:DA|Silent Whisper|PT:DA|1"
+			]
+		},
+		{
+			"name": "Infinite Eye",
+			"type": "Conscious Mind",
+			"shortName": "Infinite Eye",
+			"source": "PT:DA",
+			"page": 7,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Conscious Mind|Psychic|PT:DA|Infinite Eye|PT:DA|1"
+			]
+		},
+		{
+			"name": "Distant Grasp",
+			"type": "Conscious Mind",
+			"shortName": "Distant Grasp",
+			"source": "PT:DA",
+			"page": 6,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Conscious Mind|Psychic|PT:DA|Distant Grasp|PT:DA|1"
+			]
+		},
+		{
+			"name": "Precise Discipline",
+			"type": "Subconscious Mind",
+			"shortName": "Discipline",
+			"source": "PT:DA",
+			"page": 6,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Subconscious Mind|Psychic|PT:DA|Discipline|PT:DA|1"
+			]
+		},
+		{
+			"name": "Emotional Acceptance",
+			"type": "Subconscious Mind",
+			"shortName": "Acceptance",
+			"source": "PT:DA",
+			"page": 6,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassFeatures": [
+				"Subconscious Mind|Psychic|PT:DA|Acceptance|PT:DA|1"
+			]
+		},
 		{
 			"name": "Way of the Drifter",
 			"type": "Gunslinger's Way",
@@ -165,6 +308,425 @@
 		}
 	],
 	"class": [
+		{
+			"name": "Thaumaturge",
+			"source": "PT:DA",
+			"page": 17,
+			"hp": 6,
+			"summary": {
+				"text": "The thaumaturge is for the player who wants to know every rumor and always have the right charm or scrap of lore for the job. Thaumaturges wield weapons, mystic implements, and the unique ability to recognize and capitalize on enemy weaknesses, and they have a number of supernatural tricks they can use in their fight against their stranger enemies.",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/37af6a11-f5b0-4c2b-8a6a-1a8ba628502e/ThaumaturgeSketch.jpg"
+				],
+				"keyAbility": "Intelligence or Charisma",
+				"rarity": "Uncommon"
+			},
+			"keyAbility": "Charisma",
+			"rarity": "Uncommon",
+			"initialProficiencies": {
+				"perception": "E",
+				"fort": "T",
+				"ref": "T",
+				"will": "E",
+				"skills": {
+					"t": [
+						"{@skill Arcana}",
+						"{@skill Nature}",
+						"{@skill Occultism}",
+						"{@skill Religion}"
+					],
+					"add": 2
+				},
+				"attacks": {
+					"t": [
+						"simple weapons",
+						"martial weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"t": [
+						"light armor",
+						"medium armor",
+						"unarmored defense"
+					]
+				},
+				"classDc": {
+					"entry": "Trained in thaumaturge class DC",
+					"prof": "T"
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					1,
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Thaumaturge|PT:DA|1",
+				"Initial Proficiencies|Thaumaturge|PT:DA|1",
+				"Dubious Knowledge|Thaumaturge|PT:DA|1",
+				"Esoterica|Thaumaturge|PT:DA|1",
+				{
+					"classFeature": "Implement|Thaumaturge|PT:DA|1",
+					"gainSubclassFeature": true
+				},
+				"Implement's Empowerment|Thaumaturge|PT:DA|1",
+				"Thaumaturge Feats|Thaumaturge|PT:DA|1",
+				"Skill Feats|Thaumaturge|PT:DA|2",
+				"General Feats|Thaumaturge|PT:DA|3",
+				"Great Fortitude|Thaumaturge|PT:DA|3",
+				"Skill Increases|Thaumaturge|PT:DA|3",
+				"Ability Boosts|Thaumaturge|PT:DA|5",
+				"Ancestry Feats|Thaumaturge|PT:DA|5",
+				"Second Implement|Thaumaturge|PT:DA|5",
+				"Thaumaturge Weapon Expertise|Thaumaturge|PT:DA|5",
+				{
+					"classFeature": "Implement Adept|Thaumaturge|PT:DA|7",
+					"gainSubclassFeature": true
+				},
+				"Resolve|Thaumaturge|PT:DA|7",
+				"Weapon Specialization|Thaumaturge|PT:DA|7",
+				"Lightning Reflexes|Thaumaturge|PT:DA|9",
+				"Thaumaturgic Expertise|Thaumaturge|PT:DA|9",
+				"Medium Armor Expertise|Thaumaturge|PT:DA|11",
+				"Vigilant Senses|Thaumaturge|PT:DA|11",
+				"Greater Resolve|Thaumaturge|PT:DA|13",
+				"Weapon Mastery|Thaumaturge|PT:DA|13",
+				"Greater Weapon Specialization|Thaumaturge|PT:DA|15",
+				"Third Implement|Thaumaturge|PT:DA|15",
+				{
+					"classFeature": "Implement Mastery|Thaumaturge|PT:DA|17",
+					"gainSubclassFeature": true
+				},
+				"Thaumaturgic Mastery|Thaumaturge|PT:DA|17",
+				"Medium Armor Mastery|Thaumaturge|PT:DA|19",
+				"Unlimited Esoterica|Thaumaturge|PT:DA|19"
+			],
+			"flavor": [
+				"The world is full of the unexplainable: magic, gods, and even stranger things. You scavenge the best parts of every magical tradition and folk practice to glean deeper laws of the universe, like the rule of three, the laws of symbolism, and the chains of sympathetic connections. You've built up a collection of esoterica\u2014a broken holy relic here, a sprig of mistletoe there\u2014that aid you in capitalizing on the weaknesses of any creature, and you carry a special implement whose symbolic function aids you in manipulating the world around you. Every path to power has its restrictions and costs, but you deftly turn them all to your advantage. You're a thaumaturge, and you work wonders."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 17,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"You use your esoterica and implements to assist in combat, assessing and exploiting enemies' weaknesses while using the tricks up your sleeve to stay one step ahead."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 17,
+					"name": "During social encounters...",
+					"entries": [
+						"You manipulate and understand the social connections between people, much as you do the magical connections between mysteries and concepts. This helps you find common ground or play one side against the other."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 17,
+					"name": "While exploring...",
+					"entries": [
+						"You investigate mystical oddities and other unexplainable phenomena around you, taking appropriate precautions to ward yourself and your allies against paranormal threats."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 17,
+					"name": "In downtime...",
+					"entries": [
+						"You research deeper into the supernatural mysteries you discovered on your last adventure to see how they can be applied in the future. You scavenge relics, cultivate herbs, or forge trinkets to update your esoterica after each new threat you encounter."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 17,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Prepare for the worst and impress your allies when you're able to handle anything that fate throws at you.",
+								"Look at everything on a deeper level, rather than be content with what you find on the surface.",
+								"Obsess over a certain supernatural phenomenon, attempting to tie everything back to it."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 17,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Mistake you for a spellcaster.",
+								"Look to you to explain the origin, nature, or weaknesses of a supernatural threat when one rears its head.",
+								"Rely on you to come up with a solution when the situation seems hopeless."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic",
+			"source": "PT:DA",
+			"page": 3,
+			"hp": 6,
+			"summary": {
+				"text": "The psychic is for players who want to unleash the power of their mind. A spontaneous occult spellcaster whose magic comes from the intersection of their conscious and subconscious mind, psychics can move objects, read thoughts, or glimpse distant sights, and they have a wide selection of focus cantrips as well as special ways to amplify them.",
+				"images": [
+					"https://cdn.paizo.com/a7d62ac8-7f03-00ef-f1f0-83fb8bf332e2/92e902e0-9d43-4042-b31b-b39f5fa20269/PsychicSketch.jpg"
+				],
+				"keyAbility": "Intelligence or Charisma",
+				"rarity": "Uncommon"
+			},
+			"keyAbility": "Dexterity",
+			"rarity": "Uncommon",
+			"initialProficiencies": {
+				"perception": "T",
+				"fort": "T",
+				"ref": "T",
+				"will": "E",
+				"skills": {
+					"t": [
+						"{@skill Occultism}"
+					],
+					"add": 3
+				},
+				"attacks": {
+					"t": [
+						"simple weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"u": [
+						"all armor"
+					],
+					"t": [
+						"unarmored defense"
+					]
+				},
+				"spells": {
+					"t": [
+						"occult spell attack rolls",
+						"occult spell DCs"
+					]
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Psychic|PT:DA|1",
+				"Initial Proficiencies|Psychic|PT:DA|1",
+				"Psychic Spellcasting|Psychic|PT:DA|1",
+				"Spell Repertoire|Psychic|PT:DA|1",
+				"Psi Cantrips and Amps|Psychic|PT:DA|1",
+				{
+					"classFeature": "Subconscious Mind|Psychic|PT:DA|1",
+					"gainSubclassFeature": true
+				},
+				{
+					"classFeature": "Conscious Mind|Psychic|PT:DA|1",
+					"gainSubclassFeature": true
+				},
+				"Unleash Psyche|Psychic|PT:DA|1",
+				"Psychic Feats|Psychic|PT:DA|2",
+				"Skill Feats|Psychic|PT:DA|3",
+				"General Feats|Psychic|PT:DA|3",
+				"Signature Spells|Psychic|PT:DA|3",
+				"Skill Increases|Psychic|PT:DA|3",
+				"Ability Boosts|Psychic|PT:DA|5",
+				"Ancestry Feats|Psychic|PT:DA|5",
+				"Precognitive Reflexes|Psychic|PT:DA|5",
+				"Expert Spellcaster|Psychic|PT:DA|7",
+				"Great Fortitude|Psychic|PT:DA|9",
+				"Walls of Will|Psychic|PT:DA|11",
+				"Weapon Expertise|Psychic|PT:DA|11",
+				"Personal Barrier|Psychic|PT:DA|13",
+				"Weapon Specialization|Psychic|PT:DA|13",
+				"Master Spellcaster|Psychic|PT:DA|15",
+				"Fortress of Will|Psychic|PT:DA|17",
+				"Legendary Spellcaster|Psychic|PT:DA|19",
+				"Infinite Mind|Psychic|PT:DA|19"
+			],
+			"flavor": [
+				"The mind can perceive truths hidden to the sharpest instruments, hide more secrets than any tome, and move objects and hearts more deftly than any lever. By delving into both the conscious and subconscious aspects of your inner self, you've awoken to the might of psychic magic, allowing you to cast spells not through incantations or a spellbook but by the power of your will alone. While the thin line between your mind and reality means that a single errant thought could have unintended consequences for yourself and your companions, you know that anything is possible, as long as you can imagine it."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"You freely wield your psychic cantrips, choosing where and when to amplify them for maximum effect and biding your time until you can unleash your mind's full potential."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "During social encounters...",
+					"entries": [
+						"You use your expanded awareness to navigate social encounters. If your power springs from emotion, you might maneuver with empathy; if you control your power through discipline, you might efficiently note relevant facts and figures to guide the discussion."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "While exploring...",
+					"entries": [
+						"You keep your mind's eye open for the many paranormal threats that the less sensitive might not detect. Typically, you either scan for magic or investigate for psychic impressions, veiled thoughts, and wandering spirits."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "In downtime...",
+					"entries": [
+						"You strive to learn more about the depths of the mind, seeking out new spells to master and phenomena to uncover. You test the limits of your adaptability by retraining yourself to fit your evolving understanding of your hidden potential."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Prefer meditation, imagination, dreams, or other intangible manifestations of thought over the immediacy of the physical world.",
+								"Learn new things about yourself constantly, unlocking new depths of hidden potential just when you thought you understood it all.",
+								"Use your psychic magic even when normal methods would suffice, perhaps preferring mental messages or levitating an object to a companion seated nearby."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Are awed by your unique mental abilities, especially when your mind is unleashed.",
+								"Have difficulty understanding that the magic you perform with your mind comes from the same source as magic wielded with incantations.",
+								"Wonder if you might be a monster, possessed by spirits, chosen by the gods, or have some other unusual reason for your strange powers."
+							]
+						}
+					]
+				}
+			]
+		},
 		{
 			"name": "Gunslinger",
 			"source": "PT:G&G",
@@ -988,6 +1550,83 @@
 	],
 	"action": [
 		{
+			"name": "Esoteric Antithesis",
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Thaumaturge|PT:DA",
+				"Magical",
+				"Esoterica|PT:DA"
+			],
+			"actionType": {
+				"class": [
+					"Thaumaturge"
+				]
+			},
+			"source": "PT:DA",
+			"requirements": "You can take this action only when Find Flaws allows you to.",
+			"entries": [
+				"You search through your esoterica to find the right trinket that will apply a weakness to your attacks against the creature you Found Flaws in. You Interact to apply specific esoterica to yourself and your weapons; you can perform this Interact action with the hand holding your implement. Your unarmed and weapon Strikes against the creature become magical if they weren't already, and you cause them to apply one of the creature's weaknesses even if they don't deal the correct type of damage. If the creature has a weakness with a value of 2 + half your level or higher, set the type of weakness to the creature's highest weakness. Otherwise, you create a custom weakness with a value equal to 2 + half your level; this weakness applies only to your Strikes. For example, against a tyrant, you might attach a chain broken to free a captive. This effect lasts until you use Find Flaws again."
+			]
+		},
+		{
+			"name": "Find Flaws",
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"actionType": {
+				"class": [
+					"Thaumaturge"
+				]
+			},
+			"source": "PT:DA",
+			"frequency": "once per round",
+			"entries": [
+				"You determine a creature's weaknesses, whether a literal weakness or a metaphysical one. Recall Knowledge about a creature, using your Charisma modifier instead of the usual ability modifier for the skill you're using to Recall Knowledge. The creature must be either one you can see or one you're specifically Investigating in advance during exploration. The result depends on your Recall Knowledge check, which has the following additional effects as well as the usual effects of Recall Knowledge.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": "You learn all of the creature's resistances, weaknesses, and immunities. If you would have learned any of them already from Recall Knowledge, you learn different information instead. You can then use Esoteric Antithesis without spending an additional action.",
+						"Success": "You learn the creature's highest weakness, if any. If you would have learned it already from Recall Knowledge, you learn different information instead. You can then use Esoteric Antithesis without spending an additional action.",
+						"Failure": "You couldn't quite figure it out, so you decide to invoke a wide range of superstitions and narrow it down from there. You can use Esoteric Antithesis as your next action.",
+						"Critical Failure": "You came up with the wrong information and nearly made a critical mistake, distracting yourself. You become flat-footed until the beginning of your next turn and can't use Esoteric Antithesis this round."
+					}
+				}
+			]
+		},
+		{
+			"name": "Unleashed Focus Intent",
+			"activity": {
+				"number": 1,
+				"unit": "action",
+				"entry": "{@as 1}"
+			},
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"actionType": {
+				"class": [
+					"Psychic"
+				]
+			},
+			"source": "PT:DA",
+			"requirements": "It's your third turn of the encounter or later.",
+			"entries": [
+				"After some time of acclimating to a stressful situation, your psychic magic flares to greater destructive power.",
+				"{@b Benefit} When you Cast a Spell from your spell slots while you have Unleashed Focused Intent, you gain a status bonus to that spell's damage equal to double the spell's level as long as spell deals damage and doesn't have a duration.",
+				"{@b Drawback} The focus on offense comes at the expense of your defensive instincts. You take a \u20132 penalty to AC while you've Unleashed Focused Intent."
+			]
+		},
+		{
 			"activity": {
 				"number": 3,
 				"unit": "action"
@@ -1349,6 +1988,1095 @@
 		}
 	],
 	"classFeature": [
+		{
+			"name": "Ancestry and Background",
+			"source": "PT:DA",
+			"page": 4,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"In addition to what you get from your class at 1st level, you have the benefits of your selected ancestry and background."
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "PT:DA",
+			"page": 4,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+			]
+		},
+		{
+			"name": "Psychic Spellcasting",
+			"source": "PT:DA",
+			"page": 4,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"You access the infinite well of power that resides within your mind, calling forth psychic magic with nothing but thought and will. You can cast occult spells using the Cast a Spell activity. You alter some of the standard spell components when casting spells you know from your psychic spellcasting. Instead of speaking, you substitute any verbal components with a special mental component determined by your subconscious mind class feature. This represents how you exert your mind toward your intended effect. Any of these components impart the concentrate trait to the spell you're casting. You also substitute any material components with somatic components, though these tend to be simple movements of the hand or head compared to those used by other spellcasters. Your spells still have clear and noticeable visual and auditory manifestations as normal for a spellcaster.",
+				"Each day, you can cast one 1st-level spell. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.",
+				"As you increase in level as a psychic, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table 1\u20132: Psychic Spells per Day.",
+				"Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is determined by your subconscious mind, your spell attack rolls and spell DCs use the modifier for the ability stated in your subconscious mind.",
+				{
+					"type": "pf2-h4",
+					"name": "Heightening Spells",
+					"entries": [
+						"When you get spell slots of 2nd level and higher, you can fill those slots with stronger versions of lower-level spells. This increases the spell's level to match the spell slot. You must have a spell in your spell repertoire at the level you want to cast it to heighten it to that level. Many spells have specific improvements when they're heightened to certain levels. The signature spells class feature lets you heighten certain spells freely."
+					]
+				},
+				{
+					"type": "pf2-h4",
+					"name": "Cantrips",
+					"entries": [
+						"Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will any number of times per day. A cantrip is automatically heightened to half your level rounded up\u2014 this is usually equal to the highest level of psychic spell slot you have. For example, as a 1st-level psychic, your cantrips are 1st-level spells, and as a 5th-level psychic, your cantrips are 3rd-level spells.",
+						"As a psychic, you get the ability to improve some of your cantrips with special amps. Your choice of conscious mind class feature gives you extra cantrips, amps for them, and a unique cantrip."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Repertoire",
+			"source": "PT:DA",
+			"page": 4,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"The collection of spells you can cast is called your spell repertoire. At 1st level, you learn one 1st-level occult spell of your choice and three occult cantrips of your choice. You choose these spells from the common spells from the occult list or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell level. Your choice of conscious mind also grants you additional spells in your repertoire, starting with an additional 1st level spell and two cantrips listed in your conscious mind.",
+				"You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 1\u20132: Psychic Spells per Day), you add a spell to your spell repertoire of the same level. At 2nd level, you select another 1st-level spell; at 3rd level, you select one 2nd-level spell, and so on. When you add spells, you might add a higher-level version of a spell you already have, so you can cast a heightened version of that spell. Your conscious mind also adds additional spells to your repertoire as you gain spells of higher levels.",
+				"Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, such as the spells you gain from your conscious mind, it wouldn't give you another spell slot, and vice versa.",
+				{
+					"type": "pf2-h4",
+					"name": "Swapping Spells in Your Repertoire",
+					"entries": [
+						"As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same level. This spell can be a cantrip. You can also swap out spells by retraining during downtime."
+					]
+				},
+				{
+					"type": "table",
+					"name": "Psychic Spells per Day",
+					"id": "1-2",
+					"page": 5,
+					"source": "PT:DA",
+					"labelRowIdx": [
+						0
+					],
+					"cellStyles": [
+						{
+							"row": 0,
+							"col": 1,
+							"style": "text-center"
+						}
+					],
+					"colStyles": [
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center",
+						"text-center"
+					],
+					"footnotes": [
+						"* Your conscious mind gives you three additional cantrips with amps. One cantrip is unique to your conscious mind.",
+						"† The infinite mind class feature gives you a 10th-level spell slot that works a bit differently from other spell slots."
+					],
+					"rows": [
+						[
+							"Your Level",
+							"Cantrips",
+							"1st",
+							"2nd",
+							"3rd",
+							"4th",
+							"5th",
+							"6th",
+							"7th",
+							"8th",
+							"9th",
+							"10th"
+						],
+						[
+							1,
+							"3*",
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							2,
+							"3*",
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							3,
+							"3*",
+							2,
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							4,
+							"3*",
+							2,
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							5,
+							"3*",
+							2,
+							2,
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							6,
+							"3*",
+							2,
+							2,
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							7,
+							"3*",
+							2,
+							2,
+							2,
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							8,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							9,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							10,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							11,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							12,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							13,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							1,
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							14,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							"\u2014",
+							"\u2014",
+							"\u2014"
+						],
+						[
+							15,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							1,
+							"\u2014",
+							"\u2014"
+						],
+						[
+							16,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							"\u2014",
+							"\u2014"
+						],
+						[
+							17,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							1,
+							"\u2014"
+						],
+						[
+							18,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							"\u2014"
+						],
+						[
+							19,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							"1†"
+						],
+						[
+							20,
+							"3*",
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							2,
+							"1†"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Psi Cantrips and Amps",
+			"source": "PT:DA",
+			"page": 5,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"The unique magic of your mind manifests as psi cantrips, which are a kind of focus cantrip. Like other cantrips, you can cast psi cantrips as often as you like, and they're automatically heightened to half your level rounded up. Your psi cantrips are in addition to the cantrips you choose from the occult list as part of your psychic spellcasting. Generally, only feats can give you more psi cantrips. Unlike other cantrips, you can't swap out psi cantrips gained from psychic feats at a later level, unless you swap out the specific feat via retraining.",
+				"At 1st level, you learn three psi cantrips determined by your choice of conscious mind. Two of these are common occult cantrips, which you can cast as psi cantrips. They work the same as the normal cantrip most of the time, but casting them as psi cantrips means you can amp them to boost or modify them. The amp effects of these cantrips appear in your conscious mind, as does your third cantrip, a unique psi cantrip with its own amp.",
+				"Amps are specific thoughtforms that alter the nature of psi cantrips. When you cast a psi cantrip, you can amp it by spending 1 Focus Point to add the effect described in the spell's Amp heading. You can gain additional amps through feats, allowing you to substitute a psi cantrip's normal amp effect for another one. You choose which amp to use, if any, each time you cast a psi cantrip.",
+				"You start with a focus pool of 2 Focus Points. Rather than spending Focus Points to cast focus spells, you spend them only on amps. (Though if you have focus spells from a source other than psychic, you can still spend Focus Points to cast them, as normal.)",
+				"You refill your focus pool during your daily preparations, and you can regain Focus Points by spending 10 minutes using the Refocus activity to explore your mind, whether via meditation, practicing a craft or activity that gives you the mental space to self-reflect, or talking through your thoughts and feelings with yourself or with another. If you've spent at least 2 Focus Points and spent Focus Points only to amp psi cantrips since the last time you Refocused, you regain 2 Focus Points when you Refocus. Otherwise, you regain 1 Focus Point."
+			]
+		},
+		{
+			"name": "Subconscious Mind",
+			"source": "PT:DA",
+			"page": 6,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"A psychic's power is born in the depths of their psyche, far from the surface of their realization. Your subconscious mind might represent the way that your power comes to you naturally, or it might be a framework you use to safely access the limitless potential of your mind, but either way, your subconscious fundamentally shapes how you access and wield psychic magic. Choose one of the following two subconscious minds: emotional acceptance or precise discipline."
+			]
+		},
+		{
+			"name": "Conscious Mind",
+			"source": "PT:DA",
+			"page": 6,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Whatever the subconscious source of a psychic's power, all psychics find that a specific external manifestation of their magic comes most easily to them. This conscious outward expression determines your psi cantrips and adds several additional spells to your spell repertoire.",
+				"Your conscious mind determines the following.",
+				{
+					"type": "pf2-options",
+					"items": [
+						{
+							"type": "item",
+							"entries": [
+								"{@b Granted Spells} You automatically add the spells listed here to your spell repertoire, in addition to those you gain through psychic spellcasting. At 1st level, you gain a 1st-level spell, and you learn the other spells on the list as soon as you gain the ability to cast psychic spells of that level, learning the 2nd-level spell at 3rd level, the 3rd-level spell at 5th level, and so on."
+							]
+						},
+						{
+							"type": "item",
+							"entries": [
+								"{@b Surface Psi Cantrips} These are the psi cantrips you gain automatically at 1st level. The two standard cantrips come from the occult tradition, and the unique cantrip is exclusive to that conscious mind. You always cast these cantrips as psi cantrips, enabling you to amp them. Add the Amp (and Amp Heightened, if applicable) entries to the standard cantrips. The Amp Heightened entry is in addition to any normal Heightened entry for the cantrip."
+							]
+						},
+						{
+							"type": "item",
+							"entries": [
+								"{@b Deeper Psi Cantrip} You can gain this cantrip later in your career by taking the Deeper Psi Breakthrough feat."
+							]
+						}
+					]
+				},
+				"We're testing three conscious minds in this playtest: the distant grasp, the infinite eye, and the silent whisper."
+			]
+		},
+		{
+			"name": "Unleash Psyche",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 1,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"A psychic who taxes their abilities to the limit thins the barrier between their inner mind and the outer world, truly unleashing their psychic power. However, this state also causes one or more aspects of your mentality to become exaggerated or exposed to outside influence.",
+				"When you Unleash your psyche, it lasts for 3 rounds, and during this time, you can amp one psi cantrip each round without paying the Focus Point cost. Each psyche action has requirements you must meet to Unleash your psyche, and each typically also has an additional effect and a drawback while that aspect of your psyche is unleashed. Other rules for while your psyche is Unleashed are described in the psyche trait on page 8.",
+				"While you might later learn of other aspects of your psyche, all psychics know how to Unleash Focused Intent.",
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Unleashed Focus Intent",
+					"activity": {
+						"number": 1,
+						"unit": "action",
+						"entry": "{@as 1}"
+					},
+					"traits": [
+						"Psyche|PT:DA",
+						"Psychic|PT:DA"
+					],
+					"requirements": "It's your third turn of the encounter or later.",
+					"entries": [
+						"After some time of acclimating to a stressful situation, your psychic magic flares to greater destructive power.",
+						"{@b Benefit} When you Cast a Spell from your spell slots while you have Unleashed Focused Intent, you gain a status bonus to that spell's damage equal to double the spell's level as long as spell deals damage and doesn't have a duration.",
+						"{@b Drawback} The focus on offense comes at the expense of your defensive instincts. You take a \u20132 penalty to AC while you've Unleashed Focused Intent."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psychic Feats",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 2,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a psychic class feat."
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 3,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a skill feat. You must be trained or better in the corresponding skill to select a skill feat."
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 3,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 3rd level and every 4 levels thereafter, you gain a general feat."
+			]
+		},
+		{
+			"name": "Signature Spells",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 3,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your instinctive grasp of your magic means you've learned to cast some of your spells more flexibly. For each spell level you have access to, choose one spell of that level to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher level than its minimum, you can also cast all its lower-level versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell level at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that level without swapping any spells; this takes as much time as retraining a spell normally does."
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 3,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you're untrained in, or become an expert in one skill in which you're already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you're already an expert, and at 15th level, you can use them to become legendary in a skill in which you're already a master."
+			]
+		},
+		{
+			"name": "Ability Boosts",
+			"source": "PT:DA",
+			"page": 9,
+			"level": 5,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it's already 18 or above, or by 2 if it starts out below 18."
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 5,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"In addition to the ancestry feat you started with, you gain an ancestry feat at 5th level and every 4 levels thereafter."
+			]
+		},
+		{
+			"name": "Precognitive Reflexes",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 5,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Minor clairvoyance ensures you can react to threats slightly before they occur. Your proficiency rank for Reflex saves increases to expert."
+			]
+		},
+		{
+			"name": "Expert Spellcaster",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 7,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Self-reflection has brought you greater knowledge of yourself and, with it, greater psychic power. Your proficiency ranks for occult spell attack rolls and spell DCs increase to expert."
+			]
+		},
+		{
+			"name": "Great Fortitude",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 9,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your mind holds your body to a subconscious mental image of yourself. Your proficiency rank for Fortitude saves increases to expert."
+			]
+		},
+		{
+			"name": "Walls of Will",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 11,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your practiced mind resists external influence. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Weapon Expertise",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 11,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Training and magic improved your weapon technique. Your proficiency rank for simple weapons and unarmed attacks increases to expert."
+			]
+		},
+		{
+			"name": "Personal Barrier",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 13,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Subtle telekinetic fields dampen and deflect incoming blows. Your proficiency rank in unarmored defense increases to expert."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 13,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"As you touch a weapon, you psychometrically glimpse the hands that made and wielded it, teaching you how to inflict greater injuries. You deal 2 additional damage with weapons and unarmed attacks in which you're an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+			]
+		},
+		{
+			"name": "Master Spellcaster",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 15,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've gained access to the deepest corners of your mind, further increasing your psychic power. Your proficiency ranks for occult spell attack rolls and spell DCs increase to master."
+			]
+		},
+		{
+			"name": "Fortress of Will",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 17,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your trained mind is a fortress that none can breach. Your proficiency rank for Will saves increases to legendary. When you roll a success at a Will save, you get a critical success. When you roll a critical failure at a Will save, you get a failure instead. When you roll a failure on a Will save against a damaging effect, you take half damage."
+			]
+		},
+		{
+			"name": "Legendary Spellcaster",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 19,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"You feel as though you understand not just your own mind but the collective unconscious from which all psychic power stems. Your proficiency ranks for occult spell attack rolls and spell DCs increase to legendary."
+			]
+		},
+		{
+			"name": "Infinite Mind",
+			"source": "PT:DA",
+			"page": 10,
+			"level": 19,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"entries": [
+				"Anything you can imagine is now within the realm of possibility. Add two common 10th-level occult spells to your repertoire. You gain a single 10th-level spell slot you can use to cast one of those two spells using psychic spellcasting. You don't gain more 10th-level spells as you level up, unlike other spell slots, and you can't use 10th-level slots with abilities that give you more spell slots or that let you cast spells without expending spell slots. You can take the {@feat Mind over Matter|PT:DA} psychic feat to gain a second slot."
+			]
+		},
+		{
+			"name": "Ancestry and Background",
+			"source": "PT:DA",
+			"page": 18,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"In addition to the abilities provided by your class at 1st level, you have the benefits of your selected ancestry and background."
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "PT:DA",
+			"page": 18,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+			]
+		},
+		{
+			"name": "Dubious Knowledge",
+			"source": "PT:DA",
+			"page": 18,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"As a thaumaturge, you always see connections between things, even if some of them are misleading. You gain the {@feat Dubious Knowledge} skill feat. If your background already granted you {@feat Dubious Knowledge}, you gain the {@feat Additional Lore} skill feat instead."
+			]
+		},
+		{
+			"name": "Esoterica",
+			"source": "PT:DA",
+			"page": 18,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You have a collection of esoterica; objects with symbolic significance; bits of various materials known for supernatural affinities; and items used in folk practices. These might include cold-iron nails, scraps of scrolls and scriptures, fragments of bones purportedly from a saint, and other similar objects. You wear your esoterica in a small bag or pouch somewhere on your person that makes it easy to access. While you can eventually learn to use your esoterica for a variety of benefits, the first technique every thaumaturge learns is how to leverage a creature's antithesis to harm it.",
+				"You gain the Find Flaws and Esoteric Antithesis actions, which combine to find and exploit an enemy's weaknesses.",
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Find Flaws",
+					"activity": {
+						"number": 1,
+						"unit": "action",
+						"entry": "{@as 1}"
+					},
+					"traits": [
+						"Thaumaturge|PT:DA"
+					],
+					"actionType": {
+						"class": [
+							"Thaumaturge"
+						]
+					},
+					"source": "PT:DA",
+					"frequency": "once per round",
+					"entries": [
+						"You determine a creature's weaknesses, whether a literal weakness or a metaphysical one. Recall Knowledge about a creature, using your Charisma modifier instead of the usual ability modifier for the skill you're using to Recall Knowledge. The creature must be either one you can see or one you're specifically Investigating in advance during exploration. The result depends on your Recall Knowledge check, which has the following additional effects as well as the usual effects of Recall Knowledge.",
+						{
+							"type": "successDegree",
+							"entries": {
+								"Critical Success": "You learn all of the creature's resistances, weaknesses, and immunities. If you would have learned any of them already from Recall Knowledge, you learn different information instead. You can then use Esoteric Antithesis without spending an additional action.",
+								"Success": "You learn the creature's highest weakness, if any. If you would have learned it already from Recall Knowledge, you learn different information instead. You can then use Esoteric Antithesis without spending an additional action.",
+								"Failure": "You couldn't quite figure it out, so you decide to invoke a wide range of superstitions and narrow it down from there. You can use Esoteric Antithesis as your next action.",
+								"Critical Failure": "You came up with the wrong information and nearly made a critical mistake, distracting yourself. You become flat-footed until the beginning of your next turn and can't use Esoteric Antithesis this round."
+							}
+						}
+					]
+				},
+				{
+					"type": "ability",
+					"style": "full",
+					"name": "Esoteric Antithesis",
+					"activity": {
+						"number": 1,
+						"unit": "action",
+						"entry": "{@as 1}"
+					},
+					"traits": [
+						"Thaumaturge|PT:DA",
+						"Magical",
+						"Esoterica|PT:DA"
+					],
+					"actionType": {
+						"class": [
+							"Thaumaturge"
+						]
+					},
+					"source": "PT:DA",
+					"requirements": "You can take this action only when Find Flaws allows you to.",
+					"entries": [
+						"You search through your esoterica to find the right trinket that will apply a weakness to your attacks against the creature you Found Flaws in. You Interact to apply specific esoterica to yourself and your weapons; you can perform this Interact action with the hand holding your implement. Your unarmed and weapon Strikes against the creature become magical if they weren't already, and you cause them to apply one of the creature's weaknesses even if they don't deal the correct type of damage. If the creature has a weakness with a value of 2 + half your level or higher, set the type of weakness to the creature's highest weakness. Otherwise, you create a custom weakness with a value equal to 2 + half your level; this weakness applies only to your Strikes. For example, against a tyrant, you might attach a chain broken to free a captive. This effect lasts until you use Find Flaws again."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"As a thaumaturge, you have a special tool of symbolic importance that you use to focus your thaumaturgy: your implement. Choose an implement from the options presented on page 20. You begin play with a mundane item of that type, and you gain the initiate benefit for that implement. An implement is useful for a thaumaturge, but typically can't be sold. As you continue, you will collect up to three implements and unlock additional benefits for one or more of your implements, allowing you to mix and match their benefits to suit your situation."
+			]
+		},
+		{
+			"name": "Implement's Empowerment",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"The power of your implement can also be turned to the rather more common task of combat, as its power flows into your weapon or fist. When you Strike, you can trace mystic patterns with an implement you're holding or a free hand to empower the Strike. When you trace the patterns in this way, your Strike deals 2 additional damage. You can't make this Strike with the implement you're using to trace the patterns; for instance, if you're Striking with a weapon implement, you need to use a free hand or a different implement you're holding to trace the patterns.",
+				"This increases to 4 damage at 3rd level, 6 damage at 11th level, and 8 damage at 19th level."
+			]
+		},
+		{
+			"name": "Thaumaturge Feats",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 1,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 1st level and every even-numbered level, you gain a thaumaturge class feat."
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 2,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a skill feat. You must be trained or better in the corresponding skill to select a skill feat."
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 3,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 3rd level and every 4 levels thereafter, you gain a general feat."
+			]
+		},
+		{
+			"name": "Great Fortitude",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 3,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert."
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 3,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you're untrained in, or become an expert in one skill in which you're already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you're already an expert, and at 15th level, you can use them to become legendary in a skill in which you're already a master."
+			]
+		},
+		{
+			"name": "Ability Boosts",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 5,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it's already 18 or above, or by 2 if it starts out below 18."
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 5,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"In addition to the ancestry feat you started with, you gain an ancestry feat at 5th level and every 4 levels thereafter."
+			]
+		},
+		{
+			"name": "Second Implement",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 5,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've developed a greater connection to another item, or found a new item with potential. You choose a second implement, which must be a different type of implement than your first. Consider an implement that complements your first implement, either by building on a similar theme or by contrasting it in a way that reveals an intriguing dichotomy, such as by choosing a protective amulet if your first implement was an offensive weapon. You gain the initiate benefit of your new implement."
+			]
+		},
+		{
+			"name": "Thaumaturge Weapon Expertise",
+			"source": "PT:DA",
+			"page": 19,
+			"level": 5,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've learned the secret ways in which your weapons work most effectively. Your proficiency ranks for simple weapons and martial weapons increase to expert."
+			]
+		},
+		{
+			"name": "Implement Adept",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 7,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You have gained a deeper connection to one of your implements, unlocking its adept power. Choose one of your implements and gain the adept benefit for that implement; most thaumaturges choose their first implement.",
+				"While you're holding an implement in one hand, you can quickly switch it with another implement you're wearing to use an action of the implement you're switching to. To do so, you can Interact as free action immediately before executing the action. This allows you to meet requirements of having an implement in hand to use its action. For example, if you had your lantern implement in one hand and a weapon in the other, you could swap your lantern for your amulet implement to use its reaction."
+			]
+		},
+		{
+			"name": "Resolve",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 7,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 7,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+			]
+		},
+		{
+			"name": "Lightning Reflexes",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 9,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert."
+			]
+		},
+		{
+			"name": "Thaumaturgic Expertise",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 9,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've learned deeper secrets of the supernatural, and your abilities are harder to resist. Your proficiency rank for your thaumaturge class DC increases to expert.",
+				"You also gain an additional skill increase, which you can apply only to Arcane, Nature, Occultism, or Religion."
+			]
+		},
+		{
+			"name": "Medium Armor Expertise",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 11,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert."
+			]
+		},
+		{
+			"name": "Vigilant Senses",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 11,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Through your adventures, you've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master."
+			]
+		},
+		{
+			"name": "Greater Resolve",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 13,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your unbelievable training grants you mental resiliency. Your proficiency rank for Will saves increases to legendary. When you roll a success on a Will save, you get a critical success. When you roll a critical failure on a Will save, you get a failure instead. When you roll a failure on a Will save against a damaging effect, you take half damage."
+			]
+		},
+		{
+			"name": "Weapon Mastery",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 13,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You fully understand your weapons. Your proficiency ranks for simple and martial weapons increase to master."
+			]
+		},
+		{
+			"name": "Greater Weapon Specialization",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 15,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+			]
+		},
+		{
+			"name": "Third Implement",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 15,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"As you come closer to the culmination of your journey, you gain your final implement, completing your set of three. It must be a different type of implement than your first and second implements. Consider an implement that completes the cycle with your other two implements in an interesting way. You gain the initiate benefit of your new implement."
+			]
+		},
+		{
+			"name": "Implement Mastery",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 17,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You have gained even further mastery in one of your implements, unlocking a great new power. Choose one of your implements and gain the next benefit for that implement, either the paragon benefit if you choose the implement that already gained the adept benefit at 7th level, or the adept benefit if you choose either of the other implements. Most thaumaturges choose their first implement, gaining its paragon benefit."
+			]
+		},
+		{
+			"name": "Thaumaturgic Mastery",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 17,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"You've become a master in paranormal phenomena, and your esoterica grow in power. Your proficiency rank for your thaumaturge class DC increases to master.",
+				"You also gain an additional skill increase, which you can apply only to Arcane, Nature, Occultism, or Religion."
+			]
+		},
+		{
+			"name": "Medium Armor Mastery",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 19,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your skill with light and medium armor improves, increasing your ability to avoid blows. Your proficiency ranks for light and medium armor, as well as for unarmed defense, increase to master."
+			]
+		},
+		{
+			"name": "Unlimited Esoterica",
+			"source": "PT:DA",
+			"page": 20,
+			"level": 19,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"entries": [
+				"Your connection to your esoterica becomes so complete that you can access your mystic tools without even thinking. You can use Find Flaws as a free action, rather than a single action, though still with a frequency of once per round."
+			]
+		},
 		{
 			"name": "Arcane Spellcasting",
 			"source": "PT:SoM",
@@ -3456,6 +5184,686 @@
 	],
 	"subclassFeature": [
 		{
+			"name": "Implement Mastery",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Weapon",
+			"subclassSource": "PT:DA",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Paragon Benefit",
+					"entries": [
+						"The way your implement incorporates your foe's weakness makes its interruptions incredibly disruptive. You now disrupt the triggering action on a hit with Implement's Interruption, rather than needing a critical hit."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Adept",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Weapon",
+			"subclassSource": "PT:DA",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Adept Benefit",
+					"entries": [
+						"When your implement lashes out at your foe, even a close miss brings the esoterica you've attached to it close enough to harm them. When you use Implement's Interruption and fail (but don't critically fail) the Strike, you deal 1 damage of the weapon's normal type, which triggers the target's weakness, as normal."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Weapon",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"page": 22,
+					"name": "Weapon",
+					"entries": [
+						"Weapon implements are the most direct and confrontational, representing battle, struggle, and potentially violence. The weapon should speak to your style of conflict. If you're skilled in subtle takedowns, for instance, you might choose a dagger or other agile weapon, whereas a sword is traditional for overt struggles, and you might use a hand crossbow if you're more indirect. Most thaumaturges choose a one-handed weapon to leave a hand free and benefit from implement's empowerment. Whichever weapon you select, choosing a weapon implement as your first implement means you are willing or even eager to fight for your beliefs and ideals. Other thaumaturges might assume that you're hot-headed, aggressive, or dangerous. Weapon implements are associated with the Harrow suit of hammers, and the astrological signs of the Rider and the Swordswoman.",
+						{
+							"type": "pf2-h4",
+							"name": "Initiate Benefit",
+							"entries": [
+								"Your weapon trembles slightly in your hand, seeking out your foe's weakness to it and interrupting their actions. You gain the Implement's Interruption reaction.",
+								"At 5th level, when you gain thaumaturgic weapon expertise, your instinctive knowledge of your weapon implement also grants you the weapon's critical specialization effect.",
+								{
+									"type": "ability",
+									"style": "full",
+									"name": "Implement's Interruption",
+									"activity": {
+										"entry": "{@as R}",
+										"number": 1,
+										"unit": "reaction"
+									},
+									"traits": [
+										"Evocation",
+										"Magical",
+										"Thaumaturge|PT:DA"
+									],
+									"requirements": "You're holding your weapon implement and are benefiting from Esoteric Antithesis against a creature, and that creature is either within your reach, for a melee weapon, or within 10 feet, for a ranged weapon.",
+									"trigger": "The subject of your Esoteric Antithesis uses a concentrate, manipulate, or move action, or leaves a square during a move action it's using.",
+									"entries": [
+										"Charged with power inimical to your foe, your weapon lashes out to attack it. Make a Strike against the triggering creature with your weapon implement. If your attack is a critical hit, you disrupt that action. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Mastery",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Wand",
+			"subclassSource": "PT:DA",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Paragon Benefit",
+					"entries": [
+						"Your mastery of your wand grants you increased versatility, range, and area. The range of Fling Magic increases to 180 feet. You gain the ability to choose between all three damage types (cold, electricity, and fire) each time you use Fling Magic. When you Fling Magic, you can choose to target a single creature or to affect all creatures in a 10-foot burst."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Adept",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Wand",
+			"subclassSource": "PT:DA",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Adept Benefit",
+					"entries": [
+						"You gain versatility and additional benefits when you fire your wand. The range of Fling Magic increases to 120 feet. Choose a second damage type from the list; whenever you Fling Magic, you can select between either of the two damage types you have chosen. Fling Magic has an additional effect if the target fails its save and takes damage, depending on the type.",
+						{
+							"type": "list",
+							"items": [
+								"{@b Fire:} The target catches on fire, taking 1d10 persistent fire damage (or 2d10 on a critical failure).",
+								"{@b Cold:} The target becomes chilled, taking a \u201310-foot status penalty to its Speeds.",
+								"{@b Electricity:} The target is shocked, becoming flat-footed until the start of your next turn."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Wand",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"page": 22,
+					"name": "Wand",
+					"entries": [
+						"Wand implements are short, lightweight batons, usually made of wood but often incorporating other materials. Due to their association with spellcasters, wand implements are connected symbolically to magic and its practice. Choosing a wand implement as your first implement means that you're particularly fascinated by magic, in all its forms. Other thaumaturges might assume that you're prone to mysticism and magical thinking that might be a hindrance in a practical situation but an asset when dealing with the supernatural. Wand implements are associated with the astrological signs of the Thrush and the Sky Dragon.",
+						{
+							"type": "pf2-h4",
+							"name": "Initiate Benefit",
+							"entries": [
+								"Your wand slowly collects magic from its surroundings, and when holding it, you can project this magic at a foe in a barely controlled display of charged energy. When you gain this implement, choose whether your wand is aligned with cold, electricity, or fire. You gain the Fling Magic activity.",
+								{
+									"type": "ability",
+									"style": "full",
+									"name": "Fling Magic",
+									"activity": {
+										"entry": "{@as 2}",
+										"number": 2,
+										"unit": "action"
+									},
+									"traits": [
+										"Evocation",
+										"Magical",
+										"Thaumaturge|PT:DA"
+									],
+									"requirements": "You are holding your wand implement.",
+									"special": "This activity has the trait corresponding to the damage type you selected.",
+									"entries": [
+										"You fire a display of energy around a target within 80 feet, dealing damage equal to 1d4 + your Charisma modifier to the target, with a basic Reflex save against your class DC. The damage is of the type you selected when you gained your wand implement. At 3rd level and every 2 levels thereafter, the damage increases by 1d4."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Mastery",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Lantern",
+			"subclassSource": "PT:DA",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Paragon Benefit",
+					"entries": [
+						"In addition to the other benefits, your lantern reveals all things as they truly are. While you're holding your lantern, the GM rolls a secret counteract check against any illusion or transmutation that comes within 20 feet and into the area of bright light, but only for the purpose of determining whether you and others can see through it (for instance, if the check succeeds against a polymorph spell, you can see the creature's true form, but you don't end the spell). Use half your level rounded up as the counteract level and your class DC \u2013 10 as the counteract modifier. On a failed counteract check, the lantern can't attempt to counteract that illusion or polymorph effect again until midnight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Adept",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Lantern",
+			"subclassSource": "PT:DA",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Adept Benefit",
+					"entries": [
+						"In addition to the initiate benefits, when you hold your lantern, its light reveals the invisible and the ethereal. While you're holding your lantern, invisible and ethereal creatures within 20 feet of you become visible, though they are still concealed. This doesn't give you any special ability to affect a creature on the Ethereal Plane, but it ensures you're aware of its presence."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement",
+			"source": "PT:DA",
+			"page": 22,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Lantern",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"page": 22,
+					"name": "Lantern",
+					"entries": [
+						"Lantern implements shine the light of revelation to part shadows and expose truth. You might use a common glass lantern, torch, paper lantern, or other similar light source. Choosing a lantern implement as your first implement means that you're especially interested in peeling away the secrets and illusions that surround the paranormal and shining light on the truth beneath. Other thaumaturges might assume that you are inquisitive and clear-sighted, though potentially too curious for your own good. Lantern implements are associated with the Harrow suit of stars and the astrological signs of the Lantern Bearer and the Archer.",
+						{
+							"type": "pf2-h4",
+							"name": "Initiate Benefit",
+							"entries": [
+								"While you hold your lantern, the light it shines reveals secrets to you. The lantern shines bright light out to 20 feet and dim light out 20 feet further; this has the evocation, light, and magical traits. You and your allies within 20 feet and in the area of bright light gain a +1 status bonus to visual Perception checks to notice anything that is also within 20 feet and in the area of bright light, and a +1 status bonus to checks to Recall Knowledge against creatures within 20 feet and in the area of bright light, as the light exposes their true natures. Even if you aren't Searching during exploration, the GM rolls a secret check for you to find traps, environmental hazards, haunts, and secrets (such as secret doors) the first time the hazard or secret comes within 20 feet of you and within the lantern's bright light. The benefits of the lantern's light are magical divination effects."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Mastery",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Chalice",
+			"subclassSource": "PT:DA",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Paragon Benefit",
+					"entries": [
+						"When you or an ally drain the chalice, in addition to healing wounds, the chalice clears away many negative conditions. Reduce the drinker's clumsy, enfeebled, frightened, stupefied, and stunned conditions by 1. (This reduces the stunned condition only if it has a condition value, not when it has a duration.) The first time each day that a given drinker has the drained condition, reduce that drinker's drained condition by 1 as well.",
+						"Finally, the chalice attempts to counteract all poisons, diseases, and curses afflicting the drinker, using half your level rounded up as the counteract level and your class DC \u2013 10 as the counteract modifier. If the chalice fails to counteract a given affliction for a drinker, it can't attempt to counteract that affliction again until midnight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Adept",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Chalice",
+			"subclassSource": "PT:DA",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Adept Benefit",
+					"entries": [
+						"The life essence shed from your own blood empowers your chalice. If you take piercing or slashing damage from a foe's critical hit or take persistent bleed damage, on your next turn, Drinking from the Chalice grants greater effects. On a sip, the temporary Hit Points increase to your Charisma modifier + your level. On draining, the healing increases to 4 Hit Points for each level you have."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Chalice",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"page": 21,
+					"name": "Chalice",
+					"entries": [
+						"Chalice implements are vessels that fill with liquid, associating them with healing, nourishment, and life. Your chalice might be a traditional cup or goblet, but it could also be a small amphora, a polished gourd, or even a hollowed-out skull. Choosing a chalice implement as your first implement means you're concerned with your health and the health of others. Other thaumaturges might assume that you're nurturing and considerate. Chalice implements are associated with the astrological signs of the Mother and the Newlyweds, as well as the Sea Dragon.",
+						{
+							"type": "pf2-h4",
+							"name": "Initiate Benefit",
+							"entries": [
+								"While holding your chalice, you can drink from it or feed its liquid to an ally to improve their health. You gain the Drink from the Chalice action.",
+								{
+									"type": "ability",
+									"style": "full",
+									"name": "Drink from the Chalice",
+									"activity": {
+										"entry": "{@as 1}",
+										"number": 1,
+										"unit": "action"
+									},
+									"traits": [
+										"Necromancy",
+										"Magical",
+										"Thaumaturge|PT:DA"
+									],
+									"frequency": "once per round",
+									"requirements": "You are holding your chalice implement.",
+									"entries": [
+										"You drink from the liquid that slowly collects in your chalice or administer it to an adjacent ally. The drinker chooses whether to take a small sip or to drain the contents.",
+										{
+											"type": "list",
+											"items": [
+												"{@b Sip} A sip grants the drinker an amount of temporary Hit Points equal to 2 + half your level that last until the end of your next turn.",
+												"{@b Drain} Drinking deep instead heals the drinker 3 Hit Points for each level you have. After the chalice is drained, it's left with only its slowly collecting dregs; the chalice can't be drained again, though it can still be sipped from. If 10 minutes pass without anyone drinking from the chalice, it refills itself and can be drained again."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Mastery",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Amulet",
+			"subclassSource": "PT:DA",
+			"level": 17,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Paragon Benefit",
+					"entries": [
+						"Your amulet provides sanctuary even against wide-ranging or all-encompassing attacks. When you use Amulet's Abeyance, you and all allies within 15 feet gain the initial resistance against the triggering attack and the lingering resistance from your amulet's adept benefit. Even allies that weren't subject to the damage that triggered the reaction get the lingering resistance. If the foe's attack deals multiple damage types, your allies can choose the damage type for their lingering resistance separately."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement Adept",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Amulet",
+			"subclassSource": "PT:DA",
+			"level": 7,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Adept Benefit",
+					"entries": [
+						"Your amulet offers continued protection. When you use Amulet's Abeyance, the target chooses one type of damage resisted with Amulet's Abeyance and gains resistance 5 against that damage type until the start of your next turn. If you have your third implement, this lingering resistance increases from 5 to 10."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implement",
+			"source": "PT:DA",
+			"page": 21,
+			"className": "Thaumaturge",
+			"classSource": "PT:DA",
+			"subclassShortName": "Amulet",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"page": 21,
+					"name": "Amulet",
+					"entries": [
+						"Amulet implements are items worn or carried for good luck and protection. Your amulet might be a magical diagram, a religious symbol, a preserved body part such as a rabbit's foot, or a lucky coin. Choosing an amulet implement as your first implement means that you're focused on the idea of protecting yourself and others from the supernatural. Other thaumaturges might assume that you're cautious and methodical. Amulet implements are associated with the Harrow suit of shields, and the astrological signs of the Bridge and the Ogre.",
+						{
+							"type": "pf2-h4",
+							"name": "Initiate Benefit",
+							"entries": [
+								"The protective aspects of your amulet can shield you and your allies from harm. You gain the Amulet's Abeyance reaction.",
+								{
+									"type": "ability",
+									"style": "full",
+									"name": "Amulet's Abeyance",
+									"activity": {
+										"entry": "{@as R}",
+										"number": 1,
+										"unit": "reaction"
+									},
+									"traits": [
+										"Abjuration",
+										"Magical",
+										"Thaumaturge|PT:DA"
+									],
+									"trigger": "The subject of your Esoteric Antithesis would damage you or an ally within 15 feet of you.",
+									"requirements": "You're holding your amulet implement and are benefiting from Esoteric Antithesis.",
+									"entries": [
+										"You forcefully present your amulet to turn away harm. You or a target ally within 15 feet gain resistance to all damage against the triggering damage. The resistance is equal to 2 + your level."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Conscious Mind",
+			"source": "PT:DA",
+			"page": 8,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassShortName": "Silent Whisper",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 8,
+					"name": "Silent Whisper",
+					"entries": [
+						"Every mind murmurs constantly, and the static from those nearby reverberates in your head like wind through leaves. What better focus for your magic, then, than the very thoughts of those around you? Your versatile telepathic abilities let you soothe and communicate with your allies or control your enemies.",
+						{
+							"type": "pf2-options",
+							"items": [
+								{
+									"type": "item",
+									"entries": [
+										"{@b Granted Spells} 1st: {@spell mindlink}; 2nd: {@spell remove fear}; 3rd: {@spell heroism}; 4th: {@spell telepathy}; 5th: {@spell synaptic pulse}; 6th: {@spell sending}; 7th: {@spell visions of danger}; 8th: {@spell uncontrollable dance}; 9th: {@spell telepathic demand}"
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Surface Psi Cantrips} standard: {@spell daze} and {@spell message}; unique: {@spell nudge intent|PT:DA}"
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Deeper Psi Cantrip} {@spell shatter mind|PT:DA}"
+									]
+								}
+							]
+						},
+						{
+							"type": "ability",
+							"style": "full",
+							"name": "Daze",
+							"entries": [
+								"{@b Amp} The jolt of energy created by this spell cracks the target's mental defenses, leaving them susceptible to further psychic attack. If the target fails its Will save, it gains weakness 1 to mental damage until the end of your next turn and takes a \u20131 status penalty to Will saves until the end of your next turn. On a critical failure, the weakness is 3, and the target is also stunned 1. The weakness applies before daze deals damage.",
+								"{@b Amp Heightened (+2)} The weakness on a failure or critical failure increases by 1."
+							]
+						},
+						{
+							"type": "ability",
+							"style": "full",
+							"name": "Message",
+							"entries": [
+								"{@b Amp} Your telepathic message allows you to coordinate your actions with an ally while you pass on information. The target of the message can immediately spend its reaction to Step or Stride.",
+								"{@b Amp Heightened (4th)} The target of the message can choose to Shove, Strike, or Trip with its reaction instead."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Conscious Mind",
+			"source": "PT:DA",
+			"page": 7,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassShortName": "Infinite Eye",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 7,
+					"name": "Infinite Eye",
+					"entries": [
+						"The true strength of the mind lies in the knowledge it contains, with each new observation contributing to the totality of its experiences. To grow your experiences\u2014and with them, your power\u2014you devote yourself to observing as much as possible, casting your senses through space and time with clairvoyance and precognition.",
+						{
+							"type": "pf2-options",
+							"items": [
+								{
+									"type": "item",
+									"entries": [
+										"{@b Granted Spells} 1st: {@spell true strike}; 2nd: {@spell augury}; 3rd: {@spell clairaudience}; 4th: {@spell clairvoyance}; 5th: {@spell prying eye}; 6th: {@spell true seeing}; 7th: {@spell true target}; 8th: {@spell unrelenting observation}; 9th: {@spell foresight}"
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Surface Psi Cantrips} standard: {@spell detect magic} and {@spell guidance}; unique: {@spell mental scan|PT:DA}"
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Deeper Psi Cantrip} {@spell future path|PT:DA}"
+									]
+								}
+							]
+						},
+						{
+							"type": "ability",
+							"style": "full",
+							"name": "Detect Magic",
+							"entries": [
+								"{@b Amp} Your pulse of detection magic helps you gain a sense of nearby magic's strengths or weaknesses. As long as you detect the presence of magic, you gain a +1 status bonus to saves against magic for 3 rounds.",
+								"{@b Amp Heightened (3rd)} When you identify a school of magic, you glean information that helps you tune your defenses against it. When you learn the school of magic for the highest-level effect within range, the status bonus to saves against magic increases to +2 against magic of that school, specifically.",
+								"{@b Amp Heightened (4th)} You pinpoint a source of magic with great precision. In addition to the bonus against saves, when you pinpoint the source of the highest-level magic in range, you determine its exact location; however, if the target is still hidden to your other senses, it's concealed to you."
+							]
+						},
+						{
+							"type": "ability",
+							"style": "full",
+							"name": "Guidance",
+							"entries": [
+								"{@b Amp} The guidance granted by your spell is so acute that it can avoid catastrophic failure. When the target uses the bonus from guidance and critically fails its check, it gets a failure instead."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Conscious Mind",
+			"source": "PT:DA",
+			"page": 6,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassShortName": "Distant Grasp",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 6,
+					"name": "Distant Grasp",
+					"entries": [
+						"Motion characterizes the physical\u2014a boulder falls, creatures move, the world turns. You believe the truest form of mind over matter is therefore to move things as well, wielding telekinesis as an arm that can grasp the furthest and finest of objects.",
+						{
+							"type": "pf2-options",
+							"items": [
+								{
+									"type": "item",
+									"entries": [
+										"{@b Granted Spells} 1st: {@spell magic missile}; 2nd: {@spell telekinetic maneuver}; 3rd: {@spell levitate}; 4th: {@spell fly}; 5th: {@spell telekinetic haul}; 6th: {@spell wall of force}; 7th: {@spell force cage|APG}; 8th: {@spell earthquake}; 9th: {@spell implosion}"
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Surface Psi Cantrips} standard: {@spell mage hand} and {@spell telekinetic projectile}; unique: {@spell telekinetic rend|PT:DA}"
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Deeper Psi Cantrip} {@spell arrest trajectory|PT:DA}"
+									]
+								}
+							]
+						},
+						{
+							"type": "ability",
+							"style": "full",
+							"name": "Mage Hand",
+							"entries": [
+								"{@b Amp} Your added focus increases your hand's telekinetic finesse. When you Cast the Spell, you can have the mage hand grasp an attended object if it's attended by you or a willing ally and is in an easy-to-access location, such as a sheathed weapon or a potion on a belt. The hand grasps and holds the object before the hand moves the object. The item must still be within the Bulk limit of mage hand."
+							]
+						},
+						{
+							"type": "ability",
+							"style": "full",
+							"name": "Telekinetic Projectile",
+							"entries": [
+								"{@b Amp} You fling objects with even more force. The damage changes to 1d8 damage plus your spellcasting ability modifier. On a critical success, you push the target 5 feet away from you in addition to dealing double damage.",
+								"{@b Amp Heightened (+1)} The damage increases by 1d8 instead of by 1d6, and the distance you push the target on a critical success increases by 5 feet."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Subconscious Mind",
+			"source": "PT:DA",
+			"page": 6,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassShortName": "Acceptance",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 6,
+					"name": "Emotional Acceptance",
+					"entries": [
+						"The mind's truths come not in learned words or mathematical formulas, but deeper feelings and sensations. Emotions unlock the door to your power\u2014 you might consider your heart as the source of your strength, or you might find that the infinite complexity felt in a moment expresses your power more efficiently than any string of mystic words ever could.",
+						{
+							"type": "pf2-options",
+							"items": [
+								{
+									"type": "item",
+									"entries": [
+										"{@b Key Ability} Your key ability score is Charisma."
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Emotion Components} When you Cast a Spell you gained from the psychic class, you replace any material components with somatic components and replace any verbal components with emotion components as you call up and hold a specific feeling. An emotion component adds the concentrate trait to your action to Cast a Spell. You might summon the sense of freedom to buoy you through the air or let fear grip your heart even as you plant it in another's mind. Emotion components tend to impart abstract or vivid effects to your visual and auditory spell manifestations as well as more intangible flashes of emotion, such as swirls of joyous color or a sense of growing melancholy.",
+										"If you're affected by a harmful emotion effect, the discordant emotions sap some of your concentration, causing your cantrips (including psi cantrips) to heighten to a level 1 lower than normal (or to their minimum level, if it's higher). For instance, if you were 5th level, a detect magic cantrip you cast would be 2nd level instead of 3rd level."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Subconscious Mind",
+			"source": "PT:DA",
+			"page": 6,
+			"className": "Psychic",
+			"classSource": "PT:DA",
+			"subclassShortName": "Discipline",
+			"subclassSource": "PT:DA",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"page": 6,
+					"name": "Precise Discipline",
+					"entries": [
+						"Determine intended outcomes. Align thoughts. Identify and resolve distractions. Manifest. Intentional focus is the key to unleashing your abilities, whether because your power naturally tends to precise, discrete effects, or because you've adopted strict discipline to ensure that your mind can change the world only when you intend it to.",
+						{
+							"type": "pf2-options",
+							"items": [
+								{
+									"type": "item",
+									"entries": [
+										"{@b Key Ability} Your key ability score is Intelligence."
+									]
+								},
+								{
+									"type": "item",
+									"entries": [
+										"{@b Calculation Components} When you Cast a Spell you gained from the psychic class, you replace any material components with somatic components and replace any verbal components with calculation components, as you determine the exact forces needed to realize your psychic magic in the world. A calculation component adds the concentrate trait to your action to Cast a Spell. Perhaps you mentally weigh the mass of an object against the force of gravity to levitate it, or you might determine exactly how much energy is needed for an object to spontaneously combust. Calculation components tend to impart ordered visual and auditory effects to your spell manifestation, such as regular tessellations of light, mathematical spirals, or harmonic tones.",
+										"Disruptions to your sequences make it more difficult for you to focus. You're flat-footed against attacks made as reactions as you Cast a Spell, and if your spell is disrupted, you're stupefied 1 until the end of your next turn."
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Magus Synthesis",
 			"source": "PT:SoM",
 			"page": 6,
@@ -3471,7 +5879,7 @@
 					"name": "Sustaining Steel",
 					"entries": [
 						"The clamor and carnage of battle call to you. The process of channeling your arcane power into a large and dangerous weapon fills your body with extra vitality.",
-						"If you use {@action Striking Spell|PT:SoM} to store a spell in a two-handed weapon, when you finish Casting the Spell you gain temporary Hit Points equal to either the twice spell's level if you used a spell slot, or its level if your spell didn't use a spell slot (such as a cantrip or focus spell). These temporary HP last until the end of your next turn."
+						"If you use {@action Striking Spell|PT:SoM} to store a spell in a two-handed weapon, when you finish {@action Cast a Spell||Casting the Spell} you gain temporary Hit Points equal to either the twice spell's level if you used a spell slot, or its level if your spell didn't use a spell slot (such as a cantrip or focus spell). These temporary HP last until the end of your next turn."
 					]
 				}
 			]
@@ -3492,7 +5900,7 @@
 					"name": "Slide Casting",
 					"entries": [
 						"You capture a portion of your spell's magic to forcefully propel yourself while storing a spell. Each magus chooses how they do this, such as propelling themself with telekinesis or filling their body with magical speed.",
-						"After you use {@action Striking Spell|PT:SoM} and start {@action Cast a Spell|CRB|Casting a Spell} that takes 1 action or more to cast, you can Stride or Step as part of that {@action Cast a Spell} activity. You choose whether to move before or after the other parts of Casting the Spell. Disrupting this movement doesn't disrupt the spell, and disrupting the spell doesn't disrupt the movement. You can Stride or Step only if you're storing your spell in a one-handed weapon or your body, and only if you have your other hand free."
+						"After you use {@action Striking Spell|PT:SoM} and start {@action Cast a Spell|CRB|Casting a Spell} that takes 1 action or more to cast, you can Stride or Step as part of that {@action Cast a Spell} activity. You choose whether to move before or after the other parts of {@action Cast a Spell||Casting the Spell}. Disrupting this movement doesn't disrupt the spell, and disrupting the spell doesn't disrupt the movement. You can Stride or Step only if you're storing your spell in a one-handed weapon or your body, and only if you have your other hand free."
 					]
 				}
 			]
@@ -3535,8 +5943,7 @@
 					"entries": [
 						"You're a wanderer traveling from land to land with your gun and a melee weapon as company. Whether you learned to fight with a cutlass and pistol as a Shackles pirate, mastered the hand cannon and katana in Minkai, or practiced with a clan dagger and dueling pistol in Dongun Hold, movement and flexible use of your weapons help you win battles.",
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
+							"type": "pf2-options",
 							"items": [
 								{
 									"type": "item",
@@ -3665,8 +6072,7 @@
 					"entries": [
 						"Whether you're a professional duelist or a pistol-twirling entertainer, you have quick feet and quicker hands that never seem to let you down. You might leave a hand free, fight with twin pistols, or duel at any range like a musketeer with pistol and blade.",
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
+							"type": "pf2-options",
 							"items": [
 								{
 									"type": "item",
@@ -3795,8 +6201,7 @@
 					"entries": [
 						"You practice a style of shooting that seeks to ensure that your first shot is perfectly placed. You keep hidden or at a distance, staying out of the fray and bringing unseen death to your foes.",
 						{
-							"type": "list",
-							"style": "list-hang-notitle",
+							"type": "pf2-options",
 							"items": [
 								{
 									"type": "item",
@@ -4453,6 +6858,1950 @@
 		}
 	],
 	"feat": [
+		{
+			"source": "PT:DA",
+			"name": "Ancestral Mind",
+			"level": 1,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"By unraveling memories and connections passed down from your progenitors, you learn to convert your inherent magic into psychic power. You can cast any innate spells you know from an ancestry feat or heritage using your psychic spellcasting components. When you do so, the spell's tradition becomes occult, if it wasn't already, and you can use your psychic spellcasting ability modifier instead of the ability modifier you would ordinarily use for your ancestry spells, if different, to determine your spell attack roll and spell DC."
+			],
+			"page": 10
+		},
+		{
+			"source": "PT:DA",
+			"name": "Counter Thought",
+			"level": 1,
+			"traits": [
+				"Abjuration",
+				"Occult",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"trigger": "A creature Casts a Spell that has the {@trait mental} trait.",
+			"requirements": "You have an unexpended spell slot you could use to {@action Cast a Spell} that has the {@trait mental} trait.",
+			"entries": [
+				"When a foe Casts a Spell that has the {@trait mental} trait and you can see its manifestations, you can use your own mental magic to disrupt it. You expend one of your spell slots to counter the triggering creature's casting of a spell with the {@trait mental} trait. You lose your spell slot as if you had cast the triggering spell; this spell slot must be one for which you could cast a spell with the {@trait mental} trait. You then attempt to counteract the triggering spell."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"page": 10
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mental Buffer",
+			"level": 1,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your mind deflects some amount of harm from attacks that induce pain or manipulate your mind directly. You gain resistance to mental damage equal to half your level. This resistance increases to equal your level while your psyche is Unleashed."
+			],
+			"page": 10
+		},
+		{
+			"source": "PT:DA",
+			"name": "Psychic Rapport",
+			"level": 1,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your telepathic sensitivity intensifies when you're affected by mental magic, making it easier for you to link to other creatures. When you're affected by a mental spell or have cast a mental spell this round, you gain a +1 circumstance bonus on {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks, and on {@skill Perception} checks to {@action Sense Motive}."
+			],
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Self‑defense",
+			"level": 1,
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "You've cast two beneficial spells on yourself or an ally this encounter, each on a different round.",
+			"entries": [
+				"The conflict‑averse aspects of your personality float calmly to the surface, causing your mind to subconsciously deflect incoming attacks, though this comes at the cost of reduced fatal intent behind your spells.",
+				"Benefit While this psyche is Unleashed, you gain a +1 status bonus to your AC and to one saving throw of your choice, decided when you Unleash your psyche. All of your spells that don't have the {@trait death} trait gain the {@trait nonlethal} trait.",
+				"Drawback The pacifist influence on your mind makes it difficult for your spells to strike a killing blow. You take a penalty to spell damage rolls equal to the level of the spell, and you take a \u20131 penalty to spell attack rolls and DC of any spell that deals damage or otherwise affects the target's health or Hit Points (including those that apply the {@condition drained} condition, disease or poison the target, or kill the target)."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Cantrip Expansion",
+			"level": 2,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"With a bit of introspection, you realize that your mind can accomplish so much more. Add two additional occult cantrips to your repertoire."
+			],
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mental Balm",
+			"level": 2,
+			"traits": [
+				"Amp|PT:DA",
+				"Emotion",
+				"Mental",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"As your psychic magic flares, you release soothing mental waves to stabilize the mind. Use this amp in place of the psi cantrip's normal amp entry. You can use this amp only on a psi cantrip that targets or affects one or more of your allies and doesn't target or affect any enemies.",
+				"Amp You or one ally within 30 feet gain a +1 bonus to Will saves against {@trait emotion} effects for 1 round. You can also have the amped psi cantrip attempt to counteract one effect on yourself or the chosen ally imposing the {@condition frightened} condition, or an effect imposing the {@condition stupefied} condition that has a duration of 1 hour or less. On a success, you end the {@condition frightened} and {@condition stupefied} conditions, but you don't end any other parts of the effect, if any."
+			],
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Warp Space",
+			"level": 2,
+			"traits": [
+				"Amp|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"As you unleash your spell, you use your magic to bend and distort space, allowing your spell to strike your target from an unexpected vector. Use this amp in place of the psi cantrip's normal amp entry. The amped psi cantrip must have a range.",
+				"Amp Choose a square within 30 feet and determine your spell's line of effect and line of sight from there as well as whether creatures have cover against the spell. Any bonus from cover the target has is reduced by 2 against this spell.",
+				"The spell still can't exceed its normal range as measured from you."
+			],
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Psychic Beacon",
+			"level": 4,
+			"traits": [
+				"Amp|PT:DA",
+				"Occult",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"As your spell strikes a target, you plant a beacon in their mind that announces their presence to those nearby. Use this amp in place of the psi cantrip's normal amp entry. The amped spell must be one that has one or more targets and must either require a spell attack roll or have a saving throw.",
+				"Amp Choose one creature that's hit by the spell (if the spell has a spell attack roll) or that fails its save against the spell (if the spell requires a save). A magical beacon leaves telltale clues that make it easier to notice the creature for 1 minute.",
+				"If the target was {@condition invisible}, it's instead merely {@condition concealed} for 1 minute. If it was {@condition concealed}, it's no longer {@condition concealed} for 1 minute, as the beacon clears up the concealment and makes it perfectly easy to see, even in areas of poor visibility."
+			],
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Spontaneous Ignition",
+			"level": 4,
+			"traits": [
+				"Amp|PT:DA",
+				"Fire",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"The sheer intensity of your mental focus causes spontaneous combustion. Use this amp in place of the psi cantrip's normal amp entry. The amped psi cantrip must be one that deals damage and doesn't have a duration.",
+				"Amp Half of any damage dealt by the amped psi cantrip is instead fire damage, and the spell also deals an additional 1 fire damage per spell level. The spell gains the {@trait fire} trait. If the spell deals more than one type of damage, change half the damage of each type to fire."
+			],
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Strain Mind",
+			"level": 4,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"frequency": "once per hour",
+			"trigger": "You cast a psi cantrip.",
+			"requirements": "You have 0 Focus Points, and you don't have a psyche unleashed.",
+			"entries": [
+				"You strain your body beyond its limits to use an amp even when your mental power is depleted. You apply an amp you know to the spell. Instead of paying the normal Focus Point cost, you lose Hit Points equal to double the level of the amped psi cantrip as you bleed from your nose or suffer some other visible sign of strain."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"page": 11
+		},
+		{
+			"source": "PT:DA",
+			"name": "Inertial Barrier",
+			"level": 6,
+			"traits": [
+				"Amp|PT:DA",
+				"Occult",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your spell leaves behind barriers that reduce shock and motion.",
+				"Use this amp in place of the psi cantrip's normal amp entry.",
+				"Amp You or one target of the spell gain resistance to physical damage equal to 2 + the spell's level until the start of your next turn."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Parallel Breakthrough",
+			"level": 6,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You expand your mind beyond your area of psychic specialty.",
+				"You gain the unique surface psi cantrip for a conscious mind other than your own. You don't gain any other benefits of that conscious mind, such as additional spells known or the amps for the other surface cantrips."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Sixth Sense",
+			"level": 6,
+			"traits": [
+				"Divination",
+				"Occult",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You can detect the lingering thoughts of spirits and similar entities with your psychic abilities. While you're exploring but not Searching, the GM rolls a secret check for you to find haunts that usually require Searching as well as spirits, creatures on the Ethereal Plane, and beings made entirely of spiritual essence, such as celestials, fiends, and monitors.",
+				"You can also potentially notice ethereal creatures and spirits inside solid objects, provided they're within 30 feet of you. This applies while Searching, while Seeking, and on the automatic secret check from Sixth Sense. You can still notice spirits only on a successful check, and you can't see them if they're more than 5 feet inside an object.",
+				"When you notice a creature with your Sixth Sense, you also learn its location, making it {@condition hidden} to you if it had been {@condition undetected}."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Thoughtform Summoning",
+			"level": 6,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You can create a prototypical creature from the depths of your imagination. Whenever you summon a creature, you can choose to instead create a psychic construct in the shape of that creature. This grants it resistance to physical damage equal to half its level, weakness 5 to force and mental damage, and the ability to pass through enemies' spaces without needing to {@action Tumble Through} (though it can't end its turn in such a space)."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Calculated Reasoning",
+			"level": 6,
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "precise discipline subconscious mind",
+			"requirements": "You've cast two damaging spells since rolling initiative, each on a different round.",
+			"entries": [
+				"Your mind overflows with the calculated confidence that all results should be exactly what you've determined them to be.",
+				"Benefit While this psyche is Unleashed, when you would roll damage for a spell, you can instead choose to deal half the spell's maximum damage instead of rolling. (This is the full damage and is still halved on a half damage result, doubled on a double damage result, and so on.) Drawback Unlike other psyches, Unleash Calculated Reasoning has no drawback. You've taken everything into account and canceled all of the drawbacks out."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Soaring Passions",
+			"level": 6,
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "emotional acceptance subconscious mind",
+			"requirements": "You've used two {@trait emotion} effects since rolling initiative, each on a different round.",
+			"entries": [
+				"Your power crests with each victory and ebbs with each setback.",
+				"Benefit While this psyche is unleashed, if you succeed at a spell attack roll, you gain a +2 status bonus to your next spell attack roll, and if an enemy fails its save against your spell, it takes a \u20132 status penalty to the next save they attempt against one of your spells. This bonus or penalty lasts until the end of your next turn.",
+				"Drawback While this psyche is Unleashed, when you fail at a spell attack roll, you take a \u20131 penalty to your next spell attack roll; if an enemy succeeds at its save against your spell, they gain a +1 status bonus to the next save they attempt against one of your spells. This penalty or bonus lasts until the end of your next turn."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Deeper Breakthrough",
+			"level": 8,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"A deeper understanding of your power has given you a new way to consciously bring it forth. You gain the deeper psi cantrip for your conscious mind."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Lingering Psyche",
+			"level": 8,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"When you Unleash your psyche, you can remain in that state longer before leaving it. Increase the duration of your psyche to 5 rounds."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mental Static",
+			"level": 8,
+			"traits": [
+				"Nonlethal",
+				"Occult",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"trigger": "You roll a critical success on a Will save against a {@trait mental} effect from a creature.",
+			"entries": [
+				"Your thoughts sting back when a lesser mind tries to invade your own. You deal mental damage equal to your level to the triggering creature. This effect has the {@trait nonlethal} trait. If you desire, you can also send them a single mental image to coincide with the damage, such as a watching eye or the dread of floating in an infinite sea."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mesmerizing Gaze",
+			"level": 8,
+			"traits": [
+				"Psychic",
+				"Visual"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Eye contact can help you invade another creature's thoughts, as though you were peering directly through their eyes and into their mind. When you cast an enchantment spell that targets only one creature within 30 feet who can see you, you can gaze into the creature's eyes, causing the creature to take a \u20131 status penalty to their saving throw against your spell unless they choose to break the eye contact as a reaction. If they don't look away, you're {@condition fascinated} with them until the end of your next turn as you maintain the eye contact. When you use Mesmerizing Gaze, the {@action Avert Gaze} action provides its bonus to saving throws against your spell, as the spell's effects have become connected to the eye contact."
+			],
+			"page": 12
+		},
+		{
+			"source": "PT:DA",
+			"name": "Autonomic Clairvoyance",
+			"level": 10,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "infinite eye conscious mind",
+			"entries": [
+				"Your mind constantly scans and observes your surroundings.",
+				"You gain a +1 status bonus to initiative rolls. You aren't {@condition flat‑footed} to {@condition hidden}, {@condition undetected}, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank."
+			],
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Autonomic Telekinesis",
+			"level": 10,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "distant grasp conscious mind",
+			"entries": [
+				"You can move objects even without casting a specific spell.",
+				"You can telekinetically perform simple {@action Interact} actions within squares adjacent to you, such as opening a door. You can't perform actions that require significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items, though you can use an {@action Interact} action to telekinetically draw a nearby item to a hand to hold it."
+			],
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Autonomic Telepathy",
+			"level": 10,
+			"traits": [
+				"Aura",
+				"Divination",
+				"Linguistic",
+				"Mental",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "silent whisper conscious mind",
+			"entries": [
+				"You can use your mind to communicate at all times. You can communicate mentally with any creatures within a 15‑foot aura as long as you share a language. This doesn't give any special access to their thoughts and communicates no more information than normal speech would. The communication is two‑way.",
+				"In addition, when communicating via any form of telepathy, you gain a +1 circumstance bonus to {@skill Perception} when attempting to {@action Sense Motive} or detect a {@action Lie}."
+			],
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Signature Spell Expansion",
+			"level": 10,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your direct mental grasp of your power lets you cast more spells with greater freedom. You gain two additional signature spells, each of which must have a minimum level of 3rd or lower."
+			],
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Dark Persona",
+			"level": 10,
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "The same enemy has damaged you on at least two of its turns in this encounter.",
+			"entries": [
+				"Your rage and pain coalesce into your dark persona, the portion of your psyche dedicated to cruel and immediate retribution.",
+				"Benefit Your focus narrows on the enemy who damaged you; if multiple enemies have damaged you on at least two turns, select one. Whenever you deal damage to the selected enemy with a spell that doesn't have a duration, you gain a status bonus to the damage equal to the spell level, or double the spell level if you cast the spell from your spell slots. Additionally, you gain temporary Hit Points equal to the spell's level that last until the beginning of your next turn.",
+				"Drawback Your dark persona is focused on destroying your hated foe and pays little attention to other foes or your allies. While your dark persona is unleashed, you can't cast beneficial spells on your allies, and you take a \u20131 penalty to your checks and DCs against targets other than your chosen foe. If you defeat the selected enemy, your dark persona ends even if the psyche's duration hasn't passed."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Empathic Connection",
+			"level": 12,
+			"traits": [
+				"Concentrate",
+				"Emotion",
+				"Enchantment",
+				"Mental",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "emotional acceptance subconscious mind",
+			"frequency": "once per 10 minutes",
+			"trigger": "An ally within 30 feet benefits from an {@trait emotion} effect.",
+			"entries": [
+				"Your sensitivity to your allies' emotions allows you to benefit from some of the same effects they do. Choose one of the following two benefits.",
+				{
+					"type": "list",
+					"items": [
+						"If the ally regained Hit Points due to the triggering effect, you gain half these Hit Points as temporary Hit Points that last until the end of your next turn.",
+						"If the ally gained a status bonus to a type of save or other check due to the triggering effect, you gain the same bonus. This benefit ends at the end of your next turn if it hasn't already ended before then due to its normal limitations or duration."
+					]
+				}
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mantra Of Discipline",
+			"level": 12,
+			"traits": [
+				"Concentrate",
+				"Emotion",
+				"Mental",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "precise discipline subconscious mind",
+			"entries": [
+				"You mentally or audibly utter a word or phrase that gives you the mettle to see through tricks and endure pain. Your mantra grants you a +1 status bonus to saving throws against {@trait illusion} and {@trait enchantment} effects until the start of your next turn. You also gain this bonus against {@trait any} effect that works primarily by causing pain (even if it isn't an {@trait illusion} or {@trait enchantment} effect), as well as resistance equal to half your level against damage caused by such an effect. These effects must work primarily by inflicting pain, such as phantom pain or savor the sting, rather than simply causing injury; the GM is the final arbiter of what counts as such an effect."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Immediate Gratification",
+			"level": 12,
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You can push your mind immediately into an overloaded state, though doing so accelerates your mental strain.",
+				"Benefit You gain the basic benefits of having your psyche unleashed, allowing you to amp focus spells without paying the cost, but you gain no specific benefits beyond that.",
+				"Drawback Prematurely pushing yourself into an overloaded state leaves your mind struggling to catch up. You're {@condition stupefied|CRB|stupefied 1} for the duration of your Unleashed psyche, and you can't remove or mitigate this condition in any way."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 13
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Reflexive Sustainment",
+			"level": 12,
+			"traits": [
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "You've cast a spell with a sustained duration during this encounter and then Sustained it on your next turn to extend its duration.",
+			"entries": [
+				"Your mind partitions itself to automatically handle some of your ongoing spells.",
+				"Benefit You become {@condition quickened} and can use the additional action only to {@action Sustain a Spell}.",
+				"Drawback Partitioning your mind into a second consciousness makes it more difficult to maintain spells. You can't use reactions or free actions on other creatures' turns, nor can you {@action Sustain a Spell} as a free action, such as with the Effortless Concentration feat."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Conscious Spell Specialization",
+			"level": 14,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your practice with the spells of your conscious mind allows you to cast them even more than normal. You gain an additional spell slot of 1st, 2nd, 3rd, and 4th levels. You can use these spell slots to cast only spells granted by your conscious mind.",
+				"At 18th level, you also gain an additional 5th‑level spell slot with the same restrictions."
+			],
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Deep Roots",
+			"level": 14,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your insidious mind-control spells send burrowing mental roots so deep that they tear at your target's mind even after they are removed or have run their course. When you cast a spell that imposes the {@condition controlled} condition or otherwise forces the target to take certain actions (such as command), you can choose one target who critically failed its save. When that target finishes fulfilling any commands issued by your spell, or when the spell is dispelled or counteracted, it takes {@damage 1d4} mental damage per level of the spell."
+			],
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Shatter Space",
+			"level": 14,
+			"traits": [
+				"Amp|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"The sheer power of your psychic magic causes fractures in reality. Use this amp in place of the psi cantrip's normal amp entry.",
+				"Amp You or one target of the spell are surrounded in a spiral of torn space. This is an aura in a 5‑foot emanation. A creature that starts its turn in the aura takes {@damage 1d6} slashing damage for every 2 levels of the amped psi cantrip, with a basic Reflex save against your spell DC. The aura lasts until the beginning of your next turn. You can choose whether the aura affects the creature emitting it."
+			],
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Constant Levitation",
+			"level": 16,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your power has unbound you from the earth below, letting you float harmlessly over traps and unstable terrain. You're affected by a constant air walk, except the highest you can walk is 5 feet above the ground. While your psyche is unleashed, you're also affected by a {@spell fly} spell."
+			],
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unleash Poltergeist Phenomena",
+			"level": 16,
+			"traits": [
+				"Aura",
+				"Evocation",
+				"Psyche|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "You've cast two evocation spells that affect an area since rolling initiative, each on a different round.",
+			"entries": [
+				"When your mind is unleashed, so is your sense of control, spilling psychic energies forth in an indiscriminate maelstrom.",
+				"Benefit While this psyche is Unleashed, you gain an aura of telekinetically whirling debris in a 15‑foot emanation.",
+				"Any creature that starts its turn in the aura takes {@dice 1d4} damage for every 2 levels you have, with a basic Reflex save against your spell DC. The damage is generally bludgeoning, piercing, or slashing damage based on the environment (for example, slashing damage if used near a glass window, bludgeoning damage if used in a cobblestone street). The GM might decide that other types of damage are applicable in rarer environments.",
+				"Drawback You aren't immune to the chaos of your power. You must be included in the aura of this psyche and must save against it as normal."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Cranial Detonation",
+			"level": 18,
+			"traits": [
+				"Amp|PT:DA",
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"As your magic fells a creature, you take advantage of their flickering consciousness to release a detonation of psychic energy from the creature's head. Use this amp in place of the psi cantrip's normal amp entry. Unlike with many amps, you choose to add this amp to a spell after you've successfully reduced a non‑mindless enemy to 0 Hit Points with the spell, rather than as part of Casting the Spell. You can't use this amp on a nonlethal spell.",
+				"Amp The enemy you reduced to 0 Hit Points dies (a {@trait death} effect), and its head explodes. If the cantrip reduced more than one foe to 0 Hit Points, choose one head to detonate. The detonation generates a shockwave in a 15‑foot emanation around that enemy. Each creature in the emanation takes {@dice 1d4} damage per level of the amped spell, with a basic save against your spell DC. You choose a physical or mental shockwave, and the explosion deals force damage with a basic Fortitude save (for a physical shockwave) or mental damage with a basic Will save (for a mental shockwave)."
+			],
+			"page": 14
+		},
+		{
+			"source": "PT:DA",
+			"name": "Deepest Wellspring",
+			"level": 18,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You've traveled to the furthest depths of your subconscious, granting you even more focus. Increase the number of Focus Points in your focus pool by 1. If you've spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you {@action Refocus} instead of 1."
+			],
+			"page": 15
+		},
+		{
+			"source": "PT:DA",
+			"name": "Become Thought",
+			"level": 20,
+			"traits": [
+				"Psychic",
+				"Transmutation"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You shed some of your material form, becoming a being of pure thought. You gain resistance 10 to physical damage but weakness 5 to mental damage and weakness 10 to {@trait any} effect that deals damage specifically by targeting the spirit, such as spirit blast. Once per century, when you die, you automatically return to life as long as one living sentient creature on your plane remembers you; the memories allow you to reconstruct yourself from their thoughts."
+			],
+			"page": 15
+		},
+		{
+			"source": "PT:DA",
+			"name": "Dual Amplification",
+			"level": 20,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You can modify and amplify your spells as much as you like.",
+				"You can apply two amps to a focus cantrip, instead of one, provided those amps can both be applied to the spell. It costs only 1 Focus Point to add both amps."
+			],
+			"page": 15
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mind Over Matter",
+			"level": 20,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your mind's limits are only what you imagine them to be. You gain an additional 10th‑level spell slot."
+			],
+			"page": 15
+		},
+		{
+			"source": "PT:DA",
+			"name": "Multifaceted Psyche",
+			"level": 18,
+			"traits": [
+				"Psychic|PT:DA"
+			],
+			"featType": {
+				"class": "Psychic",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "You have at least two psyche abilities.",
+			"entries": [
+				"You've uncovered so many facets of your psyche that you can bring two to the front when your mind is unleashed. If you've met the requirements for two psyche abilities, when you Unleash your psyche, you can enter both simultaneously, gaining both benefits and both drawbacks."
+			],
+			"page": 15
+		},
+		{
+			"source": "PT:DA",
+			"name": "Binding Oath",
+			"level": 1,
+			"traits": [
+				"Auditory",
+				"Enchantment",
+				"Linguistic",
+				"Occult",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"frequency": "once per day (resetting at sunset)",
+			"entries": [
+				"You bind yourself by speaking an oath. Supernatural power flows through and around you as you speak it, and all those present to hear it intrinsically know that it binds you, preventing you from willingly acting against your declared oath or ignoring promises made as part of the oath. Thaumaturges use this ability to earn trust from others and lend weight to their promises, allowing them to more easily offer an oath or promise as part of a bargain. The oath doesn't prevent unwilling violations and can't be used to try to circumvent mind-control magic, confusion, or similar situations where you perform an action not entirely of your own volition. You gain a +1 circumstance bonus to {@action Request} or {@action Coerce} creatures aware of your oath if you invoke it as part of a promise you make, due to the fact that the creatures know you must try to keep that promise.",
+				"If you have expert proficiency in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, you can swear a binding oath two times per day; if you have master proficiency in one of these skills, three times; and if you have legendary proficiency, as many times as you like."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 23
+		},
+		{
+			"source": "PT:DA",
+			"name": "Divine Disharmony",
+			"level": 1,
+			"traits": [
+				"Divine",
+				"Enchantment",
+				"Esoterica|PT:DA",
+				"Manipulate",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You pull out multiple opposing divine objects\u2014such as the religious symbols of two deities that are hated enemies\u2014and combine them in a display that is not only galling, but also causes discordant clashes of divine energy that are especially distracting to the faithful. Roll your choice of a {@skill Deception} or {@skill Intimidation} check against the Will DC of a creature you can see within 60 feet, with the following results. If the creature is particularly devoted to a deity, such as a cleric, celestial, monitor, fiend, or other creature with divine spells, you gain a +2 circumstance bonus to your skill check. The GM might determine that a creature that despises all deities, such as an alghollthu, is unaffected.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": "The creature is {@condition flat-footed} to your attacks until the end of your next turn.",
+						"Success": "The creature is {@condition flat-footed} against your attacks until the end of your current turn."
+					}
+				}
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 23
+		},
+		{
+			"source": "PT:DA",
+			"name": "Esoteric Lore",
+			"level": 1,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your diverse studies into various sources of lore mean you've heard rumors or theories about almost every topic... though admittedly, your sources aren't always the most reliable. You are trained in {@skill Lore|Esoteric Lore}, a special {@skill Lore} skill that can be used only to {@action Recall Knowledge}, but on any topic.",
+				"If you have legendary proficiency in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, you gain expert proficiency in {@skill Lore|Esoteric Lore}, but you can't increase your proficiency rank in {@skill Lore|Esoteric Lore} by any other means."
+			],
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Familiar",
+			"level": 1,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Whether by following occult rituals, piecing together scraps of arcane theory, or some other method, you've called forth a creature that now serves as your constant companion in your studies of the supernatural. You gain a familiar."
+			],
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Haunt Cunning",
+			"level": 1,
+			"traits": [
+				"Divination",
+				"Divine",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"One of the most useful pieces of cunning knowledge is the ability to notice the emotional echo of a soul that passed on, leaving a haunt in its wake. Even when you aren't Searching while in exploration mode, the GM rolls a secret check for you to notice haunts that usually require you to be Searching.",
+				"You can disable haunts that require master proficiency rank in a skill as long as you're at least trained in the skill. If you have master proficiency in the skill, you can disable haunts that require a proficiency rank of legendary instead.",
+				"While holding a lantern implement, you also gain a +1 circumstance bonus to {@skill Perception} checks to find haunts, to AC against attacks made by haunts, and to saves against haunts. If you have the lantern implement's adept benefit, the circumstance bonus is +2."
+			],
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Root To Life",
+			"level": 1,
+			"traits": [
+				"Esoterica|PT:DA",
+				"Manipulate",
+				"Necromancy",
+				"Primal",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Marigold, spider lily, pennyroyal\u2014many primal traditions connect flowers and plants with the boundary between life and death, and you can leverage this connection to keep an ally on this side of the line. You place a small plant or similar symbol on an adjacent {@condition dying} creature, immediately stabilizing them; the creature is no longer {@condition dying} and is instead {@condition unconscious} at 0 Hit Points.",
+				"If you spend 2 actions instead of 1, you empower the act further by uttering a quick folk blessing to chase away ongoing pain, adding the {@trait auditory} trait to the action. When you do so, attempt flat checks to remove each source of {@condition persistent damage} affecting the target; due to the particularly effective assistance, the DC is 10 instead of the usual 15."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "varies",
+				"entry": "{@as 1} OR {@as 2}"
+			},
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Scroll Thaumaturgy",
+			"level": 1,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your multidisciplinary study of magic means you know how to activate the magic in scrolls with ease. You can Activate scrolls of any magical tradition, using your thaumaturge class DC for the scroll's DC, rather than a particular spell DC.",
+				"If a spell is on the spell list for multiple traditions, you choose which tradition to use at the time you Activate the scroll."
+			],
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Call Implement",
+			"level": 2,
+			"traits": [
+				"Arcane",
+				"Conjuration",
+				"Manipulate",
+				"Teleportation",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You can tug on the connections between yourself and your implement, causing it to find its way back to you. You look down at your hand and find your implement has mysteriously appeared in it, as long as it was within 1 mile and on the same plane of existence. If your implement is attended by another creature, that creature can prevent the implement from teleporting away if it succeeds at a Will save against your class DC. If the creature succeeds, you can't attempt to Call that Implement again; you have to track the creature down to get the implement back."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Enhanced Familiar",
+			"level": 2,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "a familiar",
+			"entries": [
+				"By applying the best of multiple traditions of magic, you've found a more efficient way for your familiar to store its energy. You can select four familiar or master abilities each day, instead of two."
+			],
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Esoteric Warden",
+			"level": 2,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Find Flaws",
+			"entries": [
+				"When you apply antithetical material against a creature successfully, you also ward yourself against its next attacks.",
+				"When you Find Flaws and succeed at your {@action Recall Knowledge} check, in addition to the normal effects, you gain a +1 status bonus to your AC against the creature's next attack and a +1 status bonus to your next saving throw against the creature. These bonuses increase to +2 on a critical success.",
+				"You can gain these bonuses only once per day against a particular creature."
+			],
+			"page": 24
+		},
+		{
+			"source": "PT:DA",
+			"name": "Talisman Esoterica",
+			"level": 2,
+			"traits": [
+				"Esoterica|PT:DA",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You know how to assemble the supernatural objects in your esoterica into a number of temporary talismans. Each day during your daily preparations, you can make two talismans with an item level no higher than half your level. You must know each talisman's formula. A talisman created this way is a temporary item and loses its magic the next time you make your daily preparations.",
+				"You know the formulas for all common talismans in the Core Rulebook of your level or lower. You remember your talisman formulas through oral tradition or mnemonics, so you don't need a formula book for them."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Draw Warding Circle",
+			"level": 4,
+			"traits": [
+				"Abjuration",
+				"Concentrate",
+				"Esoterica|PT:DA",
+				"Manipulate",
+				"Occult",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Esoteric Antithesis",
+			"requirements": "You're benefiting from Esoteric Antithesis.",
+			"entries": [
+				"The circle is the simplest way to define a closed space, and by drawing a circle out of materials that resonate with a given creature, you define a space that prevents its entry\u2014or escape.",
+				"You spend 1 minute constructing a circle along the edges of a 10-foot burst, using materials you identified in the process of figuring out the creature's weaknesses, such as salt to keep out a ghost or anointed silver to contain a devil. Anyone except the chosen creature can cross the circle without trouble, but the chosen creature must attempt a Will save against your class DC whenever it attempts to do so. On a failure, the chosen creature remains on the same side of the circle and the action it was using to attempt to cross the circle is disrupted.",
+				"Creatures other than the chosen creature can spend a total of three {@action Interact} actions scuffing the circle to break the effect early. These actions don't need to be consecutive.",
+				"Because of the amount of time it takes, typically you construct a circle in advance after Investigating a specific creature. A circle remains effective until you either Draw another Warding Circle or your Esoteric Antithesis ends (typically until you use Find Flaws on another creature)."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Pact Of Fey Glamour",
+			"level": 4,
+			"traits": [
+				"Uncommon",
+				"Illusion",
+				"Primal",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You've sworn a pact with fey powers, granting you the otherworldly appearance of your dreams in exchange for oaths of hospitality. As long as you keep your end of the bargain, your base appearance changes indefinitely to any one appearance you wish that is within the bounds of possibility for your ancestry; this effect can't be counteracted or removed except by violating the pact. Additionally, you can cast {@spell illusory disguise} as a primal innate spell once per day, using your thaumaturge class DC instead of your spell DC if you prefer.",
+				"In exchange, you promise to accept any fey's request for hospitality, granting them food, drink, and lodging for up to 3 days and 3 nights. You also promise not to harm any creature to whom you've offered hospitality or who has shown hospitality to you, whether or not that creature is fey, unless that creature does harm first. Refusing hospitality to a fey or violating hospitality causes you to lose the benefits of this feat until you atone for your transgressions, instantly reverting your appearance to the one you had before the pact."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "One More Activation",
+			"level": 4,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You've forged a deeper connection to your invested items, allowing you to activate them more than usual. Once each day, you can {@action Activate an Item} you've invested even after you've used that activation the maximum number of times for its frequency. You can do so only if the item's level is half your level or lower, has a frequency of once per day or more, and you haven't already used the activation this round."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Thaumaturgic Ritualist",
+			"level": 4,
+			"traits": [
+				"Uncommon",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"Your studies into the supernatural have resulted in an especially strong knowledge of rituals. You gain a +2 circumstance bonus to all primary checks to perform a ritual.",
+				"You learn two uncommon rituals with a level no higher than half your level; you must meet all prerequisites for casting the ritual to choose it. At 8th level and every 4 levels thereafter, you learn another uncommon ritual with a level no higher than half your level and for which you meet the prerequisites.",
+				"You can cast these as the primary caster, but you can't teach them to anyone else or allow someone else to serve as primary caster unless they know the ritual as well."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Turn Away Misfortune",
+			"level": 4,
+			"traits": [
+				"Abjuration",
+				"Esoterica|PT:DA",
+				"Fortune",
+				"Manipulate",
+				"Occult",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"trigger": "You would attempt a roll affected by a {@trait misfortune} effect.",
+			"entries": [
+				"You perform a superstition, such as casting salt over your shoulder to ward off bad luck. Turn Away Misfortune's {@trait fortune} trait cancels out the {@trait misfortune} effect, causing you to roll normally."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Handy Esoterica",
+			"level": 6,
+			"traits": [
+				"Esoterica|PT:DA",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You include just about anything you might need amid all your esoterica. You gain the Prescient Planner and Prescient Consumable feats. When using Prescient Planner, you can pull out the item as a 2-action activity to remove your backpack (or a similar container) and draw the item, rather than taking 1 minute."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Scroll Esoterica",
+			"level": 6,
+			"traits": [
+				"Esoterica|PT:DA",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Scroll Thaumaturgy",
+			"entries": [
+				"Your esoterica collection includes scraps of scriptures, magic tomes, druidic markings, and the like, which you can use to create temporary scrolls. Each day during your daily preparations, you can create a single temporary scroll containing a 1st-level spell of any tradition. The spell must be common, or you must otherwise have access to it. This scroll is an unstable, temporary item and loses its magic the next time you make your daily preparations if you haven't used it.",
+				"It can't be used to Learn the Spell.",
+				"At 8th level, add a second temporary scroll containing a 2nd-level spell."
+			],
+			"page": 25
+		},
+		{
+			"source": "PT:DA",
+			"name": "Rule Of Three",
+			"level": 6,
+			"traits": [
+				"Auditory",
+				"Divination",
+				"Magical",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Find Flaws",
+			"frequency": "once per round",
+			"requirements": "You're benefiting from Esoteric Antithesis, you can see the subject, and you haven't used Find Flaws this round.",
+			"entries": [
+				"You've learned that there is great value in repetition, especially in sets of three. You must be able to speak your intent to the world and call out to the subject of your Esoteric Antithesis, but the subject doesn't need to understand or even hear you for your Rule of Three to take effect. The benefits depend on how many times you've uttered the Rule of Three and last as long as the creature is subject to your Esoteric Antithesis.",
+				{
+					"type": "list",
+					"items": [
+						"{@bold First Utterance} No benefit. If you've used Find Flaws in the presence of the creature, that counts as the first utterance (but not if you Found Flaws while Investigating the creature).",
+						"{@bold Second Utterance} You gain a +1 status bonus to attack rolls against the creature.",
+						"{@bold Third Utterance} The status bonus to attack rolls against the creature increases to +2, and the creature becomes flatfooted against your attacks."
+					]
+				}
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Elaborate Talisman Esoterica",
+			"level": 8,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Talisman Esoterica",
+			"entries": [
+				"As you continue to collect talismanic esoterica, you improve your ability to create temporary talismans. You can create four temporary talismans each day instead of two."
+			],
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Incredible Familiar",
+			"level": 8,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "{@feat Enhanced Familiar|SoM}",
+			"entries": [
+				"Multidisciplinary magical theory grants your familiar even more magic than other familiars. You can select a base of six familiar or master abilities each day, instead of four."
+			],
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Know-it-all",
+			"level": 8,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"When you've heard of something at all, you've heard about it at length. When you succeed at a Knowledge check, you gain additional information or context. When you critically succeed at a Knowledge check, at the GM's discretion, you might gain even more additional information or context than normal."
+			],
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Pact Of Infernal Prowess",
+			"level": 8,
+			"traits": [
+				"Uncommon",
+				"Divine",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You've sworn a pact with devils, granting you success in life in exchange for your soul in the afterlife. Once per day, when you critically fail a check, you can reroll the check as a free action; this is a {@trait fortune} effect. Additionally, you can choose to automatically succeed at checks to {@action Earn Income} for tasks below your level, without rolling.",
+				"However, when you die, your soul is consigned to Hell. You can't be returned to life except by powerful magic such as miracle, and even then, the devils responsible for the contract can track your every move for 1 year. The devils gain the effects of a {@spell discern location} spell. They can also use 10th-level {@spell scrying} on you at will, and you automatically critically fail your saving throw."
+			],
+			"special": "You can't retrain out of a Pact of Infernal Prowess without journeying to Hell and destroying the devil's written contract spelling out the terms of your pact.",
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Sympathetic Weakness",
+			"level": 8,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Esoteric Antithesis",
+			"entries": [
+				"You've learned how to expand your invocation of esoterica to apply not just to a specific individual, but other creatures with similar weaknesses, bringing you greater power. While you benefit from Esoteric Antithesis, your Strikes also count towards the weakness of any other creature with the same weakness your Esoteric Antithesis is set to. For instance, if you used Esoteric Antithesis on a red dragon, revealing its weakness 20 to cold and causing your Strikes to deal additional damage, you would also deal additional damage to the dragon's fire elemental minions, which have weakness 10 to cold. No other effects of Esoteric Antithesis apply to other creatures with the same weakness, and this feat has no effect when you create a custom weakness in a creature that otherwise has none."
+			],
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Share Antithesis",
+			"level": 10,
+			"traits": [
+				"Manipulate",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Esoteric Antithesis",
+			"requirements": "Your Esoteric Antithesis is set to a weakness its subject has (not a custom weakness).",
+			"entries": [
+				"You apply esoterica to an adjacent ally's weapons and body.",
+				"That ally's Strikes apply the weakness of the subject of your esoterica the same way your Strikes do. This benefit ends when Esoteric Antithesis ends or you Share Antithesis again.",
+				"You can't share a custom weakness you created with Esoteric Antithesis, only a weakness the creature has normally."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Thaumaturge's Investiture",
+			"level": 10,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Charisma 16",
+			"entries": [
+				"Using your knowledge of esoterica and implements, you can invest far more items than most. You gain the {@feat Incredible Investiture} skill feat, increasing your limit on invested items from 10 to 12. The limit increases to 14 if you have Charisma 18, 16 if you have Charisma 20, 18 if you have Charisma 22, and 20 if you have Charisma 24."
+			],
+			"page": 26
+		},
+		{
+			"source": "PT:DA",
+			"name": "Twin Weakness",
+			"level": 10,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Esoteric Antithesis",
+			"requirements": "You're holding an implement and a weapon, and the subject of your Esoteric Antithesis is within reach of both.",
+			"entries": [
+				"As you make an attack augmented by your esoterica, you also press your implement against the creature to apply its weakness. Make a melee {@action Strike} against the subject of your Esoteric Antithesis. On any attack roll result but a critical failure, you also press your implement against the creature, applying its weakness from Esoteric Antithesis.",
+				"This is in addition to any damage from your {@action Strike}, including the weakness it applies. This counts as two attacks when calculating your multiple attack penalty."
+			],
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Elaborate Scroll Esoterica",
+			"level": 12,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Scroll Esoterica",
+			"entries": [
+				"Your connection to your scroll esoterica grows stronger, allowing you to create much more powerful scrolls. In addition to your daily scrolls from Scroll Esoterica, add a scroll with a 3rd-level spell. At 14th level, add a scroll with a 4th-level spell.",
+				"At 16th level, add a scroll with a 5th-level spell."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Pact Of The Final Breath",
+			"level": 12,
+			"traits": [
+				"Uncommon",
+				"Divine",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You've sworn a pact with powerful psychopomps\u2014typically an olethros advocate or yamaraj judge\u2014granting you a reprieve before your soul will be collected, in exchange for respect for the dead and assistance against the undead. As long as you keep your end of the bargain, you live twice as long as you normally would before {@condition dying} of natural causes. Additionally, the first time each day that you would be reduced to 0 Hit Points and gain the {@condition dying} condition, you instead regain a number of Hit Points equal to your level (starting from 0 HP), remain conscious, and gain fast healing equal to half your level for 3 rounds.",
+				"In exchange, you swear to treat the dead you come across with respect, performing last rites and final dispositions to ensure their spirits rest in peace and are less likely to rise as undead. Furthermore, you swear to destroy undead you come across, so long as it's within your power to do so without inordinate risk to yourself. Violating your part of the pact causes its protections to immediately end. If at that point you had already lived beyond your natural life span, the psychopomps typically give you a few moments to make any last farewells, and then you simply breathe your final breath and pass on."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Quick Circle",
+			"level": 12,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Warding Circle",
+			"entries": [
+				"Long hours of practice and an instinctive understanding of boundaries lets you create protective circles impossibly quickly. As you fling your esoterica during a quick spin, you find that everything falls in a perfect circle each time. You can Draw a Warding Circle as a three-action activity, instead of taking 1 minute to do so."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Thaumaturge's Demesne",
+			"level": 12,
+			"traits": [
+				"Uncommon",
+				"Arcane",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You have claimed an area or location as your demesne, granting you the ability to ward and protect it. When you select this feat, choose a demesne, an area of no more than 200 square feet. You must legitimately claim the area; in the case of a building or property, you must own it, and in the case of an unowned plot of land, no other inhabitants can contest your claim.",
+				"Once you've chosen your demesne, it becomes automatically protected with an arcane {@spell private sanctum} spell with an unlimited duration, heightened to half your level rounded up and using your thaumaturge class DC in place of a spell DC, if necessary. Additionally, the demesne is attended by three unseen custodians, as called by a successful unseen custodian ritual (Advanced Player's Guide 245), and one object in the area gains an elemental sentinel, as a successful elemental sentinel ritual (Secrets of Magic 150)."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Esoteric Reflexes",
+			"level": 14,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "an implement that grants a reaction",
+			"entries": [
+				"Your connection to your implements is so strong that you can use their reactive abilities almost by instinct. At the start of your turn, you gain an additional reaction, which you can use only for the reactions granted by your implements."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Grand Talisman Esoterica",
+			"level": 14,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Elaborate Talisman Esoterica",
+			"entries": [
+				"You have completed your journey in studying esoteric talismans, gaining yet more temporary talismans each day.",
+				"You can create six temporary talismans each day instead of four."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Shared Warding",
+			"level": 14,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Esoteric Warden",
+			"entries": [
+				"You ward your allies from the attacks of your foes whenever you apply those protections to yourself. When you gain a status bonus to AC and saves from Esoteric Warden, you can also choose to grant the same benefit to all allies within 30 feet."
+			],
+			"page": 27
+		},
+		{
+			"source": "PT:DA",
+			"name": "Implausible Esoterica",
+			"level": 16,
+			"traits": [
+				"Esoterica|PT:DA",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Handy Esoterica",
+			"entries": [
+				"It seems impossible, but your esoterica are so eclectic and complete that you can keep pulling out exactly the item you need, even in far-flung locations. You can use Prescient Planner even if you've already used it after purchasing goods, and you can use it as a single action instead of a 2-action activity, during which you {@action Interact} to draw the item.",
+				"In addition, five times per day, you can use Prescient Planner to pull out a common consumable item of a level up to 6 levels lower than your level."
+			],
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Implement's Flight",
+			"level": 16,
+			"traits": [
+				"Primal",
+				"Thaumaturge|PT:DA",
+				"Transmutation"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"By weakening your connection to the ground and strengthening your connection to the sky, you've learned to soar through the air, your implement carrying you as surely as any broomstick or pestle. As long as you're holding your implement, you gain a fly Speed equal to your land Speed."
+			],
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Sever Magic",
+			"level": 16,
+			"traits": [
+				"Abjuration",
+				"Arcane",
+				"Esoterica|PT:DA",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "You're holding an implement in one hand.",
+			"entries": [
+				"You apply a frayed thread, a pinch of fulu ash, or a similar undone charm, and you swing to break a spell. Make a {@action Strike} against an enemy. If you hit and deal damage, you attempt to counteract a single spell active on the target (your choice)",
+				"Your counteract level is equal to half your level (rounded up), and your counteract check modifier is equal to your class."
+			],
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Trespass Teleportation",
+			"level": 16,
+			"traits": [
+				"Conjuration",
+				"Occult",
+				"Teleportation",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Esoteric Antithesis",
+			"trigger": "The subject of your Esoteric Antithesis uses a {@trait teleportation} effect and is within 120 feet.",
+			"requirements": "You're benefiting from Esoteric Antithesis.",
+			"entries": [
+				"Your mystical connection to your foe is so strong that you can follow them to the ends of this world, or any other. You teleport along with the foe, appearing the same direction and distance from it as you were before it teleported away (or the nearest unoccupied space if your destination is occupied)."
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Grand Scroll Esoterica",
+			"level": 18,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Elaborate Scroll Esoterica",
+			"entries": [
+				"You've completed the third and final step in your assimilation of scroll esoterica, granting you daily scrolls of incredible power. In addition to your daily scrolls from Scroll Esoterica and Elaborate Scroll Esoterica, add a single scroll with a 6th-level spell. At 20th level, add a scroll with a 7th-level spell."
+			],
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Implement's Assault",
+			"level": 18,
+			"traits": [
+				"Evocation",
+				"Primal",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"requirements": "You're holding both an implement and a weapon.",
+			"entries": [
+				"You use your implement to gather physical magic and channel it into your weapon, empowering it to shoot an impossible volley of missiles or soar across the battlefield and carve through your foes. Make a {@action Strike} with your weapon against each foe within 30 feet of you. Don't increase your multiple attack penalty until after making all the attacks. If your weapon is a melee weapon and any of the attacks are outside your reach, you {@action Release} the weapon before the Strikes, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space. As normal, if your weapon requires one or more actions to reload between Strikes, you can't use it to make multiple attacks with Implement's Assault."
+			],
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Intense Implement",
+			"level": 18,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"entries": [
+				"You have an exceptional connection to one of your lesser implements, allowing you to tap into more of its power. You gain the adept benefit for one of your implements for which you have only the initiate benefit."
+			],
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Ubiquitous Antithesis",
+			"level": 20,
+			"traits": [
+				"Manipulate",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Share Antithesis",
+			"entries": [
+				"You've channeled your power into the connections you've formed with your comrades, allowing you to share the benefits of your esoterica with all of them. Whenever you use Esoteric Antithesis, all your allies within 30 feet gain the benefits as well. Since this effect depends on magically strengthening your connection to your allies, only allies with whom you've developed a connection over the course of one or more days gain the benefit, rather than new allies you just met."
+			],
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Unlimited Demesne",
+			"level": 20,
+			"traits": [
+				"Arcane",
+				"Conjuration",
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "Thaumaturge's Demesne",
+			"entries": [
+				"You can move your demesne from place to place, bringing it along wherever your journey takes you. Once per day, you can invoke your demesne and call it forth, in a process that takes 1 minute. This has the effects of resplendent mansion, except that it conjures forth your demesne from its previous location, with all the benefits of Thaumaturge's Demesne in addition to the benefits of the spell. You must be able to claim the new area as your demesne, with the same restrictions as Thaumaturge's Demesne."
+			],
+			"page": 28
+		},
+		{
+			"source": "PT:DA",
+			"name": "Wonder Worker",
+			"level": 20,
+			"traits": [
+				"Thaumaturge|PT:DA"
+			],
+			"featType": {
+				"class": "Thaumaturge",
+				"general": false,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"prerequisites": "legendary in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}",
+			"entries": [
+				"You've transcended to the culmination of the thaumaturge's path, gaining the ability to work wonders. Once per day, you can call upon your power to cast a spell of 8th level or lower that takes 1, 2, or 3 actions to cast. The spell must be common or one to which you have access. You can choose a spell of any tradition for which you're legendary in the associated skill ({@skill Arcana} for arcane, {@skill Nature} for primal, {@skill Occultism} for occult, or {@skill Religion} for divine). Use your thaumaturge class DC in place of any necessary spell DC and your thaumaturge class DC \u2013 10 in place of any necessary counteract modifier or spell attack modifier."
+			],
+			"page": 28
+		},
 		{
 			"source": "PT:SoM",
 			"name": "Arcane Fists",
@@ -7884,7 +12233,7 @@
 			"cost": null,
 			"entries": [
 				"You've found a way to use a hodgepodge combination of devices to enhance your visual abilities in every situation.",
-				"You gain {@ability darkvision} and low-light vision, and you can see {@condition invisible} creatures and objects as translucent shapes, though these shapes appear indistinct enough to be {@condition concealed} to you. If an effect would give you the {@condition blinded} condition, the effect must attempt a counteract check against you. On a failed counteract check, you aren't {@condition blinded}, as your various devices are able to compensate."
+				"You gain {@ability darkvision} and {@ability low-light vision}, and you can see {@condition invisible} creatures and objects as translucent shapes, though these shapes appear indistinct enough to be {@condition concealed} to you. If an effect would give you the {@condition blinded} condition, the effect must attempt a counteract check against you. On a failed counteract check, you aren't {@condition blinded}, as your various devices are able to compensate."
 			],
 			"activity": null,
 			"special": null,
@@ -8427,6 +12776,58 @@
 		}
 	],
 	"trait": [
+		{
+			"name": "Esoterica",
+			"source": "PT:DA",
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"The esoterica trait is present in many thaumaturge feats and class features that draw upon the various talismans, supernatural trinkets, and other objects you carry with you. Abilities that have the esoterica trait require you to be in possession of your esoterica to use them. Normally, you're assumed to always have your esoterica with you, but in some rare circumstances, you might either not have them on hand or have your gear stripped from you."
+			]
+		},
+		{
+			"name": "Psyche",
+			"source": "PT:DA",
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"A psyche is a mindset you enter with an Unleash psyche action. A psyche usually has a specific requirement to enter it as well as its own benefits and drawbacks. You can't Unleash two different psyches at once.",
+				"While your psyche is unleashed, in addition to its other effects, you're constantly surrounded by the manifestation of your psychic magic. This allows you to amp one psi cantrip each round without spending the Focus Point cost to do so. This outpouring of psychic power also overwhelms any other magic you might be able to cast; until you've returned your mind to normal, the only focus spells you can cast are psi cantrips, even if you have other focus spells (such as from an archetype).",
+				"Your unleashed psyche persists for 3 rounds or until you fall unconscious. Once your psyche is unleashed, there's no putting it back\u2014you can't voluntarily exit this state. As heightened stress and tension are necessary elements for accessing this heightened psychic state, you can Unleash your psyche only during encounter mode against a significant threat. This requirement typically applies in any easy or more challenging encounter, but the GM might allow it in some trivial encounters. Once you've unleashed your psyche, you can't do so again until you've {@action Refocus||Refocused} to bring your mind back to normal."
+			]
+		},
+		{
+			"name": "Amp",
+			"source": "PT:DA",
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"Amps are special thoughtforms that modify the properties of your psi cantrips. You can apply an amp only to a psi cantrip, which is referred to as the amped cantrip. Applying an amp to a psi cantrip costs 1 Focus Point and is part of the actions needed to Cast the Spell. The singular focus required to amp a psi cantrip means that unless otherwise noted, you can apply only one amp to a given psi cantrip, and you can't apply both an amp and a metamagic ability to a cantrip at the same time. If both an amp and the amped cantrip deal damage of the same type, combine their damage for the purpose of resistances and weaknesses. Feats with the amp trait provide different amps you can apply to psi cantrips in place of their normal amps."
+			]
+		},
+		{
+			"name": "Thaumaturge",
+			"source": "PT:DA",
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"{@note No entry given.}"
+			]
+		},
+		{
+			"name": "Psychic",
+			"source": "PT:DA",
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"{@note No entry given.}"
+			]
+		},
 		{
 			"name": "Gunslinger",
 			"source": "PT:G&G",
@@ -9084,6 +13485,338 @@
 		}
 	],
 	"spell": [
+		{
+			"source": "PT:DA",
+			"name": "Telekinetic Rend",
+			"level": 0,
+			"school": "V",
+			"type": "CANTRIP",
+			"focus": false,
+			"components": {
+				"F": false,
+				"M": false,
+				"S": true,
+				"V": true
+			},
+			"traits": [
+				"Uncommon",
+				"Cantrip",
+				"Evocation",
+				"Psychic"
+			],
+			"entries": [
+				"Your mind creates a violent axis of motion in a nearby space. You deal your choice of {@damage 1d6} bludgeoning or {@damage 1d6} slashing damage to all creatures in the area, with a basic Fortitude save.",
+				"{@b Amp} Your thoughts expand in scope and power. You add another 5‑foot burst to the area, though the two bursts can't overlap, and as normal, a Large creature in more than one of the bursts takes damage only once. The bursts deal {@damage 1d6} bludgeoning damage and {@damage 1d6} slashing damage, instead of the usual damage.",
+				"{@b Amp Heightened (+2)} As amp, but the damage increases by {@damage 1d6} bludgeoning and {@damage 1d6} slashing."
+			],
+			"cast": {
+				"number": 2,
+				"unit": "action"
+			},
+			"range": {
+				"type": "point",
+				"entry": "30 feet",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"area": {
+				"types": [
+					"Burst"
+				],
+				"entry": "5‑foot burst"
+			},
+			"duration": {
+				"type": null
+			},
+			"savingThrow": "Fortitude",
+			"savingThrowBasic": true,
+			"heightened": {
+				"heightened": true,
+				"plus_x": {
+					"level": 2,
+					"entry": "The damage increases by {@dice 1d6}."
+				},
+				"x": null,
+				"no_x": null
+			},
+			"dismiss": false,
+			"sustain": false,
+			"page": 7
+		},
+		{
+			"source": "PT:DA",
+			"name": "Arrest Trajectory",
+			"level": 0,
+			"school": "V",
+			"type": "CANTRIP",
+			"focus": false,
+			"components": {
+				"F": false,
+				"M": false,
+				"S": false,
+				"V": true
+			},
+			"traits": [
+				"Uncommon",
+				"Cantrip",
+				"Evocation",
+				"Psychic"
+			],
+			"entries": [
+				"You arrest approaching projectiles in midair. The target gains a +1 circumstance bonus to AC against the triggering attack. If the attack misses, the projectile clatters to the ground harmlessly.",
+				"{@b Amp} You not only block the missile but send it back to its source. Unlike with many amps, you choose to amp this spell after you've successfully blocked an attack with arrest trajectory, rather than as part of Casting the Spell. After blocking the missile, you then hurl the intercepted missile back at its source. You cast {@spell telekinetic projectile}, targeting the attacker. You don't need to have the spell in your spell repertoire to cast it in this way, the spell's range is 60 feet, and you can't amp it. You're then {@condition slowed|CRB|slowed 1} until the end of your next turn."
+			],
+			"cast": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"trigger": "You or an ally are the target of a physical ranged {@action Strike}.",
+			"range": {
+				"type": "point",
+				"entry": "30 feet",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"targets": "the triggering creature",
+			"duration": {
+				"type": null
+			},
+			"savingThrowBasic": false,
+			"heightened": {
+				"heightened": true,
+				"plus_x": null,
+				"x": [
+					{
+						"level": 7,
+						"entry": "The circumstance bonus to AC increases to +2."
+					}
+				],
+				"no_x": null
+			},
+			"dismiss": false,
+			"sustain": false,
+			"page": 7
+		},
+		{
+			"source": "PT:DA",
+			"name": "Mental Scan",
+			"level": 0,
+			"school": "D",
+			"type": "CANTRIP",
+			"focus": false,
+			"components": {
+				"F": false,
+				"M": false,
+				"S": false,
+				"V": true
+			},
+			"traits": [
+				"Uncommon",
+				"Cantrip",
+				"Divination",
+				"Psychic",
+				"Scrying"
+			],
+			"entries": [
+				"You quickly view your surroundings from a variety of angles, your senses constructing a complex mental picture. You can choose to {@action Seek} in the spell's area; however, regardless of whether you {@action Seek}, choose one creature in the area to target. If the target is {@condition concealed} or {@condition hidden} from you, you automatically succeed at the flat check to target it with this spell. This counts as preparing to {@action Aid} one ally of your choice on an attack roll against the creature, and when you take this {@action Aid} reaction and roll a critical failure, you get a failure instead.",
+				"{@b Amp} Your scans are so minute you can project the creature's likely strengths and weaknesses. You learn which of the target's saving throws is highest and which is lowest, and you and all allies within 30 feet gain a +1 circumstance bonus to attacks and damage against the creature for 1 round. If you take the {@action Aid} reaction you prepared for with mental scan and succeed, these bonuses increase to +2 on the attack you're Aiding."
+			],
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"range": {
+				"type": null
+			},
+			"area": {
+				"types": [
+					"Cone"
+				],
+				"entry": "30‑foot cone"
+			},
+			"duration": {
+				"type": null
+			},
+			"savingThrowBasic": false,
+			"heightened": {
+				"heightened": false,
+				"plus_x": null,
+				"x": null,
+				"no_x": null
+			},
+			"dismiss": false,
+			"sustain": false,
+			"page": 7
+		},
+		{
+			"source": "PT:DA",
+			"name": "Future Path",
+			"level": 0,
+			"school": "D",
+			"type": "CANTRIP",
+			"focus": false,
+			"components": {
+				"F": false,
+				"M": false,
+				"S": true,
+				"V": true
+			},
+			"traits": [
+				"Uncommon",
+				"Cantrip",
+				"Divination",
+				"Psychic"
+			],
+			"entries": [
+				"You see a perfect path through a danger, knowing exactly where to step and how to move to avoid attacks. You {@action Stride}.",
+				"This movement doesn't trigger reactions. If you have the corresponding movement type, you can choose to {@action Burrow}, {@action Climb}, {@action Fly}, or {@action Swim} instead of {@action Stride}.",
+				"{@b Amp} Your vision of the future is so precise that you can move more quickly. You {@action Stride} twice instead of once.",
+				"{@b Amp Heightened (8th)} You can choose to instead project your vision to an ally within 30 feet. Instead of moving yourself, you allow your ally to {@action Stride} without triggering reactions as a single action. This must be the first action the ally takes on its next turn or the benefit is lost."
+			],
+			"cast": {
+				"number": 2,
+				"unit": "action"
+			},
+			"range": {
+				"type": null
+			},
+			"duration": {
+				"type": null
+			},
+			"savingThrowBasic": false,
+			"heightened": {
+				"heightened": false,
+				"plus_x": null,
+				"x": null,
+				"no_x": null
+			},
+			"dismiss": false,
+			"sustain": false,
+			"page": 8
+		},
+		{
+			"source": "PT:DA",
+			"name": "Nudge Intent",
+			"level": 0,
+			"school": "E",
+			"type": "CANTRIP",
+			"focus": false,
+			"components": {
+				"F": false,
+				"M": false,
+				"S": true,
+				"V": true
+			},
+			"traits": [
+				"Uncommon",
+				"Cantrip",
+				"Emotion",
+				"Enchantment",
+				"Fear",
+				"Mental",
+				"Psychic"
+			],
+			"cast": {
+				"number": 2,
+				"unit": "action"
+			},
+			"range": {
+				"type": "point",
+				"entry": "30 feet",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"targets": "1 creature",
+			"duration": {
+				"type": null
+			},
+			"entries": [
+				"You brush against a foe's thoughts to subtly suggest a course of action. The idea percolates within the depths of their mind, and something feels wrong if they attempt to do anything other than your suggested course of action. Choose either \"Strike,\" \"Cast a Spell,\" or \"Use a skill action.\" If the target can't pursue the option, they're automatically unaffected. For instance, a creature without spells would be unaffected by \"Cast a Spell.\" Otherwise, at the beginning of their next turn, the target must either choose to do their best to perform your chosen action that turn or attempt a Will save. Regardless of the outcome, the target is then temporarily immune for 1 minute.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": "The target is unaffected.",
+						"Success": "The target is temporarily shaken when it attempts to ignore the instincts telling it to perform the action you chose. It becomes {@condition frightened} 1.",
+						"Failure": "The target is greatly shaken as it resists the urge to follow your suggestion. It becomes {@condition frightened} 2.",
+						"Critical Failure": "The target can't shake the sense that its choice will lead to calamity. It becomes {@condition frightened} 3."
+					}
+				},
+				"Your telepathic push is particularly shocking. If the target fails or critically fails its save, it's also {@condition stunned} 1."
+			],
+			"savingThrow": "Will",
+			"savingThrowBasic": false,
+			"heightened": {
+				"heightened": false,
+				"plus_x": null,
+				"x": null,
+				"no_x": null
+			},
+			"dismiss": false,
+			"sustain": false,
+			"page": 8
+		},
+		{
+			"source": "PT:DA",
+			"name": "Shatter Mind",
+			"level": 0,
+			"school": "E",
+			"type": "CANTRIP",
+			"focus": false,
+			"components": {
+				"F": false,
+				"M": false,
+				"S": true,
+				"V": true
+			},
+			"traits": [
+				"Uncommon",
+				"Cantrip",
+				"Enchantment",
+				"Mental",
+				"Psychic"
+			],
+			"entries": [
+				"You telepathically assail the minds of your foes. You deal {@damage 3d6} mental damage to all enemies in the area, with a basic Will save.",
+				"{@b Amp} You increase the area of the spell to your choice of a 30‑foot or 60‑foot cone. Creatures that fail are {@condition stupefied|CRB|stupefied 1} for 1 round (or {@condition stupefied|CRB|stupefied 2} on a critical failure).",
+				"{@b Amp Heightened (+1)} The damage increases by {@dice 1d6}."
+			],
+			"cast": {
+				"number": 2,
+				"unit": "action"
+			},
+			"range": {
+				"type": null
+			},
+			"area": {
+				"types": [
+					"Cone"
+				],
+				"entry": "15‑foot cone"
+			},
+			"duration": {
+				"type": null
+			},
+			"savingThrow": "Will",
+			"savingThrowBasic": true,
+			"heightened": {
+				"heightened": true,
+				"plus_x": {
+					"level": 2,
+					"entry": "The damage increases by {@dice 1d6}."
+				},
+				"x": null,
+				"no_x": null
+			},
+			"dismiss": false,
+			"sustain": false,
+			"page": 9
+		},
 		{
 			"source": "PT:SoM",
 			"name": "Evolution Surge",
