@@ -5002,7 +5002,7 @@
 			"classSource": "PT:G&G",
 			"level": 3,
 			"entries": [
-				"You don't like being told what to do, and you don't give up easily. Your proficiency rank for Will saves increases to expert. Whenever you fail, but not critically fail, a Will save against an effect that would give you the controlled condition, you can attempt a new save against the effect at the start of your next turn. On a successful save, the controlled condition ends, though any other effects remain."
+				"You don't like being told what to do, and you don't give up easily. Your proficiency rank for Will saves increases to expert. Whenever you fail, but not critically fail, a Will save against an effect that would give you the {@condition controlled} condition, you can attempt a new save against the effect at the start of your next turn. On a successful save, the {@condition controlled} condition ends, though any other effects remain."
 			]
 		},
 		{
@@ -6893,10 +6893,10 @@
 				"skill": false,
 				"archetype": false
 			},
-			"trigger": "A creature Casts a Spell that has the {@trait mental} trait.",
+			"trigger": "A creature {@action Cast a Spell||Casts a Spell} that has the {@trait mental} trait.",
 			"requirements": "You have an unexpended spell slot you could use to {@action Cast a Spell} that has the {@trait mental} trait.",
 			"entries": [
-				"When a foe Casts a Spell that has the {@trait mental} trait and you can see its manifestations, you can use your own mental magic to disrupt it. You expend one of your spell slots to counter the triggering creature's casting of a spell with the {@trait mental} trait. You lose your spell slot as if you had cast the triggering spell; this spell slot must be one for which you could cast a spell with the {@trait mental} trait. You then attempt to counteract the triggering spell."
+				"When a foe {@action Cast a Spell||Casts a Spell} that has the {@trait mental} trait and you can see its manifestations, you can use your own mental magic to disrupt it. You expend one of your spell slots to counter the triggering creature's casting of a spell with the {@trait mental} trait. You lose your spell slot as if you had cast the triggering spell; this spell slot must be one for which you could cast a spell with the {@trait mental} trait. You then attempt to counteract the triggering spell."
 			],
 			"activity": {
 				"number": 1,
@@ -7864,8 +7864,8 @@
 				"archetype": false
 			},
 			"entries": [
-				"Your diverse studies into various sources of lore mean you've heard rumors or theories about almost every topic... though admittedly, your sources aren't always the most reliable. You are trained in {@skill Lore|Esoteric Lore}, a special {@skill Lore} skill that can be used only to {@action Recall Knowledge}, but on any topic.",
-				"If you have legendary proficiency in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, you gain expert proficiency in {@skill Lore|Esoteric Lore}, but you can't increase your proficiency rank in {@skill Lore|Esoteric Lore} by any other means."
+				"Your diverse studies into various sources of lore mean you've heard rumors or theories about almost every topic... though admittedly, your sources aren't always the most reliable. You are trained in {@skill Lore||Esoteric Lore}, a special {@skill Lore} skill that can be used only to {@action Recall Knowledge}, but on any topic.",
+				"If you have legendary proficiency in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, you gain expert proficiency in {@skill Lore||Esoteric Lore}, but you can't increase your proficiency rank in {@skill Lore||Esoteric Lore} by any other means."
 			],
 			"page": 24
 		},
@@ -9227,7 +9227,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"One spell is your favored combat technique, and you've practiced it enough that you no longer need to prepare it to cast it. Choose a spell in your spellbook that you could use with {@action Striking Spell|PT:SoM} and that has a level no higher than the highest-level {@class magus|pt:som} spell slot you have. You can Cast this Spell without having it prepared ahead of time by expending a spell slot of a sufficient level to cast the spell.",
+				"One spell is your favored combat technique, and you've practiced it enough that you no longer need to prepare it to cast it. Choose a spell in your spellbook that you could use with {@action Striking Spell|PT:SoM} and that has a level no higher than the highest-level {@class magus|pt:som} spell slot you have. You can {@action Cast a Spell||Cast this Spell} without having it prepared ahead of time by expending a spell slot of a sufficient level to cast the spell.",
 				"You can change this spell when you add new spells to your spellbook or by studying your spellbook for 1 hour per level of the newly chosen spell."
 			],
 			"activity": null,
@@ -11538,7 +11538,7 @@
 			"prerequisites": null,
 			"frequency": "once per minute",
 			"trigger": null,
-			"requirements": "You're wielding a loaded firearm or crossbow and not fatigued.",
+			"requirements": "You're wielding a loaded firearm or crossbow and not {@condition fatigued}.",
 			"cost": null,
 			"entries": [
 				"Your steps echo with the thunderous retort of exploding black powder as you dance a dance of death. Use any of the following actions you choose in any order: {@action Step|CRB}, {@action Strike|CRB} against a target within your firearm's first range increment, and {@action Interact|CRB} to reload. If you attempted a {@action Strike|CRB} and it succeeds, you can repeat these three actions again in any order. If you attempted a {@action Strike|CRB} in the second set and succeed, you can repeat the actions one last time. After using Dance of Thunder, you become {@condition fatigued} for 1 minute."

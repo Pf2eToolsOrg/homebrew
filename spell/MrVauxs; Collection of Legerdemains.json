@@ -5,7 +5,7 @@
 				"json": "CoLegerdemains",
 				"abbreviation": "CoL",
 				"full": "Collection of Legerdemains",
-				"url": "",
+				"url": "https://github.com/Pf2eTools/homebrew",
 				"authors": [
 					"MrVauxs"
 				],
@@ -19,6 +19,8 @@
 		"dateAdded": 1627223339,
 		"dateLastModified": 1627223336
 	},
+	"feat": [
+	],
 	"spell": [
 		{
 			"source": "CoLegerdemains",
