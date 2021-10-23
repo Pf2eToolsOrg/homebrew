@@ -23,6 +23,7 @@ jobs:
     - run: npm ci
     - run: npm run build
   push:
+    needs: index
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
