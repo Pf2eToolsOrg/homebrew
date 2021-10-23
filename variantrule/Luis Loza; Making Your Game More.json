@@ -1,0 +1,332 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Luis-MYGM",
+				"abbreviation": "MYGM",
+				"full": "Making Your Game More...",
+				"url": "https://www.luisloza.com/blog/categories/hero-points",
+				"authors": [
+					"Luis Loza"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "1166ff",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1634955723,
+		"dateLastModified": 1634955723
+	},
+	"trait": [
+		{
+			"name": "Heroic",
+			"source": "Luis-MYGM",
+			"categories": [
+				"General"
+			],
+			"entries": [
+				"A feat with this trait affects or manipulates the usage of Hero Points. A given use of a Hero Point can only be affected by a single feat with this trait at a time, even if multiple feats could apply to the usage of the Hero Point."
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Heroic Conservation",
+			"source": "Luis-MYGM",
+			"level": 1,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"leadsTo": [
+				"Improved Heroic Conservation|Luis-MYGM"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"trigger": "You use a Hero Point.",
+			"entries": [
+				"Your talents allow you to maintain your heroic potential. After determining the results of your use of a Hero Point, attempt a DC {@flatDC 19} flat check. On a success, you retain that Hero Point and can use it again immediately. If your use of a Hero Point granted you a reroll and you failed that check, the flat check to retain the Hero Point is only DC {@flatDC 17}."
+			]
+		},
+		{
+			"name": "Heroic Reposition",
+			"source": "Luis-MYGM",
+			"level": 3,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"trigger": "You use a Hero Point.",
+			"entries": [
+				"Your heroic potential moves you around the battlefield. You {@action Stride} or {@action Step}."
+			]
+		},
+		{
+			"name": "Heroic Resistance",
+			"source": "Luis-MYGM",
+			"level": 3,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"trigger": "You use a Hero Point to reroll a saving throw.",
+			"entries": [
+				"Your heroic potential defends you from further attempts to harm you. After determining the results of your use of a Hero Point, you gain a +2 circumstance bonus to the type of saving throw you just attempted (Fortitude saves, Reflex saves, or Will saves) for 1 minute."
+			]
+		},
+		{
+			"name": "Heroic Recovery",
+			"source": "Luis-MYGM",
+			"level": 7,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"trigger": "You use a Hero Point.",
+			"entries": [
+				"Your heroic potential invigorates you to keep fighting. You recover a number of Hit Points equal to twice your level."
+			]
+		},
+		{
+			"name": "Heroic Devastation",
+			"source": "Luis-MYGM",
+			"level": 7,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"trigger": "You use a Hero Point to reroll an attack roll.",
+			"entries": [
+				"Your heroic potential guides your attack. If your reroll causes your attack roll to succeed, you get a critical success instead. If your reroll caused you to critically succeed, your attack causes your target to become {@condition stunned 1} in addition to the normal effects of your critical success."
+			]
+		},
+		{
+			"name": "Improved Heroic Conservation",
+			"source": "Luis-MYGM",
+			"level": 11,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"leadsTo": [
+				"Greater Heroic Conservation|Luis-MYGM"
+			],
+			"prerequisites": "{@feat Heroic Conservation|Luis-MYGM}",
+			"trigger": "You use a Hero Point to reroll an attack roll.",
+			"entries": [
+				"You are more capable at maintaining your heroic potential. The DC to recover a Hero Point with Heroic Conservation is only a DC {@flatDC 17}, or a DC {@flatDC 15} if you failed a reroll granted by the Hero Point."
+			]
+		},
+		{
+			"name": "Greater Heroic Conservation",
+			"source": "Luis-MYGM",
+			"level": 19,
+			"featType": {
+				"class": false,
+				"general": true,
+				"ancestry": false,
+				"skill": false,
+				"archetype": false
+			},
+			"traits": [
+				"General",
+				"Heroic"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"prerequisites": "{@feat Improved Heroic Conservation|Luis-MYGM}",
+			"trigger": "You use a Hero Point to reroll an attack roll.",
+			"entries": [
+				"Your capacity to maintain your heroic potential is unmatched. The DC to recover a Hero Point with Heroic Conservation is only a DC {@flatDC 15}, or a DC {@flatDC 13} if you failed a reroll granted by the Hero Point."
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Making Your Game More Heroic",
+			"source": "Luis-MYGM",
+			"type": "Hero Points Variant",
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"collapsible": true,
+					"name": "Making Your Game More Heroic (Part 1)",
+					"source": "Luis-MYGM",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"I've been doing a lot of thinking about Hero Points in Pathfinder 2E lately. The intent for Hero Points is to give PCs a little more lasting power or to get a chance to change fate in their favor. However, I feel that in practice, Hero Points are saved to be used against particularly bad effects (a critical failure on a saving throw) or to avoid dealing with the hassle of the dying rules. Part of that is the fact that a lot of GMs (including myself) have trouble remembering to give out Hero Points at all. This makes the one Hero Point at the start of the session all the more precious. However, I think another aspect is the limited capability of a Hero Point. I've decided to expand on the potential of Hero Points to give players more options with each Hero Point. Feel free to snag any of these that you want for your own game!"
+							]
+						},
+						{
+							"type": "pf2-options",
+							"items": [
+								{
+									"type": "item",
+									"name": "Extra Actions (2 Hero Points)",
+									"entries": [
+										"You become {@condition quickened} until the end of your turn. You can use the extra action to {@action Stride}, {@action Strike}, {@action Step}, {@action Climb}, {@action Swim}, {@action Leap}, or to provide one of the actions needed for a {@action High Jump} or {@action Long Jump}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Fast Healing (1 Hero Point)",
+									"entries": [
+										"You gain {@ability fast healing} value equal to half your level (minimum 1) for a number of rounds equal to your Constitution modifier (minimum 1 round)."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Focus Power (2 Hero Points)",
+									"entries": [
+										"You can cast a single Focus Spell without needing to spend a Focus Point."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Refill Reaction (1 Hero Point)",
+									"entries": [
+										"You regain your reaction for the turn, as if it were the start of your turn."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Temporary Hit Points (1 Hero Point)",
+									"entries": [
+										"You gain a number of temporary Hit Points equal to your level. You lose any remaining temporary Hit Points after 1 minute."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"collapsible": true,
+					"name": "Making Your Game More Heroic (Part 2)",
+					"source": "Luis-MYGM",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"In my last post, I talked about expanding the uses for Hero Points. This time around, I'm going to talk about when to give out Hero Points. Following the guidance in the core rules, you should endeavor to hand out a Hero Point about once per each hour beyond the first. It then offers suggestions at good points to offer Hero Points, which include various heroic moments. If you're like me, you might want a bit more guidance on good moments to hand out Hero Points, though. I have just that for you! Here are a few more suggestions on good time to hand out Hero Points. A few of these encourage players to try riskier tactics, so keep in mind that rewarding or withholding Hero Points will \"train\" the players to try some of these tactics. Award at your own risk!"
+							]
+						},
+						"{@b Attempting Cool Stuff:} There are plenty of times when PCs attempt a really cool and cinematic thing like swinging from the chandelier, jumping from the balcony to safety, or trying to grapple the dragon. When this succeeds, it's always a fun and exciting moment. However, failing at this can really take the wind out of a player's sails. Consider lessening the blow with a consolation Hero Point.",
+						"{@b Entering Danger:} If the fighter goes down in combat, it might make more sense to try to heal him from afar. However, the cleric might choose to run in and try to pull the unconscious fighter away from the fray, putting the cleric in the line of danger. Whenever someone chooses to intentionally jump into danger, you might consider throwing them a Hero Point. In fact, the Hero Point might be the only way they get out of there safely!",
+						"{@b Good Roleplay:} Hero Points aren't just limited to combat! Remember that some characters will shine in roleplay situations and they should earn rewards just like everyone else. Roleplay accomplishments like winning over a specific person or talking your way out of trouble are great times to hand out a Hero Point. If the bard was able to trick the guards into letting the party into the ball or the druid was able to talk down the t-rex from eating the party, that might be worthy of a Hero Point!",
+						"{@b Mid-Fight:} Combat can be hectic and there might be a lot to keep track of mid-fight. This is probably when Hero Points are at their most potent, because PCs will want to use them for rerolls and to avoid death. Combat has lots of great opportunities for Hero Points. If the paladin used her reaction to save an ally from being knocked unconscious, the wizard took out half a dozen mooks at once with a spell, or the fighter was able to land a critical hit on the really tough boss, give them a Hero Point! Every big, exciting moment could also come with a Hero Point as an extra treat.",
+						"{@b Retreating:} Fights can be tough, but players can be stubborn. In some cases, this stubbornness can lead to the death of characters or even entire groups. Knowing when to retreat is important and a Hero Point might be the all-important carrot that reinforces that. If the players recognize that they are outmatched, retreating can feel bad, but the Hero Point can lessen the blow. Knowing that they get rewarded can reinforce the idea that it's okay to retreat. Alternatively, you can be very up-front and bribe the players with a Hero Point for their retreat."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"collapsible": true,
+					"name": "Making Your Game More Heroic (Part 3)",
+					"source": "Luis-MYGM",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"I'm going to talk Hero Points one more time before taking a break from them for a bit. I've offered ways on giving Hero Points more oomph and guidance on making sure Hero Points get rewarded more often. Now, I'm going to give some feats that will help your players make the most of their Hero Points. These feats are designed to work with the base Hero Point rules as well as the expanded Hero Point options I presented in my first blog. If you want to make your game really heroic, consider giving a free general feat at 1st and 11th level solely to take one of these Hero Point feats. Let me know what you think about the feats!"
+							]
+						},
+						"Each of these new feats features a new trait: {@trait heroic}.",
+						"{@note You can see the new feats on the {@filter feats|feats||Generic=Heroic} page.}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Making Your Game More Dangerous",
+			"source": "Luis-MYGM",
+			"type": "Hero Points Variant",
+			"entries": [
+				{
+					"type": "pf2-h3",
+					"name": "Making Your Game More Dangerous",
+					"source": "Luis-MYGM",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"I've talked about giving your players more cool stuff to do with their Hero Points, but what about you? What's in it for you, the GM? Well, I have a fun new mechanic that will make your monsters scarier and your encounters more of a threat: Villain Points! What are Villain Points? Well, they work very similar to Hero Points, granting rerolls or other possible abilities, but it's something that you, the GM, use to enhance your monsters and villains.",
+								"Let me explain how they work. At any time, a given enemy in combat has 1 Villain Point. As the GM, you can use a Villain Point at any time a PC could use a Hero Point. A Villain Point provides any of the same abilities that a Hero Point can, save for Heroic Recovery. That one is meant for the players and your monsters should still probably go down when they hit 0 HP. If a creature is a solo challenge or is meant to be a particular notable villain, that creature instead has 3 Villain Points. That's it!",
+								"Villain Points are going to make your enemies tougher, though. Even a single reroll every once for each monster will make them deadlier. Keep that in mind! If you want a tougher, deadlier game, go for it! Alternatively, if you want to lessen the impact of Villain Points, I recommend using them exclusively for your boss monsters. You could also make sure that the PCs are earning more Hero Points to help mitigate the impact of Villain Points."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

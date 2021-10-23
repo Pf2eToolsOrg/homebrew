@@ -151,7 +151,7 @@
 				{
 					"type": "ability",
 					"style": "full",
-					"name": "Influence Fear",
+					"name": "Couatl Leap",
 					"source": "LuisAncestryFeats-Sahkil",
 					"activity": {
 						"number": 3,

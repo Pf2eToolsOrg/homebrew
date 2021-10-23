@@ -298,7 +298,7 @@
 				"Rabbitfolk|Luis-Rabbitfolk"
 			],
 			"entries": [
-				"You favor weapons that let you attack with quick strikes. You are trained with the {@item hatchet}, {@item light hammer}, {@item sickle}, {@item shortsword}, and {@item starknife}. In addition, you gain access to all {@filter uncommon rabbitfolk weapons|items|rarity=uncommon|ancestry & heritage=rabbitfolk}.",
+				"You favor weapons that let you attack with quick strikes. You are trained with the {@item hatchet}, {@item light hammer}, {@item sickle}, {@item shortsword}, and {@item starknife}. In addition, you gain access to all {@filter uncommon rabbitfolk weapons|items||rarity=uncommon|ancestry & heritage=rabbitfolk}.",
 				"For you, martial rabbitfolk weapons are simple weapons and advanced rabbitfolk weapons are martial weapons."
 			]
 		},

@@ -5771,7 +5771,7 @@
 							"style": "full",
 							"name": "Mage Hand",
 							"entries": [
-								"{@b Amp} Your added focus increases your hand's telekinetic finesse. When you Cast the Spell, you can have the mage hand grasp an attended object if it's attended by you or a willing ally and is in an easy-to-access location, such as a sheathed weapon or a potion on a belt. The hand grasps and holds the object before the hand moves the object. The item must still be within the Bulk limit of mage hand."
+								"{@b Amp} Your added focus increases your hand's telekinetic finesse. When you {@action Cast a Spell||Cast the Spell}, you can have the mage hand grasp an attended object if it's attended by you or a willing ally and is in an easy-to-access location, such as a sheathed weapon or a potion on a belt. The hand grasps and holds the object before the hand moves the object. The item must still be within the Bulk limit of mage hand."
 							]
 						},
 						{
@@ -9102,7 +9102,7 @@
 			"cost": null,
 			"entries": [
 				"You can attach a scroll to your weapon to blend its spell into an attack, carefully folding it around a part of the weapon or pasting it to the weapon's surface. Attaching a scroll requires using the Affix a Talisman action (a 10-minute exploration activity with the manipulate trait found on page 565 of the Core Rulebook). You can have only one scroll affixed to a weapon at a time, and you can't have both a talisman and scroll attached.",
-				"You can Cast the Spell from the scroll after using {@action Striking Spell|PT:SoM} to store the scroll's spell in the attached weapon. You can't Cast the Spell in any other way while it's affixed, though you can use Affix a Talisman again to remove the scroll and use it as a normal\u2014if a bit crumpled\u2014scroll."
+				"You can {@action Cast a Spell||Cast the Spell} from the scroll after using {@action Striking Spell|PT:SoM} to store the scroll's spell in the attached weapon. You can't {@action Cast a Spell||Cast the Spell} in any other way while it's affixed, though you can use Affix a Talisman again to remove the scroll and use it as a normal\u2014if a bit crumpled\u2014scroll."
 			],
 			"activity": null,
 			"special": null,
@@ -12805,7 +12805,7 @@
 				"Class"
 			],
 			"entries": [
-				"Amps are special thoughtforms that modify the properties of your psi cantrips. You can apply an amp only to a psi cantrip, which is referred to as the amped cantrip. Applying an amp to a psi cantrip costs 1 Focus Point and is part of the actions needed to Cast the Spell. The singular focus required to amp a psi cantrip means that unless otherwise noted, you can apply only one amp to a given psi cantrip, and you can't apply both an amp and a metamagic ability to a cantrip at the same time. If both an amp and the amped cantrip deal damage of the same type, combine their damage for the purpose of resistances and weaknesses. Feats with the amp trait provide different amps you can apply to psi cantrips in place of their normal amps."
+				"Amps are special thoughtforms that modify the properties of your psi cantrips. You can apply an amp only to a psi cantrip, which is referred to as the amped cantrip. Applying an amp to a psi cantrip costs 1 Focus Point and is part of the actions needed to {@action Cast a Spell||Cast the Spell}. The singular focus required to amp a psi cantrip means that unless otherwise noted, you can apply only one amp to a given psi cantrip, and you can't apply both an amp and a metamagic ability to a cantrip at the same time. If both an amp and the amped cantrip deal damage of the same type, combine their damage for the purpose of resistances and weaknesses. Feats with the amp trait provide different amps you can apply to psi cantrips in place of their normal amps."
 			]
 		},
 		{
@@ -13461,7 +13461,7 @@
 			"source": "PT:G&G",
 			"name": "Tripod",
 			"type": "Item",
-			"category": "Adventuring Gear",
+			"category": "Gear",
 			"rarity": "Uncommon",
 			"equipment": true,
 			"generic": false,
