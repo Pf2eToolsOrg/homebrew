@@ -22,14 +22,10 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-  push:
-    needs: index
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Push Changes
+    - name: Push Changes
         run: |
           git config --global user.name 'Pf2eTools'
           git config --global user.email 'git@pf2etools.com'
           git commit -am "NPM Build Push"
           git push
+
