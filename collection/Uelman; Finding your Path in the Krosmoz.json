@@ -1,5 +1,5 @@
 {
-    "_meta": {
+	"_meta": {
 		"sources": [
 			{
 				"json": "FPKrosmoz",
@@ -8,7 +8,7 @@
 				"url": "https://docs.google.com/document/d/162PpG1NxEaLDbAcz3TU2t9hvzcWpmEbRhV61_hHS6Bg",
 				"authors": [
 					"Uelman",
-                    "MrVauxs"
+					"MrVauxs"
 				],
 				"convertedBy": [
 					"MrVauxs"
@@ -31,7 +31,7 @@
 					"name": "Unaligned Deities",
 					"source": "FPKrosmoz",
 					"entries": [
-						"The gods in the World of Twelve are fickle and ever-changing. Be it due to their grand plans, capricious personality or reincarnating nature, most gods can fit any alignment. As long as mortals do not disrespect them or interfere with their plans, they also do not have any disregard towards their faithful’s alignment.",
+						"The gods in the World of Twelve are fickle and ever-changing. Be it due to their grand plans, capricious personality or reincarnating nature, most gods can fit any alignment. As long as mortals do not disrespect them or interfere with their plans, they also do not have any disregard towards their faithful's alignment.",
 						"If any spell or effect requires you to choose an alignment your unaligned deity has, you instead choose from your own alignment."
 					]
 				}
@@ -68,7 +68,6 @@
 				"Their impetuous moods make Iops extreme warriors, capable of the worst as well as the best. Some Iops, such as the knight Rish Claymore, are famous for their strength and bravery. Others delight in violence and barbarity and have written their names in bloody letters on the wall of the World's history: Eratz the Protester might be the best example.",
 				{
 					"type": "pf2-h3",
-
 					"name": "You Might...",
 					"entries": [
 						{
@@ -76,20 +75,19 @@
 							"items": [
 								"Eagerly meet any chance to prove your strength in a physical contest.",
 								"View dying in glorious combat as preferable to a mundane death from old age or illness.",
-								"Fight tooth and nail—sometimes literally—to protect yourself and your friends from danger."
+								"Fight tooth and nail\u2014sometimes literally\u2014to protect yourself and your friends from danger."
 							]
 						}
 					]
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Others Probably...",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"Assume you can't—or won't—read.",
+								"Assume you can't\u2014or won't\u2014read.",
 								"See you as violent or lacking in discipline.",
 								"Recognize your incredible endurance and dedication."
 							]
@@ -98,16 +96,14 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Physical Description",
 					"entries": [
-						"Followers of Iop tend to be tall and well-built. Even if an Iop seems lanky, they are likely to pack a punch! Their pupils tend to be of a very light colour, sometimes even as far as seeming to have entirely white eyes, and their face distinctly lacks a nose. Their hair is often long and spiky, and of a bright orange colour. Most Iops stand as tall as 6 feet from their feet to the top of their heads. An Iop’s hair adds some extra height, with most hairstyles growing vertically as tall as one foot. Not all Iop hairstyles grow as vertically, however, and some Iops instead have hair that flops down behind their head.",
+						"Followers of Iop tend to be tall and well-built. Even if an Iop seems lanky, they are likely to pack a punch! Their pupils tend to be of a very light colour, sometimes even as far as seeming to have entirely white eyes, and their face distinctly lacks a nose. Their hair is often long and spiky, and of a bright orange colour. Most Iops stand as tall as 6 feet from their feet to the top of their heads. An Iop's hair adds some extra height, with most hairstyles growing vertically as tall as one foot. Not all Iop hairstyles grow as vertically, however, and some Iops instead have hair that flops down behind their head.",
 						"Iops age at a similar rate to normal humans. Most Iops can live to be up to 80 years of age, but the more powerful Iops could live for nearly two centuries. Iops weigh the same as normal humans of similar well-built physiques. Iops typically wear long tunics, though they are comfortable in any clothing they can easily fight in. Crosses are also often depicted on their clothing."
 					]
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Society",
 					"entries": [
 						"Societies in the World of Twelve are highly multicultural, and in them Iops often take on the jobs that require more brawn than brain. All Iops may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Most of them will show a great deal of respect towards any great warrior, and notably towards high officials in the Temple of Iop."
@@ -115,7 +111,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Alignment and Religion",
 					"entries": [
 						"In War there will always be good and evil, and it is the same amongst the followers of Iop. Their moral compass tends to be as simple as they are themselves, some evil-leaning Iops fighting for power and some good-leaning Iops fighting to protect, some chaotic-leaning Iops fighting for the thrill of it and some lawful-leaning Iops fighting to uphold the rules."
@@ -123,13 +118,11 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Names",
 					"entries": [
 						"Most Iops have simple, short and easy to pronounce names. There are many cases nonetheless of Iops being named in a knightly manner or after weaponry.",
 						{
 							"type": "pf2-h4",
-
 							"name": "Sample Names",
 							"entries": [
 								"Vald, Solar, Peggy, Rish Claymore, Goultard, Percival, Beldivere"
@@ -143,7 +136,6 @@
 					"name": "Vitalized Iop",
 					"shortName": "Vitalized",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"Some Iops have trained to take more hits, in order to hit more. You gain 10 Hit Points from your ancestry instead of 8 and gain a +1 circumstance bonus to {@skill Athletics} checks to {@action Shove} or {@action Trip} foes."
 					]
@@ -152,7 +144,6 @@
 					"name": "Battleborn Iop",
 					"shortName": "Battleborn",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"Some Iops were born with a silver sword on their hand. You're trained in all simple and martial weapons. You also gain the {@feat Iop Weapon Familiarity|FPKrosmoz} ancestry feat."
 					]
@@ -196,7 +187,6 @@
 				"Hair blowing in the wind, slender silhouette, chiselled muscle structure, chest thrown out: the Cra disciple is proud, that's for sure. They are precious allies against melee attacks. Standing back from the ruckus, they shoot their feathered arrows into any opening left unattended, and they really hurt! That's why they're so popular for hunting and combat groups, in which they are known to have saved many allies. Of course, when Cras are forced to enter close combat, they find it harder to stand their ground... but you can't have it all!",
 				{
 					"type": "pf2-h3",
-
 					"name": "You Might...",
 					"entries": [
 						{
@@ -211,7 +201,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Others Probably...",
 					"entries": [
 						{
@@ -219,31 +208,28 @@
 							"items": [
 								"Respect your incredible sight.",
 								"Worry that you privately look down on them, or feel like you're condescending and aloof.",
-								"Assume that you’ll be useless in a close quarters fight."
+								"Assume that you'll be useless in a close quarters fight."
 							]
 						}
 					]
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Physical Description",
 					"entries": [
-						"Followers of Cra are about as tall as other average humans. Their eyes are often of a green colour, and are a Cra’s joy and pride. Cras are often blonde or red-headed, with freckles sometimes adorning their face. Most Cra hairstyles are long but tied up in a variety ways (such as ponytails or braids), but some Cras may prefer to keep their hair short and simple.",
+						"Followers of Cra are about as tall as other average humans. Their eyes are often of a green colour, and are a Cra's joy and pride. Cras are often blonde or red-headed, with freckles sometimes adorning their face. Most Cra hairstyles are long but tied up in a variety ways (such as ponytails or braids), but some Cras may prefer to keep their hair short and simple.",
 						"Cras age at a similar rate to normal humans. Most Cras can live to be up to 80 years of age, but the more powerful Cras could live for nearly two centuries. Cras are more slender than the average human, and so tend to weigh less. The two predominant aesthetics in Cra clothing are full-body jumpsuits and skimpier tank tops with short pants or skirts, either style being often predominantly of a green or brown colour."
 					]
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Society",
 					"entries": [
-						"Societies in the World of Twelve are highly multicultural, and in them Cras often take on the jobs that require a good sight, such as hunters or lookouts. In particular, Cras will prefer to live in more structured and possibly hierarchical structures. All Cras may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Cras are very prideful and so may often look down upon others, such as Iops’ for their simpleness, but they will respect anyone they deem can pull their own worth."
+						"Societies in the World of Twelve are highly multicultural, and in them Cras often take on the jobs that require a good sight, such as hunters or lookouts. In particular, Cras will prefer to live in more structured and possibly hierarchical structures. All Cras may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Cras are very prideful and so may often look down upon others, such as Iops' for their simpleness, but they will respect anyone they deem can pull their own worth."
 					]
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Alignment and Religion",
 					"entries": [
 						"Followers of Cra tend to be of the Lawful alignment, with no real tendency towards good or evil. It is nonetheless not unheard of Cras who will fight against the establishment, such as Robbie Hoodie."
@@ -251,13 +237,11 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Names",
 					"entries": [
 						"Most Cras have names that will roll off your tongue, often sounding elegant and exotic.",
 						{
 							"type": "pf2-h4",
-
 							"name": "Sample Names",
 							"entries": [
 								"Evangelyne, Setsinbol, Robbie Hoodie, Edrige Valling, Kalisthe"
@@ -271,7 +255,6 @@
 					"name": "Owl Eye Cra",
 					"shortName": "Owl Eye",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"Your vision has adapted so even the darkest of nights cannot hinder it. You gain {@ability darkvision}."
 					]
@@ -280,9 +263,8 @@
 					"name": "Eagle Eye Cra",
 					"shortName": "Eagle Eye",
 					"source": "FPKrosmoz",
-
 					"entries": [
-						"There is nothing that your eyes cannot see, and your other senses aren’t too far behind. You gain a +1 circumstance bonus to locate {@condition undetected} creatures within 60 feet when using the {@action Seek} action. Your flat check to target {@condition concealed} creatures is DC {@flatDC 3} instead of DC {@flatDC 5}, and your flat check to target {@condition undetected} creatures is DC {@flatDC 9} instead of DC {@flatDC 11}."
+						"There is nothing that your eyes cannot see, and your other senses aren't too far behind. You gain a +1 circumstance bonus to locate {@condition undetected} creatures within 60 feet when using the {@action Seek} action. Your flat check to target {@condition concealed} creatures is DC {@flatDC 3} instead of DC {@flatDC 5}, and your flat check to target {@condition undetected} creatures is DC {@flatDC 9} instead of DC {@flatDC 11}."
 					]
 				}
 			]
@@ -321,14 +303,13 @@
 				"They are naturally good butchers, since they have a passion for chopping meat, and gutting carcasses with their bare hands. If they embrace their spiritual path, they can become very clever soothsayers. As they do not fear blows or injuries, they are great on the front line and are very much appreciated by groups of adventurers.",
 				{
 					"type": "pf2-h3",
-
 					"name": "You Might...",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"Put other people’s needs before your own.",
-								"Believe that what doesn’t kill you makes you stronger.",
+								"Put other people's needs before your own.",
+								"Believe that what doesn't kill you makes you stronger.",
 								"Not mind getting your hands dirty."
 							]
 						}
@@ -336,13 +317,12 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Others Probably...",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"Think you’re creepy.",
+								"Think you're creepy.",
 								"Consider you a masochist.",
 								"Entrust their lives to you."
 							]
@@ -351,7 +331,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Physical Description",
 					"entries": [
 						"Followers of Sacrier are varied in their physical appearance. Many are tough and muscular, able to stop a sword with their abdominals, whereas others may be slim and focus on barely dodging to turn a deadly hit into a scratch. Their eyes look completely white and their nose small, sometimes almost imperceptible. The most common hair colour amongst sacriers is a deep orange, but white hair is also common, and bandanas are a very popular accessory. A Sacrier is only slightly taller than the average human on average.",
@@ -360,7 +339,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Society",
 					"entries": [
 						"Societies in the World of Twelve are highly multicultural, and in them Sacriers often take on the jobs that require getting their hands dirty. All Sacriers may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Most of them will create powerful bonds with other people and decide to protect them with their life."
@@ -368,21 +346,18 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Alignment and Religion",
 					"entries": [
-						"Despite their protective nature often leading Sacriers into the Good alignment, it is not uncommon for their love for blood or the people they’ve bonded with to lead into Neutral or even Evil aligned Sacriers. For this same reason, Sacreirs have no tendency towards either Chaotic or Lawful alignments."
+						"Despite their protective nature often leading Sacriers into the Good alignment, it is not uncommon for their love for blood or the people they've bonded with to lead into Neutral or even Evil aligned Sacriers. For this same reason, Sacreirs have no tendency towards either Chaotic or Lawful alignments."
 					]
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Names",
 					"entries": [
 						"Most Sacriers have short names with violent-sounding consonants.",
 						{
 							"type": "pf2-h4",
-
 							"name": "Sample Names",
 							"entries": [
 								"Katar, Lupa, Edass, Saketsu, Kali, Kriss the Krass, Denn Kratz"
@@ -396,7 +371,6 @@
 					"name": "Heartful Sacrier",
 					"shortName": "Heartful",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"A Sacrier keeps going as long as their heart keeps pumping blood. You gain 12 Hit Points from your ancestry instead of 10. You also gain the {@feat Diehard} feat."
 					]
@@ -405,9 +379,8 @@
 					"name": "Angered Sacrier",
 					"shortName": "Angered",
 					"source": "FPKrosmoz",
-
 					"entries": [
-						"Anger can be a Sacrier’s greatest drive, bringing them unparalleled power. Choose either the {@archetype Cathartic Mage|SoM|Cathartic Mage (Anger)} or the {@archetype Runelord|SoM|Runelord (Wrath)} Archetype. You gain the archetype’s dedication feat, even though you don't meet its level prerequisite. You must still meet its other prerequisites to gain the feat."
+						"Anger can be a Sacrier's greatest drive, bringing them unparalleled power. Choose either the {@archetype Cathartic Mage|SoM|Cathartic Mage (Anger)} or the {@archetype Runelord|SoM|Runelord (Wrath)} Archetype. You gain the archetype's dedication feat, even though you don't meet its level prerequisite. You must still meet its other prerequisites to gain the feat."
 					]
 				}
 			]
@@ -442,13 +415,12 @@
 				"Although they are often very adept at alchemy, most Eniripsa magic relies on their Words, which have become famous all around the World. Some are famous for their \"good words\" and others for their \"bad words\". Some Eniripsas even become word hunters, collecting verbs and foraging for forgotten languages. Eniripsas are often seen talking to shady and disreputable people, but they're just trying to get precious vocabulary from them...",
 				{
 					"type": "pf2-h3",
-
 					"name": "You Might...",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
-								"Care for other people’s wellbeing.",
+								"Care for other people's wellbeing.",
 								"Have an interest in poisons and elixirs.",
 								"Love experimenting with anything you get your hands on."
 							]
@@ -457,7 +429,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Others Probably...",
 					"entries": [
 						{
@@ -472,7 +443,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Physical Description",
 					"entries": [
 						"Followers of Eniripsa tend to be small and thin. They do not have very distinctive features other than the wings on their back. Some may possess strikingly beautiful insect wings, whereas others grew dark and somber bat wings, and albeit very rare there are cases of Eniripsas with feathery wings. A normally tall Eniripsa is usually still as tall as the average human, but the shorter ones could be even just 4 feet tall.",
@@ -481,7 +451,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Society",
 					"entries": [
 						"Societies in the World of Twelve are highly multicultural, and in them Eniripsas often take on the jobs that require tact and care. All Eniripsas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Most of them will try to help their peers whenever they can, and have great respect for alchemists."
@@ -489,7 +458,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Alignment and Religion",
 					"entries": [
 						"Due to their good faith Eniripsas are often of the Good alignment. Nonetheless Eniripsas also do not usually discriminate when it comes to helping, and may also believe that ends justify their means. Due to their experimental nature they also lean towards the Chaotic alignment."
@@ -497,13 +465,11 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Names",
 					"entries": [
 						"Most Eniripsas have short and even sweet-sounding names.",
 						{
 							"type": "pf2-h4",
-
 							"name": "Sample Names",
 							"entries": [
 								"Lily, Vax, Nabrisa, Brumen, Skeunk, Echo"
@@ -517,7 +483,6 @@
 					"name": "Soothing Eniripsa",
 					"shortName": "Soothing",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"Healing is a way of life. An Eniripsa must know how to treat wounds with utmost care, be it their own or anyone else's. When anyone uses the {@skill Medicine} skill to {@action Treat Wounds} you add your level to the Hit Points regained."
 					]
@@ -526,7 +491,6 @@
 					"name": "Skywalker Eniripsa",
 					"shortName": "Skywalker",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"Your bones are lighter and you can open your wings to slow your descent through the air. You take no damage from falling, regardless of the distance you fall."
 					]
@@ -563,7 +527,7 @@
 				{
 					"name": "Skull Mask",
 					"entries": [
-						"You gain one skull mask for free, as it was given to you at the time of your initiation as a Sram. Selling this mask is a terrible taboo and earns you the disdain of other Sram’s."
+						"You gain one skull mask for free, as it was given to you at the time of your initiation as a Sram. Selling this mask is a terrible taboo and earns you the disdain of other Sram's."
 					]
 				}
 			],
@@ -573,7 +537,6 @@
 				"To master their art, Srams submit themselves to a severe training regime that would make mere mortals go white with fear. To be honest, when Srams first find out about it, they go white with fear too, but since they have such a pale complexion, no one notices. The neophyte's aim is to become extremely supple and to control his senses and his Chakras perfectly. Believe me, it can be really useful! Mastering this art will enable him to dislocate a joint so as to voluntarily sneak into very narrow places. Srams are not afraid of tight spaces... as long as there are kamas hidden inside. This set of secret techniques is called the Kama Sutars.",
 				{
 					"type": "pf2-h3",
-
 					"name": "You Might...",
 					"entries": [
 						{
@@ -588,7 +551,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Others Probably...",
 					"entries": [
 						{
@@ -603,7 +565,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Physical Description",
 					"entries": [
 						"Followers of Sram tend to be skeletally thin, often even literally. They are either walking skeletons, wear skull masks, or simply wear predominantly bone-themed clothing. Although much lighter, a Sram is usually not taller than the average human.",
@@ -612,7 +573,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Society",
 					"entries": [
 						"Societies in the World of Twelve are highly multicultural, and in them Srams often take on the jobs that require diligence and discretion. All Srams may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Most of them will do sketchy jobs, or turn to crime."
@@ -620,7 +580,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Alignment and Religion",
 					"entries": [
 						"Due to their criminal tendencies Srams are often of the Chaotic alignment, but many still find their slyness of better use in more Lawful ways. Despite appearances, there is no real tendency towards Evil, and neither towards Good, but towards neutrality."
@@ -628,13 +587,11 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Names",
 					"entries": [
 						"Srams have very varied names, often choosing a name for themselves.",
 						{
 							"type": "pf2-h4",
-
 							"name": "Sample Names",
 							"entries": [
 								"Ejipe, Ogivol, Rebecca, Erazal, Oscar Kass, Gein, Toxine, Maude"
@@ -648,7 +605,6 @@
 					"name": "Shadowed Sram",
 					"shortName": "Shadowed",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"You live in the shadows and so your sight has adapted to dark environments. You gain {@ability darkvision}."
 					]
@@ -657,7 +613,6 @@
 					"name": "Cadaverous Sram",
 					"shortName": "Cadaverous",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"You are as light as a feather, giving you incredible agility. Your Speed increases from 25 to 30 feet."
 					]
@@ -694,7 +649,7 @@
 				{
 					"name": "Skull Mask",
 					"entries": [
-						"You gain one skull mask for free, as it was given to you at the time of your initiation as a Sram. Selling this mask is a terrible taboo and earns you the disdain of other Sram’s."
+						"You gain one skull mask for free, as it was given to you at the time of your initiation as a Sram. Selling this mask is a terrible taboo and earns you the disdain of other Sram's."
 					]
 				}
 			],
@@ -703,7 +658,6 @@
 				"Xelor disciples protect their bodies from the danger of time warps with bandages. This process is important for a number of reasons. The slightest crack between two wrappings could create a major mishap: any part of their body which is not bandaged can't travel in time at the same speed as the rest of the body! A lapse in concentration could cost them dearly. Now we know why Xelors dress so modestly! Xelors are often appreciated within groups of adventurers as they can increase their allies' ability to act.",
 				{
 					"type": "pf2-h3",
-
 					"name": "You Might...",
 					"entries": [
 						{
@@ -718,14 +672,13 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Others Probably...",
 					"entries": [
 						{
 							"type": "list",
 							"items": [
 								"Assume you have secret knowledge about magic and technology.",
-								"Think you’ll go mad at any moment.",
+								"Think you'll go mad at any moment.",
 								"Look to you as the expert on any matters involving time or machinery."
 							]
 						}
@@ -733,7 +686,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Physical Description",
 					"entries": [
 						"Followers of Xelor tend to be short. They completely cover themselves with bandages to safely practice time magic, so their physical features are hidden most of the time, but they do not have any distinguishing features under the bandages.  A normally tall Xelor is usually still as tall as the average human, but the shorter ones could be even just 4 feet tall.",
@@ -742,7 +694,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Society",
 					"entries": [
 						"Societies in the World of Twelve are highly multicultural, and in them Xelors often take on the jobs that require research and precision. All Xelors may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Most of them will take on investigative or quiet and peaceful jobs."
@@ -750,7 +701,6 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Alignment and Religion",
 					"entries": [
 						"Many Xelors tend to be neutral by nature, considering the world to be just a very small part of the Krosmoz and distancing themselves from the troubles of humankind, but they are not a majority. Some Xelors may find Time to be a symbol of order and feel an affinity to the Lawful alignment, whereas others may find Time to be a symbol of unpredictability and feel an affinity to the Chaotic alignment. As for the good and evil alignments, there are many records of infamous evil Xelors, but the average Xelor has no real tendency towards each side."
@@ -758,13 +708,11 @@
 				},
 				{
 					"type": "pf2-h3",
-
 					"name": "Names",
 					"entries": [
 						"Xelors have very varied names, sometimes very short, sometimes long and complicated.",
 						{
 							"type": "pf2-h4",
-
 							"name": "Sample Names",
 							"entries": [
 								"Amine, Methea, Jacquemart Astron, Kya, Many, Kwartzwatch, Noximilien"
@@ -778,7 +726,6 @@
 					"name": "Watcher Xelor",
 					"shortName": "Watcher",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"You can easily detect and understand magical phenomena. You can cast the {@spell detect magic} cantrip as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. In addition, you gain a +1 circumstance bonus to checks to {@action Identify Magic} and to {@action Decipher Writing} of a magical nature. These skill actions typically use the {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion} skill."
 					]
@@ -787,7 +734,6 @@
 					"name": "Studious Xelor",
 					"shortName": "Studious",
 					"source": "FPKrosmoz",
-
 					"entries": [
 						"Your magic is more connected to your mind than it is to your faith. Choose {@filter arcane|spells||Level=0|Tradition & Spell List=Arcane} or {@filter occult|spells||Level=0|Tradition & Spell List=Occult}. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a xelor ancestry feat, change its tradition from divine to your chosen tradition."
 					]
