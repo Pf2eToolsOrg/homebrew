@@ -1,5 +1,5 @@
 ## A repository of Homebrew JSONs compatible with Pf2eTools.
-[![JSON Validation](https://github.com/Pf2eTools/homebrew/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/Pf2eTools/homebrew/actions/workflows/master.yml)
+[![JSON Validation](https://github.com/Pf2eTools/homebrew/actions/workflows/test.yml/badge.svg)](https://github.com/Pf2eTools/homebrew/actions/workflows/test.yml)
 #### Getting Brew (automatically)
 1. Hit the "Manage Homebrew" button (if available) on a Pf2eTools page.
 2. Hit the "Get Homebrew" button.
