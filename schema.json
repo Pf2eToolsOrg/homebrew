@@ -24,6 +24,8 @@
               },
               "color": {
                 "type": "string",
+                "format": "color",
+                "pattern": "^(#|)([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$",
                 "description": "HTML hex color code this source should use when displayed in lists, e.g. 'ff00ff'"
               },
               "full": {

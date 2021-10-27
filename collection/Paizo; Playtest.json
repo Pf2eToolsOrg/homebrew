@@ -2402,7 +2402,7 @@
 				"At 1st level, you learn three psi cantrips determined by your choice of conscious mind. Two of these are common occult cantrips, which you can cast as psi cantrips. They work the same as the normal cantrip most of the time, but casting them as psi cantrips means you can amp them to boost or modify them. The amp effects of these cantrips appear in your conscious mind, as does your third cantrip, a unique psi cantrip with its own amp.",
 				"Amps are specific thoughtforms that alter the nature of psi cantrips. When you cast a psi cantrip, you can amp it by spending 1 Focus Point to add the effect described in the spell's Amp heading. You can gain additional amps through feats, allowing you to substitute a psi cantrip's normal amp effect for another one. You choose which amp to use, if any, each time you cast a psi cantrip.",
 				"You start with a focus pool of 2 Focus Points. Rather than spending Focus Points to cast focus spells, you spend them only on amps. (Though if you have focus spells from a source other than psychic, you can still spend Focus Points to cast them, as normal.)",
-				"You refill your focus pool during your daily preparations, and you can regain Focus Points by spending 10 minutes using the Refocus activity to explore your mind, whether via meditation, practicing a craft or activity that gives you the mental space to self-reflect, or talking through your thoughts and feelings with yourself or with another. If you've spent at least 2 Focus Points and spent Focus Points only to amp psi cantrips since the last time you Refocused, you regain 2 Focus Points when you Refocus. Otherwise, you regain 1 Focus Point."
+				"You refill your focus pool during your daily preparations, and you can regain Focus Points by spending 10 minutes using the {@action Refocus} activity to explore your mind, whether via meditation, practicing a craft or activity that gives you the mental space to self-reflect, or talking through your thoughts and feelings with yourself or with another. If you've spent at least 2 Focus Points and spent Focus Points only to amp psi cantrips since the last time you {@action Refocus||Refocused}, you regain 2 Focus Points when you {@action Refocus}. Otherwise, you regain 1 Focus Point."
 			]
 		},
 		{
@@ -3444,7 +3444,7 @@
 			"className": "Magus",
 			"classSource": "PT:SoM",
 			"entries": [
-				"You learn the {@spell magus potency|PT:SoM} battle spell. Battle spells are magus-specific spells created for combat. They're a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to study your spellbook.",
+				"You learn the {@spell magus potency|PT:SoM} battle spell. Battle spells are magus-specific spells created for combat. They're a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the {@action Refocus} activity to study your spellbook.",
 				"Focus spells are automatically heightened to half your level rounded up. Focus spells don't require spell slots, nor can you cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 points. The full rules are on page 300 of the Core Rulebook."
 			]
 		},
@@ -4127,7 +4127,7 @@
 			"className": "Summoner",
 			"classSource": "PT:SoM",
 			"entries": [
-				"Your connection to your eidolon allows you to cast conduit spells, special spells that usually involve your eidolon. Conduit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to specifically connect with your eidolon, such as by having a heart-to-heart conversation, playing together, or meditating together on the nature of your bond.",
+				"Your connection to your eidolon allows you to cast conduit spells, special spells that usually involve your eidolon. Conduit spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the {@action Refocus} activity to specifically connect with your eidolon, such as by having a heart-to-heart conversation, playing together, or meditating together on the nature of your bond.",
 				"Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points. The full rules for focus spells appear on page 300 of the Core Rulebook.",
 				"You learn the {@spell evolution surge|PT:SoM} conduit spell, which grants your eidolon one of several useful benefits in combat.",
 				{
@@ -7497,7 +7497,7 @@
 			},
 			"prerequisites": "precise discipline subconscious mind",
 			"entries": [
-				"You mentally or audibly utter a word or phrase that gives you the mettle to see through tricks and endure pain. Your mantra grants you a +1 status bonus to saving throws against {@trait illusion} and {@trait enchantment} effects until the start of your next turn. You also gain this bonus against {@trait any} effect that works primarily by causing pain (even if it isn't an {@trait illusion} or {@trait enchantment} effect), as well as resistance equal to half your level against damage caused by such an effect. These effects must work primarily by inflicting pain, such as phantom pain or savor the sting, rather than simply causing injury; the GM is the final arbiter of what counts as such an effect."
+				"You mentally or audibly utter a word or phrase that gives you the mettle to see through tricks and endure pain. Your mantra grants you a +1 status bonus to saving throws against {@trait illusion} and {@trait enchantment} effects until the start of your next turn. You also gain this bonus against any effect that works primarily by causing pain (even if it isn't an {@trait illusion} or {@trait enchantment} effect), as well as resistance equal to half your level against damage caused by such an effect. These effects must work primarily by inflicting pain, such as phantom pain or savor the sting, rather than simply causing injury; the GM is the final arbiter of what counts as such an effect."
 			],
 			"activity": {
 				"number": 1,
@@ -7703,7 +7703,7 @@
 				"archetype": false
 			},
 			"entries": [
-				"You've traveled to the furthest depths of your subconscious, granting you even more focus. Increase the number of Focus Points in your focus pool by 1. If you've spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you {@action Refocus} instead of 1."
+				"You've traveled to the furthest depths of your subconscious, granting you even more focus. Increase the number of Focus Points in your focus pool by 1. If you've spent at least 3 Focus Points since the last time you {@action Refocus||Refocused}, you recover 3 Focus Points when you {@action Refocus} instead of 1."
 			],
 			"page": 15
 		},
@@ -7723,7 +7723,7 @@
 				"archetype": false
 			},
 			"entries": [
-				"You shed some of your material form, becoming a being of pure thought. You gain resistance 10 to physical damage but weakness 5 to mental damage and weakness 10 to {@trait any} effect that deals damage specifically by targeting the spirit, such as spirit blast. Once per century, when you die, you automatically return to life as long as one living sentient creature on your plane remembers you; the memories allow you to reconstruct yourself from their thoughts."
+				"You shed some of your material form, becoming a being of pure thought. You gain resistance 10 to physical damage but weakness 5 to mental damage and weakness 10 to any effect that deals damage specifically by targeting the spirit, such as spirit blast. Once per century, when you die, you automatically return to life as long as one living sentient creature on your plane remembers you; the memories allow you to reconstruct yourself from their thoughts."
 			],
 			"page": 15
 		},
@@ -10317,7 +10317,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"Your focus recovers faster. If you've spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you {@action Refocus|CRB} instead of 1."
+				"Your focus recovers faster. If you've spent at least 2 Focus Points since the last time you {@action Refocus||Refocused}, you recover 2 Focus Points when you {@action Refocus|CRB} instead of 1."
 			],
 			"activity": null,
 			"special": null,
@@ -10521,7 +10521,7 @@
 			"requirements": null,
 			"cost": null,
 			"entries": [
-				"The power between you and your eidolon replenishes your focus. If you've spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you {@action Refocus|CRB} instead of 1."
+				"The power between you and your eidolon replenishes your focus. If you've spent at least 3 Focus Points since the last time you {@action Refocus||Refocused}, you recover 3 Focus Points when you {@action Refocus|CRB} instead of 1."
 			],
 			"activity": null,
 			"special": null,
