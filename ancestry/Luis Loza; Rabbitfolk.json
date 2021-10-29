@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#808080",
+				"color": "808080",
 				"version": "1.0"
 			}
 		],
@@ -201,11 +201,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -219,11 +215,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -237,11 +229,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"activity": {
 				"number": 1,
@@ -266,11 +254,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -288,17 +272,13 @@
 				"Rabbitfolk Weapon Expertise|Luis-Rabbitfolk"
 			],
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
 			],
 			"entries": [
-				"You favor weapons that let you attack with quick strikes. You are trained with the {@item hatchet}, {@item light hammer}, {@item sickle}, {@item shortsword}, and {@item starknife}. In addition, you gain access to all {@filter uncommon rabbitfolk weapons|items||rarity=uncommon|ancestry & heritage=rabbitfolk}.",
+				"You favor weapons that let you attack with quick strikes. You are trained with the {@item hatchet}, {@item light hammer}, {@item sickle}, {@item shortsword}, and {@item starknife}. In addition, you gain access to all {@filter uncommon rabbitfolk weapons|items||Category=Weapon|rarity=uncommon|ancestry & heritage=rabbitfolk}.",
 				"For you, martial rabbitfolk weapons are simple weapons and advanced rabbitfolk weapons are martial weapons."
 			]
 		},
@@ -307,11 +287,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -328,11 +304,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"activity": {
 				"entry": "{@as F}",
@@ -352,11 +324,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"prerequisites": "{@feat Strong Teeth|Luis-Rabbitfolk} or you have a jaws unarmed strike ",
 			"trigger": "You roll initiative.",
@@ -372,11 +340,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -390,11 +354,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -409,11 +369,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -428,11 +384,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"activity": {
 				"entry": "{@as 1}",
@@ -451,11 +403,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -475,11 +423,7 @@
 				"unit": "reaction"
 			},
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"frequency": "once per day",
 			"trigger": "An adjacent ally is about to attempt a saving throw.",
@@ -497,11 +441,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 13,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -515,11 +455,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 13,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -534,11 +470,7 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 17,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Rabbitfolk",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Rabbitfolk"
 			},
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
@@ -580,8 +512,7 @@
 			"entries": [
 				"Warren knives are specialized blades shaped to fly moderate distances through the air. Rabbitfolk use their speed to give their warren knives an extra bit of power and distances when they throw them. It deals {@damage 1d4} piercing damage. A warren knige is a martial melee weapon in the {@group knife} weapon group."
 			],
-			"craftReq": null,
-			"generic": false
+			"craftReq": null
 		},
 		{
 			"name": "Warren Spade",
@@ -612,8 +543,7 @@
 			"entries": [
 				"A warren spade is a specialized digging tool that rabbitfolk use to dig out their warrens and the tunnel networks that connect these homes. They resemble a large spade, though they are still smaller than a standard shovel. The smaller size allows a rabbitfolk to dig out a cramped tunnel without the need for a large range of movement. It deals {@damage 1d6} slashing damage. A warren spade is a martial one-handed melee weapon in the {@group axe} weapon group."
 			],
-			"craftReq": null,
-			"generic": false
+			"craftReq": null
 		}
 	],
 	"item": [

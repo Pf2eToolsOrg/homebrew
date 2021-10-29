@@ -11,7 +11,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#c42400",
+				"color": "c42400",
 				"version": "1.2"
 			}
 		],
@@ -111,11 +111,8 @@
 			"source": "CInstinct",
 			"level": 6,
 			"featType": {
-				"class": "Barbarian",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Barbarian"
+
 			},
 			"traits": [
 				"Barbarian"

@@ -24,7 +24,7 @@
               },
               "color": {
                 "type": "string",
-                "pattern": "^(#|)([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$",
+                "pattern": "^([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$",
                 "description": "HTML hex color code this source should use when displayed in lists, e.g. 'ff00ff'"
               },
               "full": {
@@ -221,7 +221,91 @@
       "type": "array"
     },
     "feat": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "page": {
+            "type": "number"
+          },
+          "prerequisites": {
+            "type": "string"
+          },
+          "frequency": {
+            "type": "string"
+          },
+          "trigger": {
+            "type": "string"
+          },
+          "cost": {
+            "type": "string"
+          },
+          "requirements": {
+            "type": "string"
+          },
+          "level": {
+            "type": "number"
+          },
+          "featType": {
+            "type": "object",
+            "properties": {
+              "class": {
+                "type": ["string"]
+              },
+              "general": {
+                "type": ["boolean"]
+              },
+              "ancestry": {
+                "type": ["string"]
+              },
+              "skill": {
+                "type": ["string", "boolean", "array"]
+              },
+              "archetype": {
+                "type": ["string"]
+              }
+            }
+          },
+          "activity": {
+            "type": "object",
+            "properties": {
+              "number": {
+                "type": "number"
+              },
+              "note": {
+                "type": "string"
+              },
+              "unit": {
+                "type": "string",
+                "enum": ["action", "reaction", "free", "varies"]
+              }
+            }
+          },
+          "access": {
+            "type": "string"
+          },
+          "traits": {
+            "type": "array"
+          },
+          "leadsTo": {
+            "type": "array"
+          },
+          "entries": {
+            "type": "array"
+          }
+        },
+        "required": [
+          "name",
+          "source",
+          "entries"
+        ]
+      }
     },
     "companion": {
       "type": "array"

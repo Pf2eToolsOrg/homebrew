@@ -13,12 +13,12 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#5ec5ee",
-				"version": "0.0.1"
+				"color": "5ec5ee",
+				"version": "1.0"
 			}
 		],
 		"dateAdded": 1635352852,
-		"dateLastModified": 1635352852
+		"dateLastModified": 1635535681
 	},
 	"variantrule": [
 		{
@@ -35,6 +35,115 @@
 						"If any spell or effect requires you to choose an alignment your unaligned deity has, you instead choose from your own alignment."
 					]
 				}
+			]
+		}
+	],
+	"trait": [
+		{
+			"name": "Xelor",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Xelor|FPKrosmoz|Xelor's Sandglass}. {@ancestry Xelor|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Sram",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Sram|FPKrosmoz|Sram's Shadow}. {@ancestry Sram|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Eniripsa",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Eniripsa|FPKrosmoz|Eniripsa's Hands}. {@ancestry Eniripsa|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Meticulous",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Armor & Weapon"
+			],
+			"entries": [
+				"This weapon is ideal to attack an enemy's weak points. On a critical hit, the weapon adds a precision damage die of the listed size. Roll this after doubling the weapon's damage. This increases to two dice if the weapon has a {@item greater striking} rune and three dice if the weapon has a {@item major striking} rune. For instance, a {@item rapier} with a {@item greater striking} rune deals {@damage 2d8} extra precision damage on a critical hit. An ability that changes the size of the weapon's normal damage dice doesn't change the size of its meticulous die."
+			]
+		},
+		{
+			"name": "Sacrier",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Sacrier|FPKrosmoz|Sacrier's Blood}. {@ancestry Sacrier|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Ragged",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Armor & Weapon"
+			],
+			"entries": [
+				"This weapon's edge is uneven with the specific purpose of drawing more blood. When you hit a creature, this weapon deals 1 additional alignment damage per weapon damage die."
+			]
+		},
+		{
+			"name": "Cra",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Cra|FPKrosmoz|Cra's Range}. {@ancestry Cra|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Beacon",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Armor & Weapon",
+				"Item"
+			],
+			"entries": [
+				"A special Cra mechanism activated by attacking it, usually with ranged weaponry. Bombs with this trait are thrown at terrain instead of creatures and don't deal damage until activated with a {@action Strike} targeting the beacon bomb or by otherwise damaging it. If the beacon is thrown but not activated, you can recover it as an {@action Interact} action."
+			]
+		},
+		{
+			"name": "Iop",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Iop|FPKrosmoz|Iop's Heart}. {@ancestry Iop|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Compulsion",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Armor & Weapon"
+			],
+			"entries": [
+				"This weapon can channel your deity's favour. When you hit a creature of opposite alignment to you, this weapon deals 1 additional alignment damage per weapon damage die as appropriate for your alignment (for example, if you are good, you deal good damage, and if you are evil, you deal evil damage). If multiple alignments are applicable, you choose one of them."
 			]
 		}
 	],
@@ -61,7 +170,7 @@
 			],
 			"traits": [
 				"Humanoid",
-				"Iop"
+				"Iop|FPKrosmoz"
 			],
 			"info": [
 				"One thing's for sure: you can't change a Iop! Once you appreciate this and are fully aware of it, you will get along with them much better. To be more efficient and gain time, some Iops reduce their vocabulary to about twenty words, which is enough for their daily needs: eat, drink, sleep, and fight. Eat again, drink again, sleep again and fight again... eat some more, drink some more and fight some more. They do know how to use their weapons, though, and that's enough to keep them happy. To give them some credit, they have a great range of insults that they tend to use when fighting: scabby Gobbly, Larva liver, Bloplicker, Trool droppings and so on. And all in all, Iops simply love their lives!",
@@ -172,7 +281,7 @@
 			],
 			"traits": [
 				"Humanoid",
-				"Cra"
+				"Cra|FPKrosmoz"
 			],
 			"features": [
 				{
@@ -637,7 +746,7 @@
 			],
 			"traits": [
 				"Humanoid",
-				"Sram"
+				"Xelor"
 			],
 			"features": [
 				{
@@ -738,6 +847,1241 @@
 						"Your magic is more connected to your mind than it is to your faith. Choose {@filter arcane|spells||Level=0|Tradition & Spell List=Arcane} or {@filter occult|spells||Level=0|Tradition & Spell List=Occult}. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a xelor ancestry feat, change its tradition from divine to your chosen tradition."
 					]
 				}
+			]
+		}
+	],
+	"feat": [
+		{
+			"name": "Divine Multiarms",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"frequency": "once per day",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Six arms made of blood float at your sides as your blood vessels are blessed by Sacrier's tears. For 1 minute, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"20 temporary Hit Points.",
+						"You are {@condition quickened} and can use the additional action to {@action Strike}.",
+						"Your unarmed attacks deal {@damage 2d8} damage and gain the {@trait Forceful} trait.",
+						"{@skill Athletics} modifier of +23, unless your own modifier is higher."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bloodthirsty Madness",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"trigger": "You use {@feat Sacrier Ferocity|FPKrosmoz}",
+			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You lash out viciously even as you fend off death. Make a single melee {@action Strike}. If this {@action Strike} brings a foe to 0 Hit Points, this activation of {@feat Sacrier Ferocity|FPKrosmoz} doesn't count against its frequency."
+			]
+		},
+		{
+			"name": "Sacrier Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"prerequisites": "{@feat Sacrier Weapon Fury|FPKrosmoz}",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Your training with Sacrier weapons has fully paid off. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency in the fist unarmed attack, {@item bastard sword}, {@item tekko-kagi} and all {@filter sacrier weapons|items||Category=Weapon|Ancestry & Heritage=Sacrier} in which you are trained."
+			]
+		},
+		{
+			"name": "Unfalling Ravager",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"The impulse to survive and continue fighting resonates deep within you. You gain a circumstance bonus to damage rolls on your melee {@action Strike||Strikes} equal to twice the sum of your {@condition wounded} and {@condition doomed} conditions (to a maximum of a +8 circumstance bonus to damage) whenever you have one or both conditions."
+			]
+		},
+		{
+			"name": "Bloody Avenger",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"frequency": "once every 10 minutes",
+			"trigger": "You are adjacent to an ally with the {@condition dying} condition.",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
+			"entries": [
+				"No enemy will take down one of your allies, or at least not without paying the cost. Make a {@action Strike}. Roll twice on the attack roll and use the higher result."
+			]
+		},
+		{
+			"name": "Blood Tentacles",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
+			"entries": [
+				"The tattooed blood in your body turns into tentacles. You can cast {@spell black tentacles} once per day as an innate divine spell, though when you do so, you spew them from your arms out to the appropriate range, where they take root and begin {@action Grapple||Grappling} creatures as usual. The tentacles recognize you as a part of them and don't attempt to {@action Grapple} you, even if you are in the area."
+			]
+		},
+		{
+			"name": "Undying Berserker",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
+			"entries": [
+				"You resist the call of Externam with supernatural vigor. When you use {@feat Sacrier Ferocity|FPKrosmoz}, you gain temporary Hit Points equal to your level."
+			]
+		},
+		{
+			"name": "Punishing Comeback",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"The more damage you receive, the stronger you become. When you are taking {@condition persistent damage} or your {@condition wounded} value is 1 or greater, you gain a +2 circumstance bonus to Fortitude saving throws."
+			]
+		},
+		{
+			"name": "Sacrier Magic",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You prioritize your allies' lives over your own and put your own body in the line. You can cast the spells {@spell Blood Vendetta} and {@spell Shield Other} once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Goddess's Tattoos",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Empowered Tattoos|FPKrosmoz}",
+			"entries": [
+				"Your tattoos are a work of divine genius, a masterpiece of art, magic, and skin. Choose a 3rd-level divine spell from the same school as your {@feat Divine Tattoos|FPKrosmoz}, either a common spell or another to which you have access, including a lower-level spell heightened to 3rd level if you wish.",
+				"You can cast that spell once per day as an innate divine spell."
+			]
+		},
+		{
+			"name": "Sacrier Weapon Fury",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Sacrier Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"You've learned to make the most advantage out of your fists and traditional weapons.",
+				"Whenever you critically hit using a fist, {@item bastard sword}, {@item tekko-kagi}, or a {@filter sacrier weapon|items||Ancestry & Heritage=sacrier|Category=Weapon}, you apply the weapon's critical specialization effect."
+			]
+		},
+		{
+			"name": "Tattooed Weapon",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You bear tattoos enhanced by the mark of deity. When you select this feat, choose one of the options on the following page. When you critically hit using a weapon of the listed group, you apply the weapon's critical specialization effect. You gain a large tattoo.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Axe:} {@group axe} or {@group pick}",
+						"{@b Shield:} {@group hammer} or {@group shield}",
+						"{@b Torch:} {@group bomb} or {@group knife}"
+					]
+				}
+			]
+		},
+		{
+			"name": "Reaching Tattoo",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Your tattoos empower your strikes and reach out towards your enemies. The damage die for your fist unarmed attack increases by one step until the end of your turn. In addition, the attack gains a {@trait reach} of 10 feet. This doesn't increase the reach of any unarmed attack that already has the {@trait reach} trait, but it does combine with abilities that increase your reach due to increased size, such as {@feat Giant's Stature}."
+			]
+		},
+		{
+			"name": "Iron Guts",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Your stomach is particularly durable. When you succeed at a Fortitude save to reduce your {@condition sickened} value, you reduce it by 2 (or by 3 on a critical success)."
+			]
+		},
+		{
+			"name": "Empowered Tattoos",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"prerequisites": "{@feat Divine Tattoos|FPKrosmoz}",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You expand your tattoos to encompass greater magic. Choose a 1st‑level divine spell from the same school as your {@feat Divine Tattoos|FPKrosmoz}, either a common spell or another to which you have access. You can cast that spell once per day as an innate divine spell."
+			]
+		},
+		{
+			"name": "Blood Pact",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You're exceptionally difficult to kill. The DC of your recovery checks is equal to 9 + your dying value, or 8 + your dying value if you have the {@feat Toughness} general feat.",
+				"In addition, whenever someone returns you to life using magic that would normally leave you debilitated for a week (such as {@spell raise dead} or the {@ritual resurrect} ritual), you don't suffer that condition."
+			]
+		},
+		{
+			"name": "Bloody Blows",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Your lethal unarmed attacks leave bloody gouges or cause severe internal bleeding. When you critically hit with a {@action Strike} using an unarmed attack that isn't {@trait nonlethal}, the target takes {@damage 1d4} {@condition persistent damage||persistent bleed damage}. This can be because you're taking the penalty to use a fist for a lethal attack or because you have an unarmed attack without the nonlethal trait due to {@feat Bloodied Fists|FPKrosmoz}, or a similar ability."
+			]
+		},
+		{
+			"name": "Way of the Tattoo",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You search to create your own tattoos and share this Sacrier tradition with everyone. You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon sacrier tattoos|item||Rarity=Uncommon|Ancestry & Heritage=sacrier|Category=Tattoo}.",
+				"You gain the {@feat Tattoo Artist|SoM} feat, though when choosing your formulas for that feat, you can also choose from uncommon sacrier tattoos, as well as common tattoos."
+			]
+		},
+		{
+			"name": "Sanguine Armor",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"Manipulate",
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You reinforce the blood covering your body and become more resilient. You gain a +1 circumstance bonus to AC until the start of your next turn."
+			]
+		},
+		{
+			"name": "Sacrier Weapon Familiarity",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"There is no weapon a Sacrier likes more than their fist, but some of them have learnt that often that isn't enough. You have the trained proficiency with the {@item bastard sword} and the {@item tekko-kagi|LOGM}.",
+				"In addition, you gain access to {@item tekko-kagi|LOGM|tekko-kagis} and all {@filter uncommon sacrier weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=Sacrier}. For the purpose of determining your proficiency, martial sacrier weapons are simple weapons and advanced sacrier weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Sacrier's Blood Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You know everything a Sacrier needs to know in life. You gain the trained proficiency in your choice of Crafting and either {@skill Acrobatics} or {@skill Athletics}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Sacrier Lore}."
+			]
+		},
+		{
+			"name": "Sacrier Ferocity",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"frequency": "once per day",
+			"trigger": "You would be reduced to 0 Hit Points but not immediately killed.",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Fierceness in battle runs through your blood, and you refuse to fall from your injuries. You avoid being knocked out and remain at 1 Hit Point, and your {@condition wounded} condition increases by 1."
+			]
+		},
+		{
+			"name": "Penitence",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"frequency": "once per day",
+			"trigger": "An ally within 30 feet gains the {@condition dying} condition.",
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"An ally falling down before you fills you with rage, gaining temporary Hit Points equal to your level for 1 minute. As long as you have these temporary Hit Points, you gain a +1 circumstance bonus to attack and damage rolls."
+			]
+		},
+		{
+			"name": "Divine Tattoos",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"You have tattoos on your body blessed by the goddess Sacrier. Choose one of the following schools of magic: abjuration ({@spell shield}), conjuration ({@spell tanglefoot}), enchantment ({@spell daze}), evocation ({@spell divine lance}), illusion ({@spell bullhorn|SoM}), necromancy ({@spell chill touch}), or transmutation ({@spell sigil}). You can cast the associated cantrip (listed in parentheses) as an innate divine spell at will."
+			]
+		},
+		{
+			"name": "Bloodied Fists",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Your fists have been forged by battle, your naturally tough skin and dense bone further hardened by conflict. Your fist unarmed attacks no longer have the {@trait nonlethal} trait and gain the {@trait grapple} weapon trait."
+			]
+		},
+		{
+			"name": "Bloodied Fists",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sacrier"
+			},
+			"traits": [
+				"Sacrier|FPKrosmoz"
+			],
+			"entries": [
+				"Your fists have been forged by battle, your naturally tough skin and dense bone further hardened by conflict. Your fist unarmed attacks no longer have the {@trait nonlethal} trait and gain the {@trait grapple} weapon trait."
+			]
+		},
+		{
+			"name": "Cra Weapon Precision",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"prerequisites": "{@feat Cra Weapon Familiarity|FPKrosmoz}",
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You are adept at creating the Cra's beacon bomb specialty.",
+				"You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon beacon bombs|items||Rarity=Uncommon|Category=Bomb|Item=Beacon}.",
+				"You gain the {@feat Alchemical Crafting} skill feat. You can add {@filter uncommon 1st-level beacon|items||Rarity=Uncommon|Category=Bomb|Item=Beacon|Level=[-1;1]} formulas to your formula book in addition to the options given by the feat."
+			]
+		},
+		{
+			"name": "Beacon Aficionado",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"leadsTo": [
+				"Beacon Expert|FPKrosmoz",
+				"Ruthless Beacons|FPKrosmoz"
+			],
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You are adept at creating the Cra's beacon bomb specialty.",
+				"You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon beacon bombs|items||Rarity=Uncommon|Category=Bomb|Item=Beacon}.",
+				"You gain the {@feat Alchemical Crafting} skill feat. You can add {@filter uncommon 1st-level beacon|items||Rarity=Uncommon|Category=Bomb|Item=Beacon|Level=[-1;1]} formulas to your formula book in addition to the options given by the feat."
+			]
+		},
+		{
+			"name": "Beacon Expert",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"leadsTo": [
+				"Explosive Shot|FPKrosmoz",
+				"Arrow Beacon|FPKrosmoz"
+			],
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "expert in {@skill Crafting}, {@feat Beacon Aficionado|FPKrosmoz}",
+			"entries": [
+				"Your expertise with beacons makes you able to prepare these mechanisms on a daily basis. During your daily preparations, you can create up to 3 versatile chassis that can be quickly turned into beacons. You gain the Quick Beacon action to turn one of those chassis into a beacon for which you know the formula. The number of beacons you can prepare this way increases to four if you are a master in {@skill Crafting}, and to five if you are legendary.",
+				{
+					"type": "action",
+					"style": "full",
+					"name": "Quick Beacon",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"Cra|FPKrosmoz",
+						"Manipulate"
+					],
+					"cost": "1 versatile chassis",
+					"requirements": "You know the formula for the beacon you're creating, you're holding or wearing {@item alchemist's tools}, and you have a free hand.",
+					"entries": [
+						"You quickly prepare and activate your beacon, creating a single beacon of your level or lower without having to spend the normal monetary cost in alchemical reagents or needing to attempt a {@skill Crafting} check. This item has the {@trait infused} trait, but it remains potent only until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Backline Fighter",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You avoid the attention of creatures focused on your allies. You can use lesser cover from your allies to {@action Hide}."
+			]
+		},
+		{
+			"name": "Arrow to the Knee",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You attempt to hinder your enemy's movement by aiming at a precise location. Make a {@action Strike} with your ranged weapon within your first range increment.",
+				"On a hit, the target takes a \u201310-foot status penalty to its Speed or a \u201315-foot status penalty on a critical hit. This penalty applies only if the target has a land Speed and depends on legs or other targetable appendages to use its land Speed. As with all penalties to Speed, this can't reduce a creature's Speed below 5 feet."
+			]
+		},
+		{
+			"name": "Reactive Sight",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You are always on the lookout for any danger. You gain a +2 circumstance bonus to {@skill Perception} checks made as initiative rolls."
+			]
+		},
+		{
+			"name": "Discernful Eyes",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"Your keen eyes can see through anything. You gain a +1 circumstance bonus on {@skill Perception} checks against illusions and you ignore concealment caused by foliage."
+			]
+		},
+		{
+			"name": "Elusive Scuttle",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Advanced Scuttle|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"trigger": "An ally ends a move action adjacent to you.",
+			"level": 1,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You take advantage of your ally's movement to adjust your position. You {@action Step}."
+			]
+		},
+		{
+			"name": "See the Unseen",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "expert in {@skill Crafting}, {@feat Beacon Aficionado|FPKrosmoz}",
+			"entries": [
+				"You notice things that others can't see at all. While you're adjacent to an {@condition undetected} creature of your level or lower, it is instead only {@condition hidden} from you. You only need a successful DC {@flatDC 5} flat check to target a {@condition hidden} creature."
+			]
+		},
+		{
+			"name": "Explosive Shot",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"frequency": "once per hour",
+			"prerequisites": "{@feat Beacon Expert|FPKrosmoz}",
+			"trigger": "You {@action Strike} a beacon with a ranged weapon",
+			"entries": [
+				"You can bring beacons to their maximum potential. Any creature that fails its saving throw against the snare's initial effect critically fails instead."
+			]
+		},
+		{
+			"name": "Fulminating Shot",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"frequency": "once per day",
+			"trigger": "You critically hit a foe with a {@action Strike} with a ranged weapon.",
+			"entries": [
+				"Your arrow calls upon the divine intervention of your deity. You Cast the {@spell Flame Strike} Spell as a 7th-level divine innate spell centered on the target of the reaction."
+			]
+		},
+		{
+			"name": "Absolute Acuteness",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"Cra|FPKrosmoz",
+				"Concentration",
+				"Divine",
+				"Divination"
+			],
+			"frequency": "once per hour",
+			"entries": [
+				"When you focus your eyes carefully, your gaze can pierce through all obfuscations, even magical ones. When you use True Gaze, you gain the effects of a 6th-level {@spell true seeing} spell, using your {@skill Perception} modifier for the counteract check."
+			]
+		},
+		{
+			"name": "Ruthless Beacons",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "expert in {@skill Crafting}, {@feat Beacon Aficionado|FPKrosmoz}",
+			"entries": [
+				"You've learned how to create beacons that cause greater injuries. You deal an additional {@damage 1d6} precision damage with damaging beacons you craft.",
+				"This increases to {@damage 2d6} additional precision damage if you're legendary in {@skill Crafting}."
+			]
+		},
+		{
+			"name": "Cra Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Cra Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Training has made you an expert with Cra weapons. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency for the weapons from your {@feat Cra Weapon Familiarity|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Arcane Sight",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "ability to cast the {@spell detect magic} cantrip",
+			"entries": [
+				"You've trained yourself to constantly be on the lookout for magical effects, even when focusing on looking out for other things. When you are {@action Search||Searching}, you also gain the benefits of {@action Detect Magic} unless you choose not to."
+			]
+		},
+		{
+			"name": "Terrain Advantage",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You can take advantage of the terrain to bypass foes' defenses. Creatures in difficult terrain are {@condition flat‑footed} to you."
+			]
+		},
+		{
+			"name": "Long Step",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"You step further away from your enemies than anyone. You {@action Step} 5 feet twice."
+			]
+		},
+		{
+			"name": "Cra Magic",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You channel the magic of Cra's Bow. You can cast {@spell acid arrow} and {@spell spirit sense} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Arrow Beacon",
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Beacon Expert|FPKrosmoz}",
+			"frequency": "once per day",
+			"entries": [
+				"You shoot down a foe with a beacon as a gift. Make a {@action Strike} with a Ranged Attack, as part of the {@action Strike} you also Throw and {@action Activate an Item||Activate} a beacon centered on the target."
+			]
+		},
+		{
+			"name": "Advanced Scuttle",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Elusive Scuttle|FPKrosmoz}",
+			"entries": [
+				"You can scuttle farther and faster when maneuvering alongside allies. When you use {@feat Elusive Scuttle|FPKrosmoz}, you can {@action Stride} up to half your Speed instead of {@action Step||Stepping}."
+			]
+		},
+		{
+			"name": "Roly-Poly",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"A Cra always keeps their distance, as much as your enemies will try to keep you close. When you roll a success at an {@action Escape} check, you can {@action Step} up to 5 feet."
+			]
+		},
+		{
+			"name": "Locate Weak Points",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You can enhance your senses and mental state to know exactly where to strike. You can cast {@spell true strike} as a divine innate spell once per day."
+			]
+		},
+		{
+			"name": "Divine Archery",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"Cra guides you and grants you some of her magic. You can cast the {@spell guidance} and {@spell divine lance} as divine innate cantrips at will. A cantrip is heightened to a spell level equal to half your level rounded up."
+			]
+		},
+		{
+			"name": "Cra Weapon Familiarity",
+			"leadsTo": [
+				"Cra Weapon Precision|FPKrosmoz",
+				"Cra Weapon Expertise|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You favor bows of all kinds above all weapons. You are trained in all common weapons from the {@group bow} group.",
+				"In addition, you gain access to all {@filter uncommon cra weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=Cra}.",
+				"For the purpose of determining your proficiency, martial cra weapons are simple weapons and advanced cra weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Cra's Range Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Cra"
+			},
+			"traits": [
+				"Cra|FPKrosmoz"
+			],
+			"entries": [
+				"You've been brought up to know everything a Cra should ever know. You gain the trained proficiency rank in {@skill Crafting} and {@skill Society}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Cra Lore}."
+			]
+		},
+		{
+			"name": "Iop's Heart Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"You have lived the life that Iop intended, following all of his tenets. You gain the trained proficiency rank in {@skill Athletics} and {@skill Intimidation}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Iop Lore}."
+			]
+		},
+		{
+			"name": "Iop Weapon Familiarity",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"leadsTo": [
+				"Iop Weapon Fervour|FPKrosmoz",
+				"Iop Sword Training|FPKrosmoz",
+				"Iop Weapon Expertise|FPKrosmoz"
+			],
+			"entries": [
+				"You favor swords above all weapons. You gain access to {@item Aldori Dueling Sword|LOWG|Aldori Dueling Swords}. Additionally, choose two weapons from the {@group sword} group. You can choose from among all {@filter common martial swords|items||rarity=common|group=sword|weapon/armor category=martial}, plus the {@item katana}, {@item temple sword}, and {@item wakizashi|apg}. For the purpose of determining your proficiency, that weapon is a simple weapon, and if the weapon isn't common, you gain access to it. If you are trained in all martial weapons, you add common advanced swords to the swords you can choose from.",
+				"You also gain access to all {@filter uncommon iop weapons|items||Category=Weapon|rarity=uncommon|ancestry & heritage=iop}. For the purpose of determining your proficiency, martial Iop weapons are simple weapons, and advanced Iop weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Irrepressible",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"An Iop never backs down from a challenge, always putting their head in the wolf's mouth. When you roll a success on a save against an {@trait emotion} or {@trait fear} effect, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Overlooked Mastermind",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"You are not as simple as your brethren appear to be. You like to use your head sometimes, and not just in a literal way, but other people don't need to know that. You are trained in {@skill Deception} (or another skill of your choice if you were already trained in {@skill Deception}), and you gain a +2 circumstance bonus to {@skill Deception} checks to {@action Lie} when specifically claiming ignorance and to {@skill Deception} DCs against {@action Sense Motive} checks to uncover such lies."
+			]
+		},
+		{
+			"name": "Unburdened Iron",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"Armour is an essential part of war, and so you have learnt to wear them like any lighter kind of clothing. Ignore the reduction to your Speed from any armor you wear.",
+				"In addition, any time you're taking a penalty to your Speed from some other reason (such as from the {@condition encumbered} condition or from a spell), deduct 5 feet from the penalty.",
+				"For example, the {@condition encumbered} condition normally gives a \u201310-foot penalty to Speed, but it gives you only a \u20135-foot penalty. If your Speed is taking multiple penalties, pick only one penalty to reduce."
+			]
+		},
+		{
+			"name": "Unconventional Weaponry",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"leadsTo": [
+				"Unconventional Expertise|FPKrosmoz"
+			],
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"There is no weapon that an Iop cannot make use of. Choose an uncommon simple or martial weapon with a trait corresponding to an ancestry or that is common in another culture. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a simple weapon.",
+				"If you are trained in all martial weapons, you can choose an uncommon advanced weapon with such a trait. You gain access to that weapon, and for the purpose of determining your proficiency, that weapon is a martial weapon."
+			]
+		},
+		{
+			"name": "Cornered Fury",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"When fighting against the odds, you never give up. If a foe of a larger size than you critically hits and damages you, that foe is {@condition flat-footed} to you for 1 round."
+			]
+		},
+		{
+			"name": "Iop Weapon Fervour",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Iop Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"You've learned techniques for using blades and other iop weapons. Whenever you critically hit using one of the weapons from your {@feat Iop Weapon Familiarity|FPKrosmoz}, you apply the weapon's critical specialization effect."
+			]
+		},
+		{
+			"name": "Defiance Unto Death",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"Iops tend to be simple of mind but that does not make them necessarily more susceptible to mind magic. Some of them will fight against any kind of mental manipulation with everything they have. If you would start your turn {@condition confused}, {@condition controlled}, or {@condition fleeing} due to a failed Will save, you can attempt a Will save against the same DC; on a success, you become {@condition paralyzed} until your next turn, rather than act against your will."
+			]
+		},
+		{
+			"name": "Martial Experience",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"You've crossed blades with a wide variety of foes wielding a wide variety of weapons, and you've learned the basics of fighting with nearly any of them. When wielding a weapon you aren't proficient with, treat your level as your proficiency bonus.",
+				"At 11th level, you become trained in all weapons."
+			]
+		},
+		{
+			"name": "Victorious Vigor",
+			"source": "FPKrosmoz",
+			"activity": {
+				"unit": "reaction",
+				"number": 1
+			},
+			"level": 5,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"trigger": "You bring a foe to 0 Hit Points.",
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"Your victories in battle fill you with pride and imbue you with the energy to fight a bit longer despite your wounds.",
+				"You gain temporary Hit Points equal to your Constitution modifier until the end of your next turn."
+			]
+		},
+		{
+			"name": "Battleforger",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"prerequisites": "master in {@skill Crafting}",
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"You can sharpen weapons, polish armor, and apply special techniques to temporarily gain better effects from your armaments. By spending 1 hour working on a weapon or armor, you can grant it the effects of a +1 potency rune until your next daily preparations, gaining a +1 item bonus to attack rolls for a weapon or increasing armor's item bonus to AC by 1. This has no effect if the weapon or armor already had a potency rune."
+			]
+		},
+		{
+			"name": "Glory And Valor!",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"activity": {
+				"unit": "action",
+				"number": 1
+			},
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"frequency": "once per day",
+			"traits": [
+				"Auditory",
+				"Iop|FPKrosmoz",
+				"Healing",
+				"Necromancy",
+				"Divine"
+			],
+			"entries": [
+				"You are a follower of Iop, The Lord of the Brave. You call upon your god with a mighty cry that fills you with a revitalizing energy for 1 minute or until you critically fail a {@action Strike}, whichever comes first. For the duration, the first time each round you successfully {@action Strike} a creature of your level or higher, you regain Hit Points equal to half your level."
+			]
+		},
+		{
+			"name": "Heroes' Call",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"The songs of ancient heroes echo through your mind and quicken your pulse, especially in dire straits. You gain {@spell heroism} as a 3rd-level innate divine spell that you can cast once per day. If you {@action Cast a Spell||Cast the Spell} when you have half or fewer Hit Points, you also gain temporary Hit Points equal to twice your level."
+			]
+		},
+		{
+			"name": "Iop Magic",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"entries": [
+				"You channel the magic of Iop's Sword. You can cast {@spell Spiritual Weapon} and {@spell Instant Armor} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Iop Sword Training",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"leadsTo": [
+				"Iop Sword Mastery|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Iop Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"An Iop needs to know to fend for themselves with whichever weapon they have at hand. You can change any of the swords designated in your {@feat Iop Weapon Familiarity|FPKrosmoz} to different swords that meet the same specifications. You have to practice with a sword during your daily preparations to designate it, and the designation only lasts until your next daily preparations. This changes only your proficiency; it doesn't change your access."
+			]
+		},
+		{
+			"name": "Can't Fall Here",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Auditory",
+				"Iop|FPKrosmoz",
+				"Manipulate"
+			],
+			"frequency": "once per day",
+			"trigger": "An adjacent and willing ally would be reduced to 0 HP but not killed.",
+			"entries": [
+				"You physically help an ally remain standing and encourage them to push through their pain against dire odds. Your ally doesn't fall {@condition unconscious} and remains at 1 Hit Point. The ally also gains a number of temporary Hit Points equal to your level that last for 1 minute. Fighting onward with such an injury isn't without consequence; your ally's {@condition wounded} condition increases by 1."
+			]
+		},
+		{
+			"name": "Iop Sword Mastery",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Iop Sword Training|FPKrosmoz}",
+			"entries": [
+				"All swords are just an extension of your soul. You change one of the swords designated in your {@feat Iop Weapon Familiarity|FPKrosmoz} to a new one that you're wielding, provided the sword meets the specifications of {@feat Iop Weapon Familiarity|FPKrosmoz}. You can {@action Interact} to draw a sword as part of this activity, designating the sword as part of drawing it; disrupting that {@action Interact} action prevents you from designating it as one of your swords. This designation lasts until your next daily preparations."
+			]
+		},
+		{
+			"name": "Iop Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Iop Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Training has made you an expert with Iop weapons. Whenever you gain a class feature that grants you expert or greater proficiency in a given weapon or weapons, you also gain that proficiency for the weapons from your {@feat Iop Weapon Familiarity|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Unconventional Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Iop|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Unconventional Weaponry|FPKrosmoz}, trained in the weapon you chose for Unconventional Weaponry",
+			"entries": [
+				"You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for {@feat Unconventional Weaponry|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Heroic Presence",
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Emotion",
+				"Iop|FPKrosmoz",
+				"Mental"
+			],
+			"frequency": "once per day",
+			"entries": [
+				"The blood of heroes courses through your veins, and you inspire your allies to dig deep and find a new level of resolve. You grant up to 10 willing creatures within 30 feet the effects of a 6th-level {@spell zealous conviction}, though the effect automatically ends on a target if you give that target a command they would normally find repugnant. This action has the {@trait auditory} trait or {@trait visual} trait, depending on how you inspire your allies."
+			]
+		},
+		{
+			"name": "Reckless Abandon",
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Iop"
+			},
+			"traits": [
+				"Fortune",
+				"Iop|FPKrosmoz"
+			],
+			"frequency": "once per day",
+			"entries": [
+				"Despite a lifetime filled with questionable decisions, you've managed to survive, as though you have uncanny luck that lets you avoid the consequences of your own actions. For the remainder of your turn, if you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead. Further, enemies and hazards that would damage you this turn roll the minimum possible damage.",
+				"These benefits apply only to harmful effects incurred entirely during your turn in which you activate Reckless Abandon, such as running through a {@spell prismatic wall}. Persistent damage and conditions that were applied prior to your turn proceed normally, and as soon as your turn ends you are subject to the full consequences of any dangers still threatening you."
 			]
 		}
 	]

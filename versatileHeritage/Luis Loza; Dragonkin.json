@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#ad1111",
+				"color": "ad1111",
 				"version": "1.0"
 			}
 		],
@@ -167,11 +167,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -190,11 +190,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -208,11 +208,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -227,11 +227,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -249,11 +249,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -271,11 +271,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -291,11 +291,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -311,11 +311,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -329,11 +329,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -347,11 +347,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -368,11 +368,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 5,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -392,11 +392,11 @@
 			},
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -415,11 +415,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -434,11 +434,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -452,11 +452,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -471,11 +471,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 13,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -490,11 +490,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 13,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -508,11 +508,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 13,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -527,11 +527,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 17,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"
@@ -546,11 +546,11 @@
 			"source": "Luis-DragonkinVH",
 			"level": 17,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dragonkin",
-				"skill": false,
-				"archetype": false
+
+
+				"ancestry": "Dragonkin"
+
+
 			},
 			"traits": [
 				"Dragonkin|Luis-DragonkinVH"

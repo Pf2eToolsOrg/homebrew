@@ -13,13 +13,12 @@
 					"MrVauxs"
 				],
 				"version": "0.0.1",
-				"color": "#8d4995"
+				"color": "8d4995"
 			}
 		],
 		"dateAdded": 1627223339,
 		"dateLastModified": 1627223336
 	},
-	"feat": [],
 	"spell": [
 		{
 			"source": "CoLegerdemains",
@@ -30,7 +29,6 @@
 			"school": "C",
 			"type": "SPELL",
 			"components": {
-				"F": false,
 				"M": true,
 				"S": true,
 				"V": true

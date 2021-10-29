@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#d9a8d7",
+				"color": "d9a8d7",
 				"version": "1.0"
 			},
 			{
@@ -26,7 +26,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#a7ddef",
+				"color": "a7ddef",
 				"version": "1.0"
 			},
 			{
@@ -40,7 +40,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#ffdbac",
+				"color": "ffdbac",
 				"version": "1.0"
 			},
 			{
@@ -54,7 +54,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#0db3bc",
+				"color": "0db3bc",
 				"version": "1.0"
 			}
 		],
@@ -79,11 +79,7 @@
 			"source": "LuisAncestryFeats-Sahkil",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Tiefling",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Tiefling"
 			},
 			"traits": [
 				"Tiefling",
@@ -117,11 +113,7 @@
 			"source": "LuisAncestryFeats-Sahkil",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Tiefling",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Tiefling"
 			},
 			"traits": [
 				"Tiefling"
@@ -136,11 +128,7 @@
 			"source": "LuisAncestryFeats-Couatl",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Aasimar",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Aasimar"
 			},
 			"traits": [
 				"Aasimar",
@@ -173,11 +161,7 @@
 			"source": "LuisAncestryFeats-Couatl",
 			"level": 9,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Aasimar",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Aasimar"
 			},
 			"traits": [
 				"Aasimar"
@@ -192,11 +176,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 6,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dwarf",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Dwarf"
 			},
 			"traits": [
 				"Dwarf",
@@ -227,11 +207,7 @@
 			"source": "LuisAncestryFeats-Couatl",
 			"level": 18,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Dwarf",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Dwarf"
 			},
 			"activity": {
 				"number": 1,
@@ -252,11 +228,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 6,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Elf",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Elf"
 			},
 			"activity": {
 				"number": 2,
@@ -276,11 +248,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 18,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Elf",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Elf"
 			},
 			"activity": {
 				"number": 2,
@@ -303,11 +271,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 6,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Gnome",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Gnome"
 			},
 			"activity": {
 				"number": 1,
@@ -327,11 +291,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 18,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Gnome",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Gnome"
 			},
 			"activity": {
 				"number": 1,
@@ -353,11 +313,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 6,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Goblin",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Goblin"
 			},
 			"activity": {
 				"number": 1,
@@ -378,11 +334,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 18,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Goblin",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Goblin"
 			},
 			"traits": [
 				"Goblin",
@@ -397,11 +349,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 6,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Halfling",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Halfling"
 			},
 			"activity": {
 				"number": 2,
@@ -421,11 +369,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 18,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Halfling",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Halfling"
 			},
 			"activity": {
 				"number": 1,
@@ -448,11 +392,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 6,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Human",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Human"
 			},
 			"activity": {
 				"number": 1,
@@ -473,11 +413,7 @@
 			"source": "LuisAncestryFeats-Exemplar",
 			"level": 18,
 			"featType": {
-				"class": false,
-				"general": false,
-				"ancestry": "Human",
-				"skill": false,
-				"archetype": false
+				"ancestry": "Human"
 			},
 			"activity": {
 				"number": 2,

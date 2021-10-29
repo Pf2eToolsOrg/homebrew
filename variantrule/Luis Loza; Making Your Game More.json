@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"MrVauxs"
 				],
-				"color": "#1166ff",
+				"color": "1166ff",
 				"version": "1.0"
 			}
 		],
@@ -37,11 +37,11 @@
 			"source": "Luis-MYGM",
 			"level": 1,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",
@@ -64,11 +64,11 @@
 			"source": "Luis-MYGM",
 			"level": 3,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",
@@ -88,11 +88,11 @@
 			"source": "Luis-MYGM",
 			"level": 3,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",
@@ -112,11 +112,11 @@
 			"source": "Luis-MYGM",
 			"level": 7,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",
@@ -136,11 +136,11 @@
 			"source": "Luis-MYGM",
 			"level": 7,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",
@@ -160,11 +160,11 @@
 			"source": "Luis-MYGM",
 			"level": 11,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",
@@ -188,11 +188,11 @@
 			"source": "Luis-MYGM",
 			"level": 19,
 			"featType": {
-				"class": false,
-				"general": true,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+
+				"general": true
+
+
+
 			},
 			"traits": [
 				"General",

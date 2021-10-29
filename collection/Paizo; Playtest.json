@@ -6866,11 +6866,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"By unraveling memories and connections passed down from your progenitors, you learn to convert your inherent magic into psychic power. You can cast any innate spells you know from an ancestry feat or heritage using your psychic spellcasting components. When you do so, the spell's tradition becomes occult, if it wasn't already, and you can use your psychic spellcasting ability modifier instead of the ability modifier you would ordinarily use for your ancestry spells, if different, to determine your spell attack roll and spell DC."
@@ -6887,11 +6883,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"trigger": "A creature {@action Cast a Spell||Casts a Spell} that has the {@trait mental} trait.",
 			"requirements": "You have an unexpended spell slot you could use to {@action Cast a Spell} that has the {@trait mental} trait.",
@@ -6912,11 +6904,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your mind deflects some amount of harm from attacks that induce pain or manipulate your mind directly. You gain resistance to mental damage equal to half your level. This resistance increases to equal your level while your psyche is Unleashed."
@@ -6931,11 +6919,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your telepathic sensitivity intensifies when you're affected by mental magic, making it easier for you to link to other creatures. When you're affected by a mental spell or have cast a mental spell this round, you gain a +1 circumstance bonus on {@skill Deception}, {@skill Diplomacy}, and {@skill Intimidation} checks, and on {@skill Perception} checks to {@action Sense Motive}."
@@ -6951,11 +6935,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"requirements": "You've cast two beneficial spells on yourself or an ally this encounter, each on a different round.",
 			"entries": [
@@ -6977,11 +6957,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"With a bit of introspection, you realize that your mind can accomplish so much more. Add two additional occult cantrips to your repertoire."
@@ -6999,11 +6975,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"As your psychic magic flares, you release soothing mental waves to stabilize the mind. Use this amp in place of the psi cantrip's normal amp entry. You can use this amp only on a psi cantrip that targets or affects one or more of your allies and doesn't target or affect any enemies.",
@@ -7020,11 +6992,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"As you unleash your spell, you use your magic to bend and distort space, allowing your spell to strike your target from an unexpected vector. Use this amp in place of the psi cantrip's normal amp entry. The amped psi cantrip must have a range.",
@@ -7043,11 +7011,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"As your spell strikes a target, you plant a beacon in their mind that announces their presence to those nearby. Use this amp in place of the psi cantrip's normal amp entry. The amped spell must be one that has one or more targets and must either require a spell attack roll or have a saving throw.",
@@ -7066,11 +7030,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"The sheer intensity of your mental focus causes spontaneous combustion. Use this amp in place of the psi cantrip's normal amp entry. The amped psi cantrip must be one that deals damage and doesn't have a duration.",
@@ -7086,11 +7046,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"frequency": "once per hour",
 			"trigger": "You cast a psi cantrip.",
@@ -7114,11 +7070,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your spell leaves behind barriers that reduce shock and motion.",
@@ -7135,11 +7087,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You expand your mind beyond your area of psychic specialty.",
@@ -7157,11 +7105,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You can detect the lingering thoughts of spirits and similar entities with your psychic abilities. While you're exploring but not Searching, the GM rolls a secret check for you to find haunts that usually require Searching as well as spirits, creatures on the Ethereal Plane, and beings made entirely of spiritual essence, such as celestials, fiends, and monitors.",
@@ -7178,11 +7122,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You can create a prototypical creature from the depths of your imagination. Whenever you summon a creature, you can choose to instead create a psychic construct in the shape of that creature. This grants it resistance to physical damage equal to half its level, weakness 5 to force and mental damage, and the ability to pass through enemies' spaces without needing to {@action Tumble Through} (though it can't end its turn in such a space)."
@@ -7198,11 +7138,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "precise discipline subconscious mind",
 			"requirements": "You've cast two damaging spells since rolling initiative, each on a different round.",
@@ -7225,11 +7161,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "emotional acceptance subconscious mind",
 			"requirements": "You've used two {@trait emotion} effects since rolling initiative, each on a different round.",
@@ -7252,11 +7184,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"A deeper understanding of your power has given you a new way to consciously bring it forth. You gain the deeper psi cantrip for your conscious mind."
@@ -7271,11 +7199,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"When you Unleash your psyche, you can remain in that state longer before leaving it. Increase the duration of your psyche to 5 rounds."
@@ -7292,11 +7216,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"trigger": "You roll a critical success on a Will save against a {@trait mental} effect from a creature.",
 			"entries": [
@@ -7317,11 +7237,7 @@
 				"Visual"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Eye contact can help you invade another creature's thoughts, as though you were peering directly through their eyes and into their mind. When you cast an enchantment spell that targets only one creature within 30 feet who can see you, you can gaze into the creature's eyes, causing the creature to take a \u20131 status penalty to their saving throw against your spell unless they choose to break the eye contact as a reaction. If they don't look away, you're {@condition fascinated} with them until the end of your next turn as you maintain the eye contact. When you use Mesmerizing Gaze, the {@action Avert Gaze} action provides its bonus to saving throws against your spell, as the spell's effects have become connected to the eye contact."
@@ -7336,11 +7252,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "infinite eye conscious mind",
 			"entries": [
@@ -7357,11 +7269,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "distant grasp conscious mind",
 			"entries": [
@@ -7382,11 +7290,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "silent whisper conscious mind",
 			"entries": [
@@ -7403,11 +7307,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your direct mental grasp of your power lets you cast more spells with greater freedom. You gain two additional signature spells, each of which must have a minimum level of 3rd or lower."
@@ -7423,11 +7323,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"requirements": "The same enemy has damaged you on at least two of its turns in this encounter.",
 			"entries": [
@@ -7453,11 +7349,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "emotional acceptance subconscious mind",
 			"frequency": "once per 10 minutes",
@@ -7489,11 +7381,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"prerequisites": "precise discipline subconscious mind",
 			"entries": [
@@ -7514,11 +7402,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You can push your mind immediately into an overloaded state, though doing so accelerates your mental strain.",
@@ -7540,11 +7424,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"requirements": "You've cast a spell with a sustained duration during this encounter and then Sustained it on your next turn to extend its duration.",
 			"entries": [
@@ -7566,11 +7446,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your practice with the spells of your conscious mind allows you to cast them even more than normal. You gain an additional spell slot of 1st, 2nd, 3rd, and 4th levels. You can use these spell slots to cast only spells granted by your conscious mind.",
@@ -7586,11 +7462,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your insidious mind-control spells send burrowing mental roots so deep that they tear at your target's mind even after they are removed or have run their course. When you cast a spell that imposes the {@condition controlled} condition or otherwise forces the target to take certain actions (such as command), you can choose one target who critically failed its save. When that target finishes fulfilling any commands issued by your spell, or when the spell is dispelled or counteracted, it takes {@damage 1d4} mental damage per level of the spell."
@@ -7606,11 +7478,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"The sheer power of your psychic magic causes fractures in reality. Use this amp in place of the psi cantrip's normal amp entry.",
@@ -7626,11 +7494,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your power has unbound you from the earth below, letting you float harmlessly over traps and unstable terrain. You're affected by a constant air walk, except the highest you can walk is 5 feet above the ground. While your psyche is unleashed, you're also affected by a {@spell fly} spell."
@@ -7648,11 +7512,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"requirements": "You've cast two evocation spells that affect an area since rolling initiative, each on a different round.",
 			"entries": [
@@ -7676,11 +7536,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"As your magic fells a creature, you take advantage of their flickering consciousness to release a detonation of psychic energy from the creature's head. Use this amp in place of the psi cantrip's normal amp entry. Unlike with many amps, you choose to add this amp to a spell after you've successfully reduced a non‑mindless enemy to 0 Hit Points with the spell, rather than as part of Casting the Spell. You can't use this amp on a nonlethal spell.",
@@ -7696,11 +7552,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You've traveled to the furthest depths of your subconscious, granting you even more focus. Increase the number of Focus Points in your focus pool by 1. If you've spent at least 3 Focus Points since the last time you {@action Refocus||Refocused}, you recover 3 Focus Points when you {@action Refocus} instead of 1."
@@ -7716,11 +7568,7 @@
 				"Transmutation"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You shed some of your material form, becoming a being of pure thought. You gain resistance 10 to physical damage but weakness 5 to mental damage and weakness 10 to any effect that deals damage specifically by targeting the spirit, such as spirit blast. Once per century, when you die, you automatically return to life as long as one living sentient creature on your plane remembers you; the memories allow you to reconstruct yourself from their thoughts."
@@ -7735,11 +7583,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"You can modify and amplify your spells as much as you like.",
@@ -7755,11 +7599,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"entries": [
 				"Your mind's limits are only what you imagine them to be. You gain an additional 10th‑level spell slot."
@@ -7774,11 +7614,7 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {
-				"class": "Psychic",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Psychic"
 			},
 			"requirements": "You have at least two psyche abilities.",
 			"entries": [
@@ -7798,11 +7634,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"frequency": "once per day (resetting at sunset)",
 			"entries": [
@@ -7827,11 +7659,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You pull out multiple opposing divine objects\u2014such as the religious symbols of two deities that are hated enemies\u2014and combine them in a display that is not only galling, but also causes discordant clashes of divine energy that are especially distracting to the faithful. Roll your choice of a {@skill Deception} or {@skill Intimidation} check against the Will DC of a creature you can see within 60 feet, with the following results. If the creature is particularly devoted to a deity, such as a cleric, celestial, monitor, fiend, or other creature with divine spells, you gain a +2 circumstance bonus to your skill check. The GM might determine that a creature that despises all deities, such as an alghollthu, is unaffected.",
@@ -7857,11 +7685,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"Your diverse studies into various sources of lore mean you've heard rumors or theories about almost every topic... though admittedly, your sources aren't always the most reliable. You are trained in {@skill Lore||Esoteric Lore}, a special {@skill Lore} skill that can be used only to {@action Recall Knowledge}, but on any topic.",
@@ -7877,11 +7701,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"Whether by following occult rituals, piecing together scraps of arcane theory, or some other method, you've called forth a creature that now serves as your constant companion in your studies of the supernatural. You gain a familiar."
@@ -7898,11 +7718,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"One of the most useful pieces of cunning knowledge is the ability to notice the emotional echo of a soul that passed on, leaving a haunt in its wake. Even when you aren't Searching while in exploration mode, the GM rolls a secret check for you to notice haunts that usually require you to be Searching.",
@@ -7923,11 +7739,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"Marigold, spider lily, pennyroyal\u2014many primal traditions connect flowers and plants with the boundary between life and death, and you can leverage this connection to keep an ally on this side of the line. You place a small plant or similar symbol on an adjacent {@condition dying} creature, immediately stabilizing them; the creature is no longer {@condition dying} and is instead {@condition unconscious} at 0 Hit Points.",
@@ -7948,11 +7760,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"Your multidisciplinary study of magic means you know how to activate the magic in scrolls with ease. You can Activate scrolls of any magical tradition, using your thaumaturge class DC for the scroll's DC, rather than a particular spell DC.",
@@ -7972,11 +7780,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You can tug on the connections between yourself and your implement, causing it to find its way back to you. You look down at your hand and find your implement has mysteriously appeared in it, as long as it was within 1 mile and on the same plane of existence. If your implement is attended by another creature, that creature can prevent the implement from teleporting away if it succeeds at a Will save against your class DC. If the creature succeeds, you can't attempt to Call that Implement again; you have to track the creature down to get the implement back."
@@ -7995,11 +7799,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "a familiar",
 			"entries": [
@@ -8015,11 +7815,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Find Flaws",
 			"entries": [
@@ -8038,11 +7834,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You know how to assemble the supernatural objects in your esoterica into a number of temporary talismans. Each day during your daily preparations, you can make two talismans with an item level no higher than half your level. You must know each talisman's formula. A talisman created this way is a temporary item and loses its magic the next time you make your daily preparations.",
@@ -8063,11 +7855,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Esoteric Antithesis",
 			"requirements": "You're benefiting from Esoteric Antithesis.",
@@ -8090,11 +7878,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You've sworn a pact with fey powers, granting you the otherworldly appearance of your dreams in exchange for oaths of hospitality. As long as you keep your end of the bargain, your base appearance changes indefinitely to any one appearance you wish that is within the bounds of possibility for your ancestry; this effect can't be counteracted or removed except by violating the pact. Additionally, you can cast {@spell illusory disguise} as a primal innate spell once per day, using your thaumaturge class DC instead of your spell DC if you prefer.",
@@ -8110,11 +7894,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You've forged a deeper connection to your invested items, allowing you to activate them more than usual. Once each day, you can {@action Activate an Item} you've invested even after you've used that activation the maximum number of times for its frequency. You can do so only if the item's level is half your level or lower, has a frequency of once per day or more, and you haven't already used the activation this round."
@@ -8130,11 +7910,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"Your studies into the supernatural have resulted in an especially strong knowledge of rituals. You gain a +2 circumstance bonus to all primary checks to perform a ritual.",
@@ -8156,11 +7932,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"trigger": "You would attempt a roll affected by a {@trait misfortune} effect.",
 			"entries": [
@@ -8181,11 +7953,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You include just about anything you might need amid all your esoterica. You gain the Prescient Planner and Prescient Consumable feats. When using Prescient Planner, you can pull out the item as a 2-action activity to remove your backpack (or a similar container) and draw the item, rather than taking 1 minute."
@@ -8201,11 +7969,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Scroll Thaumaturgy",
 			"entries": [
@@ -8226,11 +7990,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Find Flaws",
 			"frequency": "once per round",
@@ -8260,11 +8020,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Talisman Esoterica",
 			"entries": [
@@ -8280,11 +8036,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "{@feat Enhanced Familiar|SoM}",
 			"entries": [
@@ -8300,11 +8052,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"When you've heard of something at all, you've heard about it at length. When you succeed at a Knowledge check, you gain additional information or context. When you critically succeed at a Knowledge check, at the GM's discretion, you might gain even more additional information or context than normal."
@@ -8321,11 +8069,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You've sworn a pact with devils, granting you success in life in exchange for your soul in the afterlife. Once per day, when you critically fail a check, you can reroll the check as a free action; this is a {@trait fortune} effect. Additionally, you can choose to automatically succeed at checks to {@action Earn Income} for tasks below your level, without rolling.",
@@ -8342,11 +8086,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Esoteric Antithesis",
 			"entries": [
@@ -8363,11 +8103,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Esoteric Antithesis",
 			"requirements": "Your Esoteric Antithesis is set to a weakness its subject has (not a custom weakness).",
@@ -8390,11 +8126,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Charisma 16",
 			"entries": [
@@ -8410,11 +8142,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Esoteric Antithesis",
 			"requirements": "You're holding an implement and a weapon, and the subject of your Esoteric Antithesis is within reach of both.",
@@ -8436,11 +8164,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Scroll Esoterica",
 			"entries": [
@@ -8459,11 +8183,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You've sworn a pact with powerful psychopomps\u2014typically an olethros advocate or yamaraj judge\u2014granting you a reprieve before your soul will be collected, in exchange for respect for the dead and assistance against the undead. As long as you keep your end of the bargain, you live twice as long as you normally would before {@condition dying} of natural causes. Additionally, the first time each day that you would be reduced to 0 Hit Points and gain the {@condition dying} condition, you instead regain a number of Hit Points equal to your level (starting from 0 HP), remain conscious, and gain fast healing equal to half your level for 3 rounds.",
@@ -8479,11 +8199,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Warding Circle",
 			"entries": [
@@ -8501,11 +8217,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You have claimed an area or location as your demesne, granting you the ability to ward and protect it. When you select this feat, choose a demesne, an area of no more than 200 square feet. You must legitimately claim the area; in the case of a building or property, you must own it, and in the case of an unowned plot of land, no other inhabitants can contest your claim.",
@@ -8521,11 +8233,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "an implement that grants a reaction",
 			"entries": [
@@ -8541,11 +8249,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Elaborate Talisman Esoterica",
 			"entries": [
@@ -8562,11 +8266,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Esoteric Warden",
 			"entries": [
@@ -8583,11 +8283,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Handy Esoterica",
 			"entries": [
@@ -8606,11 +8302,7 @@
 				"Transmutation"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"By weakening your connection to the ground and strengthening your connection to the sky, you've learned to soar through the air, your implement carrying you as surely as any broomstick or pestle. As long as you're holding your implement, you gain a fly Speed equal to your land Speed."
@@ -8628,11 +8320,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"requirements": "You're holding an implement in one hand.",
 			"entries": [
@@ -8656,11 +8344,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Esoteric Antithesis",
 			"trigger": "The subject of your Esoteric Antithesis uses a {@trait teleportation} effect and is within 120 feet.",
@@ -8682,11 +8366,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Elaborate Scroll Esoterica",
 			"entries": [
@@ -8704,11 +8384,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"requirements": "You're holding both an implement and a weapon.",
 			"entries": [
@@ -8728,11 +8404,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"entries": [
 				"You have an exceptional connection to one of your lesser implements, allowing you to tap into more of its power. You gain the adept benefit for one of your implements for which you have only the initiate benefit."
@@ -8748,11 +8420,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Share Antithesis",
 			"entries": [
@@ -8770,11 +8438,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "Thaumaturge's Demesne",
 			"entries": [
@@ -8790,11 +8454,7 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {
-				"class": "Thaumaturge",
-				"general": false,
-				"ancestry": false,
-				"skill": false,
-				"archetype": false
+				"class": "Thaumaturge"
 			},
 			"prerequisites": "legendary in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}",
 			"entries": [
@@ -8812,18 +8472,10 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You value physical perfection as much as mental. The damage die for your fist changes to {@dice 1d6} instead of {@dice 1d4}. Most people take a \u20132 circumstance penalty when making a lethal attack with nonlethal unarmed attacks because they find it hard to use their fists with deadly force. You don't take this penalty when making a lethal attack with your fist or any other unarmed attacks.",
 				"You also gain the critical specialization effects of unarmed attacks in the {@group brawling} group and weapons in the {@group brawling} group."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -8836,11 +8488,6 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You make a telegraphed attack to learn about your foe. Make a melee {@action Strike|CRB}. On a hit, you can immediately attempt a check to {@action Recall Knowledge|CRB} about the target. On a critical hit, you gain a +2 circumstance bonus to the check to {@action Recall Knowledge|CRB}. The target is temporarily immune to Combat Assessment for 1 day."
 			],
@@ -8848,8 +8495,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -8862,17 +8507,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can use clever workarounds to replicate the arcane essence of certain materials. When {@action Cast a Spell|CRB|Casting a Spell} that requires material components, you can provide these material components without a spell component pouch by drawing intricate replacement sigils in the air. Unlike when providing somatic components, you still must have a hand completely free. This ability doesn't remove the need for any materials listed in the spell's cost entry."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -8885,17 +8522,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You make a pact with creature that serves you and assists your spellcasting. You gain a {@filter familiar|companionsfamiliars||Type=Familiar} (Core Rulebook 217)."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -8908,11 +8537,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're holding a book.",
-			"cost": null,
 			"entries": [
 				"You raise up the book you're holding and flip it open to defend yourself and expedite your studies. The book remains raised until the start of your next turn. While you have a book raised, you gain a +1 circumstance bonus to AC and to {@action Recall Knowledge|CRB} on a subject relevant to the book (such as arcane magic if you're using your spellbook)",
 				"If you're a master in the skill you're using to {@action Recall Knowledge|CRB}, the circumstance bonus to the {@action Recall Knowledge|CRB} check is +2 instead."
@@ -8921,8 +8546,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -8935,17 +8558,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Dedicated study allows you to prepare a wider range of simple spells. You can prepare two additional cantrips each day."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -8959,17 +8574,10 @@
 				"class": "Magus"
 			},
 			"prerequisites": "a familiar",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You infuse your familiar with additional magical energy. You can select four familiar or master abilities each day, instead of two."
 			],
 			"add_hash": "Magus",
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -8985,18 +8593,10 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've magically constructed an extradimensional sheath for your weapon, typically accessed through a pocket, sleeve, or clothing seam. This sheath is hard to notice, granting a +2 circumstance bonus to your {@skill Stealth} checks to Conceal an Item within it. A spirit sheath can hold only one weapon at a time, and the weapon must be 1 Bulk or less.",
 				"You can draw or return a weapon in a spirit sheath as an {@action Interact|CRB} action, as can anyone else holding the object bearing the sheath. When you {@action Cast a Spell|CRB} affected by Striking Spell, you can draw the weapon from your spirit sheath into your hand or hands as part of the {@action Cast a Spell|CRB} activity, storing your spell within the weapon."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9009,11 +8609,8 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
 			"frequency": "once per turn",
-			"trigger": null,
 			"requirements": "Your most recent action was to cast a non‑cantrip spell.",
-			"cost": null,
 			"entries": [
 				"You siphon spell energy into one weapon you're wielding. Until the end of your turn, the weapon deals an extra {@dice 1d6} damage of a type depending on the school of the spell you just cast. You can choose to put the spell energy into your body instead of a weapon, conferring the damage on your unarmed attacks.",
 				{
@@ -9032,8 +8629,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9046,11 +8641,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding only a single one-handed melee weapon and have your other hand or hands free.",
-			"cost": null,
 			"entries": [
 				"You can parry both physical and magical assaults. You gain a +1 circumstance bonus to AC and to saving throws against spells that target you until the start of your next turn as long as you continue to meet the requirements."
 			],
@@ -9058,8 +8649,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9072,17 +8661,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Confident in your technique, you don't easily lose your concentration when you {@action Cast a Spell|CRB}. If a reaction would disrupt your spellcasting action, attempt a DC {@flatDC 15} flat check. If you succeed, your action isn't disrupted."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9095,18 +8676,10 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can attach a scroll to your weapon to blend its spell into an attack, carefully folding it around a part of the weapon or pasting it to the weapon's surface. Attaching a scroll requires using the Affix a Talisman action (a 10-minute exploration activity with the manipulate trait found on page 565 of the Core Rulebook). You can have only one scroll affixed to a weapon at a time, and you can't have both a talisman and scroll attached.",
 				"You can {@action Cast a Spell||Cast the Spell} from the scroll after using {@action Striking Spell|PT:SoM} to store the scroll's spell in the attached weapon. You can't {@action Cast a Spell||Cast the Spell} in any other way while it's affixed, though you can use Affix a Talisman again to remove the scroll and use it as a normal\u2014if a bit crumpled\u2014scroll."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9119,11 +8692,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "Your most recent action was to {@action Cast a Spell} with the acid, cold, electricity, fire, or sonic trait.",
-			"cost": null,
 			"entries": [
 				"You energize one weapon you're wielding with a spell. For 1 minute, your {@action Strike|CRB|Strikes} with that weapon deal 1 additional damage per weapon damage die. The damage type matches the spell's trait. If the spell had more than one of the eligible traits, you choose the type when you Energize your {@action Strike|CRB|Strikes}.",
 				"You can instead put the spell energy into your body, conferring this additional damage on your unarmed attacks."
@@ -9132,8 +8701,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9147,17 +8714,10 @@
 				"class": "Magus"
 			},
 			"prerequisites": "ability to cast 3rd-level magus spells",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've strengthened your spellcasting to power you in combat. You gain two 1st-level spell slots, but you can prepare only certain spells in them: {@spell fleet step|CRB}, {@spell jump|CRB}, {@spell mage armor|CRB}, {@spell magic weapon|CRB}, and {@spell true strike|CRB}. Automatically add these spells to your spellbook.",
 				"When you can cast 4th-level magus spells, the extra slots increase to 2nd level and you add the spells {@spell resist energy|CRB}, {@spell spider climb|CRB}, and {@spell water breathing|CRB}. When you can cast 5th-level {@class magus|pt:som} spells, the extra slots increase to 3rd level and you add the spells {@spell feet to fins|CRB} and {@spell haste|CRB}. When you can cast 6th-level {@class magus|pt:som} spells, the extra slots increase to 4th level and you add the spells fly and {@spell freedom of movement|CRB}."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9171,16 +8731,9 @@
 				"class": "Magus"
 			},
 			"prerequisites": "focus pool",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can protect yourself against magic. You learn the spell countermeasures battle spell (page 11). Increase the number of Focus Points in your focus pool by 1."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9194,10 +8747,8 @@
 				"class": "Magus"
 			},
 			"prerequisites": "Spell Parry",
-			"frequency": null,
 			"trigger": "You succeed at your save against a foe's harmful spell targeting you, or a foe fails a spell attack roll against you from a harmful spell.",
 			"requirements": "You're benefiting from Spell Parry.",
-			"cost": null,
 			"entries": [
 				"When you resist a spell, you capture the magic in your weapon.",
 				"You store the spell in the parrying weapon as though you had used {@action Striking Spell|PT:SoM} (losing any spell currently stored in the weapon, as normal). This doesn't change any of the spell's effects based on the result of your saving throw; for instance, you'd still take half damage if you succeeded at a basic save."
@@ -9207,8 +8758,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -9221,18 +8770,10 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"One spell is your favored combat technique, and you've practiced it enough that you no longer need to prepare it to cast it. Choose a spell in your spellbook that you could use with {@action Striking Spell|PT:SoM} and that has a level no higher than the highest-level {@class magus|pt:som} spell slot you have. You can {@action Cast a Spell||Cast this Spell} without having it prepared ahead of time by expending a spell slot of a sufficient level to cast the spell.",
 				"You can change this spell when you add new spells to your spellbook or by studying your spellbook for 1 hour per level of the newly chosen spell."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9246,16 +8787,9 @@
 				"class": "Magus"
 			},
 			"prerequisites": "focus pool",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can temporarily replicate the effects of a property rune for your weapon or unarmed attacks. You learn the runic impression battle spell (page 11). Increase the number of Focus Points in your focus pool by 1."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9268,11 +8802,6 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You attack in an arc and can adapt your stored spell to harm everyone you hit. Make a melee {@action Strike|CRB} and compare the attack roll result to the AC of up to two foes, each of whom must be within your melee reach and adjacent to each other. Roll damage only once and apply it to each creature you hit. A Spell Swipe counts as two attacks for your multiple attack penalty.",
 				"If you had a spell stored in the weapon you attacked with (or in your body if you made an unarmed {@action Strike|CRB}), discharging it affects all foes you hit, not just the first target.",
@@ -9282,8 +8811,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9296,11 +8823,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "You discharge a stored spell that deals acid, cold, electricity, fire, force, negative, positive, or sonic damage.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Magical energy overflows from your Striking Spell, spilling out to extend beyond the creature you struck. This overflowing energy creates a ray targeting a creature within 60 feet of the creature you damaged. Make a spell attack roll against this new target, applying your multiple attack penalty normally. On a hit, the creature takes the same damage the spell deals of one of the triggering types (double damage on a critical hit)",
 				"If the spell deals more than one eligible type of damage, you choose one of these types, and the ray deals only the amount of damage from that type. Unlike the spell discharged, your success with the Cascading Ray's spell attack roll isn't improved if your initial {@action Strike|CRB} was a critical hit. This ray has the attack trait, the school and tradition traits of the original spell, and the trait matching the damage type."
@@ -9310,8 +8833,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9327,10 +8848,7 @@
 				"class": "Magus"
 			},
 			"prerequisites": "shooting star magus synthesis",
-			"frequency": null,
 			"trigger": "You hit with a ranged {@action Strike} and discharge a stored spell that you had cast from a spell slot.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You create a trail of magical energy that flows from your target back to you. Each creature in a line between you and the target, not including you or the target, takes force damage equal to the spell's level. If the triggering spell was of the evocation school, increase the damage by half the spell's level and change the damage type to one type dealt by the spell (your choice)."
 			],
@@ -9339,8 +8857,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9358,10 +8874,7 @@
 				"class": "Magus"
 			},
 			"prerequisites": "sustaining steel magus synthesis",
-			"frequency": null,
 			"trigger": "You gain temporary Hit Points from {@action Cast a Spell|CRB|Casting a Spell} altered by {@action Striking Spell|PT:SoM} using a spell slot.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Rather than just protecting you, the spells you channel into your weapon actually {@spell heal|CRB} you. In addition to the temporary Hit Points you gain from sustaining steel, you can either regain Hit Points equal to twice the spell's level or end any {@condition Persistent Damage|CRB|persistent negative damage} you have. If the spell was of the necromancy school, you can both {@spell heal|CRB} yourself and end {@condition Persistent Damage|CRB|persistent negative damage}."
 			],
@@ -9370,8 +8883,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9388,10 +8899,7 @@
 				"class": "Magus"
 			},
 			"prerequisites": "slide casting magus synthesis",
-			"frequency": null,
 			"trigger": "You begin {@action Cast a Spell|CRB|Casting a Spell} altered by {@action Striking Spell|PT:SoM} from a spell slot.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can rapidly make a portal to step through as you store a spell. Rather than {@action Stride|CRB|Striding} or {@action Step|CRB|Stepping} as part of your {@action Cast a Spell|CRB} activity, you teleport up to half your Speed to a clear space you can see (this doesn't trigger reactions). If this would bring another creature with you, the spell is lost. If the spell you cast is of the conjuration or transmutation school, double the maximum distance you can teleport."
 			],
@@ -9400,8 +8908,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9415,11 +8921,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
 			"frequency": "once per day",
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can muster intense focus to rapidly store a spell. You use Striking Spell. If your next action is to {@action Cast a Spell|CRB} to store in your body or a weapon, reduce the number of actions required to cast the spell by 1 (to a minimum of 1 action)."
 			],
@@ -9428,8 +8930,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -9443,16 +8943,9 @@
 				"class": "Magus"
 			},
 			"prerequisites": "Bespell Strikes",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"When you use {@feat Bespell Strikes|PT:G&G|Bespell Strike}, the weapon or unarmed attacks also deal {@dice 1d6} {@condition Persistent Damage|CRB|persistent damage}. This {@condition Persistent Damage|CRB|persistent damage} is of the same type Bespell {@action Strike|CRB|Strikes} deals, except in the case of physical damage, which causes {@condition Persistent Damage|CRB|persistent bleed damage}."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9468,17 +8961,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You have a literal sixth sense for ambient magic in your vicinity. You can sense the presence of magic auras as though you were always using a 1st-level {@spell detect magic|CRB} spell. This detects magic in your field of vision only. When you {@action Seek|CRB}, you gain the benefits of a 3rd-level {@spell detect magic|CRB} spell on things you see (in addition to the normal benefits of Seeking). You can turn this sense off and on with a free action at the start or the end of your turn."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9491,11 +8976,6 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You pierce through your foe's resistance. {@action Strike|CRB} a foe. If your {@action Strike|CRB} discharges a stored spell that deals damage, the spell ignores an amount of the target's resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including {@condition Persistent Damage|CRB|persistent damage} and damage caused by an ongoing effect of the spell, such as the wall created by {@spell wall of fire|CRB}. A creature's immunities are unaffected."
 			],
@@ -9503,8 +8983,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9517,11 +8995,8 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
 			"frequency": "once per turn",
-			"trigger": null,
 			"requirements": "Your most recent action was to cast a non‑cantrip spell.",
-			"cost": null,
 			"entries": [
 				"Your spell has a powerful aftereffect, briefly granting you the effects of a certain spell depending on the school of the spell you cast. This aftereffect lasts until the end of your next turn instead of its usual duration. Using School Shroud again ends any existing spell benefit you gained from School Shroud.",
 				{
@@ -9543,8 +9018,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9558,17 +9031,10 @@
 				"class": "Magus"
 			},
 			"prerequisites": "focus pool",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can speed yourself up to move and attack more swiftly.",
 				"You learn the {@spell hasted assault|PT:SoM} battle spell. Increase the number of Focus Points in your focus pool by 1."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9582,10 +9048,8 @@
 				"class": "Magus"
 			},
 			"prerequisites": "Spell Parry",
-			"frequency": null,
 			"trigger": "You're targeted by a {@action Strike} or a spell attack roll, or you're about to roll a saving throw against a spell effect.",
 			"requirements": "You're wielding only a single one-handed melee weapon and have your other hand or hands free.",
-			"cost": null,
 			"entries": [
 				"You snap your blade into place to ward off harm at the last second. You gain a +2 circumstance bonus to AC and saving throws against the triggering effect until the start of your next turn."
 			],
@@ -9594,8 +9058,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9608,11 +9070,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You have a spell stored in your weapon or body from Striking Spell.",
-			"cost": null,
 			"entries": [
 				"Your stored spell tries to force out the magic affecting a creature you hit. Make a {@action Strike|CRB} against a creature. If this {@action Strike|CRB} discharges the stored spell, you also attempt to counteract a single spell (of your choice) active on the target. The counteract level of Dispelling Spellstrike is equal to the level of the stored spell, and the counteract check modifier is the standard modifier for counteracting with a spell (your Intelligence modifier plus your spellcasting proficiency bonus, plus any bonuses or penalties that specifically apply to counteract checks)."
 			],
@@ -9620,8 +9078,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9634,11 +9090,7 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "Your turn begins.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've trained your mind to maintain a spell with hardly a thought. You immediately gain the effects of the {@action Sustain a Spell|CRB} action, allowing you to extend the duration of one of your active {@class magus|pt:som} spells."
 			],
@@ -9647,8 +9099,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10,
 			"add_hash": "Magus"
 		},
@@ -9662,17 +9112,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"When your target proves resilient to your magic, you can recall the magic back into your weapon or body to strike again. Whenever you discharge a spell from Striking Spell, if the target takes no effect (from a critical success on their save, a failed spell attack roll, immunity, etc), the spell isn't discharged and you can continue to attempt to discharge it with a later {@action Strike|CRB}. The spell must be discharged before the end of your next turn, as normal for Striking Spell."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -9685,17 +9127,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can channel the entire realm of possibilities of your spellbook into an attack. Once during your daily preparations, you can use a spell slot to hold that infinite potential, rather than using it to prepare a spell. When you use {@action Striking Spell|PT:SoM} to alter a spell, instead of casting a prepared spell, you can expend this spell slot to cast any spell from your spellbook that's at least 2 levels lower than the slot's level. The spell acts in all ways as a spell of 2 levels lower. You don't have any particular spell prepared in that slot until you cast it."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -9708,17 +9142,9 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've made it almost effortless to cast Striking Spells. You're permanently {@condition quickened}. You can use your extra action only to {@action Strike|CRB} with the unarmed attack or weapon storing a spell from Striking Spell."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -9731,11 +9157,6 @@
 			"featType": {
 				"class": "Magus"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You combine the might of a multitarget spell with a whirling flurry of attacks. You use Striking Spell, then {@action Cast a Spell|CRB} with a casting time of 1 or 2 actions, then make a melee {@action Strike|CRB} against each enemy within your reach. Each attack counts toward your multiple attack penalty but doesn't increase your penalty until you've made all your attacks. If you discharge the spell, you can affect each creature you hit with a {@action Strike|CRB}, up to the spell's normal maximum targets."
 			],
@@ -9743,8 +9164,6 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -9757,17 +9176,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You and your eidolon have each practiced some skills on your own, though not all your experiences translate with the shared link. Choose two different skills. Your eidolon becomes trained in one of those skills and you become trained in the other skill. At 7th level, you each become an expert in the chosen skills."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9781,17 +9192,10 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon evolves more acute senses. Your eidolon either gains {@ability low-light vision} and {@ability darkvision}, or gains {@ability scent} as an imprecise sense with a range of 30 feet."
 			],
-			"activity": null,
 			"special": "You can select this feat twice, choosing the other option the second time.",
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9804,18 +9208,10 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can manifest your eidolon using your own body as a vessel, taking on their form. When you {@action Manifest Eidolon|PT:SoM|Manifest your Eidolon} in this way, you become your eidolon, rather than them manifesting as a separate creature. While manifested in this way, you use your eidolon's statistics. Your eidolon can act, but you can't except to use {@action Manifest Eidolon|PT:SoM|Manifest an Eidolon} to unmanifest your eidolon. When you do, you remain behind in one square your eidolon occupied when you unmanifested it.",
 				"Since you can't act, you can't {@action Cast a Spell||Cast Spells}, activate or benefit from magic items that normally benefit you and not your eidolon, perform actions that have the tandem trait, or use other abilities that require you, and not the eidolon, to act. Your eidolon isn't limited by their distance to you, and you can't be separately targeted. When you reach 0 Hit Points, your eidolon unmanifests from your body, leaving your {@condition unconscious} body behind."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9828,17 +9224,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've learned magic that lets you temporarily allow your eidolon to travel far from your side. You learn the {@spell unfetter eidolon|PT:SoM} conduit spell. Increase the number of Focus Points in your focus pool by 1."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9851,17 +9239,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can increase your eidolon's defenses instead of their offense. You gain the {@spell reinforce eidolon|PT:SoM} conduit cantrip."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9877,11 +9257,6 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You summon a creature exactly in the right spot to distract your foe from your eidolon, providing a perfect opportunity for your eidolon to attack. If the next action you take is to {@action Cast a Spell|CRB} to cast a 3-action summoning spell, when the spell is complete, your eidolon {@action Strike|CRB|Strikes} a foe within reach of both the summoned creature and the eidolon as a free action. The foe is {@condition flat-footed} to the eidolon's {@action Strike|CRB}."
 			],
@@ -9890,8 +9265,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9905,20 +9278,12 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon evolves to cast their own spells. Your eidolon gains the {@action Cast a Spell|CRB} activity and learns two cantrips of their tradition, which they cast as innate spells. Your eidolon uses your spell DC and spell attack modifier for these spells."
 			],
 			"leadsTo": [
 				"Greater Magical Evolution|PT:SoM"
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9932,17 +9297,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon evolves to move more quickly on land. Your eidolon gains a +10-foot status bonus to their Speed."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9956,17 +9313,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon adapts to life both on land and underwater. Your eidolon gains the amphibious trait, allowing them to breathe in water and in air and to avoid the normal \u20132 penalty for making bludgeoning and slashing unarmed {@action Strike|CRB|Strikes} underwater. They gain a swim Speed equal to their land Speed or 25 feet, whichever is less. Alternatively, if your eidolon is normally aquatic, they gain a land Speed equal to their swim Speed or 25 feet, whichever is less."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -9980,11 +9329,6 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You and your eidolon move together with ease. You and your eidolon each use a single action to {@action Stride|CRB}. Either of you that has the corresponding movement type can {@action Burrow|CRB}, {@action Climb|CRB}, {@action Fly|CRB}, or {@action Swim|CRB} instead of {@action Stride||Striding}."
 			],
@@ -9992,8 +9336,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10007,17 +9349,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon's unarmed attack evolves and gains a special trait. Choose one of your eidolon's starting melee unarmed attacks. The attack gains one of the following traits, which you choose when you gain this feat: {@trait disarm}, {@trait nonlethal}, {@trait shove}, {@trait trip}, or {@trait versatile}. If you choose {@trait versatile}, also choose whether it's B, P, or S."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10031,17 +9365,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon can climb with ease. Your eidolon gains a climb Speed equal to half their Speed or 25 feet, whichever is less."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10058,11 +9384,6 @@
 			"leadsTo": [
 				"Towering Evolution|PT:SoM"
 			],
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon evolves, growing substantially in size. Your eidolon becomes Large, instead of their previous size. This doesn't change any other statistics for your eidolon.",
 				"Because of the special link you share, you can ride your eidolon without getting in each other's way.",
@@ -10074,9 +9395,6 @@
 					]
 				}
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10092,11 +9410,6 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"When you summon creatures or manifest your eidolon, there always seems to be an explosion. If the next action you take is to Manifest your Eidolon or to {@action Cast a Spell|CRB} to cast a 3-action summoning spell, the summoned eidolon or creature appears in an explosion of energy or other visually impressive display.",
 				"This deals {@scaledice 1d4|1-9|1d4} fire damage per spell level (or {@damage 1d4} damage per 2 levels you have when {@action Manifest Eidolon|PT:SoM|Manifesting your Eidolon}) to all creatures except you within a 10-foot emanation around the eidolon or summoned creature.",
@@ -10107,8 +9420,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10123,11 +9434,6 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon uses their manifested form to protect you when you're nearby. After your eidolon uses this action, you gain a +2 circumstance bonus to AC until the beginning of your next turn. This bonus applies only as long as you're in your eidolon's reach (in most cases, this means your eidolon is adjacent to you or in your space). This has no effect if you're not separately present, such as when using {@feat Synthesis|PT:SoM}."
 			],
@@ -10135,8 +9441,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10153,10 +9457,6 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "your eidolon is a phantom",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon has gained the ability to make their ectoplasmic form briefly less substantial to avoid attacks while scouting ahead. Your eidolon can switch from their normal form to a less substantial flickering form or quasi-tangible ectoplasm. While in their flickering form, they gain resistance to all damage (except force and negative) equal to half your level. However, they can't use any of their {@action Strike|CRB|Strikes} or actions requiring a fully physical form like {@action Grapple|CRB}, {@action Shove|CRB}, or {@action Trip|CRB}. Snapping back to their normal form is easier than diffusing themself into a flickering form. Your eidolon can switch back to their normal form as a single action, which also has the {@trait concentrate} trait."
 			],
@@ -10164,8 +9464,6 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10181,17 +9479,10 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "{@feat Magical Evolution|PT:SoM}",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon further evolves to gain more powerful magic.",
 				"Choose one 2nd-level spell and one 1st-level spell of your eidolon's tradition. Your eidolon can cast them each once per day as innate spells. At every even level after you take this feat, your eidolon can swap one of these innate spells for a new innate spell 2 or more levels lower than your highest-level spell slot."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -10205,17 +9496,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon has developed a ranged attack. Your eidolon gains a ranged unarmed attack with a range increment of 30 feet that deals {@damage 1d6} damage and has the {@trait magical} trait. When you select this feat, choose a damage type from {@trait acid}, bludgeoning, {@trait cold}, {@trait electricity}, {@trait fire}, {@trait negative}, piercing, {@trait positive}, or slashing. If your eidolon is a celestial, fiend, or monitor with an alignment other than true neutral, you can instead choose a damage type in their alignment (for example, you could choose {@trait good} or {@trait lawful} if your lawful good angel eidolon gained this attack)."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10228,17 +9511,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your ability to augment your eidolon extends to also benefit creatures you summon. When you cast {@spell boost eidolon|PT:SoM}, in addition to targeting your eidolon, it also targets any of your summoned creatures within 60 feet, granting them the same effects."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10253,11 +9528,7 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "You and your eidolon are both in the area of a damaging effect.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You call upon the power of your bond to protect you both from harm. If you and your eidolon would take different amounts of damage from the area effect, you take the lower amount of damage instead of the greater amount of damage."
 			],
@@ -10266,8 +9537,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10285,11 +9554,6 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"With a flash, you switch places with your eidolon. You and your eidolon each teleport to the other's position."
 			],
@@ -10297,8 +9561,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10312,16 +9574,9 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "conduit spells",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your focus recovers faster. If you've spent at least 2 Focus Points since the last time you {@action Refocus||Refocused}, you recover 2 Focus Points when you {@action Refocus|CRB} instead of 1."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10338,11 +9593,8 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "You or your eidolon takes damage.",
 			"requirements": "Your eidolon is manifested and more than 5 feet away from you.",
-			"cost": null,
 			"entries": [
 				"In a moment of danger, you draw upon your link to quickly call your eidolon to your side. Your eidolon teleports from their previous location to an open space adjacent to you."
 			],
@@ -10351,8 +9603,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10365,20 +9615,12 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've learned how to transmogrify your eidolon in various ways to suit the circumstances of the day. Each day during your daily preparations, choose one {@filter evolution feat|feats||classes=Summoner|level=[0;6]} of 6th level or lower. Your eidolon gains that feat until your next daily preparations."
 			],
 			"leadsTo": [
 				"True Transmogrification|PT:SoM"
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10392,17 +9634,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon grows a tougher hide, manifests armor, or otherwise becomes particularly resilient against physical attacks. They gain resistance to physical damage equal to their Constitution modifier."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10416,17 +9650,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon evolves to protect themself from spells. They gain a +1 status bonus to all saving throws against magic."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10441,16 +9667,9 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "{@feat Hulking Evolution|PT:SoM}",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon further evolves, becoming more enormous and gaining a greater reach over the battlefield. Your eidolon becomes Huge, instead of Large, and the reach on all their attacks increases to 10 feet."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10463,11 +9682,7 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "Your turn begins.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You maintain a spell with hardly a thought. You immediately gain the effects of the {@action Sustain a Spell|CRB} action, allowing you to extend the duration of one of your active spells."
 			],
@@ -10476,8 +9691,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23,
 			"add_hash": "Summoner"
 		},
@@ -10492,17 +9705,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your eidolon grows wings, allowing them to fly. Your eidolon gains a fly Speed equal to their Speed."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10516,16 +9721,9 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "Conduit Focus",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"The power between you and your eidolon replenishes your focus. If you've spent at least 3 Focus Points since the last time you {@action Refocus||Refocused}, you recover 3 Focus Points when you {@action Refocus|CRB} instead of 1."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -10539,16 +9737,9 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "{@feat Transmogrify|PT:SoM}",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can make incredibly expansive adjustments to your eidolon to prepare for virtually any situation you might find yourself in. Each day during your daily preparations, when you apply your evolution feat from {@feat Transmogrify|PT:SoM}, you can also swap out any number of other evolution feats you have, each for a different evolution feat of the same level or lower. These swaps last until your next daily preparations."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -10564,17 +9755,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can transform yourself to match your eidolon. When you Manifest your Eidolon, in addition to their normal manifestation, you can call upon their powers to transform yourself into an exact duplicate of your eidolon until the eidolon becomes unmanifested. You can't use this if you Manifest your Eidolon in an unusual way, such as with the {@feat Synthesis|PT:SoM} feat. While a duplicate of your eidolon, you use your eidolon's statistics other than your mental ability modifiers, including their evolutions. You can't cast spells (unless they're spells your eidolon could cast), activate or benefit from magic items that normally benefit you and not your eidolon, or use other actions your eidolon can't normally perform. Any spells you cast with a limited number of uses count against your eidolon's uses. You can Manifest your Eidolon again to end this effect and return to your normal form."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -10589,17 +9772,10 @@
 				"class": "Summoner"
 			},
 			"prerequisites": "eidolon from a plane other than the Material Plane",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your complete connection to your eidolon and your eidolon's growth alongside you into a being of great power grant you special privileges within another plane. Once per day, you can cast {@spell plane shift|CRB} as an innate spell of your eidolon's tradition, but only to travel to the plane of origin of your eidolon. When you cast it this way, its casting time is 1 minute, your link to your eidolon is a sufficient tuning fork for this spell, and you appear exactly where you want to be. If you're on your eidolon's home plane due to this spell, you can return to the point you left when you cast it by spending a single action, which has the {@trait concentrate} trait and the trait matching your eidolon's tradition.",
 				"If you conduct the commune ritual to contact entities from your eidolon's plane that are {@condition friendly} to your eidolon, you don't have to pay any cost and you automatically get a critical success."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -10612,17 +9788,9 @@
 			"featType": {
 				"class": "Summoner"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your link with your eidolon is so intense that you can always boost your eidolon. You're permanently {@condition quickened}; you can use your extra action only to cast {@spell boost eidolon|PT:SoM} or {@spell reinforce eidolon|PT:SoM}. While in exploration mode, you can declare that you're also continually casting {@spell boost eidolon|PT:SoM} or {@spell reinforce eidolon|PT:SoM} even while using a different {@trait exploration} activity. If you do, even before your first turn in a combat encounter, that cantrip is active as if you had cast it on your previous turn."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -10635,11 +9803,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm or crossbow, and a foe you can see within the weapon's maximum range has cover.",
-			"cost": null,
 			"entries": [
 				"You lay down suppressive fire to protect your allies and pin down your opponents. You make a firearm or crossbow {@action Strike|CRB} targeting the foe, who must decide whether to duck behind cover (no action required) or not before you roll your attack roll. If the target ducks, it Takes Cover against your attack, gaining a +4 circumstance bonus to AC from greater cover, but also takes a \u20132 circumstance penalty to ranged attacks until the end of its next turn. This greater cover applies only against your {@action Strike|CRB}, not to future attacks. If the target chooses not to duck, the {@action Strike|CRB} functions normally."
 			],
@@ -10647,8 +9811,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -10661,17 +9823,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You have a practiced understanding of firearms' workings, their mechanisms, and the best way to utilize them. When you're wielding a firearm and {@action Interact|CRB} to reload it, you gain a +2 circumstance bonus to the damage roll on your next {@action Strike|CRB} with that firearm. If the firearm is a simple firearm, increase the damage die size for that attack by one step. You must make the attack before the end of your turn or these benefits are lost."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -10684,11 +9838,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "A creature you can see attempts a ranged {@action Strike} against you.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You fling yourself out of {@spell harm|CRB}'s way, perhaps through quick thinking or pure instinct. You {@action Leap|CRB} to avoid {@spell harm|CRB}, gaining a +2 circumstance bonus to AC against the triggering attack.",
 				"Regardless of whether or not the triggering attack hits, you land {@condition prone} after completing your {@action Leap|CRB}."
@@ -10698,8 +9848,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -10712,18 +9860,10 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You're experienced in combining melee attacks with shots from a firearm or crossbow, quickly adapting your range and style to the current situation. When you make a successful ranged {@action Strike|CRB} against an opponent within your melee reach using a firearm or crossbow, that opponent becomes {@condition flat-footed} against your next melee attack. When you successfully {@action Strike|CRB} an opponent with a melee weapon, the next ranged {@action Strike|CRB} you make against that opponent doesn't trigger reactions that would trigger only on a ranged attack but not a melee attack, such as {@action Attack of Opportunity|CRB}.",
 				"The benefit on your next {@action Strike|CRB} from either use of Sword and Pistol is lost if not used by the end of your next turn."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 7
 		},
 		{
@@ -10737,11 +9877,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"With a quick shot, you interfere with a foe during combat.",
 				"Make a {@action Strike|CRB} with a firearm or crossbow. If the {@action Strike|CRB} hits, the next creature other than you to attack the same target before the start of your next turn gains a +1 circumstance bonus to their roll, or a +2 circumstance bonus if your {@action Strike|CRB} was a critical hit."
@@ -10750,8 +9885,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10765,11 +9898,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm.",
-			"cost": null,
 			"entries": [
 				"Sometimes taking the shortest distance between two points involves removing an obstacle or two. You shoot the required firearm at a lock within 10 feet. Make your attack roll against the DC required to {@action Pick a Lock|CRB|Pick the Lock}.",
 				{
@@ -10786,8 +9915,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10801,10 +9928,7 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "trained in Deception",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded, one-handed ranged weapon.",
-			"cost": null,
 			"entries": [
 				"Your quick gestures and performative flair distract an opponent, leaving them vulnerable to your attack. You {@action Feint|CRB} against an opponent within the required weapon's first range increment, rather than an opponent within melee reach. On a success or critical success, the foe is {@condition flat-footed} against your melee and ranged attacks, rather than only your melee attacks. On a critical failure, you're {@condition flat-footed} against both the target's melee and ranged attacks, rather than only its melee attacks."
 			],
@@ -10812,8 +9936,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10826,11 +9948,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You draw your weapon and attack with the same motion. You {@action Interact|CRB} to draw a weapon, then {@action Strike|CRB} with that weapon."
 			],
@@ -10838,8 +9955,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10853,11 +9968,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a firearm.",
-			"cost": null,
 			"entries": [
 				"You've practiced a technique for rapidly reloading your firearm, but it's a dangerous gamble with your firearm's functionality.",
 				"{@action Interact|CRB} to reload a firearm, then make a {@action Strike|CRB} with that firearm. If the {@action Strike|CRB} fails, the firearm misfires."
@@ -10866,8 +9977,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10881,10 +9990,7 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "trained in Intimidation",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm.",
-			"cost": null,
 			"entries": [
 				"Who needs words when the roar of a gun is so much more succinct? You attempt to {@action Demoralize|CRB} a foe by firing your weapon into the air, using the firearm's maximum range rather than the usual range of 30 feet. This check doesn't take the\u20134 circumstance penalty if the target doesn't share a language with you."
 			],
@@ -10892,8 +9998,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10906,11 +10010,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You have an alchemical bomb worn or in one hand, and are wielding a loaded firearm.",
-			"cost": null,
 			"entries": [
 				"You've practiced a technique for mixing alchemical bombs with your loaded shot. You {@action Interact|CRB} to retrieve the bomb (if it's not already in your hand) and pour it onto your ammunition, consuming the bomb. Then {@action Strike|CRB} with your weapon. The {@action Strike|CRB} deals damage of the same type as the bomb (for instance, fire damage for {@class alchemist|CRB}'s fire), and it deals an additional {@dice 1d6} {@condition Persistent Damage|CRB|persistent damage} of the same type as the bomb. If the {@action Strike|CRB} fails, you take {@dice 1d6} damage of the same type as the bomb you used, and the firearm misfires.",
 				"The {@condition Persistent Damage|CRB|persistent damage} increases to {@dice 2d6} if the bomb is level 11 or higher, or {@dice 3d6} if it's level 17 or higher."
@@ -10919,8 +10019,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10933,11 +10031,8 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "You Leap.",
 			"requirements": "You're wielding a loaded firearm.",
-			"cost": null,
 			"entries": [
 				"While dashing into position, you fire your weapon behind you to speed yourself along. You fire your weapon beneath or behind you, adding 10 feet to either the horizontal or vertical distance you travel. If your {@action Leap|CRB} required a roll (such as a {@action High Jump|CRB} or {@action Long Jump|CRB}), you can use this reaction after determining the result."
 			],
@@ -10946,8 +10041,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10960,11 +10053,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You can reload your weapon on the move. You {@action Stride|CRB}, {@action Step|CRB}, or {@action Sneak|CRB}, then {@action Interact|CRB} to reload."
 			],
@@ -10972,8 +10060,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -10986,11 +10072,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a firearm that you've fired this turn, and you or an adjacent ally are taking persistent bleed damage.",
-			"cost": null,
 			"entries": [
 				"You press your gun's heated barrel to your wounds or those of an ally, instantly granting a flat check to end the bleed with a lower DC for particularly effective assistance (Pathfinder Core Rulebook 621)"
 			],
@@ -10998,8 +10080,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 8
 		},
 		{
@@ -11015,10 +10095,6 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "way of the pistolero",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"With a stern callout, a carefully chosen barb, or some other challenging declaration, you demand your foe's attention in a duel. Choose an opponent within 30 feet who you can perceive and can hear you, and make your choice of a {@skill Deception} or {@skill Intimidation} check. No matter the result of the check, the foe is temporarily immune to your Pistolero's Challenge until noon the next day. You can have only one challenge in effect at a time; challenging a new opponent ends this effect on any current target. Otherwise, the effect lasts until one of you is defeated or flees or the encounter ends.",
 				{
@@ -11033,8 +10109,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11049,10 +10123,7 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "way of the drifter",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a firearm or crossbow and your other hand either wields a one-handed melee weapon or is empty.",
-			"cost": null,
 			"entries": [
 				"You attack and then reload your gun in one fluid movement.",
 				"{@action Strike|CRB} an opponent within reach with your melee weapon or an unarmed attack, and then {@action Interact|CRB} to reload. You don't need a free hand to reload in this way."
@@ -11061,8 +10132,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11075,11 +10144,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm that has the scatter trait.",
-			"cost": null,
 			"entries": [
 				"You pack your weapon with additional shot and powder, creating a risky but devastating arc of destruction. Make a ranged {@action Strike|CRB} with the required weapon. The range of your weapon increases from 15 feet to 30 feet, or 30 feet to 60 feet.",
 				"If the weapon's range is already 60 feet or greater, this ability has no effect. The {@action Strike|CRB} gains the following failure conditions.",
@@ -11095,8 +10160,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11111,10 +10174,7 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "way of the sniper",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm or crossbow and have a worn or wielded bomb that has the splash trait.",
-			"cost": null,
 			"entries": [
 				"You fling a bomb into the air and then shoot it, causing a damaging rain over a wide area. If necessary, you {@action Interact|CRB} to draw the bomb and re-grip your weapon. You throw your bomb to the corner of a square within your firearm's first range increment and shoot it with your firearm. All creatures in a 15-foot burst of the bomb take splash damage equal to the amount of precision damage One Shot, One Kill deals. The damage type is the same as the bomb would deal."
 			],
@@ -11122,8 +10182,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11137,11 +10195,8 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
 			"frequency": "once per hour",
 			"trigger": "You fail a Fortitude or Will save.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You call upon deep reserves of toughness and mental fortitude to power through an otherwise debilitating effect. Reroll the triggering save with a +2 circumstance bonus."
 			],
@@ -11150,8 +10205,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11164,11 +10217,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding two loaded one-handed crossbows or firearms.",
-			"cost": null,
 			"entries": [
 				"Your shots strike their target almost simultaneously. Make two {@action Strike|CRB|Strikes}, one with each of your two ranged weapons and each using your current multiple attack penalty. Both {@action Strike|CRB|Strikes} must have the same target.",
 				"If both attacks hit, combine their damage and then add any applicable effects from both weapons. You add any precision damage only once to the attack of your choice.",
@@ -11178,8 +10227,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11193,16 +10240,9 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "Hit the Dirt!",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You're quick enough to line up a shot even while diving to the ground. When you use your Hit the Dirt! reaction, at any point during your {@action Leap|CRB}, you can also make a ranged {@action Strike|CRB} with a loaded firearm or crossbow against the creature whose attack triggered the reaction."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11216,11 +10256,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You take an extra moment to carefully align your aim and breathing. Make a ranged weapon {@action Strike|CRB}. You gain a +2 circumstance bonus to this {@action Strike|CRB}'s attack roll and ignore the target's concealment. If you're using a firearm with the {@trait unsteady|PT:G&G} trait, you don't take the normal circumstance penalty for firing without using a {@item tripod|PT:G&G} or {@action Interact|CRB} action to aim on this {@action Strike|CRB}."
 			],
@@ -11228,8 +10263,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11242,11 +10275,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm.",
-			"cost": null,
 			"entries": [
 				"You load an extra dose of black powder into your shot, causing it to belch out a roiling cloud of smoke. Make a {@action Strike|CRB} with your firearm to create a cloud of smoke in a 20-foot burst centered on your location. Creatures are {@condition concealed} while within the smoke, and creatures outside the area are {@condition concealed} to creatures within the smoke. The smoke dissipates in 1 round. The {@action Strike|CRB} gains the following critical failure effect.",
 				{
@@ -11260,8 +10289,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 9
 		},
 		{
@@ -11275,11 +10302,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You target a specific part of your foe's body, damaging the chosen limb or body part in a way that hinders your foe's ability to move, fight, or think. Declare a portion of your foe's anatomy to target and make a ranged weapon {@action Strike|CRB}. If you hit and deal damage, apply one of the following effects to the target until the end of your next turn, based on the body part you targeted.",
 				{
@@ -11296,8 +10318,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11310,11 +10330,8 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "An ally within the first range increment of your firearm or crossbow is hit by an attack, and you can see the attacker.",
 			"requirements": "You're wielding a loaded firearm or crossbow.",
-			"cost": null,
 			"entries": [
 				"When your weapon is loaded, you're always ready to fire it to deflect an attack against your ally. The ally gains a +2 circumstance bonus to their AC against the triggering attack.",
 				"You use this reaction after the result of the attack roll is revealed, so you know whether the +2 will make a sufficient difference (for example, whether it will turn a success into a failure or a critical success into a success)."
@@ -11324,8 +10341,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11339,11 +10354,8 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "An ally misses with a ranged attack that uses a {@trait thrown} weapon or ammunition.",
 			"requirements": "You're wielding a loaded firearm or crossbow.",
-			"cost": null,
 			"entries": [
 				"Seeing your ally's attack about to go astray, you fire your weapon to right its course. Make an attack roll with your firearm or crossbow against the target of the triggering attack, ignoring any bonus the target would gain against you from lesser or standard cover. Your ally's attack uses your attack roll instead of their attack roll."
 			],
@@ -11352,8 +10364,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11366,11 +10376,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm.",
-			"cost": null,
 			"entries": [
 				"You shoot not at your foe, but at an object nearby. Make a {@action Strike|CRB} with your firearm against an AC of 25, or a different AC at the GM's discretion. Instead of hitting your foe, your attack hits an object behind or to the side of your target, creating one of the following effects. The GM might determine a particular effect isn't a valid option, such as using explosive barrel when there's no such object on the battlefield. The GM determines such cases and should inform you before you spend the actions for a Trick Shot.",
 				{
@@ -11385,8 +10391,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11400,11 +10404,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Even when your shots don't land cleanly, they still land close enough to inflict some damage. Make a ranged {@action Strike|CRB}. It gains the following failure effect.",
 				{
@@ -11418,8 +10417,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11434,11 +10431,6 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"After your first shot singles out your opponent's position, you direct another shot that ricochets around obstacles and strikes unerringly. Make a ranged weapon {@action Strike|CRB} against a creature you previously attacked this turn. You ignore the target's {@condition concealed} condition and all cover."
 			],
@@ -11446,8 +10438,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11460,11 +10450,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm or crossbow.",
-			"cost": null,
 			"entries": [
 				"You blast a bullet through one foe and into another. Choose two targets, one of which would give the other lesser cover against your ranged attacks. Make a single ranged {@action Strike|CRB} with the required weapon against both targets. This attack ignores any lesser cover the nearer target provides the other.",
 				"Roll damage only once, and apply it to each creature you hit. Penetrating Fire counts as two attacks for your multiple attack penalty."
@@ -11473,8 +10459,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 10
 		},
 		{
@@ -11487,17 +10471,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You specialize in blending into a particular type of environment, allowing you to disappear from sight after taking your shot. Choose either natural or urban terrain. In the chosen terrain, you can {@action Hide|CRB} and {@action Sneak|CRB} even without cover or being {@condition concealed}."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11511,17 +10487,10 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "Grit and Tenacity",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Hardened by conflict, you possess an intractable stubbornness.",
 				"If the reroll granted by your Grit and Tenacity reaction is a success, you get a critical success instead; if it's a critical failure, you get a failure instead."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11535,11 +10504,8 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
 			"frequency": "once per minute",
-			"trigger": null,
 			"requirements": "You're wielding a loaded firearm or crossbow and not {@condition fatigued}.",
-			"cost": null,
 			"entries": [
 				"Your steps echo with the thunderous retort of exploding black powder as you dance a dance of death. Use any of the following actions you choose in any order: {@action Step|CRB}, {@action Strike|CRB} against a target within your firearm's first range increment, and {@action Interact|CRB} to reload. If you attempted a {@action Strike|CRB} and it succeeds, you can repeat these three actions again in any order. If you attempted a {@action Strike|CRB} in the second set and succeed, you can repeat the actions one last time. After using Dance of Thunder, you become {@condition fatigued} for 1 minute."
 			],
@@ -11547,8 +10513,6 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11562,16 +10526,9 @@
 				"class": "Gunslinger"
 			},
 			"prerequisites": "Pistol Twirl, expert in Deception",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your twirling weapons create a distracting dance that your enemies find difficult to look away from. When using Pistol Twirl to {@action Feint|CRB}, you can target all enemies within your weapon's first range increment who you can perceive and who can see you. You roll one {@skill Deception} check and compare it against each target's {@skill Perception} DC."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11586,11 +10543,7 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wielding two weapons, each in a different hand.",
-			"cost": null,
 			"entries": [
 				"You attack with both your weapons in a furious barrage. {@action Strike|CRB} twice, once with each weapon."
 			],
@@ -11598,8 +10551,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11612,17 +10563,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You're especially talented at striking your enemies' most vulnerable areas. When you critically hit with a firearm that has the fatal trait, you deal an additional die of the appropriate size and damage type for that trait after doubling the weapon's damage. For example, after a critical hit with a fatal d12 weapon, you add an additional {@dice 1d12} damage to the attack after doubling its damage."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11635,18 +10578,11 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Prerequisite initial deed that allows you to {@action Interact|CRB} to draw a weapon Whether a duel to the death or getting the {@spell jump|CRB} on your foe, no one can react faster than you can pull your trigger.",
 				"When using your initial deed, instead of Interacting to draw a weapon, you can {@action Strike|CRB} with a firearm or crossbow you're already wielding. If this {@action Strike|CRB} hits, the target is also {@condition flat-footed} until the end of your first turn of the encounter."
 			],
-			"activity": null,
 			"special": "If your initial deed allows you to {@action Interact} to draw a weapon more than once, this feat allows you to replace one of these {@action Interact} actions and use the other one to draw a weapon. You can't replace both {@action Interact} actions with {@action Strike|CRB|Strikes}, but you can draw a loaded firearm or crossbow and immediately shoot it.",
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11659,11 +10595,8 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "An enemy misses you with a ranged attack using a type of ammunition appropriate to your weapon (for instance, a bullet if you're wielding a firearm).",
 			"requirements": "You're wielding an unloaded firearm or crossbow.",
-			"cost": null,
 			"entries": [
 				"With a single fluid gesture, you catch a projectile out of the air, load it in your weapon, and fire it back at the attacker.",
 				"{@action Interact|CRB} to load the projectile into your weapon and then make a {@action Strike|CRB} with the required weapon against the triggering opponent. Since you're using the foe's ammunition, this {@action Strike|CRB} applies any special effects that ammunition would have (for instance, if it was explosive ammunition, it would explode in a burst of fire)"
@@ -11673,8 +10606,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11687,17 +10618,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your attacks with your preferred weapons deal especially devastating wounds. When you {@action Strike|CRB} with a firearm or crossbow for which you have legendary proficiency, you critically succeed if you roll a 19 on the die as long as that result is a success. This has no effect on a 19 if the result would be a failure."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11710,17 +10633,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your senses are finely tuned to the slightest variations in the air, allowing you to place your shot exactly where you intend from any range. When attacking with a ranged weapon in which you have master or greater proficiency, ignore the penalty from its range increment (its maximum range is unchanged). Additionally, if your target has cover against your attack with such a weapon, it doesn't gain the bonus to AC if it has lesser cover, gets only the benefits of lesser cover if it has standard cover, or gains only the benefits of standard cover if it has greater cover."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 11
 		},
 		{
@@ -11733,17 +10648,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You prepare to fire with an instinctive speed that surpasses thought. You're permanently {@condition quickened}. You can use your extra action only to {@action Step|CRB} or {@action Interact|CRB} to reload."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 12
 		},
 		{
@@ -11756,16 +10663,9 @@
 			"featType": {
 				"class": "Gunslinger"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your have a preternaturally sharp ability to react to unexpected circumstances. At the start of each enemy's turn, you gain an additional reaction you can use on only that turn to take a gunslinger reaction."
 			],
-			"activity": null,
-			"successDegree": null,
 			"page": 12
 		},
 		{
@@ -11779,17 +10679,9 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've built tools into your innovation, allowing you to use them easily. When you take this feat, choose a set of tools you own of 1 Bulk or less, which become part of your innovation without increasing its Bulk. As long as you are wielding, wearing, or adjacent to your innovation, you have the same quick access to these tools as the tools you're wearing, and they don't count against the usual limit of tools you can wear."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11805,11 +10697,6 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You aim an explosion downward and directly beneath your feet in order to launch yourself into the air. You {@spell jump|CRB} 30 feet in any direction without touching the ground. You must land on a space of solid ground within 30 feet of you, or else you fall after using your next action."
 			],
@@ -11818,7 +10705,6 @@
 				"unit": "action"
 			},
 			"special": "If your innovation is a minion, it can take this action rather than you.",
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11831,17 +10717,9 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've created a construct companion, and while it might not be an innovation, it serves as a trustworthy minion. You gain a prototype construct companion (page 26)."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11855,11 +10733,6 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You tamper with a foe's weapon or armor. Choose either a weapon held by an enemy in your reach or a suit of armor worn by an enemy in your reach. Attempt a {@skill Crafting} check against the enemy's Reflex DC.",
 				{
@@ -11875,8 +10748,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11889,11 +10760,6 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You quickly fix your innovation, at the cost of its stability. You {@action Repair|CRB} your innovation. {@action Repair|CRB} has the unstable trait when used this way. You don't have to place the innovation on a flat surface, but you do need to be adjacent to it (including holding or wearing it) as well as have a repair kit as normal."
 			],
@@ -11901,8 +10767,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11916,10 +10780,6 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "weapon innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You activate devices on your innovation, causing your weapon to strike with extreme recoil that helps you disengage. {@action Strike|CRB} a foe and then {@action Stride|CRB} twice. You must end each {@action Strike|CRB} further from the foe than you began."
 			],
@@ -11927,8 +10787,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11946,8 +10804,6 @@
 			"prerequisites": "construct companion",
 			"frequency": "once per minute",
 			"trigger": "Your construct companion would become confused or controlled.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You appeal to your construct companion's bond with its creator to have it break free of a controlling effect. Attempt to counteract the effect that {@condition confused} or {@condition controlled} your construct companion using your {@skill Crafting} modifier for the counteract check and half your level rounded up for the counteract level."
 			],
@@ -11956,8 +10812,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -11974,11 +10828,6 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"They told you there was no way that explosions could {@spell heal|CRB} people, but they were fools\u2014fools who didn't understand your brilliance! You create a minor explosion using your innovation that cauterizes wounds and vaporizes medicinal herbs, restoring {@dice 1d4} Hit Points for each level you have to you or an adjacent living creature."
 			],
@@ -11987,7 +10836,6 @@
 				"unit": "action"
 			},
 			"special": "If your innovation is a minion, it can take this action rather than you. Because it's not a living creature, it can't use the ability on itself.",
-			"successDegree": null,
 			"page": 22
 		},
 		{
@@ -12003,10 +10851,7 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor innovation",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wearing your armor innovation or holding it in both hands in its compact form (see text).",
-			"cost": null,
 			"entries": [
 				"You've modified your armor to collapse into a much smaller, compact form. In compact form, your armor innovation is easier to carry, with a Bulk 1 lower than the Bulk listed for it, to a minimum of light Bulk (carried armor normally has a Bulk 1 higher than listed in the armor entry)",
 				"You can Transform your Armor into or out of its compact form to put it on or take it off in an instant. If you're wearing your armor innovation when you Transform it, you remove it instantly, and it collapses into its compact form, which is held in both of your hands (if you don't have both hands available, it falls to the ground in an adjacent space). If you're holding your armor in compact form when you Transform it, it unfolds back into its armor form onto your body."
@@ -12015,8 +10860,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12032,10 +10875,6 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "construct innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've modified your construct companion and built it out of light materials, allowing you to collapse it into a carrying case or another compact and innocuous form. In compact form, your construct is easily carried with a Bulk of 2 if it's Small, 4 if it's Medium, or 8 if it's Large. The compact form has wheels, allowing you to easily drag it behind you at half Speed (rather than the usual slower Speed for dragging)",
 				"Either your construct or you (if adjacent to it) can Transform your Construct."
@@ -12044,8 +10883,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12059,16 +10896,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "construct companion",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've upgraded your construct companion's power and decision-making ability. Your construct companion becomes an advanced construct companion (page 27). During an encounter, even if you don't use the {@trait Minion|CRB|Command a Minion} action, your construct companion can still use 1 action on your turn that round to {@action Stride|CRB} or {@action Strike|CRB}."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12083,16 +10913,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've modified your armor with features like fins, rotors, and other gadgets to make it easy for you to move through the water, plus mechanical gills that can help you extract breathable air from water. While wearing your armor innovation, you can breathe underwater and gain a swim Speed equal to your land Speed."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12107,18 +10930,11 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "weapon innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've built your innovation with replaceable interlocking pieces, allowing you to transform it into another type of weapon entirely. When you select this feat, choose a level-0 simple or martial weapon: a common weapon or another to which you have access. This weapon becomes your innovation's second configuration.",
 				"Select a new set of weapon modifications for this new configuration. You can spend two {@action Interact|CRB} actions to switch your weapon innovation between the two configurations.",
 				"These actions don't need to be taken consecutively, but if you've provided the first and not the second the weapon is non-functional. Your weapon's Bulk is always the greater Bulk of the two configurations, regardless of which configuration it's in\u2014if one weapon is smaller than the other, you still need to keep any weapon parts on hand."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12132,11 +10948,6 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You activate gears, explosives, and other {@condition hidden} gadgets in your innovation to make a powerful attack. If you're wearing your innovation, make a melee unarmed {@action Strike|CRB} or a melee {@action Strike|CRB} with one weapon you chose during daily preparations; if you have a minion innovation, it makes a {@action Strike|CRB}; and if you have a weapon innovation, make a {@action Strike|CRB} with your innovation.",
 				"If the {@action Strike|CRB} hits, it deals double the usual number of weapon damage dice (two for a weapon without a striking rune, four for a striking weapon, six for a greater striking weapon, and eight for a major striking weapon)."
@@ -12146,7 +10957,6 @@
 				"unit": "action"
 			},
 			"special": "If your innovation is a minion, it can take this action rather than you.",
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12162,10 +10972,7 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor, construct, or weapon innovation",
-			"frequency": null,
 			"trigger": "Your turn begins.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Unstable clockwork devices in your innovation allow you to push your innovation to act more quickly. You're {@condition quickened} for this turn. How you can use the extra action depends on your innovation.",
 				{
@@ -12182,8 +10989,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 23
 		},
 		{
@@ -12199,11 +11004,6 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You cause your innovation to shoot out a bolt of electricity, damaging creatures in a line. Creatures in a 60-foot line from you take {@dice 3d12} electricity damage with a basic Reflex save against your class DC.",
 				"The electricity damage increases by {@dice 1d12} at 8th level and every 2 levels thereafter. You can choose to increase the line to 90 feet long if you have the breakthrough innovation class feature and to 90 or 120 feet long if you have the revolutionary innovation class feature."
@@ -12213,7 +11013,6 @@
 				"unit": "action"
 			},
 			"special": "If your innovation is a minion, it can use this action rather than you.",
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12226,18 +11025,10 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've found a way to use a hodgepodge combination of devices to enhance your visual abilities in every situation.",
 				"You gain {@ability darkvision} and {@ability low-light vision}, and you can see {@condition invisible} creatures and objects as translucent shapes, though these shapes appear indistinct enough to be {@condition concealed} to you. If an effect would give you the {@condition blinded} condition, the effect must attempt a counteract check against you. On a failed counteract check, you aren't {@condition blinded}, as your various devices are able to compensate."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12251,10 +11042,6 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "Megaton Strike",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"When you make a Megaton {@action Strike|CRB}, you can knock your foe back, sending them reeling away from the explosive force of your blow. On a successful Megaton {@action Strike|CRB}, your target must attempt a Fortitude save against your class DC.",
 				{
@@ -12267,9 +11054,7 @@
 					}
 				}
 			],
-			"activity": null,
 			"special": "If your innovation is a minion, this benefit applies on its Megaton {@action Strike|CRB|Strikes}.",
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12283,16 +11068,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "Advanced Construct Companion",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Thanks to your continual tinkering, your construct companion has advanced to an incredible, new stage of engineering. Your construct companion becomes an incredible construct companion (page 27)."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12307,10 +11085,7 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "{@action overdrive|PT:G&G}",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're currently under the effects of {@action Overdrive|PT:G&G}.",
-			"cost": null,
 			"entries": [
 				"You quickly fling some of your powered-up gadgets to an ally, sharing your benefits briefly with them. Choose an ally within 30 feet. Until the end of their next turn, that ally gains the same amount of additional damage to their {@action Strike|CRB|Strikes} as you currently gain from {@action Overdrive|PT:G&G}."
 			],
@@ -12318,8 +11093,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12335,10 +11108,7 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor innovation",
-			"frequency": null,
-			"trigger": null,
 			"requirements": "You're wearing your armor innovation.",
-			"cost": null,
 			"entries": [
 				"You create an unstable chain reaction, causing countless sparks to dance across your armor. For 1 minute, any creature that touches you or that hits you with a melee unarmed attack or non-reach melee weapon attack takes {@dice 1d12} electricity damage.",
 				"If you have the revolutionary innovation class feature, the damage increases to {@dice 2d12}."
@@ -12347,8 +11117,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12363,16 +11131,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "initial modification",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've modified your innovation using several clever workarounds and unique adjustments, allowing you to include another initial modification. Your innovation gains an additional initial modification from the list of innovations for its type."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12388,9 +11149,6 @@
 			},
 			"prerequisites": "offensive boost",
 			"frequency": "once per 10 minutes",
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You don't just tinker with your own innovation, you meddle with your allies' weapons as well. Choose an ally in your reach and one of their weapons. Attempt a {@skill Crafting} check against a high DC for your level.",
 				{
@@ -12405,8 +11163,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12421,16 +11177,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "offensive boost",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You aren't satisfied with keeping to just one kind of boost from your constant tinkering. Choose two additional offensive boosts (page 17). You can use an {@action Interact|CRB} action to change the offensive boost currently affecting your weapon, choosing between the one you chose for the class feature and the two you chose for this modification. If your weapon has the modular trait, when you use an {@action Interact|CRB} action to change the physical damage type, you can swap the offensive boost as well."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 24
 		},
 		{
@@ -12444,16 +11193,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "Megavolt",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"When you unleash electricity from your innovation, you can cause it to bounce off obstacles, creating a field of electric death. When you use Megavolt, if your line of electricity hits a solid barrier, such as a wall, it bounces off at an angle of your choice and continues until you have reached the full length of the line. Even if a creature is in the area of multiple bounces, it takes the damage only once."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12467,16 +11209,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "{@feat Overdrive Ally|PT:G&G}",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've experimented enough on your teammates to allow you to transfer a substantial amount of powered-up gadgets to them, allowing one of your allies to benefit from the full effects of your {@action Overdrive|PT:G&G}. The first time you use {@feat Overdrive Ally|PT:G&G} during an {@action Overdrive|PT:G&G}, the effect lasts for the remainder of the duration of your {@action Overdrive|PT:G&G}, instead of just until the end of the target's next turn. Any further uses of {@feat Overdrive Ally|PT:G&G} during the same {@action Overdrive|PT:G&G} have their normal duration."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12491,16 +11226,10 @@
 			},
 			"prerequisites": "Tinker's Meddling",
 			"frequency": "once per day",
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You meddle with your allies' equipment so often, the modifications you've implemented grant them benefits throughout the day.",
 				"During your daily preparations, you can choose one ally and one of their weapons. Attempt a {@skill Crafting} check against a very high DC for your level. On a success, your ally's {@action Strike|CRB|Strikes} with the chosen weapon gain the same offensive boost you chose for your innovation. This lasts until your next daily preparations. On a critical failure, your ally takes damage of the type and amount that your offensive boost normally deals on a successful {@action Strike|CRB}."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12514,16 +11243,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "Incredible Companion",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your construct companion has reached the pinnacle of form and function. Your construct companion becomes a paragon construct companion (page 27)."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12536,11 +11258,7 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "You would attempt the flat check to determine whether your innovation is destroyed due to an unstable action, but you haven't rolled yet.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You've built in triple redundancies into your innovation and added all sorts of buffers to protect it from being harmed by your unstable experiments, at least through the first activation. You automatically succeed at the triggering flat check. You can't rely on your Unstable Redundancies again until you've readjusted your innovation to be safe for using unstable actions again."
 			],
@@ -12549,8 +11267,6 @@
 				"unit": "free",
 				"entry": "{@as F}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12565,16 +11281,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Whether through releasing jets of flame, propeller blades, magnetic fields, or some combination of the above, you've managed to free your innovation from the bonds of gravity! While wearing your innovation, you gain a fly Speed equal to your land Speed."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12587,11 +11296,7 @@
 			"featType": {
 				"class": "Inventor"
 			},
-			"prerequisites": null,
-			"frequency": null,
 			"trigger": "A creature you can perceive targets you with an attack against your AC.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"When your foes try to attack you, you always seem to have some outlandish gadget you can pull out at the last second to protect you. Describe a device you attempt to use to protect yourself from the foe's attack\u2014for instance, when attacked by a shocker lizard's shock {@action Strike|CRB}, you might pull out a specially grounded lightning rod from that time you tried to power an invention by harnessing a thunderstorm! Using an invention to defend in this way means that the attack roll for the triggering attack targets your {@skill Crafting} DC instead of your AC.",
 				"Since you use your {@skill Crafting} DC instead of your AC, any penalties to your AC don't apply, but this feat doesn't remove any conditions or other effects causing such penalties. For instance, if you were {@condition flat-footed} and used an invention to defend against a sneak attack, the -2 penalty to AC from being {@condition flat-footed} wouldn't apply to your {@skill Crafting} DC. However, you're still {@condition flat-footed}, so if the attack hits, you'd still take the extra damage."
@@ -12601,8 +11306,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12616,10 +11319,6 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "weapon innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You release a volley of projectiles from your weapon or power it to fly about and strike multiple creatures. Make a {@action Strike|CRB} with your weapon innovation against each creature within 30 feet of you. Don't increase your multiple attack penalty until after making all the attacks. If your innovation is a melee weapon and any of the attacks are outside your reach, you {@action Release|CRB} the weapon before the {@action Strike|CRB|Strikes}, and it returns to your grasp after all of them. If your hands are full when the weapon returns, it falls to the ground in your space."
 			],
@@ -12627,8 +11326,6 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12642,10 +11339,6 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "construct innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your construct unleashes a broad swath of devastation by separating its limbs, deploying {@condition hidden} armaments, or something similar. You Command your innovation, except that instead of its normal actions, it Strides once, then makes a {@action Strike|CRB} against each creature within 30 feet of it. The multiple attack penalty doesn't increase until after the construct makes all the attacks."
 			],
@@ -12653,8 +11346,6 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 25
 		},
 		{
@@ -12668,16 +11359,9 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "Eternal Meddler",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"While others wonder how you can possibly find the time to make so many modifications, you can't help but meddle with all your allies' equipment. After all, how else are they going to learn? During your daily preparations, you can choose up to six allies and six of their weapons for Eternal Meddler, instead of just one. You no longer need to attempt a {@skill Crafting} check\u2014you automatically apply the boost to all of them."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 26
 		},
 		{
@@ -12692,10 +11376,7 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor innovation",
-			"frequency": null,
 			"trigger": "You would take damage.",
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"Your innovation activates various devices you prepared ahead of time, forming an unstable chain reaction to all but negate incoming damage. Reduce the damage you would take by 50."
 			],
@@ -12704,8 +11385,6 @@
 				"unit": "reaction",
 				"entry": "{@as R}"
 			},
-			"special": null,
-			"successDegree": null,
 			"page": 26
 		},
 		{
@@ -12719,10 +11398,6 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "armor, construct, or weapon innovation",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You become so entwined with your innovations that you can use them without a second thought. You're permanently {@condition quickened}. How you can use the extra action depends on your innovation.",
 				{
@@ -12734,9 +11409,6 @@
 					]
 				}
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 26
 		},
 		{
@@ -12750,17 +11422,10 @@
 				"class": "Inventor"
 			},
 			"prerequisites": "{@feat Shared Overdrive|PT:G&G}",
-			"frequency": null,
-			"trigger": null,
-			"requirements": null,
-			"cost": null,
 			"entries": [
 				"You keep gadgets on every ally, ready to power them up all at once. During your daily preparations, select up to six willing allies.",
 				"Whenever you use {@action Overdrive|PT:G&G}, you grant the benefits to any of these allies you choose who are within 30 feet of you."
 			],
-			"activity": null,
-			"special": null,
-			"successDegree": null,
 			"page": 26
 		}
 	],
@@ -12962,7 +11627,7 @@
 				"Armor & Weapon"
 			],
 			"entries": [
-				"Firearms that have been improperly cared for or subjected to unusual strain can misfire. If you attempt to fire a firearm that was used the previous day and that hasn't been cleaned and maintained since then, attempt a DC 5 flat check before making your attack roll. If you fail this misfire check, the weapon misfires and jams. The attack also becomes a critical failure, and you must use an {@action Interact} action to clear the jam before you can reload and fire the weapon again. Once you've spent at least an hour cleaning and maintaining a weapon, you don't need to roll for a misfire until the next day unless an effect says otherwise. A weapon can also misfire as a result of using a specific ability."
+				"Firearms that have been improperly cared for or subjected to unusual strain can misfire. If you attempt to fire a firearm that was used the previous day and that hasn't been cleaned and maintained since then, attempt a DC {@flatDC 5} flat check before making your attack roll. If you fail this misfire check, the weapon misfires and jams. The attack also becomes a critical failure, and you must use an {@action Interact} action to clear the jam before you can reload and fire the weapon again. Once you've spent at least an hour cleaning and maintaining a weapon, you don't need to roll for a misfire until the next day unless an effect says otherwise. A weapon can also misfire as a result of using a specific ability."
 			],
 			"page": 4
 		},
@@ -13236,15 +11901,12 @@
 				"Unsteady|PT:G&G",
 				"Versatile B"
 			],
-			"consumable": false,
-			"generic": false,
 			"price": {
 				"amount": 10,
 				"coin": "gp",
 				"note": null
 			},
 			"ammunition": "Rounds|PT:G&G",
-			"onset": null,
 			"hands": 2,
 			"damage": "1d8",
 			"damageType": "P",
@@ -13255,7 +11917,6 @@
 			"entries": [
 				"This long rifle offers more range than the average firearm, though the long barrel makes the weapon particularly unsteady unless a {@item tripod|PT:G&G} or other stand is used to stabilize it."
 			],
-			"craftReq": null,
 			"page": 12
 		},
 		{
@@ -13271,15 +11932,12 @@
 				"Scatter|PT:G&G",
 				"Versatile B"
 			],
-			"consumable": false,
-			"generic": false,
 			"price": {
 				"amount": 8,
 				"coin": "gp",
 				"note": null
 			},
 			"ammunition": "Rounds|PT:G&G",
-			"onset": null,
 			"hands": 2,
 			"damage": "1d8",
 			"damageType": "P",
@@ -13290,7 +11948,6 @@
 			"entries": [
 				"This weapon fires pellets from a trumpet shaped barrel, making it an excellent choice for hunting brush fowl or dealing damage in a short but broad area."
 			],
-			"craftReq": null,
 			"page": 12
 		},
 		{
@@ -13308,15 +11965,12 @@
 				"Fatal d10",
 				"Versatile B"
 			],
-			"consumable": false,
-			"generic": false,
 			"price": {
 				"amount": 12,
 				"coin": "gp",
 				"note": null
 			},
 			"ammunition": "Rounds|PT:G&G",
-			"onset": null,
 			"hands": 1,
 			"damage": "1d6",
 			"damageType": "P",
@@ -13327,7 +11981,6 @@
 			"entries": [
 				"Made for the settling disputes when diplomacy fails, dueling pistols fit easily into a holster or pocket."
 			],
-			"craftReq": null,
 			"page": 12
 		},
 		{
@@ -13343,15 +11996,12 @@
 				"Fatal d10",
 				"Versatile B"
 			],
-			"consumable": false,
-			"generic": false,
 			"price": {
 				"amount": 7,
 				"coin": "gp",
 				"note": null
 			},
 			"ammunition": "Rounds|PT:G&G",
-			"onset": null,
 			"hands": 2,
 			"damage": "1d6",
 			"damageType": "P",
@@ -13362,7 +12012,6 @@
 			"entries": [
 				"The gold standard of firearms in Alkenstar, the flintlock musket includes an external firing mechanism while boasting an efficient and relatively compact frame."
 			],
-			"craftReq": null,
 			"page": 12
 		},
 		{
@@ -13378,15 +12027,12 @@
 				"Fatal d8",
 				"Versatile B"
 			],
-			"consumable": false,
-			"generic": false,
 			"price": {
 				"amount": 6,
 				"coin": "gp",
 				"note": null
 			},
 			"ammunition": "Rounds|PT:G&G",
-			"onset": null,
 			"hands": 1,
 			"damage": "1d4",
 			"damageType": "P",
@@ -13397,7 +12043,6 @@
 			"entries": [
 				"Though less accurate and powerful than a flintlock musket, the flintlock pistol is the preferred weapon of privateers thanks to its more compact size."
 			],
-			"craftReq": null,
 			"page": 12
 		},
 		{
@@ -13413,15 +12058,12 @@
 				"Fatal d8",
 				"Modular B, P, or S"
 			],
-			"consumable": false,
-			"generic": false,
 			"price": {
 				"amount": 5,
 				"coin": "gp",
 				"note": null
 			},
 			"ammunition": "Rounds|PT:G&G",
-			"onset": null,
 			"hands": 1,
 			"damage": "1d4",
 			"damageType": "modular",
@@ -13432,7 +12074,6 @@
 			"entries": [
 				"Little more than a hardened tube with a handle and external ignition attached, a hand cannon can be used to fire almost anything that can be packed into its barrel."
 			],
-			"craftReq": null,
 			"page": 12
 		}
 	],
@@ -13443,7 +12084,6 @@
 			"type": "Item",
 			"category": "Ammunition",
 			"consumable": true,
-			"generic": false,
 			"traits": [],
 			"price": {
 				"coin": "sp",
@@ -13451,7 +12091,6 @@
 				"note": "(price for 10)"
 			},
 			"bulk": "L",
-			"group": "Firearm|PT:G&G",
 			"entries": [
 				"Firearms require ammunition consisting of projectiles and black powder. Though a round of ammo can vary in its composition, it is typically either a prepackaged paper cartridge including wadding, bullet, and black powder or loose shot that has been packed into a cartridge manually. Some weapons, like {@item hand cannon|PT:G&G|hand cannons} and {@item blunderbuss|PT:G&G|blunderbusses}, can fire other material, but their ammunition has the same Price due to the cost of the black powder. Because making rounds of firearm ammunition requires creating black powder, you need the {@feat Alchemical Crafting} skill feat to make them. Firearm rounds are a valid type for magical ammunition, just like arrows or bolts. Crafting magical firearm ammunition requires you to be able to craft both alchemical and magical items."
 			],
@@ -13464,7 +12103,6 @@
 			"category": "Gear",
 			"rarity": "Uncommon",
 			"equipment": true,
-			"generic": false,
 			"traits": [],
 			"price": {
 				"coin": "sp",
@@ -13491,10 +12129,7 @@
 			"level": 0,
 			"school": "V",
 			"type": "CANTRIP",
-			"focus": false,
 			"components": {
-				"F": false,
-				"M": false,
 				"S": true,
 				"V": true
 			},
@@ -13538,11 +12173,8 @@
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
 				},
-				"x": null,
 				"no_x": null
 			},
-			"dismiss": false,
-			"sustain": false,
 			"page": 7
 		},
 		{
@@ -13551,11 +12183,7 @@
 			"level": 0,
 			"school": "V",
 			"type": "CANTRIP",
-			"focus": false,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": false,
 				"V": true
 			},
 			"traits": [
@@ -13585,10 +12213,8 @@
 			"duration": {
 				"type": null
 			},
-			"savingThrowBasic": false,
 			"heightened": {
 				"heightened": true,
-				"plus_x": null,
 				"x": [
 					{
 						"level": 7,
@@ -13597,8 +12223,6 @@
 				],
 				"no_x": null
 			},
-			"dismiss": false,
-			"sustain": false,
 			"page": 7
 		},
 		{
@@ -13607,11 +12231,7 @@
 			"level": 0,
 			"school": "D",
 			"type": "CANTRIP",
-			"focus": false,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": false,
 				"V": true
 			},
 			"traits": [
@@ -13641,15 +12261,9 @@
 			"duration": {
 				"type": null
 			},
-			"savingThrowBasic": false,
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
-			"dismiss": false,
-			"sustain": false,
 			"page": 7
 		},
 		{
@@ -13658,10 +12272,7 @@
 			"level": 0,
 			"school": "D",
 			"type": "CANTRIP",
-			"focus": false,
 			"components": {
-				"F": false,
-				"M": false,
 				"S": true,
 				"V": true
 			},
@@ -13687,15 +12298,9 @@
 			"duration": {
 				"type": null
 			},
-			"savingThrowBasic": false,
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
-			"dismiss": false,
-			"sustain": false,
 			"page": 8
 		},
 		{
@@ -13704,10 +12309,7 @@
 			"level": 0,
 			"school": "E",
 			"type": "CANTRIP",
-			"focus": false,
 			"components": {
-				"F": false,
-				"M": false,
 				"S": true,
 				"V": true
 			},
@@ -13750,15 +12352,9 @@
 				"Your telepathic push is particularly shocking. If the target fails or critically fails its save, it's also {@condition stunned} 1."
 			],
 			"savingThrow": "Will",
-			"savingThrowBasic": false,
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
-			"dismiss": false,
-			"sustain": false,
 			"page": 8
 		},
 		{
@@ -13767,10 +12363,7 @@
 			"level": 0,
 			"school": "E",
 			"type": "CANTRIP",
-			"focus": false,
 			"components": {
-				"F": false,
-				"M": false,
 				"S": true,
 				"V": true
 			},
@@ -13810,32 +12403,23 @@
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
 				},
-				"x": null,
 				"no_x": null
 			},
-			"dismiss": false,
-			"sustain": false,
 			"page": 9
 		},
 		{
 			"source": "PT:SoM",
 			"name": "Evolution Surge",
 			"level": 1,
-			"traditions": null,
-			"domain": null,
 			"school": "T",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
 				"S": true,
 				"V": true
 			},
-			"cost": null,
 			"heightened": {
 				"heightened": true,
-				"plus_x": null,
 				"x": [
 					{
 						"level": 3,
@@ -13888,8 +12472,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
 			"range": {
 				"type": "point",
 				"entry": "100 feet",
@@ -13898,7 +12480,6 @@
 					"amount": 100
 				}
 			},
-			"area": null,
 			"targets": "your eidolon",
 			"duration": {
 				"type": "timed",
@@ -13908,9 +12489,6 @@
 					"unit": "round"
 				}
 			},
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 24
 		},
@@ -13918,22 +12496,13 @@
 			"source": "PT:SoM",
 			"name": "Boost Eidolon",
 			"level": 0,
-			"traditions": null,
-			"domain": null,
 			"school": "V",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": false,
 				"V": true
 			},
-			"cost": null,
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
 			"traits": [
@@ -13949,8 +12518,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
 			"range": {
 				"type": "point",
 				"entry": "100 feet",
@@ -13959,7 +12526,6 @@
 					"amount": 100
 				}
 			},
-			"area": null,
 			"targets": "your eidolon",
 			"duration": {
 				"type": "timed",
@@ -13969,9 +12535,6 @@
 					"unit": "round"
 				}
 			},
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 24
 		},
@@ -13979,18 +12542,12 @@
 			"source": "PT:SoM",
 			"name": "Reinforce Eidolon",
 			"level": 0,
-			"traditions": null,
-			"domain": null,
 			"school": "V",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": false,
 				"V": true
 			},
-			"cost": null,
 			"traits": [
 				"Uncommon",
 				"Abjuration",
@@ -14004,8 +12561,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
 			"range": {
 				"type": "point",
 				"entry": "100 feet",
@@ -14014,7 +12569,6 @@
 					"amount": 100
 				}
 			},
-			"area": null,
 			"targets": "your eidolon",
 			"duration": {
 				"type": "timed",
@@ -14025,14 +12579,8 @@
 				}
 			},
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 24
 		},
@@ -14041,23 +12589,14 @@
 			"name": "Hasted Assault",
 			"level": 1,
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
-			"traditions": null,
-			"domain": null,
 			"school": "T",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": true,
-				"V": false
+				"S": true
 			},
-			"cost": null,
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -14070,12 +12609,9 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
 			"range": {
 				"type": null
 			},
-			"area": null,
 			"duration": {
 				"type": "timed",
 				"entry": "1 minute",
@@ -14084,9 +12620,6 @@
 					"unit": "minute"
 				}
 			},
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 11
 		},
@@ -14094,18 +12627,12 @@
 			"source": "PT:SoM",
 			"name": "Magus Potency",
 			"level": 1,
-			"traditions": null,
-			"domain": null,
 			"school": "V",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": true,
-				"V": false
+				"S": true
 			},
-			"cost": null,
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -14118,8 +12645,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
 			"range": {
 				"type": "point",
 				"entry": "touch",
@@ -14130,7 +12655,6 @@
 			},
 			"heightened": {
 				"heightened": true,
-				"plus_x": null,
 				"x": [
 					{
 						"level": 3,
@@ -14147,7 +12671,6 @@
 				],
 				"no_x": null
 			},
-			"area": null,
 			"duration": {
 				"type": "timed",
 				"entry": "1 minute",
@@ -14156,10 +12679,7 @@
 					"unit": "minute"
 				}
 			},
-			"saving_throw": null,
 			"targets": "you or one weapon you're wielding",
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 11
 		},
@@ -14169,7 +12689,6 @@
 			"level": 4,
 			"heightened": {
 				"heightened": true,
-				"plus_x": null,
 				"x": [
 					{
 						"level": 7,
@@ -14186,18 +12705,12 @@
 					"amount": 1
 				}
 			},
-			"traditions": null,
-			"domain": null,
 			"school": "V",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": true,
-				"V": false
+				"S": true
 			},
-			"cost": null,
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -14210,9 +12723,6 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
-			"area": null,
 			"duration": {
 				"type": "timed",
 				"entry": "1 minute",
@@ -14221,9 +12731,6 @@
 					"unit": "minute"
 				}
 			},
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 11
 		},
@@ -14237,24 +12744,17 @@
 					"level": 1,
 					"entry": "Increase the resistance by 2."
 				},
-				"x": null,
 				"no_x": null
 			},
 			"range": {
 				"type": "null"
 			},
-			"traditions": null,
-			"domain": null,
 			"school": "A",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
-				"S": true,
-				"V": false
+				"S": true
 			},
-			"cost": null,
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -14267,15 +12767,10 @@
 				"number": 1,
 				"unit": "reaction"
 			},
-			"requirements": null,
 			"trigger": "You are targeted by a spell or in the area of a spell.",
-			"area": null,
 			"duration": {
 				"type": "null"
 			},
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 11
 		},
@@ -14284,9 +12779,6 @@
 			"name": "Unfetter Eidolon",
 			"level": 1,
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
 			"range": {
@@ -14297,18 +12789,13 @@
 					"amount": 100
 				}
 			},
-			"traditions": null,
-			"domain": null,
 			"school": "A",
 			"type": "FOCUS",
 			"focus": true,
 			"components": {
-				"F": false,
-				"M": false,
 				"S": true,
 				"V": true
 			},
-			"cost": null,
 			"traits": [
 				"Uncommon",
 				"Abjuration",
@@ -14321,9 +12808,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"requirements": null,
-			"trigger": null,
-			"area": null,
 			"duration": {
 				"type": "timed",
 				"entry": "1 minute",
@@ -14333,9 +12817,6 @@
 				}
 			},
 			"targets": "your eidolon",
-			"saving_throw": null,
-			"saving_throw_basic": false,
-			"dismiss": false,
 			"sustain": true,
 			"page": 11
 		},
@@ -14343,12 +12824,9 @@
 			"source": "PT:SoM",
 			"name": "Summon Vengeful Dead",
 			"level": 7,
-			"traditions": null,
-			"domain": null,
 			"school": "N",
 			"type": "SPELL",
 			"components": {
-				"F": false,
 				"M": true,
 				"S": true,
 				"V": true
@@ -14358,9 +12836,6 @@
 				"Necromancy"
 			],
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
 				"no_x": null
 			},
 			"entries": [
@@ -14416,7 +12891,6 @@
 					"unit": "round"
 				}
 			},
-			"dismiss": false,
 			"sustain": true
 		}
 	],
@@ -14488,9 +12962,7 @@
 				"one common mortal language the eidolon spoke in life"
 			],
 			"speed": {
-				"abilities": null,
 				"walk": 25,
-				"burrow": null,
 				"climb": null
 			},
 			"abilities": [
@@ -14606,9 +13078,7 @@
 				"{@language Draconic}"
 			],
 			"speed": {
-				"abilities": null,
 				"walk": 25,
-				"burrow": null,
 				"climb": null
 			},
 			"abilities": [
@@ -14756,9 +13226,7 @@
 				"Sylvan"
 			],
 			"speed": {
-				"abilities": null,
 				"walk": 25,
-				"burrow": null,
 				"climb": null
 			},
 			"abilities": [
