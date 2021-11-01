@@ -891,7 +891,7 @@
 			],
 			"frequency": "twice per week",
 			"entries": [
-				"The connection between you and Xelor’s realm resonates within your soul stronger than it does for most xelors, allowing you to cross the threshold between the {@plane Material Plane} and {@plane Xelorium}. You gain {@spell plane shift} as a divine innate spell. You can cast it twice per week. This can be used only to travel back and forth between {@plane Xelorium} (or the {@plane First World}) and the {@plane Material Plane}. Due to your body's natural resonance, you can act as the spell focus, and you don't require a tuning fork."
+				"The connection between you and Xelor's realm resonates within your soul stronger than it does for most xelors, allowing you to cross the threshold between the {@plane Material Plane} and {@plane Xelorium}. You gain {@spell plane shift} as a divine innate spell. You can cast it twice per week. This can be used only to travel back and forth between {@plane Xelorium} (or the {@plane First World}) and the {@plane Material Plane}. Due to your body's natural resonance, you can act as the spell focus, and you don't require a tuning fork."
 			]
 		},
 		{
@@ -989,7 +989,7 @@
 					"components": [
 						"concentrate"
 					],
-					"trigger": "You attempt an attack roll, skill check, or saving throw while performing the course of action from your {@spell augury}, but you haven’t rolled yet",
+					"trigger": "You attempt an attack roll, skill check, or saving throw while performing the course of action from your {@spell augury}, but you haven't rolled yet",
 					"entries": [
 						"You gain a +1 status bonus to the triggering check, or a +2 status bonus if the result of the augury was \"woe\" and you proceeded anyway."
 					]
@@ -1037,7 +1037,7 @@
 			],
 			"prerequisite": "{@feat Xelor Astrology|FPKrosmoz}",
 			"entries": [
-				"Your ability to look into the past and future through the stars is near perfect. When you use Xelor Astrology, roll {@dice 1d4} instead; on a 1, you take a –1 penalty to the skill check. On any other result, you gain a circumstance bonus of that value (for instance, a +3 circumstance bonus on a 3)."
+				"Your ability to look into the past and future through the stars is near perfect. When you use Xelor Astrology, roll {@dice 1d4} instead; on a 1, you take a \u20131 penalty to the skill check. On any other result, you gain a circumstance bonus of that value (for instance, a +3 circumstance bonus on a 3)."
 			]
 		},
 		{
@@ -1120,7 +1120,7 @@
 				"Xelor|FPKrosmoz"
 			],
 			"entries": [
-				"You have constructed a companion for yourself. You gain a familiar. The type of creature is up to you, but it’s usually owl-themed even if it lacks flight."
+				"You have constructed a companion for yourself. You gain a familiar. The type of creature is up to you, but it's usually owl-themed even if it lacks flight."
 			]
 		},
 		{
@@ -1141,7 +1141,7 @@
 			"frequency": "once per day",
 			"trigger": "You are about to attempt a skill check or saving throw.",
 			"entries": [
-				"Xelor’s Clock grants you insights that guide your actions. You roll twice and take the better result. If it's night and you can see the stars, you gain a +1 circumstance bonus to the triggering roll."
+				"Xelor's Clock grants you insights that guide your actions. You roll twice and take the better result. If it's night and you can see the stars, you gain a +1 circumstance bonus to the triggering roll."
 			]
 		},
 		{
@@ -1163,7 +1163,7 @@
 			]
 		},
 		{
-			"name": "Xelor’s Sandglass Lore",
+			"name": "Xelor's Sandglass Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
@@ -1214,7 +1214,7 @@
 			"frequency": "3 times per day",
 			"requirements": "You must spend 10 minutes just after your daily preparations examining the sky or consulting a star chart or you can't use this action that day.",
 			"entries": [
-				"Through the stars you can consult what Xelor’s Clock has in store for you. You recall the stars' predictions about your current situation. If your next action requires you to attempt one or more skill checks, roll {@dice 1d8}. On a result of 6, 7, or 8, you gain a +2 circumstance bonus to the first such skill check you attempt. On a 3, 4, or 5, you gain a +1 circumstance bonus. On a 2, you gain nothing. On a 1, you take a –1 circumstance penalty to the skill check."
+				"Through the stars you can consult what Xelor's Clock has in store for you. You recall the stars' predictions about your current situation. If your next action requires you to attempt one or more skill checks, roll {@dice 1d8}. On a result of 6, 7, or 8, you gain a +2 circumstance bonus to the first such skill check you attempt. On a 3, 4, or 5, you gain a +1 circumstance bonus. On a 2, you gain nothing. On a 1, you take a \u20131 circumstance penalty to the skill check."
 			]
 		},
 		{
@@ -1229,7 +1229,9 @@
 				"unit": "action"
 			},
 			"traits": [
-				"Abjuration", "Concentrate", "Divine",
+				"Abjuration",
+				"Concentrate",
+				"Divine",
 				"Xelor|FPKrosmoz"
 			],
 			"entries": [
@@ -1261,7 +1263,7 @@
 				"Xelor|FPKrosmoz"
 			],
 			"entries": [
-				"You find wisdom in the movements of the stars, connecting you to Xelor’s Clock. Once per day, you can spend 10 minutes to draw upon your readings of a recent night's sky to gain the trained proficiency rank in one skill of your choice; the chosen skill's key attribute must be Charisma, Intelligence, or Wisdom. This proficiency lasts until your next daily preparation. Since this proficiency is temporary, you can't use it as a prerequisite for a skill increase or a permanent character option like a feat."
+				"You find wisdom in the movements of the stars, connecting you to Xelor's Clock. Once per day, you can spend 10 minutes to draw upon your readings of a recent night's sky to gain the trained proficiency rank in one skill of your choice; the chosen skill's key attribute must be Charisma, Intelligence, or Wisdom. This proficiency lasts until your next daily preparation. Since this proficiency is temporary, you can't use it as a prerequisite for a skill increase or a permanent character option like a feat."
 			]
 		},
 		{
@@ -1272,7 +1274,9 @@
 				"ancestry": "Sram"
 			},
 			"traits": [
-				"Death", "Divine", "Shadow",
+				"Death",
+				"Divine",
+				"Shadow",
 				"Sram|FPKrosmoz"
 			],
 			"frequency": "once per day",
@@ -1281,7 +1285,7 @@
 				"unit": "action"
 			},
 			"entries": [
-				"You channel all of Sram’s viciousness into your next dagger attack. You cover a knife’s blade with shadows. The first time this turn that you hit a creature with a {@action Strike} using a weapon in the {@group knife} group you've modified in this way, that creature takes an additional 60 damage (basic Fortitude save using your class DC or spell DC, whichever is higher) as the knife works to end their life. This additional damage is of the same type as the initial attack dealt. If you hit more than one creature at the same time, choose one to suffer the effect of your attack."
+				"You channel all of Sram's viciousness into your next dagger attack. You cover a knife's blade with shadows. The first time this turn that you hit a creature with a {@action Strike} using a weapon in the {@group knife} group you've modified in this way, that creature takes an additional 60 damage (basic Fortitude save using your class DC or spell DC, whichever is higher) as the knife works to end their life. This additional damage is of the same type as the initial attack dealt. If you hit more than one creature at the same time, choose one to suffer the effect of your attack."
 			]
 		},
 		{
@@ -1295,7 +1299,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You use Sram’s furtive magic to place a one-way invisibility wall. Once per day, you can cast {@spell Invisibility Curtain|SoM} as a 7th-level divine innate spell."
+				"You use Sram's furtive magic to place a one-way invisibility wall. Once per day, you can cast {@spell Invisibility Curtain|SoM} as a 7th-level divine innate spell."
 			]
 		},
 		{
@@ -1353,13 +1357,16 @@
 				"ancestry": "Sram"
 			},
 			"traits": [
-				"Concentrate", "Exploration", "Manipulate", "Shadow",
+				"Concentrate",
+				"Exploration",
+				"Manipulate",
+				"Shadow",
 				"Teleportation",
 				"Sram|FPKrosmoz"
 			],
 			"frequency": "once per hour",
 			"entries": [
-				"Your connection to shadows grows, allowing you to use them as a means of transportation. You can spend 1 minute in focused preparation, then enter a shadow your size or larger to instantly teleport to any shadow that is your size or larger up to 2 mile away. You cannot teleport to an area of complete darkness or with light from all directions such that there isn’t any shadow. Once you enter the shadow, you instantly know the rough locations of other large shadows within range and can exit from the original shadow, if you prefer. You can't carry extradimensional spaces with you when you teleport; if you attempt to do so, the activity fails."
+				"Your connection to shadows grows, allowing you to use them as a means of transportation. You can spend 1 minute in focused preparation, then enter a shadow your size or larger to instantly teleport to any shadow that is your size or larger up to 2 mile away. You cannot teleport to an area of complete darkness or with light from all directions such that there isn't any shadow. Once you enter the shadow, you instantly know the rough locations of other large shadows within range and can exit from the original shadow, if you prefer. You can't carry extradimensional spaces with you when you teleport; if you attempt to do so, the activity fails."
 			]
 		},
 		{
@@ -1417,7 +1424,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You channel Sram’s furtive magic. You can cast {@spell Invisibility} and {@spell Obscuring Mist} each once per day as 2nd-level divine innate spells."
+				"You channel Sram's furtive magic. You can cast {@spell Invisibility} and {@spell Obscuring Mist} each once per day as 2nd-level divine innate spells."
 			]
 		},
 		{
@@ -1432,7 +1439,9 @@
 				"ancestry": "Sram"
 			},
 			"traits": [
-				"Conjuration", "Occult", "Shadow",
+				"Conjuration",
+				"Occult",
+				"Shadow",
 				"Sram|FPKrosmoz"
 			],
 			"prerequisites": "{@feat Manipulating Shadow|FPKrosmoz}",
@@ -1553,7 +1562,9 @@
 				"ancestry": "Sram"
 			},
 			"traits": [
-				"Evocation", "Occult", "Shadow",
+				"Evocation",
+				"Occult",
+				"Shadow",
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
@@ -1571,7 +1582,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You can magically instill fear into your enemy’s heart. You can cast {@spell Fear} once per day as a divine innate spell."
+				"You can magically instill fear into your enemy's heart. You can cast {@spell Fear} once per day as a divine innate spell."
 			]
 		},
 		{
@@ -1585,7 +1596,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You take advantage of your opponent’s fears. When you succeed at a melee weapon {@action Strike} against a {@condition frightened} foe, that foe can't reduce their {@condition frightened} condition below 1 until the beginning of your next turn. Additionally {@condition frightened} foes are {@condition flat-footed} to you."
+				"You take advantage of your opponent's fears. When you succeed at a melee weapon {@action Strike} against a {@condition frightened} foe, that foe can't reduce their {@condition frightened} condition below 1 until the beginning of your next turn. Additionally {@condition frightened} foes are {@condition flat-footed} to you."
 			]
 		},
 		{
@@ -1602,7 +1613,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You have learned to remain hidden in other people’s shadows to avoid drawing attention to yourself. You can use creatures that are at least your size (usually Medium or larger) as cover for the {@action Hide} and {@action Sneak} actions, though you still can't use such creatures as cover for other uses, such as the {@action Take Cover} action."
+				"You have learned to remain hidden in other people's shadows to avoid drawing attention to yourself. You can use creatures that are at least your size (usually Medium or larger) as cover for the {@action Hide} and {@action Sneak} actions, though you still can't use such creatures as cover for other uses, such as the {@action Take Cover} action."
 			]
 		},
 		{
@@ -1616,7 +1627,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"A Sram’s snare is unrivaled, as it’s one of their favored method of assassination. You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon sram snares|items||Category=snare|Rarity=Uncommon|Ancestry & Heritage=sram}. You gain the {@feat Snare Crafting} feat, though when choosing your formulas for that feat, you can also choose from {@filter uncommon sram snares|items||Category=snare|Rarity=Uncommon|Ancestry & Heritage=sram}, as well as common snares."
+				"A Sram's snare is unrivaled, as it's one of their favored method of assassination. You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon sram snares|items||Category=snare|Rarity=Uncommon|Ancestry & Heritage=sram}. You gain the {@feat Snare Crafting} feat, though when choosing your formulas for that feat, you can also choose from {@filter uncommon sram snares|items||Category=snare|Rarity=Uncommon|Ancestry & Heritage=sram}, as well as common snares."
 			]
 		},
 		{
@@ -1634,11 +1645,11 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"A dagger through the ribs is a Sram’s favored method of assassination, but there are many kinds of dagger. You are trained with the {@item dagger}, {@item main-gauche}, {@item scythe}, and one {@filter uncommon knife|rarity=uncommon|group=knife} of your choice. In addition, you gain access to the {@filter uncommon knife|rarity=uncommon|group=knife} you chose and all {@filter uncommon sram weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=sram}. For the purpose of determining your proficiency, martial sram weapons are simple weapons and advanced sram weapons are martial weapons."
+				"A dagger through the ribs is a Sram's favored method of assassination, but there are many kinds of dagger. You are trained with the {@item dagger}, {@item main-gauche}, {@item scythe}, and one {@filter uncommon knife|rarity=uncommon|group=knife} of your choice. In addition, you gain access to the {@filter uncommon knife|rarity=uncommon|group=knife} you chose and all {@filter uncommon sram weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=sram}. For the purpose of determining your proficiency, martial sram weapons are simple weapons and advanced sram weapons are martial weapons."
 			]
 		},
 		{
-			"name": "Sram’s Shadow Lore",
+			"name": "Sram's Shadow Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
@@ -1712,7 +1723,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You’ve grown so used to the dark that your sight has completely adapted. You gain {@ability darkvision}."
+				"You've grown so used to the dark that your sight has completely adapted. You gain {@ability darkvision}."
 			]
 		},
 		{
@@ -1773,7 +1784,10 @@
 				"ancestry": "Eniripsa"
 			},
 			"traits": [
-				"Auditory", "Concentrate", "Emotion", "Mental",
+				"Auditory",
+				"Concentrate",
+				"Emotion",
+				"Mental",
 				"Eniripsa|FPKrosmoz"
 			],
 			"activity": {
@@ -1879,7 +1893,7 @@
 			],
 			"prerequisites": "{@feat Soothing Word|FPKrosmoz}",
 			"entries": [
-				"Eniripsa’s merciful magic flows through you. You can cast {@spell Heal} and {@spell Restoration} each once per day as 2nd-level divine innate spells."
+				"Eniripsa's merciful magic flows through you. You can cast {@spell Heal} and {@spell Restoration} each once per day as 2nd-level divine innate spells."
 			]
 		},
 		{
@@ -1949,7 +1963,7 @@
 			],
 			"prerequisites": "master in {@skill Crafting}, {@feat Elixir Knowledge|FPKrosmoz}",
 			"entries": [
-				"The poisons you craft are now empowered with divine energy. You gain the {@feat Bless Toxin|LOGM} general feat. Additionally when a creature is afflicted with one of your blessed alchemical poisons it takes a –1 status penalty to attack rolls for 1 minute."
+				"The poisons you craft are now empowered with divine energy. You gain the {@feat Bless Toxin|LOGM} general feat. Additionally when a creature is afflicted with one of your blessed alchemical poisons it takes a \u20131 status penalty to attack rolls for 1 minute."
 			]
 		},
 		{
@@ -2017,7 +2031,7 @@
 			},
 			"frequency": "once per round",
 			"entries": [
-				"You’ve trained your wings to support your weight, you can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
+				"You've trained your wings to support your weight, you can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
 			]
 		},
 		{
@@ -2096,7 +2110,7 @@
 				"Eniripsa|FPKrosmoz"
 			],
 			"entries": [
-				"“Help me help you” is a famous Eniripsa idiom, if a friend needs help there’s no-one better than you. You gain a +4 circumstance bonus on checks to {@action Aid}."
+				"\"Help me help you\" is a famous Eniripsa idiom, if a friend needs help there's no-one better than you. You gain a +4 circumstance bonus on checks to {@action Aid}."
 			]
 		},
 		{
@@ -2118,7 +2132,7 @@
 			]
 		},
 		{
-			"name": "Eniripsa’s Hands Lore",
+			"name": "Eniripsa's Hands Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
