@@ -5233,7 +5233,6 @@
 									"style": "full",
 									"name": "Implement's Interruption",
 									"activity": {
-
 										"number": 1,
 										"unit": "reaction"
 									},
@@ -5326,7 +5325,6 @@
 									"style": "full",
 									"name": "Fling Magic",
 									"activity": {
-
 										"number": 2,
 										"unit": "action"
 									},
@@ -5477,7 +5475,6 @@
 									"style": "full",
 									"name": "Drink from the Chalice",
 									"activity": {
-
 										"number": 1,
 										"unit": "action"
 									},
@@ -12938,7 +12935,6 @@
 								"Your eidolon instinctively flashes with ectoplasmic energy, allowing them to make a melee attack against a foe who dares to harm you. Your eidolon makes a {@action Strike} with a melee unarmed attack against the triggering foe, even if that foe isn't within your eidolon's reach."
 							],
 							"activity": {
-
 								"number": 1,
 								"unit": "reaction"
 							},
@@ -13055,7 +13051,6 @@
 								"At 3rd level and every 2 levels thereafter, the damage increases by {@damage 1d6}."
 							],
 							"activity": {
-
 								"number": 2,
 								"unit": "action"
 							}
@@ -13079,7 +13074,6 @@
 								"Your eidolon makes one {@action Strike} with their primary unarmed attack and two {@action Strike||Strikes} with their secondary unarmed attacks (in any order). If any of these attacks is a critical hit against a foe, the eidolon instantly recovers the use of their Breath Weapon."
 							],
 							"activity": {
-
 								"number": 2,
 								"unit": "action"
 							}
