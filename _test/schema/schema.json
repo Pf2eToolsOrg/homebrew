@@ -414,9 +414,17 @@
     "activity": {
       "additionalProperties": false,
       "type": "object",
+      "required": [
+        "number",
+        "unit"
+      ],
       "properties": {
         "number": {
           "type": "number"
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["action", "reaction", "free", "varies"]
         },
         "entry": {
           "type": "string",
@@ -431,10 +439,6 @@
               "{@as f}"
             ]
           }
-        },
-        "unit": {
-          "type": "string",
-          "enum": ["action", "reaction", "free", "varies"]
         }
       }
     }

@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1635352852,
-		"dateLastModified": 1635535681
+		"dateLastModified": 1635787149
 	},
 	"variantrule": [
 		{
@@ -851,6 +851,1320 @@
 		}
 	],
 	"feat": [
+		{
+			"name": "Rhol Bak",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You create a savepoint in time to come back if things go wrong in the future. You can cast {@spell Time Beacon|LOGM} as a 7th-level divine innate spell once per day."
+			]
+		},
+		{
+			"name": "Desynchronization",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You can send an opponent directly into the timestream. You can cast {@spell Cast into Time|SoM} as a 7th-level divine innate spell once per day."
+			]
+		},
+		{
+			"name": "Xelorium Bound",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"frequency": "twice per week",
+			"entries": [
+				"The connection between you and Xelor’s realm resonates within your soul stronger than it does for most xelors, allowing you to cross the threshold between the {@plane Material Plane} and {@plane Xelorium}. You gain {@spell plane shift} as a divine innate spell. You can cast it twice per week. This can be used only to travel back and forth between {@plane Xelorium} (or the {@plane First World}) and the {@plane Material Plane}. Due to your body's natural resonance, you can act as the spell focus, and you don't require a tuning fork."
+			]
+		},
+		{
+			"name": "Xelor Spell Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Xelor Spell Mysteries|FPKrosmoz}",
+			"entries": [
+				"Your affinity to divine time magic grows deeper. During your daily preparations, choose {@spell Blink Charge|SoM}, {@spell Inevitable Disaster|SoM} or {@spell Rewinding Step|SoM}. You can {@action Cast a Spell||Cast this Spell} as a 5th-level divine innate spell once that day. You become an expert in divine spell DCs and divine spell attack rolls."
+			]
+		},
+		{
+			"name": "Xelor Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Xelor Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from {@feat Xelor Weapon Familiarity|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Time Rift",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You create a time rift to teleport yourself to safety. Once per day, you can cast {@spell dimension door} as a 5th-level divine innate spell."
+			]
+		},
+		{
+			"name": "Time Magic",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You control powerful time magic. Each day, you can cast two 4th-level divine innate spells. You can choose from the following spells each time you cast: {@spell Tortoise and the Hare|Som}, {@spell Curse of Lost Time|apg}, {@spell Perseis's Precautions|LOPSG}."
+			]
+		},
+		{
+			"name": "Xelor Magic",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You channel Xelor's furtive magic. You can cast {@spell Sudden Blight|APG} and {@spell Gentle Repose} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Violent Omens",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"Once per day, you can spend 10 minutes studying your surroundings in search of omens related to a particular course of action to cast {@spell augury} as an innate divine spell. Unless the result of the {@spell augury} was \"nothing,\" you gain the following reaction for the next 30 minutes:",
+				{
+					"type": "ability",
+					"name": "Premonition",
+					"style": "compact",
+					"activity": {
+						"unit": "reaction",
+						"number": 1
+					},
+					"components": [
+						"concentrate"
+					],
+					"trigger": "You attempt an attack roll, skill check, or saving throw while performing the course of action from your {@spell augury}, but you haven’t rolled yet",
+					"entries": [
+						"You gain a +1 status bonus to the triggering check, or a +2 status bonus if the result of the augury was \"woe\" and you proceeded anyway."
+					]
+				}
+			]
+		},
+		{
+			"name": "Temporal Distortion",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You can create a small distortion in time. You can cast 3rd level {@spell time jump} once per day as a divine innate spell."
+			]
+		},
+		{
+			"name": "Read the Timestream",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisite": "trained in {@skill Lore||Astrology Lore} or {@skill Occultism}",
+			"entries": [
+				"You're incredibly skilled in reading the timestream, and you can gain useful (if cryptic) hints from the stars' alignment. Once per night, if you can clearly see the stars, you can spend 1 hour reading the heavens to see how they relate to a particular goal, event, or activity that will occur within 1 week. The GM rolls a secret check, either a DC 28 {@skill Lore||Astrology Lore} check or a DC 32 {@skill Occultism} check. On a success, you learn a cryptic clue or piece of advice that could help with the chosen event, and on a critical failure, you learn a misleading cryptic clue or piece of advice."
+			]
+		},
+		{
+			"name": "Heir of the Watchers",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisite": "{@feat Xelor Astrology|FPKrosmoz}",
+			"entries": [
+				"Your ability to look into the past and future through the stars is near perfect. When you use Xelor Astrology, roll {@dice 1d4} instead; on a 1, you take a –1 penalty to the skill check. On any other result, you gain a circumstance bonus of that value (for instance, a +3 circumstance bonus on a 3)."
+			]
+		},
+		{
+			"name": "Wakfu Font",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"prerequisite": "focus pool, at least one innate spell from a xelor heritage or ancestry feat that shares a tradition with at least one of your focus spells",
+			"frequency": "once per day",
+			"entries": [
+				"The magic within you provides increased energy you can use to focus. You regain 1 Focus Point, up to your usual maximum."
+			]
+		},
+		{
+			"name": "Xelor Weapon Exactness",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisite": "{@feat Xelor Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"You know more xelor magic. During your daily preparations, choose {@spell anticipate peril|LOGM}, {@spell déjà vu|APG}, or {@spell fleet step}. You can cast this as a 1st-level divine innate spell once that day."
+			]
+		},
+		{
+			"name": "Xelor Spell Mysteries",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Xelor Spell Expertise|FPKrosmoz"
+			],
+			"level": 5,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisite": "at least one innate spell from a xelor heritage or ancestry feat",
+			"entries": [
+				"You know more xelor magic. During your daily preparations, choose {@spell anticipate peril|LOGM}, {@spell déjà vu|APG}, or {@spell fleet step}. You can cast this as a 1st-level divine innate spell once that day."
+			]
+		},
+		{
+			"name": "Universal Obsession",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisite": "{@feat Xelor Obsession|FPKrosmoz}",
+			"frequency": "once per day",
+			"entries": [
+				"Your desire for knowledge has led you from one pursuit to another and granted you a smattering of expertise with myriad crafts and professions. You reflect on snippets you've learned to temporarily become trained in one {@skill Lore} skill of your choice. This proficiency lasts for 10 minutes or until you critically fail a check with that skill. Since this training is temporary, you can't use it as a prerequisite for a permanent character option like a feat or a skill increase."
+			]
+		},
+		{
+			"name": "Sinistro Familiar",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You have constructed a companion for yourself. You gain a familiar. The type of creature is up to you, but it’s usually owl-themed even if it lacks flight."
+			]
+		},
+		{
+			"name": "Guided by the Timestream",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Fortune",
+				"Xelor|FPKrosmoz"
+			],
+			"frequency": "once per day",
+			"trigger": "You are about to attempt a skill check or saving throw.",
+			"entries": [
+				"Xelor’s Clock grants you insights that guide your actions. You roll twice and take the better result. If it's night and you can see the stars, you gain a +1 circumstance bonus to the triggering roll."
+			]
+		},
+		{
+			"name": "Xelor Weapon Familiarity",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"leadsTo": [
+				"Xelor Weapon Exactness|FPKrosmoz",
+				"Xelor Weapon Expertise|FPKrosmoz"
+			],
+			"entries": [
+				"A Xelor can use a variety of weapons with remarkable precision. You are trained with the {@item dart}, {@item warhammer}, {@item spear}, {@item staff}, and {@item bladed scarf|LOGM}. In addition, you gain access to bladed scarves you chose and all {@filter uncommon xelor weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=xelor}. For the purpose of determining your proficiency, martial xelor weapons are simple weapons and advanced xelor weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Xelor’s Sandglass Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You have lived the life that Xelor intended, following all of his tenets. You gain the trained proficiency in your choice of {@skill Arcana} and either {@skill Crafting} or {@skill Occultism}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Xelor Lore}."
+			]
+		},
+		{
+			"name": "Xelor Obsession",
+			"leadsTo": [
+				"Universal Obsession|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"When a topic captures your attention, you study it to the very last detail. Pick a {@skill Lore} skill. You gain the trained proficiency rank in that skill. At 2nd level, you gain expert proficiency in the chosen {@skill Lore} as well as the {@skill Lore} granted by your background, if any. At 7th level you gain master proficiency in these {@skill Lore} skills, and at 15th level you gain legendary proficiency in them."
+			]
+		},
+		{
+			"name": "Xelor Astrology",
+			"leadsTo": [
+				"Heir of the Watchers|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"Concentrate",
+				"Xelor|FPKrosmoz"
+			],
+			"frequency": "3 times per day",
+			"requirements": "You must spend 10 minutes just after your daily preparations examining the sky or consulting a star chart or you can't use this action that day.",
+			"entries": [
+				"Through the stars you can consult what Xelor’s Clock has in store for you. You recall the stars' predictions about your current situation. If your next action requires you to attempt one or more skill checks, roll {@dice 1d8}. On a result of 6, 7, or 8, you gain a +2 circumstance bonus to the first such skill check you attempt. On a 3, 4, or 5, you gain a +1 circumstance bonus. On a 2, you gain nothing. On a 1, you take a –1 circumstance penalty to the skill check."
+			]
+		},
+		{
+			"name": "Temporal Shield",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"Abjuration", "Concentrate", "Divine",
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You make a shield from sandglass sand to deflect attacks. You gain a +1 circumstance bonus to AC until the start of your next turn."
+			]
+		},
+		{
+			"name": "Magic Affinity",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"Your connection to the arcane grants you a divine innate spell. Choose one {@filter cantrip|spells||tradition & Spell List=divine|level=0} from the divine spell list. You can cast this spell as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
+			]
+		},
+		{
+			"name": "Consult the Timestream",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"entries": [
+				"You find wisdom in the movements of the stars, connecting you to Xelor’s Clock. Once per day, you can spend 10 minutes to draw upon your readings of a recent night's sky to gain the trained proficiency rank in one skill of your choice; the chosen skill's key attribute must be Charisma, Intelligence, or Wisdom. This proficiency lasts until your next daily preparation. Since this proficiency is temporary, you can't use it as a prerequisite for a skill increase or a permanent character option like a feat."
+			]
+		},
+		{
+			"name": "Lethal Attack",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Death", "Divine", "Shadow",
+				"Sram|FPKrosmoz"
+			],
+			"frequency": "once per day",
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"entries": [
+				"You channel all of Sram’s viciousness into your next dagger attack. You cover a knife’s blade with shadows. The first time this turn that you hit a creature with a {@action Strike} using a weapon in the {@group knife} group you've modified in this way, that creature takes an additional 60 damage (basic Fortitude save using your class DC or spell DC, whichever is higher) as the knife works to end their life. This additional damage is of the same type as the initial attack dealt. If you hit more than one creature at the same time, choose one to suffer the effect of your attack."
+			]
+		},
+		{
+			"name": "Behind the Curtain",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You use Sram’s furtive magic to place a one-way invisibility wall. Once per day, you can cast {@spell Invisibility Curtain|SoM} as a 7th-level divine innate spell."
+			]
+		},
+		{
+			"name": "Disappearing Act",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "legendary in {@skill Stealth}",
+			"frequency": "once per hour",
+			"trigger": "You successfully use {@skill Stealth} to {@action Hide} and become {@condition hidden} from all your current foes, or use {@skill Stealth} to {@action Sneak} and become {@condition undetected} to all your current foes.",
+			"entries": [
+				"With a powerful talent for misdirection, you slip from your adversaries' notice so thoroughly you appear to be somewhere else. You become {@condition invisible} for 1 minute or until you take a hostile action, whichever comes first. Choose a location within 10 feet of you. Until your invisibility ends, you appear to be hidden in that location to anyone trying to find you. If the searcher gets clear evidence that you're not there, they no longer think you're {@condition hidden} there, but they don't discover your actual location."
+			]
+		},
+		{
+			"name": "Sram Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Sram Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from {@feat Sram Weapon Familiarity|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Shadow Sneak",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "{@feat As a Shadow|FPKrosmoz}",
+			"entries": [
+				"You excel at going unnoticed, especially among a crowd. You no longer need to have cover or be {@condition concealed} to {@action Hide} or {@action Sneak}. If you would have lesser cover from creatures, you gain cover and can {@action Take Cover}, and if you would have cover from creatures, you gain greater cover."
+			]
+		},
+		{
+			"name": "Shadow Warp",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Concentrate", "Exploration", "Manipulate", "Shadow",
+				"Teleportation",
+				"Sram|FPKrosmoz"
+			],
+			"frequency": "once per hour",
+			"entries": [
+				"Your connection to shadows grows, allowing you to use them as a means of transportation. You can spend 1 minute in focused preparation, then enter a shadow your size or larger to instantly teleport to any shadow that is your size or larger up to 2 mile away. You cannot teleport to an area of complete darkness or with light from all directions such that there isn’t any shadow. Once you enter the shadow, you instantly know the rough locations of other large shadows within range and can exit from the original shadow, if you prefer. You can't carry extradimensional spaces with you when you teleport; if you attempt to do so, the activity fails."
+			]
+		},
+		{
+			"name": "Lethal Trap",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"prerequisites": "expert in {@skill Crafting}, {@feat Snare Crafting}",
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You've learned how to create traps that cause greater injuries. You deal an additional {@damage 1d6} precision damage with damaging snares you craft. This increases to {@damage 2d6} additional precision damage if you're legendary in {@skill Crafting}."
+			]
+		},
+		{
+			"name": "Greater Lurker",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"prerequisites": "{@feat Lurker|FPKrosmoz}",
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You can move up to your Speed when you use the {@action Sneak} action, and you no longer need to have cover or greater cover or be concealed to {@action Hide} or {@action Sneak}."
+			]
+		},
+		{
+			"name": "Untraceable",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You leave little sign when attempting to remain unseen. When you {@action Avoid Notice}, you also gain the benefits of {@action Cover Tracks} unless you choose not to."
+			]
+		},
+		{
+			"name": "Sram Magic",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You channel Sram’s furtive magic. You can cast {@spell Invisibility} and {@spell Obscuring Mist} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Shadow Double",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Conjuration", "Occult", "Shadow",
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Manipulating Shadow|FPKrosmoz}",
+			"frequency": "once per day",
+			"entries": [
+				"You sculpt an invisible double of yourself from your own shadow. You cast the {@spell Unseen Servant} spell, and both the spell and the servant gain the {@trait Shadow} trait. The servant also has your ability scores (other than Intelligence and Wisdom) and skill proficiencies, and can manipulate shadows to {@action Create a Diversion} using the {@skill Intimidate} skill. You also gain a special reaction.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"name": "Switcheroo",
+					"activity": {
+						"unit": "reaction",
+						"number": 1
+					},
+					"components": [
+						"command"
+					],
+					"trigger": "Your {@creature Unseen Servant|crb} is within 60 feet of you and you stop {@action sustain a spell||sustaining} it",
+					"entries": [
+						"You switch places with your {@creature unseen servant|crb} the instant before it disappears."
+					]
+				}
+			]
+		},
+		{
+			"name": "Perfected Night Sight",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "{@ability Darkvision}",
+			"frequency": "once per hour",
+			"entries": [
+				"You magically enhance your sight to improve your {@ability darkvision}. You gain {@ability greater darkvision} for 1 minute."
+			]
+		},
+		{
+			"name": "Nasty Traps",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "expert in {@skill Deception} or {@skill Intimidation}, {@feat Snare Crafting}",
+			"trigger": "A creature fails or critically fails a save against your snare.",
+			"entries": [
+				"Your snares are so befuddling that your victims rarely notice you slipping out of sight. If you have expert proficiency in {@skill Deception}, you can {@action Create a Diversion} against the triggering creature. If you have expert proficiency in {@skill Intimidation}, you can instead {@action Demoralize} the triggering creature. If you have both, choose one of the two effects."
+			]
+		},
+		{
+			"name": "Between the Ribs",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You know how to make a stab hurt worse. When you {@action Strike} a {@condition flat-footed} creature using a melee weapon or unarmed attack that has the {@trait agile} and {@trait finesse} traits, it gains the {@trait backstabber} trait."
+			]
+		},
+		{
+			"name": "Trap Genius",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "expert in Crafting, {@feat Snare Crafting}",
+			"entries": [
+				"Your expertise makes your snares more powerful, and you can place them quickly and efficiently. Each day during your daily preparations, you can prepare three snares from your formula book for quick deployment; if the snare normally takes 1 minute to {@action Craft}, you can {@action Craft} it with 3 {@action Interact} actions. Snares prepared in this way don't cost you any resources to {@action Craft}. The number of snares you can prepare this way increases to four if you are a master in {@skill Crafting}, and to five if you are legendary.",
+				"When you {@action Craft} and deploy a snare that deals damage, any creature that critically fails its saving throw against the snare's initial effect and takes damage becomes {@condition flat-footed} until the end of its next turn."
+			]
+		},
+		{
+			"name": "Sram Weapon Efficiency",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Sram Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"You can now make the most out of your weapons. Whenever you critically hit using one of the weapons from your {@feat Sram Weapon Familiarity|FPKrosmoz}, you apply the weapon's critical specialization effect."
+			]
+		},
+		{
+			"name": "Manipulating Shadow",
+			"leadsTo": [
+				"Shadow Double|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Evocation", "Occult", "Shadow",
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You can perform simple {@action Interact} actions with your shadow, such as opening an unlocked door. Anything your shadow {@action Interact||Interacts} with must be within your reach. Your shadow can't perform actions that require significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items."
+			]
+		},
+		{
+			"name": "Fear of the Dark",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You can magically instill fear into your enemy’s heart. You can cast {@spell Fear} once per day as a divine innate spell."
+			]
+		},
+		{
+			"name": "Dreadful Assault",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You take advantage of your opponent’s fears. When you succeed at a melee weapon {@action Strike} against a {@condition frightened} foe, that foe can't reduce their {@condition frightened} condition below 1 until the beginning of your next turn. Additionally {@condition frightened} foes are {@condition flat-footed} to you."
+			]
+		},
+		{
+			"name": "As a Shadow",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Shadow Sneak|FPKrosmoz"
+			],
+			"level": 5,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You have learned to remain hidden in other people’s shadows to avoid drawing attention to yourself. You can use creatures that are at least your size (usually Medium or larger) as cover for the {@action Hide} and {@action Sneak} actions, though you still can't use such creatures as cover for other uses, such as the {@action Take Cover} action."
+			]
+		},
+		{
+			"name": "Trap Setter",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"A Sram’s snare is unrivaled, as it’s one of their favored method of assassination. You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon sram snares|items||Category=snare|Rarity=Uncommon|Ancestry & Heritage=sram}. You gain the {@feat Snare Crafting} feat, though when choosing your formulas for that feat, you can also choose from {@filter uncommon sram snares|items||Category=snare|Rarity=Uncommon|Ancestry & Heritage=sram}, as well as common snares."
+			]
+		},
+		{
+			"name": "Sram Weapon Familiarity",
+			"leadsTo": [
+				"Sram Weapon Efficiency|FPKrosmoz",
+				"Sram Weapon Expertise|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"A dagger through the ribs is a Sram’s favored method of assassination, but there are many kinds of dagger. You are trained with the {@item dagger}, {@item main-gauche}, {@item scythe}, and one {@filter uncommon knife|rarity=uncommon|group=knife} of your choice. In addition, you gain access to the {@filter uncommon knife|rarity=uncommon|group=knife} you chose and all {@filter uncommon sram weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=sram}. For the purpose of determining your proficiency, martial sram weapons are simple weapons and advanced sram weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Sram’s Shadow Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You have lived the life that Sram intended, following all of his tenets. You gain the trained proficiency in {@skill Stealth} and {@skill Thievery}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Sram Lore}."
+			]
+		},
+		{
+			"name": "Shadow Blending",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"trigger": "A creature attempts a flat check to target you while you're {@condition concealed} or {@condition hidden} due to dim light or darkness.",
+			"entries": [
+				"You draw shadows close to create a shroud. Increase the DC of the flat check by 2 to saving throws against that effect until the start of your turn, and you gain the {@condition dazzled} condition for 1 round."
+			]
+		},
+		{
+			"name": "Skull Regalia",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You are either a skeleton or wear plenty of skulls and bones, making people uncomfortable. You become trained in {@skill Intimidation} and gain the {@feat Intimidating Glare} skill feat. If you're already trained in {@skill Intimidation}, you instead become trained in a skill of your choice."
+			]
+		},
+		{
+			"name": "Lurker",
+			"leadsTo": [
+				"Greater Lurker|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"Nobody hides as well as a Sram. You can move 5 feet farther when you take the {@action Sneak} action, up to your Speed. In addition, as long as you continue to use {@action Sneak} actions and succeed at your {@skill Stealth} check, you don't become {@condition observed} if you don't have cover or greater cover and aren't {@condition concealed} at the end of the {@action Sneak} action, as long as you have cover or greater cover or are {@condition concealed} at the end of your turn."
+			]
+		},
+		{
+			"name": "Eyes of the Dark",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Sram"
+			},
+			"traits": [
+				"Sram|FPKrosmoz"
+			],
+			"entries": [
+				"You’ve grown so used to the dark that your sight has completely adapted. You gain {@ability darkvision}."
+			]
+		},
+		{
+			"name": "Regenerating Word",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisite": "{@feat Life-giving Word|FPKrosmoz}",
+			"entries": [
+				"You can call forth a holy word of power directly from the mouth of Eniripsa to cast powerful healing magic on your allies. You can cast {@spell regenerate} as a 7th-level primal innate spell once per day."
+			]
+		},
+		{
+			"name": "Rallying Word",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz",
+				"auditory"
+			],
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"frequency": "once per day",
+			"entries": [
+				"Your words of power can give strength to your companions. All allies within 30 feet that can hear you gain a number of temporary Hit Points equal to your level. In addition, these allies become {@condition quickened} for 1 minute but can only use the extra action to {@action Step}, {@action Stride}, or {@action Strike}."
+			]
+		},
+		{
+			"name": "Overwhelming Word",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisite": "{@feat Agonising Word|FPKrosmoz}",
+			"entries": [
+				"You can call forth a holy word of power directly from the mouth of Eniripsa to bring doom to your enemies. Once per day, you can cast {@spell divine decree} as a 7th-level divine innate spell."
+			]
+		},
+		{
+			"name": "Preventing Word",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Auditory", "Concentrate", "Emotion", "Mental",
+				"Eniripsa|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"frequency": "once per day",
+			"trigger": "An ally within 30 feet would be reduced to 0 HP but not immediately killed.",
+			"entries": [
+				"You utter a word of power, calling your companion back from the brink of unconsciousness. Your ally isn't knocked out and remains at 1 Hit Point. Your ally's {@condition wounded} condition still increases by 1 as though they had been {@condition dying} and recovered."
+			]
+		},
+		{
+			"name": "Life-Giving Word",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Healing Words|FPKrosmoz}",
+			"entries": [
+				"Eniripsa herself whispers to you the words you need to save your allies from certain death. You can cast {@spell breath of life} as a divine innate spell once per day."
+			]
+		},
+		{
+			"name": "Eniripsa Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Eniripsa Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from {@feat Eniripsa Weapon Familiarity|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Almighty Wings",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Empowered Wings|FPKrosmoz}",
+			"entries": [
+				"You gain the effects of {@feat Empowered Wings|FPKrosmoz} at all times, rather than just once per day for 10 minutes. This includes the status bonus to your Speed if you have {@feat Soft Hovering|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Agonising Word",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"leadsTo": [
+				"Overwhelming Word|FPKrosmoz"
+			],
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Harmful Words|FPKrosmoz}",
+			"entries": [
+				"You utter words that would make a shushu shiver. You can cast {@spell Cloudkill} as a divine innate spell once per day."
+			]
+		},
+		{
+			"name": "Transcendent Phasing",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Phase Shift|FPKrosmoz}",
+			"entries": [
+				"You have grown more comfortable with your sudden phasing. The flat check DC of your Phase Shift feat decreases to {@flatDC 11}, and you are no longer {@condition dazzled} if you succeed."
+			]
+		},
+		{
+			"name": "Healing Words",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"leadsTo": [
+				"Life-Giving Word|FPKrosmoz"
+			],
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Soothing Word|FPKrosmoz}",
+			"entries": [
+				"Eniripsa’s merciful magic flows through you. You can cast {@spell Heal} and {@spell Restoration} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Harmful Words",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Agonising Word|FPKrosmoz"
+			],
+			"level": 9,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Wounding Word|FPKrosmoz}",
+			"entries": [
+				"The power of your words grows. You can cast {@spell Blistering Invective|APG} and {@spell Sound Burst} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Empowered Wings",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Almighty Wings|FPKrosmoz"
+			],
+			"level": 9,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "master in {@skill Crafting}, {@feat Elixir Knowledge|FPKrosmoz}",
+			"entries": [
+				"You fill your wings with magical strength for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are empowered. If you have {@feat Soft Hovering|FPKrosmoz}, you gain a +10-foot status bonus to your fly Speed with Empowered Wings. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one."
+			]
+		},
+		{
+			"name": "Blessed Elixirs",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "master in {@skill Crafting}, {@feat Elixir Knowledge|FPKrosmoz}",
+			"entries": [
+				"The elixirs you craft are now empowered with divine energy. You gain the {@feat Bless Tonic|LOGM} general feat. Additionally when a creature drinks one of your blessed alchemical items it gains a +1 status bonus to attack rolls for 1 minute."
+			]
+		},
+		{
+			"name": "Baneful Poisons",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "master in {@skill Crafting}, {@feat Elixir Knowledge|FPKrosmoz}",
+			"entries": [
+				"The poisons you craft are now empowered with divine energy. You gain the {@feat Bless Toxin|LOGM} general feat. Additionally when a creature is afflicted with one of your blessed alchemical poisons it takes a –1 status penalty to attack rolls for 1 minute."
+			]
+		},
+		{
+			"name": "Wounding Word",
+			"leadsTo": [
+				"Harmful Words|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"Your words can bring harm to your enemies. You can cast {@spell Biting Words|SoM} once per day as a 1st-level divine innate spell."
+			]
+		},
+		{
+			"name": "Wondrous Vials",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "expert in {@skill Crafting}, {@feat Elixir Knowledge|FPKrosmoz}",
+			"entries": [
+				"You become an unparalleled expert crafting poisons and elixirs. You gain the {@feat Specialty Crafting} feat with a specialty in Alchemy. Additionally, learn the formulas for two {@filter common or eniripsa uncommon alchemical items of 5th or lower level, which must be elixirs or poisons|items||rarity=common;uncommon|item=alchemical|level=[0;5]|category=poison;elixir}."
+			]
+		},
+		{
+			"name": "Soothing Word",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Healing Words|FPKrosmoz"
+			],
+			"level": 5,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"You use divine magic to harm your allies. You can cast {@spell Soothe} once per day as a 1st-level divine innate spell."
+			]
+		},
+		{
+			"name": "Soft Hovering",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"frequency": "once per round",
+			"entries": [
+				"You’ve trained your wings to support your weight, you can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
+			]
+		},
+		{
+			"name": "Eniripsa Weapon Meticulousness",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Eniripsa Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"You can now make the most out of your weapons. Whenever you critically hit using one of the weapons from your {@feat Eniripsa Weapon Familiarity|FPKrosmoz}, you apply the weapon's critical specialization effect."
+			]
+		},
+		{
+			"name": "Enhanced Immune System",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"You have tested plenty of poisons and elixirs with your own body, giving you an enhanced immune system. You have a +1 circumstance bonus to saves against poison and harmful effects from elixirs. If you roll a success on your saving throw against an elixir or poison, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Phase Shift",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Transcendent Phasing|FPKrosmoz"
+			],
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"trigger": "You would take damage from an attack, spell, or other effect.",
+			"entries": [
+				"When in danger you can suddenly phase out and become intangible for a second, but doing so greatly disorients you. Roll a DC {@flatDC 16} flat check. On a success, you gain resistance to all damage equal to your level against the triggering effect, you gain a +2 circumstance bonus to saving throws against that effect until the start of your turn, and you gain the {@condition dazzled} condition for 1 round."
+			]
+		},
+		{
+			"name": "Medical Steadiness",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"You are deeply familiar with the death of others and other gruesome experiences. You gain a +1 circumstance bonus to saving throws against {@trait emotion} effects. If you roll a success on a saving throw against an {@trait emotion} effect, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Helpful Nature",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"“Help me help you” is a famous Eniripsa idiom, if a friend needs help there’s no-one better than you. You gain a +4 circumstance bonus on checks to {@action Aid}."
+			]
+		},
+		{
+			"name": "Eniripsa Weapon Familiarity",
+			"leadsTo": [
+				"Eniripsa Weapon Meticulousness|FPKrosmoz",
+				"Eniripsa Weapon Expertise|FPKrosmoz"
+			],
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"Many Eniripsas have learnt to defend themselves, breaking bones to heal them afterwards. You are trained with the {@item dagger}, {@item staff}, {@item main-gauche}, {@item rapier} and {@item khakkara|apg}. In addition, you gain access to {@item khakkara|apg|khakkaras} and all {@filter uncommon eniripsa weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=eniripsa}. For the purpose of determining your proficiency, martial eniripsa weapons are simple weapons and advanced eniripsa weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Eniripsa’s Hands Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"You have lived the life that Eniripsa intended, following all of her tenets. You gain the trained proficiency in your choice of {@skill Medicine} and either {@skill Acrobatics} or {@skill Crafting}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Eniripsa Lore}."
+			]
+		},
+		{
+			"name": "Elixir Knowledge",
+			"source": "FPKrosmoz",
+			"leadsTo": [
+				"Wondrous Vials|FPKrosmoz",
+				"Baneful Poisons|FPKrosmoz",
+				"Blessed Elixirs|FPKrosmoz"
+			],
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"You have always shown a great interest in alchemy. You gain the trained proficiency rank in {@skill Crafting}. If you would automatically become trained in {@skill Crafting} (from your background or class, for example), you instead become trained in a skill of your choice. You gain the {@feat Alchemical Crafting} skill feat. You can add {@filter uncommon 1st-level eniripsa elixir|items||rarity=uncommon|level=[1;1]|ancestry & heritage=eniripsa|category=elixir} formulas to your formula book in addition to the options given by the feat."
+			]
+		},
+		{
+			"name": "Coney Familiar",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Eniripsa"
+			},
+			"traits": [
+				"Eniripsa|FPKrosmoz"
+			],
+			"entries": [
+				"You have a pet Coney that has become magically bonded to you.",
+				"You gain a familiar using the rules on page 217 of the Core Rulebook, and this familiar must be a rabbit. It still gets the benefits of familiar abilities, but its base form remains a rabbit."
+			]
+		},
 		{
 			"name": "Divine Multiarms",
 			"source": "FPKrosmoz",
@@ -2037,7 +3351,7 @@
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
-			"prerequisites": "{@feat Unconventional Weaponry|FPKrosmoz}, trained in the weapon you chose for Unconventional Weaponry",
+			"prerequisites": "{@feat Unconventional Weaponry|FPKrosmoz}, trained in the weapon you chose for {@feat Unconventional Weaponry|FPKrosmoz}",
 			"entries": [
 				"You've continued to advance your powers using your unconventional weapon. Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency in the weapon you chose for {@feat Unconventional Weaponry|FPKrosmoz}."
 			]
