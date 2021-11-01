@@ -263,110 +263,8 @@
       "type": "array"
     },
     "feat": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": "string"
-          },
-          "source": {
-            "type": "string"
-          },
-          "page": {
-            "type": "number"
-          },
-          "prerequisites": {
-            "type": "string"
-          },
-          "frequency": {
-            "type": "string"
-          },
-          "trigger": {
-            "type": "string"
-          },
-          "cost": {
-            "type": "string"
-          },
-          "requirements": {
-            "type": "string"
-          },
-          "level": {
-            "type": "number"
-          },
-          "featType": {
-            "type": "object",
-            "properties": {
-              "class": {
-                "type": ["string"]
-              },
-              "general": {
-                "type": "boolean",
-                "enum": [ true ]
-              },
-              "ancestry": {
-                "type": ["string"]
-              },
-              "skill": {
-                "not": { "enum": [ false ] },
-                "type": ["string", "boolean", "array"]
-              },
-              "archetype": {
-                "type": ["string"]
-              }
-            }
-          },
-          "activity": {
-            "type": "object",
-            "properties": {
-              "number": {
-                "type": "number"
-              },
-              "entry": {
-                "type": "string"
-              },
-              "unit": {
-                "type": "string",
-                "enum": ["action", "reaction", "free", "varies"]
-              },
-              "additionalProperties": false
-            }
-          },
-          "access": {
-            "type": "string"
-          },
-          "traits": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "minItems": 1,
-            "uniqueItems": true
-          },
-          "leadsTo": {
-            "type": "array",
-              "items": [
-                {
-                  "type": "string"
-                }
-              ]
-          },
-          "entries": {
-            "type": "array",
-              "items": [
-                {
-                  "type": "string"
-                }
-              ]
-          }
-        },
-        "required": [
-          "name",
-          "source",
-          "entries"
-        ]
-      }
-  },
+      "$ref": "feats.json#properties/feat"
+    },
     "companion": {
       "type": "array"
     },
@@ -406,7 +304,8 @@
               "type": "object"
             },
             "activity": {
-              "type": "object"
+              "type": "object",
+              "$ref": "#/definitions/activity"
             },
             "entries": {
               "type": "array",
@@ -509,6 +408,35 @@
     },
     "domain": {
       "type": "array"
+    }
+  },
+  "definitions": {
+    "activity": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number"
+        },
+        "entry": {
+          "type": "string",
+          "not": {
+            "enum": [
+              "{@as 1}",
+              "{@as 2}",
+              "{@as 3}",
+              "{@as R}",
+              "{@as F}",
+              "{@as r}",
+              "{@as f}"
+            ]
+          }
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["action", "reaction", "free", "varies"]
+        }
+      }
     }
   }
 }

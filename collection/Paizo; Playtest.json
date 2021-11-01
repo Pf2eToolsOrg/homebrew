@@ -1553,8 +1553,7 @@
 			"name": "Esoteric Antithesis",
 			"activity": {
 				"number": 1,
-				"unit": "action",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"traits": [
 				"Thaumaturge|PT:DA",
@@ -1576,8 +1575,7 @@
 			"name": "Find Flaws",
 			"activity": {
 				"number": 1,
-				"unit": "action",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"traits": [
 				"Thaumaturge|PT:DA"
@@ -1606,8 +1604,7 @@
 			"name": "Unleashed Focus Intent",
 			"activity": {
 				"number": 1,
-				"unit": "action",
-				"entry": "{@as 1}"
+				"unit": "action"
 			},
 			"traits": [
 				"Psyche|PT:DA",
@@ -1699,8 +1696,7 @@
 		{
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"traits": [
 				"Concentrate",
@@ -1814,8 +1810,7 @@
 		{
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as r}"
+				"unit": "reaction"
 			},
 			"traits": [
 				"Gunslinger|PT:SoM"
@@ -1863,8 +1858,7 @@
 		{
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as f}"
+				"unit": "free"
 			},
 			"traits": [
 				"Gunslinger|PT:SoM"
@@ -1888,8 +1882,7 @@
 		{
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as f}"
+				"unit": "free"
 			},
 			"traits": [
 				"Gunslinger|PT:SoM"
@@ -1912,8 +1905,7 @@
 		{
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as f}"
+				"unit": "free"
 			},
 			"traits": [
 				"Gunslinger|PT:SoM"
@@ -2469,8 +2461,7 @@
 					"name": "Unleashed Focus Intent",
 					"activity": {
 						"number": 1,
-						"unit": "action",
-						"entry": "{@as 1}"
+						"unit": "action"
 					},
 					"traits": [
 						"Psyche|PT:DA",
@@ -2733,8 +2724,7 @@
 					"name": "Find Flaws",
 					"activity": {
 						"number": 1,
-						"unit": "action",
-						"entry": "{@as 1}"
+						"unit": "action"
 					},
 					"traits": [
 						"Thaumaturge|PT:DA"
@@ -2765,8 +2755,7 @@
 					"name": "Esoteric Antithesis",
 					"activity": {
 						"number": 1,
-						"unit": "action",
-						"entry": "{@as 1}"
+						"unit": "action"
 					},
 					"traits": [
 						"Thaumaturge|PT:DA",
@@ -3460,8 +3449,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "free",
-						"entry": "{@as F}"
+						"unit": "free"
 					},
 					"traits": [
 						"Concentrate",
@@ -3731,8 +3719,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "action",
-						"entry": "{@as 1}"
+						"unit": "action"
 					},
 					"traits": [
 						"Summoner|PT:SoM",
@@ -3750,8 +3737,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "action",
-						"entry": "{@as 1}"
+						"unit": "action"
 					},
 					"traits": [
 						"Concentrate",
@@ -4538,8 +4524,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "action",
-						"entry": "{@as 1}"
+						"unit": "action"
 					},
 					"traits": [
 						"Inventor",
@@ -5248,7 +5233,7 @@
 									"style": "full",
 									"name": "Implement's Interruption",
 									"activity": {
-										"entry": "{@as R}",
+
 										"number": 1,
 										"unit": "reaction"
 									},
@@ -5341,7 +5326,7 @@
 									"style": "full",
 									"name": "Fling Magic",
 									"activity": {
-										"entry": "{@as 2}",
+
 										"number": 2,
 										"unit": "action"
 									},
@@ -5492,7 +5477,7 @@
 									"style": "full",
 									"name": "Drink from the Chalice",
 									"activity": {
-										"entry": "{@as 1}",
+
 										"number": 1,
 										"unit": "action"
 									},
@@ -5584,7 +5569,6 @@
 									"style": "full",
 									"name": "Amulet's Abeyance",
 									"activity": {
-										"entry": "{@as R}",
 										"number": 1,
 										"unit": "reaction"
 									},
@@ -5982,8 +5966,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "free",
-						"entry": "{@as f}"
+						"unit": "free"
 					},
 					"traits": [
 						"Gunslinger"
@@ -6111,8 +6094,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "free",
-						"entry": "{@as f}"
+						"unit": "free"
 					},
 					"traits": [
 						"Gunslinger"
@@ -6140,8 +6122,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "reaction",
-						"entry": "{@as r}"
+						"unit": "reaction"
 					},
 					"traits": [
 						"Gunslinger"
@@ -6240,8 +6221,7 @@
 				{
 					"activity": {
 						"number": 1,
-						"unit": "free",
-						"entry": "{@as f}"
+						"unit": "free"
 					},
 					"traits": [
 						"Gunslinger"
@@ -8626,8 +8606,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 8
 		},
@@ -8755,8 +8734,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 8
 		},
@@ -8830,8 +8808,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 9
 		},
@@ -8854,8 +8831,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 9
 		},
@@ -8880,8 +8856,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 9
 		},
@@ -8905,8 +8880,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 9
 		},
@@ -8927,8 +8901,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 9
 		},
@@ -9015,8 +8988,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 10
 		},
@@ -9055,8 +9027,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 10
 		},
@@ -9096,8 +9067,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 10,
 			"add_hash": "Magus"
@@ -9262,8 +9232,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 22
 		},
@@ -9417,8 +9386,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 22
 		},
@@ -9534,8 +9502,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 23
 		},
@@ -9600,8 +9567,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 23
 		},
@@ -9688,8 +9654,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 23,
 			"add_hash": "Summoner"
@@ -9845,8 +9810,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 7
 		},
@@ -10038,8 +10002,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 8
 		},
@@ -10202,8 +10165,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 9
 		},
@@ -10338,8 +10300,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 10
 		},
@@ -10361,8 +10322,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 10
 		},
@@ -10603,8 +10563,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 11
 		},
@@ -10809,8 +10768,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 22
 		},
@@ -10986,8 +10944,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 23
 		},
@@ -11264,8 +11221,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"page": 25
 		},
@@ -11303,8 +11259,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 25
 		},
@@ -11382,8 +11337,7 @@
 			],
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"page": 26
 		},
@@ -12984,7 +12938,7 @@
 								"Your eidolon instinctively flashes with ectoplasmic energy, allowing them to make a melee attack against a foe who dares to harm you. Your eidolon makes a {@action Strike} with a melee unarmed attack against the triggering foe, even if that foe isn't within your eidolon's reach."
 							],
 							"activity": {
-								"entry": "{@as R}",
+
 								"number": 1,
 								"unit": "reaction"
 							},
@@ -13101,7 +13055,7 @@
 								"At 3rd level and every 2 levels thereafter, the damage increases by {@damage 1d6}."
 							],
 							"activity": {
-								"entry": "{@as 2}",
+
 								"number": 2,
 								"unit": "action"
 							}
@@ -13125,7 +13079,7 @@
 								"Your eidolon makes one {@action Strike} with their primary unarmed attack and two {@action Strike||Strikes} with their secondary unarmed attacks (in any order). If any of these attacks is a critical hit against a foe, the eidolon instantly recovers the use of their Breath Weapon."
 							],
 							"activity": {
-								"entry": "{@as 2}",
+
 								"number": 2,
 								"unit": "action"
 							}
