@@ -852,6 +852,21 @@
 	],
 	"feat": [
 		{
+			"name": "Time Distortion",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"featType": {
+				"ancestry": "Xelor"
+			},
+			"traits": [
+				"Xelor|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Time Rift|FPKrosmoz}",
+			"entries": [
+				"Your time magic expertise allows you to teleport in a series of quick jumps rather than in one big leap. You can expend your hourly use of {@spell dimension door} as a free action when you begin your turn. If you do, your {@action Stride||Strides} are augmented until the end of your turn, allowing you to instantly teleport to any point you could reach with your Speed instead of traversing normally to the location. While augmented, your Strides gain the {@trait conjuration} and {@trait teleportation} traits. Your augmented {@action Stride||Strides} don't trigger reactions that can be triggered by {@trait move} actions or upon leaving or entering a square, unless those reactions trigger on teleportation."
+			]
+		},
+		{
 			"name": "Rhol Bak",
 			"source": "FPKrosmoz",
 			"level": 17,
@@ -1249,7 +1264,7 @@
 				"Xelor|FPKrosmoz"
 			],
 			"entries": [
-				"Your connection to the arcane grants you a divine innate spell. Choose one {@filter cantrip|spells||tradition & Spell List=divine|level=0} from the divine spell list. You can cast this spell as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
+				"Your connection to the Xelor’s Clock grants you a divine innate spell. Choose one {@filter cantrip|spells||tradition & Spell List=divine|level=0} from the divine spell list. You can cast this spell as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
 			]
 		},
 		{
@@ -1738,7 +1753,7 @@
 			],
 			"prerequisite": "{@feat Life-giving Word|FPKrosmoz}",
 			"entries": [
-				"You can call forth a holy word of power directly from the mouth of Eniripsa to cast powerful healing magic on your allies. You can cast {@spell regenerate} as a 7th-level primal innate spell once per day."
+				"You can call forth a holy word of power directly from the mouth of Eniripsa to cast powerful healing magic on your allies. You can cast {@spell regenerate} as a 7th-level divine innate spell once per day."
 			]
 		},
 		{
