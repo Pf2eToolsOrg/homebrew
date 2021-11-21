@@ -8653,8 +8653,8 @@
 				"class": "Magus"
 			},
 			"entries": [
-				"You can attach a scroll to your weapon to blend its spell into an attack, carefully folding it around a part of the weapon or pasting it to the weapon's surface. Attaching a scroll requires using the Affix a Talisman action (a 10-minute exploration activity with the manipulate trait found on page 565 of the Core Rulebook). You can have only one scroll affixed to a weapon at a time, and you can't have both a talisman and scroll attached.",
-				"You can {@action Cast a Spell||Cast the Spell} from the scroll after using {@action Striking Spell|PT:SoM} to store the scroll's spell in the attached weapon. You can't {@action Cast a Spell||Cast the Spell} in any other way while it's affixed, though you can use Affix a Talisman again to remove the scroll and use it as a normal\u2014if a bit crumpled\u2014scroll."
+				"You can attach a scroll to your weapon to blend its spell into an attack, carefully folding it around a part of the weapon or pasting it to the weapon's surface. Attaching a scroll requires using the {@action Affix a Talisman||Affixing the Talisman} action (a 10-minute exploration activity with the manipulate trait found on page 565 of the Core Rulebook). You can have only one scroll affixed to a weapon at a time, and you can't have both a talisman and scroll attached.",
+				"You can {@action Cast a Spell||Cast the Spell} from the scroll after using {@action Striking Spell|PT:SoM} to store the scroll's spell in the attached weapon. You can't {@action Cast a Spell||Cast the Spell} in any other way while it's affixed, though you can use {@action Affix a Talisman||Affixing the Talisman} again to remove the scroll and use it as a normal\u2014if a bit crumpled\u2014scroll."
 			],
 			"page": 8
 		},

@@ -38,6 +38,8 @@
 			]
 		}
 	],
+	"archetype": [
+	],
 	"trait": [
 		{
 			"name": "Xelor",
@@ -2677,7 +2679,7 @@
 			"entries": [
 				"Your expertise with beacons makes you able to prepare these mechanisms on a daily basis. During your daily preparations, you can create up to 3 versatile chassis that can be quickly turned into beacons. You gain the Quick Beacon action to turn one of those chassis into a beacon for which you know the formula. The number of beacons you can prepare this way increases to four if you are a master in {@skill Crafting}, and to five if you are legendary.",
 				{
-					"type": "action",
+					"type": "ability",
 					"style": "full",
 					"name": "Quick Beacon",
 					"activity": {
@@ -3425,6 +3427,1701 @@
 			"entries": [
 				"Despite a lifetime filled with questionable decisions, you've managed to survive, as though you have uncanny luck that lets you avoid the consequences of your own actions. For the remainder of your turn, if you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead. Further, enemies and hazards that would damage you this turn roll the minimum possible damage.",
 				"These benefits apply only to harmful effects incurred entirely during your turn in which you activate Reckless Abandon, such as running through a {@spell prismatic wall}. Persistent damage and conditions that were applied prior to your turn proceed normally, and as soon as your turn ends you are subject to the full consequences of any dangers still threatening you."
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Cra’s Hand Crossbow",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Cra|FPKrosmoz"
+			],
+			"price": {
+				"amount": 3,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "P",
+			"hands": 1,
+			"reload": 0,
+			"range": 60,
+			"ranged": true,
+			"bulk": "L",
+			"ammunition": "Bolt",
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Bow",
+			"entries": [
+				"Bows are such an important part of a Cras life that many of them wish to keep one at hand at all times. Its mechanism is comfortable even for the purpose of loading, which is as simple as placing the bolt into the crossbow’s compartment. It deals {@damage 1d6} piercing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "The Blade",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Iop|FPKrosmoz", "Backswing", "Tethered", "Thrown 20 ft.", "Ranged Trip"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 2,
+			"bulk": 1,
+			"category": "Weapon",
+			"subCategory": "Advanced",
+			"group": "Flail",
+			"entries": [
+				"Originally created by the legendary Goultard, many Iops have attempted to recreate the chain and sword combination that the hero named “The Blade”, and some of them have succeeded. It deals {@damage 1d6} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Razielle Sword",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Iop|FPKrosmoz", "Compulsion|FPKrosmoz", "Two-Hand D10"
+			],
+			"price": {
+				"amount": 3,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 1,
+			"bulk": 1,
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Sword",
+			"entries": [
+				"It is said that ancient Iops forged these swords with tears of the angel Raziel. Even with today’s crafting methods, this sword can very effectively channel your deity’s power. It deals {@damage 1d6} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "The Knight's Cross",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Iop|FPKrosmoz", "Sweep", "Versatile B"
+			],
+			"price": {
+				"amount": 3,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d12",
+			"damageType": "S",
+			"hands": 2,
+			"bulk": 2,
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Sword",
+			"entries": [
+				"In ancient times Iops would constantly fight over who wielded the largest sword. This competition has persisted and become part of various Iop cultures, leading to some warriors leading into battle with oversized blades on their back. It deals {@damage 1d12} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Scissor Sword",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Sacrier|FPKrosmoz", "Two-hand D10", "Deadly D12"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 1,
+			"bulk": 1,
+			"category": "Weapon",
+			"subCategory": "Advanced",
+			"group": "Sword",
+			"entries": [
+				"This sword was forged with the purpose of cleanly severing an opponent’s limbs. For this purpose the blade can sometimes split into two scissor-like blades. It deals {@damage 1d6} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Andy War Sword",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Sacrier|FPKrosmoz", "Ragged|FPKrosmoz", "Twin"
+			],
+			"price": {
+				"amount": 2,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 1,
+			"bulk": "L",
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Sword",
+			"entries": [
+				"Crafted with the millenia old technique of smashing a rock against the blade’s edge, a perfect blade for assaulting your enemies. It deals {@damage 1d6} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Battle Scalpel",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Eniripsa|FPKrosmoz", "Agile", "Finesse", "Meticulous D4|FPKrosmoz", "Thrown 20 ft."
+			],
+			"price": {
+				"amount": 3,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d4",
+			"damageType": "S",
+			"hands": 1,
+			"bulk": "L",
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Knife",
+			"entries": [
+				"The scalpel is an instrument many doctors have at hand, and some Eniripsas have learnt to use it to dissect enemies in battle. It deals {@damage 1d4} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Apostrukel Scalper",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Eniripsa|FPKrosmoz", "Backstabber", "Deadly D8", "Reach"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d8",
+			"damageType": "S",
+			"hands": 2,
+			"bulk": 2,
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Polearm",
+			"entries": [
+				"The original craftsman behind this weapon had a very gruesome idea of how to dissect their enemies in battle. It deals {@damage 1d8} slashing damage."
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Hidden Blade",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Sram|FPKrosmoz", "Backstabber", "Finesse", "Free-Hand"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d4",
+			"damageType": "S",
+			"hands": 1,
+			"bulk": "L",
+			"category": "Weapon",
+			"subCategory": "Advanced",
+			"group": "Knife",
+			"entries": [
+				"This blade is attached to a glove, coming out from the wrist area, and can be concealed thanks to a mechanism. It deals {@damage 1d4} slashing damage.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"activity": {
+						"unit": "action",
+						"number": 2
+					},
+					"components": [
+						"Interact"
+					],
+					"entries": [
+						"You hide the blade inside a secret compartment. The blade gains the “{@trait Concealable}” trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
+					]
+				}
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Clock Hand Sword",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Xelor|FPKrosmoz", "Backswing", "Finesse", "Two-hand 1d10"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 1,
+			"bulk": "L",
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Sword",
+			"entries": [
+				"This sword is fashioned like a clock’s hand, with a spade-like point, built to make the most out of the momentum. It deals {@damage 1d6} slashing damage.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"activity": {
+						"unit": "action",
+						"number": 2
+					},
+					"components": [
+						"Interact"
+					],
+					"entries": [
+						"You hide the blade inside a secret compartment. The blade gains the “{@trait Concealable}” trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
+					]
+				}
+			],
+			"craftReq": null,
+			"generic": false
+		},
+		{
+			"name": "Spiked Hammer",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Xelor|FPKrosmoz", "Backswing", "Shove", "Versatile P"
+			],
+			"level": 1,
+			"price": {
+				"amount": 5,
+				"coin": "gp",
+				"note": null
+			},
+			"onset": null,
+			"damage": "1d6",
+			"damageType": "S",
+			"hands": 2,
+			"bulk": 2,
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Hammer",
+			"entries": [
+				"This hammer has enormous spikes on one or two sides of it. It deals {@damage 1d8} bludgeoning damage."
+			],
+			"craftReq": null,
+			"generic": false
+		}
+	],
+	"item": [
+		{
+			"name": "Springing Boots",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 3,
+			"traits": [
+				"Invested",
+				"Magical",
+				"Transmutation"
+			],
+			"usage": "worn shoes",
+			"bulk": "L",
+			"price": {
+				"amount": 50,
+				"coin": "gp",
+				"note": null
+			},
+			"category": "Worn",
+			"entries": [
+				"Iops always rush to the fray, and these boots will let them do so faster than anyone, jumping into the middle of enemy territory.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"name": "Activate",
+					"activity": {
+						"unit": "action",
+						"number": 1
+					},
+					"components": [
+						"command"
+					],
+					"frequency": "once per day",
+					"entries": [
+						"The boots cast {@spell Jump} on you as a 1st level spell."
+					]
+				}
+			],
+			"generic": false
+		},
+		{
+			"name": "Sword of Wrath",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "10+",
+			"traits": [
+				"Invested",
+				"Iop|FPKrosmoz",
+				"Magical",
+				"Evocation"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"category": "Held",
+			"entries": [
+				"This blessed {@runeItem razielle sword|FPKrosmoz|+1 weapon potency||striking|} can call upon your deity’s wrathful might to vanquish the enemies around you.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"name": "Activate",
+					"activity": {
+						"unit": "action",
+						"number": 3
+					},
+					"components": [
+						"command",
+						"interact"
+					],
+					"frequency": "once per day",
+					"entries": [
+						"You cast a divine 4th-level {@spell Divine Wrath} spell, centered on you. The spell DC is 27. You are immune to the spell’s effect, though your allies are not."
+					]
+				}
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "Base",
+					"name": "Sword of Wrath",
+					"level": 10,
+					"price": {
+						"coin": "gp",
+						"amount": 700,
+						"note": null
+					},
+					"entries": []
+				},
+				{
+					"type": "Greater",
+					"level": 14,
+					"price": {
+						"coin": "gp",
+						"amount": 4500,
+						"note": null
+					},
+					"entries": [
+						"This is a {@runeItem razielle sword|FPKrosmoz|+2 weapon potency||greater striking|}. When activating the sword to cast {@spell Divine Wrath}, the spell is 6th level (DC 33)."
+					],
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceTxt",
+								"replace": "razielle sword\\|FPKrosmoz\\|\\+1 weapon potency\\|\\|striking",
+								"replaceTags": true,
+								"with": "razielle sword|FPKrosmoz|+2 weapon potency||greater striking"
+							},
+							{
+								"mode": "replaceTxt",
+								"replace": "4th",
+								"with": "6th"
+							},
+							{
+								"mode": "replaceTxt",
+								"replace": "27",
+								"with": "33"
+							}
+						],
+						"entriesMode": "generic"
+					}
+				},
+				{
+					"type": "Major",
+					"level": 18,
+					"price": {
+						"coin": "gp",
+						"amount": 24000,
+						"note": null
+					},
+					"entries": [
+						"This is a {@runeItem razielle sword|FPKrosmoz|+3 weapon potency||major striking|}. When activating the sword to cast {@spell Divine Wrath}, the spell is 8th level (DC 38)."
+					],
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceTxt",
+								"replace": "razielle sword\\|FPKrosmoz\\|\\+1 weapon potency\\|\\|striking",
+								"replaceTags": true,
+								"with": "razielle sword|FPKrosmoz|+3 weapon potency||major striking"
+							},
+							{
+								"mode": "replaceTxt",
+								"replace": "4th",
+								"with": "8th"
+							},
+							{
+								"mode": "replaceTxt",
+								"replace": "27",
+								"with": "38"
+							}
+						],
+						"entriesMode": "generic"
+					}
+				}
+			]
+		},
+		{
+			"name": "Air Beacon",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "1+",
+			"traits": [
+				"Uncommon", "Alchemical", "Air", "Beacon|FPKrosmoz", "Bomb", "Cra|FPKrosmoz", "Consumable"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": "Strike"
+			},
+			"category": "Bomb",
+			"entries": [
+				"When this beacon is hit, it explodes with a great gust of wind. Each Large or smaller creature within the bombs listed range around the beacon must succeed at a Fortitude saving throw with the listed DC or be pushed away from the beacon. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": "The creature is unaffected.",
+						"Success": "The creature is pushed the first listed amount of feet away from the beacon.",
+						"Failure": "The creature is pushed the second listed amount of feet away from the beacon.",
+						"Critical Failure": "As failure, but the creature is also knocked {@condition prone}."
+					}
+				}
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 1,
+					"price": {
+						"coin": "gp",
+						"amount": 3
+					},
+					"entries": [
+						"Creatures within 5 ft. are pushed 5 ft. / 10 ft. away from the beacon, and the DC is 17."
+					]
+				},
+				{
+					"type": "moderate",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 10
+					},
+					"entries": [
+						"Creatures within 10 ft. are pushed 10 ft. / 25 ft. away from the beacon, and the DC is 20."
+					]
+				},
+				{
+					"type": "greater",
+					"level": 11,
+					"price": {
+						"coin": "gp",
+						"amount": 250
+					},
+					"entries": [
+						"Creatures within 25 ft. are pushed 15 ft. / 40 ft. away from the beacon, and the DC is 28. Additionally, creatures cannot move against the wind until the start of the activators turn."
+					]
+				},
+				{
+					"type": "major",
+					"level": 17,
+					"price": {
+						"coin": "gp",
+						"amount": 2500
+					},
+					"entries": [
+						"Creatures within 40 ft. are pushed 25 ft. / 60 ft. away from the beacon, and the DC is 36. Additionally, creatures cannot move against the wind until the start of the activators turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Earth Beacon",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "1+",
+			"traits": [
+				"Uncommon", "Alchemical", "Earth", "Beacon|FPKrosmoz", "Bomb", "Cra|FPKrosmoz", "Consumable"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": "Strike"
+			},
+			"category": "Bomb",
+			"entries": [
+				"When this beacon is hit, it violently shakes and warps the ground around it. The ground in the listed range becomes Difficult Terrain for a listed amount of time."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 1,
+					"price": {
+						"coin": "gp",
+						"amount": 3
+					},
+					"entries": [
+						"The ground within 15 ft. of the beacon becomes Difficult Terrain for 1 minute."
+					]
+				},
+				{
+					"type": "moderate",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 10
+					},
+					"entries": [
+						"The ground within 20 ft. of the beacon becomes Difficult Terrain for 10 minutes. Creatures in this area must succeed at a DC 20 Reflex Saving Throw or fall {@condition prone}."
+					]
+				},
+				{
+					"type": "greater",
+					"level": 11,
+					"price": {
+						"coin": "gp",
+						"amount": 250
+					},
+					"entries": [
+						"The ground within 25 ft. of the beacon becomes Difficult Terrain and Hazardous Terrain for 20 minutes. Creatures in this area must succeed at a DC 28 Reflex Saving Throw or fall {@condition prone}.",
+						"A creature that moves through the area takes 3 piercing damage for every square of that area it moves into."
+					]
+				},
+				{
+					"type": "major",
+					"level": 17,
+					"price": {
+						"coin": "gp",
+						"amount": 2500
+					},
+					"entries": [
+						"The ground within 30 ft. of the beacon becomes Difficult Terrain and Hazardous Terrain for an hour. Creatures in this area must critically succeed at a DC 36 Reflex Saving Throw or fall {@condition prone}.",
+						"A creature that moves through the area takes 6 piercing damage for every square of that area it moves into."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fire Beacon",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "1+",
+			"traits": [
+				"Uncommon", "Alchemical", "Fire", "Beacon|FPKrosmoz", "Bomb", "Cra|FPKrosmoz", "Consumable"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": "Strike"
+			},
+			"category": "Bomb",
+			"entries": [
+				"When this beacon is hit, it explodes into bright flames. A fire beacon deals the listed fire damage, and each creature within the bombs listed range around the beacon must succeed at a Reflex saving throw with the listed DC.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": "The creature is unaffected.",
+						"Success": "The creature takes half damage and is {@condition dazzled} for 1 round.",
+						"Failure": "The creature takes full damage and is {@condition dazzled} for 3 rounds.",
+						"Critical Failure": "The creature takes double damage and is {@condition dazzled} for 1 minute."
+					}
+				}
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 1,
+					"price": {
+						"coin": "gp",
+						"amount": 3
+					},
+					"entries": [
+						"The bomb deals {@damage 1d8} fire damage to creatures within 10 ft., and the DC is 17."
+					]
+				},
+				{
+					"type": "moderate",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 10
+					},
+					"entries": [
+						"The bomb deals {@damage 2d8} fire damage to creatures within 15 ft., and the DC is 20. On critical failure a creature receives an extra {@damage 2d4} persistent fire damage."
+					]
+				},
+				{
+					"type": "greater",
+					"level": 11,
+					"price": {
+						"coin": "gp",
+						"amount": 250
+					},
+					"entries": [
+						"The bomb deals {@damage 4d8} fire damage to creatures within 20 ft., and the DC is 28. On critical failure a creature receives an extra {@damage 3d4} persistent fire damage and is {@condition blinded} for 1 round."
+					]
+				},
+				{
+					"type": "major",
+					"level": 17,
+					"price": {
+						"coin": "gp",
+						"amount": 2500
+					},
+					"entries": [
+						"The bomb deals {@damage 6d8} fire damage to creatures within 30 ft., and the DC is 36. On critical failure a creature receives an extra {@damage 4d4} persistent fire damage and is {@condition blinded} for 3 rounds."
+					]
+				}
+			]
+		},
+		{
+			"name": "Appearing",
+			"source": "FPKrosmoz",
+			"type": "Rune",
+			"level": 3,
+			"traits": [
+				"Conjuration", "Magic"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 55,
+				"note": null
+			},
+			"usage": "etched onto a ranged weapon",
+			"category": "Rune",
+			"appliesTo": "Weapon",
+			"entries": [
+				"When you load a ranged weapon, the required ammunition automatically appears in your hand or weapon. This ammunition can only be used to {@action Strike} with the weapon, after which it disappears."
+			],
+			"generic": false
+		},
+		{
+			"name": "Homing Ammunition",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "7+",
+			"traits": [
+				"Consumable",
+				"Divination",
+				"Magical"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 55
+			},
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": "command"
+			},
+			"ammunition": [
+				"arrow",
+				"bolt"
+			],
+			"category": "Ammunition",
+			"entries": [
+				"When you activate and shoot homing ammunition, the ammunition travels to your target, even around corners. You ignore the target's {@condition concealed} condition and all cover."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 7,
+					"price": {
+						"coin": "gp",
+						"amount": 3
+					},
+					"entries": [
+					]
+				},
+				{
+					"type": "greater",
+					"level": 14,
+					"price": {
+						"coin": "gp",
+						"amount": 800
+					},
+					"entries": [
+						"The ammunition additionally ignores the target’s {@condition hidden} condition and does not require sight to your target if you have seen them in the past minute. You still require a clear path for the arrow to reach its target."
+					]
+				}
+			]
+		},
+		{
+			"source": "FPKrosmoz",
+			"name": "Attracting Tattoo",
+			"level": "4+",
+			"type": "Item",
+			"category": "Tattoo",
+			"traits": [
+				"Evocation", "Invested", "Magical", "Tattoo", "Sacrier|FPKrosmoz", "Uncommon"
+			],
+			"consumable": false,
+			"generic": "G",
+			"usage": "tattooed on the body",
+			"bulk": "\u2014",
+			"entries": [
+				"This tattoo can pull a foe or ally closer to you, as if casting the {@spell Gravitational Pull|SoM} spell.",
+				{
+					"type": "ability",
+					"activity": {
+						"number": 1,
+						"unit": "varies",
+						"entry": "{@as 1} to {@as 2}"
+					},
+					"components": [
+						"cast a spell"
+					],
+					"frequency": "once per day",
+					"entries": [
+						"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}."
+					]
+				}
+			],
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 4,
+					"price": {
+						"coin": "gp",
+						"amount": 90,
+						"note": null
+					},
+					"entries": [
+						{
+							"type": "ability",
+							"activity": {
+								"number": 1,
+								"unit": "varies",
+								"entry": "{@as 1} to {@as 2}"
+							},
+							"components": [
+								"cast a spell"
+							],
+							"frequency": "once per day",
+							"entries": [
+								"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}. The DC is 21."
+							]
+						}
+					]
+				},
+				{
+					"type": "greater",
+					"level": 11,
+					"price": {
+						"coin": "gp",
+						"amount": 300,
+						"note": null
+					},
+					"entries": [
+						{
+							"type": "ability",
+							"activity": {
+								"number": 1,
+								"unit": "varies",
+								"entry": "{@as 1} to {@as 3}"
+							},
+							"components": [
+								"cast a spell"
+							],
+							"frequency": "once per hour",
+							"entries": [
+								"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}. The DC is 28."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"source": "FPKrosmoz",
+			"name": "Claw Tattoo",
+			"level": 2,
+			"type": "Item",
+			"category": "Tattoo",
+			"traits": [
+				"Invested", "Magical", "Morph", "Tattoo", "Transmutation", "Sacrier|FPKrosmoz", "Uncommon"
+			],
+			"usage": "tattooed on the body",
+			"bulk": "\u2014",
+			"entries": [
+				"The tattoo covers your arm and upon activation turns it into a claw.",
+				{
+					"type": "ability",
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"components": [
+						"Interact"
+					],
+					"entries": [
+						"You gain a claw unarmed attack that deals {@damage 1d4} slashing damage. Your claws are in the brawling group and have the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits. They also still benefit from any effect that would affect your fist unarmed attacks."
+					]
+				}
+			]
+		},
+		{
+			"source": "FPKrosmoz",
+			"name": "Holding Tattoo",
+			"level": "4+",
+			"type": "Item",
+			"category": "Tattoo",
+			"traits": [
+				"Conjuration", "Extradimensional", "Invested", "Magical", "Tattoo", "Sacrier|FPKrosmoz", "Uncommon"
+			],
+			"generic": "G",
+			"usage": "tattooed on the body",
+			"bulk": "\u2014",
+			"entries": [
+				"Sacriers often like to store their goods inside their own body, although from an outside perspective it’s often not a great sight. The Bulk held inside the tattoo doesn't change the Bulk of the holding tattoo itself. The amount of Bulk the tattoo’s extradimensional space can hold depends on its type.",
+				"You can {@action Interact} with the holding tattoo to put items in or remove them just like a mundane sack. Though the tattoo can hold a great amount of material, an object still needs to be able to fit through the tattoo to be stored inside.",
+				"If the tattoo is overloaded or the bearer dies, it ruptures and is ruined, causing the items inside to be lost forever. A living creature placed inside the tattoo has enough air for 10 minutes before it begins to suffocate, and it can attempt to {@action Escape} against a DC of 13. An item inside the tattoo provides no benefits unless it's retrieved first. An item in the tattoo can't be detected by magic that detects only things on the same plane."
+			],
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 4,
+					"price": {
+						"coin": "gp",
+						"amount": 75,
+						"note": null
+					},
+					"entries": [
+						"Capacity 25 Bulk."
+					],
+					"_mod": {
+						"entries": {
+							"with": " The tattoo's extradimensional space can hold 25 Bulk."
+						}
+					}
+				},
+				{
+					"type": "moderate",
+					"level": 7,
+					"price": {
+						"coin": "gp",
+						"amount": 300,
+						"note": null
+					},
+					"entries": [
+						"Capacity 50 Bulk."
+					],
+					"_mod": {
+						"entries": {
+							"with": " The tattoo's extradimensional space can hold 50 Bulk."
+						}
+					}
+				},
+				{
+					"type": "greater",
+					"level": 11,
+					"price": {
+						"coin": "gp",
+						"amount": 1200,
+						"note": null
+					},
+					"entries": [
+						"Capacity 100 Bulk."
+					],
+					"_mod": {
+						"entries": {
+							"with": " The tattoo's extradimensional space can hold 100 Bulk."
+						}
+					}
+				},
+				{
+					"type": "major",
+					"level": 13,
+					"price": {
+						"coin": "gp",
+						"amount": 2400,
+						"note": null
+					},
+					"entries": [
+						"Capacity 150 Bulk."
+					],
+					"_mod": {
+						"entries": {
+							"with": " The tattoo's extradimensional space can hold 150 Bulk."
+						}
+					}
+				}
+			],
+			"_vmod": {
+				"entries": {
+					"mode": "replaceTxt",
+					"replace": " The amount of Bulk the tattoo’s extradimensional space can hold depends on its type\\."
+				},
+				"entriesMode": "generic"
+			}
+		},
+		{
+			"source": "FPKrosmoz",
+			"name": "Taunting Tattoo",
+			"level": "3+",
+			"type": "Item",
+			"category": "Tattoo",
+			"traits": [
+				"Enchantment", "Emotion", "Invested", "Magical", "Mental", "Tattoo", "Sacrier|FPKrosmoz", "Uncommon"
+			],
+			"generic": "G",
+			"usage": "tattooed on the body",
+			"bulk": "\u2014",
+			"entries": [
+				"This tattoo makes it harder for a foe to ignore you, attracting their attention and also their attacks. You target a foe, which must succeed at a Will saving throw with the listed DC or take a –1 status penalty to attack rolls against creatures other than you for 1 minute.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical: Success": "The creature is unaffected.",
+						"Success": "The target takes the penalty. The spell ends at the end of the target's next turn.",
+						"Failure": "The creature takes the penalty.",
+						"Critical Failure": "The status penalty is –2."
+					}
+				}
+			],
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 75
+					},
+					"entries": [
+						{
+							"type": "ability",
+							"activity": {
+								"number": 2,
+								"unit": "action"
+							},
+							"components": [
+								"envision", "Interact"
+							],
+							"entries": [
+								"You taunt a creature that you can see in a range of 60 ft. and the DC is 20."
+							]
+						}
+					]
+				},
+				{
+					"type": "greater",
+					"level": 11,
+					"price": {
+						"coin": "gp",
+						"amount": 300
+					},
+					"entries": [
+						{
+							"type": "ability",
+							"activity": {
+								"number": 1,
+								"unit": "action"
+							},
+							"components": [
+								"envision", "Interact"
+							],
+							"entries": [
+								"You taunt a creature that you can see in a range of 120 ft. and the DC is 28."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cog Ring",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "3+",
+			"traits": [
+				"Divination", "Magical"
+			],
+			"usage": "worn",
+			"bulk": "—",
+			"category": "Worn",
+			"entries": [
+				"This ring is shaped much like a cog with lower and softer teeth marks for comfortable use.",
+				"While its simplistic image leaves a lot to be desired, it enhances your curiosity about clockwork and things you probably shouldn't stick your fingers into. You can use an Interact action to pull a repair kit from the ring. This kit appears at your feet and folds back into the ring if it’s further than 5 feet from you. It grants you a +1 item bonus to {@skill Crafting} checks to {@action Craft} and to {@action Repair} clockwork and similar mechanical devices.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"activity": {
+						"number": 10,
+						"unit": "minute",
+						"entry": "10 minutes"
+					},
+					"components": [
+						"Interact"
+					],
+					"frequency": "once per day",
+					"trigger": null,
+					"requirements": null,
+					"entries": [
+						"You cast the {@spell Mending} spell at 1st level."
+					]
+				}
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "cog ring",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 50,
+						"note": null
+					},
+					"entries": []
+				},
+				{
+					"type": "greater cog ring",
+					"level": 9,
+					"price": {
+						"coin": "gp",
+						"amount": 700,
+						"note": null
+					},
+					"entries": [
+						"The item bonus granted by this cog ring is +2. When activating the ring to cast {@spell Mending}, the spell is 3rd level."
+					],
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceTxt",
+								"replace": "\\+1",
+								"with": "+2"
+							},
+							{
+								"mode": "replaceTxt",
+								"replace": "1st",
+								"with": "3rd"
+							}
+						],
+						"entriesMode": "generic"
+					}
+				}
+			]
+		},
+		{
+			"name": "Hourstaff",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "6+",
+			"traits": [
+				"Invested", "Magical", "Transmutation", "Staff"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "1",
+			"category": "Staff",
+			"entries": [
+				"This magic metal staff has an hourglass on the top containing blessed time sand, giving the wielder great power over time. While wielding the staff, you gain a +2 circumstance bonus to initiative rolls.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"components": [
+						"Cast a Spell"
+					],
+					"frequency": null,
+					"trigger": null,
+					"requirements": null,
+					"entries": [
+						"You expend a number of charges from the staff to cast a spell from its list."
+					]
+				}
+			],
+			"craftReq": "Supply one casting of all listed levels of all listed spells.",
+			"generic": "G",
+			"variants": [
+				{
+					"type": "hourstaff",
+					"level": 6,
+					"price": {
+						"coin": "gp",
+						"amount": 200,
+						"note": null
+					},
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@bold Cantrip} {@spell read the air|som}",
+								"{@bold 1st} {@spell Anticipate Peril|logm}",
+								"{@bold 2nd} {@spell Augury}"
+							]
+						}
+					]
+				},
+				{
+					"type": "greater hourstaff",
+					"level": 10,
+					"price": {
+						"coin": "gp",
+						"amount": 850,
+						"note": null
+					},
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@bold 3rd} {@spell Impending Doom|som}",
+								"{@bold 4th} {@spell summon animal}"
+							]
+						}
+					],
+					"_mod": {
+						"entries": {
+							"mode": "insertArr",
+							"index": 2,
+							"items": [
+								{
+									"type": "list",
+									"items": [
+										"{@bold Cantrip} {@spell read the air|som}",
+										"{@bold 1st} {@spell Anticipate Peril|logm}",
+										"{@bold 2nd} {@spell Augury}"
+									]
+								}
+							]
+						}
+					}
+				},
+				{
+					"type": "major hourstaff",
+					"level": 14,
+					"price": {
+						"coin": "gp",
+						"amount": 3700,
+						"note": null
+					},
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@bold 5th} {@spell Inevitable Disaster|som}",
+								"{@bold 6th} {@spell Cast into Time|som}"
+							]
+						}
+					],
+					"_mod": {
+						"entries": {
+							"mode": "insertArr",
+							"index": 2,
+							"items": [
+								{
+									"type": "list",
+									"items": [
+										"{@bold Cantrip} {@spell read the air|som}",
+										"{@bold 1st} {@spell Anticipate Peril|logm}",
+										"{@bold 2nd} {@spell Augury}",
+										"{@bold 3rd} {@spell Impending Doom|som}",
+										"{@bold 4th} {@spell summon animal}"
+									]
+								}
+							]
+						}
+					}
+				},
+				{
+					"type": "true hourstaff",
+					"level": 19,
+					"price": {
+						"coin": "gp",
+						"amount": 30500,
+						"note": null
+					},
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@bold 7th} {@spell Retrocognition}",
+								"{@bold 8th} {@spell Moment of Renewal}",
+								"{@bold 9th} {@spell Foresight}"
+							]
+						}
+					],
+					"_mod": {
+						"entries": {
+							"mode": "insertArr",
+							"index": 2,
+							"items": [
+								{
+									"type": "list",
+									"items": [
+										"{@bold Cantrip} {@spell read the air|som}",
+										"{@bold 1st} {@spell Anticipate Peril|logm}",
+										"{@bold 2nd} {@spell Augury}",
+										"{@bold 3rd} {@spell Impending Doom|som}",
+										"{@bold 4th} {@spell summon animal}",
+										"{@bold 5th} {@spell Inevitable Disaster|som}",
+										"{@bold 6th} {@spell Cast into Time|som}"
+									]
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Paradox Spear",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 10,
+			"traits": [
+				"Conjuration", "Magical", "Rare", "Teleportation"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 350,
+				"note": null
+			},
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"category": "Held",
+			"entries": [
+				"This {@runeItem spear||+2 weapon potency||striking|} can allow the wielder to travel with it when thrown.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"activity": {
+						"unit": "action",
+						"number": 2
+					},
+					"components": [
+						"interact"
+					],
+					"frequency": "once per day",
+					"entries": [
+						"When you activate the spear, instead of making your {@action Strike} against a foe, you throw it at any unoccupied square you can see within your weapon's range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you threw the spear. If this would carry along any other creature (even one in an extradimensional space), the activation fails."
+					]
+				}
+			]
+		},
+		{
+			"name": "Voracious Blade",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 5,
+			"traits": [
+				"Rare", "Necromancy", "Magical"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 350,
+				"note": null
+			},
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"category": "Held",
+			"entries": [
+				"The blade of this vampiric {@runeItem rapier||+1 weapon potency|} has the appearance of a red glass vial with a tube connecting to the wielding arm.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"activity": {
+						"unit": "reaction",
+						"number": 1
+					},
+					"components": [
+						"interact"
+					],
+					"frequency": "once per day",
+					"trigger": "You critically hit on a Strike with the Voracious Blade",
+					"entries": [
+						"You drain blood from the target. You gain temporary HP equal to half the damage the target takes (after applying resistances, weaknesses, and the like) and it becomes {@condition Drained 1}. The temporary HP lasts for 1 minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghostly Shift Elixir",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "6+",
+			"traits": [
+				"Consumable", "Elixir", "Eniripsa|FPKrosmoz", "Transmutation", "Uncommon"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": "Interact"
+			},
+			"category": "Elixir",
+			"entries": [
+				"You temporarily become incorporeal like a ghost. You gain the {@trait Incorporeal} trait and a listed resistance to all damage (except force, {@item ghost touch}, or mental; double resistance against non-magical) for a listed amount of time."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "lesser",
+					"level": 6,
+					"price": {
+						"coin": "gp",
+						"amount": 45,
+						"note": null
+					},
+					"entries": [
+						"You gain the {@trait Incorporeal} trait and resistance to all damage 1 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 3 rounds."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain the {@trait Incorporeal} trait and resistance to all damage 1 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 3 rounds."
+						}
+					}
+				},
+				{
+					"type": "moderate",
+					"level": 10,
+					"price": {
+						"coin": "gp",
+						"amount": 180,
+						"note": null
+					},
+					"entries": [
+						"You gain the {@trait Incorporeal} trait and resistance to all damage 3 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 10 minutes."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain the {@trait Incorporeal} trait and resistance to all damage 3 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 10 minutes."
+						}
+					}
+				},
+				{
+					"type": "greater",
+					"level": 14,
+					"price": {
+						"coin": "gp",
+						"amount": 850,
+						"note": null
+					},
+					"entries": [
+						"You gain the {@trait Incorporeal} trait and resistance to all damage 5 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 1 hour."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain the {@trait Incorporeal} trait and resistance to all damage 5 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 1 hour."
+						}
+					}
+				}
+			],
+			"_vmod": {
+				"entries": {
+					"mode": "replaceTxt",
+					"replace": "You gain the \\{@trait Incorporeal\\} trait and a listed resistance to all damage \\(except force, \\{@item ghost touch\\}, or mental; double resistance against non-magical\\) for a listed amount of time\\."
+				},
+				"entriesMode": "generic"
+			}
+		},
+		{
+			"name": "Stimulating Elixir",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "1+",
+			"traits": [
+				"Consumable", "Elixir", "Eniripsa|FPKrosmoz", "Mental", "Uncommon"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": "Interact"
+			},
+			"category": "Elixir",
+			"entries": [
+				"This drink feels you with energy to fight with more fervour than ever. For the next listed amount of time after drinking this elixir, you gain an item bonus to attack rolls."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "minor",
+					"level": 1,
+					"price": {
+						"coin": "gp",
+						"amount": 3,
+						"note": null
+					},
+					"entries": [
+						"You gain a +1 item bonus, and the duration is 3 minutes."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain a +1 item bonus, and the duration is 3 minutes."
+						}
+					}
+				},
+				{
+					"type": "lesser",
+					"level": 5,
+					"price": {
+						"coin": "gp",
+						"amount": 30,
+						"note": null
+					},
+					"entries": [
+						"You gain a +2 item bonus, and the duration is 1 minutes."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain a +2 item bonus, and the duration is 1 minutes."
+						}
+					}
+				},
+				{
+					"type": "moderate",
+					"level": 9,
+					"price": {
+						"coin": "gp",
+						"amount": 150,
+						"note": null
+					},
+					"entries": [
+						"You gain a +3 item bonus, and the duration is 5 minutes."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain a +3 item bonus, and the duration is 5 minutes."
+						}
+					}
+				},
+				{
+					"type": "greater",
+					"level": 13,
+					"price": {
+						"coin": "gp",
+						"amount": 600,
+						"note": null
+					},
+					"entries": [
+						"You gain a +4 item bonus, and the duration is 30 minutes."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain a +4 item bonus, and the duration is 30 minutes."
+						}
+					}
+				},
+				{
+					"type": "greater",
+					"level": 15,
+					"price": {
+						"coin": "gp",
+						"amount": 1900,
+						"note": null
+					},
+					"entries": [
+						"You gain a +5 item bonus, and the duration is 1 hour."
+					],
+					"_mod": {
+						"entries": {
+							"replaceTags": true,
+							"with": "You gain a +5 item bonus, and the duration is 1 hour."
+						}
+					}
+				}
+			],
+			"_vmod": {
+				"entries": {
+					"mode": "replaceTxt",
+					"replace": "For the next listed amount of time after drinking this elixir, you gain an item bonus to attack rolls\\."
+				},
+				"entriesMode": "generic"
+			}
+		},
+		{
+			"name": "Umbral Blade",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 10,
+			"traits": [
+				"Illusion", "Magical", "Rare", "Shadow"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 350,
+				"note": null
+			},
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"category": "Held",
+			"entries": [
+				"This {@runeItem hidden blade|FPKrosmoz|+2 weapon potency||striking|} possesses a great Sram blessing allowing you to steal magic from a foe.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"activity": {
+						"unit": "action",
+						"number": 2
+					},
+					"components": [
+						"command"
+					],
+					"frequency": "once per day",
+					"entries": [
+						"You cast the {@spell Umbral Graft|SoM} spell at 4th level. If you must attempt a counteract check, you roll a {@skill Thievery} check instead."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skull Decoration",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 1,
+			"traits": [
+				"Uncommon"
+			],
+			"access": "Be of {@ancestry Sram|fpkrosmoz|Sram} ancestry",
+			"price": {
+				"coin": "gp",
+				"amount": 50,
+				"note": null
+			},
+			"usage": "worn",
+			"bulk": "L",
+			"category": "Worn",
+			"entries": [
+				"These decorations go on a Sram’s skull face or skull mask and serve to instill fear in their opponent’s mind. While wearing these decorations, they grant you a +1 item bonus to {@skill Intimidation}."
+			]
+		},
+		{
+			"name": "Insidious Trap Trap",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 1,
+			"traits": [
+				"Uncommon", "Sram|FPKrosmoz", "Consumable", "Mechanical", "Poison", "Snare", "Trap"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 6,
+				"note": null
+			},
+			"category": "Snare",
+			"entries": [
+				"This trap attempts to inject poison into the target. You fill the trap with a poison that has the {@trait Injury} trait in your possession through an {@action Interact} action when you lay it. When a creature enters the snare’s square, they must attempt a DC 18 basic Reflex saving throw or be injected with the poison."
+			]
+		},
+		{
+			"name": "Drift Trap",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 1,
+			"traits": [
+				"Uncommon", "Sram|FPKrosmoz", "Consumable", "Mechanical", "Snare", "Trap"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 6,
+				"note": null
+			},
+			"category": "Snare",
+			"entries": [
+				"This trap is extremely slippery, aiming to destabilize your adversaries. The square with this snare, as well one adjacent square (to form a 10-foot-by-5-foot area) become greasy surfaces. Creatures using an action to move onto the greasy surface must attempt either a basic Reflex save or an {@skill Acrobatics} check DC 17 to {@action Balance}. A creature that {@action Step||Steps} or {@action Crawl||Crawls} doesn't have to attempt a check or save."
+			]
+		},
+		{
+			"name": "Teleporting Trap",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 17,
+			"traits": [
+				"Conjuration", "Consumable", "Magical", "Rare", "Snare", "Teleportation", "Trap"
+			],
+			"price": {
+				"coin": "gp",
+				"amount": 3000,
+				"note": null
+			},
+			"category": "Snare",
+			"entries": [
+				"This magical trap works together with a special unique rune attuned to it, and is useful both to send a foe away or for escaping a dire situation. When laying the trap the rune must have been previously placed somewhere in a 100 miles range from it, or else the trap will fail to activate. When a creature enters the snare’s square, it must make a DC 35 Will save or be transported to the square where the rune is located."
 			]
 		}
 	]
