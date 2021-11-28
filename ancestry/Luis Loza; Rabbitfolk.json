@@ -184,7 +184,7 @@
 					"shortName": "Warrenbound",
 					"source": "Luis-Rabbitfolk",
 					"entries": [
-						"You spent a lot of your early years among warrens, allowing you to move between these tunnels with ease. You gain the {@feat Quick Squeeze} feat as a bonus feat, even if you aren't trained in {@skill Acrobatics}. Tight spaces not tight enough to require the {@action Squeeze} action aren't difficult terrain for you."
+						"You spent a lot of your early years among warrens, allowing you to move between these tunnels with ease. You gain the {@feat Quick Squeeze} feat as a bonus feat, even if you aren't trained in {@skill Acrobatics}. Tight spaces not tight enough to require the {@action Squeeze} action aren't {@quickref difficult terrain||3|terrain} for you."
 					]
 				}
 			],
@@ -233,8 +233,7 @@
 			},
 			"activity": {
 				"number": 1,
-				"unit": "free",
-				"entry": "{@as F}"
+				"unit": "free"
 			},
 			"leadsTo": [
 				"Honed Instincts|Luis-Rabbitfolk",
@@ -307,7 +306,6 @@
 				"ancestry": "Rabbitfolk"
 			},
 			"activity": {
-				"entry": "{@as F}",
 				"number": 1,
 				"unit": "free"
 			},
@@ -387,7 +385,6 @@
 				"ancestry": "Rabbitfolk"
 			},
 			"activity": {
-				"entry": "{@as 1}",
 				"number": 1,
 				"unit": "action"
 			},
@@ -418,7 +415,6 @@
 			"source": "Luis-Rabbitfolk",
 			"level": 9,
 			"activity": {
-				"entry": "{@as R}",
 				"number": 1,
 				"unit": "reaction"
 			},

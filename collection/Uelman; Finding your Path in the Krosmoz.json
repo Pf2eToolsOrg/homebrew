@@ -38,9 +38,29 @@
 			]
 		}
 	],
-	"archetype": [
-	],
 	"trait": [
+		{
+			"name": "Feca",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Feca|FPKrosmoz|Feca's Shield}. {@ancestry Feca|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Enutrof",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Enutrof|FPKrosmoz|Enutrof's Fingers}. {@ancestry Enutrof|FPKrosmoz} craft and use these weapons."
+			]
+		},
 		{
 			"name": "Xelor",
 			"source": "FPKrosmoz",
@@ -72,6 +92,16 @@
 			],
 			"entries": [
 				"A creature with this trait is a member of the {@ancestry Eniripsa|FPKrosmoz|Eniripsa's Hands}. {@ancestry Eniripsa|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Bulldozing",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Armor & Weapon"
+			],
+			"entries": [
+				"This weapon treats any object it hits as if it had one less Hardness than usual."
 			]
 		},
 		{
@@ -150,6 +180,237 @@
 		}
 	],
 	"ancestry": [
+		{
+			"name": "Feca",
+			"source": "FPKrosmoz",
+			"info": [
+				"Fecas are excellent protectors. In fact, they pride themselves on being brilliant guards to whom even the wisest adventurers entrust their most precious items with complete confidence. Their reputation is firmly established in this field, even though they're usually not looking for honour or glory and would rather stay in the shadows.",
+				"Honest, loyal and upright, Fecas only have one defect: they can't stand being made to look like fools. Never compare a Feca disciple to a walking locker or safe, as you might just be asking for a staff blow in your face or across your bum cheeks, which would be a lot more painful and would make you look silly in front of everyone.",
+				"We've already noted that Fecas like discretion - it's pretty obvious, for Feca's sake! When bearded wise men entrust you with precious items to protect, you don't go shouting it from the rooftops of Amakna. It's also in Fecas' nature to be good shepherds, and, by extension, good priests and spiritual guides. They either bring the lost sheep back to the right path or lead them to the slaughterhouse. Fecas are appreciated within groups because of their protective powers but also because they master the staff like no one else.",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Take comfort in the safety of others.",
+								"Find peace in the quietude of a library.",
+								"Be a natural leader."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Greatly rely on your defensive skills and magic.",
+								"Underestimate your offensive capabilities.",
+								"Find you overprotective."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Followers of Feca are about as tall as other average humans of similar physique. Both their eye and hair colours can range from light blue to dark brown. Their hairstyles are varied too, often being either long and tied in ponytails or braids, or short and spiky. They also fashion glasses.",
+						"Fecas age at a similar rate to normal humans. Most Fecas can live to be up to 80 years of age, but the more powerful Fecas could live for nearly two centuries. Fecas weigh the same as normal humans of similar physique. Fecas like to wear simple and plain clothing, sometimes adding some light pieces of armor on top of it. Their clothes are often coloured yellow, orange, blue, and white."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Societies in the World of Twelve are highly multicultural, and in them Fecas often take on the jobs that involve caretaking or leading. All Fecas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Shepherding is the traditional job of a Feca in the times of Dofus, but many also start their own adventuring guilds, or become researchers and alchemists."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Many Fecas tend to be good by nature, aiming to protect others, but they are not necessarily a majority. Some Fecas may search to keep people safe by force and become Evil-aligned tyrants, for instance. There is no real tendency towards Lawful or Chaotic, some aiming to to ensure safety by the ways of laws, others believing that the law is inherently oppressive, and many others simply uncaring of these notions."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Feca names are simple and homely.",
+						{
+							"type": "pf2-h4",
+							"name": "Sample Names",
+							"entries": [
+								"Arty, Crail, Allisteria, Fallanster, Otomai, Igor Ant, Lukryh, Ereziah Melkewel, Bump"
+							]
+						}
+					]
+				}
+			],
+			"hp": 8,
+			"size": "Medium",
+			"speed": {
+				"walk": 25
+			},
+			"boosts": [
+				"Constitution",
+				"Intelligence",
+				"Free"
+			],
+			"flaw": [
+				"Strength"
+			],
+			"languages": [
+				"{@language Common}",
+				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Feca|FPKrosmoz"
+			],
+			"heritage": [
+				{
+					"name": "Sentinel Feca",
+					"shortName": "Sentinel",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You have been trained with a shield since a very tender age, as if it was part of you. You are trained in all shields, and you gain the {@feat Shield Block} feat."
+					]
+				},
+				{
+					"name": "Researcher Feca",
+					"shortName": "Researcher",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You are more fond of more scientific and magical ways to help your fellows. You become trained in {@skill Crafting} (or another skill if you were already trained in {@skill Crafting}) and gain the {@feat Alchemical Crafting} skill feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Enutrof",
+			"source": "FPKrosmoz",
+			"info": [
+				"A long time ago, Enutrofs set up a sign language based only on movements and figures they traced with their fingers. Their reason for creating such a language remains unknown; however, some say that Enutrofs can communicate without any of the creatures wandering about the abyss realising it. Others believe that Enutrofs code their treasures by combining geometrical figures drawn with their fingers. Others prefer to think that it's a ritual way of shielding the nose from the after-effects of the sickening explosions of underground gases (the famous firedamp farts which left many adventurers unconscious). Whatever the truth is, it was this habit that gave the Enutrof religion its name.",
+				"Enutrofs are interested in any goods, items and creatures that they can turn into kamas. Besides that, the first thing an Enutrof does when he meets another adventurer is to get the measure of him with a single look. In the eyes of an Enutrof, an adventurer is a rich source of goods, often bedecked in items. Enutrofs also talk a lot: often all sorts of nonsense about this and that, but also about things they're interested in like the rate of Gobball wool in Astrub, or if it's possible to find Treechnid Amber at a good price near Bonta, those sorts of things... If adventurers listen carefully, they may well be able to get their hands on knick-knacks and charms... for a small fee, of course.",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Like to travel near and far in search of new experiences, likely collecting treasure along the way.",
+								"Always be on the lookout for the best deals.",
+								"Give more importance to material possessions over anything else."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Assume you have a great collection of riches.",
+								"Think that you are greedy and stingy.",
+								"See you as an old frail person."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Followers of Enutrof are about as tall as other average humans, if not slightly shorter due to their arched back. Their eyes are often wrinkly and dark in colour, whereas their hair colour is light and graying. Enutrofs like to dress their hair in a variety of ways, often buns or ponytails, and those who can tend to grow their beards, maybe in opposition to their growing baldness.",
+						"Enutrofs age at a faster rate than normal humans, but live longer. Most Enutrofs can live to be up to 120 years of age, but the more powerful Enutrofs could live for nearly three centuries. Enutrofs weigh the same as normal humans of similar physiques, and are tougher than their frail appearance may suggest. Enutrofs wear baggy and comfortable clothing, often bought second-hand to save money, but sometimes decorated in gold. They usually bring a big bag with them to keep their favorite trinkets close or put in any new treasure they may find."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Societies in the World of Twelve are highly multicultural, and in them Enutrofs often take on the jobs that involve big amounts of kamas. All Enutrof may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. The more peaceful Enutrofs will often have jobs at a bank or as merchants, whereas more daring ones will often become treasure seekers or headhunters."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Many Enutrofs tend to be neutral by nature, driven primarily by money, but they are not necessarily a majority. Some Enutrofs of the Lawful alignment may find ways to obtain riches through legal means, whereas other more Chaotic enutrofs may prefer more sneaky ways. As for the good and evil alignments, it is not uncommon for Enutrofs to put money before morals, but most prefer less vile ways."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Enutrofs have very varied names, and often put emphasis on their family names.",
+						{
+							"type": "pf2-h4",
+							"name": "Sample Names",
+							"entries": [
+								"Terra Cogita, Terra Pinh, Babblera Nhin, Qwizitor Nhin, Honey Bagg, Sumens, Ruel Stroud, Moumoune Stroud, Arpagone"
+							]
+						}
+					]
+				}
+			],
+			"hp": 8,
+			"size": "Medium",
+			"speed": {
+				"walk": 25
+			},
+			"boosts": [
+				"Constitution",
+				"Wisdom",
+				"Free"
+			],
+			"flaw": [
+				"Dexterity"
+			],
+			"languages": [
+				"{@language Common}",
+				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Enutrof|FPKrosmoz"
+			],
+			"features": [
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"You can see in dim light as though it were bright light, so you ignore the {@condition concealed} condition due to dim light."
+					]
+				}
+			],
+			"heritage": [
+				{
+					"name": "Peddler Enutrof",
+					"shortName": "Peddler",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You aren’t easily tricked and can recognize a bad deal when you see it. You gain a +1 circumstance bonus to your {@skill Perception} DC against attempts to {@action Lie} to you and your {@skill Perception} checks to {@action Sense Motive}."
+					]
+				},
+				{
+					"name": "Spelunker Enutrof",
+					"shortName": "Spelunker",
+					"source": "FPKrosmoz",
+					"entries": [
+						"Navigating mountains and other rocky terrain is second nature to you. You can ignore non-magical difficult terrain caused by rubble and uneven ground made of stone and earth."
+					]
+				}
+			]
+		},
 		{
 			"name": "Iop",
 			"source": "FPKrosmoz",
@@ -289,7 +550,7 @@
 				{
 					"name": "Low-Light Vision",
 					"entries": [
-						"You can see in dim light as though it were bright light, so you ignore the concealed condition due to dim light."
+						"You can see in dim light as though it were bright light, so you ignore the {@condition concealed} condition due to dim light."
 					]
 				}
 			],
@@ -632,7 +893,7 @@
 				{
 					"name": "Low-Light Vision",
 					"entries": [
-						"You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light."
+						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
@@ -754,7 +1015,7 @@
 				{
 					"name": "Low-Light Vision",
 					"entries": [
-						"You can see in dim light as though it were bright light, and you ignore the concealed condition due to dim light."
+						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
 					]
 				},
 				{
@@ -1413,7 +1674,7 @@
 				"Sram|FPKrosmoz"
 			],
 			"entries": [
-				"You can move up to your Speed when you use the {@action Sneak} action, and you no longer need to have cover or greater cover or be concealed to {@action Hide} or {@action Sneak}."
+				"You can move up to your Speed when you use the {@action Sneak} action, and you no longer need to have cover or greater cover or be {@condition concealed} to {@action Hide} or {@action Sneak}."
 			]
 		},
 		{
@@ -2916,7 +3177,7 @@
 				"Cra|FPKrosmoz"
 			],
 			"entries": [
-				"You can take advantage of the terrain to bypass foes' defenses. Creatures in difficult terrain are {@condition flat‑footed} to you."
+				"You can take advantage of the terrain to bypass foes' defenses. Creatures in {@quickref difficult terrain||3|terrain} are {@condition flat‑footed} to you."
 			]
 		},
 		{
@@ -3673,7 +3934,7 @@
 			"subCategory": "Advanced",
 			"group": "Knife",
 			"entries": [
-				"This blade is attached to a glove, coming out from the wrist area, and can be concealed thanks to a mechanism. It deals {@damage 1d4} slashing damage.",
+				"This blade is attached to a glove, coming out from the wrist area, and can be {@condition concealed} thanks to a mechanism. It deals {@damage 1d4} slashing damage.",
 				{
 					"type": "ability",
 					"style": "compact",
@@ -4014,7 +4275,7 @@
 			},
 			"category": "Bomb",
 			"entries": [
-				"When this beacon is hit, it violently shakes and warps the ground around it. The ground in the listed range becomes Difficult Terrain for a listed amount of time."
+				"When this beacon is hit, it violently shakes and warps the ground around it. The ground in the listed range becomes {@quickref difficult terrain||3|terrain} for a listed amount of time."
 			],
 			"generic": "G",
 			"variants": [
@@ -4026,7 +4287,7 @@
 						"amount": 3
 					},
 					"entries": [
-						"The ground within 15 ft. of the beacon becomes Difficult Terrain for 1 minute."
+						"The ground within 15 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} for 1 minute."
 					]
 				},
 				{
@@ -4037,7 +4298,7 @@
 						"amount": 10
 					},
 					"entries": [
-						"The ground within 20 ft. of the beacon becomes Difficult Terrain for 10 minutes. Creatures in this area must succeed at a DC 20 Reflex Saving Throw or fall {@condition prone}."
+						"The ground within 20 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} for 10 minutes. Creatures in this area must succeed at a DC 20 Reflex Saving Throw or fall {@condition prone}."
 					]
 				},
 				{
@@ -4048,7 +4309,7 @@
 						"amount": 250
 					},
 					"entries": [
-						"The ground within 25 ft. of the beacon becomes Difficult Terrain and Hazardous Terrain for 20 minutes. Creatures in this area must succeed at a DC 28 Reflex Saving Throw or fall {@condition prone}.",
+						"The ground within 25 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} and Hazardous Terrain for 20 minutes. Creatures in this area must succeed at a DC 28 Reflex Saving Throw or fall {@condition prone}.",
 						"A creature that moves through the area takes 3 piercing damage for every square of that area it moves into."
 					]
 				},
@@ -4060,7 +4321,7 @@
 						"amount": 2500
 					},
 					"entries": [
-						"The ground within 30 ft. of the beacon becomes Difficult Terrain and Hazardous Terrain for an hour. Creatures in this area must critically succeed at a DC 36 Reflex Saving Throw or fall {@condition prone}.",
+						"The ground within 30 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} and Hazardous Terrain for an hour. Creatures in this area must critically succeed at a DC 36 Reflex Saving Throw or fall {@condition prone}.",
 						"A creature that moves through the area takes 6 piercing damage for every square of that area it moves into."
 					]
 				}
