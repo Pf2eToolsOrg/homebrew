@@ -398,7 +398,7 @@
 					"shortName": "Peddler",
 					"source": "FPKrosmoz",
 					"entries": [
-						"You aren’t easily tricked and can recognize a bad deal when you see it. You gain a +1 circumstance bonus to your {@skill Perception} DC against attempts to {@action Lie} to you and your {@skill Perception} checks to {@action Sense Motive}."
+						"You aren't easily tricked and can recognize a bad deal when you see it. You gain a +1 circumstance bonus to your {@skill Perception} DC against attempts to {@action Lie} to you and your {@skill Perception} checks to {@action Sense Motive}."
 					]
 				},
 				{
@@ -3693,12 +3693,13 @@
 	],
 	"baseitem": [
 		{
-			"name": "Cra’s Hand Crossbow",
+			"name": "Cra's Hand Crossbow",
 			"source": "FPKrosmoz",
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Cra|FPKrosmoz"
+				"Uncommon",
+				"Cra|FPKrosmoz"
 			],
 			"price": {
 				"amount": 3,
@@ -3718,7 +3719,7 @@
 			"subCategory": "Martial",
 			"group": "Bow",
 			"entries": [
-				"Bows are such an important part of a Cras life that many of them wish to keep one at hand at all times. Its mechanism is comfortable even for the purpose of loading, which is as simple as placing the bolt into the crossbow’s compartment. It deals {@damage 1d6} piercing damage."
+				"Bows are such an important part of a Cras life that many of them wish to keep one at hand at all times. Its mechanism is comfortable even for the purpose of loading, which is as simple as placing the bolt into the crossbow's compartment. It deals {@damage 1d6} piercing damage."
 			],
 			"craftReq": null,
 			"generic": false
@@ -3729,7 +3730,12 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Iop|FPKrosmoz", "Backswing", "Tethered", "Thrown 20 ft.", "Ranged Trip"
+				"Uncommon",
+				"Iop|FPKrosmoz",
+				"Backswing",
+				"Tethered",
+				"Thrown 20 ft.",
+				"Ranged Trip"
 			],
 			"price": {
 				"amount": 5,
@@ -3745,7 +3751,7 @@
 			"subCategory": "Advanced",
 			"group": "Flail",
 			"entries": [
-				"Originally created by the legendary Goultard, many Iops have attempted to recreate the chain and sword combination that the hero named “The Blade”, and some of them have succeeded. It deals {@damage 1d6} slashing damage."
+				"Originally created by the legendary Goultard, many Iops have attempted to recreate the chain and sword combination that the hero named \"The Blade\", and some of them have succeeded. It deals {@damage 1d6} slashing damage."
 			],
 			"craftReq": null,
 			"generic": false
@@ -3756,7 +3762,10 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Iop|FPKrosmoz", "Compulsion|FPKrosmoz", "Two-Hand D10"
+				"Uncommon",
+				"Iop|FPKrosmoz",
+				"Compulsion|FPKrosmoz",
+				"Two-Hand D10"
 			],
 			"price": {
 				"amount": 3,
@@ -3772,7 +3781,7 @@
 			"subCategory": "Martial",
 			"group": "Sword",
 			"entries": [
-				"It is said that ancient Iops forged these swords with tears of the angel Raziel. Even with today’s crafting methods, this sword can very effectively channel your deity’s power. It deals {@damage 1d6} slashing damage."
+				"It is said that ancient Iops forged these swords with tears of the angel Raziel. Even with today's crafting methods, this sword can very effectively channel your deity's power. It deals {@damage 1d6} slashing damage."
 			],
 			"craftReq": null,
 			"generic": false
@@ -3783,7 +3792,10 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Iop|FPKrosmoz", "Sweep", "Versatile B"
+				"Uncommon",
+				"Iop|FPKrosmoz",
+				"Sweep",
+				"Versatile B"
 			],
 			"price": {
 				"amount": 3,
@@ -3810,7 +3822,10 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Sacrier|FPKrosmoz", "Two-hand D10", "Deadly D12"
+				"Uncommon",
+				"Sacrier|FPKrosmoz",
+				"Two-hand D10",
+				"Deadly D12"
 			],
 			"price": {
 				"amount": 5,
@@ -3826,7 +3841,7 @@
 			"subCategory": "Advanced",
 			"group": "Sword",
 			"entries": [
-				"This sword was forged with the purpose of cleanly severing an opponent’s limbs. For this purpose the blade can sometimes split into two scissor-like blades. It deals {@damage 1d6} slashing damage."
+				"This sword was forged with the purpose of cleanly severing an opponent's limbs. For this purpose the blade can sometimes split into two scissor-like blades. It deals {@damage 1d6} slashing damage."
 			],
 			"craftReq": null,
 			"generic": false
@@ -3837,7 +3852,10 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Sacrier|FPKrosmoz", "Ragged|FPKrosmoz", "Twin"
+				"Uncommon",
+				"Sacrier|FPKrosmoz",
+				"Ragged|FPKrosmoz",
+				"Twin"
 			],
 			"price": {
 				"amount": 2,
@@ -3853,7 +3871,7 @@
 			"subCategory": "Martial",
 			"group": "Sword",
 			"entries": [
-				"Crafted with the millenia old technique of smashing a rock against the blade’s edge, a perfect blade for assaulting your enemies. It deals {@damage 1d6} slashing damage."
+				"Crafted with the millenia old technique of smashing a rock against the blade's edge, a perfect blade for assaulting your enemies. It deals {@damage 1d6} slashing damage."
 			],
 			"craftReq": null,
 			"generic": false
@@ -3864,7 +3882,12 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Eniripsa|FPKrosmoz", "Agile", "Finesse", "Meticulous D4|FPKrosmoz", "Thrown 20 ft."
+				"Uncommon",
+				"Eniripsa|FPKrosmoz",
+				"Agile",
+				"Finesse",
+				"Meticulous D4|FPKrosmoz",
+				"Thrown 20 ft."
 			],
 			"price": {
 				"amount": 3,
@@ -3891,7 +3914,11 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Eniripsa|FPKrosmoz", "Backstabber", "Deadly D8", "Reach"
+				"Uncommon",
+				"Eniripsa|FPKrosmoz",
+				"Backstabber",
+				"Deadly D8",
+				"Reach"
 			],
 			"price": {
 				"amount": 5,
@@ -3918,7 +3945,11 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Sram|FPKrosmoz", "Backstabber", "Finesse", "Free-Hand"
+				"Uncommon",
+				"Sram|FPKrosmoz",
+				"Backstabber",
+				"Finesse",
+				"Free-Hand"
 			],
 			"price": {
 				"amount": 5,
@@ -3946,7 +3977,7 @@
 						"Interact"
 					],
 					"entries": [
-						"You hide the blade inside a secret compartment. The blade gains the “{@trait Concealable}” trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
+						"You hide the blade inside a secret compartment. The blade gains the \"{@trait Concealable}\" trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
 					]
 				}
 			],
@@ -3959,7 +3990,11 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Xelor|FPKrosmoz", "Backswing", "Finesse", "Two-hand 1d10"
+				"Uncommon",
+				"Xelor|FPKrosmoz",
+				"Backswing",
+				"Finesse",
+				"Two-hand 1d10"
 			],
 			"price": {
 				"amount": 5,
@@ -3975,7 +4010,7 @@
 			"subCategory": "Martial",
 			"group": "Sword",
 			"entries": [
-				"This sword is fashioned like a clock’s hand, with a spade-like point, built to make the most out of the momentum. It deals {@damage 1d6} slashing damage.",
+				"This sword is fashioned like a clock's hand, with a spade-like point, built to make the most out of the momentum. It deals {@damage 1d6} slashing damage.",
 				{
 					"type": "ability",
 					"style": "compact",
@@ -3987,7 +4022,7 @@
 						"Interact"
 					],
 					"entries": [
-						"You hide the blade inside a secret compartment. The blade gains the “{@trait Concealable}” trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
+						"You hide the blade inside a secret compartment. The blade gains the \"{@trait Concealable}\" trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
 					]
 				}
 			],
@@ -4000,7 +4035,11 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Xelor|FPKrosmoz", "Backswing", "Shove", "Versatile P"
+				"Uncommon",
+				"Xelor|FPKrosmoz",
+				"Backswing",
+				"Shove",
+				"Versatile P"
 			],
 			"level": 1,
 			"price": {
@@ -4078,7 +4117,7 @@
 			"bulk": "L",
 			"category": "Held",
 			"entries": [
-				"This blessed {@runeItem razielle sword|FPKrosmoz|+1 weapon potency||striking|} can call upon your deity’s wrathful might to vanquish the enemies around you.",
+				"This blessed {@runeItem razielle sword|FPKrosmoz|+1 weapon potency||striking|} can call upon your deity's wrathful might to vanquish the enemies around you.",
 				{
 					"type": "ability",
 					"style": "compact",
@@ -4093,7 +4132,7 @@
 					],
 					"frequency": "once per day",
 					"entries": [
-						"You cast a divine 4th-level {@spell Divine Wrath} spell, centered on you. The spell DC is 27. You are immune to the spell’s effect, though your allies are not."
+						"You cast a divine 4th-level {@spell Divine Wrath} spell, centered on you. The spell DC is 27. You are immune to the spell's effect, though your allies are not."
 					]
 				}
 			],
@@ -4184,7 +4223,13 @@
 			"type": "Item",
 			"level": "1+",
 			"traits": [
-				"Uncommon", "Alchemical", "Air", "Beacon|FPKrosmoz", "Bomb", "Cra|FPKrosmoz", "Consumable"
+				"Uncommon",
+				"Alchemical",
+				"Air",
+				"Beacon|FPKrosmoz",
+				"Bomb",
+				"Cra|FPKrosmoz",
+				"Consumable"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "L",
@@ -4262,7 +4307,13 @@
 			"type": "Item",
 			"level": "1+",
 			"traits": [
-				"Uncommon", "Alchemical", "Earth", "Beacon|FPKrosmoz", "Bomb", "Cra|FPKrosmoz", "Consumable"
+				"Uncommon",
+				"Alchemical",
+				"Earth",
+				"Beacon|FPKrosmoz",
+				"Bomb",
+				"Cra|FPKrosmoz",
+				"Consumable"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "L",
@@ -4333,7 +4384,13 @@
 			"type": "Item",
 			"level": "1+",
 			"traits": [
-				"Uncommon", "Alchemical", "Fire", "Beacon|FPKrosmoz", "Bomb", "Cra|FPKrosmoz", "Consumable"
+				"Uncommon",
+				"Alchemical",
+				"Fire",
+				"Beacon|FPKrosmoz",
+				"Bomb",
+				"Cra|FPKrosmoz",
+				"Consumable"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "L",
@@ -4411,7 +4468,8 @@
 			"type": "Rune",
 			"level": 3,
 			"traits": [
-				"Conjuration", "Magic"
+				"Conjuration",
+				"Magic"
 			],
 			"price": {
 				"coin": "gp",
@@ -4464,8 +4522,7 @@
 						"coin": "gp",
 						"amount": 3
 					},
-					"entries": [
-					]
+					"entries": []
 				},
 				{
 					"type": "greater",
@@ -4475,7 +4532,7 @@
 						"amount": 800
 					},
 					"entries": [
-						"The ammunition additionally ignores the target’s {@condition hidden} condition and does not require sight to your target if you have seen them in the past minute. You still require a clear path for the arrow to reach its target."
+						"The ammunition additionally ignores the target's {@condition hidden} condition and does not require sight to your target if you have seen them in the past minute. You still require a clear path for the arrow to reach its target."
 					]
 				}
 			]
@@ -4487,7 +4544,12 @@
 			"type": "Item",
 			"category": "Tattoo",
 			"traits": [
-				"Evocation", "Invested", "Magical", "Tattoo", "Sacrier|FPKrosmoz", "Uncommon"
+				"Evocation",
+				"Invested",
+				"Magical",
+				"Tattoo",
+				"Sacrier|FPKrosmoz",
+				"Uncommon"
 			],
 			"consumable": false,
 			"generic": "G",
@@ -4573,7 +4635,13 @@
 			"type": "Item",
 			"category": "Tattoo",
 			"traits": [
-				"Invested", "Magical", "Morph", "Tattoo", "Transmutation", "Sacrier|FPKrosmoz", "Uncommon"
+				"Invested",
+				"Magical",
+				"Morph",
+				"Tattoo",
+				"Transmutation",
+				"Sacrier|FPKrosmoz",
+				"Uncommon"
 			],
 			"usage": "tattooed on the body",
 			"bulk": "\u2014",
@@ -4601,13 +4669,19 @@
 			"type": "Item",
 			"category": "Tattoo",
 			"traits": [
-				"Conjuration", "Extradimensional", "Invested", "Magical", "Tattoo", "Sacrier|FPKrosmoz", "Uncommon"
+				"Conjuration",
+				"Extradimensional",
+				"Invested",
+				"Magical",
+				"Tattoo",
+				"Sacrier|FPKrosmoz",
+				"Uncommon"
 			],
 			"generic": "G",
 			"usage": "tattooed on the body",
 			"bulk": "\u2014",
 			"entries": [
-				"Sacriers often like to store their goods inside their own body, although from an outside perspective it’s often not a great sight. The Bulk held inside the tattoo doesn't change the Bulk of the holding tattoo itself. The amount of Bulk the tattoo’s extradimensional space can hold depends on its type.",
+				"Sacriers often like to store their goods inside their own body, although from an outside perspective it's often not a great sight. The Bulk held inside the tattoo doesn't change the Bulk of the holding tattoo itself. The amount of Bulk the tattoo's extradimensional space can hold depends on its type.",
 				"You can {@action Interact} with the holding tattoo to put items in or remove them just like a mundane sack. Though the tattoo can hold a great amount of material, an object still needs to be able to fit through the tattoo to be stored inside.",
 				"If the tattoo is overloaded or the bearer dies, it ruptures and is ruined, causing the items inside to be lost forever. A living creature placed inside the tattoo has enough air for 10 minutes before it begins to suffocate, and it can attempt to {@action Escape} against a DC of 13. An item inside the tattoo provides no benefits unless it's retrieved first. An item in the tattoo can't be detected by magic that detects only things on the same plane."
 			],
@@ -4684,7 +4758,7 @@
 			"_vmod": {
 				"entries": {
 					"mode": "replaceTxt",
-					"replace": " The amount of Bulk the tattoo’s extradimensional space can hold depends on its type\\."
+					"replace": " The amount of Bulk the tattoo's extradimensional space can hold depends on its type\\."
 				},
 				"entriesMode": "generic"
 			}
@@ -4696,20 +4770,27 @@
 			"type": "Item",
 			"category": "Tattoo",
 			"traits": [
-				"Enchantment", "Emotion", "Invested", "Magical", "Mental", "Tattoo", "Sacrier|FPKrosmoz", "Uncommon"
+				"Enchantment",
+				"Emotion",
+				"Invested",
+				"Magical",
+				"Mental",
+				"Tattoo",
+				"Sacrier|FPKrosmoz",
+				"Uncommon"
 			],
 			"generic": "G",
 			"usage": "tattooed on the body",
 			"bulk": "\u2014",
 			"entries": [
-				"This tattoo makes it harder for a foe to ignore you, attracting their attention and also their attacks. You target a foe, which must succeed at a Will saving throw with the listed DC or take a –1 status penalty to attack rolls against creatures other than you for 1 minute.",
+				"This tattoo makes it harder for a foe to ignore you, attracting their attention and also their attacks. You target a foe, which must succeed at a Will saving throw with the listed DC or take a \u20131 status penalty to attack rolls against creatures other than you for 1 minute.",
 				{
 					"type": "successDegree",
 					"entries": {
 						"Critical: Success": "The creature is unaffected.",
 						"Success": "The target takes the penalty. The spell ends at the end of the target's next turn.",
 						"Failure": "The creature takes the penalty.",
-						"Critical Failure": "The status penalty is –2."
+						"Critical Failure": "The status penalty is \u20132."
 					}
 				}
 			],
@@ -4729,7 +4810,8 @@
 								"unit": "action"
 							},
 							"components": [
-								"envision", "Interact"
+								"envision",
+								"Interact"
 							],
 							"entries": [
 								"You taunt a creature that you can see in a range of 60 ft. and the DC is 20."
@@ -4752,7 +4834,8 @@
 								"unit": "action"
 							},
 							"components": [
-								"envision", "Interact"
+								"envision",
+								"Interact"
 							],
 							"entries": [
 								"You taunt a creature that you can see in a range of 120 ft. and the DC is 28."
@@ -4768,14 +4851,15 @@
 			"type": "Item",
 			"level": "3+",
 			"traits": [
-				"Divination", "Magical"
+				"Divination",
+				"Magical"
 			],
 			"usage": "worn",
-			"bulk": "—",
+			"bulk": "\u2014",
 			"category": "Worn",
 			"entries": [
 				"This ring is shaped much like a cog with lower and softer teeth marks for comfortable use.",
-				"While its simplistic image leaves a lot to be desired, it enhances your curiosity about clockwork and things you probably shouldn't stick your fingers into. You can use an Interact action to pull a repair kit from the ring. This kit appears at your feet and folds back into the ring if it’s further than 5 feet from you. It grants you a +1 item bonus to {@skill Crafting} checks to {@action Craft} and to {@action Repair} clockwork and similar mechanical devices.",
+				"While its simplistic image leaves a lot to be desired, it enhances your curiosity about clockwork and things you probably shouldn't stick your fingers into. You can use an Interact action to pull a repair kit from the ring. This kit appears at your feet and folds back into the ring if it's further than 5 feet from you. It grants you a +1 item bonus to {@skill Crafting} checks to {@action Craft} and to {@action Repair} clockwork and similar mechanical devices.",
 				{
 					"type": "ability",
 					"style": "compact",
@@ -4842,7 +4926,10 @@
 			"type": "Item",
 			"level": "6+",
 			"traits": [
-				"Invested", "Magical", "Transmutation", "Staff"
+				"Invested",
+				"Magical",
+				"Transmutation",
+				"Staff"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "1",
@@ -5002,7 +5089,10 @@
 			"type": "Item",
 			"level": 10,
 			"traits": [
-				"Conjuration", "Magical", "Rare", "Teleportation"
+				"Conjuration",
+				"Magical",
+				"Rare",
+				"Teleportation"
 			],
 			"price": {
 				"coin": "gp",
@@ -5037,7 +5127,9 @@
 			"type": "Item",
 			"level": 5,
 			"traits": [
-				"Rare", "Necromancy", "Magical"
+				"Rare",
+				"Necromancy",
+				"Magical"
 			],
 			"price": {
 				"coin": "gp",
@@ -5073,7 +5165,11 @@
 			"type": "Item",
 			"level": "6+",
 			"traits": [
-				"Consumable", "Elixir", "Eniripsa|FPKrosmoz", "Transmutation", "Uncommon"
+				"Consumable",
+				"Elixir",
+				"Eniripsa|FPKrosmoz",
+				"Transmutation",
+				"Uncommon"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "L",
@@ -5159,7 +5255,11 @@
 			"type": "Item",
 			"level": "1+",
 			"traits": [
-				"Consumable", "Elixir", "Eniripsa|FPKrosmoz", "Mental", "Uncommon"
+				"Consumable",
+				"Elixir",
+				"Eniripsa|FPKrosmoz",
+				"Mental",
+				"Uncommon"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "L",
@@ -5281,7 +5381,10 @@
 			"type": "Item",
 			"level": 10,
 			"traits": [
-				"Illusion", "Magical", "Rare", "Shadow"
+				"Illusion",
+				"Magical",
+				"Rare",
+				"Shadow"
 			],
 			"price": {
 				"coin": "gp",
@@ -5328,7 +5431,7 @@
 			"bulk": "L",
 			"category": "Worn",
 			"entries": [
-				"These decorations go on a Sram’s skull face or skull mask and serve to instill fear in their opponent’s mind. While wearing these decorations, they grant you a +1 item bonus to {@skill Intimidation}."
+				"These decorations go on a Sram's skull face or skull mask and serve to instill fear in their opponent's mind. While wearing these decorations, they grant you a +1 item bonus to {@skill Intimidation}."
 			]
 		},
 		{
@@ -5337,7 +5440,13 @@
 			"type": "Item",
 			"level": 1,
 			"traits": [
-				"Uncommon", "Sram|FPKrosmoz", "Consumable", "Mechanical", "Poison", "Snare", "Trap"
+				"Uncommon",
+				"Sram|FPKrosmoz",
+				"Consumable",
+				"Mechanical",
+				"Poison",
+				"Snare",
+				"Trap"
 			],
 			"price": {
 				"coin": "gp",
@@ -5346,7 +5455,7 @@
 			},
 			"category": "Snare",
 			"entries": [
-				"This trap attempts to inject poison into the target. You fill the trap with a poison that has the {@trait Injury} trait in your possession through an {@action Interact} action when you lay it. When a creature enters the snare’s square, they must attempt a DC 18 basic Reflex saving throw or be injected with the poison."
+				"This trap attempts to inject poison into the target. You fill the trap with a poison that has the {@trait Injury} trait in your possession through an {@action Interact} action when you lay it. When a creature enters the snare's square, they must attempt a DC 18 basic Reflex saving throw or be injected with the poison."
 			]
 		},
 		{
@@ -5355,7 +5464,12 @@
 			"type": "Item",
 			"level": 1,
 			"traits": [
-				"Uncommon", "Sram|FPKrosmoz", "Consumable", "Mechanical", "Snare", "Trap"
+				"Uncommon",
+				"Sram|FPKrosmoz",
+				"Consumable",
+				"Mechanical",
+				"Snare",
+				"Trap"
 			],
 			"price": {
 				"coin": "gp",
@@ -5373,7 +5487,13 @@
 			"type": "Item",
 			"level": 17,
 			"traits": [
-				"Conjuration", "Consumable", "Magical", "Rare", "Snare", "Teleportation", "Trap"
+				"Conjuration",
+				"Consumable",
+				"Magical",
+				"Rare",
+				"Snare",
+				"Teleportation",
+				"Trap"
 			],
 			"price": {
 				"coin": "gp",
@@ -5382,7 +5502,7 @@
 			},
 			"category": "Snare",
 			"entries": [
-				"This magical trap works together with a special unique rune attuned to it, and is useful both to send a foe away or for escaping a dire situation. When laying the trap the rune must have been previously placed somewhere in a 100 miles range from it, or else the trap will fail to activate. When a creature enters the snare’s square, it must make a DC 35 Will save or be transported to the square where the rune is located."
+				"This magical trap works together with a special unique rune attuned to it, and is useful both to send a foe away or for escaping a dire situation. When laying the trap the rune must have been previously placed somewhere in a 100 miles range from it, or else the trap will fail to activate. When a creature enters the snare's square, it must make a DC 35 Will save or be transported to the square where the rune is located."
 			]
 		}
 	]
