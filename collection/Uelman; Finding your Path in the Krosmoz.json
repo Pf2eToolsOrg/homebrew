@@ -1527,7 +1527,7 @@
 				"Xelor|FPKrosmoz"
 			],
 			"entries": [
-				"Your connection to the Xelor’s Clock grants you a divine innate spell. Choose one {@filter cantrip|spells||tradition & Spell List=divine|level=0} from the divine spell list. You can cast this spell as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
+				"Your connection to the Xelor's Clock grants you a divine innate spell. Choose one {@filter cantrip|spells||tradition & Spell List=divine|level=0} from the divine spell list. You can cast this spell as a divine innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up."
 			]
 		},
 		{
