@@ -197,5 +197,95 @@
 				"You spew magic-imbued swears and curses while you attack a foe. Make a melee {@action Spellstrike|SoM} with your fist or unarmed weapon and {@action Demoralize} the target of your {@action Strike}. Do this immediately before making the {@action Strike}, but after choosing your target. The {@action Demoralize} action gains the {@trait arcane} and {@trait enchantment} traits, and it always has the basic effects of a {@action Demoralize}, rather than applying any adjustments or alternate effects from other feats or abilities."
 			]
 		}
+	],
+	"item": [
+		{
+			"name": "Goggles of Revealing",
+			"source": "CoLegerdemains",
+			"type": "Item",
+			"level": "3+",
+			"traits": [
+				"Invested",
+				"Magical",
+				"Divination",
+				"Detection"
+			],
+			"usage": "worn eyepiece",
+			"bulk": "—",
+			"category": "Worn",
+			"entries": [
+				"These brass goggles have thick and almost ethereal purple lenses adjustable by gold and silvery nubs. While worn, they give you a +1 item bonus to {@action Identify Magic} checks to identify magical items and objects.",
+				"The goggles also allow you to cast the {@spell Detect Magic} and {@spell Read Aura} cantrips as arcane innate spells. When casting {@spell Detect Magic} this way, you send out a pulse in a 60-foot cone, rather than the usual 30-foot emanation."
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "goggles of revealing",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 70,
+						"note": null
+					},
+					"entries": []
+				},
+				{
+					"type": "greater goggles of revealing",
+					"level": 9,
+					"price": {
+						"coin": "gp",
+						"amount": 650,
+						"note": null
+					},
+					"entries": [
+						"The item bonus is +2. The {@spell Detect Magic} cantrip is heightened to 3rd-level."
+					],
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceTxt",
+								"replace": "\\+1",
+								"with": "+2"
+							},
+							{
+								"mode": "replaceTxt",
+								"replaceTags": true,
+								"replace": "usual 30-foot emanation.",
+								"with": "usual 30-foot emanation, and the cantrip is heightened to 3rd-level."
+							}
+						],
+						"entriesMode": "generic"
+					}
+				},
+				{
+					"type": "major goggles of revealing",
+					"level": 17,
+					"price": {
+						"coin": "gp",
+						"amount": 13000,
+						"note": null
+					},
+					"entries": [
+						"The item bonus is +3. The {@spell Detect Magic} cantrip is heightened to 4th-level."
+					],
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceTxt",
+								"replace": "\\+1",
+								"with": "+3"
+							},
+							{
+								"mode": "replaceTxt",
+								"replaceTags": true,
+								"replace": "usual 30-foot emanation.",
+								"with": "usual 30-foot emanation, and the cantrip is heightened to 4th-level."
+							}
+						],
+						"entriesMode": "generic"
+					}
+				}
+			]
+		}
 	]
 }
