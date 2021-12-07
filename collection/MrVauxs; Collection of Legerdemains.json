@@ -182,7 +182,10 @@
 			"source": "CoLegerdemains",
 			"name": "Silvery Barbs",
 			"level": 3,
-			"traditions": ["Arcane", "Occult"],
+			"traditions": [
+				"Arcane",
+				"Occult"
+			],
 			"domain": null,
 			"school": "E",
 			"type": "SPELL",
