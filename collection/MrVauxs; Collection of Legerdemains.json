@@ -115,7 +115,10 @@
 			"source": "CoLegerdemains",
 			"name": "Summon Sharknado",
 			"level": 3,
-			"traditions": null,
+			"traditions": [
+				"Arcane",
+				"Primal"
+			],
 			"domain": null,
 			"school": "C",
 			"type": "SPELL",
@@ -125,7 +128,7 @@
 				"V": true
 			},
 			"traits": [
-				"Incarnate|SoM",
+				"Incarnate",
 				"Conjuration",
 				"Water"
 			],
@@ -172,6 +175,48 @@
 				"duration": {
 					"number": 1,
 					"unit": "round"
+				}
+			}
+		},
+		{
+			"source": "CoLegerdemains",
+			"name": "Silvery Barbs",
+			"level": 3,
+			"traditions": ["Arcane", "Occult"],
+			"domain": null,
+			"school": "E",
+			"type": "SPELL",
+			"components": {
+				"M": false,
+				"S": false,
+				"V": true
+			},
+			"traits": [
+				"Enchantment",
+				"Mental"
+			],
+			"heightened": {
+				"heightened": null,
+				"plus_x": null,
+				"x": null,
+				"no_x": null
+			},
+			"trigger": "A creature within range succeeds on an attack roll, skill check or saving throw.",
+			"targets": "the triggering creature, another creature within range",
+			"entries": [
+				"You magically disrupt the triggering creature and turn its momentary uncertainty into encouragement for another creature. The creature must reroll the triggering check, and must use the worse result; this is a {@trait misfortune} effect.",
+				"You select another creature within range. On its next attack roll, skill check or saving throw, it can roll twice and use the better result; this is a {@trait fortune} effect."
+			],
+			"cast": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"range": {
+				"type": "point",
+				"entry": "60 feet",
+				"distance": {
+					"type": "feet",
+					"amount": 60
 				}
 			}
 		}
@@ -224,8 +269,7 @@
 					"level": 3,
 					"price": {
 						"coin": "gp",
-						"amount": 70,
-						"note": null
+						"amount": 70
 					},
 					"entries": []
 				},
@@ -234,8 +278,7 @@
 					"level": 9,
 					"price": {
 						"coin": "gp",
-						"amount": 650,
-						"note": null
+						"amount": 650
 					},
 					"entries": [
 						"The item bonus is +2. The {@spell Detect Magic} cantrip is heightened to 3rd-level."
@@ -262,8 +305,7 @@
 					"level": 17,
 					"price": {
 						"coin": "gp",
-						"amount": 13000,
-						"note": null
+						"amount": 13000
 					},
 					"entries": [
 						"The item bonus is +3. The {@spell Detect Magic} cantrip is heightened to 4th-level."
