@@ -256,7 +256,7 @@
 				"Detection"
 			],
 			"usage": "worn eyepiece",
-			"bulk": "—",
+			"bulk": "\u2014",
 			"category": "Worn",
 			"entries": [
 				"These brass goggles have thick and almost ethereal purple lenses adjustable by gold and silvery nubs. While worn, they give you a +1 item bonus to {@action Identify Magic} checks to identify magical items and objects.",
