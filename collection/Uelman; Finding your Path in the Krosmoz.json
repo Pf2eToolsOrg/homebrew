@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1635352852,
-		"dateLastModified": 1635787149
+		"dateLastModified": 1639925062
 	},
 	"variantrule": [
 		{
@@ -39,6 +39,39 @@
 		}
 	],
 	"trait": [
+		{
+			"name": "Pandawa",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Pandawa|FPKrosmoz|Pandawa's Pint}. {@ancestry Pandawa|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Ecaflip",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Ecaflip|FPKrosmoz|Ecaflip's Coin}. {@ancestry Ecaflip|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Sadida",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Sadida|FPKrosmoz|Sadida's Shoe}. {@ancestry Sadida|FPKrosmoz} craft and use these weapons."
+			]
+		},
 		{
 			"name": "Feca",
 			"source": "FPKrosmoz",
@@ -1115,6 +1148,357 @@
 	],
 	"feat": [
 		{
+			"name": "Awakened Aide",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Animated Aide|FPKrosmoz}",
+			"entries": [
+				"You can now grant your living tools greater sentience to help you in your endeavors. You learn the {@ritual Awaken Object} ritual and gain a +2 circumstance bonus to all primary checks to perform it."
+			]
+		},
+		{
+			"name": "Magnificent Mansion",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You have access to your very own and secure haven mansion where you can keep your treasures safe. You can cast {@spell Magnificent Mansion} as a 7th-level divine innate spell once per day."
+			]
+		},
+		{
+			"name": "Drhellzerker Form",
+			"source": "FPKrosmoz",
+			"level": 17,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisite": "{@feat Drheller Companion|FPKrosmoz}",
+			"entries": [
+				"You touch your Drheller companion and fuse with them to become a Drhellzerker. Your Dhreller companion disappears, and you cast {@spell Animal Form} as a 5th-level divine innate spell using the statistics and abilities of the cat battle form, except you can use your humanoid form's AC if it's higher than what the animal form grants. When the spell ends, your Drheller companion reappears adjacent to you.",
+				"You gain additional benefits if you have the following feats:",
+				{
+					"type": "list",
+					"items": [
+						"{@feat Mature Drheller|FPKrosmoz}: When in Drhellzerker Form you gain a burrowing speed of 20 feet.",
+						"{@feat Incredible Drheller|FPKrosmoz}: When in Drhellzerker Form, you gain your Drheller’s Badger Rage action.",
+						"{@feat Specialized Drheller|FPKrosmoz}: When in Drhellzerker Form, you gain your Drheller’s specializations."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telluric Strikes",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You channel strength from the earth beneath your feet to pummel your enemies. When making a melee {@action Strike} against a target who is standing on the same earth or stone surface as you are, you gain a circumstance bonus to the damage roll equal to the number of weapon damage dice."
+			]
+		},
+		{
+			"name": "Specialized Drheller",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"Your Drheller companion continues to grow in power and ability, and it is now cunning enough to become specialized. Your animal companion gains one specialization of your choice."
+			],
+			"special": "You can select this feat up to two times. Each time, add a different specialization to your companion."
+		},
+		{
+			"name": "Hidden Chest",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"There is no safer place for your greatest riches than a pocket dimension. You can cast the {@spell Secret Chest|Apg} at 5th level as an innate divine spell."
+			]
+		},
+		{
+			"name": "Animated Aide",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisite": "expert in {@skill Arcana}",
+			"entries": [
+				"You have learned a way to bring your trusty digging tools, bags, and chests to life. You learn the {@ritual Animate Object} ritual and gain a +2 circumstance bonus to all primary checks to perform it."
+			]
+		},
+		{
+			"name": "Enutrof Weapon Expertise",
+			"source": "FPKrosmoz",
+			"level": 13,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Enutrof Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Whenever you gain a class feature that grants you expert or greater proficiency in certain weapons, you also gain that proficiency rank in all weapons you are trained in from {@feat Enutrof Weapon Familiarity|FPKrosmoz}."
+			]
+		},
+		{
+			"name": "Incredible Drheller",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Mature Drheller|FPKrosmoz}",
+			"entries": [
+				"Your Drheller companion continues to grow and develop. It becomes a nimble or savage animal companion (your choice), gaining additional capabilities determined by the type of companion."
+			]
+		},
+		{
+			"name": "Enutrof Magic",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You channel Enutrof’s prosperous magic. You can cast {@spell Charitable Urge|APG} and {@spell Phantasmal Treasure|APG} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Ancient Spells",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You unlock new magical potential in your old bones. You can cast {@spell Day’s Weight|SoM} and {@spell Locate} each once per day as 2nd-level divine innate spells."
+			]
+		},
+		{
+			"name": "Advanced Geology",
+			"source": "FPKrosmoz",
+			"level": 9,
+			"activity": {
+				"unit": "action",
+				"number": 1
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz",
+				"Concentrate"
+			],
+			"requirements": "You are standing on a stone or earthen surface.",
+			"entries": [
+				"You grow a connection to the earth at your feet. Until the start of your next turn, you gain a new sense: imprecise {@ability tremorsense} with a range of 20 feet."
+			]
+		},
+		{
+			"name": "Mature Drheller",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Drheller Companion|FPKrosmoz}",
+			"entries": [
+				"Your Drheller companion grows up, becoming a mature animal companion and gaining additional capabilities. During an encounter, even if you don't use the {@action Command an Animal} action, your animal companion can still use 1 action on your turn to either {@action Stride} or {@action Strike}."
+			],
+			"leadsTo": [
+				"Incredible Drheller|FPKrosmoz"
+			]
+		},
+		{
+			"name": "Enutrof Weapon Scour",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"prerequisites": "{@feat Enutrof Weapon Familiarity|FPKrosmoz}",
+			"entries": [
+				"Your vivacity with enutrof weapons is unrivaled. Whenever you critically hit using one of the weapons from your {@feat Enutrof Weapon Familiarity|FPKrosmoz}, you apply the weapon's critical specialization effect."
+			]
+		},
+		{
+			"name": "Seismic Shake",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"activity": {
+				"unit": "action",
+				"number": 1
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"frequency": "once every 10 minutes",
+			"entries": [
+				"You have the power to shake and shatter the earth around you. You crack the ground beneath you, creating difficult terrain in a 5-foot burst centered on one corner of your space."
+			]
+		},
+		{
+			"name": "Clumsiness",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You hinder the opponent’s movements to gain the upper hand. You can cast {@spell befuddle|LOGM} once per day as a 1st-level divine innate spell."
+			]
+		},
+		{
+			"name": "Cancel Fortune",
+			"source": "FPKrosmoz",
+			"activity": {
+				"unit": "reaction",
+				"number": 1
+			},
+			"level": 5,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz",
+				"Concentrate", "Divination", "Divine"
+			],
+			"frequency": "once per day",
+			"trigger": "A creature within 60 feet uses a {@trait fortune} or {@trait misfortune} effect.",
+			"entries": [
+				"As someone attempts to twist fate against you or in their favor, you even the ground.",
+				"The triggering effect is disrupted. If it's a {@trait misfortune} effect, Cancel Fortune gains the {@trait fortune} trait; if it's a {@trait fortune} effect, Cancel Fortune gains the {@trait misfortune} trait. This {@trait fortune} or {@trait misfortune} applies to the same roll the triggering effect would have, so you couldn't negate a {@trait fortune} effect with Cancel Fortune and then apply a {@trait misfortune} effect to the same roll."
+			]
+		},
+		{
+			"name": "Dogged Scrutiny",
+			"source": "FPKrosmoz",
+			"level": 5,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You can’t rush things, not when there’s potential riches to be found. You can voluntarily spend twice as much time as normal on a Perception check or skill check to gain a +2 circumstance bonus to that check. You also don't treat a natural 1 as worse than usual on these checks; you get a critical failure only if your result is 10 lower than the DC. For example, you could get these benefits if you spent 2 actions to Seek, which normally takes 1 action. You can get these benefits during exploration by taking twice as long exploring as normal, or in downtime by spending twice as much downtime.",
+				"The GM might determine a situation doesn't grant you a benefit if a delay would be directly counterproductive to your success, such as a tense negotiation with an impatient creature."
+			]
+		},
+		{
+			"name": "Prospector",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You’ve spent a lifetime searching for precious gems underground, you have learned to find your way without landmarks or even solid ground. If you roll a success on an {@skill Survival} check to {@action Sense Direction} or an {@skill Athletics} check to {@action Climb}, you get a critical success instead. You're not {@condition flat-footed} when you attempt to {@action Climb}."
+			]
+		},
+		{
+			"name": "Finder’s Eyes",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You're always on the lookout for treasure. Each time you use the {@action Seek} action to search for objects (including secret doors and hazards), you can search for objects in your choice of a 10-foot emanation around you or an adjacent 15-foot-by-15-foot area, rather than a single adjacent 10-foot-by-10-foot area."
+			]
+		},
+		{
+			"name": "Eye for Craftsmanship",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You can recognize good quality when you see it. You become trained in {@skill Crafting} and gain a +1 circumstance bonus on all {@skill Crafting} checks made to {@action Recall Knowledge}.",
+				"If you would automatically become trained in {@skill Crafting} (from your background or class, for example), you instead become trained in a skill of your choice. In addition, you gain the {@feat Crafter's Appraisal} skill feat, enabling you to identify magic items using the {@skill Crafting} skill."
+			]
+		},
+		{
+			"name": "Enutrof Weapon Familiarity",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"leadsTo": [
+				"Enutrof Weapon Scour|FPKrosmoz",
+				"Enutrof Weapon Expertise|FPKrosmoz"
+			],
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"An Enutrof can turn their digging tools into a perfect weapon. You are trained with the {@item staff}, {@item light pick}, {@item pick}, {@item sword cane}, and {@item polytool}. In addition, you gain access to {@item polytool||polytools} and all {@filter uncommon enutrof weapons|items||Category=Weapon|Rarity=Uncommon|Ancestry & Heritage=enutrof}. For the purpose of determining your proficiency, martial enutrof weapons are simple weapons and advanced enutrof weapons are martial weapons."
+			]
+		},
+		{
+			"name": "Enutrof’s Fingers Lore",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You have lived the life that Enutrof intended, following all of his tenets. You gain the trained proficiency in your choice of {@skill Diplomacy} and either {@skill Deception} or {@skill Society}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Enutrof Lore}."
+			]
+		},
+		{
+			"name": "Driving Ambition",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You aim to be the best at what you do, and earn the greatest profit from it. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet."
+			]
+		},
+		{
+			"name": "Drheller Companion",
+			"source": "FPKrosmoz",
+			"level": 1,
+			"leadsTo": [
+				"Mature Drheller|FPKrosmoz",
+				"Drhellzerker Form|FPKrosmoz"
+			],
+			"featType": {
+				"ancestry": "Enutrof"
+			},
+			"traits": [
+				"Enutrof|FPKrosmoz"
+			],
+			"entries": [
+				"You can summon your own Drheller to help you find new treasures. You gain an Animal Companion, and it uses the {@companion Badger} stat block."
+			]
+		},
+		{
 			"name": "Time Distortion",
 			"source": "FPKrosmoz",
 			"level": 17,
@@ -1126,7 +1510,7 @@
 			],
 			"prerequisites": "{@feat Time Rift|FPKrosmoz}",
 			"entries": [
-				"Your time magic expertise allows you to teleport in a series of quick jumps rather than in one big leap. You can expend your hourly use of {@spell dimension door} as a free action when you begin your turn. If you do, your {@action Stride||Strides} are augmented until the end of your turn, allowing you to instantly teleport to any point you could reach with your Speed instead of traversing normally to the location. While augmented, your Strides gain the {@trait conjuration} and {@trait teleportation} traits. Your augmented {@action Stride||Strides} don't trigger reactions that can be triggered by {@trait move} actions or upon leaving or entering a square, unless those reactions trigger on teleportation."
+				"Your time magic expertise allows you to teleport in a series of quick jumps rather than in one big leap. You can expend your hourly use of {@spell dimension door} as a free action when you begin your turn. If you do, your {@action Stride||Strides} are augmented until the end of your turn, allowing you to instantly teleport to any point you could reach with your Speed instead of traversing normally to the location. While augmented, your {@action Stride||Strides} gain the {@trait conjuration} and {@trait teleportation} traits. Your augmented {@action Stride||Strides} don't trigger reactions that can be triggered by {@trait move} actions or upon leaving or entering a square, unless those reactions trigger on teleportation."
 			]
 		},
 		{
@@ -3712,7 +4096,7 @@
 			"hands": 1,
 			"reload": 0,
 			"range": 60,
-			"ranged": true,
+
 			"bulk": "L",
 			"ammunition": "Bolt",
 			"category": "Weapon",
@@ -4565,7 +4949,7 @@
 						"entry": "{@as 1} to {@as 2}"
 					},
 					"components": [
-						"cast a spell"
+						"{@action Cast a Spell}"
 					],
 					"frequency": "once per day",
 					"entries": [
@@ -4591,7 +4975,7 @@
 								"entry": "{@as 1} to {@as 2}"
 							},
 							"components": [
-								"cast a spell"
+								"{@action Cast a Spell}"
 							],
 							"frequency": "once per day",
 							"entries": [
@@ -4617,7 +5001,7 @@
 								"entry": "{@as 1} to {@as 3}"
 							},
 							"components": [
-								"cast a spell"
+								"{@action Cast a Spell}"
 							],
 							"frequency": "once per hour",
 							"entries": [
@@ -4940,7 +5324,7 @@
 					"type": "ability",
 					"style": "compact",
 					"components": [
-						"Cast a Spell"
+						"{@action Cast a Spell}"
 					],
 					"frequency": null,
 					"trigger": null,
