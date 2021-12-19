@@ -12154,7 +12154,6 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
 			"traits": [
@@ -12187,7 +12186,6 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
 			"traits": [
@@ -12218,7 +12216,6 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-
 			"level": 1,
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
@@ -12251,7 +12248,6 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
@@ -12282,7 +12278,6 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
@@ -12313,7 +12308,6 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [

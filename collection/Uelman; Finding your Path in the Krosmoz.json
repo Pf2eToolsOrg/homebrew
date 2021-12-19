@@ -1185,8 +1185,8 @@
 					"type": "list",
 					"items": [
 						"{@feat Mature Drheller|FPKrosmoz}: When in Drhellzerker Form you gain a burrowing speed of 20 feet.",
-						"{@feat Incredible Drheller|FPKrosmoz}: When in Drhellzerker Form, you gain your Drheller’s Badger Rage action.",
-						"{@feat Specialized Drheller|FPKrosmoz}: When in Drhellzerker Form, you gain your Drheller’s specializations."
+						"{@feat Incredible Drheller|FPKrosmoz}: When in Drhellzerker Form, you gain your Drheller's Badger Rage action.",
+						"{@feat Specialized Drheller|FPKrosmoz}: When in Drhellzerker Form, you gain your Drheller's specializations."
 					]
 				}
 			]
@@ -1269,7 +1269,7 @@
 				"Enutrof|FPKrosmoz"
 			],
 			"entries": [
-				"You channel Enutrof’s prosperous magic. You can cast {@spell Charitable Urge|APG} and {@spell Phantasmal Treasure|APG} each once per day as 2nd-level divine innate spells."
+				"You channel Enutrof's prosperous magic. You can cast {@spell Charitable Urge|APG} and {@spell Phantasmal Treasure|APG} each once per day as 2nd-level divine innate spells."
 			]
 		},
 		{
@@ -1280,7 +1280,7 @@
 				"Enutrof|FPKrosmoz"
 			],
 			"entries": [
-				"You unlock new magical potential in your old bones. You can cast {@spell Day’s Weight|SoM} and {@spell Locate} each once per day as 2nd-level divine innate spells."
+				"You unlock new magical potential in your old bones. You can cast {@spell Day's Weight|SoM} and {@spell Locate} each once per day as 2nd-level divine innate spells."
 			]
 		},
 		{
@@ -1351,7 +1351,7 @@
 				"Enutrof|FPKrosmoz"
 			],
 			"entries": [
-				"You hinder the opponent’s movements to gain the upper hand. You can cast {@spell befuddle|LOGM} once per day as a 1st-level divine innate spell."
+				"You hinder the opponent's movements to gain the upper hand. You can cast {@spell befuddle|LOGM} once per day as a 1st-level divine innate spell."
 			]
 		},
 		{
@@ -1367,7 +1367,9 @@
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz",
-				"Concentrate", "Divination", "Divine"
+				"Concentrate",
+				"Divination",
+				"Divine"
 			],
 			"frequency": "once per day",
 			"trigger": "A creature within 60 feet uses a {@trait fortune} or {@trait misfortune} effect.",
@@ -1387,7 +1389,7 @@
 				"Enutrof|FPKrosmoz"
 			],
 			"entries": [
-				"You can’t rush things, not when there’s potential riches to be found. You can voluntarily spend twice as much time as normal on a Perception check or skill check to gain a +2 circumstance bonus to that check. You also don't treat a natural 1 as worse than usual on these checks; you get a critical failure only if your result is 10 lower than the DC. For example, you could get these benefits if you spent 2 actions to Seek, which normally takes 1 action. You can get these benefits during exploration by taking twice as long exploring as normal, or in downtime by spending twice as much downtime.",
+				"You can't rush things, not when there's potential riches to be found. You can voluntarily spend twice as much time as normal on a Perception check or skill check to gain a +2 circumstance bonus to that check. You also don't treat a natural 1 as worse than usual on these checks; you get a critical failure only if your result is 10 lower than the DC. For example, you could get these benefits if you spent 2 actions to Seek, which normally takes 1 action. You can get these benefits during exploration by taking twice as long exploring as normal, or in downtime by spending twice as much downtime.",
 				"The GM might determine a situation doesn't grant you a benefit if a delay would be directly counterproductive to your success, such as a tense negotiation with an impatient creature."
 			]
 		},
@@ -1402,11 +1404,11 @@
 				"Enutrof|FPKrosmoz"
 			],
 			"entries": [
-				"You’ve spent a lifetime searching for precious gems underground, you have learned to find your way without landmarks or even solid ground. If you roll a success on an {@skill Survival} check to {@action Sense Direction} or an {@skill Athletics} check to {@action Climb}, you get a critical success instead. You're not {@condition flat-footed} when you attempt to {@action Climb}."
+				"You've spent a lifetime searching for precious gems underground, you have learned to find your way without landmarks or even solid ground. If you roll a success on an {@skill Survival} check to {@action Sense Direction} or an {@skill Athletics} check to {@action Climb}, you get a critical success instead. You're not {@condition flat-footed} when you attempt to {@action Climb}."
 			]
 		},
 		{
-			"name": "Finder’s Eyes",
+			"name": "Finder's Eyes",
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
@@ -1453,7 +1455,7 @@
 			]
 		},
 		{
-			"name": "Enutrof’s Fingers Lore",
+			"name": "Enutrof's Fingers Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
@@ -4096,7 +4098,6 @@
 			"hands": 1,
 			"reload": 0,
 			"range": 60,
-
 			"bulk": "L",
 			"ammunition": "Bolt",
 			"category": "Weapon",
