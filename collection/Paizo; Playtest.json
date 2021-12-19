@@ -11294,7 +11294,7 @@
 			},
 			"prerequisites": "construct innovation",
 			"entries": [
-				"Your construct unleashes a broad swath of devastation by separating its limbs, deploying {@condition hidden} armaments, or something similar. You Command your innovation, except that instead of its normal actions, it Strides once, then makes a {@action Strike|CRB} against each creature within 30 feet of it. The multiple attack penalty doesn't increase until after the construct makes all the attacks."
+				"Your construct unleashes a broad swath of devastation by separating its limbs, deploying {@condition hidden} armaments, or something similar. You Command your innovation, except that instead of its normal actions, it {@action Stride||Strides} once, then makes a {@action Strike|CRB} against each creature within 30 feet of it. The multiple attack penalty doesn't increase until after the construct makes all the attacks."
 			],
 			"activity": {
 				"number": 3,
@@ -12154,7 +12154,7 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-			"ranged": true,
+
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
 			"traits": [
@@ -12187,7 +12187,7 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-			"ranged": true,
+
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
 			"traits": [
@@ -12218,7 +12218,7 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-			"ranged": true,
+
 			"level": 1,
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
@@ -12251,7 +12251,7 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-			"ranged": true,
+
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
@@ -12282,7 +12282,7 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-			"ranged": true,
+
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
@@ -12313,7 +12313,7 @@
 			"type": "Equipment",
 			"equipment": true,
 			"category": "Weapon",
-			"ranged": true,
+
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
