@@ -31,7 +31,7 @@
 					"name": "Unaligned Deities",
 					"source": "FPKrosmoz",
 					"entries": [
-						"The gods in the World of Twelve are fickle and ever-changing. Be it due to their grand plans, capricious personality or reincarnating nature, most gods can fit any alignment. As long as mortals do not disrespect them or interfere with their plans, they do not have any regard for their faithfuls’ alignment.",
+						"The gods in the World of Twelve are fickle and ever-changing. Be it due to their grand plans, capricious personality or reincarnating nature, most gods can fit any alignment. As long as mortals do not disrespect them or interfere with their plans, they do not have any regard for their faithfuls' alignment.",
 						"If any spell or effect requires you to choose an alignment your unaligned deity has, you instead choose from your own alignment."
 					]
 				}
@@ -1230,7 +1230,7 @@
 					"type": "pf2-h3",
 					"name": "Society",
 					"entries": [
-						"Societies in the World of Twelve are highly multicultural, and in them Sadidas often take on the jobs that involve plants. All Sadidas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Sadidas make great botanists and gardeners, or at least good enough to overlook their habit of sleeping during work hours. Others prefer to craft toys and other childrens’ toys. It is also not uncommon for a Sadida to live away from society, in a forest or jungle, where they can be in close contact with their god and sleep to their heart’s desire."
+						"Societies in the World of Twelve are highly multicultural, and in them Sadidas often take on the jobs that involve plants. All Sadidas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Sadidas make great botanists and gardeners, or at least good enough to overlook their habit of sleeping during work hours. Others prefer to craft toys and other childrens' toys. It is also not uncommon for a Sadida to live away from society, in a forest or jungle, where they can be in close contact with their god and sleep to their heart's desire."
 					]
 				},
 				{
@@ -1261,7 +1261,7 @@
 					"shortName": "Forestal",
 					"source": "FPKrosmoz",
 					"entries": [
-						"You’ve lived your life surrounded by wild plants and can move around them freely. You can ignore difficult terrain and uneven ground caused by undergrowth. In addition, when you use the {@skill Acrobatics} skill to {@action Balance} on narrow surfaces or uneven ground within forests, you aren't {@condition flat-footed}. When you roll a success attempting one of these {@skill Acrobatics} checks, you get a critical success instead."
+						"You've lived your life surrounded by wild plants and can move around them freely. You can ignore difficult terrain and uneven ground caused by undergrowth. In addition, when you use the {@skill Acrobatics} skill to {@action Balance} on narrow surfaces or uneven ground within forests, you aren't {@condition flat-footed}. When you roll a success attempting one of these {@skill Acrobatics} checks, you get a critical success instead."
 					]
 				},
 				{
@@ -1331,7 +1331,7 @@
 						{
 							"type": "list",
 							"items": [
-								"Think you can’t take anything seriously.",
+								"Think you can't take anything seriously.",
 								"Fear your gambles will put them in risk.",
 								"Find you very fun to have around."
 							]
@@ -1406,8 +1406,7 @@
 				"Strength",
 				"Free"
 			],
-			"flaws": [
-			],
+			"flaws": [],
 			"languages": [
 				"{@language Common}",
 				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
@@ -1416,8 +1415,7 @@
 				"Humanoid",
 				"Pandawa"
 			],
-			"features": [
-			],
+			"features": [],
 			"info": [
 				"The eternally thirsty goddess Pandawa made her disciples in her image, and they can really knock one back! They master the art of emptying a beer mug, a tankard or a pint glass perfectly, and it does them good! Once it reaches the drunken state, a Pandawa can go wild and do anything with their body! They can even do anything with others' bodies, both good and bad. It all depends on whose side you're on...",
 				"Pandawas are much appreciated for their unusual martial arts techniques. Although they seem to be drunk, they can get one over on you, one moment escaping like water running through stones, the next smashing skulls like a brute! Handy with axes, and gifted with an unfailing sense of humour, they take every chance they can get to fight, even if it's just for a laugh. Those who persevere in the martial arts path become great masters and people travel from far-off lands to learn their teachings.",
@@ -1461,7 +1459,7 @@
 					"type": "pf2-h3",
 					"name": "Society",
 					"entries": [
-						"Societies in the World of Twelve are highly multicultural, and in them Pandawas often take on the jobs that involve physical fitness or that are in close proximity to alcohol. All Pandawas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Pandawas often work as warriors or lumberjacks, although the ones with some self-restraint may decide to work at a bar as bartender or waiter. Those with no self-restraint may end up living as the town’s local drunkard."
+						"Societies in the World of Twelve are highly multicultural, and in them Pandawas often take on the jobs that involve physical fitness or that are in close proximity to alcohol. All Pandawas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Pandawas often work as warriors or lumberjacks, although the ones with some self-restraint may decide to work at a bar as bartender or waiter. Those with no self-restraint may end up living as the town's local drunkard."
 					]
 				},
 				{
@@ -1475,7 +1473,7 @@
 					"type": "pf2-h3",
 					"name": "Names",
 					"entries": [
-						"Pandawa names are often syllabic or share parts of it with their goddess’s name.",
+						"Pandawa names are often syllabic or share parts of it with their goddess's name.",
 						{
 							"type": "pf2-h4",
 							"name": "Sample Names",
@@ -1517,8 +1515,7 @@
 				"Charisma",
 				"Free"
 			],
-			"flaws": [
-			],
+			"flaws": [],
 			"languages": [
 				"{@language Common}",
 				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
@@ -1527,8 +1524,7 @@
 				"Humanoid",
 				"Osamodas"
 			],
-			"features": [
-			],
+			"features": [],
 			"info": [
 				"Osamodas are probably the only adventurers who can spend time in the Evil Forest at night without being scared of the ominous cries that echo through the trees. Cawing Crows? Whispering Evil Tofus? Winking eyes? Nope, nothing scares them, because they know everything about all creatures. They can read the hearts of beasts like open books. Any creature endowed with an ounce of common sense will avoid an Osamodas' gaze for fear of surrendering itself to him. After all, who knows what an Osamodas might do with a captured creature...",
 				"Osamodas's followers have a power that anyone would love to have: they can summon creatures and use them in fights. It's rumoured that these excellent tamers cut their clothes from the skin of their enemies, but you'll have to ask an Osamodas whether it's true or not... And you'll see for yourself when you end up as a boot or a fur-lined beanie!",
@@ -1565,7 +1561,7 @@
 					"type": "pf2-h3",
 					"name": "Physical Description",
 					"entries": [
-						"Followers of Sadida are about as tall as other average humans of similar physique. They have small horns on their head and usually have a slim arrow-shaped tail on their back. Their hair is often of a very light colour, or even white. Their hairstyles are often short or shoulder-length, and often they also prefer shaving their head and decorating their forehead with a paw-print tattoo or similar. Sometimes, usually when living in symbiosis with a Gobgob, an Osamodas’s skin is of a particular colour, most commonly blue.",
+						"Followers of Sadida are about as tall as other average humans of similar physique. They have small horns on their head and usually have a slim arrow-shaped tail on their back. Their hair is often of a very light colour, or even white. Their hairstyles are often short or shoulder-length, and often they also prefer shaving their head and decorating their forehead with a paw-print tattoo or similar. Sometimes, usually when living in symbiosis with a Gobgob, an Osamodas's skin is of a particular colour, most commonly blue.",
 						"Osamodas age at a similar rate to normal humans. Most Osamodas can live to be up to 80 years of age, but the more powerful Osamodas could live for nearly two centuries. Osamodas weigh the same as normal humans of similar physique. Some Osamodas like wearing sleeveless shirts and baggy shorts or skirts, often wearing a large belt with a paw-print buckle. But another common Osamodas fashion turns around fluffy fur-based accessories and hand-sewn shorts and leotards."
 					]
 				},
@@ -1592,7 +1588,7 @@
 							"type": "pf2-h4",
 							"name": "Sample Names",
 							"entries": [
-								"Simone, Abrazelon Sixgriffe, Furye, Bethel Akarna, Lethaline, Toh’Lo, Mishell, Kabrok, Aurora"
+								"Simone, Abrazelon Sixgriffe, Furye, Bethel Akarna, Lethaline, Toh'Lo, Mishell, Kabrok, Aurora"
 							]
 						}
 					]
@@ -4739,7 +4735,12 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Enutrof|FPKrosmoz", "Bulldozing|FPKrosmoz",  "Thrown 10 ft.", "Sweep", "Versatile B"
+				"Uncommon",
+				"Enutrof|FPKrosmoz",
+				"Bulldozing|FPKrosmoz",
+				"Thrown 10 ft.",
+				"Sweep",
+				"Versatile B"
 			],
 			"price": {
 				"amount": 5,
@@ -4762,7 +4763,12 @@
 			"equipment": true,
 			"type": "Equipment",
 			"traits": [
-				"Uncommon", "Enutrof|FPKrosmoz", "Bulldozing|FPKrosmoz",  "Thrown 10 ft.", "Shove", "Two-hand 1d10"
+				"Uncommon",
+				"Enutrof|FPKrosmoz",
+				"Bulldozing|FPKrosmoz",
+				"Thrown 10 ft.",
+				"Shove",
+				"Two-hand 1d10"
 			],
 			"price": {
 				"amount": 5,
@@ -4776,7 +4782,7 @@
 			"subCategory": "Martial",
 			"group": "Club",
 			"entries": [
-				"This shovel was crafted with both the purpose of digging the earth and hitting someone’s head as hard as you can. It deals {@damage 1d6} bludgeoning damage."
+				"This shovel was crafted with both the purpose of digging the earth and hitting someone's head as hard as you can. It deals {@damage 1d6} bludgeoning damage."
 			]
 		},
 		{
@@ -4972,7 +4978,10 @@
 			"type": "Item",
 			"level": "6+",
 			"traits": [
-				"Earth", "Magical", "Uncommon", "Teleportation"
+				"Earth",
+				"Magical",
+				"Uncommon",
+				"Teleportation"
 			],
 			"usage": "held in 1 hand",
 			"bulk": "L",
@@ -5049,12 +5058,15 @@
 			]
 		},
 		{
-			"name": "Dealer’s Ring",
+			"name": "Dealer's Ring",
 			"source": "FPKrosmoz",
 			"type": "Item",
 			"level": 5,
 			"traits": [
-				"Divination", "Invested", "Magical", "Transmutation"
+				"Divination",
+				"Invested",
+				"Magical",
+				"Transmutation"
 			],
 			"usage": "worn item",
 			"price": {
@@ -5063,7 +5075,7 @@
 			},
 			"category": "Worn",
 			"entries": [
-				"This ring of pure gold is a merchant’s favorite, as its magic greatly helps with taking care of the shop. You gain a +1 item bonus to {@skill Diplomacy} checks.",
+				"This ring of pure gold is a merchant's favorite, as its magic greatly helps with taking care of the shop. You gain a +1 item bonus to {@skill Diplomacy} checks.",
 				{
 					"type": "ability",
 					"style": "compact",
@@ -6548,10 +6560,12 @@
 			],
 			"category": "The First Gods",
 			"edicts": [
-				"fight to your last breath", "hold valor in your heart"
+				"fight to your last breath",
+				"hold valor in your heart"
 			],
 			"anathema": [
-				"give up in a fight", "refuse a fair challenge"
+				"give up in a fight",
+				"refuse a fair challenge"
 			],
 			"devoteeBenefits": {
 				"font": [
@@ -6568,7 +6582,10 @@
 					"Athletics"
 				],
 				"domains": [
-					"destruction", "might", "tyranny", "zeal"
+					"destruction",
+					"might",
+					"tyranny",
+					"zeal"
 				],
 				"spells": {
 					"1": [
@@ -6591,10 +6608,10 @@
 				],
 				"boon": {
 					"Minor Boon": [
-						"Iop grants you a weapon whenever you need one. You can use an {@action Interact} action to draw a 0-level non-magical iron weapon, even if you have no weapons on your person. Such a weapon lasts only as long as you continue using it to attack, and it can’t be sold, given away, melted for scrap iron, or the like."
+						"Iop grants you a weapon whenever you need one. You can use an {@action Interact} action to draw a 0-level non-magical iron weapon, even if you have no weapons on your person. Such a weapon lasts only as long as you continue using it to attack, and it can't be sold, given away, melted for scrap iron, or the like."
 					],
 					"Moderate Boon": [
-						"Your blows become unstoppable, carrying the momentum of Iop’s thrill for battle. Your {@item bastard sword} and other {@filter Iop weapon|items||Ancestry & Heritage=Iop|Category=Weapon} {@action Strike||Strikes} gain the {@trait forceful} trait."
+						"Your blows become unstoppable, carrying the momentum of Iop's thrill for battle. Your {@item bastard sword} and other {@filter Iop weapon|items||Ancestry & Heritage=Iop|Category=Weapon} {@action Strike||Strikes} gain the {@trait forceful} trait."
 					],
 					"Major Boon": [
 						"Iop imbues your blade with great power. {@item Bastard swords} and other {@filter Iop weapons|items||Ancestry & Heritage=Iop|Category=Weapon} you wield gain the {@item axiomatic}, {@item holy} (or {@item unholy} if you are evil), and {@item major striking} runes while you hold them. These property runes count toward the number of runes you can have on your weapon, and if this would cause your weapon to exceed its limit, choose which ones to keep each day when you prepare. You gain a +2 status bonus to attack rolls with {@item bastard swords} and other {@filter Iop weapons|items||Ancestry & Heritage=Iop|Category=Weapon}."
@@ -6605,15 +6622,14 @@
 						"Your blade and armor have dulled like lead. Your weapons, armor, and shields have half their usual Hit Points and Break Threshold."
 					],
 					"Moderate Curse": [
-						"You’ve lost the glory of slaying a worthy opponent. All of your weapon and unarmed attacks decrease their damage dice by one step, and all your attacks are {@trait nonlethal}."
+						"You've lost the glory of slaying a worthy opponent. All of your weapon and unarmed attacks decrease their damage dice by one step, and all your attacks are {@trait nonlethal}."
 					],
 					"Major Curse": [
-						"All blades reject your wicked heart. Any weapon you wield automatically becomes broken after you {@action Strike} with it. This curse can’t break artifacts or similarly powerful weapons."
+						"All blades reject your wicked heart. Any weapon you wield automatically becomes broken after you {@action Strike} with it. This curse can't break artifacts or similarly powerful weapons."
 					]
 				}
 			},
-			"images": [
-			]
+			"images": []
 		}
 	],
 	"deityFluff": [
@@ -6670,7 +6686,7 @@
 						{
 							"type": "pf2-h3",
 							"entries": [
-								"Her beauty is as fearsome as her arrows... apparently, only her disciples can look at her without falling head over heels in love! Her followers must develop a pure, unfailing devotion to her... which isn't as easy as it sounds when she's demonstrating how to handle bows as effectively as possible…"
+								"Her beauty is as fearsome as her arrows... apparently, only her disciples can look at her without falling head over heels in love! Her followers must develop a pure, unfailing devotion to her... which isn't as easy as it sounds when she's demonstrating how to handle bows as effectively as possible..."
 							]
 						}
 					]
@@ -6790,7 +6806,7 @@
 						{
 							"type": "pf2-h3",
 							"entries": [
-								"Xelor is the master of Time. He is responsible for the Divine Clock, which sets the rhythm for the World's time. His face remains covered, hidden under a large pointy hat, and his hammer is stamped with the seal of the infinite. He looks threatening, and it's a good thing, as the demons of the hours, who love to kill time by being mischievous, might have misbehaved even more otherwise! Just like his disciples, he wears wrappings, except that his crumble to dust as soon as he moves…"
+								"Xelor is the master of Time. He is responsible for the Divine Clock, which sets the rhythm for the World's time. His face remains covered, hidden under a large pointy hat, and his hammer is stamped with the seal of the infinite. He looks threatening, and it's a good thing, as the demons of the hours, who love to kill time by being mischievous, might have misbehaved even more otherwise! Just like his disciples, he wears wrappings, except that his crumble to dust as soon as he moves..."
 							]
 						}
 					]
@@ -6881,7 +6897,7 @@
 						{
 							"type": "pf2-h3",
 							"entries": [
-								"People say that \"there are two things you can't look at directly: the Sun and Sadida\", and that that's why this god always wears a mask, so that gods and mortals alike can converse with him. Sadida is the plant god par excellence. All he wants to do is make things sprout, blossom and bloom. His disciples get their powers from plant life and learn to use them to the fullest. Sadida can be seen from time to time during spring nights when the moon is full, dancing on the ridges, followed by a string of buds and flowers…"
+								"People say that \"there are two things you can't look at directly: the Sun and Sadida\", and that that's why this god always wears a mask, so that gods and mortals alike can converse with him. Sadida is the plant god par excellence. All he wants to do is make things sprout, blossom and bloom. His disciples get their powers from plant life and learn to use them to the fullest. Sadida can be seen from time to time during spring nights when the moon is full, dancing on the ridges, followed by a string of buds and flowers..."
 							]
 						}
 					]
@@ -6911,7 +6927,7 @@
 						{
 							"type": "pf2-h3",
 							"entries": [
-								"Only confirmed gamblers can appear to the god Ecaflip. They are the only ones who will find mercy in the eyes of the god and who can receive his favors. As for the others, some clever kitties will be shown what their future holds, but you can bet that the god Ecaflip, always a bit mischievous, will send anyone he doesn't like to the beyond... but give them a chance to escape…"
+								"Only confirmed gamblers can appear to the god Ecaflip. They are the only ones who will find mercy in the eyes of the god and who can receive his favors. As for the others, some clever kitties will be shown what their future holds, but you can bet that the god Ecaflip, always a bit mischievous, will send anyone he doesn't like to the beyond... but give them a chance to escape..."
 							]
 						}
 					]
