@@ -45,8 +45,7 @@
 			},
 			"activity": {
 				"number": 2,
-				"unit": "action",
-				"entry": "{@as 2}"
+				"unit": "action"
 			},
 			"entries": [
 				"You can unleash a powerful blast of energy as a draconic breath weapon. Choose either a 30-foot line or a 15-foot cone. Your breath weapon manifests in the chosen shape and once chosen, you can't change the breath's shape. Your breath weapon deals {@damage 1d4} damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can't use this ability again for {@dice 1d4} rounds.",

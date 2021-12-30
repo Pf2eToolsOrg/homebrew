@@ -1619,7 +1619,7 @@
 			"requirements": "It's your third turn of the encounter or later.",
 			"entries": [
 				"After some time of acclimating to a stressful situation, your psychic magic flares to greater destructive power.",
-				"{@b Benefit} When you Cast a Spell from your spell slots while you have Unleashed Focused Intent, you gain a status bonus to that spell's damage equal to double the spell's level as long as spell deals damage and doesn't have a duration.",
+				"{@b Benefit} When you {@action Cast a Spell||Cast a Spell} from your spell slots while you have Unleashed Focused Intent, you gain a status bonus to that spell's damage equal to double the spell's level as long as spell deals damage and doesn't have a duration.",
 				"{@b Drawback} The focus on offense comes at the expense of your defensive instincts. You take a \u20132 penalty to AC while you've Unleashed Focused Intent."
 			]
 		},
@@ -2010,7 +2010,7 @@
 			"className": "Psychic",
 			"classSource": "PT:DA",
 			"entries": [
-				"You access the infinite well of power that resides within your mind, calling forth psychic magic with nothing but thought and will. You can cast occult spells using the Cast a Spell activity. You alter some of the standard spell components when casting spells you know from your psychic spellcasting. Instead of speaking, you substitute any verbal components with a special mental component determined by your subconscious mind class feature. This represents how you exert your mind toward your intended effect. Any of these components impart the {@trait concentrate} to the spell you're casting. You also substitute any material components with somatic components, though these tend to be simple movements of the hand or head compared to those used by other spellcasters. Your spells still have clear and noticeable visual and auditory manifestations as normal for a spellcaster.",
+				"You access the infinite well of power that resides within your mind, calling forth psychic magic with nothing but thought and will. You can cast occult spells using the {@action Cast a Spell||Cast a Spell} activity. You alter some of the standard spell components when casting spells you know from your psychic spellcasting. Instead of speaking, you substitute any verbal components with a special mental component determined by your subconscious mind class feature. This represents how you exert your mind toward your intended effect. Any of these components impart the {@trait concentrate} to the spell you're casting. You also substitute any material components with somatic components, though these tend to be simple movements of the hand or head compared to those used by other spellcasters. Your spells still have clear and noticeable visual and auditory manifestations as normal for a spellcaster.",
 				"Each day, you can cast one 1st-level spell. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.",
 				"As you increase in level as a psychic, your number of spells per day increases, as does the highest level of spells you can cast, as shown on Table 1\u20132: Psychic Spells per Day.",
 				"Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is determined by your subconscious mind, your spell attack rolls and spell DCs use the modifier for the ability stated in your subconscious mind.",
@@ -2470,7 +2470,7 @@
 					"requirements": "It's your third turn of the encounter or later.",
 					"entries": [
 						"After some time of acclimating to a stressful situation, your psychic magic flares to greater destructive power.",
-						"{@b Benefit} When you Cast a Spell from your spell slots while you have Unleashed Focused Intent, you gain a status bonus to that spell's damage equal to double the spell's level as long as spell deals damage and doesn't have a duration.",
+						"{@b Benefit} When you {@action Cast a Spell||Cast a Spell} from your spell slots while you have Unleashed Focused Intent, you gain a status bonus to that spell's damage equal to double the spell's level as long as spell deals damage and doesn't have a duration.",
 						"{@b Drawback} The focus on offense comes at the expense of your defensive instincts. You take a \u20132 penalty to AC while you've Unleashed Focused Intent."
 					]
 				}
@@ -5798,7 +5798,7 @@
 								{
 									"type": "item",
 									"entries": [
-										"{@b Emotion Components} When you Cast a Spell you gained from the psychic class, you replace any material components with somatic components and replace any verbal components with emotion components as you call up and hold a specific feeling. An emotion component adds the {@trait concentrate} to your action to Cast a Spell. You might summon the sense of freedom to buoy you through the air or let fear grip your heart even as you plant it in another's mind. Emotion components tend to impart abstract or vivid effects to your visual and auditory spell manifestations as well as more intangible flashes of emotion, such as swirls of joyous color or a sense of growing melancholy.",
+										"{@b Emotion Components} When you {@action Cast a Spell||Cast a Spell} you gained from the psychic class, you replace any material components with somatic components and replace any verbal components with emotion components as you call up and hold a specific feeling. An emotion component adds the {@trait concentrate} to your action to Cast a Spell. You might summon the sense of freedom to buoy you through the air or let fear grip your heart even as you plant it in another's mind. Emotion components tend to impart abstract or vivid effects to your visual and auditory spell manifestations as well as more intangible flashes of emotion, such as swirls of joyous color or a sense of growing melancholy.",
 										"If you're affected by a harmful emotion effect, the discordant emotions sap some of your concentration, causing your cantrips (including psi cantrips) to heighten to a level 1 lower than normal (or to their minimum level, if it's higher). For instance, if you were 5th level, a detect magic cantrip you cast would be 2nd level instead of 3rd level."
 									]
 								}
@@ -5836,7 +5836,7 @@
 								{
 									"type": "item",
 									"entries": [
-										"{@b Calculation Components} When you Cast a Spell you gained from the psychic class, you replace any material components with somatic components and replace any verbal components with calculation components, as you determine the exact forces needed to realize your psychic magic in the world. A calculation component adds the {@trait concentrate} to your action to Cast a Spell. Perhaps you mentally weigh the mass of an object against the force of gravity to levitate it, or you might determine exactly how much energy is needed for an object to spontaneously combust. Calculation components tend to impart ordered visual and auditory effects to your spell manifestation, such as regular tessellations of light, mathematical spirals, or harmonic tones.",
+										"{@b Calculation Components} When you {@action Cast a Spell||Cast a Spell} you gained from the psychic class, you replace any material components with somatic components and replace any verbal components with calculation components, as you determine the exact forces needed to realize your psychic magic in the world. A calculation component adds the {@trait concentrate} to your action to Cast a Spell. Perhaps you mentally weigh the mass of an object against the force of gravity to levitate it, or you might determine exactly how much energy is needed for an object to spontaneously combust. Calculation components tend to impart ordered visual and auditory effects to your spell manifestation, such as regular tessellations of light, mathematical spirals, or harmonic tones.",
 										"Disruptions to your sequences make it more difficult for you to focus. You're {@condition flat-footed} against attacks made as reactions as you Cast a Spell, and if your spell is disrupted, you're stupefied 1 until the end of your next turn."
 									]
 								}

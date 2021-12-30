@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1635352852,
-		"dateLastModified": 1639925062
+		"dateLastModified": 1640908443
 	},
 	"variantrule": [
 		{
@@ -31,7 +31,7 @@
 					"name": "Unaligned Deities",
 					"source": "FPKrosmoz",
 					"entries": [
-						"The gods in the World of Twelve are fickle and ever-changing. Be it due to their grand plans, capricious personality or reincarnating nature, most gods can fit any alignment. As long as mortals do not disrespect them or interfere with their plans, they also do not have any disregard towards their faithful's alignment.",
+						"The gods in the World of Twelve are fickle and ever-changing. Be it due to their grand plans, capricious personality or reincarnating nature, most gods can fit any alignment. As long as mortals do not disrespect them or interfere with their plans, they do not have any regard for their faithfuls’ alignment.",
 						"If any spell or effect requires you to choose an alignment your unaligned deity has, you instead choose from your own alignment."
 					]
 				}
@@ -39,6 +39,17 @@
 		}
 	],
 	"trait": [
+		{
+			"name": "Osamodas",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Creature",
+				"Ancestry & Heritage"
+			],
+			"entries": [
+				"A creature with this trait is a member of the {@ancestry Osamodas|FPKrosmoz|Osamodas's Whip}. {@ancestry Osamodas|FPKrosmoz} craft and use these weapons."
+			]
+		},
 		{
 			"name": "Pandawa",
 			"source": "FPKrosmoz",
@@ -125,6 +136,16 @@
 			],
 			"entries": [
 				"A creature with this trait is a member of the {@ancestry Eniripsa|FPKrosmoz|Eniripsa's Hands}. {@ancestry Eniripsa|FPKrosmoz} craft and use these weapons."
+			]
+		},
+		{
+			"name": "Fillable",
+			"source": "FPKrosmoz",
+			"categories": [
+				"Armor & Weapon"
+			],
+			"entries": [
+				"This weapon can be filled with liquid, such as a potion or elixir, up to a listed amount of Bulk. You can use one {@action Interact} action to drink the liquid from your weapon. Only one kind of liquid consumable can be stored in a weapon at a time."
 			]
 		},
 		{
@@ -1141,6 +1162,457 @@
 					"source": "FPKrosmoz",
 					"entries": [
 						"Your magic is more connected to your mind than it is to your faith. Choose {@filter arcane|spells||Level=0|Tradition & Spell List=Arcane} or {@filter occult|spells||Level=0|Tradition & Spell List=Occult}. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a xelor ancestry feat, change its tradition from divine to your chosen tradition."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sadida",
+			"source": "FPKrosmoz",
+			"hp": 8,
+			"size": "Medium",
+			"speed": {
+				"walk": 25
+			},
+			"boosts": [
+				"Wisdom",
+				"Free"
+			],
+			"languages": [
+				"{@language Common}",
+				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Sadida"
+			],
+			"info": [
+				"The followers of the god Sadida are gathered under the name \"Sadida's Shoe,\" which means, in Sadida language, \"Those whose shoes, soled with wind and laced with greenery, can create dew and joy within the god Sadida's heart, from the innermost depths to the edge of the forests, scented with exquisite and musky fragrances.\" This funny expression always puzzles people. The first thing you need to know about Sadidas is that they're extremely touchy when it comes to the soles of their feet. Some people say they're hard with calluses, while others say that it's the most sensitive part of their body. It might also be to do with the smell. But no one knows for sure except the Sadidas themselves. Of course, if you ask one of the leafy god's temperamental followers yourself, you'll regret it. In the end, it's your choice: live in ignorance, or run the risk of getting a thorny whack in the privates. Not hard to choose, is it?",
+				"We often think Sadidas sleep all day long. The truth is, what we believe to be deep sleep is in fact a very intense activity similar to dreaming... Sadidas claim they are \"dream-passers.\" A dreaming Sadida can make a tremendous effort in the ether to harness the energies that will bring their dolls to life. They are also fond of the teachings spread by forest spirits and lesser gods. They advise the Sadida where to find the plants he needs to make their ointments and poisons. This vegetative condition enables them to converse with plants and trees. If a Sadida needs to pick up a plant or cut down a tree, they will always ask its permission, as a Sadida is in perfect harmony with Nature. Some reckon they also take special care to do it because they have the power to change into a tree and that there's something not quite right about hitting a peer with an axe.",
+				"Some Sadidas set themselves up as protectors of the land. They use their Sylvan Power spell, which enables them to change into a tree, to melt into the background and remain watchful, scanning their surroundings. Ever felt like someone's watching you when you're in a supposedly deserted forest? Now you know why!",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Feel a deep connection to plants and vegetation.",
+								"Like playing with dolls.",
+								"Oversleep nearly every day."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Think you are lazy.",
+								"Consider your dolls to be creepy.",
+								"Believe you are invincible in a jungle."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Followers of Sadida are about as tall as other average humans of similar physique. They most often have dark skin and brown eyes, and characteristically green-coloured hair. Rarely do they cut their hair short, to the point where it covers their entire face or drag it on the ground behind them.",
+						"Sadidas age at a similar rate to normal humans. Most Sadidas can live to be up to 80 years of age, but the more powerful Sadidas could live for nearly two centuries. Sadidas weigh the same as normal humans of similar physique. Many Sadida cultures prefer to clothe skimpily wearing fundoshis, bikinis, tube tops, or going topless, and even walk barefoot."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Societies in the World of Twelve are highly multicultural, and in them Sadidas often take on the jobs that involve plants. All Sadidas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Sadidas make great botanists and gardeners, or at least good enough to overlook their habit of sleeping during work hours. Others prefer to craft toys and other childrens’ toys. It is also not uncommon for a Sadida to live away from society, in a forest or jungle, where they can be in close contact with their god and sleep to their heart’s desire."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Sadidas generally do not lean towards any alignment, but neutral would be the most common one, as Sadidas may try to act closest to how they believe Nature acts. Nature does not know of concepts such as good or evil, and although some would say the wilderness is chaotic and untamed, others would say that it follows its own laws and rules."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Sadida names are often simple, sometimes referencing elements of nature.",
+						{
+							"type": "pf2-h4",
+							"name": "Sample Names",
+							"entries": [
+								"Leaf, Epoup Tik, Aurore, Li Crounch, Yova Etna, Sadadi Sama, Amalia, Armand"
+							]
+						}
+					]
+				}
+			],
+			"heritage": [
+				{
+					"name": "Forestal Sadida",
+					"shortName": "Forestal",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You’ve lived your life surrounded by wild plants and can move around them freely. You can ignore difficult terrain and uneven ground caused by undergrowth. In addition, when you use the {@skill Acrobatics} skill to {@action Balance} on narrow surfaces or uneven ground within forests, you aren't {@condition flat-footed}. When you roll a success attempting one of these {@skill Acrobatics} checks, you get a critical success instead."
+					]
+				},
+				{
+					"name": "Wildsoul Sadida",
+					"shortName": "Wildsoul",
+					"source": "FPKrosmoz",
+					"entries": [
+						"Your connection to the Tree of Life and the Leafy God is greater than most. You gain one {@filter cantrip|spells||Level=0|Tradition & Spell List=Primal} from that primal spell list. You can cast this spell as an innate primal spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a sadida ancestry feat, change its tradition from {@trait divine} to {@trait primal}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ecaflip",
+			"source": "FPKrosmoz",
+			"hp": 8,
+			"size": "Medium",
+			"speed": {
+				"walk": 25
+			},
+			"boosts": [
+				"Dexterity",
+				"Charisma",
+				"Free"
+			],
+			"flaws": [
+				"Wisdom"
+			],
+			"languages": [
+				"{@language Common}",
+				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Ecaflip"
+			],
+			"features": [
+				{
+					"name": "Low-Light Vision",
+					"entries": [
+						"You can see in dim light as though it were bright light, and you ignore the {@condition concealed} condition due to dim light."
+					]
+				}
+			],
+			"info": [
+				"What's the life of a disciple of Ecaflip like? It's a life of getting into sticky situations, landing a windfall and then swiftly losing just as much if not more... If you're in a tavern and you hear somebody betting kamas, you can be sure there's an Ecaflip around, he'll either be betting or looking carefully at the scene, rolling a coin between his fingers... A happy Ecaflip gambles all the time, for everything and for nothing - but be careful, he takes gambling very seriously. He can even risk his life on a throw of the dice. Do you know anyone that crazy? Pretty sure I don't.",
+				"The Ecaflip mind set is clear on one thing: there's no such thing as a coincidence. To the layman, they appear to leave things to good fortune or misfortune, but the Ecaflip disciple knows that when he decides to play, it's his destiny!",
+				"Ecaflips are great warriors skilled in both team fights and solo fights. It ought to be noted, though, that if an Ecaflip is going to fight with other adventurers, his teammates would do well to have a similar life philosophy... Although Ecaflip magic is renowned for its destructive powers, it is also governed by the laws of fate and can backfire on the allies that it's supposed to support, hence the misunderstandings and even the insults exchanged on battlefields. It's true that when an Ecaflip prepares to cast \"All or Nothing\", it can be quite harrowing for both enemies and allies!",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Live for the thrill.",
+								"Like to leave everything to luck.",
+								"Love playing all kinds of games."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Think you can’t take anything seriously.",
+								"Fear your gambles will put them in risk.",
+								"Find you very fun to have around."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Followers of Ecaflip are about as tall as other average humans of similar physique. They have the appearance of anthropomorphic felines, with cat ears, a tail, and covered in fur of a variety of colours. Some ecaflips also grow hair on top of their fur, styling it in many ways like ponytails, twintails, and braids.",
+						"Ecaflips age at a similar rate to normal humans. Most Ecaflips can live to be up to 80 years of age, but the more powerful Ecaflips could live for nearly two centuries. Ecaflips weigh the same as normal humans of similar physique. Ecaflips like comfortable clothing above all, such as bell trousers, sometimes leading to very skimpy clothing, like going topless, wearing bikini tops and hotpants, or even naked aprons."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Societies in the World of Twelve are highly multicultural, and in them Ecaflips often take on the jobs that involve games or taking risks. All Ecaflips may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Ecaflips often work as street performers or as dealers in betting houses. But it is just as common for Ecaflips to live solely from gambling, leaving many of them indebted."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Ecaflips have a natural tendency towards the Chaotic alignment due to their unpredictability and reliance on luck, but they are not necessarily a majority. Other more Lawful-aligned Ecaflips may focus on the aspect of Fate rather than Luck. There is nonetheless no clear tendency towards either the Good or Evil alignments."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Ecaflip names are often short names, similar to those a pet bow meow would have.",
+						{
+							"type": "pf2-h4",
+							"name": "Sample Names",
+							"entries": [
+								"Dodge, Ulette, Hersa, Kerub, Atcham, Julie, Ush, Ashante, Nomekop, Rysk, Miranda"
+							]
+						}
+					]
+				}
+			],
+			"heritage": [
+				{
+					"name": "Clawed Ecaflip",
+					"shortName": "Clawed",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You possess particularly long, sharp claws capable of delivering bleeding wounds with a wicked swipe. You gain a claw unarmed attack that deals {@damage 1d6} slashing damage. Your claws are in the {@group brawling} group and have the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits."
+					]
+				},
+				{
+					"name": "Nine Lives Ecaflip",
+					"shortName": "Nine Lives",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You always seem to bounce back from disaster, not through physical hardiness or specialized skill, but from sheer luck. If you are reduced to 0 Hit Points by a critical hit on an attack roll, you become {@condition dying 1} instead of {@condition dying 2}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pandawa",
+			"source": "FPKrosmoz",
+			"hp": 10,
+			"size": "Medium",
+			"speed": {
+				"walk": 25
+			},
+			"boosts": [
+				"Strength",
+				"Free"
+			],
+			"flaws": [
+			],
+			"languages": [
+				"{@language Common}",
+				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Pandawa"
+			],
+			"features": [
+			],
+			"info": [
+				"The eternally thirsty goddess Pandawa made her disciples in her image, and they can really knock one back! They master the art of emptying a beer mug, a tankard or a pint glass perfectly, and it does them good! Once it reaches the drunken state, a Pandawa can go wild and do anything with their body! They can even do anything with others' bodies, both good and bad. It all depends on whose side you're on...",
+				"Pandawas are much appreciated for their unusual martial arts techniques. Although they seem to be drunk, they can get one over on you, one moment escaping like water running through stones, the next smashing skulls like a brute! Handy with axes, and gifted with an unfailing sense of humour, they take every chance they can get to fight, even if it's just for a laugh. Those who persevere in the martial arts path become great masters and people travel from far-off lands to learn their teachings.",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Love to drink and party.",
+								"Have great interest in martial arts or spiritualism.",
+								"Spend more time inebriated than sober."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Believe you are the life of the party.",
+								"See you as nothing more than a drunkard.",
+								"Admire your physical and mental flexibility."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Followers of Pandawa are about as tall as other average humans of similar physique. They have the appearance of anthropomorphic panda bears, with fluffy bear ears, and covered in two-toned fur, nearly always black and white. A few Pandawas also grow hair on top of their fur, but most do not.",
+						"Pandawas age at a similar rate to normal humans. Most Pandawas can live to be up to 80 years of age, but the more powerful Pandawas could live for nearly two centuries. Pandawas weigh the same as normal humans of similar physique, and are often stronger than they look. Pandawas wear a gi, kimono, hanfu, or variations of the like. These clothes are usually red or black in colour, decorated with pieces of bamboo (sometimes containing emergency bamboo milk). Their preferred footwear are sandals."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Societies in the World of Twelve are highly multicultural, and in them Pandawas often take on the jobs that involve physical fitness or that are in close proximity to alcohol. All Pandawas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Pandawas often work as warriors or lumberjacks, although the ones with some self-restraint may decide to work at a bar as bartender or waiter. Those with no self-restraint may end up living as the town’s local drunkard."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Pandawas with roots on Pandala may be practitioners of Pandawushu, leading them towards True Neutral or adjacent alignments, seeking perfect balance of the self. Otherwise, Pandawas do not have any tendency towards any particular alignment, although many may believe them to lean towards Chaotic due to their drunken lifestyle."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Pandawa names are often syllabic or share parts of it with their goddess’s name.",
+						{
+							"type": "pf2-h4",
+							"name": "Sample Names",
+							"entries": [
+								"Zatoishwan, Damadrya, Grandapan, Hikomi, Tofugawa, Danaba Retzu, Surivitna, Pandiego"
+							]
+						}
+					]
+				}
+			],
+			"heritage": [
+				{
+					"name": "Blood Alcohol Pandawa",
+					"shortName": "Blood Alcohol",
+					"source": "FPKrosmoz",
+					"entries": [
+						"Your body is used to housing exorbitant amounts of alcohol in your veins, which luckily also gives you a greater resistance to the effects of other poisons. You gain poison resistance equal to half your level (minimum 1), and each of your successful saving throws against a poison affliction reduces its stage by 2, or by 1 for a virulent poison. Each critical success against an ongoing poison reduces its stage by 3, or by 2 for a virulent poison."
+					]
+				},
+				{
+					"name": "Carrier Pandawa",
+					"shortName": "Carrier",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You often carry heavy loads on your shoulders. You become trained in {@skill Athletics} (or another skill if you're already trained in {@skill Athletics}), and you gain the {@feat Hefty Hauler} skill feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Osamodas",
+			"source": "FPKrosmoz",
+			"hp": 8,
+			"size": "Medium",
+			"speed": {
+				"walk": 25
+			},
+			"boosts": [
+				"Charisma",
+				"Free"
+			],
+			"flaws": [
+			],
+			"languages": [
+				"{@language Common}",
+				"Additional languages equal to 1 + your Intelligence modifier (if it's positive). Choose from the list of common languages and any other languages to which you have access (such as the languages prevalent in your region)."
+			],
+			"traits": [
+				"Humanoid",
+				"Osamodas"
+			],
+			"features": [
+			],
+			"info": [
+				"Osamodas are probably the only adventurers who can spend time in the Evil Forest at night without being scared of the ominous cries that echo through the trees. Cawing Crows? Whispering Evil Tofus? Winking eyes? Nope, nothing scares them, because they know everything about all creatures. They can read the hearts of beasts like open books. Any creature endowed with an ounce of common sense will avoid an Osamodas' gaze for fear of surrendering itself to him. After all, who knows what an Osamodas might do with a captured creature...",
+				"Osamodas's followers have a power that anyone would love to have: they can summon creatures and use them in fights. It's rumoured that these excellent tamers cut their clothes from the skin of their enemies, but you'll have to ask an Osamodas whether it's true or not... And you'll see for yourself when you end up as a boot or a fur-lined beanie!",
+				"Osamodas claim they are distantly related to dragons, and it's true that their tails are quite dragon-like, as are their horns and breath. These attributes all help them to win the trust of animals more easily. Osamodas's worshippers venerate dragons and there are statues of the magical creatures adorning the entrance to their temple. Their god doesn't take offence at this since he likes them too! As a matter of fact, some of his followers can even summon a Wyrmling. To their owners' great joy, these young Dragons can crush enemies to pulp any day of the week, except Sunday, when they'll be turned into roasted kebabs, as this is the traditional feasting day.",
+				{
+					"type": "pf2-h3",
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Prefer the company of animals over people.",
+								"Try to assert dominance over others.",
+								"Maintain composure when faced with strange creatures."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Think you love your pets too much.",
+								"Ask for your help with any animal-related problem.",
+								"Consider your claims of draconic power to be overblown, delusional, or endearing."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Physical Description",
+					"entries": [
+						"Followers of Sadida are about as tall as other average humans of similar physique. They have small horns on their head and usually have a slim arrow-shaped tail on their back. Their hair is often of a very light colour, or even white. Their hairstyles are often short or shoulder-length, and often they also prefer shaving their head and decorating their forehead with a paw-print tattoo or similar. Sometimes, usually when living in symbiosis with a Gobgob, an Osamodas’s skin is of a particular colour, most commonly blue.",
+						"Osamodas age at a similar rate to normal humans. Most Osamodas can live to be up to 80 years of age, but the more powerful Osamodas could live for nearly two centuries. Osamodas weigh the same as normal humans of similar physique. Some Osamodas like wearing sleeveless shirts and baggy shorts or skirts, often wearing a large belt with a paw-print buckle. But another common Osamodas fashion turns around fluffy fur-based accessories and hand-sewn shorts and leotards."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Society",
+					"entries": [
+						"Societies in the World of Twelve are highly multicultural, and in them Osamodas often take on the jobs that involve taming and taking care of animals. All Osamodas may praise their god to different degrees, but their religion does not necessarily play an important role in the society they live in. Osamodas often work as beast tamers or veterinarians."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Alignment and Religion",
+					"entries": [
+						"Osamodas do not tend towards any alignment, some of them even living free of such concepts as they believe dragons to be. It is not uncommon nontheless for more bestial Osamodas to lean toward the Chaotic alignments."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"name": "Names",
+					"entries": [
+						"Osamodas names are varied, but sometimes refer to other creatures.",
+						{
+							"type": "pf2-h4",
+							"name": "Sample Names",
+							"entries": [
+								"Simone, Abrazelon Sixgriffe, Furye, Bethel Akarna, Lethaline, Toh’Lo, Mishell, Kabrok, Aurora"
+							]
+						}
+					]
+				}
+			],
+			"heritage": [
+				{
+					"name": "Symbiotic Osamodas",
+					"shortName": "Symbiotic",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You are magically bonded to a small star-shaped creature named the Gobgob and live in symbiosis with it. You gain a familiar using the rules on page 217 of the Core Rulebook, and this familiar must be a gobgob. It still gets the benefits of familiar abilities, but its base form remains a gobgob."
+					]
+				},
+				{
+					"name": "Taskmaster Osamodas",
+					"shortName": "Taskmaster",
+					"source": "FPKrosmoz",
+					"entries": [
+						"You come from a long line of tamers who commanded animals. You gain the {@feat Group Coercion} skill feat. If you roll a success on an {@skill Intimidation} check to {@action Coerce} an animal of lower level than you, you get a critical success instead; if you roll a critical failure, you get a failure instead."
 					]
 				}
 			]
@@ -3481,7 +3953,7 @@
 			"frequency": "once per day",
 			"trigger": "You critically hit a foe with a {@action Strike} with a ranged weapon.",
 			"entries": [
-				"Your arrow calls upon the divine intervention of your deity. You Cast the {@spell Flame Strike} Spell as a 7th-level divine innate spell centered on the target of the reaction."
+				"Your arrow calls upon the divine intervention of your deity. You cast the {@spell Flame Strike} spell as a 7th-level divine innate spell centered on the target of the reaction."
 			]
 		},
 		{
@@ -4262,6 +4734,52 @@
 			"generic": false
 		},
 		{
+			"name": "Battle Spade",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Enutrof|FPKrosmoz", "Bulldozing|FPKrosmoz",  "Thrown 10 ft.", "Sweep", "Versatile B"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp"
+			},
+			"damage": "1d6",
+			"damageType": "B",
+			"hands": 1,
+			"bulk": "L",
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Axe",
+			"entries": [
+				"This spade has a very peculiar shape allowing the handler to use it like an axe in battle. It deals {@damage 1d8} slashing damage."
+			]
+		},
+		{
+			"name": "Battle Shovel",
+			"source": "FPKrosmoz",
+			"equipment": true,
+			"type": "Equipment",
+			"traits": [
+				"Uncommon", "Enutrof|FPKrosmoz", "Bulldozing|FPKrosmoz",  "Thrown 10 ft.", "Shove", "Two-hand 1d10"
+			],
+			"price": {
+				"amount": 5,
+				"coin": "gp"
+			},
+			"damage": "1d6",
+			"damageType": "B",
+			"hands": 1,
+			"bulk": "L",
+			"category": "Weapon",
+			"subCategory": "Martial",
+			"group": "Club",
+			"entries": [
+				"This shovel was crafted with both the purpose of digging the earth and hitting someone’s head as hard as you can. It deals {@damage 1d6} bludgeoning damage."
+			]
+		},
+		{
 			"name": "Battle Scalpel",
 			"source": "FPKrosmoz",
 			"equipment": true,
@@ -4448,6 +4966,130 @@
 		}
 	],
 	"item": [
+		{
+			"name": "Mineral Shovel",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": "6+",
+			"traits": [
+				"Earth", "Magical", "Uncommon", "Teleportation"
+			],
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"category": "Held",
+			"entries": [
+				"This {@runeItem battle shovel|FPKrosmoz|+1 weapon potency||striking||crushing|} was crafted from rare crackler minerals, granting it greater digging prowess.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"name": "Activate",
+					"activity": {
+						"unit": "action",
+						"number": 2
+					},
+					"components": [
+						"command"
+					],
+					"frequency": "once per day",
+					"entries": [
+						"You cast {@spell Expeditious Excavation|LOGM} at 2nd-level (DC 20) from the shovel."
+					]
+				}
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "Base",
+					"name": "Mineral Shovel",
+					"level": 6,
+					"price": {
+						"coin": "gp",
+						"amount": 350
+					},
+					"entries": []
+				},
+				{
+					"type": "Greater",
+					"level": 14,
+					"price": {
+						"coin": "gp",
+						"amount": 4000
+					},
+					"entries": [
+						"This is a {@runeItem battle shovel|FPKrosmoz|+2 weapon potency||greater striking||crushing|}.",
+						{
+							"type": "ability",
+							"style": "compact",
+							"name": "Activate",
+							"activity": {
+								"unit": "action",
+								"number": 2
+							},
+							"components": [
+								"command"
+							],
+							"frequency": "once per day",
+							"entries": [
+								"You cast {@spell Expeditious Excavation|LOGM} at 6th-level (DC 31) from the shovel."
+							]
+						}
+					],
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceTxt",
+								"replace": "2nd-level \\(DC 20\\)",
+								"replaceTags": true,
+								"with": "6th-level (DC 31)"
+							}
+						],
+						"entriesMode": "generic"
+					}
+				}
+			]
+		},
+		{
+			"name": "Dealer’s Ring",
+			"source": "FPKrosmoz",
+			"type": "Item",
+			"level": 5,
+			"traits": [
+				"Divination", "Invested", "Magical", "Transmutation"
+			],
+			"usage": "worn item",
+			"price": {
+				"amount": 160,
+				"coin": "gp"
+			},
+			"category": "Worn",
+			"entries": [
+				"This ring of pure gold is a merchant’s favorite, as its magic greatly helps with taking care of the shop. You gain a +1 item bonus to {@skill Diplomacy} checks.",
+				{
+					"type": "ability",
+					"style": "compact",
+					"name": "Activate",
+					"components": [
+						"{@action Cast a Spell}"
+					],
+					"entries": [
+						"You cast the {@spell Approximate|SoM} cantrip."
+					]
+				},
+				{
+					"type": "ability",
+					"style": "compact",
+					"name": "Activate",
+					"components": [
+						"{@action Cast a Spell}"
+					],
+					"frequency": "once per hour",
+					"entries": [
+						"You cast the {@spell Quick Sort|SoM} spell at 1st level."
+					]
+				}
+			],
+			"generic": false
+		},
 		{
 			"name": "Springing Boots",
 			"source": "FPKrosmoz",
@@ -5888,6 +6530,452 @@
 			"category": "Snare",
 			"entries": [
 				"This magical trap works together with a special unique rune attuned to it, and is useful both to send a foe away or for escaping a dire situation. When laying the trap the rune must have been previously placed somewhere in a 100 miles range from it, or else the trap will fail to activate. When a creature enters the snare's square, it must make a DC 35 Will save or be transported to the square where the rune is located."
+			]
+		}
+	],
+	"deity": [
+		{
+			"name": "Iop",
+			"source": "FPKrosmoz",
+			"alias": [
+				"The Great Battle Hero",
+				"The Lord of the Brave",
+				"The King of the Sword"
+			],
+			"core": true,
+			"info": [
+				"The name \"Iop's heart\" has misled a lot of people, because if you think a Iop has a heart, you're mistaken! For some people, the heart symbolises love, friendship and little girls running through sunny, flowery meadows, but not for Iop and his disciples... this vital organ only interests them when they can rip it out of their enemies chests, still beating! Another characteristic of the god Iop is that he despises the weak. It's kind of mean, but that's just the way he is, and he'll never change!"
+			],
+			"category": "The First Gods",
+			"edicts": [
+				"fight to your last breath", "hold valor in your heart"
+			],
+			"anathema": [
+				"give up in a fight", "refuse a fair challenge"
+			],
+			"devoteeBenefits": {
+				"font": [
+					"heal (white fire)"
+				],
+				"ability": {
+					"abilities": [
+						"Str",
+						"Con"
+					],
+					"entry": "Strength or Constitution"
+				},
+				"skill": [
+					"Athletics"
+				],
+				"domains": [
+					"destruction", "might", "tyranny", "zeal"
+				],
+				"spells": {
+					"1": [
+						"true strike"
+					],
+					"3": [
+						"ghostly weapon"
+					],
+					"4": [
+						"weapon storm"
+					]
+				},
+				"weapon": [
+					"bastard sword"
+				]
+			},
+			"intercession": {
+				"flavor": [
+					"Iop rewards the bravest warriors and punishes the cowards who would flee the battlefield."
+				],
+				"boon": {
+					"Minor Boon": [
+						"Iop grants you a weapon whenever you need one. You can use an {@action Interact} action to draw a 0-level non-magical iron weapon, even if you have no weapons on your person. Such a weapon lasts only as long as you continue using it to attack, and it can’t be sold, given away, melted for scrap iron, or the like."
+					],
+					"Moderate Boon": [
+						"Your blows become unstoppable, carrying the momentum of Iop’s thrill for battle. Your {@item bastard sword} and other {@filter Iop weapon|items||Ancestry & Heritage=Iop|Category=Weapon} {@action Strike||Strikes} gain the {@trait forceful} trait."
+					],
+					"Major Boon": [
+						"Iop imbues your blade with great power. {@item Bastard swords} and other {@filter Iop weapons|items||Ancestry & Heritage=Iop|Category=Weapon} you wield gain the {@item axiomatic}, {@item holy} (or {@item unholy} if you are evil), and {@item major striking} runes while you hold them. These property runes count toward the number of runes you can have on your weapon, and if this would cause your weapon to exceed its limit, choose which ones to keep each day when you prepare. You gain a +2 status bonus to attack rolls with {@item bastard swords} and other {@filter Iop weapons|items||Ancestry & Heritage=Iop|Category=Weapon}."
+					]
+				},
+				"curse": {
+					"Minor Curse": [
+						"Your blade and armor have dulled like lead. Your weapons, armor, and shields have half their usual Hit Points and Break Threshold."
+					],
+					"Moderate Curse": [
+						"You’ve lost the glory of slaying a worthy opponent. All of your weapon and unarmed attacks decrease their damage dice by one step, and all your attacks are {@trait nonlethal}."
+					],
+					"Major Curse": [
+						"All blades reject your wicked heart. Any weapon you wield automatically becomes broken after you {@action Strike} with it. This curse can’t break artifacts or similarly powerful weapons."
+					]
+				}
+			},
+			"images": [
+			]
+		}
+	],
+	"deityFluff": [
+		{
+			"name": "Iop",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Iop",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Great Battle Hero; The Lord of the Brave; The King of the Sword",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} strength, valor, and war"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"The name \"Iop's heart\" has misled a lot of people, because if you think a Iop has a heart, you're mistaken! For some people, the heart symbolises love, friendship and little girls running through sunny, flowery meadows, but not for Iop and his disciples... this vital organ only interests them when they can rip it out of their enemies chests, still beating! Another characteristic of the god Iop is that he despises the weak. It's kind of mean, but that's just the way he is, and he'll never change!"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Cra",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Cra",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Great Huntress; The Lady of the Bolt; The Woodland Beauty; The Api Queen",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} archery, self-perfection, watchfulness"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Her beauty is as fearsome as her arrows... apparently, only her disciples can look at her without falling head over heels in love! Her followers must develop a pure, unfailing devotion to her... which isn't as easy as it sounds when she's demonstrating how to handle bows as effectively as possible…"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Feca",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Feca",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Protector; The Guardian of the Celestial Troops; The High Shepherdess; The Lady with the Shield",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} community, protection, and shepherds"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Though her disciples sometimes catch her admiring herself in the reflection of her shield, they never make any comments. The goddess Feca is a bit of a flirt but is also quite touchy and temperamental. She is extremely distrustful towards Rushu, the sovereign demon. She always suspects that he's preparing a dirty trick, despite his innocent expression (I mean, what kind of demon has an innocent expression?)."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sacrier",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Sacrier",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Mother of All Pain; The Iron Maiden; The Scarlet Damsel; The Angel of Compassion",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} pain, protection, and sacrifice"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"One of the last to enter the Pantheon of gods, this beautiful, rebellious and opportunist goddess endures suffering with serenity. Paradoxically, though, she can't stand seeing human beings in agony. Most of the time, her fanciful shows of mercy towards the weak and the oppressed are closely followed by vengeful anger towards the strong and oppressive. Her intense beauty and her masterly fighting techniques make her a fervently venerated goddess. She sometimes appears on deserted battlefields to drop a tear of sympathy on the earth where blood and defeated soldiers lie."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Osamodas",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Osamodas",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Chief Conspirator; The Master of Beasts; The Celestial Tamer; The Worm Charmer",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} animals, beast tamers, dragons"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Silent and solitary, Osamodas prefers the company of creatures to that of people, and he passes this liking for monsters onto his disciples. He can summon any creature in the Universe as he knows them all and speaks their languages. He used to be an aggressive god who got carried away easily, and he has quite an eventful past as a conqueror of universes. Legend says that his long coat is made from skins cut off his enemies. Even if you don't believe that, he's a scary guy with an imposing reputation!"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Xelor",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Xelor",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Time Lord; The Guardian of the Divine Clock; The Lord of the Hours; The Great Timekeeper",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} astrology, space, and time"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Xelor is the master of Time. He is responsible for the Divine Clock, which sets the rhythm for the World's time. His face remains covered, hidden under a large pointy hat, and his hammer is stamped with the seal of the infinite. He looks threatening, and it's a good thing, as the demons of the hours, who love to kill time by being mischievous, might have misbehaved even more otherwise! Just like his disciples, he wears wrappings, except that his crumble to dust as soon as he moves…"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sram",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Sram",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Lord of the Shadows; A Spy in the Ointment; The Great Sneak; The Invisible Danger",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} shadows, skeletons, and thievery"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"The god Sram is unshakeable. He never reveals his emotions and always speaks in the same monotone without ever losing his cool. It's a quality he actually passed onto his disciples just like he did with his physical appearance, but the latter tends to be a less desirable trait.",
+								"Don't be fooled by appearances when in the presence of the god Sram, because he can make you believe anything about him - as long as it serves his own interests. The fact that people think he's an absolute idiot from the cosmic sticks doesn't bother him at all. In fact, he is calculating, manipulative and merciless. Don't you forget it!"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Eniripsa",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Eniripsa",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Divine Practitioner; The Mistress of the Mushroom; The Queen of the Cold Compress; The Miracle Fairy",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} alchemy, healing, and words of magic"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Eniripsa is a witty divinity who is curious about anything and everything. Some people even believe she's a little too curious, claiming that she loves to meddle in other people's business... The other gods appreciate her ineffable kindness and extreme sensitivity, but be careful, as being \"sensitive\" isn't the same as being \"faint-hearted\". As a matter of fact, an Eniripsa can mend a freshly ripped open paunch without batting an eyelid."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Sadida",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Sadida",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Doll Master; Dances on Wind; The Father of the Tree People; The Leafy God",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} plants, puppets, and rests"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"People say that \"there are two things you can't look at directly: the Sun and Sadida\", and that that's why this god always wears a mask, so that gods and mortals alike can converse with him. Sadida is the plant god par excellence. All he wants to do is make things sprout, blossom and bloom. His disciples get their powers from plant life and learn to use them to the fullest. Sadida can be seen from time to time during spring nights when the moon is full, dancing on the ridges, followed by a string of buds and flowers…"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ecaflip",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Ecaflip",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Gamemaster; The Big Tease; The Ace of the Dice; The King of Fortune",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} felines, fortune, and risk-taking"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Only confirmed gamblers can appear to the god Ecaflip. They are the only ones who will find mercy in the eyes of the god and who can receive his favors. As for the others, some clever kitties will be shown what their future holds, but you can bet that the god Ecaflip, always a bit mischievous, will send anyone he doesn't like to the beyond... but give them a chance to escape…"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Enutrof",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Enutrof",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Lord of the Spoils; The Flamboyant Golden Dragon; The Miser; The Stone Whisperer",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} merchants, treasure hunters, and wealth"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"A huge, divine dragon, his body is a mixture of molten magma and melted gold, and he can change anything he wants into shiny gold. That's where his disciples' insatiable desire for gold and treasure comes from. Being an avid treasure hunter, he travels all over the vast Universe and its numerous worlds, looking for rare and precious substances. He understands the souls of Dragons well, since he's related to them."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pandawa",
+			"source": "FPKrosmoz",
+			"lore": [
+				{
+					"type": "pf2-h1",
+					"name": "Pandawa",
+					"entries": [
+						{
+							"type": "pf2-h3",
+							"name": "The Eternal Thirst; The Princess of Pints; The Bamboo Lady; The Big Foamy Bear",
+							"entries": []
+						},
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								"{@b Areas of Concern} alcohol, drunkards, and parties"
+							]
+						},
+						{
+							"type": "pf2-h3",
+							"entries": [
+								"Very few people know this, but the goddess was here when the World was created! Back then, she was a lot less powerful and was part of the vast group of lesser gods. One day, pondering on how to go about making people adore her, she found the remains of a Blop that had died from a squirt of Sporm. The whole thing was almost liquid and a cloud of Crows were stumbling around it. To her great surprise, the black feathered creatures were all drunk, staggering and unable to fly. This was an epiphany, and her powers started to grow as she experimented in the art of fermentation. She tried it on everything: plants and creatures, organs and peels, they all became liquids with unique flavours, and anyone who drank them would find themselves in a trance, leaving the goddess free to wrap them around her little finger! Soon everyone around was drunk and convinced that the goddess Pandawa was fabulous! She became so famous that she took what she believed was rightfully hers: a place within the gods' pantheon!"
+							]
+						}
+					]
+				}
 			]
 		}
 	]
