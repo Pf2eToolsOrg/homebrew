@@ -1619,6 +1619,9 @@
 			"name": "Awakened Aide",
 			"source": "FPKrosmoz",
 			"level": 17,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1631,6 +1634,9 @@
 			"name": "Magnificent Mansion",
 			"source": "FPKrosmoz",
 			"level": 17,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1642,6 +1648,9 @@
 			"name": "Drhellzerker Form",
 			"source": "FPKrosmoz",
 			"level": 17,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1663,6 +1672,9 @@
 			"name": "Telluric Strikes",
 			"source": "FPKrosmoz",
 			"level": 13,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1674,6 +1686,9 @@
 			"name": "Specialized Drheller",
 			"source": "FPKrosmoz",
 			"level": 13,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1686,6 +1701,9 @@
 			"name": "Hidden Chest",
 			"source": "FPKrosmoz",
 			"level": 13,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1697,6 +1715,9 @@
 			"name": "Animated Aide",
 			"source": "FPKrosmoz",
 			"level": 9,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1709,6 +1730,9 @@
 			"name": "Enutrof Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1721,6 +1745,9 @@
 			"name": "Incredible Drheller",
 			"source": "FPKrosmoz",
 			"level": 9,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1733,6 +1760,9 @@
 			"name": "Enutrof Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1744,6 +1774,9 @@
 			"name": "Ancient Spells",
 			"source": "FPKrosmoz",
 			"level": 9,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1755,6 +1788,9 @@
 			"name": "Advanced Geology",
 			"source": "FPKrosmoz",
 			"level": 9,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"activity": {
 				"unit": "action",
 				"number": 1
@@ -1772,6 +1808,9 @@
 			"name": "Mature Drheller",
 			"source": "FPKrosmoz",
 			"level": 5,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1787,6 +1826,9 @@
 			"name": "Enutrof Weapon Scour",
 			"source": "FPKrosmoz",
 			"level": 5,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1803,6 +1845,9 @@
 				"unit": "action",
 				"number": 1
 			},
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1815,6 +1860,9 @@
 			"name": "Clumsiness",
 			"source": "FPKrosmoz",
 			"level": 5,
+			"featType": {
+				"ancestry": "Enutrof"
+			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],

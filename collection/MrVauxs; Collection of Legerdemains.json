@@ -92,9 +92,7 @@
 				"S": false,
 				"V": true
 			},
-			"range": {
-				"type": null
-			},
+			"range": null,
 			"savingThrowBasic": false,
 			"duration": {
 				"type": null
