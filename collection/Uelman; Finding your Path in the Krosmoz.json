@@ -1600,7 +1600,7 @@
 					"shortName": "Symbiotic",
 					"source": "FPKrosmoz",
 					"entries": [
-						"You are magically bonded to a small star-shaped creature named the Gobgob and live in symbiosis with it. You gain a familiar using the rules on page 217 of the Core Rulebook, and this familiar must be a gobgob. It still gets the benefits of familiar abilities, but its base form remains a gobgob."
+						"You are magically bonded to a small star-shaped creature named the Gobgob and live in symbiosis with it. You gain a {@filter familiar|companionsfamiliars||Type=Familiar}, and this familiar must be a gobgob. It still gets the benefits of familiar abilities, but its base form remains a gobgob."
 					]
 				},
 				{
@@ -1620,7 +1620,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1635,7 +1635,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1649,7 +1649,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1673,7 +1673,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1687,7 +1687,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1702,7 +1702,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1716,7 +1716,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1731,7 +1731,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1746,7 +1746,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1761,7 +1761,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1775,7 +1775,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1789,7 +1789,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"activity": {
 				"unit": "action",
@@ -1809,7 +1809,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1827,7 +1827,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1846,7 +1846,7 @@
 				"number": 1
 			},
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1861,7 +1861,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1879,7 +1879,7 @@
 			},
 			"level": 5,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz",
@@ -1899,7 +1899,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1914,7 +1914,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1928,7 +1928,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1942,7 +1942,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1961,7 +1961,7 @@
 				"Enutrof Weapon Expertise|FPKrosmoz"
 			],
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1975,7 +1975,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -1989,7 +1989,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -2007,7 +2007,7 @@
 				"Drhellzerker Form|FPKrosmoz"
 			],
 			"featType": {
-				"ancestry": "Enutrof"
+
 			},
 			"traits": [
 				"Enutrof|FPKrosmoz"
@@ -2021,7 +2021,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2036,7 +2036,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2050,7 +2050,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2064,7 +2064,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2079,7 +2079,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2094,7 +2094,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2109,7 +2109,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2123,7 +2123,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2137,7 +2137,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2151,7 +2151,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2181,7 +2181,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2195,7 +2195,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2210,7 +2210,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2225,7 +2225,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2245,7 +2245,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2263,7 +2263,7 @@
 			],
 			"level": 5,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2278,7 +2278,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2294,7 +2294,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2312,7 +2312,7 @@
 				"unit": "free"
 			},
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Fortune",
@@ -2329,7 +2329,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2347,7 +2347,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2364,7 +2364,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2381,7 +2381,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"activity": {
 				"number": 1,
@@ -2402,7 +2402,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"activity": {
 				"number": 1,
@@ -2423,7 +2423,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2437,7 +2437,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Xelor"
+
 			},
 			"traits": [
 				"Xelor|FPKrosmoz"
@@ -2451,7 +2451,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Death",
@@ -2473,7 +2473,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2487,7 +2487,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2504,7 +2504,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2519,7 +2519,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2534,7 +2534,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Concentrate",
@@ -2554,7 +2554,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"prerequisites": "expert in {@skill Crafting}, {@feat Snare Crafting}",
 			"traits": [
@@ -2569,7 +2569,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"prerequisites": "{@feat Lurker|FPKrosmoz}",
 			"traits": [
@@ -2584,7 +2584,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2598,7 +2598,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2616,7 +2616,7 @@
 				"unit": "action"
 			},
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Conjuration",
@@ -2655,7 +2655,7 @@
 				"unit": "action"
 			},
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2675,7 +2675,7 @@
 				"unit": "reaction"
 			},
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2691,7 +2691,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2705,12 +2705,12 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
-			"prerequisites": "expert in Crafting, {@feat Snare Crafting}",
+			"prerequisites": "expert in {@skill Crafting}, {@feat Snare Crafting}",
 			"entries": [
 				"Your expertise makes your snares more powerful, and you can place them quickly and efficiently. Each day during your daily preparations, you can prepare three snares from your formula book for quick deployment; if the snare normally takes 1 minute to {@action Craft}, you can {@action Craft} it with 3 {@action Interact} actions. Snares prepared in this way don't cost you any resources to {@action Craft}. The number of snares you can prepare this way increases to four if you are a master in {@skill Crafting}, and to five if you are legendary.",
 				"When you {@action Craft} and deploy a snare that deals damage, any creature that critically fails its saving throw against the snare's initial effect and takes damage becomes {@condition flat-footed} until the end of its next turn."
@@ -2721,7 +2721,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2739,7 +2739,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Evocation",
@@ -2756,7 +2756,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2770,7 +2770,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2787,7 +2787,7 @@
 			],
 			"level": 5,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2801,7 +2801,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2819,7 +2819,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2833,7 +2833,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2847,7 +2847,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"activity": {
 				"number": 1,
@@ -2866,7 +2866,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2883,7 +2883,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2897,7 +2897,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sram"
+
 			},
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2911,7 +2911,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -2926,7 +2926,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz",
@@ -2946,7 +2946,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -2961,7 +2961,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Auditory",
@@ -2985,7 +2985,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3000,7 +3000,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3015,7 +3015,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3030,7 +3030,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"leadsTo": [
 				"Overwhelming Word|FPKrosmoz"
@@ -3048,7 +3048,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3066,7 +3066,7 @@
 				"Life-Giving Word|FPKrosmoz"
 			],
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3084,7 +3084,7 @@
 			],
 			"level": 9,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3102,7 +3102,7 @@
 			],
 			"level": 9,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"activity": {
 				"number": 2,
@@ -3121,7 +3121,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3136,7 +3136,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3154,7 +3154,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3168,7 +3168,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3186,7 +3186,7 @@
 			],
 			"level": 5,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3200,7 +3200,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3219,7 +3219,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3234,7 +3234,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3251,7 +3251,7 @@
 			],
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"activity": {
 				"number": 1,
@@ -3270,7 +3270,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3284,7 +3284,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3302,7 +3302,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3316,7 +3316,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3335,7 +3335,7 @@
 			],
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
@@ -3349,14 +3349,14 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Eniripsa"
+
 			},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
 			"entries": [
 				"You have a pet Coney that has become magically bonded to you.",
-				"You gain a familiar using the rules on page 217 of the Core Rulebook, and this familiar must be a rabbit. It still gets the benefits of familiar abilities, but its base form remains a rabbit."
+				"You gain a {@filter familiar|companionsfamiliars||Type=Familiar}, and this familiar must be a rabbit. It still gets the benefits of familiar abilities, but its base form remains a rabbit."
 			]
 		},
 		{
@@ -3364,7 +3364,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"activity": {
 				"number": 3,
@@ -3392,7 +3392,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"trigger": "You use {@feat Sacrier Ferocity|FPKrosmoz}",
 			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
@@ -3408,7 +3408,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"prerequisites": "{@feat Sacrier Weapon Fury|FPKrosmoz}",
 			"traits": [
@@ -3423,7 +3423,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3437,7 +3437,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"activity": {
 				"number": 1,
@@ -3458,7 +3458,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3473,7 +3473,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3488,7 +3488,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3502,7 +3502,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3516,7 +3516,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3532,7 +3532,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3548,7 +3548,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3570,7 +3570,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"activity": {
 				"number": 1,
@@ -3588,7 +3588,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3602,7 +3602,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"prerequisites": "{@feat Divine Tattoos|FPKrosmoz}",
 			"traits": [
@@ -3617,7 +3617,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
 			"traits": [
@@ -3633,7 +3633,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3647,7 +3647,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3662,7 +3662,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"activity": {
 				"number": 1,
@@ -3681,7 +3681,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3696,13 +3696,13 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
 			"entries": [
-				"You know everything a Sacrier needs to know in life. You gain the trained proficiency in your choice of Crafting and either {@skill Acrobatics} or {@skill Athletics}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Sacrier Lore}."
+				"You know everything a Sacrier needs to know in life. You gain the trained proficiency in your choice of {@skill Crafting} and either {@skill Acrobatics} or {@skill Athletics}. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice. You also become trained in {@skill Lore||Sacrier Lore}."
 			]
 		},
 		{
@@ -3710,7 +3710,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"activity": {
 				"number": 1,
@@ -3730,7 +3730,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"activity": {
 				"number": 1,
@@ -3750,7 +3750,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3764,7 +3764,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3778,7 +3778,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Sacrier"
+
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3792,7 +3792,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"prerequisites": "{@feat Cra Weapon Familiarity|FPKrosmoz}",
 			"traits": [
@@ -3813,7 +3813,7 @@
 				"Ruthless Beacons|FPKrosmoz"
 			],
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3833,7 +3833,7 @@
 				"Arrow Beacon|FPKrosmoz"
 			],
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3866,7 +3866,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3880,7 +3880,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"activity": {
 				"number": 2,
@@ -3899,7 +3899,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3913,7 +3913,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3935,7 +3935,7 @@
 			"trigger": "An ally ends a move action adjacent to you.",
 			"level": 1,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3949,7 +3949,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3964,7 +3964,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3985,7 +3985,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4005,7 +4005,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"activity": {
 				"number": 1,
@@ -4027,7 +4027,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4043,7 +4043,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4058,7 +4058,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4073,7 +4073,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4087,7 +4087,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4105,7 +4105,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4123,7 +4123,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4139,7 +4139,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4154,7 +4154,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4168,7 +4168,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4182,7 +4182,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4200,7 +4200,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4216,7 +4216,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Cra"
+
 			},
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -4230,7 +4230,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4244,7 +4244,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4264,7 +4264,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4278,7 +4278,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4292,7 +4292,7 @@
 			"source": "FPKrosmoz",
 			"level": 1,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4311,7 +4311,7 @@
 				"Unconventional Expertise|FPKrosmoz"
 			],
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4326,7 +4326,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4340,7 +4340,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4355,7 +4355,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4369,7 +4369,7 @@
 			"source": "FPKrosmoz",
 			"level": 5,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4388,7 +4388,7 @@
 			},
 			"level": 5,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"trigger": "You bring a foe to 0 Hit Points.",
 			"traits": [
@@ -4404,7 +4404,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"prerequisites": "master in {@skill Crafting}",
 			"traits": [
@@ -4423,7 +4423,7 @@
 				"number": 1
 			},
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"frequency": "once per day",
 			"traits": [
@@ -4442,7 +4442,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4456,7 +4456,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4470,7 +4470,7 @@
 			"source": "FPKrosmoz",
 			"level": 9,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4492,7 +4492,7 @@
 				"unit": "reaction"
 			},
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Auditory",
@@ -4510,7 +4510,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4525,7 +4525,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4540,7 +4540,7 @@
 			"source": "FPKrosmoz",
 			"level": 13,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4559,7 +4559,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Emotion",
@@ -4580,7 +4580,7 @@
 			"source": "FPKrosmoz",
 			"level": 17,
 			"featType": {
-				"ancestry": "Iop"
+
 			},
 			"traits": [
 				"Fortune",

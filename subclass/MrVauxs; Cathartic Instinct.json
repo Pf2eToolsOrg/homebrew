@@ -111,7 +111,6 @@
 			"source": "CInstinct",
 			"level": 6,
 			"featType": {
-				"class": "Barbarian"
 			},
 			"traits": [
 				"Barbarian"
