@@ -110,8 +110,7 @@
 			"name": "Emotional Focus",
 			"source": "CInstinct",
 			"level": 6,
-			"featType": {
-			},
+			"featType": {},
 			"traits": [
 				"Barbarian"
 			],

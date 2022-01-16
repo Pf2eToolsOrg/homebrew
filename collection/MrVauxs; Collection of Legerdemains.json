@@ -231,8 +231,7 @@
 				"unit": "action"
 			},
 			"level": 4,
-			"featType": {
-			},
+			"featType": {},
 			"traits": [
 				"Magus"
 			],

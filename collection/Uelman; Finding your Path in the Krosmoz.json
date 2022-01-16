@@ -1619,9 +1619,7 @@
 			"name": "Awakened Aide",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1634,9 +1632,7 @@
 			"name": "Magnificent Mansion",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1648,9 +1644,7 @@
 			"name": "Drhellzerker Form",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1672,9 +1666,7 @@
 			"name": "Telluric Strikes",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1686,9 +1678,7 @@
 			"name": "Specialized Drheller",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1701,9 +1691,7 @@
 			"name": "Hidden Chest",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1715,9 +1703,7 @@
 			"name": "Animated Aide",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1730,9 +1716,7 @@
 			"name": "Enutrof Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1745,9 +1729,7 @@
 			"name": "Incredible Drheller",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1760,9 +1742,7 @@
 			"name": "Enutrof Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1774,9 +1754,7 @@
 			"name": "Ancient Spells",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1788,9 +1766,7 @@
 			"name": "Advanced Geology",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"unit": "action",
 				"number": 1
@@ -1808,9 +1784,7 @@
 			"name": "Mature Drheller",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1826,9 +1800,7 @@
 			"name": "Enutrof Weapon Scour",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1845,9 +1817,7 @@
 				"unit": "action",
 				"number": 1
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1860,9 +1830,7 @@
 			"name": "Clumsiness",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1878,9 +1846,7 @@
 				"number": 1
 			},
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz",
 				"Concentrate",
@@ -1898,9 +1864,7 @@
 			"name": "Dogged Scrutiny",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1913,9 +1877,7 @@
 			"name": "Prospector",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1927,9 +1889,7 @@
 			"name": "Finder's Eyes",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1941,9 +1901,7 @@
 			"name": "Eye for Craftsmanship",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1960,9 +1918,7 @@
 				"Enutrof Weapon Scour|FPKrosmoz",
 				"Enutrof Weapon Expertise|FPKrosmoz"
 			],
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1974,9 +1930,7 @@
 			"name": "Enutrof's Fingers Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -1988,9 +1942,7 @@
 			"name": "Driving Ambition",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -2006,9 +1958,7 @@
 				"Mature Drheller|FPKrosmoz",
 				"Drhellzerker Form|FPKrosmoz"
 			],
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Enutrof|FPKrosmoz"
 			],
@@ -2020,9 +1970,7 @@
 			"name": "Time Distortion",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2035,9 +1983,7 @@
 			"name": "Rhol Bak",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2049,9 +1995,7 @@
 			"name": "Desynchronization",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2063,9 +2007,7 @@
 			"name": "Xelorium Bound",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2078,9 +2020,7 @@
 			"name": "Xelor Spell Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2093,9 +2033,7 @@
 			"name": "Xelor Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2108,9 +2046,7 @@
 			"name": "Time Rift",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2122,9 +2058,7 @@
 			"name": "Time Magic",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2136,9 +2070,7 @@
 			"name": "Xelor Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2150,9 +2082,7 @@
 			"name": "Violent Omens",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2180,9 +2110,7 @@
 			"name": "Temporal Distortion",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2194,9 +2122,7 @@
 			"name": "Read the Timestream",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2209,9 +2135,7 @@
 			"name": "Heir of the Watchers",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2224,9 +2148,7 @@
 			"name": "Wakfu Font",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2244,9 +2166,7 @@
 			"name": "Xelor Weapon Exactness",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2262,9 +2182,7 @@
 				"Xelor Spell Expertise|FPKrosmoz"
 			],
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2277,9 +2195,7 @@
 			"name": "Universal Obsession",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2293,9 +2209,7 @@
 			"name": "Sinistro Familiar",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2311,9 +2225,7 @@
 				"number": 1,
 				"unit": "free"
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Fortune",
 				"Xelor|FPKrosmoz"
@@ -2328,9 +2240,7 @@
 			"name": "Xelor Weapon Familiarity",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2346,9 +2256,7 @@
 			"name": "Xelor's Sandglass Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2363,9 +2271,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2380,9 +2286,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "action"
@@ -2401,9 +2305,7 @@
 			"name": "Temporal Shield",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "action"
@@ -2422,9 +2324,7 @@
 			"name": "Magic Affinity",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2436,9 +2336,7 @@
 			"name": "Consult the Timestream",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Xelor|FPKrosmoz"
 			],
@@ -2450,9 +2348,7 @@
 			"name": "Lethal Attack",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Death",
 				"Divine",
@@ -2472,9 +2368,7 @@
 			"name": "Behind the Curtain",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2486,9 +2380,7 @@
 			"name": "Disappearing Act",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2503,9 +2395,7 @@
 			"name": "Sram Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2518,9 +2408,7 @@
 			"name": "Shadow Sneak",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2533,9 +2421,7 @@
 			"name": "Shadow Warp",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Concentrate",
 				"Exploration",
@@ -2553,9 +2439,7 @@
 			"name": "Lethal Trap",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "expert in {@skill Crafting}, {@feat Snare Crafting}",
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2568,9 +2452,7 @@
 			"name": "Greater Lurker",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "{@feat Lurker|FPKrosmoz}",
 			"traits": [
 				"Sram|FPKrosmoz"
@@ -2583,9 +2465,7 @@
 			"name": "Untraceable",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2597,9 +2477,7 @@
 			"name": "Sram Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2615,9 +2493,7 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Conjuration",
 				"Occult",
@@ -2654,9 +2530,7 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2674,9 +2548,7 @@
 				"number": 1,
 				"unit": "reaction"
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2690,9 +2562,7 @@
 			"name": "Between the Ribs",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2704,9 +2574,7 @@
 			"name": "Trap Genius",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2720,9 +2588,7 @@
 			"name": "Sram Weapon Efficiency",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2738,9 +2604,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Evocation",
 				"Occult",
@@ -2755,9 +2619,7 @@
 			"name": "Fear of the Dark",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2769,9 +2631,7 @@
 			"name": "Dreadful Assault",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2786,9 +2646,7 @@
 				"Shadow Sneak|FPKrosmoz"
 			],
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2800,9 +2658,7 @@
 			"name": "Trap Setter",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2818,9 +2674,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2832,9 +2686,7 @@
 			"name": "Sram's Shadow Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2846,9 +2698,7 @@
 			"name": "Shadow Blending",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "reaction"
@@ -2865,9 +2715,7 @@
 			"name": "Skull Regalia",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2882,9 +2730,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2896,9 +2742,7 @@
 			"name": "Eyes of the Dark",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sram|FPKrosmoz"
 			],
@@ -2910,9 +2754,7 @@
 			"name": "Regenerating Word",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -2925,9 +2767,7 @@
 			"name": "Rallying Word",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz",
 				"auditory"
@@ -2945,9 +2785,7 @@
 			"name": "Overwhelming Word",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -2960,9 +2798,7 @@
 			"name": "Preventing Word",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Auditory",
 				"Concentrate",
@@ -2984,9 +2820,7 @@
 			"name": "Life-Giving Word",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -2999,9 +2833,7 @@
 			"name": "Eniripsa Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3014,9 +2846,7 @@
 			"name": "Almighty Wings",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3029,9 +2859,7 @@
 			"name": "Agonising Word",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"leadsTo": [
 				"Overwhelming Word|FPKrosmoz"
 			],
@@ -3047,9 +2875,7 @@
 			"name": "Transcendent Phasing",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3065,9 +2891,7 @@
 			"leadsTo": [
 				"Life-Giving Word|FPKrosmoz"
 			],
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3083,9 +2907,7 @@
 				"Agonising Word|FPKrosmoz"
 			],
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3101,9 +2923,7 @@
 				"Almighty Wings|FPKrosmoz"
 			],
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 2,
 				"unit": "action"
@@ -3120,9 +2940,7 @@
 			"name": "Blessed Elixirs",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3135,9 +2953,7 @@
 			"name": "Baneful Poisons",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3153,9 +2969,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3167,9 +2981,7 @@
 			"name": "Wondrous Vials",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3185,9 +2997,7 @@
 				"Healing Words|FPKrosmoz"
 			],
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3199,9 +3009,7 @@
 			"name": "Soft Hovering",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3218,9 +3026,7 @@
 			"name": "Eniripsa Weapon Meticulousness",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3233,9 +3039,7 @@
 			"name": "Enhanced Immune System",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3250,9 +3054,7 @@
 				"Transcendent Phasing|FPKrosmoz"
 			],
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "reaction"
@@ -3269,9 +3071,7 @@
 			"name": "Medical Steadiness",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3283,9 +3083,7 @@
 			"name": "Helpful Nature",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3301,9 +3099,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3315,9 +3111,7 @@
 			"name": "Eniripsa's Hands Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3334,9 +3128,7 @@
 				"Blessed Elixirs|FPKrosmoz"
 			],
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3348,9 +3140,7 @@
 			"name": "Coney Familiar",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Eniripsa|FPKrosmoz"
 			],
@@ -3363,9 +3153,7 @@
 			"name": "Divine Multiarms",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 3,
 				"unit": "action"
@@ -3391,9 +3179,7 @@
 			"name": "Bloodthirsty Madness",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"trigger": "You use {@feat Sacrier Ferocity|FPKrosmoz}",
 			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
 			"traits": [
@@ -3407,9 +3193,7 @@
 			"name": "Sacrier Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "{@feat Sacrier Weapon Fury|FPKrosmoz}",
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3422,9 +3206,7 @@
 			"name": "Unfalling Ravager",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3436,9 +3218,7 @@
 			"name": "Bloody Avenger",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "action"
@@ -3457,9 +3237,7 @@
 			"name": "Blood Tentacles",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3472,9 +3250,7 @@
 			"name": "Undying Berserker",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3487,9 +3263,7 @@
 			"name": "Punishing Comeback",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3501,9 +3275,7 @@
 			"name": "Sacrier Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3515,9 +3287,7 @@
 			"name": "Goddess's Tattoos",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3531,9 +3301,7 @@
 			"name": "Sacrier Weapon Fury",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3547,9 +3315,7 @@
 			"name": "Tattooed Weapon",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3569,9 +3335,7 @@
 			"name": "Reaching Tattoo",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "action"
@@ -3587,9 +3351,7 @@
 			"name": "Iron Guts",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3601,9 +3363,7 @@
 			"name": "Empowered Tattoos",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "{@feat Divine Tattoos|FPKrosmoz}",
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3616,9 +3376,7 @@
 			"name": "Blood Pact",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "{@feat Sacrier Ferocity|FPKrosmoz}",
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3632,9 +3390,7 @@
 			"name": "Bloody Blows",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3646,9 +3402,7 @@
 			"name": "Way of the Tattoo",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3661,9 +3415,7 @@
 			"name": "Sanguine Armor",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "action"
@@ -3680,9 +3432,7 @@
 			"name": "Sacrier Weapon Familiarity",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3695,9 +3445,7 @@
 			"name": "Sacrier's Blood Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3709,9 +3457,7 @@
 			"name": "Sacrier Ferocity",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "reaction"
@@ -3729,9 +3475,7 @@
 			"name": "Penitence",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "reaction"
@@ -3749,9 +3493,7 @@
 			"name": "Divine Tattoos",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3763,9 +3505,7 @@
 			"name": "Bloodied Fists",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3777,9 +3517,7 @@
 			"name": "Bloodied Fists",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Sacrier|FPKrosmoz"
 			],
@@ -3791,9 +3529,7 @@
 			"name": "Cra Weapon Precision",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "{@feat Cra Weapon Familiarity|FPKrosmoz}",
 			"traits": [
 				"Cra|FPKrosmoz"
@@ -3812,9 +3548,7 @@
 				"Beacon Expert|FPKrosmoz",
 				"Ruthless Beacons|FPKrosmoz"
 			],
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3832,9 +3566,7 @@
 				"Explosive Shot|FPKrosmoz",
 				"Arrow Beacon|FPKrosmoz"
 			],
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3865,9 +3597,7 @@
 			"name": "Backline Fighter",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3879,9 +3609,7 @@
 			"name": "Arrow to the Knee",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 2,
 				"unit": "action"
@@ -3898,9 +3626,7 @@
 			"name": "Reactive Sight",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3912,9 +3638,7 @@
 			"name": "Discernful Eyes",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3934,9 +3658,7 @@
 			},
 			"trigger": "An ally ends a move action adjacent to you.",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3948,9 +3670,7 @@
 			"name": "See the Unseen",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3963,9 +3683,7 @@
 			"name": "Explosive Shot",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -3984,9 +3702,7 @@
 			"name": "Fulminating Shot",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4004,9 +3720,7 @@
 			"name": "Absolute Acuteness",
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"activity": {
 				"number": 1,
 				"unit": "action"
@@ -4026,9 +3740,7 @@
 			"name": "Ruthless Beacons",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4042,9 +3754,7 @@
 			"name": "Cra Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4057,9 +3767,7 @@
 			"name": "Arcane Sight",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4072,9 +3780,7 @@
 			"name": "Terrain Advantage",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4086,9 +3792,7 @@
 			"name": "Long Step",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4104,9 +3808,7 @@
 			"name": "Cra Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4122,9 +3824,7 @@
 			},
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4138,9 +3838,7 @@
 			"name": "Advanced Scuttle",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4153,9 +3851,7 @@
 			"name": "Roly-Poly",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4167,9 +3863,7 @@
 			"name": "Locate Weak Points",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4181,9 +3875,7 @@
 			"name": "Divine Archery",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4199,9 +3891,7 @@
 			],
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4215,9 +3905,7 @@
 			"name": "Cra's Range Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Cra|FPKrosmoz"
 			],
@@ -4229,9 +3917,7 @@
 			"name": "Iop's Heart Lore",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4243,9 +3929,7 @@
 			"name": "Iop Weapon Familiarity",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4263,9 +3947,7 @@
 			"name": "Irrepressible",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4277,9 +3959,7 @@
 			"name": "Overlooked Mastermind",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4291,9 +3971,7 @@
 			"name": "Unburdened Iron",
 			"source": "FPKrosmoz",
 			"level": 1,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4310,9 +3988,7 @@
 			"leadsTo": [
 				"Unconventional Expertise|FPKrosmoz"
 			],
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4325,9 +4001,7 @@
 			"name": "Cornered Fury",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4339,9 +4013,7 @@
 			"name": "Iop Weapon Fervour",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4354,9 +4026,7 @@
 			"name": "Defiance Unto Death",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4368,9 +4038,7 @@
 			"name": "Martial Experience",
 			"source": "FPKrosmoz",
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4387,9 +4055,7 @@
 				"number": 1
 			},
 			"level": 5,
-			"featType": {
-
-			},
+			"featType": {},
 			"trigger": "You bring a foe to 0 Hit Points.",
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4403,9 +4069,7 @@
 			"name": "Battleforger",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"prerequisites": "master in {@skill Crafting}",
 			"traits": [
 				"Iop|FPKrosmoz"
@@ -4422,9 +4086,7 @@
 				"unit": "action",
 				"number": 1
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"frequency": "once per day",
 			"traits": [
 				"Auditory",
@@ -4441,9 +4103,7 @@
 			"name": "Heroes' Call",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4455,9 +4115,7 @@
 			"name": "Iop Magic",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4469,9 +4127,7 @@
 			"name": "Iop Sword Training",
 			"source": "FPKrosmoz",
 			"level": 9,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4491,9 +4147,7 @@
 				"number": 1,
 				"unit": "reaction"
 			},
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Auditory",
 				"Iop|FPKrosmoz",
@@ -4509,9 +4163,7 @@
 			"name": "Iop Sword Mastery",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4524,9 +4176,7 @@
 			"name": "Iop Weapon Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4539,9 +4189,7 @@
 			"name": "Unconventional Expertise",
 			"source": "FPKrosmoz",
 			"level": 13,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Iop|FPKrosmoz"
 			],
@@ -4558,9 +4206,7 @@
 			},
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Emotion",
 				"Iop|FPKrosmoz",
@@ -4579,9 +4225,7 @@
 			},
 			"source": "FPKrosmoz",
 			"level": 17,
-			"featType": {
-
-			},
+			"featType": {},
 			"traits": [
 				"Fortune",
 				"Iop|FPKrosmoz"
@@ -5565,7 +5209,9 @@
 			},
 			"usage": "etched onto a ranged weapon",
 			"category": "Rune",
-			"appliesTo": ["Weapon"],
+			"appliesTo": [
+				"Weapon"
+			],
 			"entries": [
 				"When you load a ranged weapon, the required ammunition automatically appears in your hand or weapon. This ammunition can only be used to {@action Strike} with the weapon, after which it disappears."
 			],
