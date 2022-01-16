@@ -554,7 +554,7 @@
 			],
 			"usage": "etched onto a weapon",
 			"category": "Rune",
-			"appliesTo": "Weapon",
+			"appliesTo": ["Weapon"],
 			"entries": [
 				"When you make a thrown {@action Strike} with this weapon, it immediately rebounds toward another enemy within 10 feet of the original target. Make an additional {@action Strike} against this second target at a \u20132 penalty. Both attacks count toward your multiple attack penalty, but the penalty doesn't increase until after you've made both attacks. If the weapon also has a returning rune or your thrown attacks have some other way of returning to your hand, the weapon makes its rebound {@action Strike} first before returning to you."
 			],

@@ -5565,7 +5565,7 @@
 			},
 			"usage": "etched onto a ranged weapon",
 			"category": "Rune",
-			"appliesTo": "Weapon",
+			"appliesTo": ["Weapon"],
 			"entries": [
 				"When you load a ranged weapon, the required ammunition automatically appears in your hand or weapon. This ammunition can only be used to {@action Strike} with the weapon, after which it disappears."
 			],
