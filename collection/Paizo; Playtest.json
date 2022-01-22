@@ -11693,7 +11693,9 @@
 				"coin": "gp",
 				"note": null
 			},
-			"ammunition": ["Rounds|PT:G&G"],
+			"ammunition": [
+				"Rounds|PT:G&G"
+			],
 			"hands": 2,
 			"damage": "1d8",
 			"damageType": "P",
@@ -11723,7 +11725,9 @@
 				"coin": "gp",
 				"note": null
 			},
-			"ammunition": ["Rounds|PT:G&G"],
+			"ammunition": [
+				"Rounds|PT:G&G"
+			],
 			"hands": 2,
 			"damage": "1d8",
 			"damageType": "P",
@@ -11755,7 +11759,9 @@
 				"coin": "gp",
 				"note": null
 			},
-			"ammunition": ["Rounds|PT:G&G"],
+			"ammunition": [
+				"Rounds|PT:G&G"
+			],
 			"hands": 1,
 			"damage": "1d6",
 			"damageType": "P",
@@ -11785,7 +11791,9 @@
 				"coin": "gp",
 				"note": null
 			},
-			"ammunition": ["Rounds|PT:G&G"],
+			"ammunition": [
+				"Rounds|PT:G&G"
+			],
 			"hands": 2,
 			"damage": "1d6",
 			"damageType": "P",
@@ -11815,7 +11823,9 @@
 				"coin": "gp",
 				"note": null
 			},
-			"ammunition": ["Rounds|PT:G&G"],
+			"ammunition": [
+				"Rounds|PT:G&G"
+			],
 			"hands": 1,
 			"damage": "1d4",
 			"damageType": "P",
@@ -11845,7 +11855,9 @@
 				"coin": "gp",
 				"note": null
 			},
-			"ammunition": ["Rounds|PT:G&G"],
+			"ammunition": [
+				"Rounds|PT:G&G"
+			],
 			"hands": 1,
 			"damage": "1d4",
 			"damageType": "modular",
