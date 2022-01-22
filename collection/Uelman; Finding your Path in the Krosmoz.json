@@ -4259,7 +4259,7 @@
 			"reload": 0,
 			"range": 60,
 			"bulk": "L",
-			"ammunition": "Bolt",
+			"ammunition": ["Bolt"],
 			"category": "Weapon",
 			"subCategory": "Martial",
 			"group": "Bow",
