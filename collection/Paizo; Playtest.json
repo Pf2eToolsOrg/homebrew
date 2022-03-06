@@ -11974,7 +11974,6 @@
 			"name": "Telekinetic Rend",
 			"level": 0,
 			"school": "V",
-
 			"components": {
 				"S": true,
 				"V": true
@@ -12028,7 +12027,6 @@
 			"name": "Arrest Trajectory",
 			"level": 0,
 			"school": "V",
-
 			"components": {
 				"V": true
 			},
@@ -12076,7 +12074,6 @@
 			"name": "Mental Scan",
 			"level": 0,
 			"school": "D",
-
 			"components": {
 				"V": true
 			},
@@ -12117,7 +12114,6 @@
 			"name": "Future Path",
 			"level": 0,
 			"school": "D",
-
 			"components": {
 				"S": true,
 				"V": true
@@ -12154,7 +12150,6 @@
 			"name": "Nudge Intent",
 			"level": 0,
 			"school": "E",
-
 			"components": {
 				"S": true,
 				"V": true
@@ -12208,7 +12203,6 @@
 			"name": "Shatter Mind",
 			"level": 0,
 			"school": "E",
-
 			"components": {
 				"S": true,
 				"V": true
@@ -12258,7 +12252,6 @@
 			"name": "Evolution Surge",
 			"level": 1,
 			"school": "T",
-
 			"focus": true,
 			"components": {
 				"S": true,
@@ -12343,7 +12336,6 @@
 			"name": "Boost Eidolon",
 			"level": 0,
 			"school": "V",
-
 			"focus": true,
 			"components": {
 				"V": true
@@ -12389,7 +12381,6 @@
 			"name": "Reinforce Eidolon",
 			"level": 0,
 			"school": "V",
-
 			"focus": true,
 			"components": {
 				"V": true
@@ -12438,7 +12429,6 @@
 				"no_x": null
 			},
 			"school": "T",
-
 			"focus": true,
 			"components": {
 				"S": true
@@ -12474,7 +12464,6 @@
 			"name": "Magus Potency",
 			"level": 1,
 			"school": "V",
-
 			"focus": true,
 			"components": {
 				"S": true
@@ -12552,7 +12541,6 @@
 				}
 			},
 			"school": "V",
-
 			"focus": true,
 			"components": {
 				"S": true
@@ -12596,7 +12584,6 @@
 				"type": "null"
 			},
 			"school": "A",
-
 			"focus": true,
 			"components": {
 				"S": true
@@ -12636,7 +12623,6 @@
 				}
 			},
 			"school": "A",
-
 			"focus": true,
 			"components": {
 				"S": true,
@@ -12671,7 +12657,6 @@
 			"name": "Summon Vengeful Dead",
 			"level": 7,
 			"school": "N",
-
 			"components": {
 				"M": true,
 				"S": true,
