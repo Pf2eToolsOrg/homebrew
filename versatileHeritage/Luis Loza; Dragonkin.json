@@ -256,7 +256,10 @@
 				"Dragonkin|Luis-DragonkinVH"
 			],
 			"prerequisites": "{@feat Draconic Wings|Luis-DragonkinVH}",
-			"frequency": "once per round",
+			"frequency": {
+				"unit": "round",
+				"freq": 1
+			},
 			"entries": [
 				"Your wings grow stronger and capable of brief flight. You can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
 			]
@@ -272,7 +275,10 @@
 				"Dragonkin|Luis-DragonkinVH"
 			],
 			"prerequisites": "{@feat Draconic Armaments|Luis-DragonkinVH}",
-			"frequency": "once per round",
+			"frequency": {
+				"unit": "round",
+				"freq": 1
+			},
 			"entries": [
 				"Your natural weapons are especially dangerous. The unarmed attacks you gain from {@feat Draconic Armaments|Luis-DragonkinVH} deal {@damage 1d4} persistent bleed damage on a critical hit."
 			]
@@ -353,7 +359,10 @@
 				"Dragonkin|Luis-DragonkinVH"
 			],
 			"prerequisites": "{@feat Draconic Wings|Luis-DragonkinVH}",
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"leadsTo": [
 				"Boundless Flight|Luis-DragonkinVH"
 			],

@@ -1586,7 +1586,10 @@
 				]
 			},
 			"source": "PT:DA",
-			"frequency": "once per round",
+			"frequency": {
+				"unit": "round",
+				"freq": 1
+			},
 			"entries": [
 				"You determine a creature's weaknesses, whether a literal weakness or a metaphysical one. Recall Knowledge about a creature, using your Charisma modifier instead of the usual ability modifier for the skill you're using to Recall Knowledge. The creature must be either one you can see or one you're specifically Investigating in advance during exploration. The result depends on your Recall Knowledge check, which has the following additional effects as well as the usual effects of Recall Knowledge.",
 				{
@@ -1689,7 +1692,10 @@
 					"Summoner|PT:SoM"
 				]
 			},
-			"frequency": "once per round",
+			"frequency": {
+				"unit": "round",
+				"freq": 1
+			},
 			"source": "PT:SoM",
 			"name": "Act Together"
 		},
@@ -1715,7 +1721,10 @@
 			},
 			"source": "PT:SoM",
 			"name": "Striking Spell",
-			"frequency": "once per round"
+			"frequency": {
+				"unit": "round",
+				"freq": 1
+			}
 		},
 		{
 			"activity": {
@@ -2735,7 +2744,10 @@
 						]
 					},
 					"source": "PT:DA",
-					"frequency": "once per round",
+					"frequency": {
+						"unit": "round",
+						"freq": 1
+					},
 					"entries": [
 						"You determine a creature's weaknesses, whether a literal weakness or a metaphysical one. Recall Knowledge about a creature, using your Charisma modifier instead of the usual ability modifier for the skill you're using to Recall Knowledge. The creature must be either one you can see or one you're specifically Investigating in advance during exploration. The result depends on your Recall Knowledge check, which has the following additional effects as well as the usual effects of Recall Knowledge.",
 						{
@@ -3466,7 +3478,10 @@
 					"type": "ability",
 					"style": "full",
 					"name": "Striking Spell",
-					"frequency": "once per round"
+					"frequency": {
+						"unit": "round",
+						"freq": 1
+					}
 				}
 			]
 		},
@@ -3730,7 +3745,10 @@
 					"entries": [
 						"You and your eidolon each perform a single action. You choose which order the actions are taken, and you and your eidolon can each take a different action."
 					],
-					"frequency": "once per round",
+					"frequency": {
+						"unit": "round",
+						"freq": 1
+					},
 					"source": "PT:SoM",
 					"name": "Act Together",
 					"type": "ability",
@@ -5485,7 +5503,10 @@
 										"Magical",
 										"Thaumaturge|PT:DA"
 									],
-									"frequency": "once per round",
+									"frequency": {
+										"unit": "round",
+										"freq": 1
+									},
 									"requirements": "You are holding your chalice implement.",
 									"entries": [
 										"You drink from the liquid that slowly collects in your chalice or administer it to an adjacent ally. The drinker chooses whether to take a small sip or to drain the contents.",
@@ -7005,7 +7026,10 @@
 				"Psychic|PT:DA"
 			],
 			"featType": {},
-			"frequency": "once per hour",
+			"frequency": {
+				"unit": "hour",
+				"freq": 1
+			},
 			"trigger": "You cast a psi cantrip.",
 			"requirements": "You have 0 Focus Points, and you don't have a psyche unleashed.",
 			"entries": [
@@ -7277,7 +7301,11 @@
 			],
 			"featType": {},
 			"prerequisites": "emotional acceptance subconscious mind",
-			"frequency": "once per 10 minutes",
+			"frequency": {
+				"unit": "minute",
+				"interval": 10,
+				"freq": 1
+			},
 			"trigger": "An ally within 30 feet benefits from an {@trait emotion} effect.",
 			"entries": [
 				"Your sensitivity to your allies' emotions allows you to benefit from some of the same effects they do. Choose one of the following two benefits.",
@@ -7531,7 +7559,9 @@
 				"Thaumaturge|PT:DA"
 			],
 			"featType": {},
-			"frequency": "once per day (resetting at sunset)",
+			"frequency": {
+				"special": "once per day (resetting at sunset)"
+			},
 			"entries": [
 				"You bind yourself by speaking an oath. Supernatural power flows through and around you as you speak it, and all those present to hear it intrinsically know that it binds you, preventing you from willingly acting against your declared oath or ignoring promises made as part of the oath. Thaumaturges use this ability to earn trust from others and lend weight to their promises, allowing them to more easily offer an oath or promise as part of a bargain. The oath doesn't prevent unwilling violations and can't be used to try to circumvent mind-control magic, confusion, or similar situations where you perform an action not entirely of your own volition. You gain a +1 circumstance bonus to {@action Request} or {@action Coerce} creatures aware of your oath if you invoke it as part of a promise you make, due to the fact that the creatures know you must try to keep that promise.",
 				"If you have expert proficiency in {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion}, you can swear a binding oath two times per day; if you have master proficiency in one of these skills, three times; and if you have legendary proficiency, as many times as you like."
@@ -7852,7 +7882,10 @@
 			],
 			"featType": {},
 			"prerequisites": "Find Flaws",
-			"frequency": "once per round",
+			"frequency": {
+				"unit": "round",
+				"freq": 1
+			},
 			"requirements": "You're benefiting from Esoteric Antithesis, you can see the subject, and you haven't used Find Flaws this round.",
 			"entries": [
 				"You've learned that there is great value in repetition, especially in sets of three. You must be able to speak your intent to the world and call out to the subject of your Esoteric Antithesis, but the subject doesn't need to understand or even hear you for your Rule of Three to take effect. The benefits depend on how many times you've uttered the Rule of Three and last as long as the creature is subject to your Esoteric Antithesis.",
@@ -8400,7 +8433,10 @@
 				"Magus|PT:SoM"
 			],
 			"featType": {},
-			"frequency": "once per turn",
+			"frequency": {
+				"unit": "turn",
+				"freq": 1
+			},
 			"requirements": "Your most recent action was to cast a non‑cantrip spell.",
 			"entries": [
 				"You siphon spell energy into one weapon you're wielding. Until the end of your turn, the weapon deals an extra {@dice 1d6} damage of a type depending on the school of the spell you just cast. You can choose to put the spell energy into your body instead of a weapon, conferring the damage on your unarmed attacks.",
@@ -8676,7 +8712,10 @@
 				"Magus|PT:SoM"
 			],
 			"featType": {},
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"entries": [
 				"You can muster intense focus to rapidly store a spell. You use Striking Spell. If your next action is to {@action Cast a Spell|CRB} to store in your body or a weapon, reduce the number of actions required to cast the spell by 1 (to a minimum of 1 action)."
 			],
@@ -8741,7 +8780,10 @@
 				"Magus|PT:SoM"
 			],
 			"featType": {},
-			"frequency": "once per turn",
+			"frequency": {
+				"unit": "turn",
+				"freq": 1
+			},
 			"requirements": "Your most recent action was to cast a non‑cantrip spell.",
 			"entries": [
 				"Your spell has a powerful aftereffect, briefly granting you the effects of a certain spell depending on the school of the spell you cast. This aftereffect lasts until the end of your next turn instead of its usual duration. Using School Shroud again ends any existing spell benefit you gained from School Shroud.",
@@ -9809,7 +9851,10 @@
 				"Fortune"
 			],
 			"featType": {},
-			"frequency": "once per hour",
+			"frequency": {
+				"unit": "hour",
+				"freq": 1
+			},
 			"trigger": "You fail a Fortitude or Will save.",
 			"entries": [
 				"You call upon deep reserves of toughness and mental fortitude to power through an otherwise debilitating effect. Reroll the triggering save with a +2 circumstance bonus."
@@ -10087,7 +10132,10 @@
 				"Gunslinger"
 			],
 			"featType": {},
-			"frequency": "once per minute",
+			"frequency": {
+				"unit": "minute",
+				"freq": 1
+			},
 			"requirements": "You're wielding a loaded firearm or crossbow and not {@condition fatigued}.",
 			"entries": [
 				"Your steps echo with the thunderous retort of exploding black powder as you dance a dance of death. Use any of the following actions you choose in any order: {@action Step|CRB}, {@action Strike|CRB} against a target within your firearm's first range increment, and {@action Interact|CRB} to reload. If you attempted a {@action Strike|CRB} and it succeeds, you can repeat these three actions again in any order. If you attempted a {@action Strike|CRB} in the second set and succeed, you can repeat the actions one last time. After using Dance of Thunder, you become {@condition fatigued} for 1 minute."
@@ -10352,7 +10400,10 @@
 			],
 			"featType": {},
 			"prerequisites": "construct companion",
-			"frequency": "once per minute",
+			"frequency": {
+				"unit": "minute",
+				"freq": 1
+			},
 			"trigger": "Your construct companion would become confused or controlled.",
 			"entries": [
 				"You appeal to your construct companion's bond with its creator to have it break free of a controlling effect. Attempt to counteract the effect that {@condition confused} or {@condition controlled} your construct companion using your {@skill Crafting} modifier for the counteract check and half your level rounded up for the counteract level."
@@ -10664,7 +10715,11 @@
 			],
 			"featType": {},
 			"prerequisites": "offensive boost",
-			"frequency": "once per 10 minutes",
+			"frequency": {
+				"unit": "minute",
+				"interval": 10,
+				"freq": 1
+			},
 			"entries": [
 				"You don't just tinker with your own innovation, you meddle with your allies' weapons as well. Choose an ally in your reach and one of their weapons. Attempt a {@skill Crafting} check against a high DC for your level.",
 				{
@@ -10733,7 +10788,10 @@
 			],
 			"featType": {},
 			"prerequisites": "Tinker's Meddling",
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"entries": [
 				"You meddle with your allies' equipment so often, the modifications you've implemented grant them benefits throughout the day.",
 				"During your daily preparations, you can choose one ally and one of their weapons. Attempt a {@skill Crafting} check against a very high DC for your level. On a success, your ally's {@action Strike|CRB|Strikes} with the chosen weapon gain the same offensive boost you chose for your innovation. This lasts until your next daily preparations. On a critical failure, your ally takes damage of the type and amount that your offensive boost normally deals on a successful {@action Strike|CRB}."
@@ -11690,8 +11748,7 @@
 			],
 			"price": {
 				"amount": 10,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"ammunition": [
 				"Rounds|PT:G&G"
@@ -11722,8 +11779,7 @@
 			],
 			"price": {
 				"amount": 8,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"ammunition": [
 				"Rounds|PT:G&G"
@@ -11756,8 +11812,7 @@
 			],
 			"price": {
 				"amount": 12,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"ammunition": [
 				"Rounds|PT:G&G"
@@ -11788,8 +11843,7 @@
 			],
 			"price": {
 				"amount": 7,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"ammunition": [
 				"Rounds|PT:G&G"
@@ -11820,8 +11874,7 @@
 			],
 			"price": {
 				"amount": 6,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"ammunition": [
 				"Rounds|PT:G&G"
@@ -11852,8 +11905,7 @@
 			],
 			"price": {
 				"amount": 5,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"ammunition": [
 				"Rounds|PT:G&G"
@@ -11922,7 +11974,7 @@
 			"name": "Telekinetic Rend",
 			"level": 0,
 			"school": "V",
-			"type": "CANTRIP",
+
 			"components": {
 				"S": true,
 				"V": true
@@ -11976,7 +12028,7 @@
 			"name": "Arrest Trajectory",
 			"level": 0,
 			"school": "V",
-			"type": "CANTRIP",
+
 			"components": {
 				"V": true
 			},
@@ -12024,7 +12076,7 @@
 			"name": "Mental Scan",
 			"level": 0,
 			"school": "D",
-			"type": "CANTRIP",
+
 			"components": {
 				"V": true
 			},
@@ -12065,7 +12117,7 @@
 			"name": "Future Path",
 			"level": 0,
 			"school": "D",
-			"type": "CANTRIP",
+
 			"components": {
 				"S": true,
 				"V": true
@@ -12102,7 +12154,7 @@
 			"name": "Nudge Intent",
 			"level": 0,
 			"school": "E",
-			"type": "CANTRIP",
+
 			"components": {
 				"S": true,
 				"V": true
@@ -12156,7 +12208,7 @@
 			"name": "Shatter Mind",
 			"level": 0,
 			"school": "E",
-			"type": "CANTRIP",
+
 			"components": {
 				"S": true,
 				"V": true
@@ -12206,7 +12258,7 @@
 			"name": "Evolution Surge",
 			"level": 1,
 			"school": "T",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"S": true,
@@ -12291,7 +12343,7 @@
 			"name": "Boost Eidolon",
 			"level": 0,
 			"school": "V",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"V": true
@@ -12337,7 +12389,7 @@
 			"name": "Reinforce Eidolon",
 			"level": 0,
 			"school": "V",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"V": true
@@ -12386,7 +12438,7 @@
 				"no_x": null
 			},
 			"school": "T",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"S": true
@@ -12422,7 +12474,7 @@
 			"name": "Magus Potency",
 			"level": 1,
 			"school": "V",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"S": true
@@ -12500,7 +12552,7 @@
 				}
 			},
 			"school": "V",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"S": true
@@ -12544,7 +12596,7 @@
 				"type": "null"
 			},
 			"school": "A",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"S": true
@@ -12584,7 +12636,7 @@
 				}
 			},
 			"school": "A",
-			"type": "FOCUS",
+
 			"focus": true,
 			"components": {
 				"S": true,
@@ -12619,7 +12671,7 @@
 			"name": "Summon Vengeful Dead",
 			"level": 7,
 			"school": "N",
-			"type": "SPELL",
+
 			"components": {
 				"M": true,
 				"S": true,
@@ -12937,7 +12989,12 @@
 								"Eidolon"
 							],
 							"name": "Wyrm's Breath",
-							"frequency": "once every 10 minutes",
+							"frequency": {
+								"recurs": true,
+								"interval": 10,
+								"unit": "minute",
+								"freq": 1
+							},
 							"entries": [
 								"Your eidolon concentrates the power of the mightiest wyrms to make their Breath Weapon more spectacular. If your eidolon's next action is to use Breath Weapon, both the damage and area of the Breath Weapon are doubled."
 							],

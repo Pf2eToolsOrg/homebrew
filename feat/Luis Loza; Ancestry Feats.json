@@ -97,7 +97,10 @@
 						"unit": "reaction",
 						"entry": "{@as R}"
 					},
-					"frequency": "once per minute",
+					"frequency": {
+						"unit": "minute",
+						"freq": 1
+					},
 					"trigger": "A creature within 30 feet increases their {@condition frightened} condition.",
 					"entries": [
 						"You latch on to the fear and manipulate its magnitude. You increase or reduce the triggering creature's {@condition frightened} condition by 1. If you increase the condition, you gain a number of temporary Hit Points equal to the triggering creature's level. These temporary Hit Points remain until the end of your next turn."
@@ -146,7 +149,10 @@
 						"unit": "action",
 						"entry": "{@as 3}"
 					},
-					"frequency": "once per day",
+					"frequency": {
+						"unit": "day",
+						"freq": 1
+					},
 					"entries": [
 						"You make a mighty jump, pushing against the air like the wings of a couatl. You {@action High Jump} or {@action Long Jump}. If you {@action High Jump}, you automatically get a critical success. If you {@action Long Jump}, you can automatically {@action Leap} the maximum horizontal distance you could normally travel plus an additional 5 feet. You also gain the effects of {@spell feather fall} until the start of your next turn."
 					]
@@ -259,7 +265,10 @@
 				"Elf",
 				"Exemplar|LuisAncestryFeats-Exemplar"
 			],
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"entries": [
 				"You have learned and mastered many lifetimes worth of experience. You call upon this knowledge to gain a single class feat for 1 minute. If the class feat is for your class, it must be a feat no higher than your character level \u20132. Your class is the class you chose at 1st level and multiclass archetypes are not considered your class. If the class feat is for a different class, it must be a feat no higher than half your level.",
 				"You do not need to meet the prerequisites for any class feat you gain with Ancient Knowledge, but all other restrictions and requirements for the feat are still in place, including any limited uses of the feat. This must means you must still be able to {@action Cast a Spell} for feats that require it, such as if you take the wizard's {@feat Reach Spell (Wizard)||Reach Spell} feat. You must also have the appropriate required ability or class feature to make use of a feat, such as requiring the fighter's {@feat Knockdown} feat to make use of the {@feat Improved Knockdown} feat or the sneak attack feature if you take the rogue's {@feat Twist the Knife} feat.",
@@ -302,7 +311,10 @@
 				"Gnome",
 				"Exemplar|LuisAncestryFeats-Exemplar"
 			],
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"trigger": "You are targeted by a spell.",
 			"entries": [
 				"You redirect the flow of magic to return the spell at its caster. You gain the effects of {@spell spell turning} and immediately attempt to reflect the spell. If you are not trained in spell attacks and spell DCs, you use your choice of either {@skill Arcana}, {@skill Nature}, {@skill Occultism}, or {@skill Religion} to attempt the counteract check to reflect the spell."
@@ -381,7 +393,10 @@
 				"Misfortune",
 				"Exemplar|LuisAncestryFeats-Exemplar"
 			],
-			"frequency": "once per hour",
+			"frequency": {
+				"unit": "hour",
+				"freq": 1
+			},
 			"trigger": "A creature within 30 feet attempts a skill check or saving throw.",
 			"entries": [
 				"You use your power of good fortune to draw it from others like a sponge. The creature must roll the triggering check twice and use the worse result. If you have the {@feat Halfling Luck} feat and also have the ability to use that feat on other types of checks, your trigger for Halfling Misfortune includes those types of checks as well. For example, if you take the {@feat Guiding Luck} feat, you can use Halfling Misfortune when an enemy attempts a {@skill Perception} check."
@@ -403,7 +418,10 @@
 				"Human",
 				"Exemplar|LuisAncestryFeats-Exemplar"
 			],
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"entries": [
 				"You use what you know already know to help you with something new. Select one skill. Your proficiency rank with that skill temporarily increases to the highest rank in a different skill that uses the same ability modifier. For example, if you selected {@skill Thievery}, your rank in the skill would match the proficiency rank in {@skill Acrobatics} or {@skill Stealth}. This increase in rank lasts for 1 minute."
 			]
@@ -424,7 +442,10 @@
 				"Human",
 				"Exemplar|LuisAncestryFeats-Exemplar"
 			],
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"entries": [
 				"You have control of your destiny and can help others to shape their futures as well. You grant the effects of 6th-level {@spell heroism} to yourself and up to 5 allies within 30 feet."
 			]

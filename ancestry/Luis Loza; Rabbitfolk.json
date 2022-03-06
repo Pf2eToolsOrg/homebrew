@@ -242,7 +242,10 @@
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
 			],
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"trigger": "You fail a Reflex saving throw.",
 			"entries": [
 				"Your instincts kick in to try to move you out of the way of danger. You can reroll the triggering check and use the better result."
@@ -421,7 +424,10 @@
 			"featType": {
 				"ancestry": "Rabbitfolk"
 			},
-			"frequency": "once per day",
+			"frequency": {
+				"unit": "day",
+				"freq": 1
+			},
 			"trigger": "An adjacent ally is about to attempt a saving throw.",
 			"traits": [
 				"Fortune",
@@ -493,12 +499,9 @@
 			],
 			"price": {
 				"amount": 1,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"bulk": "L",
-			"onset": null,
-			"ammunition": null,
 			"damage": "1d4",
 			"damageType": "P",
 			"hands": 1,
@@ -524,12 +527,9 @@
 			],
 			"price": {
 				"amount": 1,
-				"coin": "gp",
-				"note": null
+				"coin": "gp"
 			},
 			"bulk": "L",
-			"onset": null,
-			"ammunition": null,
 			"damage": "1d6",
 			"damageType": "S",
 			"hands": 1,

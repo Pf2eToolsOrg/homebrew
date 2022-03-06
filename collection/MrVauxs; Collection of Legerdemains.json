@@ -73,7 +73,7 @@
 		{
 			"name": "Knocking Jab",
 			"source": "CoLegerdemains",
-			"type": "FOCUS",
+
 			"focus": true,
 			"level": 1,
 			"traits": [
@@ -119,7 +119,7 @@
 			],
 			"domain": null,
 			"school": "C",
-			"type": "SPELL",
+
 			"components": {
 				"M": true,
 				"S": true,
@@ -186,7 +186,7 @@
 			],
 			"domain": null,
 			"school": "E",
-			"type": "SPELL",
+
 			"components": {
 				"M": false,
 				"S": false,
