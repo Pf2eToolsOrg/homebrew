@@ -237,6 +237,24 @@
 			"entries": [
 				"You spew magic-imbued swears and curses while you attack a foe. Make a melee {@action Spellstrike|SoM} with your fist or unarmed weapon and {@action Demoralize} the target of your {@action Strike}. Do this immediately before making the {@action Strike}, but after choosing your target. The {@action Demoralize} action gains the {@trait arcane} and {@trait enchantment} traits, and it always has the basic effects of a {@action Demoralize}, rather than applying any adjustments or alternate effects from other feats or abilities."
 			]
+		},
+		{
+			"name": "Quick Maker",
+			"source": "CoLegerdemains",
+			"level": 1,
+			"featType": {
+				"skill": [
+					"Crafting"
+				]
+			},
+			"traits": [
+				"General",
+				"Skill"
+			],
+			"prerequisites": "trained in {@skill Crafting}",
+			"entries": [
+				"You master the basics, allowing you to make items in a short amount of time. When {@action Craft||Crafting} an item, you reduce the number of downtime days required to craft the item by 1 for each level by which your level exceeds the item's level, to a minimum of 1 day."
+			]
 		}
 	],
 	"item": [
@@ -252,7 +270,7 @@
 				"Detection"
 			],
 			"usage": "worn eyepiece",
-			"bulk": "\u2014",
+
 			"category": "Worn",
 			"entries": [
 				"These brass goggles have thick and almost ethereal purple lenses adjustable by gold and silvery nubs. While worn, they give you a +1 item bonus to {@action Identify Magic} checks to identify magical items and objects.",

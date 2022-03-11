@@ -1161,7 +1161,7 @@
 					"shortName": "Studious",
 					"source": "FPKrosmoz",
 					"entries": [
-						"Your magic is more connected to your mind than it is to your faith. Choose {@filter arcane|spells||Level=0|Tradition & Spell List=Arcane} or {@filter occult|spells||Level=0|Tradition & Spell List=Occult}. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a xelor ancestry feat, change its tradition from divine to your chosen tradition."
+						"Your magic is more connected to your mind than it is to your faith. Choose {@filter arcane|spells||spell type=cantrip|Tradition & Spell List=Arcane} or {@filter occult|spells||spell type=cantrip|Tradition & Spell List=Occult}. You gain one cantrip from that magical tradition's spell list. You can cast this spell as an innate spell at will, as a spell of your chosen tradition. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a xelor ancestry feat, change its tradition from divine to your chosen tradition."
 					]
 				}
 			]
@@ -1269,7 +1269,7 @@
 					"shortName": "Wildsoul",
 					"source": "FPKrosmoz",
 					"entries": [
-						"Your connection to the Tree of Life and the Leafy God is greater than most. You gain one {@filter cantrip|spells||Level=0|Tradition & Spell List=Primal} from that primal spell list. You can cast this spell as an innate primal spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a sadida ancestry feat, change its tradition from {@trait divine} to {@trait primal}."
+						"Your connection to the Tree of Life and the Leafy God is greater than most. You gain one {@filter cantrip|spells||spell type=cantrip|Tradition & Spell List=Primal} from that primal spell list. You can cast this spell as an innate primal spell at will. A cantrip is heightened to a spell level equal to half your level rounded up. Whenever you gain a divine innate spell from a sadida ancestry feat, change its tradition from {@trait divine} to {@trait primal}."
 					]
 				}
 			]
@@ -5365,7 +5365,7 @@
 			"consumable": false,
 			"generic": "G",
 			"usage": "tattooed on the body",
-			"bulk": "\u2014",
+
 			"entries": [
 				"This tattoo can pull a foe or ally closer to you, as if casting the {@spell Gravitational Pull|SoM} spell.",
 				{
@@ -5464,7 +5464,7 @@
 				"Uncommon"
 			],
 			"usage": "tattooed on the body",
-			"bulk": "\u2014",
+
 			"entries": [
 				"The tattoo covers your arm and upon activation turns it into a claw.",
 				{
@@ -5499,7 +5499,7 @@
 			],
 			"generic": "G",
 			"usage": "tattooed on the body",
-			"bulk": "\u2014",
+
 			"entries": [
 				"Sacriers often like to store their goods inside their own body, although from an outside perspective it's often not a great sight. The Bulk held inside the tattoo doesn't change the Bulk of the holding tattoo itself. The amount of Bulk the tattoo's extradimensional space can hold depends on its type.",
 				"You can {@action Interact} with the holding tattoo to put items in or remove them just like a mundane sack. Though the tattoo can hold a great amount of material, an object still needs to be able to fit through the tattoo to be stored inside.",
@@ -5601,7 +5601,7 @@
 			],
 			"generic": "G",
 			"usage": "tattooed on the body",
-			"bulk": "\u2014",
+
 			"entries": [
 				"This tattoo makes it harder for a foe to ignore you, attracting their attention and also their attacks. You target a foe, which must succeed at a Will saving throw with the listed DC or take a \u20131 status penalty to attack rolls against creatures other than you for 1 minute.",
 				{
@@ -5675,7 +5675,7 @@
 				"Magical"
 			],
 			"usage": "worn",
-			"bulk": "\u2014",
+
 			"category": "Worn",
 			"entries": [
 				"This ring is shaped much like a cog with lower and softer teeth marks for comfortable use.",
@@ -5695,8 +5695,8 @@
 						"unit": "day",
 						"freq": 1
 					},
-					"trigger": null,
-					"requirements": null,
+
+
 					"entries": [
 						"You cast the {@spell Mending} spell at 1st level."
 					]
@@ -5765,9 +5765,9 @@
 					"components": [
 						"{@action Cast a Spell}"
 					],
-					"frequency": null,
-					"trigger": null,
-					"requirements": null,
+
+
+
 					"entries": [
 						"You expend a number of charges from the staff to cast a spell from its list."
 					]
