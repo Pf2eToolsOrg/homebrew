@@ -239,7 +239,7 @@
 			]
 		},
 		{
-			"name": "Quick Maker",
+			"name": "Quick Crafter",
 			"source": "CoLegerdemains",
 			"level": 1,
 			"featType": {
@@ -337,6 +337,97 @@
 								"with": "usual 30-foot emanation, and the cantrip is heightened to 4th-level."
 							}
 						],
+						"entriesMode": "generic"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sharding",
+			"source": "CoLegerdemains",
+			"type": "Rune",
+			"level": "3+",
+			"traits": [
+				"Evocation",
+				"Magical"
+			],
+			"usage": "etched onto a weapon",
+			"category": "Rune",
+			"appliesTo": [
+				"Weapon"
+			],
+			"entries": [
+				"You can create a sparking slash of energy with a swing of the weapon to attack opponents at range. When you inscribe this rune on a weapon, choose between Acid, Cold, Electricity, Fire, or Sonic damage. This rune gains the trait appropriate to the damage type chosen.",
+				{
+					"type": "ability",
+					"traits": [
+						"Concentrate",
+						"Manipulate"
+					],
+					"activity": {
+						"unit": "action",
+						"number": 2
+					},
+					"entries": [
+						"You shoot out a bolt of energy out of the weapon. Make a ranged weapon attack roll against a target within 30 feet of you. If you hit, you deal {@damage 2d4} damage chosen when this rune was put on the weapon."
+					]
+				}
+			],
+			"generic": "G",
+			"variants": [
+				{
+					"type": "sharding",
+					"level": 3,
+					"price": {
+						"coin": "gp",
+						"amount": 55,
+						"note": null
+					},
+					"entries": []
+				},
+				{
+					"type": "greater sharding",
+					"level": 8,
+					"price": {
+						"coin": "gp",
+						"amount": 450,
+						"note": null
+					},
+					"entries": [
+						"The damage increases to {@damage 4d4}."
+					],
+					"_mod": {
+						"entries":
+							{
+								"mode": "replaceTxt",
+								"replaceTags": true,
+								"replace": "2d4",
+								"with": "4d4"
+							}
+						,
+						"entriesMode": "generic"
+					}
+				},
+				{
+					"type": "major sharding",
+					"level": 12,
+					"price": {
+						"coin": "gp",
+						"amount": 1800,
+						"note": null
+					},
+					"entries": [
+						"The damage increases to {@damage 6d4}."
+					],
+					"_mod": {
+						"entries":
+							{
+								"mode": "replaceTxt",
+								"replaceTags": true,
+								"replace": "2d4",
+								"with": "6d4"
+							}
+						,
 						"entriesMode": "generic"
 					}
 				}

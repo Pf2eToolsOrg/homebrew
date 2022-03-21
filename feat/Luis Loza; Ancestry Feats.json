@@ -304,8 +304,7 @@
 			},
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"traits": [
 				"Gnome",
@@ -329,8 +328,7 @@
 			},
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"traits": [
 				"Goblin",
@@ -385,8 +383,7 @@
 			},
 			"activity": {
 				"number": 1,
-				"unit": "reaction",
-				"entry": "{@as R}"
+				"unit": "reaction"
 			},
 			"traits": [
 				"Halfling",
