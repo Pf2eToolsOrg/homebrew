@@ -91,10 +91,10 @@
 				"S": false,
 				"V": true
 			},
-			"range": null,
+
 			"savingThrowBasic": false,
 			"duration": {
-				"type": null
+
 			},
 			"sustain": false,
 			"dismiss": false,
@@ -102,10 +102,10 @@
 				"You temporarily quicken your strikes, catching your enemy off-guard. Make a melee {@action Strike} with your fist or unarmed weapon. You can then {@action Grapple}, {@action Shove}, or {@action Trip} the target of your {@action Strike}. Your multiple attack penalty applies to both of these actions as normal."
 			],
 			"heightened": {
-				"heightened": false,
-				"plus_x": null,
-				"x": null,
-				"no_x": null
+				"heightened": false
+
+
+
 			}
 		},
 		{
@@ -116,7 +116,7 @@
 				"Arcane",
 				"Primal"
 			],
-			"domain": null,
+
 			"school": "C",
 			"components": {
 				"M": true,
@@ -133,9 +133,9 @@
 				"plus_x": {
 					"level": 1,
 					"entry": "Increase the Arrival damage by {@damage 1d6} and Departure damage by {@damage 1d4}."
-				},
-				"x": null,
-				"no_x": null
+				}
+
+
 			},
 			"entries": [
 				"You call upon the power of mighty water elementals, summoning the Sharknado. The Sharknado manifests as a {@trait Large} turqoise whirlwind made out of water. It has a speed of 30 feet.",
@@ -182,7 +182,7 @@
 				"Arcane",
 				"Occult"
 			],
-			"domain": null,
+
 			"school": "E",
 			"components": {
 				"M": false,
@@ -194,10 +194,10 @@
 				"Mental"
 			],
 			"heightened": {
-				"heightened": null,
-				"plus_x": null,
-				"x": null,
-				"no_x": null
+
+
+
+
 			},
 			"trigger": "A creature within range succeeds on an attack roll, skill check or saving throw.",
 			"targets": "the triggering creature, another creature within range",
@@ -273,7 +273,25 @@
 			"category": "Worn",
 			"entries": [
 				"These brass goggles have thick and almost ethereal purple lenses adjustable by gold and silvery nubs. While worn, they give you a +1 item bonus to {@action Identify Magic} checks to identify magical items and objects.",
-				"The goggles also allow you to cast the {@spell Detect Magic} and {@spell Read Aura} cantrips as arcane innate spells. When casting {@spell Detect Magic} this way, you send out a pulse in a 60-foot cone, rather than the usual 30-foot emanation."
+				"The goggles also allow you to cast the {@spell Detect Magic} and {@spell Read Aura} cantrips.",
+				{
+					"type": "ability",
+					"components": [
+						"{@action Cast a Spell}"
+					],
+					"entries": [
+						"You cast {@spell Detect Magic}, but you send out a pulse in a 60-foot cone, rather than the usual 30-foot emanation."
+					]
+				},
+				{
+					"type": "ability",
+					"components": [
+						"{@action Cast a Spell}"
+					],
+					"entries": [
+						"You cast {@spell Read Aura}."
+					]
+				}
 			],
 			"generic": "G",
 			"variants": [
@@ -380,8 +398,8 @@
 					"level": 3,
 					"price": {
 						"coin": "gp",
-						"amount": 55,
-						"note": null
+						"amount": 55
+
 					},
 					"entries": []
 				},
@@ -390,8 +408,8 @@
 					"level": 8,
 					"price": {
 						"coin": "gp",
-						"amount": 450,
-						"note": null
+						"amount": 450
+
 					},
 					"entries": [
 						"The damage increases to {@damage 4d4}."
@@ -413,8 +431,8 @@
 					"level": 12,
 					"price": {
 						"coin": "gp",
-						"amount": 1800,
-						"note": null
+						"amount": 1800
+
 					},
 					"entries": [
 						"The damage increases to {@damage 6d4}."

@@ -4351,7 +4351,7 @@
 			"entries": [
 				"Bows are such an important part of a Cras life that many of them wish to keep one at hand at all times. Its mechanism is comfortable even for the purpose of loading, which is as simple as placing the bolt into the crossbow's compartment. It deals {@damage 1d6} piercing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4381,7 +4381,7 @@
 			"entries": [
 				"Originally created by the legendary Goultard, many Iops have attempted to recreate the chain and sword combination that the hero named \"The Blade\", and some of them have succeeded. It deals {@damage 1d6} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4409,7 +4409,7 @@
 			"entries": [
 				"It is said that ancient Iops forged these swords with tears of the angel Raziel. Even with today's crafting methods, this sword can very effectively channel your deity's power. It deals {@damage 1d6} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4437,7 +4437,7 @@
 			"entries": [
 				"In ancient times Iops would constantly fight over who wielded the largest sword. This competition has persisted and become part of various Iop cultures, leading to some warriors leading into battle with oversized blades on their back. It deals {@damage 1d12} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4465,7 +4465,7 @@
 			"entries": [
 				"This sword was forged with the purpose of cleanly severing an opponent's limbs. For this purpose the blade can sometimes split into two scissor-like blades. It deals {@damage 1d6} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4493,7 +4493,7 @@
 			"entries": [
 				"Crafted with the millenia old technique of smashing a rock against the blade's edge, a perfect blade for assaulting your enemies. It deals {@damage 1d6} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4579,7 +4579,7 @@
 			"entries": [
 				"The scalpel is an instrument many doctors have at hand, and some Eniripsas have learnt to use it to dissect enemies in battle. It deals {@damage 1d4} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4608,7 +4608,7 @@
 			"entries": [
 				"The original craftsman behind this weapon had a very gruesome idea of how to dissect their enemies in battle. It deals {@damage 1d8} slashing damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4651,7 +4651,7 @@
 					]
 				}
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4694,7 +4694,7 @@
 					]
 				}
 			],
-			"craftReq": null,
+
 			"generic": false
 		},
 		{
@@ -4724,7 +4724,7 @@
 			"entries": [
 				"This hammer has enormous spikes on one or two sides of it. It deals {@damage 1d8} bludgeoning damage."
 			],
-			"craftReq": null,
+
 			"generic": false
 		}
 	],
@@ -4954,8 +4954,8 @@
 					"level": 10,
 					"price": {
 						"coin": "gp",
-						"amount": 700,
-						"note": null
+						"amount": 700
+
 					},
 					"entries": []
 				},
@@ -4964,8 +4964,8 @@
 					"level": 14,
 					"price": {
 						"coin": "gp",
-						"amount": 4500,
-						"note": null
+						"amount": 4500
+
 					},
 					"entries": [
 						"This is a {@runeItem razielle sword|FPKrosmoz|+2 weapon potency||greater striking|}. When activating the sword to cast {@spell Divine Wrath}, the spell is 6th level (DC 33)."
@@ -4997,8 +4997,8 @@
 					"level": 18,
 					"price": {
 						"coin": "gp",
-						"amount": 24000,
-						"note": null
+						"amount": 24000
+
 					},
 					"entries": [
 						"This is a {@runeItem razielle sword|FPKrosmoz|+3 weapon potency||major striking|}. When activating the sword to cast {@spell Divine Wrath}, the spell is 8th level (DC 38)."
@@ -5392,8 +5392,8 @@
 					"level": 4,
 					"price": {
 						"coin": "gp",
-						"amount": 90,
-						"note": null
+						"amount": 90
+
 					},
 					"entries": [
 						{
@@ -5421,8 +5421,8 @@
 					"level": 11,
 					"price": {
 						"coin": "gp",
-						"amount": 300,
-						"note": null
+						"amount": 300
+
 					},
 					"entries": [
 						{
@@ -5508,8 +5508,8 @@
 					"level": 4,
 					"price": {
 						"coin": "gp",
-						"amount": 75,
-						"note": null
+						"amount": 75
+
 					},
 					"entries": [
 						"Capacity 25 Bulk."
@@ -5525,8 +5525,8 @@
 					"level": 7,
 					"price": {
 						"coin": "gp",
-						"amount": 300,
-						"note": null
+						"amount": 300
+
 					},
 					"entries": [
 						"Capacity 50 Bulk."
@@ -5542,8 +5542,8 @@
 					"level": 11,
 					"price": {
 						"coin": "gp",
-						"amount": 1200,
-						"note": null
+						"amount": 1200
+
 					},
 					"entries": [
 						"Capacity 100 Bulk."
@@ -5559,8 +5559,8 @@
 					"level": 13,
 					"price": {
 						"coin": "gp",
-						"amount": 2400,
-						"note": null
+						"amount": 2400
+
 					},
 					"entries": [
 						"Capacity 150 Bulk."
@@ -5702,8 +5702,8 @@
 					"level": 3,
 					"price": {
 						"coin": "gp",
-						"amount": 50,
-						"note": null
+						"amount": 50
+
 					},
 					"entries": []
 				},
@@ -5712,8 +5712,8 @@
 					"level": 9,
 					"price": {
 						"coin": "gp",
-						"amount": 700,
-						"note": null
+						"amount": 700
+
 					},
 					"entries": [
 						"The item bonus granted by this cog ring is +2. When activating the ring to cast {@spell Mending}, the spell is 3rd level."
@@ -5771,8 +5771,8 @@
 					"level": 6,
 					"price": {
 						"coin": "gp",
-						"amount": 200,
-						"note": null
+						"amount": 200
+
 					},
 					"entries": [
 						{
@@ -5790,8 +5790,8 @@
 					"level": 10,
 					"price": {
 						"coin": "gp",
-						"amount": 850,
-						"note": null
+						"amount": 850
+
 					},
 					"entries": [
 						{
@@ -5824,8 +5824,8 @@
 					"level": 14,
 					"price": {
 						"coin": "gp",
-						"amount": 3700,
-						"note": null
+						"amount": 3700
+
 					},
 					"entries": [
 						{
@@ -5860,8 +5860,8 @@
 					"level": 19,
 					"price": {
 						"coin": "gp",
-						"amount": 30500,
-						"note": null
+						"amount": 30500
+
 					},
 					"entries": [
 						{
@@ -6008,8 +6008,8 @@
 					"level": 6,
 					"price": {
 						"coin": "gp",
-						"amount": 45,
-						"note": null
+						"amount": 45
+
 					},
 					"entries": [
 						"You gain the {@trait Incorporeal} trait and resistance to all damage 1 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 3 rounds."
@@ -6026,8 +6026,8 @@
 					"level": 10,
 					"price": {
 						"coin": "gp",
-						"amount": 180,
-						"note": null
+						"amount": 180
+
 					},
 					"entries": [
 						"You gain the {@trait Incorporeal} trait and resistance to all damage 3 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 10 minutes."
@@ -6044,8 +6044,8 @@
 					"level": 14,
 					"price": {
 						"coin": "gp",
-						"amount": 850,
-						"note": null
+						"amount": 850
+
 					},
 					"entries": [
 						"You gain the {@trait Incorporeal} trait and resistance to all damage 5 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 1 hour."
@@ -6098,8 +6098,8 @@
 					"level": 1,
 					"price": {
 						"coin": "gp",
-						"amount": 3,
-						"note": null
+						"amount": 3
+
 					},
 					"entries": [
 						"You gain a +1 item bonus, and the duration is 3 minutes."
@@ -6116,8 +6116,8 @@
 					"level": 5,
 					"price": {
 						"coin": "gp",
-						"amount": 30,
-						"note": null
+						"amount": 30
+
 					},
 					"entries": [
 						"You gain a +2 item bonus, and the duration is 1 minutes."
@@ -6134,8 +6134,8 @@
 					"level": 9,
 					"price": {
 						"coin": "gp",
-						"amount": 150,
-						"note": null
+						"amount": 150
+
 					},
 					"entries": [
 						"You gain a +3 item bonus, and the duration is 5 minutes."
@@ -6152,8 +6152,8 @@
 					"level": 13,
 					"price": {
 						"coin": "gp",
-						"amount": 600,
-						"note": null
+						"amount": 600
+
 					},
 					"entries": [
 						"You gain a +4 item bonus, and the duration is 30 minutes."
@@ -6170,8 +6170,8 @@
 					"level": 15,
 					"price": {
 						"coin": "gp",
-						"amount": 1900,
-						"note": null
+						"amount": 1900
+
 					},
 					"entries": [
 						"You gain a +5 item bonus, and the duration is 1 hour."

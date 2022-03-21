@@ -12008,7 +12008,7 @@
 				"entry": "5‑foot burst"
 			},
 			"duration": {
-				"type": null
+
 			},
 			"savingThrow": "Fortitude",
 			"savingThrowBasic": true,
@@ -12017,8 +12017,8 @@
 				"plus_x": {
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
-				},
-				"no_x": null
+				}
+
 			},
 			"page": 7
 		},
@@ -12055,7 +12055,7 @@
 			},
 			"targets": "the triggering creature",
 			"duration": {
-				"type": null
+
 			},
 			"heightened": {
 				"heightened": true,
@@ -12064,8 +12064,8 @@
 						"level": 7,
 						"entry": "The circumstance bonus to AC increases to +2."
 					}
-				],
-				"no_x": null
+				]
+
 			},
 			"page": 7
 		},
@@ -12093,7 +12093,7 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": null
+
 			},
 			"area": {
 				"types": [
@@ -12102,10 +12102,10 @@
 				"entry": "30‑foot cone"
 			},
 			"duration": {
-				"type": null
+
 			},
 			"heightened": {
-				"no_x": null
+
 			},
 			"page": 7
 		},
@@ -12135,13 +12135,13 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": null
+
 			},
 			"duration": {
-				"type": null
+
 			},
 			"heightened": {
-				"no_x": null
+
 			},
 			"page": 8
 		},
@@ -12177,7 +12177,7 @@
 			},
 			"targets": "1 creature",
 			"duration": {
-				"type": null
+
 			},
 			"entries": [
 				"You brush against a foe's thoughts to subtly suggest a course of action. The idea percolates within the depths of their mind, and something feels wrong if they attempt to do anything other than your suggested course of action. Choose either \"Strike,\" \"Cast a Spell,\" or \"Use a skill action.\" If the target can't pursue the option, they're automatically unaffected. For instance, a creature without spells would be unaffected by \"Cast a Spell.\" Otherwise, at the beginning of their next turn, the target must either choose to do their best to perform your chosen action that turn or attempt a Will save. Regardless of the outcome, the target is then temporarily immune for 1 minute.",
@@ -12194,7 +12194,7 @@
 			],
 			"savingThrow": "Will",
 			"heightened": {
-				"no_x": null
+
 			},
 			"page": 8
 		},
@@ -12224,7 +12224,7 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": null
+
 			},
 			"area": {
 				"types": [
@@ -12233,7 +12233,7 @@
 				"entry": "15‑foot cone"
 			},
 			"duration": {
-				"type": null
+
 			},
 			"savingThrow": "Will",
 			"savingThrowBasic": true,
@@ -12242,8 +12242,8 @@
 				"plus_x": {
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
-				},
-				"no_x": null
+				}
+
 			},
 			"page": 9
 		},
@@ -12286,8 +12286,8 @@
 							}
 						]
 					}
-				],
-				"no_x": null
+				]
+
 			},
 			"traits": [
 				"Uncommon",
@@ -12341,7 +12341,7 @@
 				"V": true
 			},
 			"heightened": {
-				"no_x": null
+
 			},
 			"traits": [
 				"Uncommon",
@@ -12416,7 +12416,7 @@
 				}
 			},
 			"heightened": {
-				"no_x": null
+
 			},
 			"sustain": true,
 			"page": 24
@@ -12426,7 +12426,7 @@
 			"name": "Hasted Assault",
 			"level": 1,
 			"heightened": {
-				"no_x": null
+
 			},
 			"school": "T",
 			"focus": true,
@@ -12446,7 +12446,7 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": null
+
 			},
 			"duration": {
 				"type": "timed",
@@ -12503,8 +12503,8 @@
 						"level": 7,
 						"entry": "The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
 					}
-				],
-				"no_x": null
+				]
+
 			},
 			"duration": {
 				"type": "timed",
@@ -12529,8 +12529,8 @@
 						"level": 7,
 						"entry": "Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
 					}
-				],
-				"no_x": null
+				]
+
 			},
 			"range": {
 				"type": "point",
@@ -12577,8 +12577,8 @@
 				"plus_x": {
 					"level": 1,
 					"entry": "Increase the resistance by 2."
-				},
-				"no_x": null
+				}
+
 			},
 			"range": {
 				"type": "null"
@@ -12612,7 +12612,7 @@
 			"name": "Unfetter Eidolon",
 			"level": 1,
 			"heightened": {
-				"no_x": null
+
 			},
 			"range": {
 				"type": "point",
@@ -12667,7 +12667,7 @@
 				"Necromancy"
 			],
 			"heightened": {
-				"no_x": null
+
 			},
 			"entries": [
 				"You channel the forces of undeath to briefly call forth an amalgam of the vengeful dead slain by your enemies and allies alike. This amalgam manifests as a large tornado of insubstantial, howling faces. It occupies the space of a {@trait Huge} creature and has a Speed of 60 feet.",
@@ -12793,8 +12793,8 @@
 				"one common mortal language the eidolon spoke in life"
 			],
 			"speed": {
-				"walk": 25,
-				"climb": null
+				"walk": 25
+
 			},
 			"abilities": [
 				{
@@ -12908,8 +12908,8 @@
 				"{@language Draconic}"
 			],
 			"speed": {
-				"walk": 25,
-				"climb": null
+				"walk": 25
+
 			},
 			"abilities": [
 				{
@@ -13059,8 +13059,8 @@
 				"Sylvan"
 			],
 			"speed": {
-				"walk": 25,
-				"climb": null
+				"walk": 25
+
 			},
 			"abilities": [
 				{
