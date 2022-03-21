@@ -415,14 +415,12 @@
 						"The damage increases to {@damage 4d4}."
 					],
 					"_mod": {
-						"entries":
-							{
-								"mode": "replaceTxt",
-								"replaceTags": true,
-								"replace": "2d4",
-								"with": "4d4"
-							}
-						,
+						"entries": {
+							"mode": "replaceTxt",
+							"replaceTags": true,
+							"replace": "2d4",
+							"with": "4d4"
+						},
 						"entriesMode": "generic"
 					}
 				},
@@ -438,14 +436,12 @@
 						"The damage increases to {@damage 6d4}."
 					],
 					"_mod": {
-						"entries":
-							{
-								"mode": "replaceTxt",
-								"replaceTags": true,
-								"replace": "2d4",
-								"with": "6d4"
-							}
-						,
+						"entries": {
+							"mode": "replaceTxt",
+							"replaceTags": true,
+							"replace": "2d4",
+							"with": "6d4"
+						},
 						"entriesMode": "generic"
 					}
 				}
