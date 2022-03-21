@@ -12007,9 +12007,7 @@
 				],
 				"entry": "5‑foot burst"
 			},
-			"duration": {
-
-			},
+			"duration": {},
 			"savingThrow": "Fortitude",
 			"savingThrowBasic": true,
 			"heightened": {
@@ -12018,7 +12016,6 @@
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
 				}
-
 			},
 			"page": 7
 		},
@@ -12054,9 +12051,7 @@
 				}
 			},
 			"targets": "the triggering creature",
-			"duration": {
-
-			},
+			"duration": {},
 			"heightened": {
 				"heightened": true,
 				"x": [
@@ -12065,7 +12060,6 @@
 						"entry": "The circumstance bonus to AC increases to +2."
 					}
 				]
-
 			},
 			"page": 7
 		},
@@ -12092,21 +12086,15 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"range": {
-
-			},
+			"range": {},
 			"area": {
 				"types": [
 					"Cone"
 				],
 				"entry": "30‑foot cone"
 			},
-			"duration": {
-
-			},
-			"heightened": {
-
-			},
+			"duration": {},
+			"heightened": {},
 			"page": 7
 		},
 		{
@@ -12134,15 +12122,9 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"range": {
-
-			},
-			"duration": {
-
-			},
-			"heightened": {
-
-			},
+			"range": {},
+			"duration": {},
+			"heightened": {},
 			"page": 8
 		},
 		{
@@ -12176,9 +12158,7 @@
 				}
 			},
 			"targets": "1 creature",
-			"duration": {
-
-			},
+			"duration": {},
 			"entries": [
 				"You brush against a foe's thoughts to subtly suggest a course of action. The idea percolates within the depths of their mind, and something feels wrong if they attempt to do anything other than your suggested course of action. Choose either \"Strike,\" \"Cast a Spell,\" or \"Use a skill action.\" If the target can't pursue the option, they're automatically unaffected. For instance, a creature without spells would be unaffected by \"Cast a Spell.\" Otherwise, at the beginning of their next turn, the target must either choose to do their best to perform your chosen action that turn or attempt a Will save. Regardless of the outcome, the target is then temporarily immune for 1 minute.",
 				{
@@ -12193,9 +12173,7 @@
 				"Your telepathic push is particularly shocking. If the target fails or critically fails its save, it's also {@condition stunned} 1."
 			],
 			"savingThrow": "Will",
-			"heightened": {
-
-			},
+			"heightened": {},
 			"page": 8
 		},
 		{
@@ -12223,18 +12201,14 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"range": {
-
-			},
+			"range": {},
 			"area": {
 				"types": [
 					"Cone"
 				],
 				"entry": "15‑foot cone"
 			},
-			"duration": {
-
-			},
+			"duration": {},
 			"savingThrow": "Will",
 			"savingThrowBasic": true,
 			"heightened": {
@@ -12243,7 +12217,6 @@
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
 				}
-
 			},
 			"page": 9
 		},
@@ -12287,7 +12260,6 @@
 						]
 					}
 				]
-
 			},
 			"traits": [
 				"Uncommon",
@@ -12340,9 +12312,7 @@
 			"components": {
 				"V": true
 			},
-			"heightened": {
-
-			},
+			"heightened": {},
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12415,9 +12385,7 @@
 					"unit": "round"
 				}
 			},
-			"heightened": {
-
-			},
+			"heightened": {},
 			"sustain": true,
 			"page": 24
 		},
@@ -12425,9 +12393,7 @@
 			"source": "PT:SoM",
 			"name": "Hasted Assault",
 			"level": 1,
-			"heightened": {
-
-			},
+			"heightened": {},
 			"school": "T",
 			"focus": true,
 			"components": {
@@ -12445,9 +12411,7 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"range": {
-
-			},
+			"range": {},
 			"duration": {
 				"type": "timed",
 				"entry": "1 minute",
@@ -12504,7 +12468,6 @@
 						"entry": "The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
 					}
 				]
-
 			},
 			"duration": {
 				"type": "timed",
@@ -12530,7 +12493,6 @@
 						"entry": "Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
 					}
 				]
-
 			},
 			"range": {
 				"type": "point",
@@ -12578,7 +12540,6 @@
 					"level": 1,
 					"entry": "Increase the resistance by 2."
 				}
-
 			},
 			"range": {
 				"type": "null"
@@ -12611,9 +12572,7 @@
 			"source": "PT:SoM",
 			"name": "Unfetter Eidolon",
 			"level": 1,
-			"heightened": {
-
-			},
+			"heightened": {},
 			"range": {
 				"type": "point",
 				"entry": "100 feet",
@@ -12666,9 +12625,7 @@
 				"Incarnate|PT:SoM",
 				"Necromancy"
 			],
-			"heightened": {
-
-			},
+			"heightened": {},
 			"entries": [
 				"You channel the forces of undeath to briefly call forth an amalgam of the vengeful dead slain by your enemies and allies alike. This amalgam manifests as a large tornado of insubstantial, howling faces. It occupies the space of a {@trait Huge} creature and has a Speed of 60 feet.",
 				{
@@ -12794,7 +12751,6 @@
 			],
 			"speed": {
 				"walk": 25
-
 			},
 			"abilities": [
 				{
@@ -12909,7 +12865,6 @@
 			],
 			"speed": {
 				"walk": 25
-
 			},
 			"abilities": [
 				{
@@ -13060,7 +13015,6 @@
 			],
 			"speed": {
 				"walk": 25
-
 			},
 			"abilities": [
 				{

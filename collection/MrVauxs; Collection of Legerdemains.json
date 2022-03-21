@@ -91,11 +91,8 @@
 				"S": false,
 				"V": true
 			},
-
 			"savingThrowBasic": false,
-			"duration": {
-
-			},
+			"duration": {},
 			"sustain": false,
 			"dismiss": false,
 			"entries": [
@@ -103,9 +100,6 @@
 			],
 			"heightened": {
 				"heightened": false
-
-
-
 			}
 		},
 		{
@@ -116,7 +110,6 @@
 				"Arcane",
 				"Primal"
 			],
-
 			"school": "C",
 			"components": {
 				"M": true,
@@ -134,8 +127,6 @@
 					"level": 1,
 					"entry": "Increase the Arrival damage by {@damage 1d6} and Departure damage by {@damage 1d4}."
 				}
-
-
 			},
 			"entries": [
 				"You call upon the power of mighty water elementals, summoning the Sharknado. The Sharknado manifests as a {@trait Large} turqoise whirlwind made out of water. It has a speed of 30 feet.",
@@ -182,7 +173,6 @@
 				"Arcane",
 				"Occult"
 			],
-
 			"school": "E",
 			"components": {
 				"M": false,
@@ -193,12 +183,7 @@
 				"Enchantment",
 				"Mental"
 			],
-			"heightened": {
-
-
-
-
-			},
+			"heightened": {},
 			"trigger": "A creature within range succeeds on an attack roll, skill check or saving throw.",
 			"targets": "the triggering creature, another creature within range",
 			"entries": [
@@ -399,7 +384,6 @@
 					"price": {
 						"coin": "gp",
 						"amount": 55
-
 					},
 					"entries": []
 				},
@@ -409,7 +393,6 @@
 					"price": {
 						"coin": "gp",
 						"amount": 450
-
 					},
 					"entries": [
 						"The damage increases to {@damage 4d4}."
@@ -430,7 +413,6 @@
 					"price": {
 						"coin": "gp",
 						"amount": 1800
-
 					},
 					"entries": [
 						"The damage increases to {@damage 6d4}."
