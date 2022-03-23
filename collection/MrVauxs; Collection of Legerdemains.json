@@ -97,10 +97,7 @@
 			"dismiss": false,
 			"entries": [
 				"You temporarily quicken your strikes, catching your enemy off-guard. Make a melee {@action Strike} with your fist or unarmed weapon. You can then {@action Grapple}, {@action Shove}, or {@action Trip} the target of your {@action Strike}. Your multiple attack penalty applies to both of these actions as normal."
-			],
-			"heightened": {
-				"heightened": false
-			}
+			]
 		},
 		{
 			"source": "CoLegerdemains",
@@ -122,7 +119,7 @@
 				"Water"
 			],
 			"heightened": {
-				"heightened": true,
+
 				"plus_x": {
 					"level": 1,
 					"entry": "Increase the Arrival damage by {@damage 1d6} and Departure damage by {@damage 1d4}."

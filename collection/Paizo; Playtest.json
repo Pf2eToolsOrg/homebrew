@@ -11736,7 +11736,7 @@
 			"source": "PT:G&G",
 			"name": "Arquebus",
 			"type": "Equipment",
-			"equipment": true,
+
 			"category": "Weapon",
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
@@ -11769,7 +11769,7 @@
 			"source": "PT:G&G",
 			"name": "Blunderbuss",
 			"type": "Equipment",
-			"equipment": true,
+
 			"category": "Weapon",
 			"rarity": "Uncommon",
 			"subCategory": "Martial",
@@ -11800,7 +11800,7 @@
 			"source": "PT:G&G",
 			"name": "Dueling Pistol",
 			"type": "Equipment",
-			"equipment": true,
+
 			"category": "Weapon",
 			"level": 1,
 			"rarity": "Uncommon",
@@ -11833,7 +11833,7 @@
 			"source": "PT:G&G",
 			"name": "Flintlock Musket",
 			"type": "Equipment",
-			"equipment": true,
+
 			"category": "Weapon",
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
@@ -11864,7 +11864,7 @@
 			"source": "PT:G&G",
 			"name": "Flintlock Pistol",
 			"type": "Equipment",
-			"equipment": true,
+
 			"category": "Weapon",
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
@@ -11895,7 +11895,7 @@
 			"source": "PT:G&G",
 			"name": "Hand Cannon",
 			"type": "Equipment",
-			"equipment": true,
+
 			"category": "Weapon",
 			"rarity": "Uncommon",
 			"subCategory": "Simple",
@@ -11948,7 +11948,7 @@
 			"type": "Item",
 			"category": "Gear",
 			"rarity": "Uncommon",
-			"equipment": true,
+
 			"traits": [],
 			"price": {
 				"coin": "sp",
@@ -12011,7 +12011,7 @@
 			"savingThrow": "Fortitude",
 			"savingThrowBasic": true,
 			"heightened": {
-				"heightened": true,
+
 				"plus_x": {
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
@@ -12053,7 +12053,7 @@
 			"targets": "the triggering creature",
 			"duration": {},
 			"heightened": {
-				"heightened": true,
+
 				"x": [
 					{
 						"level": 7,
@@ -12212,7 +12212,7 @@
 			"savingThrow": "Will",
 			"savingThrowBasic": true,
 			"heightened": {
-				"heightened": true,
+
 				"plus_x": {
 					"level": 2,
 					"entry": "The damage increases by {@dice 1d6}."
@@ -12231,7 +12231,7 @@
 				"V": true
 			},
 			"heightened": {
-				"heightened": true,
+
 				"x": [
 					{
 						"level": 3,
@@ -12453,7 +12453,7 @@
 				}
 			},
 			"heightened": {
-				"heightened": true,
+
 				"x": [
 					{
 						"level": 3,
@@ -12486,7 +12486,7 @@
 			"name": "Runic Impression",
 			"level": 4,
 			"heightened": {
-				"heightened": true,
+
 				"x": [
 					{
 						"level": 7,
@@ -12535,7 +12535,7 @@
 			"name": "Spell Countermeasures",
 			"level": 3,
 			"heightened": {
-				"heightened": true,
+
 				"plus_x": {
 					"level": 1,
 					"entry": "Increase the resistance by 2."

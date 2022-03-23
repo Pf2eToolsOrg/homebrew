@@ -486,7 +486,7 @@
 		{
 			"name": "Warren Knife",
 			"source": "Luis-Rabbitfolk",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -515,7 +515,7 @@
 		{
 			"name": "Warren Spade",
 			"source": "Luis-Rabbitfolk",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",

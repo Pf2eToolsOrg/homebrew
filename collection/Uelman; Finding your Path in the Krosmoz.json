@@ -4326,7 +4326,7 @@
 		{
 			"name": "Cra's Hand Crossbow",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4356,7 +4356,7 @@
 		{
 			"name": "The Blade",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4385,7 +4385,7 @@
 		{
 			"name": "Razielle Sword",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4412,7 +4412,7 @@
 		{
 			"name": "The Knight's Cross",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4439,7 +4439,7 @@
 		{
 			"name": "Scissor Sword",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4466,7 +4466,7 @@
 		{
 			"name": "Andy War Sword",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4493,7 +4493,7 @@
 		{
 			"name": "Battle Spade",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4521,7 +4521,7 @@
 		{
 			"name": "Battle Shovel",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4549,7 +4549,7 @@
 		{
 			"name": "Battle Scalpel",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4578,7 +4578,7 @@
 		{
 			"name": "Apostrukel Scalper",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4606,7 +4606,7 @@
 		{
 			"name": "Hidden Blade",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4648,7 +4648,7 @@
 		{
 			"name": "Clock Hand Sword",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4690,7 +4690,7 @@
 		{
 			"name": "Spiked Hammer",
 			"source": "FPKrosmoz",
-			"equipment": true,
+
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -5348,7 +5348,7 @@
 				"Sacrier|FPKrosmoz",
 				"Uncommon"
 			],
-			"consumable": false,
+
 			"generic": "G",
 			"usage": "tattooed on the body",
 			"entries": [
