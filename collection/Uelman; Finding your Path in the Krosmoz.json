@@ -4326,7 +4326,6 @@
 		{
 			"name": "Cra's Hand Crossbow",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4356,7 +4355,6 @@
 		{
 			"name": "The Blade",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4385,7 +4383,6 @@
 		{
 			"name": "Razielle Sword",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4412,7 +4409,6 @@
 		{
 			"name": "The Knight's Cross",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4439,7 +4435,6 @@
 		{
 			"name": "Scissor Sword",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4466,7 +4461,6 @@
 		{
 			"name": "Andy War Sword",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4493,7 +4487,6 @@
 		{
 			"name": "Battle Spade",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4521,7 +4514,6 @@
 		{
 			"name": "Battle Shovel",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4549,7 +4541,6 @@
 		{
 			"name": "Battle Scalpel",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4578,7 +4569,6 @@
 		{
 			"name": "Apostrukel Scalper",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4606,7 +4596,6 @@
 		{
 			"name": "Hidden Blade",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4648,7 +4637,6 @@
 		{
 			"name": "Clock Hand Sword",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -4690,7 +4678,6 @@
 		{
 			"name": "Spiked Hammer",
 			"source": "FPKrosmoz",
-
 			"type": "Equipment",
 			"traits": [
 				"Uncommon",
@@ -5348,7 +5335,6 @@
 				"Sacrier|FPKrosmoz",
 				"Uncommon"
 			],
-
 			"generic": "G",
 			"usage": "tattooed on the body",
 			"entries": [
