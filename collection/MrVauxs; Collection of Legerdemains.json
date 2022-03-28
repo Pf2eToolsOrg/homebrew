@@ -121,7 +121,9 @@
 			"heightened": {
 				"plus_x": {
 					"level": 1,
-					"entries": ["Increase the Arrival damage by {@damage 1d6} and Departure damage by {@damage 1d4}."]
+					"entries": [
+						"Increase the Arrival damage by {@damage 1d6} and Departure damage by {@damage 1d4}."
+					]
 				}
 			},
 			"entries": [

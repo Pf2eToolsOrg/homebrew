@@ -12006,7 +12006,9 @@
 			"heightened": {
 				"plus_x": {
 					"level": 2,
-					"entries": ["The damage increases by {@dice 1d6}."]
+					"entries": [
+						"The damage increases by {@dice 1d6}."
+					]
 				}
 			},
 			"page": 7
@@ -12048,7 +12050,9 @@
 				"x": [
 					{
 						"level": 7,
-						"entries": ["The circumstance bonus to AC increases to +2."]
+						"entries": [
+							"The circumstance bonus to AC increases to +2."
+						]
 					}
 				]
 			},
@@ -12205,7 +12209,9 @@
 			"heightened": {
 				"plus_x": {
 					"level": 2,
-					"entries": ["The damage increases by {@dice 1d6}."]
+					"entries": [
+						"The damage increases by {@dice 1d6}."
+					]
 				}
 			},
 			"page": 9
@@ -12445,15 +12451,21 @@
 				"x": [
 					{
 						"level": 3,
-						"entries": ["The unarmed attacks or weapons are {@item striking|CRB|+1 striking}."]
+						"entries": [
+							"The unarmed attacks or weapons are {@item striking|CRB|+1 striking}."
+						]
 					},
 					{
 						"level": 4,
-						"entries": ["The unarmed attacks or weapons are {@item greater striking|CRB|+2 striking}."]
+						"entries": [
+							"The unarmed attacks or weapons are {@item greater striking|CRB|+2 striking}."
+						]
 					},
 					{
 						"level": 7,
-						"entries": ["The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."]
+						"entries": [
+							"The unarmed attacks or weapons are {@item major striking|CRB|+3 greater striking}."
+						]
 					}
 				]
 			},
@@ -12477,7 +12489,9 @@
 				"x": [
 					{
 						"level": 7,
-						"entries": ["Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."]
+						"entries": [
+							"Add {@item keen} to the list of runes you can choose, as well as the greater types of {@item greater corrosive|CRB|corrosive}, {@item greater flaming|CRB|flaming}, {@item greater frost|CRB|frost}, {@item greater shock|CRB|shock}, and {@item greater thundering|CRB|thundering}."
+						]
 					}
 				]
 			},
@@ -12524,7 +12538,9 @@
 			"heightened": {
 				"plus_x": {
 					"level": 1,
-					"entries": ["Increase the resistance by 2."]
+					"entries": [
+						"Increase the resistance by 2."
+					]
 				}
 			},
 			"range": {
