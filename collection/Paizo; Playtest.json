@@ -9740,7 +9740,7 @@
 			"featType": {},
 			"requirements": "You're wielding a firearm that you've fired this turn, and you or an adjacent ally are taking persistent bleed damage.",
 			"entries": [
-				"You press your gun's heated barrel to your wounds or those of an ally, instantly granting a flat check to end the bleed with a lower DC for particularly effective assistance (Pathfinder Core Rulebook 621)"
+				"You press your gun's heated barrel to your wounds or those of an ally, instantly granting a flat check to end the bleed with a lower DC for particularly {@condition persistent damage||effective assistance}."
 			],
 			"activity": {
 				"number": 1,
@@ -12543,9 +12543,6 @@
 					]
 				}
 			},
-			"range": {
-				"type": "null"
-			},
 			"school": "A",
 			"focus": true,
 			"components": {
@@ -12564,9 +12561,6 @@
 				"unit": "reaction"
 			},
 			"trigger": "You are targeted by a spell or in the area of a spell.",
-			"duration": {
-				"type": "null"
-			},
 			"sustain": true,
 			"page": 11
 		},
@@ -13173,8 +13167,8 @@
 					"type": "symbiosis",
 					"level": 7,
 					"entries": [
-						"Your eidolon emanates a powerful aura that protects creatures as they travel, a reflection of an astral deva's aura of the same name (Pathfinder Bestiary 19). This aura has the abjuration, aura, and divine traits. Your eidolon and their allies within a 20-foot emanation are protected from severe heat and cold, and your eidolon is never flatfooted to creatures inside the aura that are of a lower level than the eidolon.",
-						"When you gain the eidolon transcendence class feature, this aura evolves to the full benefits of an astral deva's; your eidolon and their allies in the aura are protected from ambient environmental damage from any plane, including severe and extreme heat and cold as well as more otherworldly dangers."
+						"Your eidolon emanates a powerful aura that protects creatures as they travel, a reflection of an {@creature astral deva}'s aura of the same name. This aura has the abjuration, aura, and divine traits. Your eidolon and their allies within a 20-foot emanation are protected from severe heat and cold, and your eidolon is never flatfooted to creatures inside the aura that are of a lower level than the eidolon.",
+						"When you gain the eidolon transcendence class feature, this aura evolves to the full benefits of an {@creature astral deva}'s; your eidolon and their allies in the aura are protected from ambient environmental damage from any plane, including severe and extreme heat and cold as well as more otherworldly dangers."
 					]
 				},
 				{
