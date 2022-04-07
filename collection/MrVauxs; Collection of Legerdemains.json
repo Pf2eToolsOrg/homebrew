@@ -86,9 +86,6 @@
 				"unit": "action"
 			},
 			"components": {
-
-
-
 				"V": true
 			},
 			"savingThrowBasic": false,
@@ -173,8 +170,6 @@
 			],
 			"school": "E",
 			"components": {
-
-
 				"V": true
 			},
 			"traits": [
