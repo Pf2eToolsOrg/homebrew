@@ -327,7 +327,7 @@
 			"featType": {
 				"ancestry": "Rabbitfolk"
 			},
-			"prerequisites": "{@feat Strong Teeth|Luis-Rabbitfolk} or you have a jaws unarmed strike ",
+			"prerequisites": "{@feat Strong Teeth|Luis-Rabbitfolk} or you have a jaws unarmed strike",
 			"trigger": "You roll initiative.",
 			"traits": [
 				"Rabbitfolk|Luis-Rabbitfolk"
