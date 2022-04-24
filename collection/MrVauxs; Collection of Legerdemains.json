@@ -237,6 +237,70 @@
 	],
 	"item": [
 		{
+			"name": "Lethargy Bomb",
+			"source": "CoLegerdemains",
+			"type": "Item",
+			"level": 2,
+			"traits": [
+				"uncommon",
+				"alchemical",
+				"bomb",
+				"consumable",
+				"incapacitation",
+				"poison",
+				"sleep"
+			],
+			"price": {
+				"amount": 6,
+				"coin": "gp"
+			},
+			"usage": "held in 1 hand",
+			"bulk": "L",
+			"activate": {
+				"activity": {
+					"number": 1,
+					"unit": "action"
+				},
+				"components": [
+					"{@action Strike}"
+				]
+			},
+			"category": "Bomb",
+			"entries": [
+				"Lethargy bombs are commonly used in crowd pacification or otherwise non-lethally subdue a target using alchemical reagents before securing them with bindings or otherwise removing them from the fray.",
+				"A lethargy bomb explodes on contact releasing incapacitating fumes, dealing no damage but afflicting every creature within a 5-foot burst of the explosion. Every creature in the burst must make a DC 16 Fortitude saving throw.",
+				"Further exposure to lethargy bombs does not require the creatures to attempt additional saving throws; only failing an saving throw against an ongoing exposure can progress its stage.",
+				{
+					"type": "affliction",
+					"DC": 16,
+					"savingThrow": "Fortitude",
+					"maxDuration": "10 minutes",
+					"stages": [
+						{
+							"stage": 1,
+							"entry": "{@condition stupefied||stupefied 1}",
+							"duration": "1 round"
+						},
+						{
+							"stage": 2,
+							"entry": "{@condition slowed||slowed 1}",
+							"duration": "1 round"
+						},
+						{
+							"stage": 3,
+							"entry": "{@condition slowed||slowed 1}",
+							"duration": "1 minute"
+						},
+						{
+							"stage": 4,
+							"entry": "{@condition unconscious} with no {@skill Perception} check to wake up.",
+							"duration": "10 minutes"
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Goggles of Revealing",
 			"source": "CoLegerdemains",
 			"type": "Item",
