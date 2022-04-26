@@ -4487,7 +4487,7 @@
 			"classSource": "PT:G&G",
 			"level": 1,
 			"entries": [
-				"At 1st level and every even-numbered level, you gain an {@filter inventor class feat|feats|source=PT:G&G|type=class|classes=inventor|level=[1;1]}."
+				"At 1st level and every even-numbered level, you gain an {@filter inventor class feat|feats|source=PT:G&G|type=class|Class=inventor|level=[1;1]}."
 			]
 		},
 		{
@@ -9333,7 +9333,7 @@
 			],
 			"featType": {},
 			"entries": [
-				"You've learned how to transmogrify your eidolon in various ways to suit the circumstances of the day. Each day during your daily preparations, choose one {@filter evolution feat|feats||classes=Summoner|level=[0;6]} of 6th level or lower. Your eidolon gains that feat until your next daily preparations."
+				"You've learned how to transmogrify your eidolon in various ways to suit the circumstances of the day. Each day during your daily preparations, choose one {@filter evolution feat|feats||Class=Summoner|level=[0;6]} of 6th level or lower. Your eidolon gains that feat until your next daily preparations."
 			],
 			"leadsTo": [
 				"True Transmogrification|PT:SoM"
