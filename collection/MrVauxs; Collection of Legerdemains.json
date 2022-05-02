@@ -71,6 +71,66 @@
 	],
 	"spell": [
 		{
+			"name": "Constructed Servant",
+			"source": "CoLegerdemains",
+			"focus": false,
+			"level": 1,
+			"traits": [
+				"Uncommon",
+				"Conjuration"
+			],
+			"school": "C",
+			"traditions": [
+				"Arcane",
+				"Occult"
+			],
+			"cast": {
+				"number": 3,
+				"unit": "action"
+			},
+			"components": {
+				"F": false,
+				"M": true,
+				"S": true,
+				"V": true
+			},
+			"range": {
+				"entry": "60 feet",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"savingThrowBasic": false,
+			"duration": {
+				"type": "timed",
+				"entry": "sustained",
+				"duration": {
+					"number": 1,
+					"unit": "unlimited"
+				}
+			},
+			"sustain": true,
+			"dismiss": false,
+			"entries": [
+				"You summon an {@creature constructed servant|CoLegerdemains}, which you can command as part of {@action Sustain a Spell||Sustaining the Spell}. It serves you until its Hit Points are reduced to 0, at which point the spell ends, or until you stop {@action Sustain a Spell||Sustaining the Spell}. The {@creature constructed servant|CoLegerdemains} gains the {@trait summoned} trait.",
+				{
+					"type": "pf2-sample-box",
+					"name": "",
+					"entries": [
+						"Use this stat block for constructed servant.",
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Constructed Servant",
+							"source": "CoLegerdemains"
+						}
+					]
+				}
+			],
+			"summoning": true
+		},
+		{
 			"name": "Knocking Jab",
 			"source": "CoLegerdemains",
 			"focus": true,
@@ -485,6 +545,112 @@
 					}
 				}
 			]
+		}
+	],
+	"creature": [
+		{
+			"name": "Constructed Servant",
+			"source": "CoLegerdemains",
+			"level": -1,
+			"rarity": "Uncommon",
+			"size": "Medium",
+			"traits": [
+				"Mindless"
+			],
+			"creatureType": [
+				"Construct"
+			],
+			"perception": {
+				"default": 0
+			},
+			"languages": {
+				"languages": [],
+				"languageAbilities": [
+					"(understands its creator)"
+				]
+			},
+			"skills": {
+				"Athletics": {
+					"default": 8
+				}
+			},
+			"abilityMods": {
+				"Str": 0,
+				"Dex": 1,
+				"Con": 0,
+				"Int": -5,
+				"Wis": 0,
+				"Cha": -5
+			},
+			"abilitiesTop": [],
+			"ac": {
+				"default": 15,
+				"when broken": 13
+			},
+			"savingThrows": {
+				"Fort": {
+					"default": 3
+				},
+				"Ref": {
+					"default": 6
+				},
+				"Will": {
+					"default": 3
+				}
+			},
+			"abilitiesMid": [
+				{
+					"entries": [
+						"Like normal objects, a constructed servant has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an constructed servant is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 14."
+					],
+					"name": "Construct Armor"
+				}
+			],
+			"hp": [
+				{
+					"hp": 6,
+					"abilities": null
+				}
+			],
+			"immunities": {
+				"damage": [],
+				"condition": [
+					"bleed",
+					"death effects",
+					"disease",
+					"doomed",
+					"drained",
+					"fatigued",
+					"healing",
+					"mental",
+					"necromancy",
+					"nonlethal attacks",
+					"paralyzed",
+					"poison",
+					"sickened",
+					"unconscious"
+				]
+			},
+			"attacks": [
+				{
+					"range": "Melee",
+					"name": "fist",
+					"attack": 6,
+					"traits": [
+						"agile",
+						"magical",
+						"finesse"
+					],
+					"effects": [],
+					"damage": "{@dice 1d4} bludgeoning",
+					"types": [
+						"bludgeoning"
+					]
+				}
+			],
+			"speed": {
+				"walk": 20
+			}
 		}
 	]
 }

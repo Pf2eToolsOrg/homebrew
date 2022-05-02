@@ -8,7 +8,7 @@ const ub = require("./util-brew");
 function checkFileContents () {
 	const DIR_TO_PRIMARY_PROP = {
 		"creature": [
-			"monster"
+			"creature"
 		],
 		"book": [
 			"book",
