@@ -1,4 +1,5 @@
 {
+	"$schema": "https://pf2e.mrvauxs.net/test/schema-template/schema.json",
 	"_meta": {
 		"sources": [
 			{
@@ -18,224 +19,224 @@
 		"dateAdded": 1650897128,
 		"dateLastModified": 1650897128
 	},
-	"$schema": "https://pf2e.mrvauxs.net/test/schema-template/schema.json",
-	"creature": [{
-		"name": "Zen",
-		"isNpc": true,
-		"source": "TheMagaambyaExpanded",
-		"level": 2,
-		"rarity": "Unique",
-		"alignment": "CG",
-		"size": "Medium",
-		"traits": [
-			"Kitsune"
-		],
-		"creatureType": [
-			"Humanoid"
-		],
-		"perception": {
-			"default": 10
-		},
-		"languages": {
-			"languages": [
-				"Mwangi",
-				"Orcish",
-				"Sylvan"
+	"creature": [
+		{
+			"name": "Zen",
+			"isNpc": true,
+			"source": "TheMagaambyaExpanded",
+			"level": 2,
+			"rarity": "Unique",
+			"alignment": "CG",
+			"size": "Medium",
+			"traits": [
+				"Kitsune"
 			],
-			"languageAbilities": []
-		},
-		"skills": {
-			"Society": {
-				"default": 8
-			},
-			"Performance": {
+			"creatureType": [
+				"Humanoid"
+			],
+			"perception": {
 				"default": 10
 			},
-			"Diplomacy": {
-				"default": 8
-			},
-			"Nature": {
-				"default": 6
-			},
-			"Survival": {
-				"default": 8
-			}
-		},
-		"abilityMods": {
-			"Str": 0,
-			"Dex": 2,
-			"Con": 0,
-			"Int": 2,
-			"Wis": 3,
-			"Cha": 3
-		},
-		"abilitiesTop": [],
-		"ac": {
-			"default": 17
-		},
-		"savingThrows": {
-			"Fort": {
-				"default": 6
-			},
-			"Ref": {
-				"default": 8
-			},
-			"Will": {
-				"default": 9
-			}
-		},
-		"hp": [
-			{
-				"hp": 24,
-				"abilities": null
-			}
-		],
-		"abilitiesMid": [],
-		"speed": {
-			"walk": 25
-		},
-		"attacks": [
-			{
-				"range": "Melee",
-				"name": "jaws",
-				"attack": 9,
-				"traits": [
-					"finesse",
-					"unarmed"
+			"languages": {
+				"languages": [
+					"Mwangi",
+					"Orcish",
+					"Sylvan"
 				],
-				"effects": [],
-				"damage": "{@damage 1d6+2} piercing",
-				"types": [
-					"piercing"
-				]
+				"languageAbilities": []
 			},
-			{
-				"range": "Melee",
-				"name": "retractable claws",
-				"attack": 9,
-				"traits": [
-					"agile",
-					"finesse",
-					"unarmed"
-				],
-				"effects": [],
-				"damage": "{@damage 1d4+2} slashing",
-				"types": [
-					"slashing"
-				]
-			}
-		],
-		"spellcasting": [
-			{
-				"name": "Arcane Prepared",
-				"type": "Prepared",
-				"tradition": "Arcane",
-				"DC": 17,
-				"attack": 9,
-				"entry": {
-					"0": {
-						"level": 2,
-						"spells": [
-							{
-								"name": "mage hand"
-							},
-							{
-								"name": "detect magic"
-							},
-							{
-								"name": "ghost sound"
-							},
-							{
-								"name": "prestidigitation"
-							},
-							{
-								"name": "shield"
-							}
-						]
-					},
-					"1": {
-						"spells": [
-							{
-								"name": "befuddle",
-								"source": "logm"
-							},
-							{
-								"name": "restyle",
-								"source": "som"
-							},
-							{
-								"name": "feather fall"
-							}
-						]
-					},
-					"2": {
-						"spells": [
-							{
-								"name": "invisibility"
-							}
-						]
-					}
-				}
-			},
-			{
-				"name": "Primal Prepared",
-				"type": "Prepared",
-				"tradition": "Primal",
-				"DC": 18,
-				"attack": 10,
-				"entry": {
-					"0": {
-						"level": 2,
-						"spells": [
-							{
-								"name": "produce flame"
-							},
-							{
-								"name": "dancing lights"
-							}
-						]
-					},
-					"1": {
-						"spells": [
-							{
-								"name": "magic fang"
-							}
-						]
-					}
-				}
-			}
-		],
-		"abilitiesBot": [
-			{
-				"activity": {
-					"number": 1,
-					"unit": "action"
+			"skills": {
+				"Society": {
+					"default": 8
 				},
-				"traits": [
-					"Concentrate",
-					"divine",
-					"polymorph",
-					"transmutation"
-				],
-				"entries": [
-					"Zen transforms into a fox form, which has the statistics of a 1st-level {@spell pest form}. The fox form can't be altered and resembles Zen's kitsune form."
-				],
-				"name": "Change Shape",
-				"generic": true
-			}
-		],
-		"inflicts": {
-			"damage": [
-				"piercing",
-				"slashing"
+				"Performance": {
+					"default": 10
+				},
+				"Diplomacy": {
+					"default": 8
+				},
+				"Nature": {
+					"default": 6
+				},
+				"Survival": {
+					"default": 8
+				}
+			},
+			"abilityMods": {
+				"Str": 0,
+				"Dex": 2,
+				"Con": 0,
+				"Int": 2,
+				"Wis": 3,
+				"Cha": 3
+			},
+			"abilitiesTop": [],
+			"ac": {
+				"default": 17
+			},
+			"savingThrows": {
+				"Fort": {
+					"default": 6
+				},
+				"Ref": {
+					"default": 8
+				},
+				"Will": {
+					"default": 9
+				}
+			},
+			"hp": [
+				{
+					"hp": 24,
+					"abilities": null
+				}
 			],
-			"condition": []
-		},
-		"misc": [
-			"MA",
-			"UW"
-		],
-		"hasImages": true
-	}
+			"abilitiesMid": [],
+			"speed": {
+				"walk": 25
+			},
+			"attacks": [
+				{
+					"range": "Melee",
+					"name": "jaws",
+					"attack": 9,
+					"traits": [
+						"finesse",
+						"unarmed"
+					],
+					"effects": [],
+					"damage": "{@damage 1d6+2} piercing",
+					"types": [
+						"piercing"
+					]
+				},
+				{
+					"range": "Melee",
+					"name": "retractable claws",
+					"attack": 9,
+					"traits": [
+						"agile",
+						"finesse",
+						"unarmed"
+					],
+					"effects": [],
+					"damage": "{@damage 1d4+2} slashing",
+					"types": [
+						"slashing"
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Arcane Prepared",
+					"type": "Prepared",
+					"tradition": "Arcane",
+					"DC": 17,
+					"attack": 9,
+					"entry": {
+						"0": {
+							"level": 2,
+							"spells": [
+								{
+									"name": "mage hand"
+								},
+								{
+									"name": "detect magic"
+								},
+								{
+									"name": "ghost sound"
+								},
+								{
+									"name": "prestidigitation"
+								},
+								{
+									"name": "shield"
+								}
+							]
+						},
+						"1": {
+							"spells": [
+								{
+									"name": "befuddle",
+									"source": "logm"
+								},
+								{
+									"name": "restyle",
+									"source": "som"
+								},
+								{
+									"name": "feather fall"
+								}
+							]
+						},
+						"2": {
+							"spells": [
+								{
+									"name": "invisibility"
+								}
+							]
+						}
+					}
+				},
+				{
+					"name": "Primal Prepared",
+					"type": "Prepared",
+					"tradition": "Primal",
+					"DC": 18,
+					"attack": 10,
+					"entry": {
+						"0": {
+							"level": 2,
+							"spells": [
+								{
+									"name": "produce flame"
+								},
+								{
+									"name": "dancing lights"
+								}
+							]
+						},
+						"1": {
+							"spells": [
+								{
+									"name": "magic fang"
+								}
+							]
+						}
+					}
+				}
+			],
+			"abilitiesBot": [
+				{
+					"activity": {
+						"number": 1,
+						"unit": "action"
+					},
+					"traits": [
+						"Concentrate",
+						"divine",
+						"polymorph",
+						"transmutation"
+					],
+					"entries": [
+						"Zen transforms into a fox form, which has the statistics of a 1st-level {@spell pest form}. The fox form can't be altered and resembles Zen's kitsune form."
+					],
+					"name": "Change Shape",
+					"generic": true
+				}
+			],
+			"inflicts": {
+				"damage": [
+					"piercing",
+					"slashing"
+				],
+				"condition": []
+			},
+			"misc": [
+				"MA",
+				"UW"
+			],
+			"hasImages": true
+		}
 	]
 }
