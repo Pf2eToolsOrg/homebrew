@@ -5712,7 +5712,7 @@
 				"Staff"
 			],
 			"usage": "held in 1 hand",
-			"bulk": "1",
+			"bulk": 1,
 			"category": "Staff",
 			"entries": [
 				"This magic metal staff has an hourglass on the top containing blessed time sand, giving the wielder great power over time. While wielding the staff, you gain a +2 circumstance bonus to initiative rolls.",
