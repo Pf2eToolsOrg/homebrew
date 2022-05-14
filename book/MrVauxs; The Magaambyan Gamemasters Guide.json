@@ -177,7 +177,7 @@
 						},
 						"Each category should be self-explanatory, with the exception of Minor NPCs. Minor NPCs are NPCs that appear in the adventure but don't serve a bigger purpose than the one you and your players give them past their initial introduction, nor have a specified role such as a Student. An example of such an NPC is {@creature Binji|SoT1}.",
 						{
-							"type": "pf2-h1",
+							"type": "pf2-h2",
 							"name": "Students",
 							"entries": [
 								{
@@ -188,9 +188,11 @@
 										{
 											"type": "pf2-h3",
 											"name": "Anchor Root",
+											"source": "SoT1",
+											"page": 67,
 											"entries": [
-												"An anxious female ant gnoll, Anchor Root appears at the beginning and at the end of the adventure path. She can be first seen in the first adventure, {@i Kindled Magic}, but also right at the end in {@i Shadow of the Ancients} where the heroes have to save Anchor Root from the effects of the Vesciant Egg.",
-												"Similarly, any artwork containing Anchor Root can only be found on page 67 of {@i Kindled Magic} and 23 of {@i Shadow of the Ancients}.",
+												"An anxious female ant gnoll, Anchor Root appears at the beginning and at the end of the adventure path. She can be first seen in the first adventure, {@i Kindled Magic}, but also right at the end in {@i Shadow of the Ancients} where the heroes have to save Anchor Root from the effects of the Vesciant Egg which turned her {@creature Unshadowed Anchor Root|SoT6|Unshadowed}, along with Haibram Thodja and Mariama Keitana.",
+												"Similarly, any artwork containing Anchor Root can only be found on page 67 of {@i Kindled Magic} and her unshadowed \"evil\" version on page 23 of {@i Shadow of the Ancients}.",
 												{
 													"type": "data",
 													"tag": "generic",
@@ -198,6 +200,7 @@
 													"data": {
 														"name": "Anchor Root",
 														"source": "SoT1",
+														"page": 67,
 														"doNotSortTraits": true,
 														"doNotTagTraits": true,
 														"traits": [
@@ -290,6 +293,8 @@
 										{
 											"type": "pf2-h3",
 											"name": "Chizire",
+											"page": 68,
+											"source": "SoT1",
 											"entries": [
 												"The easygoing male catfolk, Chizire welcomes the players to their dormitory with mango and moonshine at the beginning of the adventure path. He appears in the {@i Kindled Magic}, briefly in {@i Spoken on the Song Wind} and lastly has to be saved from an {@creature Grendel|Bst2|Infused Ogre} of his own doing in {@i Shadow of the Ancients}.",
 												"The only artwork of Chizire is on page 68 of {@i Kindled Magic}.",
@@ -299,6 +304,7 @@
 													"style": "book",
 													"data": {
 														"name": "Chizire",
+														"page": 68,
 														"source": "SoT1",
 														"doNotSortTraits": true,
 														"doNotTagTraits": true,
@@ -381,6 +387,216 @@
 																			"Chizire spent most of his youth in {@place Kibwe} unable to read, no matter how many books he was given or how many lessons were drilled into his head. By the time a visiting scholar encountered Chizire and recognized the youth was dyslexic, Chizire had already embraced the role of slacker and screw-up that had been thrust upon him. Despite this, Chizire's keen ability to teach himself magic and science caught the scholar's eye, even if the catfolk mostly used his gifts to keep slugs out of his fermentation barrels.",
 																			"Chizire thrives at the Magaambya, though he often uses his intelligence for disruptive jokes, complex pranks, and other hijinks disapproved of by the faculty. He infuriates most of his mentors\u2014and some of the students\u2014 by refusing to make anything of himself, despite clearly understanding the lessons better than many of his peers.",
 																			"Chizire is known for his daring antics, such as infiltrating the kitchen or stealing magic items from campus, but his ultimate goal for the year is to enchant one of Nantambu's 10 pillar landmarks to tell bawdy jokes. Getting past all the magical wards on the pillars would be an incredible challenge, but Chizire thinks he can manage it with a bit of help, provided no one snitches on him to the teachers."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Esi Djana",
+											"page": 68,
+											"source": "SoT1",
+											"entries": [
+												"Esi Djana, a gifted female human student is the first of many who meets and welcomes the players to their at the beginning of the adventure path. She appears in the {@i Kindled Magic}, and briefly appearing in {@i Shadow of the Ancients} as \"a busy teacher rumored to be well on her way to becoming the Learned One of the Tempest-Sun Mages\".",
+												"The only artwork of her is on page 68 of {@i Kindled Magic}.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Esi Djana",
+														"page": 68,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait LG}",
+															"FEMALE",
+															"{@ancestry HUMAN}",
+															"ACE STUDENT"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Tempest-Sun Mages"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"Treat your successes to {@action Study|SoT1} for Tempest-Sun Mage classes as critical successes instead."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@spell impeccable flow|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Arcana}, {@skill Athletics}, {@skill Diplomacy}, {@skill Society}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"university administration, campus exploration, book printing, book binding, sports, tactical wargames, fashion contests"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"once spent 15 straight minutes reciting different synonyms for “wrong” to make a point in an argument"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"leaving baubles at magically derived coordinates for others to find"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Anchor Root (working on musical playback magic), Haibram and Mariama (sparring partners), Okoro (exercise partner), Tzeniwe (babysitting)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Every school has its star students, and anyone who knows Esi Djana knows that she’s one of them. A Nantambu native, Esi engages the academy with an energy few can match. On any given day, Esi can be found organizing students for study groups and extracurricular activities, commanding the field for several of Nantambu’s sports teams, independently researching foreign policy and military defense tactics, and still finding time for an active social life and dates with similarly ambitious young men. Esi is also known for around campus being kind, passionate, and genuine, going out of her way to approach shier or more anxious students who seem to have trouble making friends. Determined to follow in the footsteps of her Tempest-Sun Mage mother, whom she idolizes, Esi is a student who is clearly going places—a fact that attracts admirers, detractors, and opportunists in equal measure.",
+																			"Esi’s obstacles stem from her strengths. The young woman is not shy about challenging her teachers, or the academy administration itself, when she feels something can be done better. While some teachers encourage her spirited initiative (Takulu Ot perhaps most of all), others can be dismissive or outright hostile."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Haibram Thodja",
+											"page": 69,
+											"source": "SoT1",
+											"entries": [
+												"The reckless male dwarf, Haibram Thodja, appears in {@i Kindled Magic} as a fellow student, followed by an appearance in {@i Doorway to the Red Star} in an event partaking flying an airship. Lastly, he is found in {@i Shadow of the Ancients} under the influence of the Vesciant Egg, much like Anchor Root and Mariama Keitana in an {@creature Unshadowed Haibram|SoT6|Unshadowed} form.",
+												"There's artwork of Haibram on page 66 and 69 of {@i Kindled Magic}, as well as his unshadowed form in {@i Shadows of the Ancients} on page 24.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Haibram Thodja",
+														"page": 69,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait CG}",
+															"MALE",
+															"{@ancestry DWARF}",
+															"DAREDEVIL"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Rain-Scribes"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"When you {@action Cram|SoT1} for Rain-Scribe classes, you can {@action Study|SoT1} three times rather than twice."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@spell airburst|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Arcana}, {@skill Athletics}, {@skill Intimidation}, {@skill Survival}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"recreational combat, cloudwatching, hang-gliding, pyromania"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"jumping off a three-story building to win a game of tag"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"constantly found at the scene of fires that are actually never his fault"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Chizire (drinking partner), Esi and Mariama (sparring partners)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Haibram’s philosophy in life could be summed up as “go hard or go home.” Though on the whole a friendly person, the Mbe’ke dwarf approaches anything resembling a competition with perhaps a little too much enthusiasm. While most of his idiosyncrasies are harmless, such as entering footraces in full battle armor, others demonstrate a rash impulsiveness, such as the time he leapt out brandishing an axe during an Uzunjati scary story competition. For those who aren’t put off by his wild antics, Haibram can be the highlight of any party. Whether it’s rockclimbing, rooftop races at midnight, or igniting colorful explosives, his exploits almost always make for interesting stories.",
+																			"Though Haibram’s natural magical mastery is focused on the element of air, his true enthusiasm is fire. It’s an open secret Haibram wants to join the Tempest-Sun Mages and rain destruction down on his foes, but the branch’s obligation to defend (and thus remain near) the Magaambya has left him unwilling to commit. For now, he satisfies himself with learning how to survive and thrive in any circumstances by studying under the Rain-Scribes. He skillfully combines physical combat with magic, using wind to dart across the battlefield or add hurricane force to thrown mambeles and swung clubs."
 																		]
 																	}
 																]
