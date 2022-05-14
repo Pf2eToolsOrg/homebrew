@@ -1,0 +1,403 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "MagaambyanPamphlet",
+				"abbreviation": "MGG",
+				"full": "The Magaambyan Gamemasters Guide",
+				"authors": [
+					"MrVauxs"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "d9a8d7",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1652535153,
+		"dateLastModified": 1652535153
+	},
+	"book": [
+		{
+			"name": "The Magaambyan Gamemasters Guide",
+			"id": "MagaambyanPamphlet",
+			"source": "MagaambyanPamphlet",
+			"group": "homebrew",
+			"coverUrl": "",
+			"published": "2022-05-14",
+			"author": "MrVauxs",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"The Magaambyan Guide",
+						"Homebrew Disclaimer"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 1
+					}
+				},
+				{
+					"name": "NPCs",
+					"headers": [
+						"Students",
+						"Staff Members",
+						"Villains",
+						"Minor NPCs"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
+					"name": "The World",
+					"headers": [
+						"Magaambya Locations",
+						"Nantambu Locations",
+						"Branches",
+						"Semester Rules"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Rules",
+					"headers": [
+						"Branches",
+						"Semester Rules",
+						"Student Rules"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "The-Everything-Appendix",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "A"
+					}
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "MagaambyanPamphlet",
+			"source": "MagaambyanPamphlet",
+			"data": [
+				{
+					"type": "section",
+					"name": "Introduction",
+					"entries": [
+						{
+							"type": "pf2-h1-flavor",
+							"entries": [
+								"{@i The Magaambya is an academic organization founded by Old-Mage Jatembe and his Ten Magic Warriors during the Age of Anguish, teaching both magic and alchemy, self-reliance and teamwork, and diplomacy as well as force for good. It is a community built on the strength of thousands before it, and you now get to be one of them.}"
+							]
+						},
+						{
+							"type": "pf2-h1",
+							"name": "The Magaambyan Guide",
+							"entries": [
+								"This guide is a consolidation of all the information across all {@i Strength of Thousands} adventure paths, as well as relevant bits from {@i Lost Omens: The Mwangi Expanse} and {@i Lost Omens: Legends}. It is intended to be a guide for Gamemasters, which I strongly recommend to selectively copy and share portions of this document to your players for referencing and becoming accustomed to the setting. It also includes homebrew rules for discovering NPCs sheets, and more concrete rules for the Academic System than included in the original adventure, as that is a bit too freeform.",
+								"Below you will also have all of the available information about the adventure's students, teachers, branches, buildings, and as the adventure takes place in Nantambu, Nantambu itself as well. Each entry will have it's sources listed and cited.",
+								"If you have any questions or suggestions, you can contact MrVauxs#8622 on the Pf2e.Tools {@link Discord|https://discord.gg/2hzNxErtVu} or make a pull request modifying the homebrew in the {@link GitHub Homebrew Repo|https://github.com/Pf2eToolsOrg/homebrew}.",
+								{
+									"type": "pf2-h3",
+									"name": "Homebrew Disclaimer",
+									"entries": [
+										"This document includes homebrew made by various members of the Pathfinder 2e community as well as original work by MrVauxs. Any and all homebrew that comes from a different author than the one of this document will be attributed with a {@note note}.",
+										"Any homebrew additions to official content will also be formatted with special homebrew tags, shown below.",
+										{
+											"type": "homebrew",
+											"entries": [
+												{
+													"name": "Homebrew",
+													"type": "entries",
+													"entries": [
+														"Such as homebrew sections like these."
+													]
+												}
+											]
+										},
+										{
+											"type": "homebrew",
+											"entries": [
+												{
+													"name": "Homebrew which changed something",
+													"type": "entries",
+													"entries": [
+														"It also supports changes, which show the replaced entries on hover."
+													]
+												}
+											],
+											"oldEntries": [
+												"This was the original content."
+											]
+										},
+										{
+											"type": "homebrew",
+											"oldEntries": [
+												"Also supports marking removed content."
+											]
+										},
+										{
+											"type": "homebrew",
+											"movedTo": "a completely different place",
+											"oldEntries": [
+												"And can also mark moved content."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "NPCs",
+					"entries": [
+						"This section is dedicated to all Non-Playable Characters in the Strength of Thousands adventure path. There are four categories of NPCs:",
+						{
+							"type": "list",
+							"items": [
+								"Students",
+								"Staff Members",
+								"Villains",
+								"Minor NPCs"
+							]
+						},
+						"Each category should be self-explanatory, with the exception of Minor NPCs. Minor NPCs are NPCs that appear in the adventure but don't serve a bigger purpose than the one you and your players give them past their initial introduction, nor have a specified role such as a Student. An example of such an NPC is {@creature Binji|SoT1}.",
+						{
+							"type": "pf2-h1",
+							"name": "Students",
+							"entries": [
+								{
+									"type": "list",
+									"columns": 2,
+									"style": "list-no-bullets",
+									"items": [
+										{
+											"type": "pf2-h3",
+											"name": "Anchor Root",
+											"entries": [
+												"An anxious female ant gnoll, Anchor Root appears at the beginning and at the end of the adventure path. She can be first seen in the first adventure, {@i Kindled Magic}, but also right at the end in {@i Shadow of the Ancients} where the heroes have to save Anchor Root from the effects of the Vesciant Egg.",
+												"Similarly, any artwork containing Anchor Root can only be found on page 67 of {@i Kindled Magic} and 23 of {@i Shadow of the Ancients}.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Anchor Root",
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait N}",
+															"FEMALE",
+															"{@ancestry GNOLL|LOME|ANT GNOLL|ANT}",
+															"BONEKEEPER-IN-TRAINING"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Rain-Scribes"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"Treat your critical failures when you {@action Study|SoT1} for Rain-Scribe classes as failures instead."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@item rhythm bone|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Nature}, {@skill Occultism}, {@skill Stealth}, {@skill Survival}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"sand sculptures, raising beetles, musical curation"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"interrupting herself halfway through a presentation to exclaim “I’m sorry, I’m boring you” and running out of the room crying"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"uses a chicken tied to a stick to keep her room free of unwanted bugs"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Esi (working on music playback magic), Noxolo (scavenging bones), Tzeniwe (stress baking)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Anchor Root is an {@ancestry GNOLL|LOME|ant gnoll|ANT}, a 3-foot-tall humanoid who resembles an aardwolf more than a deadly carnivore. She hails from the small Redridge clan, several weeks’ travel south-west from the Magaambya. Her clan has been in decline for several decades, with important storytellers and religious leaders dying before suitable replacements could be trained. Anchor Root is the only child in the clan with the potential talent to replace Redridge’s aging bonekeeper. Anchor Root’s entire family has placed their hopes on the young gnoll—unfortunately, Anchor Root’s temperament is ill-suited to such pressure. Though she has always had issues with anxiety, the expectations currently placed on her shoulders have left her in a constant state of panic. The slightest flaw in her work or actions, whether real or perceived, can leave Anchor Root a devastated wreck for days.",
+																			"Anchor Root takes her role as bonekeeper-in-training very seriously, even though she isn’t sure she’s up to the task. She is always on the lookout for the bones of worthy creatures—gnolls or otherwise—that can be symbolically adopted by her troubled clan to serve as spiritual mentors and protectors. The gnoll also has a hobby of anonymously recording music played around the city and then working with other students to play back the music on campus for others to hear."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Chizire",
+											"entries": [
+												"The easygoing male catfolk, Chizire welcomes the players to their dormitory with mango and moonshine at the beginning of the adventure path. He appears in the {@i Kindled Magic}, briefly in {@i Spoken on the Song Wind} and lastly has to be saved from an {@creature Grendel|Bst2|Infused Ogre} of his own doing in {@i Shadow of the Ancients}.",
+												"The only artwork of Chizire is on page 68 of {@i Kindled Magic}.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Chizire",
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait CN}",
+															"MALE",
+															"{@ancestry CATFOLK|APG}",
+															"SLACKER"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Cascade Bearers"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"You don’t get tired after you {@action Cram|SoT1} for Cascade Bearer classes."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@spell verminous lure|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Crafting}, {@skill Deception}, {@skill Diplomacy}, {@skill Nature}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"brewing, engineering, finding new and exciting ways to avoid work"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"building a complete moonshine still in his dorm room from scrap"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"always knowing the answer when called on despite visibly sleeping through class"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Haibram (drinking partner), Ignaci (brewing experimental elixirs), Mariama (brewing weird liquors), Okoro (gaming group)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Chizire spent most of his youth in {@place Kibwe} unable to read, no matter how many books he was given or how many lessons were drilled into his head. By the time a visiting scholar encountered Chizire and recognized the youth was dyslexic, Chizire had already embraced the role of slacker and screw-up that had been thrust upon him. Despite this, Chizire’s keen ability to teach himself magic and science caught the scholar’s eye, even if the catfolk mostly used his gifts to keep slugs out of his fermentation barrels.",
+																			"Chizire thrives at the Magaambya, though he often uses his intelligence for disruptive jokes, complex pranks, and other hijinks disapproved of by the faculty. He infuriates most of his mentors—and some of the students— by refusing to make anything of himself, despite clearly understanding the lessons better than many of his peers.",
+																			"Chizire is known for his daring antics, such as infiltrating the kitchen or stealing magic items from campus, but his ultimate goal for the year is to enchant one of Nantambu’s 10 pillar landmarks to tell bawdy jokes. Getting past all the magical wards on the pillars would be an incredible challenge, but Chizire thinks he can manage it with a bit of help, provided no one snitches on him to the teachers."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												}
+											]
+										}
+
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
