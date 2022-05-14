@@ -252,7 +252,7 @@
 																				"type": "item",
 																				"name": "Most Well Known For",
 																				"entries": [
-																					"interrupting herself halfway through a presentation to exclaim “I’m sorry, I’m boring you” and running out of the room crying"
+																					"interrupting herself halfway through a presentation to exclaim \"I'm sorry, I'm boring you\" and running out of the room crying"
 																				]
 																			},
 																			{
@@ -276,8 +276,8 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"Anchor Root is an {@ancestry GNOLL|LOME|ant gnoll|ANT}, a 3-foot-tall humanoid who resembles an aardwolf more than a deadly carnivore. She hails from the small Redridge clan, several weeks’ travel south-west from the Magaambya. Her clan has been in decline for several decades, with important storytellers and religious leaders dying before suitable replacements could be trained. Anchor Root is the only child in the clan with the potential talent to replace Redridge’s aging bonekeeper. Anchor Root’s entire family has placed their hopes on the young gnoll—unfortunately, Anchor Root’s temperament is ill-suited to such pressure. Though she has always had issues with anxiety, the expectations currently placed on her shoulders have left her in a constant state of panic. The slightest flaw in her work or actions, whether real or perceived, can leave Anchor Root a devastated wreck for days.",
-																			"Anchor Root takes her role as bonekeeper-in-training very seriously, even though she isn’t sure she’s up to the task. She is always on the lookout for the bones of worthy creatures—gnolls or otherwise—that can be symbolically adopted by her troubled clan to serve as spiritual mentors and protectors. The gnoll also has a hobby of anonymously recording music played around the city and then working with other students to play back the music on campus for others to hear."
+																			"Anchor Root is an {@ancestry GNOLL|LOME|ant gnoll|ANT}, a 3-foot-tall humanoid who resembles an aardwolf more than a deadly carnivore. She hails from the small Redridge clan, several weeks' travel south-west from the Magaambya. Her clan has been in decline for several decades, with important storytellers and religious leaders dying before suitable replacements could be trained. Anchor Root is the only child in the clan with the potential talent to replace Redridge's aging bonekeeper. Anchor Root's entire family has placed their hopes on the young gnoll\u2014unfortunately, Anchor Root's temperament is ill-suited to such pressure. Though she has always had issues with anxiety, the expectations currently placed on her shoulders have left her in a constant state of panic. The slightest flaw in her work or actions, whether real or perceived, can leave Anchor Root a devastated wreck for days.",
+																			"Anchor Root takes her role as bonekeeper-in-training very seriously, even though she isn't sure she's up to the task. She is always on the lookout for the bones of worthy creatures\u2014gnolls or otherwise\u2014that can be symbolically adopted by her troubled clan to serve as spiritual mentors and protectors. The gnoll also has a hobby of anonymously recording music played around the city and then working with other students to play back the music on campus for others to hear."
 																		]
 																	}
 																]
@@ -326,7 +326,7 @@
 																				"type": "item",
 																				"name": "Classroom Advantage",
 																				"entries": [
-																					"You don’t get tired after you {@action Cram|SoT1} for Cascade Bearer classes."
+																					"You don't get tired after you {@action Cram|SoT1} for Cascade Bearer classes."
 																				]
 																			},
 																			{
@@ -378,9 +378,9 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"Chizire spent most of his youth in {@place Kibwe} unable to read, no matter how many books he was given or how many lessons were drilled into his head. By the time a visiting scholar encountered Chizire and recognized the youth was dyslexic, Chizire had already embraced the role of slacker and screw-up that had been thrust upon him. Despite this, Chizire’s keen ability to teach himself magic and science caught the scholar’s eye, even if the catfolk mostly used his gifts to keep slugs out of his fermentation barrels.",
-																			"Chizire thrives at the Magaambya, though he often uses his intelligence for disruptive jokes, complex pranks, and other hijinks disapproved of by the faculty. He infuriates most of his mentors—and some of the students— by refusing to make anything of himself, despite clearly understanding the lessons better than many of his peers.",
-																			"Chizire is known for his daring antics, such as infiltrating the kitchen or stealing magic items from campus, but his ultimate goal for the year is to enchant one of Nantambu’s 10 pillar landmarks to tell bawdy jokes. Getting past all the magical wards on the pillars would be an incredible challenge, but Chizire thinks he can manage it with a bit of help, provided no one snitches on him to the teachers."
+																			"Chizire spent most of his youth in {@place Kibwe} unable to read, no matter how many books he was given or how many lessons were drilled into his head. By the time a visiting scholar encountered Chizire and recognized the youth was dyslexic, Chizire had already embraced the role of slacker and screw-up that had been thrust upon him. Despite this, Chizire's keen ability to teach himself magic and science caught the scholar's eye, even if the catfolk mostly used his gifts to keep slugs out of his fermentation barrels.",
+																			"Chizire thrives at the Magaambya, though he often uses his intelligence for disruptive jokes, complex pranks, and other hijinks disapproved of by the faculty. He infuriates most of his mentors\u2014and some of the students\u2014 by refusing to make anything of himself, despite clearly understanding the lessons better than many of his peers.",
+																			"Chizire is known for his daring antics, such as infiltrating the kitchen or stealing magic items from campus, but his ultimate goal for the year is to enchant one of Nantambu's 10 pillar landmarks to tell bawdy jokes. Getting past all the magical wards on the pillars would be an incredible challenge, but Chizire thinks he can manage it with a bit of help, provided no one snitches on him to the teachers."
 																		]
 																	}
 																]
@@ -390,7 +390,6 @@
 												}
 											]
 										}
-
 									]
 								}
 							]
