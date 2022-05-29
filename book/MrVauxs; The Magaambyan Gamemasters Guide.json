@@ -40,6 +40,18 @@
 					}
 				},
 				{
+					"name": "Gamemaster's Toolkit",
+					"headers": [
+						"Branches",
+						"Semester Rules",
+						"Student Rules"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 2
+					}
+				},
+				{
 					"name": "NPCs",
 					"headers": [
 						"Students",
@@ -49,32 +61,27 @@
 					],
 					"ordinal": {
 						"type": "chapter",
-						"identifier": 2
-					}
-				},
-				{
-					"name": "The World",
-					"headers": [
-						"Magaambya Locations",
-						"Nantambu Locations",
-						"Branches",
-						"Semester Rules"
-					],
-					"ordinal": {
-						"type": "chapter",
 						"identifier": 3
 					}
 				},
 				{
-					"name": "Rules",
+					"name": "Magaambya",
 					"headers": [
-						"Branches",
-						"Semester Rules",
-						"Student Rules"
+						"STORAGE BARN"
 					],
 					"ordinal": {
 						"type": "chapter",
-						"identifier": 3
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Nantambu",
+					"headers": [
+						""
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
 					}
 				},
 				{
@@ -163,6 +170,11 @@
 				},
 				{
 					"type": "section",
+					"name": "Gamemaster's Toolkit",
+					"entries": []
+				},
+				{
+					"type": "section",
 					"name": "NPCs",
 					"entries": [
 						"This section is dedicated to all Non-Playable Characters in the Strength of Thousands adventure path. There are four categories of NPCs:",
@@ -177,7 +189,7 @@
 						},
 						"Each category should be self-explanatory, with the exception of Minor NPCs. Minor NPCs are NPCs that appear in the adventure but don't serve a bigger purpose than the one you and your players give them past their initial introduction, nor have a specified role such as a Student. An example of such an NPC is {@creature Binji|SoT1}.",
 						{
-							"type": "pf2-h2",
+							"type": "pf2-h1",
 							"name": "Students",
 							"entries": [
 								{
@@ -191,7 +203,7 @@
 											"source": "SoT1",
 											"page": 67,
 											"entries": [
-												"An anxious female ant gnoll, Anchor Root appears at the beginning and at the end of the adventure path. She can be first seen in the first adventure, {@i Kindled Magic}, but also right at the end in {@i Shadow of the Ancients} where the heroes have to save Anchor Root from the effects of the Vesciant Egg which turned her {@creature Unshadowed Anchor Root|SoT6|Unshadowed}, along with Haibram Thodja and Mariama Keitana.",
+												"An anxious female ant gnoll, Anchor Root appears at the beginning and at the end of the adventure path. She can be first seen in the first adventure, {@i Kindled Magic}, but also right at the end in {@i Shadow of the Ancients} where the heroes have to save Anchor Root from the effects of the Vesciant Egg which turned her {@creature Unshadowed Anchor Root|SoT6|Unshadowed}.",
 												"Similarly, any artwork containing Anchor Root can only be found on page 67 of {@i Kindled Magic} and her unshadowed \"evil\" version on page 23 of {@i Shadow of the Ancients}.",
 												{
 													"type": "data",
@@ -287,6 +299,13 @@
 															]
 														]
 													}
+												},
+												{
+													"type": "pf2-h4",
+													"name": "Notes",
+													"entries": [
+														"Her statblock in {@i Shadow of the Ancients} show her as a Primal caster first and foremost, but also includes Occult spellcasting. Whether or not it is because of the effect of the Vesciant Egg is unclear."
+													]
 												}
 											]
 										},
@@ -507,7 +526,7 @@
 											"page": 69,
 											"source": "SoT1",
 											"entries": [
-												"The reckless male dwarf, Haibram Thodja, appears in {@i Kindled Magic} as a fellow student, followed by an appearance in {@i Doorway to the Red Star} in an event partaking flying an airship. Lastly, he is found in {@i Shadow of the Ancients} under the influence of the Vesciant Egg, much like Anchor Root and Mariama Keitana in an {@creature Unshadowed Haibram|SoT6|Unshadowed} form.",
+												"The reckless male dwarf, Haibram Thodja, appears in {@i Kindled Magic} as a fellow student, followed by an appearance in {@i Doorway to the Red Star} in an event partaking flying an airship. Lastly, he is found in {@i Shadow of the Ancients} under the influence of the Vesciant Egg in an {@creature Unshadowed Haibram|SoT6|Unshadowed} form.",
 												"There's artwork of Haibram on page 66 and 69 of {@i Kindled Magic}, as well as his unshadowed form in {@i Shadows of the Ancients} on page 24.",
 												{
 													"type": "data",
@@ -603,11 +622,734 @@
 															]
 														]
 													}
+												},
+												{
+													"type": "pf2-h4",
+													"name": "Notes",
+													"entries": [
+														"His statblock in {@i Shadow of the Ancients} show him as an Arcane caster and able to use his Wind powers with extreme mobility."
+													]
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Ignaci Canterells",
+											"page": 69,
+											"source": "SoT1",
+											"entries": [
+												"The secretive male human, Ignaci Canterells, appears in {@i Kindled Magic} as a fellow student, in {@i Hurricane's Howl}, close to becoming a Lore-Speaker, and lastly he appears in {@i Shadow of the Ancients}, the heroes having to save his life a second time, first time in {@i Kindled Magic} from a bee sting allergy, while in {@i Shadow of the Ancients} from a failed experiment involving acid.",
+												"There's artwork of Ignaci on page 66 and 69 of {@i Kindled Magic}.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Ignaci Canterells",
+														"page": 69,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait N}",
+															"MALE",
+															"{@ancestry HUMAN}",
+															"THAUMATURGE"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Emerald Boughs"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"When you {@action Cram|sot1} for Emerald Boughs classes, treat your critical failures as failures instead."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@item forgetful ink|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Crafting}, {@skill Society}, {@skill Stealth}, {@skill Thievery}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"cryptography, high fashion, covert explorations"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"being easily swayed into bad decisions by attractive men"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"starting his assignments over from the beginning every time he makes a mistake"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Chizire (brewing experimental elixirs), Noxolo and Tzeniwe (sewing clothing), Okoro (cleaning house in card games, being talked into bad decisions)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Born in the colony of Sargava before it became the nation of Vidrian, Ignaci earned his parents’ disapproval through the company he kept—rebellious youths, disaffected soldiers, and the native Mwangi populace. This minor rebellion proved enough for Ignaci’s colonist family to abandon him at the start of the Vidric Revolution, deliberately stranding the teenager amid the violent chaos. Ignaci joined the fight for Vidrian’s freedom, in part for justice but mainly driven by a hatred of his family and everyone like them. Ignaci hopes to one day aid Vidrian against foreign interests.",
+																			"The trauma of these experiences taught Ignaci three lessons: shut up, keep your head down, and trust no one. Though his work ethic, politeness, and intelligence all impress his teachers, he avoids attention and has no close friends. He also remains incredibly paranoid, writing all of his study notes in a secret code.",
+																			"Ignaci spends most of his free time stealthily exploring the school’s nooks and crannies, leaving coded notes to himself in an ink that is visible only when exposed to a special alchemical light. Unknown to him, other students have discovered these notes, mistaken them for something more significant, and formed a small group called the Cryptic Circle that is dedicated to solving them."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Mariama Keitana",
+											"page": 70,
+											"source": "SoT1",
+											"entries": [
+												"The erratic female human, Mariama Keitana, appears in {@i Kindled Magic} as a fellow student, in {@i Hurricane's Howl}, close to becoming a Lore-Speaker, and lastly appears in {@i Shadow of the Ancients}, having become {@creature Unshadowed Mariama|SOT6|Unshadowed}.",
+												"There's artwork of Mariama on page 70 of {@i Kindled Magic} and 21 of {@i Shadow of the Ancients}.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Mariama Keitana",
+														"page": 70,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait CN}",
+															"FEMALE",
+															"{@ancestry HUMAN}",
+															"CHAOS MAGNET"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Cascade Bearers"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"You can reroll a check to {@action Study|sot1} for a Cascade Bearer class; this is a {@trait fortune} effect."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@optfeature Lesson of Calamity|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Deception}, {@skill Intimidation}, {@skill Occultism}, {@skill Religion}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"combat theory, occult lore, linguistics"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"summoning a devil on accident during a complex mathematical proof"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"knows swear words in almost every language on Golarion"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Chizire (brewing weird liquors), Okoro (board games), Esi and Haibram (sparring partners)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Teachers at the Magaambya tactfully describe Mariama as a student with an “interesting” personality. Undeniably a knowledgeable occultist and accomplished spellcaster, the young woman falters between responsibility and unreliability with infuriating frequency. Her attitude likewise flips between unbearable kindness to her friends and outright viciousness to her foes.",
+																			"Mariama lives the kind of life that even storytellers might consider unrealistic, with wildly fluctuating luck and outlandish events frequently plaguing her. She likes to tell stories that are even more unbelievable, leaving her fellows to wonder whether Mariama is cursed, blessed, or just a pathological liar. To date, Mariama has nearly started a cult by accident while drunk, been subjected to school discipline for selling curses, and had her heirloom magical staff disintegrated by a freak bolt of lightning.",
+																			"Mariama can rapidly piece together disparate clues, but her focus on the occult and the exceptional often leads her astray. She’s quick to proclaim supernatural influence where there is none, such as accusing fey for crop failures when quelea birds are to blame. Yet when uncanny forces truly are at work, Mariama’s insights are frighteningly accurate."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												},
+												{
+													"type": "pf2-h4",
+													"name": "Notes",
+													"entries": [
+														"It is worth mentioning that in {@i Shadow of the Ancients}, \"in a twist of fate that is strangely typical of her life, a {@creature sumbreiva|bst3} and Mariama fell quite suddenly in love\".",
+														"It is heavily implied Mariama is a member of the {@class Witch|apg} class, with the last adventure including witch-specific features in her {@creature Unshadowed Mariama|SOT6|Unshadowed} statblock. Said statblock also shows that casts only Occult spells and has no other magic traditions at her disposal."
+													]
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Noxolo",
+											"page": 70,
+											"source": "SoT1",
+											"entries": [
+												"{@note WIP}",
+												"There's artwork of Mariama on page 70 of {@i Kindled Magic} and.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Noxolo",
+														"page": 70,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait LN}",
+															"FEMALE",
+															"{@ancestry HUMAN}",
+															"AUGUR"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Uzunjati"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"Treat your critical failures to {@action Study|sot1} in Uzunjati classes as failures instead."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@spell grave impressions|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Deception}, {@skill Medicine}, {@skill Performance}, {@skill Religion}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"dance, high fashion, kite-flying, watching motes of dust float through the air"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"pausing to dance and sing about what she’s doing when excited"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"always uses murder in her hypothetical examples"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Anchor Root (scavenging bones), Ignaci and Tzeniwe (discussing fashion)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"Noxolo fled from her home to escape her overbearing family, who had planned out every aspect of her life. Whispers from dead birds and cow bones told her she could find freedom at the Magaambya, and so she went, not knowing what to expect. What she discovered was a far bigger world than she’d ever dreamt possible, and a chance to unravel the mysteries of the strange whispers she hears. Though highly prone to spacing out during lectures, Noxolo does her best not to take her acceptance at the Magaambya for granted. The transition has been rougher on her than she likes to admit, however, and she often finds herself wracked with homesickness and guilt for leaving the family who cared enough about her to plan her life in such detail.",
+																			"Noxolo dressed as a man to avoid being tracked down while traveling, noticing that many overlooked someone who appeared to be a man if they were searching for a woman. By the time she reached the Magaambya, Noxolo found she preferred her new look and has begun to experiment with various fashions and hairstyles.",
+																			"Noxolo is accompanied at all times by a bizarre, 2-foot-long pet she refers to as her “snabble,” a creature that resembles a fuzzy cross between a crocodile and a bear cub. The creature has attracted more than its fair share of curious scholars, though Noxolo herself seems uninterested in what sort of creature it truly is or where it originally came from."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Okoro Obiyo",
+											"page": 71,
+											"source": "SoT1",
+											"entries": [
+												"{@note WIP}",
+												"There's artwork of Mariama on page 71 of {@i Kindled Magic} and.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Okoro Obiyo",
+														"page": 71,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait NG}",
+															"MALE",
+															"{@ancestry HUMAN}",
+															"RESEARCHER"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Uzunjati"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"You don’t get tired after you {@action Cram|SoT1} for Uzunjati classes."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@spell mind games|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Athletics}, {@skill Diplomacy}, {@skill Performance}, {@skill Occultism}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"sports, board games, card games, deep research dives into random topics"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"preparing an 8-hour presentation on a completely different topic than the teacher assigned"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"is scared of butterflies"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Chizire and Mariama (gaming group), Esi (exercise partner), Ignaci (talking him into bad decisions)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"A bright-eyed and excitable Bonuwat youth from Senghor, Okoro’s love of eclectic research got him shipped off to the Magaambya to hone his talents and, some joke, to spare everyone else in Senghor from his enthusiasm. To Okoro, whatever has caught his interest for the month is the most exciting thing ever, and nothing can pry his attention and passion away from it. The self-directed nature of the Magaambya’s classes has allowed him to pursue these interests more often than a typical university, and Okoro is considered one of the top students at his rank. His relentless positivity in the face of challenges, setbacks, and the occasional near-death experience have likewise gained him many friends. Though his confidence and gusto can occasionally lead him to being shortsighted and even self-centered, most find him to be a bright spot in a complicated world.",
+																			"Okoro is a natural athlete who excelled at aquatic sports in Senghor and now enjoys footraces and kickball in Nantambu. He also possesses a truly staggering collection of board games and card decks, and periodically drags fellow students into playing them. His most successful endeavor is his biweekly game night, often compete for favors, magical formulas, or campus secrets."
+																		]
+																	}
+																]
+															]
+														]
+													}
+												},
+												{
+													"type": "pf2-h4",
+													"name": "Notes",
+													"entries": [
+														"His statblock in {@i Shadow of the Ancients} show him as an Occult caster and a skilled archer. He also has a lot of abilities centered around luck."
+													]
+												}
+											]
+										},
+										{
+											"type": "pf2-h3",
+											"name": "Strands-Of-Glowing-Dawn Tzeniwe",
+											"page": 71,
+											"source": "SoT1",
+											"entries": [
+												"{@note WIP}",
+												"There's artwork of Mariama on page 71 of {@i Kindled Magic} and.",
+												{
+													"type": "data",
+													"tag": "generic",
+													"style": "book",
+													"data": {
+														"name": "Strands-Of-Glowing-Dawn Tzeniwe",
+														"page": 71,
+														"source": "SoT1",
+														"doNotSortTraits": true,
+														"doNotTagTraits": true,
+														"traits": [
+															"{@trait NG}",
+															"FEMALE",
+															"{@ancestry ANADI|LOME}",
+															"DREAMWEAVER"
+														],
+														"sections": [
+															[
+																[
+																	{
+																		"type": "pf2-options",
+																		"skipSort": true,
+																		"items": [
+																			{
+																				"type": "item",
+																				"name": "Branch",
+																				"entries": [
+																					"Emerald Boughs"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Classroom Advantage",
+																				"entries": [
+																					"Treat your successes to {@action Study|sot1} for Emerald Boughs classes as critical successes instead, but this doesn’t apply when you {@action Cram|sot1}."
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Specialty Item",
+																				"entries": [
+																					"{@spell friendfetch|sot1}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Notable Skills",
+																				"entries": [
+																					"{@skill Crafting}, {@skill Diplomacy}, {@skill Performance}, {@skill Society}"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Hobbies",
+																				"entries": [
+																					"bird-watching, baking, high fashion"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Most Well Known For",
+																				"entries": [
+																					"having elaborate themed outfits for every class"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Strangest Quirk",
+																				"entries": [
+																					"leaving hidden anonymous gifts for people"
+																				]
+																			},
+																			{
+																				"type": "item",
+																				"name": "Common Associates",
+																				"entries": [
+																					"Anchor Root (stress baking), Esi (babysitting), Ignaci and Noxolo (weaving cloth and sewing clothing)"
+																				]
+																			}
+																		]
+																	}
+																],
+																[
+																	{
+																		"type": "pf2-h3",
+																		"entries": [
+																			"A middle-aged woman who stands out among her younger peers, Tzeniwe sought the Magaambya later in life to gain an advanced education in the hopes of passing that education down to her children. A shy and awkward person from the nation of Nurvatcha, Tzeniwe knows that many in the Mwangi Expanse mistakenly believe shapeshifting anadis to be humans who turn into hideous spider creatures at night. Though the Magaambya possess’s a much more enlightened view on anadis, Tzeniwe is still painfully aware that many humanoids are terrified of spiders. Indeed, she’s more forgiving of repulsed reactions than her friends think she should be. Possessing a cooperative and generous nature, Tzeniwe often leaves her peers small gifts to make them comfortable, such as cups of chilled tea, delicious snacks, or even soft scarves and kaftans.",
+																			"Despite her introversion, Tzeniwe’s two toddlers constantly pull her out of her shell. Named Zachva and Zanvi, the rambunctious pair have no qualms about jumping around in spider form, pestering other students, or climbing into places they shouldn’t. Academy students have become impressed with Tzeniwe’s ability to lasso her children from over 50 paces to retrieve them. Though Tzeniwe usually carries them with her during classes, a large spiderling on her back and a human child on one knee, she often asks others to watch them when the twins refuse to behave."
+																		]
+																	}
+																]
+															]
+														]
+													}
 												}
 											]
 										}
 									]
 								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Magaambya",
+					"entries": []
+				},
+				{
+					"type": "section",
+					"name": "Nantambu",
+					"entries": [
+						"In addition to what information {@book Lost Omens: The Mwangi Expanse|LOME|11} might provide, here are additional notes worth having when reading the book:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Natofo} from {@i The Carnivorous Gardens} appears in {@i Spoken on the Song Wind}, asking for help with Oozes having gotten out of control in her gardens.",
+								"{@b \"Fire-Pot\" Ubanu} from the {@i Fire-Pot’s Forge} appears in {@i Spoken on the Song Wind}, committing arson upon the Magaambya to send a message about wanting to be repaid for his services, as he's been scammed by two Serpentfolk disgusing themselves as Magaambya Students.",
+								"{@b Asanda} plays an important role in {@i Spoken on the Song Wind}, having been kidnapped and impersonated by Serpentfolk."
+							]
+						},
+						"Below is also a table summarising the various prominent locations in Nantambu, with suggestions on their usage in the campaign. It is recommended that for {@action Earn Income} levels to not go above the Settlements level, which is 10.",
+						{
+							"name": "Nantambu Locations",
+							"type": "table",
+							"labelRowIdx": [
+								0
+							],
+							"colStyles": [
+								"text-left",
+								"text-left",
+								"text-left",
+								"text-left"
+							],
+							"rows": [
+								[
+									"Name",
+									"Role",
+									"Possible Downtime Activities",
+									"Notes"
+								],
+								{
+									"type": "multiRow",
+									"rows": [
+										[
+											"The Battlefield",
+											"Deadly Jungle",
+											{
+												"type": "pf2-options",
+												"items": [
+													{
+														"entries": [
+															"{@action Earn Income} with {@skill Survival} to gather unique plants to the area, unable to grow anywhere else."
+														]
+													},
+													{
+														"entries": [
+															"{@action Practical Research|SOT1} with {@skill Nature} or {@skill Lore} to identify and catalogue plants in that area."
+														]
+													}
+												]
+											},
+											{
+												"type": "pf2-options",
+												"items": [
+													{
+														"entries": [
+															"If a player wants to {@action Craft} poisons, it is likely that they will find potent specimens in the area."
+														]
+													},
+													{
+														"entries": [
+															"It's deadly, mysterious nature might be interesting for players studying in Necromancy."
+														]
+													}
+												]
+											}
+										]
+									]
+								},
+								[
+									"The Black Crowned Crane",
+									"High-End Restaurant",
+									{
+										"type": "pf2-options",
+										"items": [
+											{
+												"entries": [
+													"{@action Gather Information} from nobles and the wealthy populace."
+												]
+											},
+											{
+												"entries": [
+													"{@action Earn Income} with {@skill Crafting} or {@skill Society} to cook in the restaurant or be a server respectively."
+												]
+											}
+										]
+									},
+									{
+										"type": "pf2-options",
+										"items": [
+											{
+												"entries": [
+													"Deliquent players might be interested in breaking into the mysterious restaurant to see what rumoured treasure it might be hiding, or even do a heist!"
+												]
+											}
+										]
+									}
+								],
+								[
+									"The Carnivorous Gardens",
+									"Exotic Greenhouse",
+									{
+										"type": "pf2-options",
+										"items": [
+											{
+												"entries": [
+													"{@action Earn Income} with {@skill Nature} to maintain the garden."
+												]
+											},
+											{
+												"entries": [
+													"{@action Earn Income} with {@skill Crafting} to create meat substitutes for the plants."
+												]
+											}
+										]
+									},
+									{
+										"type": "pf2-options",
+										"items": [
+											{
+												"entries": [
+													"The place appears in {@i Spoken on the Song Wind} on page 35 in \"Oozing into Trouble\" task."
+												]
+											},
+											{
+												"entries": [
+													"It is a common resting place for Zuma, him being a brother of the owner, Natofo."
+												]
+											}
+										]
+									}
+								],
+								[
+									"The Civic League Boathouse",
+									"Boathouse and Repair Facility",
+									{
+										"type": "pf2-options",
+										"items": [
+											{
+												"entries": [
+													"{@action Earn Income} with {@skill Crafting} to maintain the boats."
+												]
+											},
+											{
+												"entries": [
+													"{@action Earn Income} with {@skill Athletics} to compete in tournaments."
+												]
+											}
+										]
+									},
+									{
+										"type": "pf2-options",
+										"items": [
+											{
+												"entries": [
+													"While Haibram may not be initially interested, his proficiency with wind spells can prove beneficial for any team having him. Compelling him to join the team of the heroes, if they choose to participate in a boat-race is definitely gonna give them a steep advantage."
+												]
+											}
+										]
+									}
+								]
 							]
 						}
 					]
