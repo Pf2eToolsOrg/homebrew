@@ -726,9 +726,9 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"Born in the colony of Sargava before it became the nation of Vidrian, Ignaci earned his parents’ disapproval through the company he kept—rebellious youths, disaffected soldiers, and the native Mwangi populace. This minor rebellion proved enough for Ignaci’s colonist family to abandon him at the start of the Vidric Revolution, deliberately stranding the teenager amid the violent chaos. Ignaci joined the fight for Vidrian’s freedom, in part for justice but mainly driven by a hatred of his family and everyone like them. Ignaci hopes to one day aid Vidrian against foreign interests.",
+																			"Born in the colony of Sargava before it became the nation of Vidrian, Ignaci earned his parents' disapproval through the company he kept\u2014rebellious youths, disaffected soldiers, and the native Mwangi populace. This minor rebellion proved enough for Ignaci's colonist family to abandon him at the start of the Vidric Revolution, deliberately stranding the teenager amid the violent chaos. Ignaci joined the fight for Vidrian's freedom, in part for justice but mainly driven by a hatred of his family and everyone like them. Ignaci hopes to one day aid Vidrian against foreign interests.",
 																			"The trauma of these experiences taught Ignaci three lessons: shut up, keep your head down, and trust no one. Though his work ethic, politeness, and intelligence all impress his teachers, he avoids attention and has no close friends. He also remains incredibly paranoid, writing all of his study notes in a secret code.",
-																			"Ignaci spends most of his free time stealthily exploring the school’s nooks and crannies, leaving coded notes to himself in an ink that is visible only when exposed to a special alchemical light. Unknown to him, other students have discovered these notes, mistaken them for something more significant, and formed a small group called the Cryptic Circle that is dedicated to solving them."
+																			"Ignaci spends most of his free time stealthily exploring the school's nooks and crannies, leaving coded notes to himself in an ink that is visible only when exposed to a special alchemical light. Unknown to him, other students have discovered these notes, mistaken them for something more significant, and formed a small group called the Cryptic Circle that is dedicated to solving them."
 																		]
 																	}
 																]
@@ -832,9 +832,9 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"Teachers at the Magaambya tactfully describe Mariama as a student with an “interesting” personality. Undeniably a knowledgeable occultist and accomplished spellcaster, the young woman falters between responsibility and unreliability with infuriating frequency. Her attitude likewise flips between unbearable kindness to her friends and outright viciousness to her foes.",
+																			"Teachers at the Magaambya tactfully describe Mariama as a student with an \"interesting\" personality. Undeniably a knowledgeable occultist and accomplished spellcaster, the young woman falters between responsibility and unreliability with infuriating frequency. Her attitude likewise flips between unbearable kindness to her friends and outright viciousness to her foes.",
 																			"Mariama lives the kind of life that even storytellers might consider unrealistic, with wildly fluctuating luck and outlandish events frequently plaguing her. She likes to tell stories that are even more unbelievable, leaving her fellows to wonder whether Mariama is cursed, blessed, or just a pathological liar. To date, Mariama has nearly started a cult by accident while drunk, been subjected to school discipline for selling curses, and had her heirloom magical staff disintegrated by a freak bolt of lightning.",
-																			"Mariama can rapidly piece together disparate clues, but her focus on the occult and the exceptional often leads her astray. She’s quick to proclaim supernatural influence where there is none, such as accusing fey for crop failures when quelea birds are to blame. Yet when uncanny forces truly are at work, Mariama’s insights are frighteningly accurate."
+																			"Mariama can rapidly piece together disparate clues, but her focus on the occult and the exceptional often leads her astray. She's quick to proclaim supernatural influence where there is none, such as accusing fey for crop failures when quelea birds are to blame. Yet when uncanny forces truly are at work, Mariama's insights are frighteningly accurate."
 																		]
 																	}
 																]
@@ -922,7 +922,7 @@
 																				"type": "item",
 																				"name": "Most Well Known For",
 																				"entries": [
-																					"pausing to dance and sing about what she’s doing when excited"
+																					"pausing to dance and sing about what she's doing when excited"
 																				]
 																			},
 																			{
@@ -946,9 +946,9 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"Noxolo fled from her home to escape her overbearing family, who had planned out every aspect of her life. Whispers from dead birds and cow bones told her she could find freedom at the Magaambya, and so she went, not knowing what to expect. What she discovered was a far bigger world than she’d ever dreamt possible, and a chance to unravel the mysteries of the strange whispers she hears. Though highly prone to spacing out during lectures, Noxolo does her best not to take her acceptance at the Magaambya for granted. The transition has been rougher on her than she likes to admit, however, and she often finds herself wracked with homesickness and guilt for leaving the family who cared enough about her to plan her life in such detail.",
+																			"Noxolo fled from her home to escape her overbearing family, who had planned out every aspect of her life. Whispers from dead birds and cow bones told her she could find freedom at the Magaambya, and so she went, not knowing what to expect. What she discovered was a far bigger world than she'd ever dreamt possible, and a chance to unravel the mysteries of the strange whispers she hears. Though highly prone to spacing out during lectures, Noxolo does her best not to take her acceptance at the Magaambya for granted. The transition has been rougher on her than she likes to admit, however, and she often finds herself wracked with homesickness and guilt for leaving the family who cared enough about her to plan her life in such detail.",
 																			"Noxolo dressed as a man to avoid being tracked down while traveling, noticing that many overlooked someone who appeared to be a man if they were searching for a woman. By the time she reached the Magaambya, Noxolo found she preferred her new look and has begun to experiment with various fashions and hairstyles.",
-																			"Noxolo is accompanied at all times by a bizarre, 2-foot-long pet she refers to as her “snabble,” a creature that resembles a fuzzy cross between a crocodile and a bear cub. The creature has attracted more than its fair share of curious scholars, though Noxolo herself seems uninterested in what sort of creature it truly is or where it originally came from."
+																			"Noxolo is accompanied at all times by a bizarre, 2-foot-long pet she refers to as her \"snabble,\" a creature that resembles a fuzzy cross between a crocodile and a bear cub. The creature has attracted more than its fair share of curious scholars, though Noxolo herself seems uninterested in what sort of creature it truly is or where it originally came from."
 																		]
 																	}
 																]
@@ -1000,7 +1000,7 @@
 																				"type": "item",
 																				"name": "Classroom Advantage",
 																				"entries": [
-																					"You don’t get tired after you {@action Cram|SoT1} for Uzunjati classes."
+																					"You don't get tired after you {@action Cram|SoT1} for Uzunjati classes."
 																				]
 																			},
 																			{
@@ -1052,7 +1052,7 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"A bright-eyed and excitable Bonuwat youth from Senghor, Okoro’s love of eclectic research got him shipped off to the Magaambya to hone his talents and, some joke, to spare everyone else in Senghor from his enthusiasm. To Okoro, whatever has caught his interest for the month is the most exciting thing ever, and nothing can pry his attention and passion away from it. The self-directed nature of the Magaambya’s classes has allowed him to pursue these interests more often than a typical university, and Okoro is considered one of the top students at his rank. His relentless positivity in the face of challenges, setbacks, and the occasional near-death experience have likewise gained him many friends. Though his confidence and gusto can occasionally lead him to being shortsighted and even self-centered, most find him to be a bright spot in a complicated world.",
+																			"A bright-eyed and excitable Bonuwat youth from Senghor, Okoro's love of eclectic research got him shipped off to the Magaambya to hone his talents and, some joke, to spare everyone else in Senghor from his enthusiasm. To Okoro, whatever has caught his interest for the month is the most exciting thing ever, and nothing can pry his attention and passion away from it. The self-directed nature of the Magaambya's classes has allowed him to pursue these interests more often than a typical university, and Okoro is considered one of the top students at his rank. His relentless positivity in the face of challenges, setbacks, and the occasional near-death experience have likewise gained him many friends. Though his confidence and gusto can occasionally lead him to being shortsighted and even self-centered, most find him to be a bright spot in a complicated world.",
 																			"Okoro is a natural athlete who excelled at aquatic sports in Senghor and now enjoys footraces and kickball in Nantambu. He also possesses a truly staggering collection of board games and card decks, and periodically drags fellow students into playing them. His most successful endeavor is his biweekly game night, often compete for favors, magical formulas, or campus secrets."
 																		]
 																	}
@@ -1112,7 +1112,7 @@
 																				"type": "item",
 																				"name": "Classroom Advantage",
 																				"entries": [
-																					"Treat your successes to {@action Study|sot1} for Emerald Boughs classes as critical successes instead, but this doesn’t apply when you {@action Cram|sot1}."
+																					"Treat your successes to {@action Study|sot1} for Emerald Boughs classes as critical successes instead, but this doesn't apply when you {@action Cram|sot1}."
 																				]
 																			},
 																			{
@@ -1164,8 +1164,8 @@
 																	{
 																		"type": "pf2-h3",
 																		"entries": [
-																			"A middle-aged woman who stands out among her younger peers, Tzeniwe sought the Magaambya later in life to gain an advanced education in the hopes of passing that education down to her children. A shy and awkward person from the nation of Nurvatcha, Tzeniwe knows that many in the Mwangi Expanse mistakenly believe shapeshifting anadis to be humans who turn into hideous spider creatures at night. Though the Magaambya possess’s a much more enlightened view on anadis, Tzeniwe is still painfully aware that many humanoids are terrified of spiders. Indeed, she’s more forgiving of repulsed reactions than her friends think she should be. Possessing a cooperative and generous nature, Tzeniwe often leaves her peers small gifts to make them comfortable, such as cups of chilled tea, delicious snacks, or even soft scarves and kaftans.",
-																			"Despite her introversion, Tzeniwe’s two toddlers constantly pull her out of her shell. Named Zachva and Zanvi, the rambunctious pair have no qualms about jumping around in spider form, pestering other students, or climbing into places they shouldn’t. Academy students have become impressed with Tzeniwe’s ability to lasso her children from over 50 paces to retrieve them. Though Tzeniwe usually carries them with her during classes, a large spiderling on her back and a human child on one knee, she often asks others to watch them when the twins refuse to behave."
+																			"A middle-aged woman who stands out among her younger peers, Tzeniwe sought the Magaambya later in life to gain an advanced education in the hopes of passing that education down to her children. A shy and awkward person from the nation of Nurvatcha, Tzeniwe knows that many in the Mwangi Expanse mistakenly believe shapeshifting anadis to be humans who turn into hideous spider creatures at night. Though the Magaambya possess's a much more enlightened view on anadis, Tzeniwe is still painfully aware that many humanoids are terrified of spiders. Indeed, she's more forgiving of repulsed reactions than her friends think she should be. Possessing a cooperative and generous nature, Tzeniwe often leaves her peers small gifts to make them comfortable, such as cups of chilled tea, delicious snacks, or even soft scarves and kaftans.",
+																			"Despite her introversion, Tzeniwe's two toddlers constantly pull her out of her shell. Named Zachva and Zanvi, the rambunctious pair have no qualms about jumping around in spider form, pestering other students, or climbing into places they shouldn't. Academy students have become impressed with Tzeniwe's ability to lasso her children from over 50 paces to retrieve them. Though Tzeniwe usually carries them with her during classes, a large spiderling on her back and a human child on one knee, she often asks others to watch them when the twins refuse to behave."
 																		]
 																	}
 																]
@@ -1195,7 +1195,7 @@
 							"type": "list",
 							"items": [
 								"{@b Natofo} from {@i The Carnivorous Gardens} appears in {@i Spoken on the Song Wind}, asking for help with Oozes having gotten out of control in her gardens.",
-								"{@b \"Fire-Pot\" Ubanu} from the {@i Fire-Pot’s Forge} appears in {@i Spoken on the Song Wind}, committing arson upon the Magaambya to send a message about wanting to be repaid for his services, as he's been scammed by two Serpentfolk disgusing themselves as Magaambya Students.",
+								"{@b \"Fire-Pot\" Ubanu} from the {@i Fire-Pot's Forge} appears in {@i Spoken on the Song Wind}, committing arson upon the Magaambya to send a message about wanting to be repaid for his services, as he's been scammed by two Serpentfolk disgusing themselves as Magaambya Students.",
 								"{@b Asanda} plays an important role in {@i Spoken on the Song Wind}, having been kidnapped and impersonated by Serpentfolk."
 							]
 						},
