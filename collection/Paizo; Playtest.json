@@ -11967,10 +11967,10 @@
 			"name": "Telekinetic Rend",
 			"level": 0,
 			"school": "V",
-			"components": {
+			"components": [{
 				"S": true,
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12018,9 +12018,9 @@
 			"name": "Arrest Trajectory",
 			"level": 0,
 			"school": "V",
-			"components": {
+			"components": [{
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12063,9 +12063,9 @@
 			"name": "Mental Scan",
 			"level": 0,
 			"school": "D",
-			"components": {
+			"components": [{
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12097,10 +12097,10 @@
 			"name": "Future Path",
 			"level": 0,
 			"school": "D",
-			"components": {
+			"components": [{
 				"S": true,
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12127,10 +12127,10 @@
 			"name": "Nudge Intent",
 			"level": 0,
 			"school": "E",
-			"components": {
+			"components": [{
 				"S": true,
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12176,10 +12176,10 @@
 			"name": "Shatter Mind",
 			"level": 0,
 			"school": "E",
-			"components": {
+			"components": [{
 				"S": true,
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Cantrip",
@@ -12222,10 +12222,10 @@
 			"level": 1,
 			"school": "T",
 			"focus": true,
-			"components": {
+			"components": [{
 				"S": true,
 				"V": true
-			},
+			}],
 			"heightened": {
 				"x": [
 					{
@@ -12304,9 +12304,9 @@
 			"level": 0,
 			"school": "V",
 			"focus": true,
-			"components": {
+			"components": [{
 				"V": true
-			},
+			}],
 			"heightened": {},
 			"traits": [
 				"Uncommon",
@@ -12347,9 +12347,9 @@
 			"level": 0,
 			"school": "V",
 			"focus": true,
-			"components": {
+			"components": [{
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Abjuration",
@@ -12391,9 +12391,9 @@
 			"heightened": {},
 			"school": "T",
 			"focus": true,
-			"components": {
+			"components": [{
 				"S": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -12424,9 +12424,9 @@
 			"level": 1,
 			"school": "V",
 			"focus": true,
-			"components": {
+			"components": [{
 				"S": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -12505,9 +12505,9 @@
 			},
 			"school": "V",
 			"focus": true,
-			"components": {
+			"components": [{
 				"S": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -12545,9 +12545,9 @@
 			},
 			"school": "A",
 			"focus": true,
-			"components": {
+			"components": [{
 				"S": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Magus|PT:SoM",
@@ -12579,10 +12579,10 @@
 			},
 			"school": "A",
 			"focus": true,
-			"components": {
+			"components": [{
 				"S": true,
 				"V": true
-			},
+			}],
 			"traits": [
 				"Uncommon",
 				"Abjuration",
@@ -12612,11 +12612,11 @@
 			"name": "Summon Vengeful Dead",
 			"level": 7,
 			"school": "N",
-			"components": {
+			"components": [{
 				"M": true,
 				"S": true,
 				"V": true
-			},
+			}],
 			"traits": [
 				"Incarnate|PT:SoM",
 				"Necromancy"
