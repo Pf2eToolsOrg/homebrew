@@ -88,12 +88,14 @@
 				"number": 3,
 				"unit": "action"
 			},
-			"components": [{
-				"F": false,
-				"M": true,
-				"S": true,
-				"V": true
-			}],
+			"components": [
+				{
+					"F": false,
+					"M": true,
+					"S": true,
+					"V": true
+				}
+			],
 			"range": {
 				"entry": "60 feet",
 				"distance": {
@@ -145,9 +147,11 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"components": [{
-				"V": true
-			}],
+			"components": [
+				{
+					"V": true
+				}
+			],
 			"savingThrowBasic": false,
 			"duration": {},
 			"sustain": false,
@@ -165,11 +169,13 @@
 				"Primal"
 			],
 			"school": "C",
-			"components": [{
-				"M": true,
-				"S": true,
-				"V": true
-			}],
+			"components": [
+				{
+					"M": true,
+					"S": true,
+					"V": true
+				}
+			],
 			"traits": [
 				"Incarnate",
 				"Conjuration",
@@ -229,9 +235,11 @@
 				"Occult"
 			],
 			"school": "E",
-			"components": [{
-				"V": true
-			}],
+			"components": [
+				{
+					"V": true
+				}
+			],
 			"traits": [
 				"Enchantment",
 				"Mental"
