@@ -620,25 +620,22 @@
 					"abilities": null
 				}
 			],
-			"immunities": {
-				"damage": [],
-				"condition": [
-					"bleed",
-					"death effects",
-					"disease",
-					"doomed",
-					"drained",
-					"fatigued",
-					"healing",
-					"mental",
-					"necromancy",
-					"nonlethal attacks",
-					"paralyzed",
-					"poison",
-					"sickened",
-					"unconscious"
-				]
-			},
+			"immunities": [
+				"bleed",
+				"death effects",
+				"disease",
+				"doomed",
+				"drained",
+				"fatigued",
+				"healing",
+				"mental",
+				"necromancy",
+				"nonlethal attacks",
+				"paralyzed",
+				"poison",
+				"sickened",
+				"unconscious"
+			],
 			"attacks": [
 				{
 					"range": "Melee",
