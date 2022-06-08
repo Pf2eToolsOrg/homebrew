@@ -560,16 +560,14 @@
 			"name": "Constructed Servant",
 			"source": "CoLegerdemains",
 			"level": -1,
-			"rarity": "Uncommon",
-			"size": "Medium",
 			"traits": [
+				"Uncommon",
+				"Medium",
+				"Construct",
 				"Mindless"
 			],
-			"creatureType": [
-				"Construct"
-			],
 			"perception": {
-				"default": 0
+				"std": 0
 			},
 			"languages": {
 				"languages": [],
@@ -579,7 +577,7 @@
 			},
 			"skills": {
 				"Athletics": {
-					"default": 8
+					"std": 8
 				}
 			},
 			"abilityMods": {
@@ -592,28 +590,28 @@
 			},
 			"abilitiesTop": [],
 			"ac": {
-				"default": 15,
+				"std": 15,
 				"when broken": 13
 			},
 			"savingThrows": {
 				"Fort": {
-					"default": 3
+					"std": 3
 				},
 				"Ref": {
-					"default": 6
+					"std": 6
 				},
 				"Will": {
-					"default": 3
+					"std": 3
 				}
 			},
-			"abilitiesMid": [
-				{
+			"abilities": {
+				"mid": [{
 					"entries": [
 						"Like normal objects, a constructed servant has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an constructed servant is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 14."
 					],
 					"name": "Construct Armor"
-				}
-			],
+				}]
+			},
 			"hp": [
 				{
 					"hp": 6,
