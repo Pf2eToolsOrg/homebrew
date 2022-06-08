@@ -594,13 +594,13 @@
 				"when broken": 13
 			},
 			"savingThrows": {
-				"Fort": {
+				"fort": {
 					"std": 3
 				},
-				"Ref": {
+				"ref": {
 					"std": 6
 				},
-				"Will": {
+				"will": {
 					"std": 3
 				}
 			},
