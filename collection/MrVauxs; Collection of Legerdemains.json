@@ -605,12 +605,14 @@
 				}
 			},
 			"abilities": {
-				"mid": [{
-					"entries": [
-						"Like normal objects, a constructed servant has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an constructed servant is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 14."
-					],
-					"name": "Construct Armor"
-				}]
+				"mid": [
+					{
+						"entries": [
+							"Like normal objects, a constructed servant has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an constructed servant is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks and its Armor Class is reduced to 14."
+						],
+						"name": "Construct Armor"
+					}
+				]
 			},
 			"hp": [
 				{
