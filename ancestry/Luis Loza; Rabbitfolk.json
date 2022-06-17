@@ -46,17 +46,17 @@
 			"name": "Rabbitfolk",
 			"source": "Luis-Rabbitfolk",
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 30
 			},
 			"boosts": [
-				"Dexterity",
-				"Intelligence",
-				"Free"
+				"dexterity",
+				"intelligence",
+				"free"
 			],
 			"flaw": [
-				"Wisdom"
+				"wisdom"
 			],
 			"languages": [
 				"{@language Common}",
