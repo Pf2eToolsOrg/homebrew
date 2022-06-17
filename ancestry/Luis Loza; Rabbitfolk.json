@@ -46,7 +46,9 @@
 			"name": "Rabbitfolk",
 			"source": "Luis-Rabbitfolk",
 			"hp": 8,
-			"size": ["Medium"],
+			"size": [
+				"Medium"
+			],
 			"speed": {
 				"walk": 30
 			},
