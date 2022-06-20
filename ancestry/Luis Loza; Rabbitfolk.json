@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "Luis-Rabbitfolk",
-				"abbreviation": "Rabbitfolk",
+				"abbreviation": "🐇",
 				"full": "Rabbitfolk",
 				"url": "https://www.luisloza.com/blog/categories/rabbitfolk",
 				"authors": [
@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1629955064,
-		"dateLastModified": 1631527437
+		"dateLastModified": 1655689294
 	},
 	"trait": [
 		{
@@ -47,7 +47,7 @@
 			"source": "Luis-Rabbitfolk",
 			"hp": 8,
 			"size": [
-				"Medium"
+				"medium"
 			],
 			"speed": {
 				"walk": 30
@@ -62,7 +62,7 @@
 			],
 			"languages": [
 				"{@language Common}",
-				"{@language Rabbitfolk}",
+				"{@language Rabbitfolk|Luis-Rabbitfolk}",
 				"Additional languages equal to your Intelligence modifier (if it's positive). Choose from {@language Dwarven}, {@language Elven}, {@language Gnomish}, {@language Halfling}, {@language Sylvan}, {@language Undercommon}, and any other langauges to which you have access (such as the languages prevalent in your region)."
 			],
 			"traits": [
@@ -644,5 +644,16 @@
 				}
 			]
 		}
-	]
+	],
+	"language": [
+		{
+			"name": "Rabbitfolk",
+			"source": "Luis-Rabbitfolk",
+			"typicalSpeakers": [
+				"Rabbitfolk"
+			],
+			"entries": [
+				"{@note No Entries Available.}"
+			]
+		}]
 }
