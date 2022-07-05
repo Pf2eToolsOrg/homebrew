@@ -330,10 +330,10 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"{@skill Arcana}",
-						"{@skill Nature}",
-						"{@skill Occultism}",
-						"{@skill Religion}"
+						"Arcana",
+						"Nature",
+						"Occultism",
+						"Religion"
 					],
 					"add": 2
 				},
@@ -544,7 +544,7 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"{@skill Occultism}"
+						"Occultism"
 					],
 					"add": 3
 				},
@@ -749,7 +749,7 @@
 				"will": "T",
 				"skills": {
 					"t": [
-						"{@skill Crafting}",
+						"Crafting",
 						"one or more skills determined by your way."
 					],
 					"add": 3
@@ -959,7 +959,7 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"{@skill Crafting}"
+						"Crafting"
 					],
 					"add": 3
 				},
@@ -1169,7 +1169,7 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"{@skill Arcana}"
+						"Arcana"
 					],
 					"add": 2
 				},
