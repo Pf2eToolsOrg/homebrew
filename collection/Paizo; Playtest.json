@@ -750,7 +750,11 @@
 				"skills": {
 					"t": [
 						"Crafting",
-						"one or more skills determined by your way."
+						{
+							"skill": [
+								"Subclass Dependant"
+							],
+							"entry": "one or more skills determined by your way."
 					],
 					"add": 3
 				},
@@ -1369,7 +1373,12 @@
 				"will": "E",
 				"skills": {
 					"t": [
-						"one or more skills determined by your eidolon"
+						{
+							"skill": [
+								"Subclass Dependant"
+							],
+							"entry": "one or more skills determined by your eidolon"
+						}
 					],
 					"add": 3
 				},
