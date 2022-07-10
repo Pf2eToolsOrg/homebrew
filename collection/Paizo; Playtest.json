@@ -53,7 +53,7 @@
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1632280710
+		"dateLastModified": 1657466921
 	},
 	"subclass": [
 		{
@@ -11747,9 +11747,10 @@
 			"name": "Arquebus",
 			"type": "Equipment",
 			"category": "Weapon",
-			"rarity": "Uncommon",
+			"level": 1,
 			"subCategory": "Martial",
 			"traits": [
+				"Uncommon",
 				"Fatal d12",
 				"Sniper|PT:G&G",
 				"Unsteady|PT:G&G",
@@ -11759,16 +11760,15 @@
 				"amount": 10,
 				"coin": "gp"
 			},
-			"ammunition": [
-				"Rounds|PT:G&G"
-			],
 			"hands": 2,
-			"damage": "1d8",
-			"damageType": "P",
-			"bulk": 2,
-			"reload": 1,
-			"range": 80,
-			"group": "Firearm|PT:G&G",
+			"weaponData": {
+				"ammunition": "Rounds|PT:G&G",
+				"damage": "1d8",
+				"damageType": "P",
+				"reload": 1,
+				"range": 80,
+				"group": "Firearm|PT:G&G"
+			},
 			"entries": [
 				"This long rifle offers more range than the average firearm, though the long barrel makes the weapon particularly unsteady unless a {@item tripod|PT:G&G} or other stand is used to stabilize it."
 			],
@@ -11779,9 +11779,9 @@
 			"name": "Blunderbuss",
 			"type": "Equipment",
 			"category": "Weapon",
-			"rarity": "Uncommon",
 			"subCategory": "Martial",
 			"traits": [
+				"Uncommon",
 				"Scatter|PT:G&G",
 				"Versatile B"
 			],
@@ -11789,16 +11789,15 @@
 				"amount": 8,
 				"coin": "gp"
 			},
-			"ammunition": [
-				"Rounds|PT:G&G"
-			],
 			"hands": 2,
-			"damage": "1d8",
-			"damageType": "P",
-			"bulk": 2,
-			"reload": 1,
-			"range": 15,
-			"group": "Firearm|PT:G&G",
+			"weaponData": {
+				"ammunition": "Rounds|PT:G&G",
+				"damage": "1d8",
+				"damageType": "P",
+				"reload": 1,
+				"range": 15,
+				"group": "Firearm|PT:G&G"
+			},
 			"entries": [
 				"This weapon fires pellets from a trumpet shaped barrel, making it an excellent choice for hunting brush fowl or dealing damage in a short but broad area."
 			],
@@ -11810,9 +11809,9 @@
 			"type": "Equipment",
 			"category": "Weapon",
 			"level": 1,
-			"rarity": "Uncommon",
 			"subCategory": "Martial",
 			"traits": [
+				"Uncommon",
 				"Concealable|PT:G&G",
 				"Fatal d10",
 				"Versatile B"
@@ -11821,16 +11820,16 @@
 				"amount": 12,
 				"coin": "gp"
 			},
-			"ammunition": [
-				"Rounds|PT:G&G"
-			],
 			"hands": 1,
-			"damage": "1d6",
-			"damageType": "P",
 			"bulk": "L",
-			"reload": 1,
-			"range": 30,
-			"group": "Firearm|PT:G&G",
+			"weaponData": {
+				"ammunition": "Rounds|PT:G&G",
+				"damage": "1d6",
+				"damageType": "P",
+				"reload": 1,
+				"range": 60,
+				"group": "Firearm|PT:G&G"
+			},
 			"entries": [
 				"Made for the settling disputes when diplomacy fails, dueling pistols fit easily into a holster or pocket."
 			],
@@ -11841,9 +11840,9 @@
 			"name": "Flintlock Musket",
 			"type": "Equipment",
 			"category": "Weapon",
-			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
+				"Uncommon",
 				"Fatal d10",
 				"Versatile B"
 			],
@@ -11851,16 +11850,16 @@
 				"amount": 7,
 				"coin": "gp"
 			},
-			"ammunition": [
-				"Rounds|PT:G&G"
-			],
 			"hands": 2,
-			"damage": "1d6",
-			"damageType": "P",
 			"bulk": 1,
-			"reload": 1,
-			"range": 40,
-			"group": "Firearm|PT:G&G",
+			"weaponData": {
+				"ammunition": "Rounds|PT:G&G",
+				"damage": "1d6",
+				"damageType": "P",
+				"reload": 1,
+				"range": 40,
+				"group": "Firearm|PT:G&G"
+			},
 			"entries": [
 				"The gold standard of firearms in Alkenstar, the flintlock musket includes an external firing mechanism while boasting an efficient and relatively compact frame."
 			],
@@ -11871,9 +11870,9 @@
 			"name": "Flintlock Pistol",
 			"type": "Equipment",
 			"category": "Weapon",
-			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
+				"Uncommon",
 				"Fatal d8",
 				"Versatile B"
 			],
@@ -11881,16 +11880,16 @@
 				"amount": 6,
 				"coin": "gp"
 			},
-			"ammunition": [
-				"Rounds|PT:G&G"
-			],
 			"hands": 1,
-			"damage": "1d4",
-			"damageType": "P",
 			"bulk": 1,
-			"reload": 1,
-			"range": 20,
-			"group": "Firearm|PT:G&G",
+			"weaponData": {
+				"ammunition": "Rounds|PT:G&G",
+				"damage": "1d4",
+				"damageType": "P",
+				"reload": 1,
+				"range": 20,
+				"group": "Firearm|PT:G&G"
+			},
 			"entries": [
 				"Though less accurate and powerful than a flintlock musket, the flintlock pistol is the preferred weapon of privateers thanks to its more compact size."
 			],
@@ -11901,9 +11900,9 @@
 			"name": "Hand Cannon",
 			"type": "Equipment",
 			"category": "Weapon",
-			"rarity": "Uncommon",
 			"subCategory": "Simple",
 			"traits": [
+				"Uncommon",
 				"Fatal d8",
 				"Modular B, P, or S"
 			],
@@ -11911,16 +11910,16 @@
 				"amount": 5,
 				"coin": "gp"
 			},
-			"ammunition": [
-				"Rounds|PT:G&G"
-			],
 			"hands": 1,
-			"damage": "1d4",
-			"damageType": "modular",
 			"bulk": 1,
-			"reload": 1,
-			"range": 10,
-			"group": "Firearm|PT:G&G",
+			"weaponData": {
+				"ammunition": "Rounds|PT:G&G",
+				"damage": "1d4",
+				"damageType": "modular",
+				"reload": 1,
+				"range": 10,
+				"group": "Firearm|PT:G&G"
+			},
 			"entries": [
 				"Little more than a hardened tube with a handle and external ignition attached, a hand cannon can be used to fire almost anything that can be packed into its barrel."
 			],
@@ -12013,8 +12012,12 @@
 				"entry": "5‑foot burst"
 			},
 			"duration": {},
-			"savingThrow": "Fortitude",
-			"savingThrowBasic": true,
+			"savingThrow": {
+				"type": [
+					"F"
+				],
+				"basic": true
+			},
 			"heightened": {
 				"plus_x": {
 					"level": 2,
@@ -12135,7 +12138,6 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"range": {},
 			"duration": {},
 			"heightened": {},
 			"page": 8
@@ -12187,7 +12189,11 @@
 				},
 				"Your telepathic push is particularly shocking. If the target fails or critically fails its save, it's also {@condition stunned} 1."
 			],
-			"savingThrow": "Will",
+			"savingThrow": {
+				"type": [
+					"W"
+				]
+			},
 			"heightened": {},
 			"page": 8
 		},
@@ -12226,8 +12232,12 @@
 				"entry": "15‑foot cone"
 			},
 			"duration": {},
-			"savingThrow": "Will",
-			"savingThrowBasic": true,
+			"savingThrow": {
+				"type": [
+					"W"
+				],
+				"basic": true
+			},
 			"heightened": {
 				"plus_x": {
 					"level": 2,
