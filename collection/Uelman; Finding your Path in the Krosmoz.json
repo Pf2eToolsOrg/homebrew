@@ -307,7 +307,7 @@
 				}
 			],
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -418,7 +418,7 @@
 				}
 			],
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -469,7 +469,7 @@
 			"name": "Iop",
 			"source": "FPKrosmoz",
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -580,7 +580,7 @@
 			"name": "Cra",
 			"source": "FPKrosmoz",
 			"hp": 6,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -699,7 +699,7 @@
 			"name": "Sacrier",
 			"source": "FPKrosmoz",
 			"hp": 10,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -815,7 +815,7 @@
 			"name": "Eniripsa",
 			"source": "FPKrosmoz",
 			"hp": 6,
-			"size": "Small or Medium",
+			"size": ["Small", "Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -927,7 +927,7 @@
 			"name": "Sram",
 			"source": "FPKrosmoz",
 			"hp": 6,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -1049,7 +1049,7 @@
 			"name": "Xelor",
 			"source": "FPKrosmoz",
 			"hp": 6,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -1170,7 +1170,7 @@
 			"name": "Sadida",
 			"source": "FPKrosmoz",
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -1278,7 +1278,7 @@
 			"name": "Ecaflip",
 			"source": "FPKrosmoz",
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -1398,7 +1398,7 @@
 			"name": "Pandawa",
 			"source": "FPKrosmoz",
 			"hp": 10,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
@@ -1507,7 +1507,7 @@
 			"name": "Osamodas",
 			"source": "FPKrosmoz",
 			"hp": 8,
-			"size": "Medium",
+			"size": ["Medium"],
 			"speed": {
 				"walk": 25
 			},
