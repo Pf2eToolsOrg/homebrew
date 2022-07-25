@@ -1710,7 +1710,9 @@
 			"entries": [
 				"Your Drheller companion continues to grow in power and ability, and it is now cunning enough to become specialized. Your animal companion gains one specialization of your choice."
 			],
-			"special": "You can select this feat up to two times. Each time, add a different specialization to your companion."
+			"special": [
+				"You can select this feat up to two times. Each time, add a different specialization to your companion."
+			]
 		},
 		{
 			"name": "Hidden Chest",
@@ -4769,17 +4771,16 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "Base",
 					"name": "Mineral Shovel",
 					"level": 6,
 					"price": {
 						"coin": "gp",
 						"amount": 350
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "Base"
 				},
 				{
-					"type": "Greater",
 					"level": 14,
 					"price": {
 						"coin": "gp",
@@ -4817,7 +4818,8 @@
 							}
 						],
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "Greater"
 				}
 			]
 		},
@@ -4950,17 +4952,16 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "Base",
 					"name": "Sword of Wrath",
 					"level": 10,
 					"price": {
 						"coin": "gp",
 						"amount": 700
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "Base"
 				},
 				{
-					"type": "Greater",
 					"level": 14,
 					"price": {
 						"coin": "gp",
@@ -4989,10 +4990,10 @@
 							}
 						],
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "Greater"
 				},
 				{
-					"type": "Major",
 					"level": 18,
 					"price": {
 						"coin": "gp",
@@ -5021,7 +5022,8 @@
 							}
 						],
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "Major"
 				}
 			]
 		},
@@ -5064,7 +5066,6 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 1,
 					"price": {
 						"coin": "gp",
@@ -5072,10 +5073,10 @@
 					},
 					"entries": [
 						"Creatures within 5 ft. are pushed 5 ft. / 10 ft. away from the beacon, and the DC is 17."
-					]
+					],
+					"variantType": "lesser"
 				},
 				{
-					"type": "moderate",
 					"level": 3,
 					"price": {
 						"coin": "gp",
@@ -5083,10 +5084,10 @@
 					},
 					"entries": [
 						"Creatures within 10 ft. are pushed 10 ft. / 25 ft. away from the beacon, and the DC is 20."
-					]
+					],
+					"variantType": "moderate"
 				},
 				{
-					"type": "greater",
 					"level": 11,
 					"price": {
 						"coin": "gp",
@@ -5094,10 +5095,10 @@
 					},
 					"entries": [
 						"Creatures within 25 ft. are pushed 15 ft. / 40 ft. away from the beacon, and the DC is 28. Additionally, creatures cannot move against the wind until the start of the activators turn."
-					]
+					],
+					"variantType": "greater"
 				},
 				{
-					"type": "major",
 					"level": 17,
 					"price": {
 						"coin": "gp",
@@ -5105,7 +5106,8 @@
 					},
 					"entries": [
 						"Creatures within 40 ft. are pushed 25 ft. / 60 ft. away from the beacon, and the DC is 36. Additionally, creatures cannot move against the wind until the start of the activators turn."
-					]
+					],
+					"variantType": "major"
 				}
 			]
 		},
@@ -5139,7 +5141,6 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 1,
 					"price": {
 						"coin": "gp",
@@ -5147,10 +5148,10 @@
 					},
 					"entries": [
 						"The ground within 15 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} for 1 minute."
-					]
+					],
+					"variantType": "lesser"
 				},
 				{
-					"type": "moderate",
 					"level": 3,
 					"price": {
 						"coin": "gp",
@@ -5158,10 +5159,10 @@
 					},
 					"entries": [
 						"The ground within 20 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} for 10 minutes. Creatures in this area must succeed at a DC 20 Reflex Saving Throw or fall {@condition prone}."
-					]
+					],
+					"variantType": "moderate"
 				},
 				{
-					"type": "greater",
 					"level": 11,
 					"price": {
 						"coin": "gp",
@@ -5170,10 +5171,10 @@
 					"entries": [
 						"The ground within 25 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} and Hazardous Terrain for 20 minutes. Creatures in this area must succeed at a DC 28 Reflex Saving Throw or fall {@condition prone}.",
 						"A creature that moves through the area takes 3 piercing damage for every square of that area it moves into."
-					]
+					],
+					"variantType": "greater"
 				},
 				{
-					"type": "major",
 					"level": 17,
 					"price": {
 						"coin": "gp",
@@ -5182,7 +5183,8 @@
 					"entries": [
 						"The ground within 30 ft. of the beacon becomes {@quickref difficult terrain||3|terrain} and Hazardous Terrain for an hour. Creatures in this area must critically succeed at a DC 36 Reflex Saving Throw or fall {@condition prone}.",
 						"A creature that moves through the area takes 6 piercing damage for every square of that area it moves into."
-					]
+					],
+					"variantType": "major"
 				}
 			]
 		},
@@ -5225,7 +5227,6 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 1,
 					"price": {
 						"coin": "gp",
@@ -5233,10 +5234,10 @@
 					},
 					"entries": [
 						"The bomb deals {@damage 1d8} fire damage to creatures within 10 ft., and the DC is 17."
-					]
+					],
+					"variantType": "lesser"
 				},
 				{
-					"type": "moderate",
 					"level": 3,
 					"price": {
 						"coin": "gp",
@@ -5244,10 +5245,10 @@
 					},
 					"entries": [
 						"The bomb deals {@damage 2d8} fire damage to creatures within 15 ft., and the DC is 20. On critical failure a creature receives an extra {@damage 2d4} persistent fire damage."
-					]
+					],
+					"variantType": "moderate"
 				},
 				{
-					"type": "greater",
 					"level": 11,
 					"price": {
 						"coin": "gp",
@@ -5255,10 +5256,10 @@
 					},
 					"entries": [
 						"The bomb deals {@damage 4d8} fire damage to creatures within 20 ft., and the DC is 28. On critical failure a creature receives an extra {@damage 3d4} persistent fire damage and is {@condition blinded} for 1 round."
-					]
+					],
+					"variantType": "greater"
 				},
 				{
-					"type": "major",
 					"level": 17,
 					"price": {
 						"coin": "gp",
@@ -5266,7 +5267,8 @@
 					},
 					"entries": [
 						"The bomb deals {@damage 6d8} fire damage to creatures within 30 ft., and the DC is 36. On critical failure a creature receives an extra {@damage 4d4} persistent fire damage and is {@condition blinded} for 3 rounds."
-					]
+					],
+					"variantType": "major"
 				}
 			]
 		},
@@ -5325,16 +5327,15 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 7,
 					"price": {
 						"coin": "gp",
 						"amount": 3
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "lesser"
 				},
 				{
-					"type": "greater",
 					"level": 14,
 					"price": {
 						"coin": "gp",
@@ -5342,7 +5343,8 @@
 					},
 					"entries": [
 						"The ammunition additionally ignores the target's {@condition hidden} condition and does not require sight to your target if you have seen them in the past minute. You still require a clear path for the arrow to reach its target."
-					]
+					],
+					"variantType": "greater"
 				}
 			]
 		},
@@ -5385,7 +5387,6 @@
 			],
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 4,
 					"price": {
 						"coin": "gp",
@@ -5410,10 +5411,10 @@
 								"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}. The DC is 21."
 							]
 						}
-					]
+					],
+					"variantType": "lesser"
 				},
 				{
-					"type": "greater",
 					"level": 11,
 					"price": {
 						"coin": "gp",
@@ -5438,7 +5439,8 @@
 								"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}. The DC is 28."
 							]
 						}
-					]
+					],
+					"variantType": "greater"
 				}
 			]
 		},
@@ -5499,7 +5501,6 @@
 			],
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 4,
 					"price": {
 						"coin": "gp",
@@ -5512,10 +5513,10 @@
 						"entries": {
 							"with": " The tattoo's extradimensional space can hold 25 Bulk."
 						}
-					}
+					},
+					"variantType": "lesser"
 				},
 				{
-					"type": "moderate",
 					"level": 7,
 					"price": {
 						"coin": "gp",
@@ -5528,10 +5529,10 @@
 						"entries": {
 							"with": " The tattoo's extradimensional space can hold 50 Bulk."
 						}
-					}
+					},
+					"variantType": "moderate"
 				},
 				{
-					"type": "greater",
 					"level": 11,
 					"price": {
 						"coin": "gp",
@@ -5544,10 +5545,10 @@
 						"entries": {
 							"with": " The tattoo's extradimensional space can hold 100 Bulk."
 						}
-					}
+					},
+					"variantType": "greater"
 				},
 				{
-					"type": "major",
 					"level": 13,
 					"price": {
 						"coin": "gp",
@@ -5560,7 +5561,8 @@
 						"entries": {
 							"with": " The tattoo's extradimensional space can hold 150 Bulk."
 						}
-					}
+					},
+					"variantType": "major"
 				}
 			],
 			"_vmod": {
@@ -5603,7 +5605,6 @@
 			],
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 3,
 					"price": {
 						"coin": "gp",
@@ -5624,10 +5625,10 @@
 								"You taunt a creature that you can see in a range of 60 ft. and the DC is 20."
 							]
 						}
-					]
+					],
+					"variantType": "lesser"
 				},
 				{
-					"type": "greater",
 					"level": 11,
 					"price": {
 						"coin": "gp",
@@ -5648,7 +5649,8 @@
 								"You taunt a creature that you can see in a range of 120 ft. and the DC is 28."
 							]
 						}
-					]
+					],
+					"variantType": "greater"
 				}
 			]
 		},
@@ -5689,16 +5691,15 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "cog ring",
 					"level": 3,
 					"price": {
 						"coin": "gp",
 						"amount": 50
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "cog ring"
 				},
 				{
-					"type": "greater cog ring",
 					"level": 9,
 					"price": {
 						"coin": "gp",
@@ -5721,7 +5722,8 @@
 							}
 						],
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "greater cog ring"
 				}
 			]
 		},
@@ -5752,11 +5754,12 @@
 					]
 				}
 			],
-			"craftReq": "Supply one casting of all listed levels of all listed spells.",
+			"craftReq": [
+				"Supply one casting of all listed levels of all listed spells."
+			],
 			"generic": "G",
 			"variants": [
 				{
-					"type": "hourstaff",
 					"level": 6,
 					"price": {
 						"coin": "gp",
@@ -5771,10 +5774,10 @@
 								"{@bold 2nd} {@spell Augury}"
 							]
 						}
-					]
+					],
+					"variantType": "hourstaff"
 				},
 				{
-					"type": "greater hourstaff",
 					"level": 10,
 					"price": {
 						"coin": "gp",
@@ -5804,10 +5807,10 @@
 								}
 							]
 						}
-					}
+					},
+					"variantType": "greater hourstaff"
 				},
 				{
-					"type": "major hourstaff",
 					"level": 14,
 					"price": {
 						"coin": "gp",
@@ -5839,10 +5842,10 @@
 								}
 							]
 						}
-					}
+					},
+					"variantType": "major hourstaff"
 				},
 				{
-					"type": "true hourstaff",
 					"level": 19,
 					"price": {
 						"coin": "gp",
@@ -5877,7 +5880,8 @@
 								}
 							]
 						}
-					}
+					},
+					"variantType": "true hourstaff"
 				}
 			]
 		},
@@ -5989,7 +5993,6 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "lesser",
 					"level": 6,
 					"price": {
 						"coin": "gp",
@@ -6003,10 +6006,10 @@
 							"replaceTags": true,
 							"with": "You gain the {@trait Incorporeal} trait and resistance to all damage 1 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 3 rounds."
 						}
-					}
+					},
+					"variantType": "lesser"
 				},
 				{
-					"type": "moderate",
 					"level": 10,
 					"price": {
 						"coin": "gp",
@@ -6020,10 +6023,10 @@
 							"replaceTags": true,
 							"with": "You gain the {@trait Incorporeal} trait and resistance to all damage 3 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 10 minutes."
 						}
-					}
+					},
+					"variantType": "moderate"
 				},
 				{
-					"type": "greater",
 					"level": 14,
 					"price": {
 						"coin": "gp",
@@ -6037,7 +6040,8 @@
 							"replaceTags": true,
 							"with": "You gain the {@trait Incorporeal} trait and resistance to all damage 5 (except force, {@item ghost touch}, or mental; double resistance against non-magical) for 1 hour."
 						}
-					}
+					},
+					"variantType": "greater"
 				}
 			],
 			"_vmod": {
@@ -6076,7 +6080,6 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "minor",
 					"level": 1,
 					"price": {
 						"coin": "gp",
@@ -6090,10 +6093,10 @@
 							"replaceTags": true,
 							"with": "You gain a +1 item bonus, and the duration is 3 minutes."
 						}
-					}
+					},
+					"variantType": "minor"
 				},
 				{
-					"type": "lesser",
 					"level": 5,
 					"price": {
 						"coin": "gp",
@@ -6107,10 +6110,10 @@
 							"replaceTags": true,
 							"with": "You gain a +2 item bonus, and the duration is 1 minutes."
 						}
-					}
+					},
+					"variantType": "lesser"
 				},
 				{
-					"type": "moderate",
 					"level": 9,
 					"price": {
 						"coin": "gp",
@@ -6124,10 +6127,10 @@
 							"replaceTags": true,
 							"with": "You gain a +3 item bonus, and the duration is 5 minutes."
 						}
-					}
+					},
+					"variantType": "moderate"
 				},
 				{
-					"type": "greater",
 					"level": 13,
 					"price": {
 						"coin": "gp",
@@ -6141,10 +6144,10 @@
 							"replaceTags": true,
 							"with": "You gain a +4 item bonus, and the duration is 30 minutes."
 						}
-					}
+					},
+					"variantType": "greater"
 				},
 				{
-					"type": "greater",
 					"level": 15,
 					"price": {
 						"coin": "gp",
@@ -6158,7 +6161,8 @@
 							"replaceTags": true,
 							"with": "You gain a +5 item bonus, and the duration is 1 hour."
 						}
-					}
+					},
+					"variantType": "greater"
 				}
 			],
 			"_vmod": {

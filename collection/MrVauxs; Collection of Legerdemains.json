@@ -210,12 +210,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "100 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 100
-				}
+				},
+				"unit": "point"
 			},
 			"duration": {
 				"type": "timed",
@@ -256,12 +256,12 @@
 				"unit": "reaction"
 			},
 			"range": {
-				"type": "point",
 				"entry": "60 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 60
-				}
+				},
+				"unit": "point"
 			}
 		}
 	],
@@ -406,16 +406,15 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "goggles of revealing",
 					"level": 3,
 					"price": {
 						"coin": "gp",
 						"amount": 70
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "goggles of revealing"
 				},
 				{
-					"type": "greater goggles of revealing",
 					"level": 9,
 					"price": {
 						"coin": "gp",
@@ -439,10 +438,10 @@
 							}
 						],
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "greater"
 				},
 				{
-					"type": "major goggles of revealing",
 					"level": 17,
 					"price": {
 						"coin": "gp",
@@ -466,7 +465,8 @@
 							}
 						],
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "major"
 				}
 			]
 		},
@@ -504,16 +504,15 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "sharding",
 					"level": 3,
 					"price": {
 						"coin": "gp",
 						"amount": 55
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "sharding"
 				},
 				{
-					"type": "greater sharding",
 					"level": 8,
 					"price": {
 						"coin": "gp",
@@ -530,10 +529,10 @@
 							"with": "4d4"
 						},
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "greater"
 				},
 				{
-					"type": "major sharding",
 					"level": 12,
 					"price": {
 						"coin": "gp",
@@ -550,7 +549,8 @@
 							"with": "6d4"
 						},
 						"entriesMode": "generic"
-					}
+					},
+					"variantType": "major"
 				}
 			]
 		}

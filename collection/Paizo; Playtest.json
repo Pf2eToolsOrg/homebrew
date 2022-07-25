@@ -7969,7 +7969,9 @@
 				"You've sworn a pact with devils, granting you success in life in exchange for your soul in the afterlife. Once per day, when you critically fail a check, you can reroll the check as a free action; this is a {@trait fortune} effect. Additionally, you can choose to automatically succeed at checks to {@action Earn Income} for tasks below your level, without rolling.",
 				"However, when you die, your soul is consigned to Hell. You can't be returned to life except by powerful magic such as miracle, and even then, the devils responsible for the contract can track your every move for 1 year. The devils gain the effects of a {@spell discern location} spell. They can also use 10th-level {@spell scrying} on you at will, and you automatically critically fail your saving throw."
 			],
-			"special": "You can't retrain out of a Pact of Infernal Prowess without journeying to Hell and destroying the devil's written contract spelling out the terms of your pact.",
+			"special": [
+				"You can't retrain out of a Pact of Infernal Prowess without journeying to Hell and destroying the devil's written contract spelling out the terms of your pact."
+			],
 			"page": 26
 		},
 		{
@@ -8970,7 +8972,9 @@
 			"entries": [
 				"Your eidolon evolves more acute senses. Your eidolon either gains {@ability low-light vision} and {@ability darkvision}, or gains {@ability scent} as an imprecise sense with a range of 30 feet."
 			],
-			"special": "You can select this feat twice, choosing the other option the second time.",
+			"special": [
+				"You can select this feat twice, choosing the other option the second time."
+			],
 			"page": 22
 		},
 		{
@@ -10215,7 +10219,9 @@
 				"Prerequisite initial deed that allows you to {@action Interact|CRB} to draw a weapon Whether a duel to the death or getting the {@spell jump|CRB} on your foe, no one can react faster than you can pull your trigger.",
 				"When using your initial deed, instead of Interacting to draw a weapon, you can {@action Strike|CRB} with a firearm or crossbow you're already wielding. If this {@action Strike|CRB} hits, the target is also {@condition flat-footed} until the end of your first turn of the encounter."
 			],
-			"special": "If your initial deed allows you to {@action Interact} to draw a weapon more than once, this feat allows you to replace one of these {@action Interact} actions and use the other one to draw a weapon. You can't replace both {@action Interact} actions with {@action Strike|CRB|Strikes}, but you can draw a loaded firearm or crossbow and immediately shoot it.",
+			"special": [
+				"If your initial deed allows you to {@action Interact} to draw a weapon more than once, this feat allows you to replace one of these {@action Interact} actions and use the other one to draw a weapon. You can't replace both {@action Interact} actions with {@action Strike|CRB|Strikes}, but you can draw a loaded firearm or crossbow and immediately shoot it."
+			],
 			"page": 11
 		},
 		{
@@ -10322,7 +10328,9 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": "If your innovation is a minion, it can take this action rather than you.",
+			"special": [
+				"If your innovation is a minion, it can take this action rather than you."
+			],
 			"page": 22
 		},
 		{
@@ -10443,7 +10451,9 @@
 				"number": 1,
 				"unit": "action"
 			},
-			"special": "If your innovation is a minion, it can take this action rather than you. Because it's not a living creature, it can't use the ability on itself.",
+			"special": [
+				"If your innovation is a minion, it can take this action rather than you. Because it's not a living creature, it can't use the ability on itself."
+			],
 			"page": 22
 		},
 		{
@@ -10552,7 +10562,9 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": "If your innovation is a minion, it can take this action rather than you.",
+			"special": [
+				"If your innovation is a minion, it can take this action rather than you."
+			],
 			"page": 23
 		},
 		{
@@ -10603,7 +10615,9 @@
 				"number": 2,
 				"unit": "action"
 			},
-			"special": "If your innovation is a minion, it can use this action rather than you.",
+			"special": [
+				"If your innovation is a minion, it can use this action rather than you."
+			],
 			"page": 24
 		},
 		{
@@ -10641,7 +10655,9 @@
 					}
 				}
 			],
-			"special": "If your innovation is a minion, this benefit applies on its Megaton {@action Strike|CRB|Strikes}.",
+			"special": [
+				"If your innovation is a minion, this benefit applies on its Megaton {@action Strike|CRB|Strikes}."
+			],
 			"page": 24
 		},
 		{
@@ -11998,12 +12014,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "30 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 30
-				}
+				},
+				"unit": "point"
 			},
 			"area": {
 				"types": [
@@ -12054,12 +12070,12 @@
 			},
 			"trigger": "You or an ally are the target of a physical ranged {@action Strike}.",
 			"range": {
-				"type": "point",
 				"entry": "30 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 30
-				}
+				},
+				"unit": "point"
 			},
 			"targets": "the triggering creature",
 			"duration": {},
@@ -12167,12 +12183,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "30 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 30
-				}
+				},
+				"unit": "point"
 			},
 			"targets": "1 creature",
 			"duration": {},
@@ -12313,12 +12329,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "100 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 100
-				}
+				},
+				"unit": "point"
 			},
 			"targets": "your eidolon",
 			"duration": {
@@ -12358,12 +12374,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "100 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 100
-				}
+				},
+				"unit": "point"
 			},
 			"targets": "your eidolon",
 			"duration": {
@@ -12402,12 +12418,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "100 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 100
-				}
+				},
+				"unit": "point"
 			},
 			"targets": "your eidolon",
 			"duration": {
@@ -12482,12 +12498,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "touch",
 				"distance": {
 					"type": "touch",
 					"amount": 1
-				}
+				},
+				"unit": "point"
 			},
 			"heightened": {
 				"x": [
@@ -12538,12 +12554,12 @@
 				]
 			},
 			"range": {
-				"type": "point",
 				"entry": "touch",
 				"distance": {
 					"type": "touch",
 					"amount": 1
-				}
+				},
+				"unit": "point"
 			},
 			"school": "V",
 			"focus": true,
@@ -12616,12 +12632,12 @@
 			"level": 1,
 			"heightened": {},
 			"range": {
-				"type": "point",
 				"entry": "100 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 100
-				}
+				},
+				"unit": "point"
 			},
 			"school": "A",
 			"focus": true,
@@ -12710,12 +12726,12 @@
 				"unit": "action"
 			},
 			"range": {
-				"type": "point",
 				"entry": "100 feet",
 				"distance": {
 					"type": "feet",
 					"amount": 100
-				}
+				},
+				"unit": "point"
 			},
 			"duration": {
 				"type": "timed",

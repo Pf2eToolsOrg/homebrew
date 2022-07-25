@@ -174,7 +174,9 @@
 			"entries": [
 				"Your body has grown a draconic feature that you wield with might in combat. Choose either a claw, jaws, or tail Strike. Once chosen, you can't change your feature. Your claw unarmed attack deals {@damage 1d4} piercing damage, has the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits. Your jaws unarmed attack deals {@damage 1d6} piercing damage and has the {@trait versatile} S trait. Your tail unarmed attack deals {@damage 1d6} bludgeoning damage and has the {@trait backswing} trait."
 			],
-			"special": "You can take this feat multiple times. Each time you do, select a new attack from the options above.",
+			"special": [
+				"You can take this feat multiple times. Each time you do, select a new attack from the options above."
+			],
 			"leadsTo": [
 				"Deadly Armaments|Luis-DragonkinVH",
 				"Draconic Grasp|Luis-DragonkinVH"
@@ -207,7 +209,9 @@
 			"entries": [
 				"You can start sensing creatures as well as a dragon can. You gain one of the following senses: {@ability darkvision}, {@ability low-light vision}, or {@ability scent} (imprecise) 30 feet. You must have {@ability low-light vision} before you can gain {@ability darkvision} with this feat."
 			],
-			"special": "You can select this feat multiple times, choosing a different sense each time."
+			"special": [
+				"You can select this feat multiple times, choosing a different sense each time."
+			]
 		},
 		{
 			"name": "Draconic Wings",

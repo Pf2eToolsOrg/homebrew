@@ -561,16 +561,15 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "bouncing",
 					"level": 3,
 					"price": {
 						"coin": "gp",
 						"amount": 55
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "bouncing"
 				},
 				{
-					"type": "greater bouncing",
 					"level": 8,
 					"price": {
 						"coin": "gp",
@@ -578,7 +577,8 @@
 					},
 					"entries": [
 						"The weapon rebounds toward an enemy within 20 feet of the original and you do not have a penalty when making a {@action Strike} against the second target."
-					]
+					],
+					"variantType": "greater bouncing"
 				}
 			]
 		},
@@ -601,16 +601,15 @@
 			"generic": "G",
 			"variants": [
 				{
-					"type": "lesser springing boots",
 					"level": 2,
 					"price": {
 						"coin": "gp",
 						"amount": 35
 					},
-					"entries": []
+					"entries": [],
+					"variantType": "lesser"
 				},
 				{
-					"type": "springing boots",
 					"level": 7,
 					"price": {
 						"coin": "gp",
@@ -618,10 +617,10 @@
 					},
 					"entries": [
 						"The bonus to {@action High Jump} and {@action Long Jump} is +2 and you treat falls as 25 feet shorter."
-					]
+					],
+					"variantType": "springing boots"
 				},
 				{
-					"type": "greater springing boots",
 					"level": 12,
 					"price": {
 						"coin": "gp",
@@ -629,10 +628,10 @@
 					},
 					"entries": [
 						"The bonus to {@action High Jump} and {@action Long Jump} is +3 and you treat falls as 50 feet shorter."
-					]
+					],
+					"variantType": "greater"
 				},
 				{
-					"type": "major springing boots",
 					"level": 17,
 					"price": {
 						"coin": "gp",
@@ -640,7 +639,8 @@
 					},
 					"entries": [
 						"The bonus to {@action High Jump} and {@action Long Jump} is +4 and you treat falls as 100 feet shorter."
-					]
+					],
+					"variantType": "major"
 				}
 			]
 		}
