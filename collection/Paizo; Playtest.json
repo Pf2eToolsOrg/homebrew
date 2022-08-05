@@ -12007,10 +12007,7 @@
 			"level": 0,
 			"school": "V",
 			"components": [
-				{
-					"S": true,
-					"V": true
-				}
+				["S", "V"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12064,9 +12061,7 @@
 			"level": 0,
 			"school": "V",
 			"components": [
-				{
-					"V": true
-				}
+				["V"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12111,9 +12106,7 @@
 			"level": 0,
 			"school": "D",
 			"components": [
-				{
-					"V": true
-				}
+				["V"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12147,10 +12140,7 @@
 			"level": 0,
 			"school": "D",
 			"components": [
-				{
-					"S": true,
-					"V": true
-				}
+				["V", "S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12178,10 +12168,7 @@
 			"level": 0,
 			"school": "E",
 			"components": [
-				{
-					"S": true,
-					"V": true
-				}
+				["V", "S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12233,10 +12220,7 @@
 			"level": 0,
 			"school": "E",
 			"components": [
-				{
-					"S": true,
-					"V": true
-				}
+				["V", "S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12285,10 +12269,7 @@
 			"school": "T",
 			"focus": true,
 			"components": [
-				{
-					"S": true,
-					"V": true
-				}
+				["V", "S"]
 			],
 			"heightened": {
 				"x": [
@@ -12369,9 +12350,7 @@
 			"school": "V",
 			"focus": true,
 			"components": [
-				{
-					"V": true
-				}
+				["V", "S"]
 			],
 			"heightened": {},
 			"traits": [
@@ -12414,9 +12393,7 @@
 			"school": "V",
 			"focus": true,
 			"components": [
-				{
-					"V": true
-				}
+				["V"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12460,9 +12437,7 @@
 			"school": "T",
 			"focus": true,
 			"components": [
-				{
-					"S": true
-				}
+				["S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12495,9 +12470,7 @@
 			"school": "V",
 			"focus": true,
 			"components": [
-				{
-					"S": true
-				}
+				["S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12578,9 +12551,8 @@
 			"school": "V",
 			"focus": true,
 			"components": [
-				{
-					"S": true
-				}
+				["S"]
+
 			],
 			"traits": [
 				"Uncommon",
@@ -12620,9 +12592,7 @@
 			"school": "A",
 			"focus": true,
 			"components": [
-				{
-					"S": true
-				}
+				["S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12656,10 +12626,7 @@
 			"school": "A",
 			"focus": true,
 			"components": [
-				{
-					"S": true,
-					"V": true
-				}
+				["V", "S"]
 			],
 			"traits": [
 				"Uncommon",
@@ -12691,11 +12658,7 @@
 			"level": 7,
 			"school": "N",
 			"components": [
-				{
-					"M": true,
-					"S": true,
-					"V": true
-				}
+				["V", "S", "M"]
 			],
 			"traits": [
 				"Incarnate|PT:SoM",

@@ -89,12 +89,12 @@
 				"unit": "action"
 			},
 			"components": [
-				{
-					"F": false,
-					"M": true,
-					"S": true,
-					"V": true
-				}
+				[
+					"F",
+					"M",
+					"S",
+					"V"
+				]
 			],
 			"range": {
 				"entry": "60 feet",
@@ -148,9 +148,9 @@
 				"unit": "action"
 			},
 			"components": [
-				{
-					"V": true
-				}
+				[
+					"V"
+				]
 			],
 			"savingThrowBasic": false,
 			"duration": {},
@@ -170,11 +170,11 @@
 			],
 			"school": "C",
 			"components": [
-				{
-					"M": true,
-					"S": true,
-					"V": true
-				}
+				[
+					"M",
+					"S",
+					"V"
+				]
 			],
 			"traits": [
 				"Incarnate",
@@ -236,9 +236,7 @@
 			],
 			"school": "E",
 			"components": [
-				{
-					"V": true
-				}
+				["V"]
 			],
 			"traits": [
 				"Enchantment",
