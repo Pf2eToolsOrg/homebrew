@@ -236,7 +236,9 @@
 			],
 			"school": "E",
 			"components": [
-				["V"]
+				[
+					"V"
+				]
 			],
 			"traits": [
 				"Enchantment",
