@@ -57,7 +57,7 @@
 				"json": "PT:Kin",
 				"abbreviation": "PT:Kin",
 				"full": "Kineticist Playtest",
-				"url": "https://paizo-images.s3-us-west-2.amazonaws.com/image/download/PZO2113_KineticistClassPlaytest.pdf",
+				"url": "https://downloads.paizo.com/PZO2113_KineticistClassPlaytest.pdf",
 				"authors": [
 					"Paizo"
 				],
@@ -14150,7 +14150,7 @@
 	],
 	"table": [
 		{
-			"name": "KINETICIST ELEMENTAL BLASTS",
+			"name": "Kineticist Elemental Blasts",
 			"id": "1-2",
 			"source": "PT:Kin",
 			"page": 6,
