@@ -48,14 +48,65 @@
 				"authors": [
 					"Paizo"
 				],
-				"convertedBy": [],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"version": "0.0.1"
+			},
+			{
+				"json": "PT:Kin",
+				"abbreviation": "PT:Kin",
+				"full": "Kineticist Playtest",
+				"url": "https://paizo-images.s3-us-west-2.amazonaws.com/image/download/PZO2113_KineticistClassPlaytest.pdf",
+				"authors": [
+					"Paizo"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
 				"version": "0.0.1"
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1657466921
+		"dateLastModified": 1659982108
 	},
 	"subclass": [
+		{
+			"name": "Universal Gate",
+			"type": "Gate",
+			"shortName": "Universal",
+			"source": "PT:Kin",
+			"page": 4,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"subclassFeatures": [
+				"Inner Gate and Channeled Elements|Kineticist|PT:Kin|Universal|PT:Kin|1"
+			]
+		},
+		{
+			"name": "Dual Gate",
+			"type": "Gate",
+			"shortName": "Dual",
+			"source": "PT:Kin",
+			"page": 4,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"subclassFeatures": [
+				"Inner Gate and Channeled Elements|Kineticist|PT:Kin|Dual|PT:Kin|1"
+			]
+		},
+		{
+			"name": "Dedicated Gate",
+			"type": "Gate",
+			"shortName": "Dedicated",
+			"source": "PT:Kin",
+			"page": 4,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"subclassFeatures": [
+				"Inner Gate and Channeled Elements|Kineticist|PT:Kin|Dedicated|PT:Kin|1"
+			]
+		},
 		{
 			"name": "Weapon",
 			"type": "Implement",
@@ -308,6 +359,209 @@
 		}
 	],
 	"class": [
+		{
+			"name": "Kineticist",
+			"source": "PT:Kin",
+			"page": 3,
+			"hp": 8,
+			"summary": {
+				"text": "The power of the elements flows from within you. Roaring fire, pure water, fleeting air, steadfast earth. An inner gate inextricably tied to your body channels power directly from the elemental planes, causing elements to leap to your hand, whirl around your body, and blast foes at your whim. As your connection to the planes grows, you attain true mastery over your chosen elements.",
+				"images": [],
+				"keyAbility": "Constitution"
+			},
+			"keyAbility": "Constitution",
+			"initialProficiencies": {
+				"perception": "T",
+				"fort": "E",
+				"ref": "E",
+				"will": "T",
+				"skills": {
+					"t": [
+						"Nature"
+					],
+					"add": 3
+				},
+				"attacks": {
+					"t": [
+						"simple weapons",
+						"unarmed attacks"
+					]
+				},
+				"defenses": {
+					"t": [
+						"light armor",
+						"unarmored defense"
+					]
+				},
+				"classDc": {
+					"entry": "Trained in kineticist class DC",
+					"prof": "T"
+				}
+			},
+			"advancement": {
+				"classFeats": [
+					1,
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"skillFeats": [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				],
+				"generalFeats": [
+					3,
+					7,
+					11,
+					15,
+					19
+				],
+				"ancestryFeats": [
+					5,
+					9,
+					13,
+					17
+				],
+				"skillIncrease": [
+					3,
+					5,
+					7,
+					9,
+					11,
+					13,
+					15,
+					17,
+					19
+				],
+				"abilityBoosts": [
+					5,
+					10,
+					15,
+					20
+				]
+			},
+			"classFeatures": [
+				"Ancestry and Background|Kineticist|PT:Kin|1",
+				"Initial Proficiencies|Kineticist|PT:Kin|1",
+				{
+					"classFeature": "Inner Gate and Channeled Elements|Kineticist|PT:Kin|1",
+					"gainSubclassFeature": true
+				},
+				"Gather Element|Kineticist|PT:Kin|1",
+				"Elemental Impulses|Kineticist|PT:Kin|1",
+				"Adapt Element|Kineticist|PT:Kin|1",
+				"Kineticist Feats|Kineticist|PT:Kin|1",
+				"Skill Feats|Kineticist|PT:Kin|2",
+				"Elemental Resistance|Kineticist|PT:Kin|3",
+				"Extract Element|Kineticist|PT:Kin|3",
+				"General Feats|Kineticist|PT:Kin|3",
+				"Iron Will|Kineticist|PT:Kin|3",
+				"Skill Increases|Kineticist|PT:Kin|3",
+				"Ability Boosts|Kineticist|PT:Kin|5",
+				"Ancestry Feats|Kineticist|PT:Kin|5",
+				"Critical Element|Kineticist|PT:Kin|5",
+				"Adapt Terrain|Kineticist|PT:Kin|7",
+				"Blast Expertise|Kineticist|PT:Kin|7",
+				"Juggernaut|Kineticist|PT:Kin|7",
+				"Weapon Specialization|Kineticist|PT:Kin|7",
+				"Alertness|Kineticist|PT:Kin|9",
+				"Elemental Expertise|Kineticist|PT:Kin|9",
+				"Elemental Flexibility|Kineticist|PT:Kin|9",
+				"Evasion|Kineticist|PT:Kin|11",
+				"Pure Adaptation|Kineticist|PT:Kin|11",
+				"Blast Mastery|Kineticist|PT:Kin|13",
+				"Light Armor Expertise|Kineticist|PT:Kin|13",
+				"Greater Juggernaut|Kineticist|PT:Kin|15",
+				"Greater Weapon Specialization|Kineticist|PT:Kin|15",
+				"Improved Elemental Flexibility|Kineticist|PT:Kin|15",
+				"Elemental Immunity|Kineticist|PT:Kin|17",
+				"Elemental Mastery|Kineticist|PT:Kin|17",
+				"Light Armor Mastery|Kineticist|PT:Kin|19",
+				"Final Gate|Kineticist|PT:Kin|19"
+			],
+			"flavor": [
+				"The power of the elements flows from within you. Roaring fire, pure water, fleeting air, steadfast earth. An inner gate inextricably tied to your body channels power directly from the elemental planes, causing elements to leap to your hand, whirl around your body, and blast foes at your whim. As your connection to the planes grows, you attain true mastery over your chosen elements."
+			],
+			"fluff": [
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "During Combat Encounters...",
+					"entries": [
+						"Elemental magic surges from you without limit. Without any restrictions on how often you can use your abilities, you become a reliable slinger of magic. You can develop powers you can use in a variety of situations... or you can choose just a few favorite attacks you use repeatedly."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "During social encounters...",
+					"entries": [
+						"The elements you channel might guide or even influence how you carry yourself in social situations. You might leap to anger like a raging fire, stand your ground as solid as a mountain, keep your motives elusive as the wind, or go with the flow like water."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "While exploring...",
+					"entries": [
+						"Your innate connection to the elements hones your awareness of the natural world. In an environment full of an element you can channel, you're unparalleled, with the ability to repeatedly manipulate the element around you."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "In downtime...",
+					"entries": [
+						"You could commune with the elements or practice your control over your kineticist powers. Through retraining, you can realign the flow of your inner gate to perfect different manifestations of your element."
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "You Might...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Have a conflicted relationship with the inner gate that fuels your kineticist magic, possibly because it manifested at a traumatic point in your past.",
+								"Struggle with controlling and understanding your elemental powers.",
+								"Form a kinship with elemental creatures or feel at home in areas strong with your element."
+							]
+						}
+					]
+				},
+				{
+					"type": "pf2-h3",
+					"page": 3,
+					"name": "Others Probably...",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Find your ability to keep calling on more and more elemental power truly astonishing.",
+								"Defer to you in all matters related to your element, from the smallest tasks to the politics of the elemental planes.",
+								"Worry you will consume yourself with elemental magic, or lose control of its primal forces."
+							]
+						}
+					]
+				}
+			]
+		},
 		{
 			"name": "Thaumaturge",
 			"source": "PT:DA",
@@ -1560,6 +1814,117 @@
 	],
 	"action": [
 		{
+			"name": "Extract Element",
+			"source": "PT:Kin",
+			"page": 6,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"traits": [
+			"kineticist|PT:Kin",
+				"manipulate",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"You tug directly on the elemental nature of a creature to weaken it and take its power for your own. Choose an element you can channel and target a creature within 30 feet that has a trait matching that element or otherwise has that elemental nature (page 8). The creature must attempt a Fortitude save against your class DC or take 2d4 damage as you steal the elemental essence from its body, as well as the following effects.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The creature is unaffected and you fail to steal its element."
+						],
+						"Success": [
+							"The creature takes half damage and you Gather the Element you chose. This element is tied directly to the material essence of the creature, so any kineticist abilities you use with that specific mass of gathered element can affect the target even if it would normally be immune, and the target also takes a \u20131 circumstance penalty to its saves and AC against it. If the target normally has a resistance that would apply against one of your impulses, ignore that resistance; if it normally would be immune, it instead has resistance equal to its level to damage from the impulse. All these effects last only as long as you have the element you gathered from the creature."
+						],
+						"Failure": [
+							"As success, but the creature takes full damage."
+						],
+						"Critical Failure": [
+							"As failure, but the creature takes double damage."
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Adapt Element",
+			"source": "PT:Kin",
+			"page": 6,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"traits": [
+				"concentrate",
+				"evocation",
+			"kineticist|PT:Kin",
+				"manipulate",
+				"primal"
+			],
+			"requirements": "You have a hand free.",
+			"entries": [
+				"It's trivial for you to tinker with any of the elements you command. Choose a non-magical portion of an element you can channel that's within 10 feet of you. It must be either unattended or attended by a willing creature, of negligible Bulk, and no larger than can fit in the palm of a human hand\u2014 such as a small rock, a torch flame, or a twig. The portion must be loose to be altered\u2014you couldn't move a small stone that was mortared into a wall, for example. If you have a gathered element, you can choose that portion of element. Choose one of the following options allowed for that element, though the GM might allow you to make similar small alterations. {@action Adapt Element|PT:Kin} can't deal damage or cause adverse conditions unless otherwise noted.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Gather} (any element) You Gather the Element, drawing it from the environment instead of from your inner gate.",
+						"{@b Move} (any element) You move the portion 1 foot in any direction.",
+						"{@b Regulate} ({@trait air}, {@trait fire}, {@trait water}) You change the temperature of the element, making it colder or warmer. This can snuff out a flame or turn water to ice or steam. After this change, the element cools or warms naturally, though you can keep regulating to maintain the chosen temperature. An item that gets hot enough (as determined by the GM) can be used as an improvised weapon that deals 1 fire damage in addition to the damage the GM determines for the improvised weapon.",
+						"{@b Sculpt} ({@trait earth}) You reshape the portion into a small object. It looks crude and artificial and is extremely fragile\u2014it can't be used as a tool, weapon, or spell component.",
+						"{@b Sustain} ({@trait air}, {@trait water}) Choose a creature within 10 feet that can breathe the element. You transfer that element to the creature, allowing it to breathe until the start of your next turn if it couldn't otherwise."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gather Element",
+			"source": "PT:Kin",
+			"page": 5,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"conjuration",
+			"kineticist|PT:Kin",
+				"manipulate",
+				"primal"
+			],
+			"requirements": "You have a hand free.",
+			"entries": [
+				"You draw forth elemental matter through your inner gate from one of the six planes. Choose one element you can channel. A mass of that element appears in your open hand. Your hand is occupied by the element you've channeled, and you can't use it for anything other than elemental impulse abilities to shape and direct the gathered element. You can use the Release basic action to cause the element to dissipate. Using an action that has the overflow trait (page 4) also causes the element to dissipate. You can have only one element gathered at a time, and Gathering an Element again causes any element you've already gathered to dissipate.",
+				"The element is in a pure form with its typical physical properties. For example, gathered air ruffles your clothes and hair, fire sheds light like a torch, and water is fresh and drinkable. You can Gather an Element, hold it, and use it even in environments where this normally wouldn't be possible. For example, you could gather fire while underwater and use it to fuel fire impulses, even though normally fire actions can't be used underwater, or gather air and use it for air impulses in a vacuum.",
+				"The {@action Gather Element|PT:Kin} action gains the trait of the element you gather."
+			]
+		},
+		{
+			"name": "Elemental Blast",
+			"source": "PT:Kin",
+			"page": 5,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"traits": [
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"With a wave of your hand, you swing or hurl elemental matter at a foe. Make a melee or ranged {@action Strike} using your gathered element. The damage die, damage type, and the traits for both the melee and ranged version of each elemental blast are listed in Table 1\u20132 on page 6. If you make a melee {@action Strike}, you add your Strength modifier to the damage as normal, as the element is more intense when physically closer to your inner gate.",
+				"Though it's not actually an unarmed attack, an elemental blast uses your proficiency with unarmed attacks, gets any bonuses and penalties that apply to unarmed attacks, and uses weapon damage dice and weapon traits in the same way an unarmed attack does. The blast can benefit from runes granted by handwraps of mighty blows. If you have weapon specialization, the blast gains extra damage as if it were an unarmed attack. Elemental blasts have unique critical specializations; if you gain critical specialization in an elemental blast, its effects are listed under critical element (page 7).",
+				{
+					"type": "data",
+					"tag": "table",
+					"name": "KINETICIST ELEMENTAL BLASTS",
+					"source": "PT:Kin"
+				}
+			]
+		},
+		{
 			"name": "Esoteric Antithesis",
 			"activity": {
 				"number": 1,
@@ -2005,6 +2370,450 @@
 		}
 	],
 	"classFeature": [
+		{
+			"name": "Ancestry and Background",
+			"source": "PT:Kin",
+			"page": 4,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"In addition to what you get from your class at 1st level, you have the benefits of your selected ancestry and background."
+			]
+		},
+		{
+			"name": "Initial Proficiencies",
+			"source": "PT:Kin",
+			"page": 4,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class."
+			]
+		},
+		{
+			"name": "Inner Gate and Channeled Elements",
+			"source": "PT:Kin",
+			"page": 4,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"As a kineticist you've awakened or opened a supernatural conduit within your own body that can channel elemental forces straight from the Elemental Planes. Choose whether this inner gate is a dedicated gate, connecting to a single Elemental Plane; a dual gate, connecting to two; or a universal gate, connecting to all. This determines how many different elements you can channel and how many bonus impulse feats\u2014a special kind of kineticist feat that allows you to shape and wield an element\u2014you select at 1st level.",
+				"When selecting an element for your inner gate, you can pick from four elements\u2014air, earth, fire, and water\u2014 which are described in full starting on page 13."
+			]
+		},
+		{
+			"name": "Elemental Impulses",
+			"source": "PT:Kin",
+			"page": 5,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"An impulse is a special type of magical action available to kineticists, allowing them to wield or shape their element into diverse and powerful forms. You can select an impulse feat only if you can channel its element. To wield an element using an impulse you must have Gathered that Element; for example, to use an impulse that has the fire trait, you must first have gathered fire. An impulse without an elemental trait can be used with any Gathered Element, though it might have different effects depending on what element you use it with.",
+				"Your inner gate selection gives you one or more bonus impulse feats, and you select more with your class feat selections. While there are many ways to shape the elements, all kineticists can simply blast their opponents with elemental fury.",
+				{
+					"type": "data",
+					"tag": "action",
+					"name": "Elemental Blast",
+					"source": "PT:Kin"
+				},
+				"Impulses are magical, but they aren't spells. However, abilities that restrict you from casting spells (such as being polymorphed into a battle form) or protect against spells (such as globe of invulnerability or a creature's bonus to saves against spells) also apply to impulses. Any impulse you use is your level, even if the feat or impulse's level is lower than yours. For instance, if you were 5th level, your {@action Elemental Blast|PT:Kin} would be 5th level (and its counteract level would be 3rd level), even though you gained the action at 1st level. Similarly to spells, many impulses get more powerful as you go up in level. In these cases, the impulse ends with a \"Level\" entry. This either lists the levels at which the impulse gets an upgrade, or has an entry with a plus sign that describes a benefit that increases on a regular basis. For instance, a 1st-level impulse with a \"{@b Level (+3)}\" entry would get stronger at 4th, 7th, 10th, 13th, 16th, and 19th levels. Some impulses can be sustained, as the Sustain a Spell action (Core Rulebook 304)."
+			]
+		},
+		{
+			"name": "Skill Increases",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase to either become trained in one skill you're untrained in, or become an expert in one skill in which you're already trained.",
+				"At 7th level, you can use skill increases to become a master in a skill in which you're already an expert, and at 15th level, you can use them to become legendary in a skill in which you're already a master."
+			]
+		},
+		{
+			"name": "Final Gate",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 19,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your inner gate reaches a perfect form, its power constantly fighting to be released. You're permanently quickened. You can use the extra action only to Gather an Element."
+			]
+		},
+		{
+			"name": "Light Armor Mastery",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 19,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your skill with light armor improves, increasing your ability to dodge blows. Your proficiency ranks for light armor and unarmored defense increase to master."
+			]
+		},
+		{
+			"name": "Elemental Mastery",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 17,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"The power flowing from you is even harder to resist. Your proficiency rank for your kineticist class DC increases to master."
+			]
+		},
+		{
+			"name": "Elemental Immunity",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 17,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your elemental resistance becomes full immunity. While you have an element gathered, you're immune to effects with that trait; you can voluntarily allow them to affect you."
+			]
+		},
+		{
+			"name": "Improved Elemental Flexibility",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 15,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your inner gate becomes even more adaptable. When you use elemental flexibility, you can gain two elemental impulse feats instead of one. While the first feat must still be 8th level or lower, the second feat can be up to 14th level, and you can use the first feat to meet the prerequisites of the second feat. You must meet all of the feats' prerequisites."
+			]
+		},
+		{
+			"name": "Greater Weapon Specialization",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 15,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary."
+			]
+		},
+		{
+			"name": "Greater Juggernaut",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 15,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You have a stalwart physiology. Your proficiency rank for Fortitude saves increases to legendary. When you roll a critical failure on a Fortitude save, you get a failure instead. When you fail a Fortitude save against an effect that deals damage, you halve the damage you take."
+			]
+		},
+		{
+			"name": "Light Armor Expertise",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 13,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert."
+			]
+		},
+		{
+			"name": "Blast Mastery",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 13,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You aim your elemental blasts with incredible accuracy, harnessing their intense power. Your proficiency ranks for simple weapons and unarmed attacks increase to master."
+			]
+		},
+		{
+			"name": "Pure Adaptation",
+			"source": "PT:Kin",
+			"page": 8,
+			"level": 11,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your inner gate can now filter elements around you, bringing them closer to their true form. You can use {@action Adapt Element|PT:Kin} on a portion of element within 60 feet of you and of 1 Bulk or lower. Add the following option to your {@action Adapt Element|PT:Kin} action.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Purify} (any element) You turn the element into the purest form of itself. For instance, you can remove pollutants from air or water or expel plants from soil. This can't change the grade of a material, alter the form of a manufactured object, or change the structural integrity of the element. If the purification would remove an alchemical or magical pollutant (such as a poison or curse), {@action Adapt Element|PT:Kin} attempts to counteract that impurity, using your class DC \u2014 10 for the counteract check. If it fails to counteract a particular impurity, any further attempt you make to purify it fails as well."
+					]
+				}
+			]
+		},
+		{
+			"name": "Evasion",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 11,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You've learned to move quickly to avoid explosions, a dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Elemental Flexibility",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 9,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You can look within to alter the magic you can bring through your internal gate. When you make your daily preparations, you gain one elemental impulse feat of 8th level or lower that you don't already have. You can use that feat until your next daily preparations. You must meet all of the feat's other prerequisites, including the ability to channel its element if necessary."
+			]
+		},
+		{
+			"name": "Elemental Expertise",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 9,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your inner gate grows stronger, making your elements harder to resist. Your proficiency rank for your kineticist class DC increases to expert."
+			]
+		},
+		{
+			"name": "Alertness",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 9,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You remain alert to threats around you. Your proficiency rank for Perception increases to expert."
+			]
+		},
+		{
+			"name": "Weapon Specialization",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 7,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You've learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you're an expert. This damage increases to 3 if you're a master, and 4 if you're legendary."
+			]
+		},
+		{
+			"name": "Juggernaut",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 7,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your body is accustomed to physical hardship and resistant to ailments. Your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude save, you get a critical success instead."
+			]
+		},
+		{
+			"name": "Blast Expertise",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 7,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You've dedicated yourself to learning the intricacies of your weapons and elemental blasts. Your proficiency ranks for simple weapons and unarmed attacks increase to expert."
+			]
+		},
+		{
+			"name": "Adapt Terrain",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 7,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"A growing connection to your inner gate lets you adapt an element with greater control and even create the element in limited quantities. You can use {@action Adapt Element|PT:Kin} on a portion of an element within 30 feet of you and of light Bulk or lower. Add the following option to your {@action Adapt Element|PT:Kin} action.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Proliferate} (any element) You cause the element to spread. If it's in an unoccupied square, it grows to fill that square. This might cause that square to become difficult terrain or hazardous terrain, as determined by the GM. Hazardous terrain you create this way deals damage equal to half your level. You can also use proliferate to spread an element that already fills a square into another square (whether the element filled the original square naturally or due to you using this ability previously). After you proliferate an element, it reacts to the environment naturally\u2014water you proliferated into thin air would splash back down, for example, and if you ran the water from a pool onto dry land it could form mud or a new channel in the soil, and would evaporate normally over time."
+					]
+				}
+			]
+		},
+		{
+			"name": "Critical Element",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 5,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"A critical hit with your element truly exemplifies the fury of the Elemental Planes. You gain access to the critical specialization effects for {@action Elemental Blasts|PT:Kin} with one element you choose when you gain this class feature.",
+				{
+					"type": "pf2-options",
+					"style": "pf2-p",
+					"items": [
+						{
+							"name": "Air",
+							"entries": [
+								"Stray gales move the target 5 feet in a direction of your choice. This is forced movement."
+							]
+						},
+						{
+							"name": "Earth",
+							"entries": [
+								"The earth calls your target to it: if the target is on the ground, it's knocked prone; if it's not on the ground, it descends up to 20 feet (you choose the distance)"
+							]
+						},
+						{
+							"name": "Fire",
+							"entries": [
+								"Flames leap hungrily at your target, dealing 1d6 persistent fire damage. You gain an item bonus to this fire damage equal to the blast's item bonus to attack rolls."
+							]
+						},
+						{
+							"name": "Water",
+							"entries": [
+								"Water sprays violently, dealing splash damage equal to the number of weapon damage dice of the blast, of the same damage type."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Ancestry Feats",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 5,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"In addition to the ancestry feat you started with, you gain an ancestry feat at 5th level and every 4 levels thereafter."
+			]
+		},
+		{
+			"name": "Ability Boosts",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 5,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it's already 18 or above, or by 2 if it starts out below 18."
+			]
+		},
+		{
+			"name": "Iron Will",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Your mental defenses are an iron fortress. Your proficiency rank for Will saves increases to expert."
+			]
+		},
+		{
+			"name": "General Feats",
+			"source": "PT:Kin",
+			"page": 7,
+			"level": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"At 3rd level and every 4 levels thereafter, you gain a general feat."
+			]
+		},
+		{
+			"name": "Kineticist Feats",
+			"source": "PT:Kin",
+			"page": 6,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"At 1st level and every even-numbered level, you gain a kineticist class feat."
+			]
+		},
+		{
+			"name": "Extract Element",
+			"source": "PT:Kin",
+			"page": 6,
+			"level": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"Creatures with a strong tie to your element might be troublesome for you to deal with, at least until you've learned to turn their elemental nature to your advantage. You gain the Extract Element action.",
+				{
+					"type": "data",
+					"tag": "action",
+					"name": "Extract Element",
+					"source": "PT:Kin"
+				}
+			]
+		},
+		{
+			"name": "Elemental Resistance",
+			"source": "PT:Kin",
+			"page": 6,
+			"level": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"When you're connected to an Elemental Plane, you're protected from that element. While you have an element gathered, you gain resistance equal to your level to damage from a source that has that trait. For example, if you had water gathered, you would gain resistance to a Strike from a water elemental or damage from a hydraulic push spell."
+			]
+		},
+		{
+			"name": "Skill Feats",
+			"source": "PT:Kin",
+			"page": 6,
+			"level": 2,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"At 2nd level and every 2 levels thereafter, you gain a skill feat. You must be trained or better in the corresponding skill to select a skill feat."
+			]
+		},
+		{
+			"name": "Adapt Element",
+			"source": "PT:Kin",
+			"page": 6,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"The {@action Adapt Element|PT:Kin} action lets you perform simple alterations to an element.",
+				{
+					"type": "data",
+					"tag": "action",
+					"name": "Adapt Element",
+					"source": "PT:Kin"
+				}
+			]
+		},
+		{
+			"name": "Gather Element",
+			"source": "PT:Kin",
+			"page": 5,
+			"level": 1,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"entries": [
+				"You can draw matter through your inner gate using the {@action Gather Element|PT:Kin} action, giving you pure elemental fuel for your kineticist magic. The form of the gathered element depends on the individual kineticist, but some examples include a chaotic wind orbiting the body, a rotating ball of compressed gravel, a flickering flame, or a swirling globe of water. The way the element occupies your hand can also vary; you might simply hold the element, or you might make swirling gestures with the hand to make the element orbit your body.",
+				{
+					"type": "data",
+					"tag": "action",
+					"name": "Gather Element",
+					"source": "PT:Kin"
+				}
+			]
+		},
 		{
 			"name": "Ancestry and Background",
 			"source": "PT:DA",
@@ -5211,6 +6020,63 @@
 	],
 	"subclassFeature": [
 		{
+			"name": "Inner Gate and Channeled Elements",
+			"source": "PT:Kin",
+			"page": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"subclassShortName": "Universal",
+			"subclassSource": "PT:Kin",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Universal Gate",
+					"entries": [
+						"Your gate accesses all the Elemental Planes, allowing you access to a huge array of elements but limiting your total practice with any one force. You can channel all four elements. When you make your daily preparations, you gain one 1st-level impulse feat, which you can use until your next daily preparations. You must meet all of the feat's other prerequisites."
+					]
+				}
+			]
+		},
+		{
+			"name": "Inner Gate and Channeled Elements",
+			"source": "PT:Kin",
+			"page": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"subclassShortName": "Dual",
+			"subclassSource": "PT:Kin",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Dual Gate",
+					"entries": [
+						"Your inner gate is a harmonious conduit between two planes, allowing you to combine their elements. Select two elements. You can channel these elements, and you also gain two 1st-level impulse feats, one with the trait of the first element and one with the trait of the other."
+					]
+				}
+			]
+		},
+		{
+			"name": "Inner Gate and Channeled Elements",
+			"source": "PT:Kin",
+			"page": 3,
+			"className": "Kineticist",
+			"classSource": "PT:Kin",
+			"subclassShortName": "Dedicated",
+			"subclassSource": "PT:Kin",
+			"level": 1,
+			"entries": [
+				{
+					"type": "pf2-h4",
+					"name": "Dedicated Gate",
+					"entries": [
+						"Your inner gate is a dedicated channel to a single elemental plane, limiting you to a single element but giving you great skill with it. Select one element. You can channel this element, and you gain three 1st-level impulse feats that match the element's trait. "
+					]
+				}
+			]
+		},
+		{
 			"name": "Implement Mastery",
 			"source": "PT:DA",
 			"page": 22,
@@ -6882,6 +7748,2013 @@
 		}
 	],
 	"feat": [
+		{
+			"name": "Elemental Familiar",
+			"source": "PT:Kin",
+			"page": 9,
+			"level": 1,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"A small creature made of elemental matter springs forth from your inner gate. This elemental familiar appears to be a small creature made of an element you can channel, though it might have some unusual or distinguishing aspects. Like other familiars, your elemental familiar can assist you in various tasks and on adventures. The familiar has the {@trait elemental} trait instead of the {@trait animal} trait, as well as the trait of one element you can channel. If you can channel more than one element, you choose the trait when you select this feat, and you can change it each time you make your daily preparations. The elemental familiar is immune to bleed, {@condition paralyzed}, poison, sleep, and the element matching its trait. The familiar uses your Constitution modifier to determine its {@skill Perception}, {@skill Acrobatics}, and {@skill Stealth} modifiers (see Familiars on page 217 of the Core Rulebook for more information)."
+			]
+		},
+		{
+			"name": "Elemental Weapon",
+			"source": "PT:Kin",
+			"page": 9,
+			"level": 1,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"You can shape the elemental matter or energy that comes from your inner gate into a deadly weapon. When you Gather an Element, you can shape that element into the form of a weapon you wield in the hand you used to gather. When you select this feat, choose one element you can channel and one type of weapon, which is the form and substance the weapon takes when you channel it. The weapon must be a onehanded simple or martial weapon. It must be common, or you must otherwise have access to it. The weapon's damage type changes to match the type of the chosen element's elemental blast, and it can't be changed using the {@trait versatile} trait, {@trait modular} trait, or similar methods. Strikes with the elemental weapon use your proficiency with {@action Elemental Blasts|PT:Kin}. You can change your selections with 1 day of retraining.",
+				"The weapon is still the gathered element and can be used for impulses, is expended for overflow impulses, and so on. It can also be used for {@action Elemental Blasts|PT:Kin} or standard Strikes (provided they're melee blasts or Strikes if you choose a melee weapon or ranged blasts or Strikes if you choose a ranged weapon). If the weapon leaves your hand, such as with a thrown weapon, the element is expended. If you choose a ranged weapon that uses ammunition, you must still reload the weapon using the normal number of actions, though the only type of ammunition you can use with the weapon is elemental ammunition forged in your inner gate."
+			],
+			"special": [
+				"You can choose this feat again. If you do, you can choose a new weapon you can create when you {@action Gather Element|PT:Kin}. If you can channel more than one element, you can choose a different element for this new weapon."
+			]
+		},
+		{
+			"name": "Flexible Blasts",
+			"source": "PT:Kin",
+			"page": 9,
+			"level": 1,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"Whatever your physical prowess is you can adapt your blasts to suit it. You can give any melee {@action Elemental Blast|PT:Kin} you make the {@trait finesse} trait (allowing you to use Dexterity for its attack roll), and you can give any ranged {@action Elemental Blast|PT:Kin} you make the {@trait brutal} trait (allowing you to use Strength for its attack roll)."
+			]
+		},
+		{
+			"name": "Kinetic Activation",
+			"source": "PT:Kin",
+			"page": 9,
+			"level": 2,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"Rather than incantations and gestures, you can use your inner gate to directly unlock the potential of elementally empowered magic items. You can Activate magic items that require you to be able to {@action Cast a Spell}, provided you activate them to {@action Cast a Spell} with the same elemental nature as an element you can channel; for example, if you can channel fire, you could Activate a scroll of fireball."
+			]
+		},
+		{
+			"name": "Voice of Elements",
+			"source": "PT:Kin",
+			"page": 10,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 2,
+			"traits": [
+				"divination",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You can speak with the secret tones of elements you channel, finding words in the crackle of flame, the grinding of stone. You get three benefits related to the element you have gathered, all of which last as long as that gathered element remains.",
+				{
+					"type": "list",
+					"items": [
+						"You can speak the language corresponding to the element: Auran for air, Terran for earth, Ignan for fire, or Aquan for water.",
+						"You can also communicate with mindless elementals on a basic level if their elemental nature matches the element. This allows you to use {@skill Diplomacy} to {@action Make an Impression} on them and to make very simple Requests.",
+						"You gain a +2 circumstance bonus to Charisma-based skill checks you attempt against elementals of the element."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blast Barrage",
+			"source": "PT:Kin",
+			"page": 10,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"You rapid-fire pieces of your element, hurling them at your many foes. Make up to three {@action Elemental Blasts|PT:Kin}, each against a different target. Your multiple attack penalty applies normally on these Strikes."
+			]
+		},
+		{
+			"name": "Command Elemental",
+			"source": "PT:Kin",
+			"page": 10,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"enchantment",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You grasp the animating force within an elemental creature and bend it to your will. Choose a creature within 30 feet that has the {@trait elemental} trait as well as the trait matching the element you have gathered. The elemental becomes {@condition controlled} by you if its level is equal to or lower than your level \u2014 3, or {@condition slowed||slowed 1} for as long as you Sustain the effect if it's level is equal to your level \u2014 2 or higher. It can attempt a Will saving throw against your class DC to resist being {@condition controlled} by you or to end the {@condition slowed} effect. If the target is already under someone else's command, it can't be {@condition slowed} by this ability, and the controlling creature also rolls a saving throw, with the elemental using the better result.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The target is unaffected and is temporarily immune for 24 hours."
+						],
+						"Success": [
+							"The target is unaffected."
+						],
+						"Failure": [
+							"The elemental creature is {@condition controlled} or {@condition slowed} as long as you Sustain the impulse, up to 1 minute. This effect ends if you or an ally attacks the elemental."
+						],
+						"Critical Failure": [
+							"As failure, but you can Sustain the impulse up to 1 hour."
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Cycling Blast",
+			"source": "PT:Kin",
+			"page": 10,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "dual gate or universal gate",
+			"entries": [
+				"Two elements dance in quick succession. In either order, you can make an {@action Elemental Blast|PT:Kin} and Gather an Element; you must gather a different element than the one you currently have gathered."
+			]
+		},
+		{
+			"name": "Stoke Element",
+			"source": "PT:Kin",
+			"page": 10,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"prerequisites": "dedicated gate",
+			"entries": [
+				"You feed more elemental power into the element you've gathered, causing it to grow more potent. You can't use another impulse this turn, but the first time you use one on your next turn that has a damage roll, you gain a +2 status bonus to the damage, or a +4 status bonus if the impulse has the overflow trait. This bonus applies only to the initial damage roll, not to any from ongoing effects of the impulse.",
+				"This benefit is lost if not used by the end of your next turn, or if you gather a different element.",
+				{
+					"type": "affliction",
+					"level": 18,
+					"notes": [
+						"The bonus is +5 (or +10 for an overflow impulse)."
+					],
+					"stages": []
+				}
+			]
+		},
+		{
+			"name": "Aura Shaping",
+			"source": "PT:Kin",
+			"page": 11,
+			"level": 8,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "at least one kinetic aura impulse",
+			"entries": [
+				"You exercise fine control over the shape and size of your kinetic aura. When you use a kinetic aura impulse, you can choose to make the aura a 15-foot emanation or 20-foot emanation.",
+				"Furthermore, you can designate a number of creatures equal to your Constitution modifier (minimum 1). These creatures are either immune to the benefits of the kinetic aura or are immune to its damage and drawbacks. You must choose the same effect for all creatures you designate, though you can change the selection and the designated creatures each time you use a kinetic aura impulse.",
+				"At 12th level, add 25-foot emanation and 30-foot emanation to your options for the aura's size."
+			]
+		},
+		{
+			"name": "Chain Blasts",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 10,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"The elemental matter in your blast keeps reconstituting itself to travel onward, no matter how many bodies it collides with.",
+				"Make a ranged {@action Elemental Blast|PT:Kin} within the blast's first range increment. If it hits, attempt a new ranged {@action Elemental Blast|PT:Kin} from the target against a different creature that's within the first range increment of the creature that was hit, using the same multiple attack penalty as the first hit. You can keep chaining the blast in this way each time you hit, to a maximum of five total blasts. You can't target the same creature more than once per use of Chain Blasts. Each {@action Strike} counts toward your multiple attack penalty, but the penalty doesn't increase until after you've made all the Strikes."
+			]
+		},
+		{
+			"name": "Deconstruct Element",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"level": 10,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "dedicated gate",
+			"frequency": {
+				"freq": 1,
+				"interval": 10,
+				"unit": "minute"
+			},
+			"trigger": "You're targeted by an effect that has the trait matching the element you can channel.",
+			"entries": [
+				"Your absolute dedication to a single element lets you attempt to gain control over it, even when the element is in service of another. You attempt to counteract the effect. If you successfully counteract the effect and have a hand free, you can choose to catch some of the attack, allowing you to immediately Gather that Element as part of the reaction."
+			]
+		},
+		{
+			"name": "Fusion Blast",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 10,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "dual gate",
+			"requirements": "You have a free hand.",
+			"entries": [
+				"With one element in one hand, you pull some of your other element into the other, then combine the two in a complex blast. Make an {@action Elemental Blast|PT:Kin} and add the damage dice from your other element's blast to it. This uses the die size and damage type your other blast would normally deal, and its normal number of weapon damage dice (including any dice from striking runes). This doesn't add any damage other than the dice, nor does it add the other blast's traits. A Fusion Blast counts as two attacks for your multiple attack penalty. The {@action Elemental Blast|PT:Kin} gains the trait of the second element, but not any other traits of a blast with that element."
+			]
+		},
+		{
+			"name": "Gather Amalgamation",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 10,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "universal gate",
+			"entries": [
+				"Your inner gate briefly divides itself into four smaller channels, allowing you to gather a small bit of every element. You gather all four elements of air, earth, fire, and water, with the same effects and restrictions as {@action Gather Element|PT:Kin}, except your hand either holds an amalgamation of all four elements or directs them to orbit your body. Since the elemental amalgamation contains all four elements, you can use it for any impulse; however, the smaller amount of each individual element means using any impulse will cause that element to dissipate from the amalgamation, not just overflow impulses. For instance, you could use the Water Dance impulse and then launch an {@action Elemental Blast|PT:Kin} of air, which would cause water and air to dissipate, leaving you with an amalgamation of earth and fire you could use in another turn."
+			]
+		},
+		{
+			"name": "Rapid Reattunement",
+			"source": "PT:Kin",
+			"page": 11,
+			"level": 12,
+			"traits": [
+				"concentrate",
+				"exploration",
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "elemental flexibility",
+			"entries": [
+				"You spend 10 minutes realigning your elemental connections in an elemental trance. Swap out one feat you have due to elemental flexibility, replacing it with another eligible feat.",
+				"This feat still lasts until the next time you make your daily preparations."
+			]
+		},
+		{
+			"name": "Flowing Kinetics",
+			"source": "PT:Kin",
+			"page": 11,
+			"level": 14,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "ability to channel air, fire, or water",
+			"entries": [
+				"The loose and adaptable elements that flow through your inner gate let you move and adapt. When you use an impulse that has the air, {@trait fire}, or {@trait water} trait and that takes at least two actions, you can either {@action Step} or {@action Stride} up to half your Speed.",
+				"You can do this either before or after the other effects of the impulse. You can {@action Burrow}, {@action Climb}, {@action Fly}, or {@action Swim} up to half that Speed instead of Striding if you have the corresponding movement type.",
+				"12"
+			]
+		},
+		{
+			"name": "Steadfast Kinetics",
+			"source": "PT:Kin",
+			"page": 11,
+			"level": 14,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "ability to channel earth",
+			"entries": [
+				"The stability and strength felt when channeling a solid element leaves your body reinforced and ready to weather anything.",
+				"When you use an impulse that has the {@trait earth} trait and takes at least 2 actions, you gain a +1 status bonus to AC and Fortitude saves until the start of your next turn."
+			]
+		},
+		{
+			"name": "Effortless Impulse",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"level": 16,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"trigger": "Your turn begins.",
+			"entries": [
+				"A steady trickle from your inner gate maintains one of your impulses. You immediately gain the effects of the {@action Sustain a Spell} action, which you must use to extend the duration of one of your active elemental impulses."
+			]
+		},
+		{
+			"name": "Imperious Aura",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 1,
+				"unit": "free"
+			},
+			"level": 16,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "two kinetic aura impulses",
+			"trigger": "Your turn begins.",
+			"requirements": "You have a kinetic aura active.",
+			"entries": [
+				"Your glowing and majestic kinetic aura marks you as a true child of the elements. Change your kinetic aura by using a different kinetic aura impulse."
+			]
+		},
+		{
+			"name": "Maelstrom Blast",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 16,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin"
+			],
+			"entries": [
+				"You detonate your gathered element in truly staggering number of elemental blasts. Choose one: Make a melee {@action Elemental Blast|PT:Kin} against each enemy in the blast's melee reach, or make a ranged {@action Elemental Blast|PT:Kin} against each enemy in a cone with a length equal to the blast's first range increment. Each attack counts toward your multiple attack penalty, but you don't increase your penalty until you have made all your attacks."
+			]
+		},
+		{
+			"name": "Nourishing Gate",
+			"source": "PT:Kin",
+			"page": 11,
+			"level": 18,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"You can sustain yourself on a single drop of elemental dew or the slightest spark from the Plane of Fire. You gain a +2 status bonus to saving throws against poisons, sleep, and effects that would make you {@condition paralyzed}. You don't need to breathe, eat, or sleep, though you still must take a full night's rest every 24 hours to be able to make your daily preparations.",
+				"During this time, you remain awake and alert but must spend the time meditating or attuning to your inner gate rather than engaging in other complex activities. Each kineticist attunes in their own way."
+			]
+		},
+		{
+			"name": "Aerial Boomerang",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"air",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"A blade of shearing wind races away from you in a 60-foot line. Each creature in the area takes {@damage 2d4} slashing damage with a basic Reflex save against your class DC. In the final square of the line, the boomerang whirls in place. Any creature that ends its turn in that square has to save against the boomerang.",
+				"At the start of your next turn, the boomerang returns in a line from its square to your current location, with the same effect as the initial line. If the boomerang doesn't have line of effect to you at the time, it disperses instead.",
+				"{@b Level (+2)} The damage increases by {@dice 1d4}."
+			]
+		},
+		{
+			"name": "Air Cushion",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"level": 1,
+			"traits": [
+				"abjuration",
+				"air",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"trigger": "A creature within 60 feet is falling.",
+			"entries": [
+				"Gentle currents of air flow upward to slow the creature's fall.",
+				"The target's fall slows to 60 feet per round. The cushion ends when the target reaches the ground, and the creature takes no damage from the fall. The cushion expires if the creature doesn't reach the ground within 1 minute, but any distance it fell during that minute doesn't count for any damage the creature would take from the fall. You can't use Air Cushion again while you have one in effect.",
+				"{@b Level (8th)} The creature can be within 120 feet and there's no restriction on the number of Air Cushions you can create at a time."
+			]
+		},
+		{
+			"name": "Fair Winds",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"air",
+				"conjuration",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Winds swirling around you provide a tailwind to speed you and your allies and a headwind to harry your foes. Squares in the aura are difficult terrain for your enemies. You gain a +5-foot status bonus to your land Speed. Any of your allies that start their turn in the aura gain a +10-foot status bonus to their land Speeds until the end of their turn. These bonuses also apply to fly Speeds for creatures that have them."
+			]
+		},
+		{
+			"name": "Whisper on the Wind",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"air",
+				"auditory",
+				"illusion",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"linguistic",
+				"primal"
+			],
+			"entries": [
+				"Though you speak in a gentle whisper, a soft wind carries your words far away. This has the effect of the {@spell message} spell of half your level rounded up. If you start your message with the target's name, you and the target don't need to be able to see each other, nor do you need line of effect.",
+				"{@b Level (8th)} The range is 1 mile."
+			]
+		},
+		{
+			"name": "Flinging Updraft",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"air",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"A speeding wind heeds your call, picking someone up and depositing them nearby. Choose a creature within 60 feet of you. The target jumps up to 30 feet in any direction. If it doesn't land on a space of solid ground within 30 feet of where it started, it falls, but it doesn't take any damage from the fall. You choose the distance and direction of the jump. An unwilling target avoids being flung if it succeeds at a Reflex save against your class DC.",
+				"{@b Level (10th)} You can either make the target jump up to 60 feet or target up to five creatures in range."
+			]
+		},
+		{
+			"name": "Soothing Breeze",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"air",
+				"conjuration",
+				"healing",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"positive",
+				"primal"
+			],
+			"entries": [
+				"A gentle, refreshing breeze ripples through the air in a 20-foot burst with three effects.",
+				{
+					"type": "list",
+					"items": [
+						"The breeze extinguishes small non-magical fires, disperses fog and smoke, and blows objects of negligible Bulk around.",
+						"Each living creature in the area regains {@dice 3d4} Hit Points and is then temporarily immune to regaining HP from Soothing Breeze for 10 minutes.",
+						"{@b Level (+2)} The healing increases by {@dice 1d4}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Clear as Air",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"air",
+				"illusion",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Compact layers of air diffract and bend light around your body, making you seem as clear as the sky on a perfect day. You become {@condition invisible} until the end of your next turn. You can Sustain the impulse, but it ends if you take a {@condition hostile} action.",
+				"After you use this impulse, it can't be used again for 10 minutes.",
+				"While you are Clear as Air, you can gather air quietly and invisibly, but the invisibility doesn't hide any manifestations of your other abilities.",
+				"{@b Level (10th)} The impulse doesn't end if you take a {@condition hostile} action, but you become {@condition concealed} instead of {@condition invisible} until the start of your next turn.",
+				"{@b Level (16th)} Taking a {@condition hostile} action has no effect on the invisibility."
+			]
+		},
+		{
+			"name": "Storm Spiral",
+			"source": "PT:Kin",
+			"page": 13,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"air",
+				"electricity",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Dark thunderclouds swirl in a miniature storm, crisscrossed with bolts of lightning. The storm appears in a 10-foot burst within 30 feet. Each creature in the area takes {@damage 3d12} electricity damage and is moved depending on its Reflex save against your class DC.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The creature is unaffected."
+						],
+						"Success": [
+							"The creature takes half damage."
+						],
+						"Failure": [
+							"The creature takes full damage and you move it up to 5 feet in a direction of your choice."
+						],
+						"Critical Failure": [
+							"The creature takes double damage and you move it up to 10 feet in a direction of your choice."
+						]
+					}
+				},
+				"{@b Level (+3)} The damage increases by {@dice 1d12}."
+			]
+		},
+		{
+			"name": "Celestial Palisade",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"air",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"The winds form a swirling barrier to repel anyone who would pass. This has the effect of wall of wind, except the wall is 30 feet long and a creature attempting to fly through the wall attempts its save against your class DC. The wall lasts until the end of your next turn, but you can Sustain it up to 1 minute. Using Celestial Palisade again ends any previous one you created.",
+				"{@b Level (+1)} The wall's length and width each increase by 5 feet."
+			]
+		},
+		{
+			"name": "Wings of Air",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"air",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"Rippling sheaves of wind emerge behind you, looking almost like wings. The wings lift you into the air, granting you a fly Speed equal to your land Speed or 30 feet, whichever is greater, for 10 minutes. Unlike with a normal fly Speed, you don't fall at the end of your turn if you didn't use a {@action Fly} action as long as you used an air impulse that turn, and you can move upward without treating it as difficult terrain.",
+				"{@b Level (14th)} You can target up to five additional creatures, which gain the same fly Speed but none of the other benefits."
+			]
+		},
+		{
+			"name": "Circulate Qi",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"air",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"necromancy",
+			"overflow|PT:Kin",
+				"positive",
+				"primal"
+			],
+			"entries": [
+				"The pure air of your inner gate is rich in qi that you can use to invigorate and restore an ailing creature. Target an adjacent living creature. It regains 30 HP, and Circulate Qi then attempts to counteract one of the following conditions of your choice: {@condition blinded}, {@condition clumsy}, {@condition deafened}, {@condition drained}, {@condition enfeebled}, {@condition paralyzed}, {@condition sickened}, or {@condition stupefied}. Counteracting a condition with a condition value reduces the value by 1 instead of entirely removing it. The target is then temporarily immune to Circulate Qi for 1 hour.",
+				"You can try to remove an instance of a condition from a given creature only once using this impulse, though you can try to remove the same condition from a different source. For instance, if you failed to remove the {@condition drained} condition from a jiang-shi vampire's Drain Qi ability, you couldn't attempt to remove it again, but 1 hour later, you could still try to remove the {@condition drained} condition from a poison.",
+				"{@b Level (+1)} The healing increases by 2."
+			]
+		},
+		{
+			"name": "Wiles on the Wind",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"air",
+				"auditory",
+				"illusion",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Speaking lies, you set them loose upon a drifting wind. You create an auditory illusion that comes from a square within 120 feet and can be as loud as four normal humans talking. The sound can be intricate, including speech or music, though the GM might require you to attempt a check or know a language for it to be convincing.",
+				"You can make each creature within 20 feet of the illusory sound attempt a Will save against your class DC. On a failure, it's {@condition fascinated} with the source of the sound for 1 round (or for 2 rounds on a critical failure). This is a {@trait mental} effect. A creature becomes temporarily immune for 1 hour immediately if it succeeds at its save or after its fascination ends if it fails.",
+				"A creature can {@action Seek} the source of the sound, using your class DC. On a success, it disbelieves the illusion."
+			]
+		},
+		{
+			"name": "Body of Air",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"air",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"polymorph",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"Letting your gathered air consume you disperses your body, leaving only a cloud of living vapor. This has the same effects on you as gaseous form, but grants you resistance 10. This lasts until the end of your next turn, but you can Sustain the form.",
+				"{@b Level (+1)} The resistance increases by 2."
+			]
+		},
+		{
+			"name": "Ferocious Cyclone",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"air",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Intense winds swirl and compress in your hands, then burst out in a narrow but powerful tornado. Each creature in a 10-foot wide, 60-foot line takes {@damage 7d10} bludgeoning damage, with a Reflex save against your class DC.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The creature is unaffected."
+						],
+						"Success": [
+							"The creature takes half damage."
+						],
+						"Failure": [
+							"The creature takes full damage and is pushed 10 feet directly away from the central axis of the cyclone."
+						],
+						"Critical Failure": [
+							"As failure, but double damage and pushed 20 feet."
+						]
+					}
+				},
+				"{@b Level (+3)} The damage increases by {@dice 1d10}."
+			]
+		},
+		{
+			"name": "Infinite Expanse of Bluest Heaven",
+			"source": "PT:Kin",
+			"page": 14,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"air",
+				"illusion",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"mental",
+			"overflow|PT:Kin",
+				"primal",
+				"visual"
+			],
+			"entries": [
+				"A sphere of distorted air creates an illusion of a limitless expanse of impossibly blue sky. All within feel the overwhelming sensation of falling... forever. The vision appears in a 10-foot burst within 60 feet. Each creature in the area must attempt a Will save against your class DC. A creature that has the {@trait air} trait gets a result one degree of success better than it rolls. The illusion lasts until the end of your next turn, but you can Sustain it; the illusion has no effect on creatures that weren't in the area when you used the impulse. {@trait Any} effect of the illusion ends for the creature as soon as it leaves the area or the impulse ends, and the creature then becomes temporarily immune for 10 minutes.",
+				"Using Infinite Expanse of Bluest Heaven again ends any previous one you created.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The creature is unaffected."
+						],
+						"Success": [
+							"The creature is {@condition flat-footed}."
+						],
+						"Failure": [
+							"The creature is {@condition flat-footed}. It's {@condition fleeing} from the illusory sky but is also disoriented; any time it uses an action to attempt to flee, it must succeed at a DC {@flatDC 11} flat check or flee to a space that's still within the illusion. The GM determines where the creatures ends up, but they can't have it stay stationary if it's able to move."
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Crowned in Tempest's Fury",
+			"source": "PT:Kin",
+			"page": 15,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"air",
+				"electricity",
+				"evocation",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You reach out to find a devastating thunderstorm on the Plane of Air and make yourself one with it, placing a crown of lightning on your brow. Sparks flash in your eyes and lightning strikes constantly in the air around you, as winds howl and lift you.",
+				{
+					"type": "list",
+					"items": [
+						"Any creature that enters your kinetic aura or ends its turn there takes {@damage 2d12} electricity damage.",
+						"If you don't have a fly Speed, you gain a 20-foot fly Speed. If you have the Wings of Air impulse, you instead gain that fly Speed and the extra benefits.",
+						"You gain a +10-foot status bonus to all your Speeds.",
+						"If you use an air {@action Elemental Blast|PT:Kin}, it deals an additional {@damage 1d12} electricity damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Geologic Attunement",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"earth",
+				"divination",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You become in tune with the earth and stone around you, extending your senses through it and pulling it toward you in rippling waves. You gain tremorsense (imprecise) in your kinetic aura, and you turn earth and stone in your aura into difficult terrain. If you move during your turn, these effects are suppressed until the end of your turn.",
+				"{@b Level (13th)} The tremorsense becomes precise."
+			]
+		},
+		{
+			"name": "Stepping Stones",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"conjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Disks of rock appear around you, and you place them to make a new path. You can either set the stones horizontally to make a path across the ground or a liquid, or you can anchor them into a vertical surface to make steps going up the side of it.",
+				"The path can be up to 20 feet (4 squares) long, and steps can extend up to 10 feet up the side of the surface. All squares must be contiguous, and no square can be more than 60 feet away from you. Moving across the path lets a creature ignore difficult terrain and hazardous terrain from the ground beneath it. The disks last until the end of your next turn, but you can Sustain the impulse up to 10 minutes.",
+				"{@b Level (+2)} Increase the length of the path by 10 feet or the height of the steps by 5 feet."
+			]
+		},
+		{
+			"name": "Stone Shield",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"abjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You raise a floating shield of stone, orbiting around you, protecting you from harm and imbuing you with great resiliency. You {@action Raise a Shield}, turning your gathered element into the shield and gaining a +2 circumstance bonus to AC until the start of your next turn. (You can still use this shield for anything requiring a gathered element). While this shield is raised, you also gain a +2 circumstance bonus to Fortitude saving throws and Fortitude DCs.",
+				"You can use the Shield Block reaction with this stone shield. The shield has a Hardness of 6. After you Shield Block with it, the stone crumbles and you lose the AC and Fortitude bonus and the gathered element.",
+				"{@b Level (+2)} The Hardness increases by 3."
+			]
+		},
+		{
+			"name": "Tremor",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"earth",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You strike the earth, unleashing a small, localized tremor in a 5-foot burst within 30 feet. Each creature in the area takes {@damage 2d4} bludgeoning damage with a basic Fortitude save against your class DC. Any creature that critically fails this saving throw is knocked {@condition prone}. Ground in the area is difficult terrain until the start of your next turn.",
+				"{@b Level (+2)} The damage increases by {@dice 1d4}"
+			]
+		},
+		{
+			"name": "Dust Storm",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"conjuration",
+				"earth",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"A swirling vortex of sand and dust surrounds you. Each creature inside in your kinetic aura (including you) is {@condition concealed} from any creature that is not adjacent to it, and any creature not adjacent to the creature is likewise {@condition concealed}. When you use this impulse and at the start of each of your turns, you can move one creature in the aura 5 feet; this can't move the creature farther away from you. If the target is unwilling, it must succeed at a Fortitude save against your class DC to resist."
+			]
+		},
+		{
+			"name": "Restoring Mud",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"earth",
+				"healing",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"necromancy",
+				"positive",
+				"primal"
+			],
+			"entries": [
+				"You fling a ball of healing mud at one creature within 30 feet. Upon impact, this mud coats the target's body, healing wounds and leaving behind a thin shell of mud that protects the creature from further harm. The target regains {@dice 2d6} Hit Points and 2 temporary Hit Points that last for 1 minute. The target is temporarily immune to healing from Restoring Mud for 10 minutes.",
+				"{@b Level (+2)} The healing increases by {@dice 1d6} and the temporary Hit Points increase by 2."
+			]
+		},
+		{
+			"name": "Igneogenesis",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"conjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You can create a permanent stone object, either sculpting stone pulled directly from your inner gate or manipulating earth and stone around you. The object must be relatively simple in shape and can't include any intricate parts, moving pieces, or fine details. It must fit within one 5-foot cube that's adjacent to you, and you can make the object large enough to occupy the square. If you create the object underneath you or another willing creature, you cause the target to rise into the air; you can't create it under an unwilling creature. The object lasts until you use Igneogenesis again, at which point the earth gently returns to its original shape if you transformed the environment or returns to the Plane of Earth if you pulled it from your inner gate.",
+				"You can attempt a {@skill Crafting} skill check as part of using this impulse to add small details to your creation, such as a symbol, short message, or pattern (with DC determined by the GM based on the complexity of the detail).",
+				"{@b Level (+3)} You can add an additional 5-foot cube to the object.",
+				"Each cube must be contiguous."
+			]
+		},
+		{
+			"name": "Rolling Boulder",
+			"source": "PT:Kin",
+			"page": 16,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"earth",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You grow your gathered earth into a spherical boulder that crashes into everyone in its path, possibly knocking them aside. The boulder travels in a 30-foot line, hitting each creature in order until it reaches the end of the line or it strikes a solid surface, like a wall, door, or tree. Each creature in the area takes {@damage 2d8} bludgeoning damage with a Reflex save against your class DC.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The creature is unaffected."
+						],
+						"Success": [
+							"The creature takes half damage."
+						],
+						"Failure": [
+							"The creature takes full damage and moves into an open space not in the path of the boulder. (This is forced movement.) If the creature doesn't have a space to move into, it's knocked {@condition prone} instead."
+						],
+						"Critical Failure": [
+							"As failure, but double damage.",
+							"{@b Level (+3)} The damage increases by {@dice 1d8}."
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Spike Skin",
+			"source": "PT:Kin",
+			"page": 17,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"abjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You touch a willing creature, causing its skin to harden and form spiky protrusions. The target gains resistance 4 to physical damage (except adamantine). Whenever the target is hit by an adjacent creature with a melee attack, the attacking creature takes 2 piercing damage.",
+				"This impulse lasts for 10 minutes, but each time the target is hit by a bludgeoning, piercing, or slashing attack, the duration decreases by 1 minute. The target is temporarily immune to this impulse for 1 hour. If you use this ability again, any previous Spike Skin ends.",
+				"{@b Level (+2)} The resistance and damage each increase by 2."
+			]
+		},
+		{
+			"name": "Swim Through Earth",
+			"source": "PT:Kin",
+			"page": 17,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"The earth parts before you, letting you swim through it. You gain a burrow Speed equal to your Speed and can immediately {@action Burrow} once. You don't gain the ability to breathe while in the earth, so you must hold your breath (Core Rulebook 478). You don't leave a tunnel behind you that others can follow.",
+				"These benefits last until the end of your next turn, but you can Sustain them up to 1 minute. If you're inside the earth when the impulse ends, you immediately return to the surface directly above you; when you do, you're {@condition prone} and are {@condition slowed} until the end of your next turn.",
+				"{@b Level (14th)} You can move through stone and lava, though you still take damage from the lava unless something else protects you against it."
+			]
+		},
+		{
+			"name": "Hurtling Rockfall",
+			"source": "PT:Kin",
+			"page": 17,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"earth",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Drawing forth the power of the earth, you create a ball of stone between your hands and lob it at your foes. Where it lands, it unleashes a blast of razor-sharp shrapnel. The ball deals {@damage 3d8} bludgeoning damage to all creatures in a 5-foot square within 60 feet, and the shrapnel slices creatures in that square and in a 10-foot emanation around it for {@damage 2d6} slashing damage. Each creature in either area attempts a basic Reflex save against your class DC. A creature in the 5-foot square uses the same result against both types of damage.",
+				"{@b Level (14th)} The bludgeoning damage is {@dice 4d8}.",
+				"{@b Level (16th)} The bludgeoning damage is {@dice 4d8} and the slashing damage is {@dice 3d6}.",
+				"{@b Level (18th)} The bludgeoning damage is {@dice 5d8} and the slashing damage is {@dice 3d6}."
+			]
+		},
+		{
+			"name": "Rock Rampart",
+			"source": "PT:Kin",
+			"page": 17,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"conjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Drawing on your connection to the Plane of Earth, you bring a wall of rock and earth into being. This has the effect of wall of stone, but the wall's maximum length is 60 feet. The wall lasts until the end of your next turn, but you can Sustain it up to 1 minute.",
+				"{@b Level (+2)} The maximum length of your wall increases by 10 feet and the Hit Points of each section increase by 10."
+			]
+		},
+		{
+			"name": "Assume Earth's Mantle",
+			"source": "PT:Kin",
+			"page": 17,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"abjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Your gathered earth splits into plates of stone, surrounding you in a rocky armor that grants you a number of powerful defensive abilities. The armor lasts for 1 minute. You can {@action Dismiss} the armor, but if you do, you can't create a new one until the full minute has passed.",
+				{
+					"type": "list",
+					"items": [
+						"You become Large if you were smaller. Becoming Large increases your reach by 5 feet (or by 10 feet if you started out Tiny).",
+						"You gain a climb Speed equal to your land Speed, but you can use it only to climb surfaces of earth, stone, brick, and similar.",
+						"The armor has a +5 item bonus to AC, a Dexterity cap of +1, a check penalty of \u20132, and a Speed penalty of 5 feet. You don't gain any bonuses from other armor you're wearing.",
+						"The armor grants you a +2 item bonus to Fortitude saves and a +2 circumstance bonus to Fortitude or Reflex saves against attempts to {@action Shove} you, {@action Trip} you, or knock you {@condition prone}.",
+						"If your Strength is below 18, this armor raises your Strength to 18. If your Strength is 18 or higher, this armor grants you a +2 item bonus to your Strength score."
+					]
+				},	"{@b Level (18th)} The armor's item bonus increases to +6 and the item bonus to Fortitude saves increases to +3."
+
+			]
+		},
+		{
+			"name": "Stone Guardian",
+			"source": "PT:Kin",
+			"page": 17,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"conjuration",
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You beckon an elemental spirit through your gate, creating a stationary stone guardian. The guardian is Medium and appears in an unoccupied space on the ground within 30 feet. It has AC 30 and 120 Hit Points, and it's immune to critical hits and precision damage. It uses your saving throw bonuses, but it automatically fails any Reflex saving throws. The stone guardian lasts until the end of your next turn, but you can sustain it for up to 1 minute.",
+				"Each time you Sustain the guardian, you can have it make a melee fist {@action Strike} against one enemy of your choice. The guardian has reach 10 feet, the attack modifier is +25, and the {@action Strike} deals {@damage 3d8+10} bludgeoning damage. If the attack is a critical hit, the foe is knocked {@condition prone}. The attack bonus and damage roll can't be altered by other abilities. Allies within the guardian's reach are under its protection, gaining cover. This cover can't be used to {@action Hide}.",
+				"{@b Level (+1)} The stone guardian's attack bonus, {@action Strike} damage, and AC increase by +1, and its Hit Points increase by 10."
+			]
+		},
+		{
+			"name": "Rebirth in Living Stone",
+			"source": "PT:Kin",
+			"page": 18,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"earth",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"polymorph",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"Rock overflows from within you to consume your form, before cracking open to reveal your body transformed into living stone. You gain 40 temporary Hit Points. You're immune to critical hits and precision damage. You can't be pushed, pulled, or tripped while you are standing on earth or stone. The damage die of your earth {@action Elemental Blast|PT:Kin} is d10 instead of d8. While under this effect, you can {@action Gather Element|PT:Kin} to gather earth as a free action at the start of each of your turns.",
+				"This benefit lasts until the end of your next turn, but you can Sustain it for up to 1 minute.",
+				"{@b Level (20th)} You gain 50 temporary Hit Points, and the damage die of your earth {@action Elemental Blast|PT:Kin} is d12."
+			]
+		},
+		{
+			"name": "The Shattered Mountain Weeps",
+			"source": "PT:Kin",
+			"page": 18,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"earth",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"A massive sphere of rock appears overheard, exploding in a cataclysm of falling debris and deadly shrapnel. Its destruction falls in a 20-foot burst within 120 feet. Creatures in the area take {@damage 9d10} bludgeoning damage with a basic Fortitude save against your class DC. Those who fail their save are knocked {@condition prone}. For the next minute, rock continues to fall in the area, making it difficult terrain and dealing {@damage 2d10} bludgeoning damage to any creature that ends its turn in the area. If you use this ability again, any previous area immediately ends.",
+				"{@b Level (20th)} The initial damage and the area damage each increase by {@dice 1d10}."
+			]
+		},
+		{
+			"name": "Burning Jet",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"A condensed burst of flame shoots behind you, propelling you forward with its sheer force. {@action Stride} up to 40 feet in a straight line. This movement doesn't trigger reactions.",
+				"{@b Level (6th)} You move 60 feet if you {@action Stride}. You can choose not to {@action Stride}, and instead {@action Leap} up to 40 feet in any direction. If you're in the air at the end of this {@action Leap}, you fall normally.",
+				"{@b Level (10th)} As 6th level, but you hover briefly after leaping into the air. If you {@action Leap}, you don't fall until the end of your next turn. If you use Burning Jet again on a subsequent turn, you remain airborne."
+			]
+		},
+		{
+			"name": "Eternal Torch",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"light",
+				"primal"
+			],
+			"entries": [
+				"Lancing a pinprick through planar boundaries, you create a minute connection to your inner gate, just large enough for a torch flame to flow. Choose a target creature or object you can touch. You create a torch-like flame that either orbits a target creature or emits from a target object. The flame has an unlimited duration. It's as bright and hot as a torch (Core Rulebook 292) but the flame can be any color you choose. If the target is a weapon, you still need to use it as an improvised weapon to attack with the flame. You can have a maximum number of Eternal Torches equal to your level. You can {@action Dismiss} each torch individually, regardless of its location, if you want to create a new one while at your maximum.",
+				"{@b Level (8th)} All your torches\u2014even ones you already created\u2014 shed bright light in a 60-foot radius (and dim light for the next 60 feet)."
+			]
+		},
+		{
+			"name": "Flame Eruption",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"With an upward gesture, you shape a vertical column of spiraling flames. The cylinder is 5 feet in diameter and 30 feet high, and the bottom must be within 30 feet of you. Each creature in the area takes {@damage 1d6} fire damage with a basic Reflex save against your class DC.",
+				"The flame remains briefly, making all squares in the column hazardous terrain until the start of your next turn. A creature takes 1 fire damage each time it moves into one of these squares. A Large or larger creature takes the damage only once, even if it moves into multiple squares at the same time.",
+				"{@b Level (+3)} The initial damage increases by {@dice 1d6}, and the hazardous terrain damage increases by 1."
+			]
+		},
+		{
+			"name": "Warming Nimbus",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"abjuration",
+				"fire",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Waves of pleasant warmth flow from you, countering the cold or magically sheltering against heat. Choose cold or fire. You and all creatures in your kinetic aura gain resistance equal to your level to damage of that type.",
+				"If you have the elemental resistance class feature, your resistance from Warming Nimbus is cumulative with any resistance to the same type of damage you gain from that class feature."
+			]
+		},
+		{
+			"name": "Blazing Wave",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Flames flow out of you in a cascade, consuming everyone in a 30-foot cone. Each creature in the area takes {@damage 3d6} fire damage with a basic Reflex save against your class DC. A creature that critically fails its save is knocked {@condition prone}.",
+				"{@b Level (+2)} The damage increases by {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Desert Shimmer",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Heat grows intense around you and the air wavers and ripples. You and all creatures in your kinetic aura are {@condition concealed} by intense shimmers of heat. Any creature other than you that starts its turn in the aura takes 2 fire damage. You ignore concealment caused by heat shimmers.",
+				"{@b Level (+3)} The damage increases by 1."
+			]
+		},
+		{
+			"name": "Crawling Fire",
+			"source": "PT:Kin",
+			"page": 19,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"conjuration",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You mimic the motions of a beast and it becomes real, with flaming pelt and searing claw. This crawling fire has a form of your devising, drawn from your memories, your dreams, or your creativity, and is Small in size, occupying space accordingly. The crawling fire appears in an unoccupied space within 30 feet of you. The crawling fire is linked to your own flame, allowing you to use fire impulses through it; when you use a fire impulse, you can have the impulse originate from the crawling fire instead, and when you first summon the crawling fire, you can immediately make a melee fire {@action Elemental Blast|PT:Kin} against a creature adjacent to it. You can use overflow abilities through the crawling fire, but the beast's own fire is consumed in the process, destroying it immediately after the overflow ability is complete.",
+				"The crawling fire can be sustained up to 1 minute. Each time you Sustain the impulse, you can have the crawling fire {@action Stride} up to 40 feet. The crawling fire can be attacked as normal, using your statistics for its defenses. Your link to the beast means any damage dealt to the crawling fire is dealt to you instead, though you take damage only once from any ability that includes both of you in the area of effect.",
+				"You can have only one crawling fire in effect at a time, with any previous beast disappearing if you use Crawling Fire again.",
+				"{@b Level (8th)} The crawling fire you create can be Small or Medium.",
+				"{@b Level (10th)} The crawling fire you create can be Small, Medium, or Large.",
+				"{@b Level (14th)} The crawling fire you create can be Small, Medium, Large, or Huge."
+			]
+		},
+		{
+			"name": "Wandering Smoke",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"polymorph",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"You shift a creature's corporeal form into a tumbling plume of smoke. Target yourself or a willing creature you touch. The target turns into thick black smoke and Strides up to its Speed. During the movement, the target can move through occupied spaces and ignores any difficult terrain and greater difficult terrain that wouldn't impede smoke; its movement doesn't trigger reactions. At the end of the movement, the target returns to normal and its space is filled with smoke that makes anyone within that space {@condition concealed}. The smoke lasts until the start of your next turn or until dispersed by a strong wind.",
+				"For 1 minute after you use this impulse, the target's eyes glow with orange light and the target gains smoke vision. Smoke doesn't impair its vision and it ignores the {@condition concealed} condition from smoke.",
+				"{@b Level (10th)} The target can {@action Fly} instead of {@action Stride}, using its land Speed or fly Speed, whichever is higher."
+			]
+		},
+		{
+			"name": "Kindle Inner Flames",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"abjuration",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"As a candle can light another, you awaken the latent potential to channel fire in other creatures. Target any number of willing creatures within 30 feet of you. Each of them sheds faint, flying embers for 1 minute, gaining a +1 status bonus to Reflex saves and {@skill Acrobatics} checks and a +10-foot status bonus to all its Speeds. The next {@action Strike} each target makes before the end of its next turn deals an additional {@damage 1d6} fire damage.",
+				"{@b Level (12th)} The status bonus to Reflex saves and {@skill Acrobatics} checks is +2, and the status bonus to Speeds is +20 feet."
+			]
+		},
+		{
+			"name": "Solar Detonation",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+				"incapacitation",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Blinding flames explode in a swirling sphere! The detonation fills a 20-foot burst within 60 feet of you. Each creature in the area takes {@damage 3d10} fire damage and can become {@condition dazzled} or {@condition blinded} depending on its Reflex save. Each of those creatures is then temporarily immune to being {@condition dazzled} or {@condition blinded} by Solar Detonation for 10 minutes, but can still take damage from the impulse.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The creature is unaffected."
+						],
+						"Success": [
+							"The creature takes half damage and is {@condition dazzled} until the start of your next turn."
+						],
+						"Failure": [
+							"The creature takes full damage and is {@condition blinded} until the start of your next turn."
+						],
+						"Critical Failure": [
+							"The creature takes double damage and is {@condition blinded} for 1 minute."
+						]
+					}
+				},
+				"{@b Level (+4)} Increase the damage by {@dice 1d10}."
+			]
+		},
+		{
+			"name": "Architect of Flame",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"Flames rise and shape to your will, forming a palisade or dome of your design. You create a wall of fire. In addition to the normal shapes, you can choose to make the wall 10 feet wide and 60 feet tall or 20 feet wide and 20 feet tall. As the spell, it lasts for 1 minute. The wall's damage is {@dice 3d6} instead of {@dice 4d6}. Using Architect of Flame again ends any previous one you created.",
+				"{@b Level (16th)} The damage increases to {@dice 4d6}."
+			]
+		},
+		{
+			"name": "Furnace Form",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"polymorph",
+				"primal",
+				"transmutation"
+			],
+			"entries": [
+				"Opening your inner gate, you allow the flames to consume your form and leave you a living flame. You gain the benefits of the {@spell fiery body} spell until the end of your next turn. Your fire {@action Elemental Blasts|PT:Kin} add a die of their normal damage die instead of the {@dice 1d4} your unarmed attacks get. While under this effect, you can {@action Gather Element|PT:Kin} to gather fire as a free action at the start of each of your turns.",
+				"{@b Level (16th)} This duration is 1 minute."
+			]
+		},
+		{
+			"name": "Arrive in Conflagration",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"conjuration",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"teleportation"
+			],
+			"entries": [
+				"You fall through your own inner gate, leaving behind an effigy of flame and reappearing majestically near another manifestation of elemental fire. You instantly transport yourself and any items you're wearing and holding from your current space to a clear space within 120 feet you can see that's adjacent to an open flame or a creature taking {@condition persistent damage ||persistent fire damage}. If this would bring another creature with you\u2014 even if you're carrying it in an extradimensional container\u2014the action fails.",
+				"In the space you left stands a pillar of fire in the shape of your body. Any creature that starts its turn adjacent to the pillar or moves into it takes {@damage 2d6} fire damage with a basic Reflex save against your class DC. The pillar lasts until the start of your next turn.",
+				"{@b Level (+3)} The fire damage increases by {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Horrid Ignition",
+			"source": "PT:Kin",
+			"page": 20,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"You lob noxious, chemical flames that cling to your foe, immolating them in painful flames. Make a ranged fire {@action Elemental Blast|PT:Kin}. The blast deals an additional {@damage 3d6} {@condition persistent damage ||persistent fire damage}, and the target is {@condition enfeebled||enfeebled 1} as long as it has this {@condition persistent damage}."
+			]
+		},
+		{
+			"name": "All Shall End in Flames",
+			"source": "PT:Kin",
+			"page": 21,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"death",
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"White-hot fire consumes everything in a cataclysmic sphere of death. The fire fills your choice of a 30-foot burst within 500 feet or a 30-foot emanation. This deals {@damage 7d10} fire damage with a basic Reflex save against your class DC. Any creature dropped to 0 HP by this fire dies, reduced to a pile of ash.",
+				"If you die to this impulse, you return to life at the start of your next turn in the same space. When you return, you have Hit Points equal to double your level.",
+				"{@b Level (20th)} The damage is {@dice 8d10}."
+			]
+		},
+		{
+			"name": "Ignite the Sun",
+			"source": "PT:Kin",
+			"page": 21,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"evocation",
+				"fire",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"light",
+			"overflow|PT:Kin",
+				"primal"
+			],
+			"entries": [
+				"The fires of creation become yours to control. You create a miniature sun in a 5-foot burst within 500 feet. It sheds bright light in a 500-foot radius (and dim light for another 500 feet). Each creature in the area takes {@damage 4d6} fire damage with a basic Reflex save against your class DC.",
+				"The sun continually channels fire into you and your allies. You and each of your allies within 20 feet of the sun deal an extra {@damage 1d6} fire damage with all your Strikes, spells that deal fire damage, and impulses that deal fire damage (except for Ignite the Sun itself). The sun lasts until the end of your next turn, but you can Sustain it up to 1 minute. The first time you Sustain the impulse each round, you can choose to increase the size of the burst by 5 feet and you can make the sun {@action Fly} up to 30 feet. Any creature takes damage from the sun (with the same amount and save as the initial damage) when the sun moves through it, or if it ends its turn in the sun. Each creature can take damage from the sun only once each round. Using Ignite the Sun again ends any previous one you created."
+			]
+		},
+		{
+			"name": "Deflecting Wave",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 1,
+				"unit": "reaction"
+			},
+			"level": 1,
+			"traits": [
+				"abjuration",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"trigger": "You would take acid, bludgeoning, fire, or slashing damage from an enemy's attack, spell, or other {@condition hostile} effect.",
+			"requirements": "You're aware of the {@condition hostile} effect and aren't {@condition flat-footed} against it.",
+			"entries": [
+				"The water you've gathered explodes into a wave that blunts or disperses the incoming attack. You gain resistance to damage from the triggering effect equal to your level if it's bludgeoning or slashing, or double your level if it's acid or fire damage. If the effect deals more than one applicable type of damage, apply the highest resistance but apply it only once."
+			]
+		},
+		{
+			"name": "Tidal Hands",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"With an emphatic gesture, you create waves that rush out from you in the shape of your hands. You either form two 15-foot cones that don't overlap, or you combine the hands into one 30-foot cone. Each creature in a wave takes {@damage 2d6} bludgeoning damage with a basic Reflex save against your class DC. On a critical failure, you also push the creature 5 feet.",
+				"{@b Level (+2)} The damage increases by {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Water Dance",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"A surging wave forms behind and around a creature, pushing it forward rapidly. Target a willing creature within 30 feet. A wave appears behind and around the target and lets it {@action Stride} up to 30 feet. If the target is in the water, it can instead {@action Swim} up to 40 feet. The target gains a +2 circumstance bonus to defenses against any reactions triggered by this movement. If you target yourself, you can move twice instead of once.",
+				"{@b Level (+3)} The distance of the {@action Stride} or {@action Swim} increases by 5 feet."
+			]
+		},
+		{
+			"name": "Winter's Clutch",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 1,
+			"traits": [
+				"cold",
+				"evocation",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"Flakes of chilling snow whirl around you. Any creature that enters the aura or ends its turn there takes 1 cold damage. An individual creature can take damage from Winter's Clutch only once per turn.",
+				"At the end of each of your turns, the snow in the aura collects in a snowdrift. Choose three contiguous squares within the aura to fill with snow. These squares are difficult terrain until the start of your next turn.",
+				"{@b Level (+1)} The damage increases by 1."
+			]
+		},
+		{
+			"name": "Return to the Sea",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"morph",
+				"primal",
+				"transmutation",
+				"water"
+			],
+			"entries": [
+				"You adapt a creature to living and moving in water. Target a willing creature within 30 feet. For 10 minutes, or until you next use Return to the Sea, it gains the effects of a {@spell feet to fins} spell and can breathe underwater. In addition, it ignores the effects water normally has on bludgeoning and slashing attacks (Core Rulebook 478).",
+				"{@b Level (6th)} You can target up to 5 willing creatures."
+			]
+		},
+		{
+			"name": "Veil of Mists",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 4,
+			"traits": [
+				"illusion",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal",
+				"visual",
+				"water"
+			],
+			"entries": [
+				"Deceptive mists hide your features with another visage. This has the same effects as illusory disguise but lasts for 10 minutes. You then become temporarily immune to Veil of Mists for 10 minutes.",
+				"{@b Level (6th)} The effect is the same as a 2nd-level {@spell illusory disguise}.",
+				"{@b Level (10th)} The effect is the same as a 3rd-level {@spell illusory disguise}."
+			]
+		},
+		{
+			"name": "Slippery Sleet",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"cold",
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"A deluge of freezing rain pours down in a 20-foot burst within 120 feet. Each creature in the area takes {@damage 4d4} cold damage with a basic Reflex save against your class DC. Surfaces in the burst are coated in slippery ice until the start of your next turn. Those surfaces are difficult terrain and uneven ground with a {@action Balance} DC of 15. A creature is {@condition flat-footed} on the ice, as normal for uneven ground.",
+				"{@b Level (+2)} The damage increases by {@dice 1d4}."
+			]
+		},
+		{
+			"name": "Standing Surf",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 6,
+			"traits": [
+				"conjuration",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"Water rushes up into a vertical sheet that stands suspended before you. This has the effect of wall of water (Secrets of Magic 139) except the wall is 30 feet long. The wall lasts until the end of your next turn, but you can Sustain it up to 1 minute. Using Standing Surf again ends any previous one you created.",
+				"{@b Level (+2)} The wall's length and height increase by 5 feet."
+			]
+		},
+		{
+			"name": "Lowland Fog",
+			"source": "PT:Kin",
+			"page": 22,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"illusion",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"visual",
+				"water"
+			],
+			"entries": [
+				"Impenetrable fog with a chaotic, swirling pattern consumes the battlefield and hides the movements of a creature within. You create a fog bank in a 10-foot burst within 120 feet. All creatures in the fog are {@condition hidden}, and all creatures outside the fog become {@condition hidden} to creatures within it. Then one creature of your choice in the area can {@action Step} or {@action Stride}, provided it ends this movement inside the fog.",
+				"The fog lasts until the start of your next turn. However, if a creature attempts to target a creature within the fog, all observers disbelieve the illusion after that effect is resolved.",
+				"For instance, if a creature made an attack into the fog and guessed the location of the target, the flat check for the target being {@condition hidden} would apply to that attack, and regardless of the result of the attack, all creatures observing this would disbelieve the illusion.",
+				"{@b Level (14th)} You can let any number of creatures in the fog move instead of just one."
+			]
+		},
+		{
+			"name": "Torrent in the Blood",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 8,
+			"traits": [
+				"healing",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"necromancy",
+				"positive",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"A healing wave splashes across creatures in a 30-foot cone, its cleansing water chasing afflictions from the body. Each creature in the area regains {@dice 3d6} HP and can attempt a new save against one poison or disease affliction affecting it; on a failed save, the condition doesn't worsen.",
+				"Each creature in the area then becomes temporarily immune to Torrent in the Blood for 10 minutes.",
+				"{@b Level (+2)} The healing increases by {@dice 1d6}."
+			]
+		},
+		{
+			"name": "Drowning Sphere",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"conjuration",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"You collect water into a sphere that lashes out at your foes. You create a sphere within 30 feet, which has the effects of the {@spell aqueous orb|APG} spell, except it uses your kineticist class DC.",
+				"In addition, the sphere can grow whiplike tendrils of water to lash out at nearby foes or to batter the foes trapped within it; as long as the sphere is within 30 feet, you can make melee water {@action Elemental Blast|PT:Kin} attacks from the sphere's location instead of your own, which can target creatures inside the sphere.",
+				"You can have only one Drowning Sphere in effect at a time; creating a second causes the first to end."
+			]
+		},
+		{
+			"name": "Glacial Prison",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 12,
+			"traits": [
+				"cold",
+			"impulse|PT:Kin",
+				"incapacitation",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"transmutation",
+				"water"
+			],
+			"entries": [
+				"Intense cold captures your foe in clutches of frost, slowing it down and turning its body to ice. Target a creature within 120 feet. It must attempt a Fortitude save against your class DC.",
+				"The creature is then temporarily immune for 24 hours.",
+				{
+					"type": "successDegree",
+					"entries": {
+						"Critical Success": [
+							"The target is unaffected."
+						],
+						"Success": [
+							"The target is {@condition slowed||slowed 1} until the end of its next turn."
+						],
+						"Failure": [
+							"The target is {@condition petrified}, except its body is turned to ice instead of stone, giving it Hardness 5 and leaving its Bulk unchanged. This lasts until the end of your next turn, but if the target is affected by a {@condition hostile} action, this effect ends immediately after that action."
+						],
+						"Critical Failure": [
+							"As failure, but after becoming unfrozen the creature is {@condition slowed||slowed 1} until the end of its next turn."
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Barrier of Boreal Frost",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"cold",
+				"conjuration",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"You form an intricate structure of ice, such as a wall of bricks made of packed snow or a screen of enormous icicles. This has the effect of a wall of ice of a spell level equal to half your level rounded up. It can only be a wall (not a hemisphere) and you choose whether the ice is transparent or opaque. The wall lasts until the end of your next turn, but you can Sustain it up to 1 minute. Using Barrier of Boreal Frost again ends any previous one you created."
+			]
+		},
+		{
+			"name": "Sea Glass Guardian",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 2,
+				"unit": "action"
+			},
+			"level": 14,
+			"traits": [
+				"conjuration",
+			"impulse|PT:Kin",
+				"kinetic",
+				"aura",
+			"kineticist|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"An elemental water being\u2014perhaps an eel formed of undulating water or ice crystals whirling in the shape of a jellyfish\u2014races around you to retaliate against anyone who threatens you or your allies. It flows around combatants and doesn't occupy a space. Whenever a creature in or adjacent to your kinetic aura damages you or an ally in your kinetic aura, the guardian deals 8 damage to the attacker.",
+				"You choose the form of the defender when you use this impulse, which determines its damage type: bludgeoning, cold, piercing, or slashing. If you choose cold, the impulse gains the {@trait cold} trait.",
+				"{@b Level (+3)} The damage increases by 4."
+			]
+		},
+		{
+			"name": "Ride the Tsunami",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"Booming, crashing walls of water smash out ahead of you, overwhelming all in their path. Each creature in a 60-foot cone takes {@damage 8d10} bludgeoning damage with a basic Reflex save against your class DC. A creature that fails its save is pushed 10 feet (or 20 feet on a critical failure). Any unattended object of 1 Bulk or less in the area is pushed to the far edge of the cone. After the tsunami crashes down, you can {@action Swim} in a straight line to any point in its area."
+			]
+		},
+		{
+			"name": "Usurp the Lunar Reins",
+			"source": "PT:Kin",
+			"page": 23,
+			"activity": {
+				"number": 3,
+				"unit": "action"
+			},
+			"level": 18,
+			"traits": [
+				"evocation",
+			"impulse|PT:Kin",
+			"kineticist|PT:Kin",
+			"overflow|PT:Kin",
+				"primal",
+				"water"
+			],
+			"entries": [
+				"You can fully create water and control the tides, subverting even the moon's sovereignty. In a 20-foot burst within 120 feet, you manipulate or create water in your choice of the following ways.",
+				{
+					"type": "list",
+					"items": [
+						"Raise or lower the level of water in the area by 10 feet.",
+						"Create a pool of pure, clean water."
+					]
+				},
+				"This water must be created on a surface\u2014not in air\u2014and flows normally. It doesn't deal damage.",
+				{
+					"type": "list",
+					"items": [
+						"Make water in the area turbulent or calm. This can reduce difficult terrain to calm water, turn greater difficult terrain into difficult terrain, or turn calm water into difficult terrain, but it can't turn difficult terrain into greater difficult terrain. This lasts until the end of your next turn, but you can Sustain the effect."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flawless Element",
+			"source": "PT:Kin",
+			"page": 11,
+			"level": 20,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"entries": [
+				"You've perfected your control over one element. Choose an element. Any impulses of that element you use that normally take 3 actions take only 2 actions. (You can still use only one overflow impulse per round, as normal.)"
+			]
+		},
+		{
+			"name": "Omnikinesis",
+			"source": "PT:Kin",
+			"page": 11,
+			"activity": {
+				"number": 1,
+				"unit": "action"
+			},
+			"level": 20,
+			"traits": [
+			"kineticist|PT:Kin"
+			],
+			"prerequisites": "Improved Elemental Flexibility",
+			"entries": [
+				"You can realign your inner gate with a thought. Replace one of the feats you have from elemental flexibility (or universal gate, if you have it) with another eligible feat."
+			]
+		},
 		{
 			"source": "PT:DA",
 			"name": "Ancestral Mind",
@@ -11025,6 +13898,30 @@
 	],
 	"trait": [
 		{
+			"name": "Overflow",
+			"source": "PT:Kin",
+			"categories": [],
+			"entries": [
+				"Powerful elemental impulses have the overflow trait, indicating any element you've gathered is consumed in the impulse. When you use an impulse that has the overflow trait, any element you have gathered disappears after your action. Channeling your element to this limit means you can use only one overflow impulse per round, even if you {@action Gather Element|PT:Kin} again."
+			]
+		},
+		{
+			"name": "Kinetic Aura",
+			"source": "PT:Kin",
+			"categories": [],
+			"entries": [
+				"Impulses that create an elemental aura around you have this trait. They have the aura trait, and follow some additional rules. First, any kinetic aura is a 10-foot emanation unless you have an ability that changes its size. Second, if you already are in a kinetic aura, it takes you 1 action fewer to use a different kinetic aura impulse with the same elemental trait. This can't reduce the impulse below 1 action. A kinetic aura lasts until you get knocked out, until the encounter ends, or until you use a new kinetic aura, whichever comes first. You can use a kinetic aura only in encounter mode, and after you create a kinetic aura, you can't use another kinetic aura for 1 round."
+			]
+		},
+		{
+			"name": "Impulse",
+			"source": "PT:Kin",
+			"categories": [],
+			"entries": [
+				"The primary magical actions kineticists use are called impulses. To use an impulse action, you must have an element gathered, which is typically done with the {@action Gather Element|PT:Kin} kineticist action. The element must be appropriate to the element trait of the impulse you use; for example, you must have water gathered to use an impulse that has the water trait. Using an impulse requires gesturing and focusing on your powers. The impulse trait also means the action has the concentrate and manipulate traits unless another ability changes this."
+			]
+		},
+		{
 			"name": "Esoterica",
 			"source": "PT:DA",
 			"categories": [],
@@ -11048,6 +13945,16 @@
 			"categories": [],
 			"entries": [
 				"Amps are special thoughtforms that modify the properties of your psi cantrips. You can apply an amp only to a psi cantrip, which is referred to as the amped cantrip. Applying an amp to a psi cantrip costs 1 Focus Point and is part of the actions needed to {@action Cast a Spell||Cast the Spell}. The singular focus required to amp a psi cantrip means that unless otherwise noted, you can apply only one amp to a given psi cantrip, and you can't apply both an amp and a metamagic ability to a cantrip at the same time. If both an amp and the amped cantrip deal damage of the same type, combine their damage for the purpose of resistances and weaknesses. Feats with the amp trait provide different amps you can apply to psi cantrips in place of their normal amps."
+			]
+		},
+		{
+			"name": "Kineticist",
+			"source": "PT:Kin",
+			"categories": [
+				"Class"
+			],
+			"entries": [
+				"{@note No entry given.}"
 			]
 		},
 		{
@@ -11242,6 +14149,54 @@
 		}
 	],
 	"table": [
+		{
+			"name": "KINETICIST ELEMENTAL BLASTS",
+			"id": "1-2",
+			"source": "PT:Kin",
+			"page": 6,
+			"labelRowIdx": [
+				0
+			],
+			"colStyles": [
+				"text-left",
+				"text-left",
+				"text-left",
+				"text-left"
+			],
+			"rows": [
+				[
+					"Attack",
+					"Damage",
+					"Traits (Melee)",
+					"Traits (Ranged)"
+				],
+				[
+					"Air",
+					"{@damage 1d4} slashing",
+					"{@trait agile}, {@trait air}, {@trait finesse}, {@trait reach}, {@trait versatile B}",
+					"{@trait agile}, {@trait air}, range increment 120 feet, {@trait versatile B}"
+				],
+				[
+					"Earth",
+					"{@damage 1d8} bludgeoning",
+					"{@trait earth}, {@trait forceful}",
+					"{@trait earth}, {@trait propulsive}, range increment 20 feet"
+				],
+				[
+					"Fire",
+					"{@damage 1d6} fire",
+					"{@trait agile}, {@trait finesse}, {@trait fire}",
+					"{@trait agile}, {@trait fire}, range increment 60 feet"
+				],
+				[
+					"Water",
+					"{@damage 1d8} bludgeoning",
+					"{@trait sweep}, {@trait water}",
+					"range increment 30 feet, {@trait water}"
+				]
+			],
+			"type": "table"
+		},
 		{
 			"name": "Magus Spells per Day",
 			"id": "1-2",
