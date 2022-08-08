@@ -1822,7 +1822,7 @@
 				"unit": "action"
 			},
 			"traits": [
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"manipulate",
 				"primal",
 				"transmutation"
@@ -1859,7 +1859,7 @@
 			"traits": [
 				"concentrate",
 				"evocation",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"manipulate",
 				"primal"
 			],
@@ -1888,7 +1888,7 @@
 			},
 			"traits": [
 				"conjuration",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"manipulate",
 				"primal"
 			],
@@ -1909,8 +1909,8 @@
 			},
 			"traits": [
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -7754,7 +7754,7 @@
 			"page": 9,
 			"level": 1,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"A small creature made of elemental matter springs forth from your inner gate. This elemental familiar appears to be a small creature made of an element you can channel, though it might have some unusual or distinguishing aspects. Like other familiars, your elemental familiar can assist you in various tasks and on adventures. The familiar has the {@trait elemental} trait instead of the {@trait animal} trait, as well as the trait of one element you can channel. If you can channel more than one element, you choose the trait when you select this feat, and you can change it each time you make your daily preparations. The elemental familiar is immune to bleed, {@condition paralyzed}, poison, sleep, and the element matching its trait. The familiar uses your Constitution modifier to determine its {@skill Perception}, {@skill Acrobatics}, and {@skill Stealth} modifiers (see Familiars on page 217 of the Core Rulebook for more information)."
@@ -7766,7 +7766,7 @@
 			"page": 9,
 			"level": 1,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"You can shape the elemental matter or energy that comes from your inner gate into a deadly weapon. When you Gather an Element, you can shape that element into the form of a weapon you wield in the hand you used to gather. When you select this feat, choose one element you can channel and one type of weapon, which is the form and substance the weapon takes when you channel it. The weapon must be a onehanded simple or martial weapon. It must be common, or you must otherwise have access to it. The weapon's damage type changes to match the type of the chosen element's elemental blast, and it can't be changed using the {@trait versatile} trait, {@trait modular} trait, or similar methods. Strikes with the elemental weapon use your proficiency with {@action Elemental Blasts|PT:Kin}. You can change your selections with 1 day of retraining.",
@@ -7782,7 +7782,7 @@
 			"page": 9,
 			"level": 1,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"Whatever your physical prowess is you can adapt your blasts to suit it. You can give any melee {@action Elemental Blast|PT:Kin} you make the {@trait finesse} trait (allowing you to use Dexterity for its attack roll), and you can give any ranged {@action Elemental Blast|PT:Kin} you make the {@trait brutal} trait (allowing you to use Strength for its attack roll)."
@@ -7794,7 +7794,7 @@
 			"page": 9,
 			"level": 2,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"Rather than incantations and gestures, you can use your inner gate to directly unlock the potential of elementally empowered magic items. You can Activate magic items that require you to be able to {@action Cast a Spell}, provided you activate them to {@action Cast a Spell} with the same elemental nature as an element you can channel; for example, if you can channel fire, you could Activate a scroll of fireball."
@@ -7811,8 +7811,8 @@
 			"level": 2,
 			"traits": [
 				"divination",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -7837,8 +7837,8 @@
 			},
 			"level": 4,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"You rapid-fire pieces of your element, hurling them at your many foes. Make up to three {@action Elemental Blasts|PT:Kin}, each against a different target. Your multiple attack penalty applies normally on these Strikes."
@@ -7855,9 +7855,9 @@
 			"level": 4,
 			"traits": [
 				"enchantment",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -7891,8 +7891,8 @@
 			},
 			"level": 6,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "dual gate or universal gate",
 			"entries": [
@@ -7910,8 +7910,8 @@
 			"level": 6,
 			"traits": [
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"prerequisites": "dedicated gate",
@@ -7934,7 +7934,7 @@
 			"page": 11,
 			"level": 8,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "at least one kinetic aura impulse",
 			"entries": [
@@ -7953,8 +7953,8 @@
 			},
 			"level": 10,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"The elemental matter in your blast keeps reconstituting itself to travel onward, no matter how many bodies it collides with.",
@@ -7971,8 +7971,8 @@
 			},
 			"level": 10,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "dedicated gate",
 			"frequency": {
@@ -7995,8 +7995,8 @@
 			},
 			"level": 10,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "dual gate",
 			"requirements": "You have a free hand.",
@@ -8014,7 +8014,7 @@
 			},
 			"level": 10,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "universal gate",
 			"entries": [
@@ -8029,7 +8029,7 @@
 			"traits": [
 				"concentrate",
 				"exploration",
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "elemental flexibility",
 			"entries": [
@@ -8043,7 +8043,7 @@
 			"page": 11,
 			"level": 14,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "ability to channel air, fire, or water",
 			"entries": [
@@ -8058,7 +8058,7 @@
 			"page": 11,
 			"level": 14,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "ability to channel earth",
 			"entries": [
@@ -8076,7 +8076,7 @@
 			},
 			"level": 16,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"trigger": "Your turn begins.",
 			"entries": [
@@ -8093,8 +8093,8 @@
 			},
 			"level": 16,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "two kinetic aura impulses",
 			"trigger": "Your turn begins.",
@@ -8113,9 +8113,9 @@
 			},
 			"level": 16,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin"
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin"
 			],
 			"entries": [
 				"You detonate your gathered element in truly staggering number of elemental blasts. Choose one: Make a melee {@action Elemental Blast|PT:Kin} against each enemy in the blast's melee reach, or make a ranged {@action Elemental Blast|PT:Kin} against each enemy in a cone with a length equal to the blast's first range increment. Each attack counts toward your multiple attack penalty, but you don't increase your penalty until you have made all your attacks."
@@ -8127,7 +8127,7 @@
 			"page": 11,
 			"level": 18,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"You can sustain yourself on a single drop of elemental dew or the slightest spark from the Plane of Fire. You gain a +2 status bonus to saving throws against poisons, sleep, and effects that would make you {@condition paralyzed}. You don't need to breathe, eat, or sleep, though you still must take a full night's rest every 24 hours to be able to make your daily preparations.",
@@ -8146,9 +8146,9 @@
 			"traits": [
 				"air",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8169,8 +8169,8 @@
 			"traits": [
 				"abjuration",
 				"air",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"trigger": "A creature within 60 feet is falling.",
@@ -8192,10 +8192,10 @@
 			"traits": [
 				"air",
 				"conjuration",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8215,8 +8215,8 @@
 				"air",
 				"auditory",
 				"illusion",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"linguistic",
 				"primal"
 			],
@@ -8237,8 +8237,8 @@
 			"traits": [
 				"air",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8259,9 +8259,9 @@
 				"air",
 				"conjuration",
 				"healing",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"positive",
 				"primal"
 			],
@@ -8289,9 +8289,9 @@
 			"traits": [
 				"air",
 				"illusion",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8315,9 +8315,9 @@
 				"air",
 				"electricity",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8354,9 +8354,9 @@
 			"traits": [
 				"air",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8375,8 +8375,8 @@
 			"level": 8,
 			"traits": [
 				"air",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"transmutation"
 			],
@@ -8396,10 +8396,10 @@
 			"level": 12,
 			"traits": [
 				"air",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"necromancy",
-			"overflow|PT:Kin",
+				"overflow|PT:Kin",
 				"positive",
 				"primal"
 			],
@@ -8422,8 +8422,8 @@
 				"air",
 				"auditory",
 				"illusion",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8443,9 +8443,9 @@
 			"level": 14,
 			"traits": [
 				"air",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"polymorph",
 				"primal",
 				"transmutation"
@@ -8467,9 +8467,9 @@
 			"traits": [
 				"air",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8506,10 +8506,10 @@
 			"traits": [
 				"air",
 				"illusion",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"mental",
-			"overflow|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"visual"
 			],
@@ -8545,11 +8545,11 @@
 				"air",
 				"electricity",
 				"evocation",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8577,10 +8577,10 @@
 			"traits": [
 				"earth",
 				"divination",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8600,8 +8600,8 @@
 			"traits": [
 				"conjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8622,8 +8622,8 @@
 			"traits": [
 				"abjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8644,9 +8644,9 @@
 			"traits": [
 				"earth",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8666,10 +8666,10 @@
 			"traits": [
 				"conjuration",
 				"earth",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8688,8 +8688,8 @@
 			"traits": [
 				"earth",
 				"healing",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"necromancy",
 				"positive",
 				"primal"
@@ -8711,9 +8711,9 @@
 			"traits": [
 				"conjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8735,9 +8735,9 @@
 			"traits": [
 				"earth",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8774,8 +8774,8 @@
 			"traits": [
 				"abjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8795,8 +8795,8 @@
 			"level": 8,
 			"traits": [
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"transmutation"
 			],
@@ -8818,9 +8818,9 @@
 			"traits": [
 				"earth",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8842,8 +8842,8 @@
 			"traits": [
 				"conjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8863,9 +8863,9 @@
 			"traits": [
 				"abjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8879,8 +8879,8 @@
 						"The armor grants you a +2 item bonus to Fortitude saves and a +2 circumstance bonus to Fortitude or Reflex saves against attempts to {@action Shove} you, {@action Trip} you, or knock you {@condition prone}.",
 						"If your Strength is below 18, this armor raises your Strength to 18. If your Strength is 18 or higher, this armor grants you a +2 item bonus to your Strength score."
 					]
-				},	"{@b Level (18th)} The armor's item bonus increases to +6 and the item bonus to Fortitude saves increases to +3."
-
+				},
+				"{@b Level (18th)} The armor's item bonus increases to +6 and the item bonus to Fortitude saves increases to +3."
 			]
 		},
 		{
@@ -8895,8 +8895,8 @@
 			"traits": [
 				"conjuration",
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8916,9 +8916,9 @@
 			"level": 18,
 			"traits": [
 				"earth",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"polymorph",
 				"primal",
 				"transmutation"
@@ -8941,9 +8941,9 @@
 			"traits": [
 				"earth",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8963,8 +8963,8 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -8985,8 +8985,8 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"light",
 				"primal"
 			],
@@ -9007,9 +9007,9 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9030,10 +9030,10 @@
 			"traits": [
 				"abjuration",
 				"fire",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9053,9 +9053,9 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9075,10 +9075,10 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9098,8 +9098,8 @@
 			"traits": [
 				"conjuration",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9122,9 +9122,9 @@
 			"level": 6,
 			"traits": [
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"polymorph",
 				"primal",
 				"transmutation"
@@ -9147,8 +9147,8 @@
 			"traits": [
 				"abjuration",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9168,10 +9168,10 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"incapacitation",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9208,9 +9208,9 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9229,8 +9229,8 @@
 			"level": 12,
 			"traits": [
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"polymorph",
 				"primal",
 				"transmutation"
@@ -9252,9 +9252,9 @@
 			"traits": [
 				"conjuration",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"teleportation"
 			],
@@ -9276,8 +9276,8 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9297,9 +9297,9 @@
 				"death",
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9320,10 +9320,10 @@
 			"traits": [
 				"evocation",
 				"fire",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"light",
-			"overflow|PT:Kin",
+				"overflow|PT:Kin",
 				"primal"
 			],
 			"entries": [
@@ -9342,9 +9342,9 @@
 			"level": 1,
 			"traits": [
 				"abjuration",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9365,9 +9365,9 @@
 			"level": 1,
 			"traits": [
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9387,8 +9387,8 @@
 			"level": 1,
 			"traits": [
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9409,10 +9409,10 @@
 			"traits": [
 				"cold",
 				"evocation",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9432,8 +9432,8 @@
 			},
 			"level": 4,
 			"traits": [
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"morph",
 				"primal",
 				"transmutation",
@@ -9455,8 +9455,8 @@
 			"level": 4,
 			"traits": [
 				"illusion",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"visual",
 				"water"
@@ -9479,9 +9479,9 @@
 			"traits": [
 				"cold",
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9501,9 +9501,9 @@
 			"level": 6,
 			"traits": [
 				"conjuration",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9523,9 +9523,9 @@
 			"level": 8,
 			"traits": [
 				"illusion",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"visual",
 				"water"
@@ -9548,8 +9548,8 @@
 			"level": 8,
 			"traits": [
 				"healing",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"necromancy",
 				"positive",
 				"primal",
@@ -9572,8 +9572,8 @@
 			"level": 12,
 			"traits": [
 				"conjuration",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9594,10 +9594,10 @@
 			"level": 12,
 			"traits": [
 				"cold",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"incapacitation",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"transmutation",
 				"water"
@@ -9636,9 +9636,9 @@
 			"traits": [
 				"cold",
 				"conjuration",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9657,10 +9657,10 @@
 			"level": 14,
 			"traits": [
 				"conjuration",
-			"impulse|PT:Kin",
+				"impulse|PT:Kin",
 				"kinetic",
 				"aura",
-			"kineticist|PT:Kin",
+				"kineticist|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9681,9 +9681,9 @@
 			"level": 18,
 			"traits": [
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9702,9 +9702,9 @@
 			"level": 18,
 			"traits": [
 				"evocation",
-			"impulse|PT:Kin",
-			"kineticist|PT:Kin",
-			"overflow|PT:Kin",
+				"impulse|PT:Kin",
+				"kineticist|PT:Kin",
+				"overflow|PT:Kin",
 				"primal",
 				"water"
 			],
@@ -9732,7 +9732,7 @@
 			"page": 11,
 			"level": 20,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"entries": [
 				"You've perfected your control over one element. Choose an element. Any impulses of that element you use that normally take 3 actions take only 2 actions. (You can still use only one overflow impulse per round, as normal.)"
@@ -9748,7 +9748,7 @@
 			},
 			"level": 20,
 			"traits": [
-			"kineticist|PT:Kin"
+				"kineticist|PT:Kin"
 			],
 			"prerequisites": "Improved Elemental Flexibility",
 			"entries": [
