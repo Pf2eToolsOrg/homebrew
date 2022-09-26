@@ -576,7 +576,7 @@
 				]
 			},
 			"skills": {
-				"Athletics": {
+				"athletics": {
 					"std": 8
 				}
 			},
@@ -589,21 +589,6 @@
 				"Cha": -5
 			},
 			"abilitiesTop": [],
-			"ac": {
-				"std": 15,
-				"when broken": 13
-			},
-			"savingThrows": {
-				"fort": {
-					"std": 3
-				},
-				"ref": {
-					"std": 6
-				},
-				"will": {
-					"std": 3
-				}
-			},
 			"abilities": {
 				"mid": [
 					{
@@ -614,28 +599,6 @@
 					}
 				]
 			},
-			"hp": [
-				{
-					"hp": 6,
-					"abilities": null
-				}
-			],
-			"immunities": [
-				"bleed",
-				"death effects",
-				"disease",
-				"doomed",
-				"drained",
-				"fatigued",
-				"healing",
-				"mental",
-				"necromancy",
-				"nonlethal attacks",
-				"paralyzed",
-				"poison",
-				"sickened",
-				"unconscious"
-			],
 			"attacks": [
 				{
 					"range": "Melee",
@@ -655,6 +618,45 @@
 			],
 			"speed": {
 				"walk": 20
+			},
+			"defenses": {
+				"ac": {
+					"std": 15,
+					"when broken": 13
+				},
+				"savingThrows": {
+					"fort": {
+						"std": 3
+					},
+					"ref": {
+						"std": 6
+					},
+					"will": {
+						"std": 3
+					}
+				},
+				"hp": [
+					{
+						"hp": 6,
+						"abilities": null
+					}
+				],
+				"immunities": [
+					"bleed",
+					"death effects",
+					"disease",
+					"doomed",
+					"drained",
+					"fatigued",
+					"healing",
+					"mental",
+					"necromancy",
+					"nonlethal attacks",
+					"paralyzed",
+					"poison",
+					"sickened",
+					"unconscious"
+				]
 			}
 		}
 	]
