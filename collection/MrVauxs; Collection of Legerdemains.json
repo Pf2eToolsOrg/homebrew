@@ -81,8 +81,8 @@
 			],
 			"school": "C",
 			"traditions": [
-				"Arcane",
-				"Occult"
+				"arcane",
+				"occult"
 			],
 			"cast": {
 				"number": 3,
@@ -161,8 +161,8 @@
 			"name": "Summon Sharknado",
 			"level": 3,
 			"traditions": [
-				"Arcane",
-				"Primal"
+				"arcane",
+				"primal"
 			],
 			"school": "C",
 			"components": [
@@ -224,8 +224,8 @@
 			"name": "Silvery Barbs",
 			"level": 3,
 			"traditions": [
-				"Arcane",
-				"Occult"
+				"arcane",
+				"occult"
 			],
 			"school": "E",
 			"components": [
