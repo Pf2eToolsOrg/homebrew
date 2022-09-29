@@ -15307,12 +15307,8 @@
 			},
 			"targets": "your eidolon",
 			"duration": {
-				"type": "timed",
-				"entry": "1 round",
-				"duration": {
-					"number": 1,
-					"unit": "round"
-				}
+				"number": 1,
+				"unit": "round"
 			},
 			"sustain": true,
 			"page": 24
@@ -15353,12 +15349,8 @@
 			},
 			"targets": "your eidolon",
 			"duration": {
-				"type": "timed",
-				"entry": "1 round",
-				"duration": {
-					"number": 1,
-					"unit": "round"
-				}
+				"number": 1,
+				"unit": "round"
 			},
 			"sustain": true,
 			"page": 24
@@ -15397,12 +15389,8 @@
 			},
 			"targets": "your eidolon",
 			"duration": {
-				"type": "timed",
-				"entry": "1 round",
-				"duration": {
-					"number": 1,
-					"unit": "round"
-				}
+				"number": 1,
+				"unit": "round"
 			},
 			"heightened": {},
 			"sustain": true,
@@ -15434,12 +15422,8 @@
 			},
 			"range": {},
 			"duration": {
-				"type": "timed",
-				"entry": "1 minute",
-				"duration": {
-					"number": 1,
-					"unit": "minute"
-				}
+				"number": 1,
+				"unit": "minute"
 			},
 			"sustain": true,
 			"page": 11
@@ -15498,12 +15482,8 @@
 				]
 			},
 			"duration": {
-				"type": "timed",
-				"entry": "1 minute",
-				"duration": {
-					"number": 1,
-					"unit": "minute"
-				}
+				"number": 1,
+				"unit": "minute"
 			},
 			"targets": "you or one weapon you're wielding",
 			"sustain": true,
@@ -15551,12 +15531,8 @@
 				"unit": "action"
 			},
 			"duration": {
-				"type": "timed",
-				"entry": "1 minute",
-				"duration": {
-					"number": 1,
-					"unit": "minute"
-				}
+				"number": 1,
+				"unit": "minute"
 			},
 			"sustain": true,
 			"page": 11
@@ -15630,12 +15606,8 @@
 				"unit": "action"
 			},
 			"duration": {
-				"type": "timed",
-				"entry": "1 minute",
-				"duration": {
-					"number": 1,
-					"unit": "minute"
-				}
+				"number": 1,
+				"unit": "minute"
 			},
 			"targets": "your eidolon",
 			"sustain": true,
@@ -15704,12 +15676,9 @@
 				"unit": "point"
 			},
 			"duration": {
-				"type": "timed",
 				"entry": "until the end of your next turn",
-				"duration": {
-					"number": 1,
-					"unit": "round"
-				}
+				"number": 1,
+				"unit": "round"
 			},
 			"sustain": true
 		}

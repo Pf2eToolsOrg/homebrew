@@ -12,12 +12,12 @@
 					"MrVauxs"
 				],
 				"color": "d9a8d7",
-				"version": "1.0"
+				"version": "1.1"
 			}
 		],
 		"unlisted": true,
 		"dateAdded": 1652535153,
-		"dateLastModified": 1652535153
+		"dateLastModified": 1664379644
 	},
 	"book": [
 		{
@@ -38,51 +38,6 @@
 					"ordinal": {
 						"type": "chapter",
 						"identifier": 1
-					}
-				},
-				{
-					"name": "Gamemaster's Toolkit",
-					"headers": [
-						"Branches",
-						"Semester Rules",
-						"Student Rules"
-					],
-					"ordinal": {
-						"type": "chapter",
-						"identifier": 2
-					}
-				},
-				{
-					"name": "NPCs",
-					"headers": [
-						"Students",
-						"Staff Members",
-						"Villains",
-						"Minor NPCs"
-					],
-					"ordinal": {
-						"type": "chapter",
-						"identifier": 3
-					}
-				},
-				{
-					"name": "Magaambya",
-					"headers": [
-						"STORAGE BARN"
-					],
-					"ordinal": {
-						"type": "chapter",
-						"identifier": 4
-					}
-				},
-				{
-					"name": "Nantambu",
-					"headers": [
-						""
-					],
-					"ordinal": {
-						"type": "chapter",
-						"identifier": 5
 					}
 				},
 				{

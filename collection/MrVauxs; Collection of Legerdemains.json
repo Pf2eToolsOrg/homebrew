@@ -105,12 +105,8 @@
 			},
 			"savingThrowBasic": false,
 			"duration": {
-				"type": "timed",
 				"entry": "sustained",
-				"duration": {
-					"number": 1,
-					"unit": "unlimited"
-				}
+				"unit": "unlimited"
 			},
 			"sustain": true,
 			"dismiss": false,
@@ -218,12 +214,9 @@
 				"unit": "point"
 			},
 			"duration": {
-				"type": "timed",
 				"entry": "until the end of your next turn",
-				"duration": {
-					"number": 1,
-					"unit": "round"
-				}
+				"number": 1,
+				"unit": "round"
 			}
 		},
 		{
