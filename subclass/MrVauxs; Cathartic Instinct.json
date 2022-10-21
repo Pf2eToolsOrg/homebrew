@@ -112,7 +112,7 @@
 			"level": 6,
 			"featType": {},
 			"traits": [
-				"Barbarian"
+				"barbarian"
 			],
 			"prerequisites": "{@class Barbarian|CRB|Cathartic Instinct|Cathartic|CInstinct}",
 			"entries": [

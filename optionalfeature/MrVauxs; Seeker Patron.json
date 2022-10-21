@@ -1,0 +1,85 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "SeekerWitch",
+				"abbreviation": "Seek",
+				"full": "The Seeker",
+				"authors": [
+					"MrVauxs"
+				],
+				"convertedBy": [
+					"MrVauxs"
+				],
+				"color": "add8e6",
+				"version": "1.0"
+			}
+		],
+		"dateAdded": 1630593752,
+		"dateLastModified": 1666388734
+	},
+	"spell": [
+		{
+			"name": "Astral Refuge",
+			"source": "SeekerWitch",
+			"page": 0,
+			"focus": true,
+			"level": 3,
+			"traits": [
+				"uncommon",
+				"conjuration",
+				"hex",
+				"teleportation",
+				"witch"
+			],
+			"cast": {
+				"number": 1,
+				"unit": "action"
+			},
+			"components": [
+				[
+					"S",
+					"V"
+				]
+			],
+			"range": {
+				"number": 30,
+				"unit": "feet"
+			},
+			"targets": "1 willing creature",
+			"duration": {
+				"number": 1,
+				"unit": "turn"
+			},
+			"entries": [
+				"You extend your patrons astral refuge to a willing creature within range.",
+				"The target vanishes from the battlefield for the duration, trapped in a pocket dimension, but fully able to act normally, such as {@action Interact||Interacting} or drinking potions. The targets turn continues as normal, as well as any conditions it may have. Once this spell ends, it reappears back where it was before it vanished, and is then temporarily immune for 1 minute."
+			],
+			"heightened": {
+				"X": {
+					"6": [
+						"You can extend the casting time to 10 minutes to target up to 6 willing creatures within range and keep them trapped for an hour. Each target is then immune to this version of the spell for 1 day. You can {@action Dismiss} the spell."
+					]
+				}
+			}
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Lesson of the Astral",
+			"source": "SeekerWitch",
+			"page": 0,
+			"prerequisite": [
+				{
+					"feat": [
+						"Greater Lesson|APG"
+					]
+				}
+			],
+			"type": "Greater Lesson",
+			"entries": [
+				"You gain the {@spell astral refuge|SeekerWitch} hex, and your familiar learns {@spell time jump|SoM}."
+			]
+		}
+	]
+}
