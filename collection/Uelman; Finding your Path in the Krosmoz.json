@@ -4651,7 +4651,7 @@
 						"unit": "action",
 						"number": 2
 					},
-					 "components": [
+					"components": [
 						"{@action Interact}"
 					],
 					"entries": [
@@ -4692,7 +4692,7 @@
 						"unit": "action",
 						"number": 2
 					},
-					 "components": [
+					"components": [
 						"{@action Interact}"
 					],
 					"entries": [
@@ -5048,7 +5048,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Strike"
+				"components": [
+					"{@action Strike}"
+				]
 			},
 			"category": "Bomb",
 			"entries": [
@@ -5132,7 +5134,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Strike"
+				"components": [
+					"{@action Strike}"
+				]
 			},
 			"category": "Bomb",
 			"entries": [
@@ -5209,7 +5213,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Strike"
+				"components": [
+					"{@action Strike}"
+				]
 			},
 			"category": "Bomb",
 			"entries": [
@@ -5314,7 +5320,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "command"
+				"components": [
+					"command"
+				]
 			},
 			"ammunition": [
 				"arrow",
@@ -5468,7 +5476,7 @@
 						"number": 1,
 						"unit": "action"
 					},
-					 "components": [
+					"components": [
 						"{@action Interact}"
 					],
 					"entries": [
@@ -5676,7 +5684,7 @@
 						"unit": "minute",
 						"entry": "10 minutes"
 					},
-					 "components": [
+					"components": [
 						"{@action Interact}"
 					],
 					"frequency": {
@@ -5912,7 +5920,7 @@
 						"unit": "action",
 						"number": 2
 					},
-					 "components": [
+					"components": [
 						"{@action Interact}"
 					],
 					"frequency": {
@@ -5951,7 +5959,7 @@
 						"unit": "reaction",
 						"number": 1
 					},
-					 "components": [
+					"components": [
 						"{@action Interact}"
 					],
 					"frequency": {
@@ -5984,7 +5992,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Interact"
+				"components": [
+					"{@action Interact}"
+				]
 			},
 			"category": "Elixir",
 			"entries": [
@@ -6071,7 +6081,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Interact"
+				"components": [
+					"{@action Interact}"
+				]
 			},
 			"category": "Elixir",
 			"entries": [
