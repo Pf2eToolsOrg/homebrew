@@ -4651,8 +4651,8 @@
 						"unit": "action",
 						"number": 2
 					},
-					"components": [
-						"Interact"
+					 "components": [
+						"{@action Interact}"
 					],
 					"entries": [
 						"You hide the blade inside a secret compartment. The blade gains the \"{@trait Concealable}\" trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
@@ -4692,8 +4692,8 @@
 						"unit": "action",
 						"number": 2
 					},
-					"components": [
-						"Interact"
+					 "components": [
+						"{@action Interact}"
 					],
 					"entries": [
 						"You hide the blade inside a secret compartment. The blade gains the \"{@trait Concealable}\" trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
@@ -5468,8 +5468,8 @@
 						"number": 1,
 						"unit": "action"
 					},
-					"components": [
-						"Interact"
+					 "components": [
+						"{@action Interact}"
 					],
 					"entries": [
 						"You gain a claw unarmed attack that deals {@damage 1d4} slashing damage. Your claws are in the brawling group and have the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits. They also still benefit from any effect that would affect your fist unarmed attacks."
@@ -5676,8 +5676,8 @@
 						"unit": "minute",
 						"entry": "10 minutes"
 					},
-					"components": [
-						"Interact"
+					 "components": [
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
@@ -5912,8 +5912,8 @@
 						"unit": "action",
 						"number": 2
 					},
-					"components": [
-						"interact"
+					 "components": [
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
@@ -5951,8 +5951,8 @@
 						"unit": "reaction",
 						"number": 1
 					},
-					"components": [
-						"interact"
+					 "components": [
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",

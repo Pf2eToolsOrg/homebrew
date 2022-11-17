@@ -64,6 +64,7 @@
 	"trait": [
 		{
 			"name": "Exemplar",
+			"page": 0,
 			"source": "LuisAncestryFeats-Exemplar",
 			"categories": [
 				"Ancestry & Heritage"
@@ -94,8 +95,7 @@
 					"source": "LuisAncestryFeats-Sahkil",
 					"activity": {
 						"number": 1,
-						"unit": "reaction",
-						"entry": "{@as R}"
+						"unit": "reaction"
 					},
 					"frequency": {
 						"unit": "minute",
@@ -197,8 +197,7 @@
 					"source": "LuisAncestryFeats-Exemplar",
 					"activity": {
 						"number": 1,
-						"unit": "reaction",
-						"entry": "{@as R}"
+						"unit": "reaction"
 					},
 					"trigger": "A creature succeeds at an {@skill Athletics} check to {@action Shove} or {@action Trip} you.",
 					"requirements": "You are not prone and standing on the ground.",
