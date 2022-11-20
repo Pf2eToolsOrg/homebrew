@@ -4441,7 +4441,7 @@
 				"Uncommon",
 				"Iop|FPKrosmoz",
 				"Sweep",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 3,
@@ -4519,9 +4519,9 @@
 				"Uncommon",
 				"Enutrof|FPKrosmoz",
 				"Bulldozing|FPKrosmoz",
-				"Thrown 10 ft.",
+				"Thrown <10 ft.>",
 				"Sweep",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 5,
@@ -4711,7 +4711,7 @@
 				"Xelor|FPKrosmoz",
 				"Backswing",
 				"Shove",
-				"Versatile P"
+				"Versatile <P>"
 			],
 			"level": 1,
 			"price": {

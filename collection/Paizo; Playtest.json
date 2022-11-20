@@ -7341,7 +7341,7 @@
 									"type": "item",
 									"name": "Complex Simplicity (simple weapon only)",
 									"entries": [
-										"Increase your innovation's weapon damage die by one step ({@damage d4} to {@damage d6}, {@damage d6} to {@damage d8}, {@damage d8} to {@damage d10}, {@damage d10} to {@damage d12}). In addition, it gains one of the following traits of your choice: {@trait versatile B}, {@trait versatile P}, or {@trait versatile S}."
+										"Increase your innovation's weapon damage die by one step ({@damage d4} to {@damage d6}, {@damage d6} to {@damage d8}, {@damage d8} to {@damage d10}, {@damage d10} to {@damage d12}). In addition, it gains one of the following traits of your choice: {@trait versatile B}, {@trait versatile <P>}, or {@trait versatile S}."
 									]
 								},
 								{
@@ -7525,7 +7525,7 @@
 									"type": "item",
 									"name": "Inconspicuous Appearance (melee only)",
 									"entries": [
-										"Your innovation is built for easy concealment and surprise attacks. It gains the {@trait backstabber} and {@trait versatile P} traits. If the weapon has light Bulk, it also gains the {@trait concealable|PT:G&G} trait."
+										"Your innovation is built for easy concealment and surprise attacks. It gains the {@trait backstabber} and {@trait versatile <P>} traits. If the weapon has light Bulk, it also gains the {@trait concealable|PT:G&G} trait."
 									]
 								},
 								{
@@ -14739,7 +14739,7 @@
 				"Fatal d12",
 				"Sniper|PT:G&G",
 				"Unsteady|PT:G&G",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 10,
@@ -14768,7 +14768,7 @@
 			"traits": [
 				"Uncommon",
 				"Scatter|PT:G&G",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 8,
@@ -14799,7 +14799,7 @@
 				"Uncommon",
 				"Concealable|PT:G&G",
 				"Fatal d10",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 12,
@@ -14829,7 +14829,7 @@
 			"traits": [
 				"Uncommon",
 				"Fatal d10",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 7,
@@ -14858,8 +14858,8 @@
 			"subCategory": "Simple",
 			"traits": [
 				"Uncommon",
-				"Fatal d8",
-				"Versatile B"
+				"Fatal <d8>",
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 6,
