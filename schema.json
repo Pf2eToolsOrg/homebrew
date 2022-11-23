@@ -214,8 +214,9 @@
 							"type": "string"
 						},
 						"source": {
-							"type": "string"
-						},
+					"type": "string",
+					"$ref": "utils.json#/definitions/sourceList"
+				},
 						"ancestryName": {
 							"type": "string"
 						},
@@ -410,8 +411,9 @@
 					"type": "object",
 					"properties": {
 						"source": {
-							"type": "string"
-						},
+					"type": "string",
+					"$ref": "utils.json#/definitions/sourceList"
+				},
 						"name": {
 							"type": "string"
 						},
@@ -498,8 +500,9 @@
 							"type": "string"
 						},
 						"source": {
-							"type": "string"
-						},
+					"type": "string",
+					"$ref": "utils.json#/definitions/sourceList"
+				},
 						"categories": {
 							"type": "array",
 							"items": [
