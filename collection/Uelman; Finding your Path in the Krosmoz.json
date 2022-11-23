@@ -4353,7 +4353,7 @@
 		{
 			"name": "Cra's Hand Crossbow",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Cra|FPKrosmoz"
@@ -4382,7 +4382,7 @@
 		{
 			"name": "The Blade",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Iop|FPKrosmoz",
@@ -4410,7 +4410,7 @@
 		{
 			"name": "Razielle Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Iop|FPKrosmoz",
@@ -4436,7 +4436,7 @@
 		{
 			"name": "The Knight's Cross",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Iop|FPKrosmoz",
@@ -4462,7 +4462,7 @@
 		{
 			"name": "Scissor Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Sacrier|FPKrosmoz",
@@ -4488,7 +4488,7 @@
 		{
 			"name": "Andy War Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Sacrier|FPKrosmoz",
@@ -4514,7 +4514,7 @@
 		{
 			"name": "Battle Spade",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Enutrof|FPKrosmoz",
@@ -4541,7 +4541,7 @@
 		{
 			"name": "Battle Shovel",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Enutrof|FPKrosmoz",
@@ -4568,7 +4568,7 @@
 		{
 			"name": "Battle Scalpel",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Eniripsa|FPKrosmoz",
@@ -4596,7 +4596,7 @@
 		{
 			"name": "Apostrukel Scalper",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Eniripsa|FPKrosmoz",
@@ -4623,7 +4623,7 @@
 		{
 			"name": "Hidden Blade",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Sram|FPKrosmoz",
@@ -4664,7 +4664,7 @@
 		{
 			"name": "Clock Hand Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Xelor|FPKrosmoz",
@@ -4705,7 +4705,7 @@
 		{
 			"name": "Spiked Hammer",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Xelor|FPKrosmoz",

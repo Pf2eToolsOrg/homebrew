@@ -14730,7 +14730,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Arquebus",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"level": 1,
 			"subCategory": "Martial",
@@ -14762,7 +14762,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Blunderbuss",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Martial",
 			"traits": [
@@ -14791,7 +14791,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Dueling Pistol",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"level": 1,
 			"subCategory": "Martial",
@@ -14823,7 +14823,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Flintlock Musket",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Simple",
 			"traits": [
@@ -14853,7 +14853,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Flintlock Pistol",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Simple",
 			"traits": [
@@ -14883,7 +14883,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Hand Cannon",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Simple",
 			"traits": [
