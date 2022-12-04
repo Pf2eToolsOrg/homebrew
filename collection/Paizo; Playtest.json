@@ -15698,7 +15698,7 @@
 			"type": "Eidolon",
 			"source": "PT:SoM",
 			"page": 20,
-			"tradition": "Occult",
+			"tradition": "occult",
 			"traits": [
 				"Eidolon",
 				"Ethereal",
@@ -15812,7 +15812,7 @@
 			"type": "Eidolon",
 			"source": "PT:SoM",
 			"page": 20,
-			"tradition": "Arcane",
+			"tradition": "arcane",
 			"traits": [
 				"Astral",
 				"Dragon",
@@ -15963,7 +15963,7 @@
 			"type": "Eidolon",
 			"source": "PT:SoM",
 			"page": 19,
-			"tradition": "Primal",
+			"tradition": "primal",
 			"traits": [
 				"Eidolon",
 				"Beast"
