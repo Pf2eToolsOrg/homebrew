@@ -4938,7 +4938,7 @@
 					},
 					"components": [
 						"command",
-						"interact"
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
