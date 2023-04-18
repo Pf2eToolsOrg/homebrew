@@ -59,7 +59,7 @@
 			}
 		],
 		"dateAdded": 1629955064,
-		"dateLastModified": 1631522936
+		"dateLastModified": 1681844165
 	},
 	"trait": [
 		{
@@ -99,7 +99,7 @@
 					},
 					"frequency": {
 						"unit": "minute",
-						"freq": 1
+						"number":  1
 					},
 					"trigger": "A creature within 30 feet increases their {@condition frightened} condition.",
 					"entries": [
@@ -151,7 +151,7 @@
 					},
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number":  1
 					},
 					"entries": [
 						"You make a mighty jump, pushing against the air like the wings of a couatl. You {@action High Jump} or {@action Long Jump}. If you {@action High Jump}, you automatically get a critical success. If you {@action Long Jump}, you can automatically {@action Leap} the maximum horizontal distance you could normally travel plus an additional 5 feet. You also gain the effects of {@spell feather fall} until the start of your next turn."
@@ -266,7 +266,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number":  1
 			},
 			"entries": [
 				"You have learned and mastered many lifetimes worth of experience. You call upon this knowledge to gain a single class feat for 1 minute. If the class feat is for your class, it must be a feat no higher than your character level \u20132. Your class is the class you chose at 1st level and multiclass archetypes are not considered your class. If the class feat is for a different class, it must be a feat no higher than half your level.",
@@ -311,7 +311,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number":  1
 			},
 			"trigger": "You are targeted by a spell.",
 			"entries": [
@@ -391,7 +391,7 @@
 			],
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number":  1
 			},
 			"trigger": "A creature within 30 feet attempts a skill check or saving throw.",
 			"entries": [
@@ -416,7 +416,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number":  1
 			},
 			"entries": [
 				"You use what you know already know to help you with something new. Select one skill. Your proficiency rank with that skill temporarily increases to the highest rank in a different skill that uses the same ability modifier. For example, if you selected {@skill Thievery}, your rank in the skill would match the proficiency rank in {@skill Acrobatics} or {@skill Stealth}. This increase in rank lasts for 1 minute."
@@ -440,7 +440,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number":  1
 			},
 			"entries": [
 				"You have control of your destiny and can help others to shape their futures as well. You grant the effects of 6th-level {@spell heroism} to yourself and up to 5 allies within 30 feet."
