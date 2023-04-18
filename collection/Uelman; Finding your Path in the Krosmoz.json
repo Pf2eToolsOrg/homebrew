@@ -3490,7 +3490,7 @@
 			],
 			"entries": [
 				"You search to create your own tattoos and share this Sacrier tradition with everyone. You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon sacrier tattoos|item||Rarity=Uncommon|Ancestry & Heritage=sacrier|Category=Tattoo}.",
-				"You gain the {@feat Tattoo Artist|SoM} feat, though when choosing your formulas for that feat, you can also choose from uncommon sacrier tattoos, as well as common tattoos."
+				"You gain the {@feat Tattoo Artist|TV} feat, though when choosing your formulas for that feat, you can also choose from uncommon sacrier tattoos, as well as common tattoos."
 			]
 		},
 		{
