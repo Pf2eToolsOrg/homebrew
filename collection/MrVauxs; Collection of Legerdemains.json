@@ -71,6 +71,106 @@
 	],
 	"spell": [
 		{
+			"name": "Arcanomagnetic Repulsion",
+			"source": "CoLegerdemains",
+			"level": 2,
+			"traits": [
+				"evocation"
+			],
+			"traditions": [
+				"arcane",
+				"primal"
+			],
+			"cast": {
+				"number": 3,
+				"unit": "action"
+			},
+			"components": [
+				[
+					"S",
+					"V"
+				]
+			],
+			"duration": {
+				"sustained": true,
+				"number": 1,
+				"unit": "minute"
+			},
+			"area": {
+				"types": [
+					"Emanation"
+				],
+				"entry": "20-foot emanation"
+			},
+			"entries": [
+				"You empower nearby magnetic fields with magic, bending them to your will. Attacks made with metal objects against you take a -1 status penalty, and every creature wearing ferrous material treat the area as difficult terrain. When you {@action Sustain a Spell||Sustain the Spell}, you may choose a creature within the area to focus the magnetic fields around them, choosing one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Crush.} The creature takes {@damage 1d8} bludgeoning damage (basic Fortitude save).",
+						"{@b Streamline.} You align the magnetic fields towards a particular direction of your choosing. The creature treats the area that isn't in the specified direction or the opposite of it, as greater difficult terrain.",
+						"{@b Rotate.} You rotate the magnetic fields around the creature, attempting to shove it off balance. The target must succeed on a Fortitude save or it falls {@condition prone}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Arcanomagnetic Storm",
+			"source": "CoLegerdemains",
+			"level": 7,
+			"traits": [
+				"evocation"
+			],
+			"traditions": [
+				"arcane",
+				"primal"
+			],
+			"cast": {
+				"number": 3,
+				"unit": "action"
+			},
+			"components": [
+				[
+					"S",
+					"V",
+					"M"
+				]
+			],
+			"savingThrow": {
+				"basic": true,
+				"type": [
+					"R",
+					"F"
+				]
+			},
+			"duration": {
+				"number": 1,
+				"unit": "minute",
+				"sustained": true
+			},
+			"range": {
+				"number": 120,
+				"unit": "feet"
+			},
+			"area": {
+				"types": [
+					"Misc."
+				],
+				"entry": "ten contiguous 10-foot squares"
+			},
+			"entries": [
+				"You conjure a storm made of crackling lightning and arcanomagnetic winds in the area. Creatures that start their turn within or move into the area take {@damage 6d8} lightning damage (basic Reflex save). Creatures that end their turn within the area take {@damage 3d8} bludgeoning damage (basic Fortitude save). On a failure, the creature in the area also falls {@condition prone}.",
+				"The area is difficult terrain for any creatures made of ferrous metal or wearing ferrous armour."
+			],
+			"heightened": {
+				"plusX": {
+					"1": [
+						"The lightning damage increases by {@dice 2d8}."
+					]
+				}
+			}
+		},
+		{
 			"name": "Constructed Servant",
 			"source": "CoLegerdemains",
 			"focus": false,
