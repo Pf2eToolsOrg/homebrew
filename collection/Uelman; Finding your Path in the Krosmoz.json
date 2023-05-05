@@ -18,7 +18,7 @@
 			}
 		],
 		"dateAdded": 1635352852,
-		"dateLastModified": 1640908443
+		"dateLastModified": 1681844165
 	},
 	"variantrule": [
 		{
@@ -1850,7 +1850,7 @@
 			],
 			"frequency": {
 				"recurs": true,
-				"freq": 1,
+				"number": 1,
 				"interval": 10,
 				"unit": "minute"
 			},
@@ -1887,7 +1887,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "A creature within 60 feet uses a {@trait fortune} or {@trait misfortune} effect.",
 			"entries": [
@@ -2047,7 +2047,7 @@
 				"Xelor|FPKrosmoz"
 			],
 			"frequency": {
-				"freq": 2,
+				"number": 2,
 				"unit": "week"
 			},
 			"entries": [
@@ -2197,7 +2197,7 @@
 			"prerequisite": "focus pool, at least one innate spell from a xelor heritage or ancestry feat that shares a tradition with at least one of your focus spells",
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"The magic within you provides increased energy you can use to focus. You regain 1 Focus Point, up to your usual maximum."
@@ -2243,7 +2243,7 @@
 			"prerequisite": "{@feat Xelor Obsession|FPKrosmoz}",
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"Your desire for knowledge has led you from one pursuit to another and granted you a smattering of expertise with myriad crafts and professions. You reflect on snippets you've learned to temporarily become trained in one {@skill Lore} skill of your choice. This proficiency lasts for 10 minutes or until you critically fail a check with that skill. Since this training is temporary, you can't use it as a prerequisite for a permanent character option like a feat or a skill increase."
@@ -2276,7 +2276,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You are about to attempt a skill check or saving throw.",
 			"entries": [
@@ -2343,7 +2343,7 @@
 				"Xelor|FPKrosmoz"
 			],
 			"frequency": {
-				"freq": 3,
+				"number": 3,
 				"unit": "day"
 			},
 			"requirements": "You must spend 10 minutes just after your daily preparations examining the sky or consulting a star chart or you can't use this action that day.",
@@ -2407,7 +2407,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"activity": {
 				"number": 1,
@@ -2440,7 +2440,7 @@
 			"prerequisites": "legendary in {@skill Stealth}",
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You successfully use {@skill Stealth} to {@action Hide} and become {@condition hidden} from all your current foes, or use {@skill Stealth} to {@action Sneak} and become {@condition undetected} to all your current foes.",
 			"entries": [
@@ -2488,7 +2488,7 @@
 			],
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"Your connection to shadows grows, allowing you to use them as a means of transportation. You can spend 1 minute in focused preparation, then enter a shadow your size or larger to instantly teleport to any shadow that is your size or larger up to 2 mile away. You cannot teleport to an area of complete darkness or with light from all directions such that there isn't any shadow. Once you enter the shadow, you instantly know the rough locations of other large shadows within range and can exit from the original shadow, if you prefer. You can't carry extradimensional spaces with you when you teleport; if you attempt to do so, the activity fails."
@@ -2562,7 +2562,7 @@
 			"prerequisites": "{@feat Manipulating Shadow|FPKrosmoz}",
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You sculpt an invisible double of yourself from your own shadow. You cast the {@spell Unseen Servant} spell, and both the spell and the servant gain the {@trait Shadow} trait. The servant also has your ability scores (other than Intelligence and Wisdom) and skill proficiencies, and can manipulate shadows to {@action Create a Diversion} using the {@skill Intimidate} skill. You also gain a special reaction.",
@@ -2599,7 +2599,7 @@
 			"prerequisites": "{@ability Darkvision}",
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You magically enhance your sight to improve your {@ability darkvision}. You gain {@ability greater darkvision} for 1 minute."
@@ -2843,7 +2843,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"Your words of power can give strength to your companions. All allies within 30 feet that can hear you gain a number of temporary Hit Points equal to your level. In addition, these allies become {@condition quickened} for 1 minute but can only use the extra action to {@action Step}, {@action Stride}, or {@action Strike}."
@@ -2880,7 +2880,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "An ally within 30 feet would be reduced to 0 HP but not immediately killed.",
 			"entries": [
@@ -3090,7 +3090,7 @@
 			},
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You've trained your wings to support your weight, you can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
@@ -3234,7 +3234,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"traits": [
 				"Sacrier|FPKrosmoz"
@@ -3302,7 +3302,7 @@
 			},
 			"frequency": {
 				"recurs": true,
-				"freq": 1,
+				"number": 1,
 				"interval": 10,
 				"unit": "minute"
 			},
@@ -3490,7 +3490,7 @@
 			],
 			"entries": [
 				"You search to create your own tattoos and share this Sacrier tradition with everyone. You gain the trained proficiency in {@skill Crafting}. If you were already trained in {@skill Crafting}, you instead become trained in a skill of your choice. You gain access to all {@filter uncommon sacrier tattoos|item||Rarity=Uncommon|Ancestry & Heritage=sacrier|Category=Tattoo}.",
-				"You gain the {@feat Tattoo Artist|SoM} feat, though when choosing your formulas for that feat, you can also choose from uncommon sacrier tattoos, as well as common tattoos."
+				"You gain the {@feat Tattoo Artist|TV} feat, though when choosing your formulas for that feat, you can also choose from uncommon sacrier tattoos, as well as common tattoos."
 			]
 		},
 		{
@@ -3546,7 +3546,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You would be reduced to 0 Hit Points but not immediately killed.",
 			"traits": [
@@ -3567,7 +3567,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "An ally within 30 feet gains the {@condition dying} condition.",
 			"traits": [
@@ -3781,7 +3781,7 @@
 			},
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"prerequisites": "{@feat Beacon Expert|FPKrosmoz}",
 			"trigger": "You {@action Strike} a beacon with a ranged weapon",
@@ -3803,7 +3803,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You critically hit a foe with a {@action Strike} with a ranged weapon.",
 			"entries": [
@@ -3827,7 +3827,7 @@
 			],
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"When you focus your eyes carefully, your gaze can pierce through all obfuscations, even magical ones. When you use True Gaze, you gain the effects of a 6th-level {@spell true seeing} spell, using your {@skill Perception} modifier for the counteract check."
@@ -3928,7 +3928,7 @@
 			"prerequisites": "{@feat Beacon Expert|FPKrosmoz}",
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You shoot down a foe with a beacon as a gift. Make a {@action Strike} with a Ranged Attack, as part of the {@action Strike} you also Throw and {@action Activate an Item||Activate} a beacon centered on the target."
@@ -4189,7 +4189,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"traits": [
 				"Auditory",
@@ -4258,7 +4258,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "An adjacent and willing ally would be reduced to 0 HP but not killed.",
 			"entries": [
@@ -4320,7 +4320,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"The blood of heroes courses through your veins, and you inspire your allies to dig deep and find a new level of resolve. You grant up to 10 willing creatures within 30 feet the effects of a 6th-level {@spell zealous conviction}, though the effect automatically ends on a target if you give that target a command they would normally find repugnant. This action has the {@trait auditory} trait or {@trait visual} trait, depending on how you inspire your allies."
@@ -4341,7 +4341,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"Despite a lifetime filled with questionable decisions, you've managed to survive, as though you have uncanny luck that lets you avoid the consequences of your own actions. For the remainder of your turn, if you roll a failure or critical failure on a saving throw against a harmful effect, you get a success instead. Further, enemies and hazards that would damage you this turn roll the minimum possible damage.",
@@ -4353,7 +4353,7 @@
 		{
 			"name": "Cra's Hand Crossbow",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Cra|FPKrosmoz"
@@ -4382,7 +4382,7 @@
 		{
 			"name": "The Blade",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Iop|FPKrosmoz",
@@ -4410,7 +4410,7 @@
 		{
 			"name": "Razielle Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Iop|FPKrosmoz",
@@ -4436,12 +4436,12 @@
 		{
 			"name": "The Knight's Cross",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Iop|FPKrosmoz",
 				"Sweep",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 3,
@@ -4462,7 +4462,7 @@
 		{
 			"name": "Scissor Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Sacrier|FPKrosmoz",
@@ -4488,7 +4488,7 @@
 		{
 			"name": "Andy War Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Sacrier|FPKrosmoz",
@@ -4514,14 +4514,14 @@
 		{
 			"name": "Battle Spade",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Enutrof|FPKrosmoz",
 				"Bulldozing|FPKrosmoz",
-				"Thrown 10 ft.",
+				"Thrown <10 ft.>",
 				"Sweep",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 5,
@@ -4541,7 +4541,7 @@
 		{
 			"name": "Battle Shovel",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Enutrof|FPKrosmoz",
@@ -4568,7 +4568,7 @@
 		{
 			"name": "Battle Scalpel",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Eniripsa|FPKrosmoz",
@@ -4596,7 +4596,7 @@
 		{
 			"name": "Apostrukel Scalper",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Eniripsa|FPKrosmoz",
@@ -4623,7 +4623,7 @@
 		{
 			"name": "Hidden Blade",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Sram|FPKrosmoz",
@@ -4652,7 +4652,7 @@
 						"number": 2
 					},
 					"components": [
-						"Interact"
+						"{@action Interact}"
 					],
 					"entries": [
 						"You hide the blade inside a secret compartment. The blade gains the \"{@trait Concealable}\" trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
@@ -4664,7 +4664,7 @@
 		{
 			"name": "Clock Hand Sword",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Xelor|FPKrosmoz",
@@ -4693,7 +4693,7 @@
 						"number": 2
 					},
 					"components": [
-						"Interact"
+						"{@action Interact}"
 					],
 					"entries": [
 						"You hide the blade inside a secret compartment. The blade gains the \"{@trait Concealable}\" trait but cannot be used to {@action Strike} until you {@action Interact} to bring out the blade."
@@ -4705,13 +4705,13 @@
 		{
 			"name": "Spiked Hammer",
 			"source": "FPKrosmoz",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Xelor|FPKrosmoz",
 				"Backswing",
 				"Shove",
-				"Versatile P"
+				"Versatile <P>"
 			],
 			"level": 1,
 			"price": {
@@ -4761,7 +4761,7 @@
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You cast {@spell Expeditious Excavation|LOGM} at 2nd-level (DC 20) from the shovel."
@@ -4801,7 +4801,7 @@
 							],
 							"frequency": {
 								"unit": "day",
-								"freq": 1
+								"number": 1
 							},
 							"entries": [
 								"You cast {@spell Expeditious Excavation|LOGM} at 6th-level (DC 31) from the shovel."
@@ -4862,7 +4862,7 @@
 					],
 					"frequency": {
 						"unit": "hour",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You cast the {@spell Quick Sort|SoM} spell at 1st level."
@@ -4903,7 +4903,7 @@
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"The boots cast {@spell Jump} on you as a 1st level spell."
@@ -4938,11 +4938,11 @@
 					},
 					"components": [
 						"command",
-						"interact"
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You cast a divine 4th-level {@spell Divine Wrath} spell, centered on you. The spell DC is 27. You are immune to the spell's effect, though your allies are not."
@@ -5048,7 +5048,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Strike"
+				"components": [
+					"{@action Strike}"
+				]
 			},
 			"category": "Bomb",
 			"entries": [
@@ -5132,7 +5134,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Strike"
+				"components": [
+					"{@action Strike}"
+				]
 			},
 			"category": "Bomb",
 			"entries": [
@@ -5209,7 +5213,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Strike"
+				"components": [
+					"{@action Strike}"
+				]
 			},
 			"category": "Bomb",
 			"entries": [
@@ -5314,7 +5320,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "command"
+				"components": [
+					"command"
+				]
 			},
 			"ammunition": [
 				"arrow",
@@ -5378,7 +5386,7 @@
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}."
@@ -5405,7 +5413,7 @@
 							],
 							"frequency": {
 								"unit": "day",
-								"freq": 1
+								"number": 1
 							},
 							"entries": [
 								"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}. The DC is 21."
@@ -5433,7 +5441,7 @@
 							],
 							"frequency": {
 								"unit": "hour",
-								"freq": 1
+								"number": 1
 							},
 							"entries": [
 								"You cast the {@spell Gravitational Pull|SoM} spell. The effects change depending on the number of actions you spend when you {@action Activate an Item||Activate this tattoo}. The DC is 28."
@@ -5469,7 +5477,7 @@
 						"unit": "action"
 					},
 					"components": [
-						"Interact"
+						"{@action Interact}"
 					],
 					"entries": [
 						"You gain a claw unarmed attack that deals {@damage 1d4} slashing damage. Your claws are in the brawling group and have the {@trait agile}, {@trait finesse}, and {@trait unarmed} traits. They also still benefit from any effect that would affect your fist unarmed attacks."
@@ -5677,11 +5685,11 @@
 						"entry": "10 minutes"
 					},
 					"components": [
-						"Interact"
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You cast the {@spell Mending} spell at 1st level."
@@ -5913,11 +5921,11 @@
 						"number": 2
 					},
 					"components": [
-						"interact"
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"When you activate the spear, instead of making your {@action Strike} against a foe, you throw it at any unoccupied square you can see within your weapon's range increment and succeed without making an attack roll. You pull yourself through the Astral Plane, teleporting along with any items you are holding into the square where you threw the spear. If this would carry along any other creature (even one in an extradimensional space), the activation fails."
@@ -5952,11 +5960,11 @@
 						"number": 1
 					},
 					"components": [
-						"interact"
+						"{@action Interact}"
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"trigger": "You critically hit on a Strike with the Voracious Blade",
 					"entries": [
@@ -5984,7 +5992,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Interact"
+				"components": [
+					"{@action Interact}"
+				]
 			},
 			"category": "Elixir",
 			"entries": [
@@ -6071,7 +6081,9 @@
 					"number": 1,
 					"unit": "action"
 				},
-				"components": "Interact"
+				"components": [
+					"{@action Interact}"
+				]
 			},
 			"category": "Elixir",
 			"entries": [
@@ -6205,7 +6217,7 @@
 					],
 					"frequency": {
 						"unit": "day",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You cast the {@spell Umbral Graft|SoM} spell at 4th level. If you must attempt a counteract check, you roll a {@skill Thievery} check instead."

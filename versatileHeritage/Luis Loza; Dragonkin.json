@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1629955064,
-		"dateLastModified": 1629955403
+		"dateLastModified": 1681844165
 	},
 	"trait": [
 		{
@@ -77,8 +77,7 @@
 					],
 					"activity": {
 						"number": 2,
-						"unit": "action",
-						"entry": "{@as 2}"
+						"unit": "action"
 					},
 					"entries": [
 						"You can unleash a powerful blast of energy as a draconic breath weapon. Choose either a 30-foot line or a 15-foot cone. Your breath weapon manifests in the chosen shape and once chosen, you can't change the breath's shape. Your breath weapon deals {@damage 1d4} damage. Each creature in the area must attempt a basic saving throw against the higher of your class DC or spell DC. You can't use this ability again for {@dice 1d4} rounds.",
@@ -262,7 +261,7 @@
 			"prerequisites": "{@feat Draconic Wings|Luis-DragonkinVH}",
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"Your wings grow stronger and capable of brief flight. You can fly through the air in short bursts at half your land Speed. If you don't end your movement on solid ground, you fall at the end of your turn."
@@ -281,7 +280,7 @@
 			"prerequisites": "{@feat Draconic Armaments|Luis-DragonkinVH}",
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"Your natural weapons are especially dangerous. The unarmed attacks you gain from {@feat Draconic Armaments|Luis-DragonkinVH} deal {@damage 1d4} persistent bleed damage on a critical hit."
@@ -365,7 +364,7 @@
 			"prerequisites": "{@feat Draconic Wings|Luis-DragonkinVH}",
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"leadsTo": [
 				"Boundless Flight|Luis-DragonkinVH"

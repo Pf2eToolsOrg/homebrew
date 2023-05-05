@@ -68,7 +68,7 @@
 			}
 		],
 		"dateAdded": 1613283714,
-		"dateLastModified": 1659982108
+		"dateLastModified": 1681844165
 	},
 	"subclass": [
 		{
@@ -1963,7 +1963,7 @@
 			"source": "PT:DA",
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You determine a creature's weaknesses, whether a literal weakness or a metaphysical one. Recall Knowledge about a creature, using your Charisma modifier instead of the usual ability modifier for the skill you're using to Recall Knowledge. The creature must be either one you can see or one you're specifically Investigating in advance during exploration. The result depends on your Recall Knowledge check, which has the following additional effects as well as the usual effects of Recall Knowledge.",
@@ -2073,7 +2073,7 @@
 			},
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			},
 			"source": "PT:SoM",
 			"name": "Act Together"
@@ -2102,7 +2102,7 @@
 			"name": "Striking Spell",
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			}
 		},
 		{
@@ -3571,7 +3571,7 @@
 					"source": "PT:DA",
 					"frequency": {
 						"unit": "round",
-						"freq": 1
+						"number": 1
 					},
 					"entries": [
 						"You determine a creature's weaknesses, whether a literal weakness or a metaphysical one. Recall Knowledge about a creature, using your Charisma modifier instead of the usual ability modifier for the skill you're using to Recall Knowledge. The creature must be either one you can see or one you're specifically Investigating in advance during exploration. The result depends on your Recall Knowledge check, which has the following additional effects as well as the usual effects of Recall Knowledge.",
@@ -4305,7 +4305,7 @@
 					"name": "Striking Spell",
 					"frequency": {
 						"unit": "round",
-						"freq": 1
+						"number": 1
 					}
 				}
 			]
@@ -4574,7 +4574,7 @@
 					],
 					"frequency": {
 						"unit": "round",
-						"freq": 1
+						"number": 1
 					},
 					"source": "PT:SoM",
 					"name": "Act Together",
@@ -6395,7 +6395,7 @@
 									],
 									"frequency": {
 										"unit": "round",
-										"freq": 1
+										"number": 1
 									},
 									"requirements": "You are holding your chalice implement.",
 									"entries": [
@@ -7341,7 +7341,7 @@
 									"type": "item",
 									"name": "Complex Simplicity (simple weapon only)",
 									"entries": [
-										"Increase your innovation's weapon damage die by one step ({@damage d4} to {@damage d6}, {@damage d6} to {@damage d8}, {@damage d8} to {@damage d10}, {@damage d10} to {@damage d12}). In addition, it gains one of the following traits of your choice: {@trait versatile B}, {@trait versatile P}, or {@trait versatile S}."
+										"Increase your innovation's weapon damage die by one step ({@damage d4} to {@damage d6}, {@damage d6} to {@damage d8}, {@damage d8} to {@damage d10}, {@damage d10} to {@damage d12}). In addition, it gains one of the following traits of your choice: {@trait versatile B}, {@trait versatile <P>}, or {@trait versatile S}."
 									]
 								},
 								{
@@ -7525,7 +7525,7 @@
 									"type": "item",
 									"name": "Inconspicuous Appearance (melee only)",
 									"entries": [
-										"Your innovation is built for easy concealment and surprise attacks. It gains the {@trait backstabber} and {@trait versatile P} traits. If the weapon has light Bulk, it also gains the {@trait concealable|PT:G&G} trait."
+										"Your innovation is built for easy concealment and surprise attacks. It gains the {@trait backstabber} and {@trait versatile <P>} traits. If the weapon has light Bulk, it also gains the {@trait concealable|PT:G&G} trait."
 									]
 								},
 								{
@@ -7976,7 +7976,7 @@
 			],
 			"prerequisites": "dedicated gate",
 			"frequency": {
-				"freq": 1,
+				"number": 1,
 				"interval": 10,
 				"unit": "minute"
 			},
@@ -9925,7 +9925,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You cast a psi cantrip.",
 			"requirements": "You have 0 Focus Points, and you don't have a psyche unleashed.",
@@ -10201,7 +10201,7 @@
 			"frequency": {
 				"unit": "minute",
 				"interval": 10,
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "An ally within 30 feet benefits from an {@trait emotion} effect.",
 			"entries": [
@@ -10781,7 +10781,7 @@
 			"prerequisites": "Find Flaws",
 			"frequency": {
 				"unit": "round",
-				"freq": 1
+				"number": 1
 			},
 			"requirements": "You're benefiting from Esoteric Antithesis, you can see the subject, and you haven't used Find Flaws this round.",
 			"entries": [
@@ -11334,7 +11334,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "turn",
-				"freq": 1
+				"number": 1
 			},
 			"requirements": "Your most recent action was to cast a non‑cantrip spell.",
 			"entries": [
@@ -11613,7 +11613,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You can muster intense focus to rapidly store a spell. You use Striking Spell. If your next action is to {@action Cast a Spell|CRB} to store in your body or a weapon, reduce the number of actions required to cast the spell by 1 (to a minimum of 1 action)."
@@ -11681,7 +11681,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "turn",
-				"freq": 1
+				"number": 1
 			},
 			"requirements": "Your most recent action was to cast a non‑cantrip spell.",
 			"entries": [
@@ -12754,7 +12754,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "hour",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You fail a Fortitude or Will save.",
 			"entries": [
@@ -13035,7 +13035,7 @@
 			"featType": {},
 			"frequency": {
 				"unit": "minute",
-				"freq": 1
+				"number": 1
 			},
 			"requirements": "You're wielding a loaded firearm or crossbow and not {@condition fatigued}.",
 			"entries": [
@@ -13307,7 +13307,7 @@
 			"prerequisites": "construct companion",
 			"frequency": {
 				"unit": "minute",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "Your construct companion would become confused or controlled.",
 			"entries": [
@@ -13631,7 +13631,7 @@
 			"frequency": {
 				"unit": "minute",
 				"interval": 10,
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You don't just tinker with your own innovation, you meddle with your allies' weapons as well. Choose an ally in your reach and one of their weapons. Attempt a {@skill Crafting} check against a high DC for your level.",
@@ -13703,7 +13703,7 @@
 			"prerequisites": "Tinker's Meddling",
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"entries": [
 				"You meddle with your allies' equipment so often, the modifications you've implemented grant them benefits throughout the day.",
@@ -14730,7 +14730,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Arquebus",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"level": 1,
 			"subCategory": "Martial",
@@ -14739,7 +14739,7 @@
 				"Fatal d12",
 				"Sniper|PT:G&G",
 				"Unsteady|PT:G&G",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 10,
@@ -14762,13 +14762,13 @@
 		{
 			"source": "PT:G&G",
 			"name": "Blunderbuss",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Martial",
 			"traits": [
 				"Uncommon",
 				"Scatter|PT:G&G",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 8,
@@ -14791,7 +14791,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Dueling Pistol",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"level": 1,
 			"subCategory": "Martial",
@@ -14799,7 +14799,7 @@
 				"Uncommon",
 				"Concealable|PT:G&G",
 				"Fatal d10",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 12,
@@ -14823,13 +14823,13 @@
 		{
 			"source": "PT:G&G",
 			"name": "Flintlock Musket",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Simple",
 			"traits": [
 				"Uncommon",
 				"Fatal d10",
-				"Versatile B"
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 7,
@@ -14853,13 +14853,13 @@
 		{
 			"source": "PT:G&G",
 			"name": "Flintlock Pistol",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Simple",
 			"traits": [
 				"Uncommon",
-				"Fatal d8",
-				"Versatile B"
+				"Fatal <d8>",
+				"Versatile <B>"
 			],
 			"price": {
 				"amount": 6,
@@ -14883,7 +14883,7 @@
 		{
 			"source": "PT:G&G",
 			"name": "Hand Cannon",
-			"type": "Equipment",
+			"type": "Item",
 			"category": "Weapon",
 			"subCategory": "Simple",
 			"traits": [
@@ -15698,7 +15698,7 @@
 			"type": "Eidolon",
 			"source": "PT:SoM",
 			"page": 20,
-			"tradition": "Occult",
+			"tradition": "occult",
 			"traits": [
 				"Eidolon",
 				"Ethereal",
@@ -15812,7 +15812,7 @@
 			"type": "Eidolon",
 			"source": "PT:SoM",
 			"page": 20,
-			"tradition": "Arcane",
+			"tradition": "arcane",
 			"traits": [
 				"Astral",
 				"Dragon",
@@ -15934,7 +15934,7 @@
 								"recurs": true,
 								"interval": 10,
 								"unit": "minute",
-								"freq": 1
+								"number": 1
 							},
 							"entries": [
 								"Your eidolon concentrates the power of the mightiest wyrms to make their Breath Weapon more spectacular. If your eidolon's next action is to use Breath Weapon, both the damage and area of the Breath Weapon are doubled."
@@ -15963,7 +15963,7 @@
 			"type": "Eidolon",
 			"source": "PT:SoM",
 			"page": 19,
-			"tradition": "Primal",
+			"tradition": "primal",
 			"traits": [
 				"Eidolon",
 				"Beast"

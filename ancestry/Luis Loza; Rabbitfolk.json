@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1629955064,
-		"dateLastModified": 1655689294
+		"dateLastModified": 1681844165
 	},
 	"trait": [
 		{
@@ -246,7 +246,7 @@
 			],
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "You fail a Reflex saving throw.",
 			"entries": [
@@ -428,7 +428,7 @@
 			},
 			"frequency": {
 				"unit": "day",
-				"freq": 1
+				"number": 1
 			},
 			"trigger": "An adjacent ally is about to attempt a saving throw.",
 			"traits": [
@@ -488,7 +488,7 @@
 		{
 			"name": "Warren Knife",
 			"source": "Luis-Rabbitfolk",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Agile",
@@ -516,7 +516,7 @@
 		{
 			"name": "Warren Spade",
 			"source": "Luis-Rabbitfolk",
-			"type": "Equipment",
+			"type": "Item",
 			"traits": [
 				"Uncommon",
 				"Agile",
